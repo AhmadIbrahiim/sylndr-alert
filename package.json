@@ -1,0 +1,19 @@
+{
+  "name": "sylndr-alert",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "poll": "bun scripts/poll.ts",
+    "render": "bun scripts/render.ts",
+    "smoke": "bun scripts/fetch.ts"
+  },
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "resend": "^6.12.3"
+  }
+}

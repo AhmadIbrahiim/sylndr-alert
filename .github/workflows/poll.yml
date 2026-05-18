@@ -1,0 +1,56 @@
+name: poll
+
+on:
+  schedule:
+    - cron: "*/10 * * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: poll
+  cancel-in-progress: false
+
+jobs:
+  poll:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: latest
+
+      - name: Install dependencies
+        run: bun install --frozen-lockfile
+
+      - name: Run poll
+        env:
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          EMAIL_TO: ${{ secrets.EMAIL_TO }}
+        run: bun scripts/poll.ts
+
+      - name: Commit state + docs
+        env:
+          BRANCH: ${{ github.ref_name }}
+        run: |
+          git config user.name "sylndr-alert-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add state/ snapshots/ docs/
+          if git diff --cached --quiet; then
+            echo "no changes to commit"
+            exit 0
+          fi
+          git commit -m "state: poll @ $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+          for i in 1 2 3; do
+            git pull --rebase origin "${BRANCH:-main}" && git push origin "HEAD:${BRANCH:-main}" && exit 0
+            echo "push retry $i"
+            sleep 5
+          done
+          exit 1
