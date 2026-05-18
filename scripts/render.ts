@@ -39,14 +39,30 @@ function fmtRelative(iso: string): string {
   return `${mo}mo ago`;
 }
 
+function fmtAbsolute(iso: string): string {
+  const d = new Date(iso);
+  return d.toISOString().slice(0, 16).replace("T", " ") + " UTC";
+}
+
+function listedAt(snap: Snapshot): string {
+  return snap.auction?.publishedAt ?? snap.firstSeen;
+}
+
 function pickPhoto(snap: Snapshot): string | null {
   const imgs = snap.vehicle.images ?? [];
   const ext = imgs.find((i) => i.imageType === "EXTERIOR");
   return ext?.imageUrl ?? imgs[0]?.imageUrl ?? null;
 }
 
+function slug(s: string | null | undefined): string {
+  if (!s) return "x";
+  return s.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "") || "x";
+}
+
 function listingUrl(snap: Snapshot): string {
-  return `https://sylndr.com/en/buy-cars/${snap.vehicle.id}`;
+  const make = slug(snap.vehicle.carMake?.name);
+  const model = slug(snap.vehicle.carModel?.name);
+  return `https://sylndr.com/en/car-details/used-cars/${make}/${model}/${snap.vehicle.id}`;
 }
 
 function escapeHtml(s: string): string {
@@ -71,7 +87,9 @@ export function renderCard(snap: Snapshot, opts: { compact?: boolean } = {}): st
   const km = fmtKm(v.kilometrage);
   const body = v.bodyStyle ?? "—";
   const trans = v.transmission ?? "—";
-  const seenStamp = fmtRelative(snap.firstSeen);
+  const listedIso = listedAt(snap);
+  const listedRel = fmtRelative(listedIso);
+  const listedAbs = fmtAbsolute(listedIso);
 
   const photoTag = photo
     ? `<img src="${escapeHtml(photo)}" alt="${escapeHtml(title)}" loading="lazy" />`
@@ -99,7 +117,7 @@ export function renderCard(snap: Snapshot, opts: { compact?: boolean } = {}): st
       <span class="meta-item">${escapeHtml(trans)}</span>
     </div>
     <div class="stamp">
-      <span>${escapeHtml(seenStamp)}</span>
+      <span title="${escapeHtml(listedAbs)}">listed ${escapeHtml(listedRel)}</span>
       ${v.salesforceName ? `<span class="ref">${escapeHtml(v.salesforceName)}</span>` : ""}
     </div>
   </div>
@@ -509,7 +527,7 @@ export function renderPage(snapshots: Snapshot[], filters: Filters | null = null
 ${cards}
 </main>
 <footer>
-  <span>${snapshots.length} listings &middot; sorted by first-seen</span>
+  <span>${snapshots.length} listings &middot; newest first</span>
   <span>data <a href="https://sylndr.com" target="_blank" rel="noopener noreferrer">sylndr.com</a> &middot; source <a href="https://github.com/AhmadIbrahiim/sylndr-alert" target="_blank" rel="noopener noreferrer">github</a></span>
 </footer>
 </div>
@@ -531,7 +549,7 @@ export async function loadAllSnapshots(): Promise<Snapshot[]> {
     const raw = await Bun.file(join(SNAPSHOT_DIR, f)).text();
     snaps.push(JSON.parse(raw) as Snapshot);
   }
-  snaps.sort((a, b) => (a.firstSeen < b.firstSeen ? 1 : -1));
+  snaps.sort((a, b) => (listedAt(a) < listedAt(b) ? 1 : -1));
   return snaps;
 }
 

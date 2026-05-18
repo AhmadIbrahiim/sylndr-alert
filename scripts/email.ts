@@ -22,8 +22,27 @@ function pickPhoto(item: SylndrItem): string | null {
   return ext?.imageUrl ?? imgs[0]?.imageUrl ?? null;
 }
 
+function slug(s: string | null | undefined): string {
+  if (!s) return "x";
+  return s.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "") || "x";
+}
+
 function listingUrl(item: SylndrItem): string {
-  return `https://sylndr.com/en/buy-cars/${item.vehicle.id}`;
+  const make = slug(item.vehicle.carMake?.name);
+  const model = slug(item.vehicle.carModel?.name);
+  return `https://sylndr.com/en/car-details/used-cars/${make}/${model}/${item.vehicle.id}`;
+}
+
+function fmtRelative(iso: string): string {
+  const dt = Date.now() - new Date(iso).getTime();
+  const min = Math.floor(dt / 60_000);
+  if (min < 1) return "just now";
+  if (min < 60) return `${min}m ago`;
+  const hr = Math.floor(min / 60);
+  if (hr < 24) return `${hr}h ago`;
+  const day = Math.floor(hr / 24);
+  if (day < 30) return `${day}d ago`;
+  return `${Math.floor(day / 30)}mo ago`;
 }
 
 const EMAIL_BG = "#f6f5f1";
@@ -73,6 +92,9 @@ function emailCard(item: SylndrItem): string {
         <span>${escapeHtml(body)}</span>
         <span style="color:${MUTED};margin:0 6px">&middot;</span>
         <span>${escapeHtml(trans)}</span>
+      </div>
+      <div style="font-size:11px;color:${MUTED};font-family:ui-monospace,SFMono-Regular,Menlo,monospace;margin-top:8px">
+        listed ${escapeHtml(fmtRelative(item.auction?.publishedAt ?? new Date().toISOString()))}
       </div>
       <table role="presentation" cellspacing="0" cellpadding="0" border="0" style="margin-top:14px">
         <tr><td style="border-radius:10px;background:${ACCENT}">
