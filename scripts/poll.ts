@@ -6,6 +6,7 @@ import { fetchAllMatching } from "./fetch.ts";
 import { diffAndPersist } from "./diff.ts";
 import { writeDocsIndex } from "./render.ts";
 import { sendEmail } from "./email.ts";
+import { sendNtfy } from "./ntfy.ts";
 
 const ROOT = new URL("..", import.meta.url).pathname;
 const FILTERS_PATH = join(ROOT, "filters.json");
@@ -40,11 +41,14 @@ async function main(): Promise<void> {
     await writeFailures(failures);
     console.error(`[poll] fetch failed (${failures} consecutive): ${msg}`);
     if (failures === 3) {
-      try {
-        await sendEmail("broken", { message: msg });
-      } catch (e) {
-        console.error(`[poll] failure-email also failed: ${e}`);
-      }
+      await Promise.allSettled([
+        sendEmail("broken", { message: msg }).catch((e) =>
+          console.error(`[poll] failure-email also failed: ${e}`),
+        ),
+        sendNtfy("broken", { message: msg }).catch((e) =>
+          console.error(`[poll] failure-ntfy also failed: ${e}`),
+        ),
+      ]);
     }
     process.exit(1);
   }
@@ -58,11 +62,17 @@ async function main(): Promise<void> {
   );
 
   if (diff.seedRun) {
-    await sendEmail("seed", { seedCount: items.length });
+    await Promise.allSettled([
+      sendEmail("seed", { seedCount: items.length }),
+      sendNtfy("seed", { seedCount: items.length }),
+    ]);
   } else if (diff.newItems.length > 0) {
-    await sendEmail("new", { items: diff.newItems });
+    await Promise.allSettled([
+      sendEmail("new", { items: diff.newItems }),
+      sendNtfy("new", { items: diff.newItems }),
+    ]);
   } else {
-    console.log("[poll] no new listings — no email");
+    console.log("[poll] no new listings — no notifications");
   }
 
   const n = await writeDocsIndex();

@@ -1,4 +1,4 @@
-name: test-email
+name: test-notify
 
 on:
   workflow_dispatch: {}
@@ -12,8 +12,12 @@ jobs:
         with:
           bun-version: latest
       - run: bun install --frozen-lockfile
-      - name: Send test email
+      - name: Send test email (skipped if RESEND not set)
         env:
           RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
           EMAIL_TO: ${{ secrets.EMAIL_TO }}
-        run: bun scripts/test-email.ts
+        run: bun scripts/test-email.ts || echo "[test-email] skipped or failed (RESEND likely not configured)"
+      - name: Send test ntfy
+        env:
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+        run: bun scripts/test-ntfy.ts
