@@ -103,10 +103,15 @@ export function auctionInfo(item: SylndrItem): AuctionInfo | null {
   };
 }
 
+export type SylndrVehicleOwner = {
+  name?: string | null;
+} | null;
+
 export type SylndrItem = {
   vehicle: SylndrVehicle;
   auction?: SylndrAuction;
   installmentPrice?: number | null;
+  vehicleOwner?: SylndrVehicleOwner;
 };
 
 export type SylndrResponse = {

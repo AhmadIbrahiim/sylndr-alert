@@ -157,7 +157,8 @@ export function renderCard(snap: Snapshot, opts: { compact?: boolean } = {}): st
       </div>`
     : "";
 
-  const search = `${title} ${v.salesforceName ?? ""}`.toLowerCase();
+  const ownerName = snap.vehicleOwner?.name?.trim() ?? "";
+  const search = `${title} ${v.salesforceName ?? ""} ${ownerName}`.toLowerCase();
   return `<article class="card${beingSold ? " card-hot" : ""}"
     data-make="${escapeHtml((make || "").toLowerCase())}"
     data-model="${escapeHtml((model || "").toLowerCase())}"
@@ -194,6 +195,7 @@ export function renderCard(snap: Snapshot, opts: { compact?: boolean } = {}): st
       <span title="${escapeHtml(listedAbs)}">listed ${escapeHtml(listedRel)}</span>
       ${v.salesforceName ? `<span class="ref">${escapeHtml(v.salesforceName)}</span>` : ""}
     </div>
+    ${ownerName ? `<div class="owner" title="Owner of this car"><span class="owner-key">owner</span><span class="owner-name" dir="auto">${escapeHtml(ownerName)}</span></div>` : ""}
   </div>
 </article>`;
 }
@@ -557,6 +559,25 @@ main.grid{
   color:var(--muted);font-size:11px;
   font-family:ui-monospace,SFMono-Regular,Menlo,monospace;
 }
+.owner{
+  display:flex;align-items:baseline;gap:6px;
+  margin-top:4px;
+  font-size:11px;
+  color:var(--fg-soft);
+}
+.owner-key{
+  font-family:ui-monospace,SFMono-Regular,Menlo,monospace;
+  color:var(--muted);
+  font-size:10px;
+  text-transform:uppercase;
+  letter-spacing:.04em;
+  font-weight:600;
+}
+.owner-name{
+  font-weight:500;
+  white-space:nowrap;overflow:hidden;text-overflow:ellipsis;
+  flex:1;min-width:0;
+}
 .ref{color:var(--muted-dim)}
 
 .badge{
@@ -696,7 +717,7 @@ function renderFilterBar(f: FacetData): string {
     .join("");
   return `<form class="filter-bar" autocomplete="off" onsubmit="return false">
   <div class="fb-row fb-row-top">
-    <input class="fb-search" name="q" type="search" placeholder="Search make, model, or code…" />
+    <input class="fb-search" name="q" type="search" placeholder="Search make, model, code, or owner…" />
     <select class="fb-sort" name="sort">
       <option value="listed-desc">Newest listed</option>
       <option value="listed-asc">Oldest listed</option>

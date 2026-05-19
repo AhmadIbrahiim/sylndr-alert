@@ -136,7 +136,7 @@ function emailCard(item: SylndrItem): string {
           </div>`
         : ""}
       <div style="font-size:11px;color:${MUTED};font-family:ui-monospace,SFMono-Regular,Menlo,monospace;margin-top:8px">
-        listed ${escapeHtml(fmtRelative(item.auction?.publishedAt ?? new Date().toISOString()))}
+        listed ${escapeHtml(fmtRelative(item.auction?.publishedAt ?? new Date().toISOString()))}${item.vehicleOwner?.name ? ` &middot; owner ${escapeHtml(item.vehicleOwner.name)}` : ""}
       </div>
       <table role="presentation" cellspacing="0" cellpadding="0" border="0" style="margin-top:14px">
         <tr><td style="border-radius:10px;background:${ACCENT}">
