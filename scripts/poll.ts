@@ -1,15 +1,13 @@
 import { existsSync } from "node:fs";
 import { mkdir, readFile, writeFile } from "node:fs/promises";
 import { join } from "node:path";
-import type { Filters } from "./types.ts";
-import { fetchAllMatching } from "./fetch.ts";
+import { fetchAllMatching, FETCH_SCOPE } from "./fetch.ts";
 import { diffAndPersist } from "./diff.ts";
 import { writeDocsIndex } from "./render.ts";
 import { sendEmail } from "./email.ts";
 import { sendNtfy } from "./ntfy.ts";
 
 const ROOT = new URL("..", import.meta.url).pathname;
-const FILTERS_PATH = join(ROOT, "filters.json");
 const FAIL_PATH = join(ROOT, "state", "failures.json");
 
 async function readFailures(): Promise<number> {
@@ -28,13 +26,12 @@ async function writeFailures(count: number): Promise<void> {
 }
 
 async function main(): Promise<void> {
-  const filters = JSON.parse(await readFile(FILTERS_PATH, "utf-8")) as Filters;
   console.log(`[poll] starting @ ${new Date().toISOString()}`);
-  console.log(`[poll] filters: ${JSON.stringify(filters)}`);
+  console.log(`[poll] fetch scope: ${JSON.stringify(FETCH_SCOPE)}`);
 
   let items;
   try {
-    items = await fetchAllMatching(filters);
+    items = await fetchAllMatching();
   } catch (err) {
     const msg = err instanceof Error ? err.message : String(err);
     const failures = (await readFailures()) + 1;

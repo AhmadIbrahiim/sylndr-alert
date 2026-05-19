@@ -2,6 +2,7 @@ import type { SylndrItem } from "./types.ts";
 import { retailPrice, sylndrMargin, auctionInfo } from "./types.ts";
 
 const NTFY_BASE = "https://ntfy.sh";
+const DASHBOARD_URL = "https://ahmadibrahiim.github.io/sylndr-alert/";
 
 type NtfyKind = "new" | "seed" | "broken";
 
@@ -23,7 +24,8 @@ function buildPayload(kind: NtfyKind, payload: { items?: SylndrItem[]; message?:
   if (kind === "seed") {
     return {
       title: "Sylndr alerts seeded",
-      message: `Now watching ${payload.seedCount ?? 0} listings. Future runs will notify when new ones appear.`,
+      message: `Now tracking ${payload.seedCount ?? 0} listings. Future runs will notify when new ones appear.`,
+      click: DASHBOARD_URL,
       tags: ["white_check_mark"],
       priority: 3,
     };
@@ -61,13 +63,25 @@ function buildPayload(kind: NtfyKind, payload: { items?: SylndrItem[]; message?:
       priority: beingSold ? 4 : 3,
     };
   }
-  const lines = items
-    .slice(0, 10)
-    .map((it) => `• ${listingTitle(it)} — ${fmtPrice(retailPrice(it))}`);
-  if (items.length > 10) lines.push(`...and ${items.length - 10} more`);
+  // Highlight the 5 most interesting (BEING_SOLD first, then highest margin)
+  const ranked = [...items].sort((a, b) => {
+    const score = (it: SylndrItem) => {
+      const sold = it.auction?.status === "BEING_SOLD" ? 1_000_000 : 0;
+      const m = sylndrMargin(it);
+      return sold + (m?.pct ?? 0);
+    };
+    return score(b) - score(a);
+  });
+  const top = ranked.slice(0, 5);
+  const lines = top.map((it) => {
+    const sold = it.auction?.status === "BEING_SOLD" ? " 🔥" : "";
+    return `• ${listingTitle(it)} — ${fmtPrice(retailPrice(it))}${sold}`;
+  });
+  if (items.length > top.length) lines.push(`+ ${items.length - top.length} more`);
   return {
     title: `${items.length} new Sylndr listings`,
     message: lines.join("\n"),
+    click: DASHBOARD_URL,
     tags: ["car", "bell"],
     priority: 3,
   };

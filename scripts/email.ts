@@ -9,6 +9,7 @@ import {
 } from "./types.ts";
 
 const FROM = "Sylndr Alert <onboarding@resend.dev>";
+const DASHBOARD_URL = "https://ahmadibrahiim.github.io/sylndr-alert/";
 
 function fmt(n: number): string {
   return new Intl.NumberFormat("en-US").format(n);
@@ -178,17 +179,32 @@ function wrapEmail(opts: { title: string; subtitle: string; body: string }): str
 </body></html>`;
 }
 
+/** Pick a few high-signal cards to feature in the digest (rest goes to dashboard).
+ *  Priority: BEING_SOLD first (someone won), then highest-margin, then newest. */
+function pickHighlights(items: SylndrItem[], n: number): SylndrItem[] {
+  const score = (it: SylndrItem) => {
+    const sold = it.auction?.status === "BEING_SOLD" ? 1_000_000 : 0;
+    const wholesale = it.vehicle.netSylndrOfferPrice ?? 0;
+    const retail = Number(it.auction?.maxPriceLimit ?? 0);
+    const marginPct = wholesale && retail ? ((retail - wholesale) / retail) * 100 : 0;
+    return sold + marginPct;
+  };
+  return [...items].sort((a, b) => score(b) - score(a)).slice(0, n);
+}
+
 export function renderDigest(items: SylndrItem[]): { subject: string; html: string } {
-  const cards = items.map(emailCard).join("\n");
-  const subject =
-    items.length === 1
-      ? `New Sylndr listing: ${items[0].vehicle.carMake?.name ?? ""} ${items[0].vehicle.carModel?.name ?? ""}`.trim()
-      : `${items.length} new Sylndr listings`;
-  const title = `<strong style="color:${FG}">${items.length}</strong> new ${items.length === 1 ? "listing" : "listings"} matched your filter`;
+  const subject = `${items.length} new Sylndr listing${items.length === 1 ? "" : "s"}`;
+  const featured = pickHighlights(items, 3);
+  const cards = featured.map(emailCard).join("\n");
+  const moreCount = items.length - featured.length;
+  const title = `<strong style="color:${FG}">${items.length}</strong> new ${items.length === 1 ? "listing" : "listings"} since the last poll`;
   const subtitle = `${new Date().toISOString().slice(0, 16).replace("T", " ")} UTC`;
+  const more = moreCount > 0
+    ? `<div style="text-align:center;padding:14px 0;font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:12px;color:${MUTED}">+ ${moreCount} more on the <a href="${DASHBOARD_URL}" style="color:${ACCENT};font-weight:700;text-decoration:none">dashboard &rarr;</a></div>`
+    : `<div style="text-align:center;padding:14px 0;font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:12px;color:${MUTED}"><a href="${DASHBOARD_URL}" style="color:${ACCENT};font-weight:700;text-decoration:none">browse the full dashboard &rarr;</a></div>`;
   return {
     subject,
-    html: wrapEmail({ title, subtitle, body: cards }),
+    html: wrapEmail({ title, subtitle, body: cards + more }),
   };
 }
 

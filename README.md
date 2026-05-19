@@ -1,63 +1,74 @@
 # sylndr-alert
 
-Personal alerting tool that watches the Sylndr (Egypt) used-car marketplace and emails when new listings match your filter. Static dashboard auto-published to GitHub Pages.
+Personal Sylndr (Egypt used-car marketplace) browser + alerter.
 
-Architecture, design choices, and the full spec live in the design doc at
-`~/.gstack/projects/sylndr-alert/`.
+Polls Sylndr's public `/api/market/vehicles` endpoint, snapshots every car currently for sale, regenerates a static dashboard at `docs/index.html` (deployed to GitHub Pages), and pushes a digest notification (email via Resend, push via [ntfy.sh](https://ntfy.sh)) when new listings appear.
 
 ## How it works
 
-- A GitHub Actions cron job (every 10 min) hits the public Sylndr vehicles API.
-- The poll diffs against `state/seen.json`. Anything not previously seen is "new."
-- New listings → snapshot to `snapshots/<id>.json`, send an HTML email via Resend, regenerate `docs/index.html`, commit the state back to `main`.
-- First run on an empty `state/` is a "seed" — records everything, sends a one-time confirmation email.
+- **Fetch scope**: every listing with `auctionStatuses ∈ {PUBLISHED, BEING_SOLD}` — currently ~800 cars. No body / transmission / price / km filtering at the API level.
+- **Diff**: each poll diffs vehicle IDs against `state/seen.json`. New IDs become snapshots and seed the alert digest.
+- **Alerts**: digest mode. One notification per poll says "N new listings" with 3 highlight cards and a link to the dashboard. No per-listing email spam.
+- **Dashboard**: all ~800 cars rendered as cards. Sticky filter bar at the top filters in-browser by body, transmission, status, price, km, year, and free-text search. Sort by listed-date, price, margin, km, or year. Filter state persists in the URL hash so views are bookmarkable.
+
+## Cron schedule
+
+```
+*/15 14-22 * * *
+```
+
+Runs every 15 min from **14:00 to 22:45 UTC** = **9:00 AM – 5:45 PM EST** (UTC-5). 36 runs/day. Plus:
+- `workflow_dispatch` — manual trigger from GitHub Actions UI or `gh workflow run poll.yml`
+- `push` to `main` — triggers immediately when you change `scripts/` or the workflow itself
+
+Note: in summer (DST), the local time shifts +1h because the schedule is anchored to UTC. If that matters, edit the cron hours in `.github/workflows/poll.yml`.
 
 ## Run locally
 
 ```bash
 bun install
-bun scripts/poll.ts        # first run = seed
-bun scripts/poll.ts        # subsequent runs = steady-state
+bun scripts/poll.ts        # first run = seed (records everything)
+bun scripts/poll.ts        # subsequent runs = diff + notify
 ```
 
-Without `RESEND_API_KEY` / `EMAIL_TO` set, email sends are dry-run logged.
+Without `RESEND_API_KEY` / `EMAIL_TO` / `NTFY_TOPIC` env vars, those sends are dry-run logged.
 
-Open `docs/index.html` in a browser to see the dashboard.
+Open `docs/index.html` in a browser to see the dashboard locally.
 
 ## One-time setup for the cloud
 
-1. **Create a Resend account** at [resend.com](https://resend.com) using the email you want alerts sent *to*. (Free tier sends from `onboarding@resend.dev`, but only to the account owner's email until you verify a custom sending domain.) Grab the API key.
-2. **Push this repo to GitHub** (any visibility — Actions + Pages both work on free private repos for personal accounts).
-3. **Add two repo secrets** in `Settings → Secrets and variables → Actions`:
-   - `RESEND_API_KEY` — from step 1
-   - `EMAIL_TO` — the email address registered on your Resend account
-4. **Enable GitHub Pages** in `Settings → Pages`:
-   - Source: "Deploy from a branch"
-   - Branch: `main`, folder: `/docs`
-5. **Trigger the first run** from `Actions → poll → Run workflow`. You should get a "seeded N listings" email within a few minutes.
+1. **Resend** (optional, email alerts): sign up at [resend.com](https://resend.com) with the address you want alerts at. Grab the API key. On the free tier, `onboarding@resend.dev` only sends to your account email until you verify a domain.
+2. **ntfy.sh** (optional, push alerts): pick a long random topic name (e.g. `sylndr-alert-<your-handle>-<random>`). Subscribe via the iOS/Android app or `https://ntfy.sh/<topic>` in a browser.
+3. **GitHub repo secrets** at `Settings → Secrets and variables → Actions`:
+   - `RESEND_API_KEY` (optional)
+   - `EMAIL_TO` (optional; must match Resend account email until you verify a domain)
+   - `NTFY_TOPIC` (optional)
+4. **GitHub Pages**: `Settings → Pages → Source: Deploy from a branch → Branch: main, folder: /docs`.
+5. **Trigger the first run**: `gh workflow run poll.yml` (or click "Run workflow" in the Actions tab). You should get a "seeded N listings" notification.
 
-## Changing what's tracked
+## File layout
 
-Edit `filters.json` and commit/push. The next cron run uses the new filter, no redeploy.
-
-```json
-{
-  "size": 20,
-  "maxKilometrage": 100000,
-  "minPrice": 250000,
-  "maxPrice": 1500000,
-  "transmissions": ["Automatic"],
-  "bodyStyles": ["SUV", "Vans"],
-  "auctionStatuses": ["PUBLISHED", "BEING_SOLD"]
-}
 ```
-
-This is the exact JSON body the script POSTs to `https://sylndr.com/api/market/vehicles`. Any field that endpoint accepts can be added.
-
-## Cadence reality check
-
-`schedule: */10 * * * *` is *best-effort* on GitHub Actions' free tier. In practice cron jobs run every 15–30 minutes and occasionally get skipped under load. This is fine for a personal tool watching a market where listings appear hourly at most.
+sylndr-alert/
+├── .github/workflows/
+│   ├── poll.yml          (cron + push + manual; the main job)
+│   └── test-email.yml    (manual test for Resend + ntfy)
+├── scripts/
+│   ├── poll.ts           (orchestrator: fetch → diff → notify → render → commit)
+│   ├── fetch.ts          (Sylndr API client with polite pagination)
+│   ├── diff.ts           (state R/W, snapshot writes)
+│   ├── render.ts         (dashboard HTML, filter bar, client-side JS)
+│   ├── email.ts          (Resend digest)
+│   ├── ntfy.ts           (ntfy.sh digest)
+│   ├── test-email.ts     (manual test for Resend)
+│   ├── test-ntfy.ts      (manual test for ntfy)
+│   └── types.ts          (shared types + retailPrice/wholesalePrice/etc helpers)
+├── docs/index.html       (regenerated each poll; served by GitHub Pages)
+├── snapshots/<id>.json   (one per car, full API payload + firstSeen ts)
+├── state/seen.json       (sorted array of every vehicle ID ever observed)
+└── state/failures.json   (consecutive-failure counter for broken-scraper alert)
+```
 
 ## Reset / re-seed
 
-Delete `state/seen.json` and the contents of `snapshots/`. The next run will treat everything as new (seed run) and send the "seeded N listings" email again.
+Delete `state/seen.json`, `state/failures.json`, and the contents of `snapshots/`. The next run treats everything as new (seed run) and sends one "seeded N listings" notification.

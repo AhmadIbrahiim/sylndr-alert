@@ -1,7 +1,6 @@
-import { readdir, mkdir, writeFile, readFile } from "node:fs/promises";
-import { existsSync } from "node:fs";
+import { readdir, mkdir, writeFile } from "node:fs/promises";
 import { join } from "node:path";
-import type { Filters, Snapshot } from "./types.ts";
+import type { Snapshot } from "./types.ts";
 import {
   retailPrice,
   wholesalePrice,
@@ -12,7 +11,6 @@ import {
 
 const ROOT = new URL("..", import.meta.url).pathname;
 const SNAPSHOT_DIR = join(ROOT, "snapshots");
-const FILTERS_PATH = join(ROOT, "filters.json");
 const DOCS_DIR = join(ROOT, "docs");
 const DOCS_INDEX = join(DOCS_DIR, "index.html");
 
@@ -109,6 +107,9 @@ export function renderCard(snap: Snapshot, opts: { compact?: boolean } = {}): st
 
   const badge = beingSold ? `<span class="badge badge-hot">&#128293; sold</span>` : "";
 
+  const yearN = Number(year) || 0;
+  const kmN = Number(v.kilometrage) || 0;
+
   const winningBidAmount = auction?.winnerAmount ?? null;
   const winningDiscount =
     winningBidAmount && retail > 0
@@ -156,7 +157,19 @@ export function renderCard(snap: Snapshot, opts: { compact?: boolean } = {}): st
       </div>`
     : "";
 
-  return `<article class="card${beingSold ? " card-hot" : ""}">
+  const search = `${title} ${v.salesforceName ?? ""}`.toLowerCase();
+  return `<article class="card${beingSold ? " card-hot" : ""}"
+    data-make="${escapeHtml((make || "").toLowerCase())}"
+    data-model="${escapeHtml((model || "").toLowerCase())}"
+    data-year="${yearN}"
+    data-km="${kmN}"
+    data-price="${retail}"
+    data-body="${escapeHtml((body || "").toLowerCase())}"
+    data-trans="${escapeHtml((trans || "").toLowerCase())}"
+    data-status="${escapeHtml(auction?.status ?? "")}"
+    data-margin="${margin ? margin.pct.toFixed(1) : ""}"
+    data-listed="${escapeHtml(listedIso)}"
+    data-search="${escapeHtml(search)}">
   <a class="thumb" href="${escapeHtml(url)}" target="_blank" rel="noopener noreferrer" aria-label="${escapeHtml(title)}">
     ${photoTag}
     ${beingSold ? '<span class="thumb-ribbon">&#128293;</span>' : ""}
@@ -291,26 +304,96 @@ header.hero{margin-bottom:36px}
   .stat-val{font-size:20px}
 }
 
-/* FILTER PILLS */
-.filter-strip{
-  display:flex;flex-wrap:wrap;gap:6px;
-  margin-bottom:28px;align-items:center;
-}
-.filter-label{
-  font-size:11px;color:var(--muted);
-  text-transform:uppercase;letter-spacing:.08em;font-weight:600;
-  margin-right:4px;
-}
-.pill{
-  display:inline-flex;align-items:center;gap:5px;
+/* FILTER BAR */
+.filter-bar{
   background:var(--panel);
   border:1px solid var(--border);
-  color:var(--fg-soft);
-  padding:5px 11px;border-radius:999px;font-size:12px;
-  font-weight:500;
-  white-space:nowrap;
+  border-radius:14px;
+  padding:14px 16px;
+  margin-bottom:24px;
+  display:flex;flex-direction:column;gap:10px;
 }
-.pill .pill-key{color:var(--muted);font-weight:500}
+.fb-row{display:flex;align-items:center;flex-wrap:wrap;gap:10px}
+.fb-row-top{gap:8px}
+.fb-label{
+  font-size:10px;color:var(--muted);
+  text-transform:uppercase;letter-spacing:.08em;font-weight:700;
+  min-width:48px;
+}
+.fb-search{
+  flex:1;min-width:180px;
+  background:var(--bg);
+  border:1px solid var(--border);
+  color:var(--fg);
+  padding:8px 12px;
+  border-radius:8px;
+  font:14px/1.4 inherit;
+  outline:none;
+}
+.fb-search::placeholder{color:var(--muted-dim)}
+.fb-search:focus{border-color:var(--accent)}
+.fb-sort{
+  background:var(--bg);
+  border:1px solid var(--border);
+  color:var(--fg);
+  padding:8px 12px;border-radius:8px;
+  font:13px/1.4 inherit;outline:none;
+  cursor:pointer;
+}
+.fb-sort:focus{border-color:var(--accent)}
+.fb-reset{
+  background:transparent;
+  border:1px solid var(--border);
+  color:var(--fg-soft);
+  padding:8px 14px;border-radius:8px;
+  font:12px/1.4 inherit;cursor:pointer;
+  font-weight:600;letter-spacing:.02em;
+}
+.fb-reset:hover{border-color:var(--accent);color:var(--accent)}
+.chips{display:flex;flex-wrap:wrap;gap:5px;flex:1}
+.chip{cursor:pointer}
+.chip input{position:absolute;opacity:0;pointer-events:none}
+.chip span{
+  display:inline-block;
+  background:var(--bg);
+  border:1px solid var(--border);
+  color:var(--fg-soft);
+  padding:4px 10px;border-radius:999px;
+  font:12px/1.2 inherit;font-weight:500;
+  transition:background .12s ease,border-color .12s ease,color .12s ease;
+}
+.chip:hover span{border-color:var(--border-strong)}
+.chip input:checked + span{
+  background:var(--accent-soft);
+  border-color:var(--accent);
+  color:var(--accent);
+  font-weight:700;
+}
+.fb-ranges{flex-wrap:wrap;gap:14px}
+.fb-range{
+  display:flex;align-items:center;gap:6px;
+  font-family:ui-monospace,SFMono-Regular,Menlo,monospace;
+  font-size:12px;
+}
+.fb-range input[type=number]{
+  background:var(--bg);
+  border:1px solid var(--border);
+  color:var(--fg);
+  width:96px;
+  padding:6px 8px;border-radius:6px;
+  font:12px/1.4 ui-monospace,SFMono-Regular,Menlo,monospace;
+  outline:none;
+  font-variant-numeric:tabular-nums;
+}
+.fb-range input[type=number]:focus{border-color:var(--accent)}
+.fb-range input[type=number]::-webkit-outer-spin-button,
+.fb-range input[type=number]::-webkit-inner-spin-button{-webkit-appearance:none;margin:0}
+.fb-dash{color:var(--muted-dim)}
+@media (max-width:640px){
+  .fb-label{min-width:auto}
+  .fb-search{width:100%}
+  .fb-row-top{flex-direction:column;align-items:stretch}
+}
 
 /* GRID */
 main.grid{
@@ -528,28 +611,38 @@ footer a:hover{color:var(--accent);border-color:var(--accent)}
 @keyframes fadeUp{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
 `;
 
-type Stats = {
-  total: number;
-  inAuction: number;
-  minPrice: number;
-  maxPrice: number;
-  avgKm: number;
+function uniqueSorted<T>(arr: T[]): T[] {
+  return [...new Set(arr)].filter((x) => x != null && x !== "").sort() as T[];
+}
+
+type FacetData = {
+  bodies: string[];
+  transmissions: string[];
+  statuses: string[];
+  years: { min: number; max: number };
+  prices: { min: number; max: number };
 };
 
-function computeStats(snaps: Snapshot[]): Stats {
-  if (snaps.length === 0) {
-    return { total: 0, inAuction: 0, minPrice: 0, maxPrice: 0, avgKm: 0 };
-  }
+
+
+function computeFacets(snaps: Snapshot[]): FacetData {
+  const bodies = uniqueSorted(snaps.map((s) => s.vehicle.bodyStyle ?? "").filter(Boolean));
+  const transmissions = uniqueSorted(snaps.map((s) => s.vehicle.transmission ?? "").filter(Boolean));
+  const statuses = uniqueSorted(snaps.map((s) => s.auction?.status ?? "").filter(Boolean));
+  const years = snaps.map((s) => Number(s.vehicle.carYear?.name)).filter(Number.isFinite);
   const prices = snaps.map((s) => retailPrice(s)).filter((p) => p > 0);
-  const kms = snaps
-    .map((s) => Number(s.vehicle.kilometrage))
-    .filter((n) => Number.isFinite(n) && n > 0);
   return {
-    total: snaps.length,
-    inAuction: snaps.filter((s) => s.auction?.status === "BEING_SOLD").length,
-    minPrice: prices.length ? Math.min(...prices) : 0,
-    maxPrice: prices.length ? Math.max(...prices) : 0,
-    avgKm: kms.length ? Math.round(kms.reduce((a, b) => a + b, 0) / kms.length) : 0,
+    bodies,
+    transmissions,
+    statuses,
+    years: {
+      min: years.length ? Math.min(...years) : 2000,
+      max: years.length ? Math.max(...years) : 2026,
+    },
+    prices: {
+      min: prices.length ? Math.min(...prices) : 0,
+      max: prices.length ? Math.max(...prices) : 5_000_000,
+    },
   };
 }
 
@@ -570,61 +663,207 @@ function marginTier(pct: number): "low" | "mid" | "high" {
   return "high";
 }
 
-function renderStats(s: Stats): string {
+function renderStatsBar(total: number): string {
   return `<section class="stats">
   <div class="stat">
-    <div class="stat-val">${fmt(s.total)}</div>
-    <div class="stat-label">Tracked</div>
+    <div class="stat-val"><span data-stat="visible">${fmt(total)}</span><span class="stat-unit">/ ${fmt(total)}</span></div>
+    <div class="stat-label">Showing</div>
   </div>
   <div class="stat">
-    <div class="stat-val hot">${s.inAuction}<span class="stat-unit">&#128293; live</span></div>
+    <div class="stat-val hot" data-stat="sold">0</div>
     <div class="stat-label">In auction</div>
   </div>
   <div class="stat">
-    <div class="stat-val accent">${fmtPriceShort(s.minPrice)}<span class="stat-unit">&ndash; ${fmtPriceShort(s.maxPrice)} EGP</span></div>
+    <div class="stat-val accent" data-stat="price-range">—</div>
     <div class="stat-label">Price range</div>
   </div>
   <div class="stat">
-    <div class="stat-val">${fmt(s.avgKm)}<span class="stat-unit">km avg</span></div>
-    <div class="stat-label">Mileage</div>
+    <div class="stat-val" data-stat="avg-margin">—</div>
+    <div class="stat-label">Avg Sylndr margin</div>
   </div>
 </section>`;
 }
 
-function renderFilterStrip(f: Filters | null): string {
-  if (!f) return "";
-  const pills: string[] = [];
-  if (f.bodyStyles?.length) {
-    pills.push(`<span class="pill"><span class="pill-key">body</span> ${f.bodyStyles.map(escapeHtml).join(" / ")}</span>`);
-  }
-  if (f.transmissions?.length) {
-    pills.push(`<span class="pill"><span class="pill-key">trans</span> ${f.transmissions.map(escapeHtml).join(" / ")}</span>`);
-  }
-  if (f.minPrice != null || f.maxPrice != null) {
-    const lo = f.minPrice != null ? fmtPriceShort(f.minPrice) : "any";
-    const hi = f.maxPrice != null ? fmtPriceShort(f.maxPrice) : "any";
-    pills.push(`<span class="pill"><span class="pill-key">price</span> ${lo}&ndash;${hi} EGP</span>`);
-  }
-  if (f.maxKilometrage != null) {
-    pills.push(`<span class="pill"><span class="pill-key">km</span> &le; ${fmt(f.maxKilometrage)}</span>`);
-  }
-  if (f.auctionStatuses?.length) {
-    pills.push(`<span class="pill"><span class="pill-key">status</span> ${f.auctionStatuses.map((s) => escapeHtml(s.toLowerCase())).join(" / ")}</span>`);
-  }
-  return `<div class="filter-strip"><span class="filter-label">watching</span>${pills.join("")}</div>`;
+function renderFilterBar(f: FacetData): string {
+  const bodyChips = f.bodies
+    .map((b) => `<label class="chip"><input type="checkbox" name="body" value="${escapeHtml(b.toLowerCase())}"><span>${escapeHtml(b)}</span></label>`)
+    .join("");
+  const transChips = f.transmissions
+    .map((t) => `<label class="chip"><input type="checkbox" name="trans" value="${escapeHtml(t.toLowerCase())}"><span>${escapeHtml(t)}</span></label>`)
+    .join("");
+  const statusChips = f.statuses
+    .map((s) => `<label class="chip"><input type="checkbox" name="status" value="${escapeHtml(s)}"><span>${escapeHtml(s === "BEING_SOLD" ? "Sold" : s.toLowerCase())}</span></label>`)
+    .join("");
+  return `<form class="filter-bar" autocomplete="off" onsubmit="return false">
+  <div class="fb-row fb-row-top">
+    <input class="fb-search" name="q" type="search" placeholder="Search make, model, or code…" />
+    <select class="fb-sort" name="sort">
+      <option value="listed-desc">Newest listed</option>
+      <option value="listed-asc">Oldest listed</option>
+      <option value="price-asc">Cheapest first</option>
+      <option value="price-desc">Most expensive first</option>
+      <option value="margin-desc">Highest Sylndr margin</option>
+      <option value="margin-asc">Lowest Sylndr margin</option>
+      <option value="km-asc">Lowest km</option>
+      <option value="year-desc">Newest year</option>
+    </select>
+    <button type="button" class="fb-reset" data-action="reset">Reset</button>
+  </div>
+  <div class="fb-row">
+    <span class="fb-label">Body</span>
+    <div class="chips" data-group="body">${bodyChips}</div>
+  </div>
+  <div class="fb-row">
+    <span class="fb-label">Trans</span>
+    <div class="chips" data-group="trans">${transChips}</div>
+  </div>
+  <div class="fb-row">
+    <span class="fb-label">Status</span>
+    <div class="chips" data-group="status">${statusChips}</div>
+  </div>
+  <div class="fb-row fb-ranges">
+    <label class="fb-range">
+      <span class="fb-label">Price EGP</span>
+      <input type="number" name="minPrice" placeholder="${fmt(f.prices.min)}" min="0" step="50000" />
+      <span class="fb-dash">–</span>
+      <input type="number" name="maxPrice" placeholder="${fmt(f.prices.max)}" min="0" step="50000" />
+    </label>
+    <label class="fb-range">
+      <span class="fb-label">Max km</span>
+      <input type="number" name="maxKm" placeholder="any" min="0" step="10000" />
+    </label>
+    <label class="fb-range">
+      <span class="fb-label">Year</span>
+      <input type="number" name="minYear" placeholder="${f.years.min}" min="1990" max="2100" />
+      <span class="fb-dash">–</span>
+      <input type="number" name="maxYear" placeholder="${f.years.max}" min="1990" max="2100" />
+    </label>
+  </div>
+</form>`;
 }
 
-async function loadFilters(): Promise<Filters | null> {
-  if (!existsSync(FILTERS_PATH)) return null;
-  try {
-    return JSON.parse(await readFile(FILTERS_PATH, "utf-8")) as Filters;
-  } catch {
-    return null;
-  }
-}
+const FILTER_JS = `
+(() => {
+  const form = document.querySelector('.filter-bar');
+  if (!form) return;
+  const grid = document.querySelector('main.grid');
+  const cards = Array.from(grid.querySelectorAll('.card'));
+  const visibleStat = document.querySelector('[data-stat="visible"]');
+  const soldStat = document.querySelector('[data-stat="sold"]');
+  const priceStat = document.querySelector('[data-stat="price-range"]');
+  const marginStat = document.querySelector('[data-stat="avg-margin"]');
+  const fmt = (n) => n >= 1e6 ? (n/1e6).toFixed(2)+'M' : n >= 1e3 ? Math.round(n/1e3)+'K' : String(n);
 
-export function renderPage(snapshots: Snapshot[], filters: Filters | null = null): string {
-  const stats = computeStats(snapshots);
+  function readParams() {
+    const p = new URLSearchParams(location.hash.slice(1) || location.search.slice(1));
+    for (const el of form.elements) {
+      if (!el.name) continue;
+      if (el.type === 'checkbox') {
+        el.checked = (p.getAll(el.name) || []).includes(el.value);
+      } else if (p.has(el.name)) {
+        el.value = p.get(el.name);
+      }
+    }
+  }
+  function writeParams() {
+    const p = new URLSearchParams();
+    for (const el of form.elements) {
+      if (!el.name) continue;
+      if (el.type === 'checkbox') {
+        if (el.checked) p.append(el.name, el.value);
+      } else if (el.value) {
+        p.set(el.name, el.value);
+      }
+    }
+    const q = p.toString();
+    history.replaceState(null, '', q ? '#' + q : location.pathname);
+  }
+  function getValues(name) {
+    return Array.from(form.querySelectorAll('input[name="' + name + '"]:checked')).map((i) => i.value);
+  }
+  function num(name, fallback) {
+    const v = form.querySelector('[name="' + name + '"]').value;
+    return v === '' ? fallback : Number(v);
+  }
+  function sortKey(card, mode) {
+    const d = card.dataset;
+    switch (mode) {
+      case 'listed-asc': return new Date(d.listed).getTime();
+      case 'price-asc': return Number(d.price);
+      case 'price-desc': return -Number(d.price);
+      case 'margin-desc': return -(parseFloat(d.margin) || 0);
+      case 'margin-asc': return parseFloat(d.margin) || 0;
+      case 'km-asc': return Number(d.km);
+      case 'year-desc': return -Number(d.year);
+      default: return -new Date(d.listed).getTime();
+    }
+  }
+  function setPriceRange(pMin, pMax) {
+    while (priceStat.firstChild) priceStat.removeChild(priceStat.firstChild);
+    if (pMin === Infinity) {
+      priceStat.textContent = '—';
+    } else {
+      priceStat.appendChild(document.createTextNode(fmt(pMin)));
+      const unit = document.createElement('span');
+      unit.className = 'stat-unit';
+      unit.textContent = '– ' + fmt(pMax);
+      priceStat.appendChild(unit);
+    }
+  }
+  function apply() {
+    const body = getValues('body');
+    const trans = getValues('trans');
+    const status = getValues('status');
+    const q = (form.q.value || '').trim().toLowerCase();
+    const minP = num('minPrice', 0);
+    const maxP = num('maxPrice', Infinity);
+    const maxKm = num('maxKm', Infinity);
+    const minY = num('minYear', 0);
+    const maxY = num('maxYear', Infinity);
+    const sort = form.sort.value;
+    let visible = 0, sold = 0, marginSum = 0, marginN = 0, pMin = Infinity, pMax = -Infinity;
+    for (const c of cards) {
+      const d = c.dataset;
+      const ok =
+        (!body.length || body.includes(d.body)) &&
+        (!trans.length || trans.includes(d.trans)) &&
+        (!status.length || status.includes(d.status)) &&
+        (!q || d.search.includes(q)) &&
+        Number(d.price) >= minP && Number(d.price) <= maxP &&
+        Number(d.km) <= maxKm &&
+        Number(d.year) >= minY && Number(d.year) <= maxY;
+      c.style.display = ok ? '' : 'none';
+      if (ok) {
+        visible++;
+        if (d.status === 'BEING_SOLD') sold++;
+        const m = parseFloat(d.margin);
+        if (!isNaN(m)) { marginSum += m; marginN++; }
+        const pp = Number(d.price);
+        if (pp > 0) { if (pp < pMin) pMin = pp; if (pp > pMax) pMax = pp; }
+      }
+    }
+    visibleStat.textContent = visible;
+    soldStat.textContent = sold;
+    setPriceRange(pMin, pMax);
+    marginStat.textContent = marginN ? Math.round(marginSum / marginN) + '%' : '—';
+    const visCards = cards.filter((c) => c.style.display !== 'none');
+    visCards.sort((a, b) => sortKey(a, sort) - sortKey(b, sort));
+    for (const c of visCards) grid.appendChild(c);
+    writeParams();
+  }
+  form.addEventListener('input', apply);
+  form.querySelector('[data-action="reset"]').addEventListener('click', () => {
+    form.reset();
+    history.replaceState(null, '', location.pathname);
+    apply();
+  });
+  readParams();
+  apply();
+})();
+`;
+
+export function renderPage(snapshots: Snapshot[]): string {
+  const facets = computeFacets(snapshots);
   const cards = snapshots.length
     ? snapshots.map((s) => renderCard(s)).join("\n")
     : `<div class="empty"><h2>No listings yet</h2><div>The next cron run will seed the watch list.</div></div>`;
@@ -637,7 +876,7 @@ export function renderPage(snapshots: Snapshot[], filters: Filters | null = null
 <meta name="viewport" content="width=device-width,initial-scale=1" />
 <meta name="color-scheme" content="dark light" />
 <title>Sylndr alerts &middot; ${snapshots.length} listings</title>
-<meta name="description" content="Personal alerts for new Sylndr (Egypt) used-car listings matching a saved filter." />
+<meta name="description" content="Browse and filter Sylndr (Egypt) used-car inventory." />
 <style>${PAGE_CSS}</style>
 </head>
 <body>
@@ -648,22 +887,23 @@ export function renderPage(snapshots: Snapshot[], filters: Filters | null = null
       <div class="brand-mark">S</div>
       <div class="brand-text">
         <div class="brand-name">Sylndr alerts</div>
-        <div class="brand-tag">personal &middot; auto-refreshed every 10m</div>
+        <div class="brand-tag">personal &middot; auto-refreshed during EST business hours</div>
       </div>
     </div>
     <div class="updated"><span class="pulse"></span>updated ${renderedUtc}</div>
   </div>
-  ${renderStats(stats)}
-  ${renderFilterStrip(filters)}
+  ${renderStatsBar(snapshots.length)}
+  ${renderFilterBar(facets)}
 </header>
 <main class="grid">
 ${cards}
 </main>
 <footer>
-  <span>${snapshots.length} listings &middot; newest first</span>
+  <span>${snapshots.length} listings &middot; filter and sort via the bar above</span>
   <span>data <a href="https://sylndr.com" target="_blank" rel="noopener noreferrer">sylndr.com</a> &middot; source <a href="https://github.com/AhmadIbrahiim/sylndr-alert" target="_blank" rel="noopener noreferrer">github</a></span>
 </footer>
 </div>
+<script>${FILTER_JS}</script>
 </body>
 </html>
 `;
@@ -688,8 +928,7 @@ export async function loadAllSnapshots(): Promise<Snapshot[]> {
 
 export async function writeDocsIndex(): Promise<number> {
   const snaps = await loadAllSnapshots();
-  const filters = await loadFilters();
-  const html = renderPage(snaps, filters);
+  const html = renderPage(snaps);
   await mkdir(DOCS_DIR, { recursive: true });
   await writeFile(DOCS_INDEX, html);
   return snaps.length;

@@ -1,9 +1,20 @@
 name: poll
 
 on:
+  # 9 AM – 5:45 PM EST (UTC-5), every 15 min — 36 runs/day
+  # (24 hr × 4 = 96 runs eliminated vs the previous always-on cadence)
   schedule:
-    - cron: "*/10 * * * *"
+    - cron: "*/15 14-22 * * *"
+  # Manual trigger
   workflow_dispatch: {}
+  # Trigger immediately when code changes are pushed
+  push:
+    branches: [main]
+    paths:
+      - "scripts/**"
+      - ".github/workflows/poll.yml"
+      - "package.json"
+      - "bun.lockb"
 
 permissions:
   contents: write
