@@ -109,7 +109,7 @@ function emailCard(item: SylndrItem): string {
           rows.push(`<tr><td style="${labelStyle};padding:1px 0">Sylndr price</td><td align="right" style="${valStyle};padding:1px 0">${fmt(wholesale)}<span style="${tagBase};color:${c};background:${bg}">${margin.pct.toFixed(0)}% margin</span></td></tr>`);
         }
         if (asked > 0 && asked !== wholesale) {
-          rows.push(`<tr><td style="${labelStyle};padding:1px 0">Expected</td><td align="right" style="${valStyle};padding:1px 0">${fmt(asked)}</td></tr>`);
+          rows.push(`<tr><td style="${labelStyle};padding:1px 0">Asking</td><td align="right" style="${valStyle};padding:1px 0">${fmt(asked)}</td></tr>`);
         }
         const winner = auction?.winnerAmount ?? null;
         if (winner && retailN > 0) {

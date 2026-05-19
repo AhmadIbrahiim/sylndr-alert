@@ -128,8 +128,8 @@ export function renderCard(snap: Snapshot, opts: { compact?: boolean } = {}): st
 
   if (asked > 0 && asked !== wholesale) {
     ladderRows.push(
-      `<div class="pl-row" title="What the seller originally asked for">
-        <dt>Expected</dt>
+      `<div class="pl-row" title="What the seller originally asked for (vehicle.askingPrice from the Sylndr API)">
+        <dt>Asking</dt>
         <dd>${escapeHtml(fmtPriceShort(asked))}</dd>
       </div>`,
     );
