@@ -34,7 +34,22 @@ export type SylndrAuction = {
   status?: string;
   endsAt?: string | null;
   publishedAt?: string | null;
+  /** Despite the name, this is the consumer-facing retail price displayed on
+   *  Sylndr's listing page (e.g. "850000.00"). It is a string and may need
+   *  Number() coercion. `vehicle.netSylndrOfferPrice` is Sylndr's wholesale
+   *  cost (what they paid the seller) — not the buyer-facing price. */
+  maxPriceLimit?: string | null;
+  initialPrice?: string | null;
 } | null;
+
+export function retailPrice(item: SylndrItem): number {
+  const s = item.auction?.maxPriceLimit;
+  if (s) {
+    const n = Number(s);
+    if (Number.isFinite(n) && n > 0) return n;
+  }
+  return item.vehicle.netSylndrOfferPrice ?? 0;
+}
 
 export type SylndrItem = {
   vehicle: SylndrVehicle;

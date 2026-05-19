@@ -1,5 +1,6 @@
 import { Resend } from "resend";
 import type { SylndrItem } from "./types.ts";
+import { retailPrice } from "./types.ts";
 
 const FROM = "Sylndr Alert <onboarding@resend.dev>";
 
@@ -61,7 +62,8 @@ function emailCard(item: SylndrItem): string {
   const photo = pickPhoto(item);
   const url = listingUrl(item);
   const beingSold = item.auction?.status === "BEING_SOLD";
-  const price = v.netSylndrOfferPrice ? `${fmt(v.netSylndrOfferPrice)} EGP` : "—";
+  const priceN = retailPrice(item);
+  const price = priceN > 0 ? `${fmt(priceN)} EGP` : "—";
   const km = v.kilometrage ? `${fmt(Number(v.kilometrage))} km` : "—";
   const body = v.bodyStyle ?? "—";
   const trans = v.transmission ?? "—";

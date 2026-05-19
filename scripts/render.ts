@@ -2,6 +2,7 @@ import { readdir, mkdir, writeFile, readFile } from "node:fs/promises";
 import { existsSync } from "node:fs";
 import { join } from "node:path";
 import type { Filters, Snapshot } from "./types.ts";
+import { retailPrice } from "./types.ts";
 
 const ROOT = new URL("..", import.meta.url).pathname;
 const SNAPSHOT_DIR = join(ROOT, "snapshots");
@@ -83,7 +84,7 @@ export function renderCard(snap: Snapshot, opts: { compact?: boolean } = {}): st
   const photo = pickPhoto(snap);
   const url = listingUrl(snap);
   const beingSold = snap.auction?.status === "BEING_SOLD";
-  const price = fmtPrice(v.netSylndrOfferPrice);
+  const price = fmtPrice(retailPrice(snap));
   const km = fmtKm(v.kilometrage);
   const body = v.bodyStyle ?? "—";
   const trans = v.transmission ?? "—";
@@ -418,7 +419,7 @@ function computeStats(snaps: Snapshot[]): Stats {
   if (snaps.length === 0) {
     return { total: 0, inAuction: 0, minPrice: 0, maxPrice: 0, avgKm: 0 };
   }
-  const prices = snaps.map((s) => s.vehicle.netSylndrOfferPrice).filter((p) => p > 0);
+  const prices = snaps.map((s) => retailPrice(s)).filter((p) => p > 0);
   const kms = snaps
     .map((s) => Number(s.vehicle.kilometrage))
     .filter((n) => Number.isFinite(n) && n > 0);

@@ -1,4 +1,5 @@
 import type { SylndrItem } from "./types.ts";
+import { retailPrice } from "./types.ts";
 
 const NTFY_BASE = "https://ntfy.sh";
 
@@ -41,7 +42,7 @@ function buildPayload(kind: NtfyKind, payload: { items?: SylndrItem[]; message?:
     const beingSold = it.auction?.status === "BEING_SOLD";
     return {
       title: `New Sylndr listing: ${listingTitle(it)}`,
-      message: `${fmtPrice(it.vehicle.netSylndrOfferPrice)} · ${it.vehicle.kilometrage ?? "?"} km${beingSold ? " · 🔥 in auction" : ""}`,
+      message: `${fmtPrice(retailPrice(it))} · ${it.vehicle.kilometrage ?? "?"} km${beingSold ? " · 🔥 in auction" : ""}`,
       click: listingUrl(it),
       tags: beingSold ? ["fire", "car"] : ["car"],
       priority: beingSold ? 4 : 3,
@@ -49,7 +50,7 @@ function buildPayload(kind: NtfyKind, payload: { items?: SylndrItem[]; message?:
   }
   const lines = items
     .slice(0, 10)
-    .map((it) => `• ${listingTitle(it)} — ${fmtPrice(it.vehicle.netSylndrOfferPrice)}`);
+    .map((it) => `• ${listingTitle(it)} — ${fmtPrice(retailPrice(it))}`);
   if (items.length > 10) lines.push(`...and ${items.length - 10} more`);
   return {
     title: `${items.length} new Sylndr listings`,
