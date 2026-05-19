@@ -14,14 +14,14 @@ Polls Sylndr's public `/api/market/vehicles` endpoint, snapshots every car curre
 ## Cron schedule
 
 ```
-*/15 14-22 * * *
+*/15 6-14 * * *
 ```
 
-Runs every 15 min from **14:00 to 22:45 UTC** = **9:00 AM – 5:45 PM EST** (UTC-5). 36 runs/day. Plus:
+Runs every 15 min from **06:00 to 14:45 UTC** = **9:00 AM – 5:45 PM Cairo (EEST, summer)**. 36 runs/day. Plus:
 - `workflow_dispatch` — manual trigger from GitHub Actions UI or `gh workflow run poll.yml`
 - `push` to `main` — triggers immediately when you change `scripts/` or the workflow itself
 
-Note: in summer (DST), the local time shifts +1h because the schedule is anchored to UTC. If that matters, edit the cron hours in `.github/workflows/poll.yml`.
+Note: anchored to UTC, so in Egyptian winter (EET, UTC+2) the local-time window shifts to 8 AM – 4:45 PM. Bump the cron hours +1 to restore 9 AM – 5:45 PM if running in winter.
 
 ## Run locally
 

@@ -1,10 +1,12 @@
 name: poll
 
 on:
-  # 9 AM – 5:45 PM EST (UTC-5), every 15 min — 36 runs/day
-  # (24 hr × 4 = 96 runs eliminated vs the previous always-on cadence)
+  # 9 AM – 5:45 PM Cairo time, every 15 min — 36 runs/day
+  # Anchored to UTC; assumes EEST (UTC+3, summer). In winter (EET, UTC+2)
+  # local-time window shifts to 8:00 AM – 4:45 PM. Bump hours +1 to
+  # restore 9 AM – 5:45 PM if running in winter.
   schedule:
-    - cron: "*/15 14-22 * * *"
+    - cron: "*/15 6-14 * * *"
   # Manual trigger
   workflow_dispatch: {}
   # Trigger immediately when code changes are pushed
