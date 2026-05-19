@@ -1,6 +1,12 @@
 import { Resend } from "resend";
 import type { SylndrItem } from "./types.ts";
-import { retailPrice } from "./types.ts";
+import {
+  retailPrice,
+  wholesalePrice,
+  askingPrice,
+  sylndrMargin,
+  auctionInfo,
+} from "./types.ts";
 
 const FROM = "Sylndr Alert <onboarding@resend.dev>";
 
@@ -64,6 +70,10 @@ function emailCard(item: SylndrItem): string {
   const beingSold = item.auction?.status === "BEING_SOLD";
   const priceN = retailPrice(item);
   const price = priceN > 0 ? `${fmt(priceN)} EGP` : "—";
+  const wholesale = wholesalePrice(item);
+  const asked = askingPrice(item);
+  const margin = sylndrMargin(item);
+  const auction = auctionInfo(item);
   const km = v.kilometrage ? `${fmt(Number(v.kilometrage))} km` : "—";
   const body = v.bodyStyle ?? "—";
   const trans = v.transmission ?? "—";
@@ -85,9 +95,15 @@ function emailCard(item: SylndrItem): string {
         ${escapeHtml(year)}${hotRibbon}
       </div>
       <a href="${escapeHtml(url)}" style="display:block;font-size:17px;font-weight:650;color:${FG};text-decoration:none;letter-spacing:-0.005em;margin-bottom:6px">${escapeHtml(title)}</a>
-      <div style="font-size:24px;font-weight:700;color:${ACCENT};letter-spacing:-0.02em;line-height:1.1;margin-bottom:10px;font-variant-numeric:tabular-nums">
+      <div style="font-size:24px;font-weight:700;color:${ACCENT};letter-spacing:-0.02em;line-height:1.1;margin-bottom:6px;font-variant-numeric:tabular-nums">
         ${escapeHtml(price)}<span style="font-size:12px;color:${MUTED};font-weight:600;letter-spacing:.04em;margin-left:4px">EGP</span>
       </div>
+      ${margin
+        ? `<div style="font-size:11px;color:${MUTED};font-family:ui-monospace,SFMono-Regular,Menlo,monospace;margin-bottom:10px">&darr; ${fmt(wholesale)} wholesale &middot; <span style="font-weight:700;color:${margin.pct >= 30 ? HOT : margin.pct >= 15 ? "#a06d00" : "#2c8a52"}">${margin.pct.toFixed(0)}% margin</span></div>`
+        : ""}
+      ${asked > 0 && asked !== wholesale
+        ? `<div style="font-size:10px;color:${MUTED};font-family:ui-monospace,SFMono-Regular,Menlo,monospace;margin-bottom:10px">seller asked ${fmt(asked)} EGP</div>`
+        : ""}
       <div style="font-size:13px;color:${FG_SOFT};font-variant-numeric:tabular-nums">
         <span>${escapeHtml(km)}</span>
         <span style="color:${MUTED};margin:0 6px">&middot;</span>
@@ -95,6 +111,13 @@ function emailCard(item: SylndrItem): string {
         <span style="color:${MUTED};margin:0 6px">&middot;</span>
         <span>${escapeHtml(trans)}</span>
       </div>
+      ${auction
+        ? `<div style="font-size:11px;color:${MUTED};font-family:ui-monospace,SFMono-Regular,Menlo,monospace;margin-top:10px;padding:6px 10px;background:#f4f1eb;border:1px solid ${BORDER};border-radius:8px;display:inline-block">
+            <span style="text-transform:uppercase;letter-spacing:.04em;font-weight:700;color:${FG_SOFT};font-size:10px">${escapeHtml((auction.type ?? "auction").toLowerCase())}</span>
+            <span style="margin:0 6px">&middot;</span>
+            <span style="font-weight:600;color:${FG_SOFT}">${auction.bids} ${auction.bids === 1 ? "bid" : "bids"}</span>${auction.bidders > 0 ? ` <span style="color:${MUTED}">&middot; ${auction.bidders} ${auction.bidders === 1 ? "bidder" : "bidders"}</span>` : ""}
+          </div>`
+        : ""}
       <div style="font-size:11px;color:${MUTED};font-family:ui-monospace,SFMono-Regular,Menlo,monospace;margin-top:8px">
         listed ${escapeHtml(fmtRelative(item.auction?.publishedAt ?? new Date().toISOString()))}
       </div>

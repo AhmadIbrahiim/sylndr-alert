@@ -2,7 +2,13 @@ import { readdir, mkdir, writeFile, readFile } from "node:fs/promises";
 import { existsSync } from "node:fs";
 import { join } from "node:path";
 import type { Filters, Snapshot } from "./types.ts";
-import { retailPrice } from "./types.ts";
+import {
+  retailPrice,
+  wholesalePrice,
+  askingPrice,
+  sylndrMargin,
+  auctionInfo,
+} from "./types.ts";
 
 const ROOT = new URL("..", import.meta.url).pathname;
 const SNAPSHOT_DIR = join(ROOT, "snapshots");
@@ -84,7 +90,12 @@ export function renderCard(snap: Snapshot, opts: { compact?: boolean } = {}): st
   const photo = pickPhoto(snap);
   const url = listingUrl(snap);
   const beingSold = snap.auction?.status === "BEING_SOLD";
-  const price = fmtPrice(retailPrice(snap));
+  const retail = retailPrice(snap);
+  const wholesale = wholesalePrice(snap);
+  const asked = askingPrice(snap);
+  const margin = sylndrMargin(snap);
+  const auction = auctionInfo(snap);
+  const price = fmtPrice(retail);
   const km = fmtKm(v.kilometrage);
   const body = v.bodyStyle ?? "—";
   const trans = v.transmission ?? "—";
@@ -98,6 +109,28 @@ export function renderCard(snap: Snapshot, opts: { compact?: boolean } = {}): st
 
   const badge = beingSold ? `<span class="badge badge-hot">&#128293; in auction</span>` : "";
 
+  const marginLine = margin
+    ? `<div class="margin-line margin-${marginTier(margin.pct)}" title="Sylndr offered the seller ${fmt(wholesale)} EGP; selling to you at ${fmt(retail)} EGP">
+        <span class="arrow">&darr;</span>
+        <span class="margin-wholesale">${escapeHtml(fmtPriceShort(wholesale))} wholesale</span>
+        <span class="margin-dot"></span>
+        <span class="margin-pct">${margin.pct.toFixed(0)}% margin</span>
+      </div>`
+    : "";
+
+  const askingLine =
+    asked > 0 && asked !== wholesale
+      ? `<div class="asking-line" title="The seller originally asked this price">seller asked ${escapeHtml(fmtPriceShort(asked))}</div>`
+      : "";
+
+  const auctionStrip = auction
+    ? `<div class="auction-strip">
+        <span class="auction-type">${escapeHtml(fmtAuctionTypeLabel(auction.type))}</span>
+        <span class="meta-dot"></span>
+        <span class="auction-bids${auction.bids > 0 ? " has-bids" : ""}">${auction.bids} ${auction.bids === 1 ? "bid" : "bids"}${auction.bidders > 0 ? ` <span class="bidders">&middot; ${auction.bidders} ${auction.bidders === 1 ? "bidder" : "bidders"}</span>` : ""}</span>
+      </div>`
+    : "";
+
   return `<article class="card${beingSold ? " card-hot" : ""}">
   <a class="thumb" href="${escapeHtml(url)}" target="_blank" rel="noopener noreferrer" aria-label="${escapeHtml(title)}">
     ${photoTag}
@@ -110,6 +143,8 @@ export function renderCard(snap: Snapshot, opts: { compact?: boolean } = {}): st
     </div>
     <a class="title" href="${escapeHtml(url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(title)}</a>
     <div class="price"><span class="price-num">${escapeHtml(price)}</span><span class="price-unit">EGP</span></div>
+    ${marginLine}
+    ${askingLine}
     <div class="meta">
       <span class="meta-item">${escapeHtml(km)} <span class="meta-unit">km</span></span>
       <span class="meta-dot"></span>
@@ -117,6 +152,7 @@ export function renderCard(snap: Snapshot, opts: { compact?: boolean } = {}): st
       <span class="meta-dot"></span>
       <span class="meta-item">${escapeHtml(trans)}</span>
     </div>
+    ${auctionStrip}
     <div class="stamp">
       <span title="${escapeHtml(listedAbs)}">listed ${escapeHtml(listedRel)}</span>
       ${v.salesforceName ? `<span class="ref">${escapeHtml(v.salesforceName)}</span>` : ""}
@@ -337,6 +373,30 @@ main.grid{
 }
 .price-unit{font-size:12px;color:var(--muted);font-weight:600;letter-spacing:.04em}
 
+.margin-line{
+  display:flex;align-items:center;gap:6px;
+  font-size:11px;
+  font-family:ui-monospace,SFMono-Regular,Menlo,monospace;
+  color:var(--muted);
+  margin-top:2px;
+  letter-spacing:-0.01em;
+}
+.margin-line .arrow{opacity:.6;font-size:10px}
+.margin-line .margin-wholesale{color:var(--fg-soft)}
+.margin-line .margin-dot{width:3px;height:3px;border-radius:50%;background:var(--muted-dim)}
+.margin-line .margin-pct{font-weight:700}
+.margin-low .margin-pct{color:#3ddc84}
+.margin-mid .margin-pct{color:var(--gold)}
+.margin-high .margin-pct{color:var(--hot)}
+
+.asking-line{
+  font-size:10px;
+  font-family:ui-monospace,SFMono-Regular,Menlo,monospace;
+  color:var(--muted-dim);
+  margin-top:1px;
+  letter-spacing:.02em;
+}
+
 .meta{
   color:var(--fg-soft);font-size:13px;
   display:flex;flex-wrap:wrap;align-items:center;gap:8px;
@@ -346,9 +406,29 @@ main.grid{
 .meta-unit{color:var(--muted);font-size:11px}
 .meta-dot{width:3px;height:3px;border-radius:50%;background:var(--muted-dim)}
 
+.auction-strip{
+  display:flex;align-items:center;gap:8px;
+  font-size:11px;
+  font-family:ui-monospace,SFMono-Regular,Menlo,monospace;
+  color:var(--muted);
+  margin-top:8px;padding:6px 10px;
+  background:rgba(127,127,127,.06);
+  border:1px solid var(--border);
+  border-radius:8px;
+}
+.auction-strip .auction-type{
+  color:var(--fg-soft);
+  letter-spacing:.04em;
+  text-transform:uppercase;
+  font-weight:600;
+  font-size:10px;
+}
+.auction-strip .auction-bids.has-bids{color:var(--fg-soft);font-weight:600}
+.auction-strip .bidders{color:var(--muted);font-weight:500}
+
 .stamp{
   display:flex;align-items:center;justify-content:space-between;gap:8px;
-  margin-top:8px;padding-top:10px;
+  margin-top:6px;padding-top:8px;
   border-top:1px solid var(--border);
   color:var(--muted);font-size:11px;
   font-family:ui-monospace,SFMono-Regular,Menlo,monospace;
@@ -436,6 +516,17 @@ function fmtPriceShort(n: number): string {
   if (n >= 1_000_000) return `${(n / 1_000_000).toFixed(2)}M`;
   if (n >= 1_000) return `${Math.round(n / 1_000)}K`;
   return String(n);
+}
+
+function fmtAuctionTypeLabel(t: string | null): string {
+  if (!t) return "auction";
+  return t.toLowerCase();
+}
+
+function marginTier(pct: number): "low" | "mid" | "high" {
+  if (pct < 15) return "low";
+  if (pct < 30) return "mid";
+  return "high";
 }
 
 function renderStats(s: Stats): string {

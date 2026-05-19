@@ -1,5 +1,5 @@
 import type { SylndrItem } from "./types.ts";
-import { retailPrice } from "./types.ts";
+import { retailPrice, sylndrMargin, auctionInfo } from "./types.ts";
 
 const NTFY_BASE = "https://ntfy.sh";
 
@@ -40,9 +40,17 @@ function buildPayload(kind: NtfyKind, payload: { items?: SylndrItem[]; message?:
   if (items.length === 1) {
     const it = items[0];
     const beingSold = it.auction?.status === "BEING_SOLD";
+    const margin = sylndrMargin(it);
+    const auction = auctionInfo(it);
+    const lines = [
+      `${fmtPrice(retailPrice(it))} EGP · ${it.vehicle.kilometrage ?? "?"} km`,
+    ];
+    if (margin) lines.push(`Sylndr margin: ${margin.pct.toFixed(0)}%`);
+    if (auction && auction.bids > 0) lines.push(`${auction.bids} bids · ${auction.bidders} bidders`);
+    if (beingSold) lines.push("🔥 in auction");
     return {
-      title: `New Sylndr listing: ${listingTitle(it)}`,
-      message: `${fmtPrice(retailPrice(it))} · ${it.vehicle.kilometrage ?? "?"} km${beingSold ? " · 🔥 in auction" : ""}`,
+      title: `New Sylndr: ${listingTitle(it)}`,
+      message: lines.join(" · "),
       click: listingUrl(it),
       tags: beingSold ? ["fire", "car"] : ["car"],
       priority: beingSold ? 4 : 3,
