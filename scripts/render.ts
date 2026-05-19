@@ -107,21 +107,46 @@ export function renderCard(snap: Snapshot, opts: { compact?: boolean } = {}): st
     ? `<img src="${escapeHtml(photo)}" alt="${escapeHtml(title)}" loading="lazy" />`
     : `<div class="no-photo">no photo</div>`;
 
-  const badge = beingSold ? `<span class="badge badge-hot">&#128293; in auction</span>` : "";
+  const badge = beingSold ? `<span class="badge badge-hot">&#128293; sold</span>` : "";
 
-  const marginLine = margin
-    ? `<div class="margin-line margin-${marginTier(margin.pct)}" title="Sylndr offered the seller ${fmt(wholesale)} EGP; selling to you at ${fmt(retail)} EGP">
-        <span class="arrow">&darr;</span>
-        <span class="margin-wholesale">${escapeHtml(fmtPriceShort(wholesale))} wholesale</span>
-        <span class="margin-dot"></span>
-        <span class="margin-pct">${margin.pct.toFixed(0)}% margin</span>
-      </div>`
+  const winningBidAmount = auction?.winnerAmount ?? null;
+  const winningDiscount =
+    winningBidAmount && retail > 0
+      ? Math.round((1 - winningBidAmount / retail) * 100)
+      : null;
+
+  const ladderRows: string[] = [];
+
+  if (wholesale > 0 && margin) {
+    ladderRows.push(
+      `<div class="pl-row" title="Sylndr offered the seller ${fmt(wholesale)} EGP">
+        <dt>Sylndr price</dt>
+        <dd><span class="pl-val">${escapeHtml(fmtPriceShort(wholesale))}</span><span class="pl-tag pl-margin-${marginTier(margin.pct)}">${margin.pct.toFixed(0)}% margin</span></dd>
+      </div>`,
+    );
+  }
+
+  if (asked > 0 && asked !== wholesale) {
+    ladderRows.push(
+      `<div class="pl-row" title="What the seller originally asked for">
+        <dt>Expected</dt>
+        <dd>${escapeHtml(fmtPriceShort(asked))}</dd>
+      </div>`,
+    );
+  }
+
+  if (winningBidAmount && winningDiscount != null) {
+    ladderRows.push(
+      `<div class="pl-row pl-sold" title="Winning bid amount accepted by Sylndr — sale in progress">
+        <dt>Auction price</dt>
+        <dd><span class="pl-val">${escapeHtml(fmtPriceShort(winningBidAmount))}</span><span class="pl-tag pl-discount">${winningDiscount}% under</span></dd>
+      </div>`,
+    );
+  }
+
+  const priceLadder = ladderRows.length
+    ? `<dl class="price-ladder">${ladderRows.join("")}</dl>`
     : "";
-
-  const askingLine =
-    asked > 0 && asked !== wholesale
-      ? `<div class="asking-line" title="The seller originally asked this price">seller asked ${escapeHtml(fmtPriceShort(asked))}</div>`
-      : "";
 
   const auctionStrip = auction
     ? `<div class="auction-strip">
@@ -143,8 +168,7 @@ export function renderCard(snap: Snapshot, opts: { compact?: boolean } = {}): st
     </div>
     <a class="title" href="${escapeHtml(url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(title)}</a>
     <div class="price"><span class="price-num">${escapeHtml(price)}</span><span class="price-unit">EGP</span></div>
-    ${marginLine}
-    ${askingLine}
+    ${priceLadder}
     <div class="meta">
       <span class="meta-item">${escapeHtml(km)} <span class="meta-unit">km</span></span>
       <span class="meta-dot"></span>
@@ -373,29 +397,46 @@ main.grid{
 }
 .price-unit{font-size:12px;color:var(--muted);font-weight:600;letter-spacing:.04em}
 
-.margin-line{
-  display:flex;align-items:center;gap:6px;
+.price-ladder{
+  margin:6px 0 4px;
+  padding:0;
+  display:flex;flex-direction:column;gap:3px;
+  font-family:ui-monospace,SFMono-Regular,Menlo,monospace;
   font-size:11px;
-  font-family:ui-monospace,SFMono-Regular,Menlo,monospace;
+  font-variant-numeric:tabular-nums;
+}
+.pl-row{
+  display:flex;align-items:baseline;justify-content:space-between;
+  gap:8px;margin:0;
+}
+.pl-row dt{
   color:var(--muted);
-  margin-top:2px;
-  letter-spacing:-0.01em;
-}
-.margin-line .arrow{opacity:.6;font-size:10px}
-.margin-line .margin-wholesale{color:var(--fg-soft)}
-.margin-line .margin-dot{width:3px;height:3px;border-radius:50%;background:var(--muted-dim)}
-.margin-line .margin-pct{font-weight:700}
-.margin-low .margin-pct{color:#3ddc84}
-.margin-mid .margin-pct{color:var(--gold)}
-.margin-high .margin-pct{color:var(--hot)}
-
-.asking-line{
+  font-weight:500;
+  letter-spacing:.01em;
+  text-transform:lowercase;
   font-size:10px;
-  font-family:ui-monospace,SFMono-Regular,Menlo,monospace;
-  color:var(--muted-dim);
-  margin-top:1px;
-  letter-spacing:.02em;
 }
+.pl-row dd{
+  margin:0;
+  color:var(--fg-soft);
+  display:flex;align-items:baseline;gap:6px;
+}
+.pl-val{color:var(--fg);font-weight:700}
+.pl-tag{
+  font-size:9px;
+  font-weight:700;
+  letter-spacing:.04em;
+  text-transform:uppercase;
+  padding:1px 5px;
+  border-radius:4px;
+  background:rgba(127,127,127,.10);
+}
+.pl-margin-low{color:#3ddc84;background:rgba(61,220,132,.10)}
+.pl-margin-mid{color:var(--gold);background:rgba(245,185,66,.12)}
+.pl-margin-high{color:var(--hot);background:var(--hot-soft)}
+.pl-discount{color:#3ddc84;background:rgba(61,220,132,.12)}
+.pl-sold dt{color:var(--accent);font-weight:700}
+.pl-sold dd .pl-val{color:var(--accent)}
 
 .meta{
   color:var(--fg-soft);font-size:13px;

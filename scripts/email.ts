@@ -68,8 +68,8 @@ function emailCard(item: SylndrItem): string {
   const photo = pickPhoto(item);
   const url = listingUrl(item);
   const beingSold = item.auction?.status === "BEING_SOLD";
-  const priceN = retailPrice(item);
-  const price = priceN > 0 ? `${fmt(priceN)} EGP` : "—";
+  const retailN = retailPrice(item);
+  const price = retailN > 0 ? fmt(retailN) : "—";
   const wholesale = wholesalePrice(item);
   const asked = askingPrice(item);
   const margin = sylndrMargin(item);
@@ -98,12 +98,28 @@ function emailCard(item: SylndrItem): string {
       <div style="font-size:24px;font-weight:700;color:${ACCENT};letter-spacing:-0.02em;line-height:1.1;margin-bottom:6px;font-variant-numeric:tabular-nums">
         ${escapeHtml(price)}<span style="font-size:12px;color:${MUTED};font-weight:600;letter-spacing:.04em;margin-left:4px">EGP</span>
       </div>
-      ${margin
-        ? `<div style="font-size:11px;color:${MUTED};font-family:ui-monospace,SFMono-Regular,Menlo,monospace;margin-bottom:10px">&darr; ${fmt(wholesale)} wholesale &middot; <span style="font-weight:700;color:${margin.pct >= 30 ? HOT : margin.pct >= 15 ? "#a06d00" : "#2c8a52"}">${margin.pct.toFixed(0)}% margin</span></div>`
-        : ""}
-      ${asked > 0 && asked !== wholesale
-        ? `<div style="font-size:10px;color:${MUTED};font-family:ui-monospace,SFMono-Regular,Menlo,monospace;margin-bottom:10px">seller asked ${fmt(asked)} EGP</div>`
-        : ""}
+      ${(() => {
+        const rows: string[] = [];
+        const labelStyle = `font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:10px;color:${MUTED};text-transform:lowercase;letter-spacing:.01em;font-weight:500`;
+        const valStyle = `font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:11px;color:${FG};font-weight:700;font-variant-numeric:tabular-nums`;
+        const tagBase = `font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:9px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;padding:1px 5px;border-radius:4px;margin-left:6px`;
+        if (wholesale > 0 && margin) {
+          const c = margin.pct >= 30 ? HOT : margin.pct >= 15 ? "#a06d00" : "#2c8a52";
+          const bg = margin.pct >= 30 ? "rgba(200,50,69,.10)" : margin.pct >= 15 ? "rgba(245,185,66,.14)" : "rgba(61,220,132,.12)";
+          rows.push(`<tr><td style="${labelStyle};padding:1px 0">Sylndr price</td><td align="right" style="${valStyle};padding:1px 0">${fmt(wholesale)}<span style="${tagBase};color:${c};background:${bg}">${margin.pct.toFixed(0)}% margin</span></td></tr>`);
+        }
+        if (asked > 0 && asked !== wholesale) {
+          rows.push(`<tr><td style="${labelStyle};padding:1px 0">Expected</td><td align="right" style="${valStyle};padding:1px 0">${fmt(asked)}</td></tr>`);
+        }
+        const winner = auction?.winnerAmount ?? null;
+        if (winner && retailN > 0) {
+          const disc = Math.round((1 - winner / retailN) * 100);
+          rows.push(`<tr><td style="${labelStyle};padding:1px 0;color:${ACCENT};font-weight:700">Auction price</td><td align="right" style="${valStyle};padding:1px 0;color:${ACCENT}">${fmt(winner)}<span style="${tagBase};color:#2c8a52;background:rgba(61,220,132,.12)">${disc}% under</span></td></tr>`);
+        }
+        return rows.length
+          ? `<table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="margin:6px 0 4px;border-collapse:collapse">${rows.join("")}</table>`
+          : "";
+      })()}
       <div style="font-size:13px;color:${FG_SOFT};font-variant-numeric:tabular-nums">
         <span>${escapeHtml(km)}</span>
         <span style="color:${MUTED};margin:0 6px">&middot;</span>

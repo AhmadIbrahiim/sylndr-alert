@@ -42,14 +42,19 @@ function buildPayload(kind: NtfyKind, payload: { items?: SylndrItem[]; message?:
     const beingSold = it.auction?.status === "BEING_SOLD";
     const margin = sylndrMargin(it);
     const auction = auctionInfo(it);
-    const lines = [
-      `${fmtPrice(retailPrice(it))} EGP · ${it.vehicle.kilometrage ?? "?"} km`,
-    ];
-    if (margin) lines.push(`Sylndr margin: ${margin.pct.toFixed(0)}%`);
-    if (auction && auction.bids > 0) lines.push(`${auction.bids} bids · ${auction.bidders} bidders`);
-    if (beingSold) lines.push("🔥 in auction");
+    const retail = retailPrice(it);
+    const lines = [`${fmtPrice(retail)} EGP · ${it.vehicle.kilometrage ?? "?"} km`];
+    if (auction?.winnerAmount && retail > 0) {
+      const disc = Math.round((1 - auction.winnerAmount / retail) * 100);
+      lines.push(`sold at ${fmtPrice(auction.winnerAmount)} (${disc}% under)`);
+    } else if (margin) {
+      lines.push(`Sylndr margin: ${margin.pct.toFixed(0)}%`);
+    }
+    if (auction && auction.bids > 0 && !auction.winnerAmount) {
+      lines.push(`${auction.bids} bids · ${auction.bidders} bidders`);
+    }
     return {
-      title: `New Sylndr: ${listingTitle(it)}`,
+      title: `${beingSold ? "🔥 Sold" : "New"} Sylndr: ${listingTitle(it)}`,
       message: lines.join(" · "),
       click: listingUrl(it),
       tags: beingSold ? ["fire", "car"] : ["car"],
