@@ -6,7 +6,7 @@ Polls Sylndr's public `/api/market/vehicles` endpoint, snapshots every car curre
 
 ## How it works
 
-- **Fetch scope**: every listing with `auctionStatuses ∈ {PUBLISHED, BEING_SOLD}` — currently ~800 cars. No body / transmission / price / km filtering at the API level.
+- **Fetch scope**: every listing with `auctionStatuses ∈ {PUBLISHED, BEING_SOLD, SOLD}` — currently ~800 cars. No body / transmission / price / km filtering at the API level.
 - **Diff**: each poll diffs vehicle IDs against `state/seen.json`. New IDs become snapshots and seed the alert digest.
 - **Alerts**: digest mode. One notification per poll says "N new listings" with 3 highlight cards and a link to the dashboard. No per-listing email spam.
 - **Dashboard**: all ~800 cars rendered as cards. Sticky filter bar at the top filters in-browser by body, transmission, status, price, km, year, and free-text search. Sort by listed-date, price, margin, km, or year. Filter state persists in the URL hash so views are bookmarkable.

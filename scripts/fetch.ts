@@ -14,7 +14,7 @@ const RETRY_BACKOFF_MS = 1500;
  *  Sylndr. Filter narrowing is done client-side in the dashboard. */
 export const FETCH_SCOPE: Filters = {
   size: PAGE_SIZE,
-  auctionStatuses: ["PUBLISHED", "BEING_SOLD"],
+  auctionStatuses: ["PUBLISHED", "BEING_SOLD", "SOLD"],
 };
 
 async function fetchPage(filters: Filters, page: number): Promise<SylndrResponse> {
@@ -66,5 +66,5 @@ export async function fetchAllMatching(filters: Filters = FETCH_SCOPE): Promise<
 
 if (import.meta.main) {
   const items = await fetchAllMatching();
-  console.log(`fetched ${items.length} vehicles (scope=all PUBLISHED/BEING_SOLD)`);
+  console.log(`fetched ${items.length} vehicles (scope=all PUBLISHED/BEING_SOLD/SOLD)`);
 }
