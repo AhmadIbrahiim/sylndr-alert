@@ -911,7 +911,7 @@ export function renderPage(snapshots: Snapshot[]): string {
         <div class="brand-tag">personal &middot; auto-refreshed during EST business hours</div>
       </div>
     </div>
-    <div class="updated"><span class="pulse"></span>updated ${renderedUtc}</div>
+    <div class="updated"><span class="pulse"></span>Updated ${renderedUtc}</div>
   </div>
   ${renderStatsBar(snapshots.length)}
   ${renderFilterBar(facets)}
