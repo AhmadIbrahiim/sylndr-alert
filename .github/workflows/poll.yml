@@ -1,15 +1,15 @@
 name: poll
 
 on:
-  # 9 AM – 5:45 PM Cairo time, every 15 min — 36 runs/day
+  # 8 AM – 7 PM Cairo time, every 15 min — 45 runs/day
   # Anchored to UTC; assumes EEST (UTC+3, summer). In winter (EET, UTC+2)
-  # local-time window shifts to 8:00 AM – 4:45 PM. Bump hours +1 to
-  # restore 9 AM – 5:45 PM if running in winter.
+  # local-time window shifts to 7:00 AM – 6:00 PM.
   schedule:
     # Explicit minute list (`0,15,30,45`) instead of `*/15` — same behavior,
     # but GitHub's scheduler indexes the explicit form more reliably after
     # workflow file rewrites.
-    - cron: "0,15,30,45 6-14 * * *"
+    - cron: "0,15,30,45 5-15 * * *"
+    - cron: "0 16 * * *"
   # Manual trigger
   workflow_dispatch: {}
   # Trigger immediately when code changes are pushed
