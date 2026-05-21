@@ -774,6 +774,28 @@ const FILTER_JS = `
   const priceStat = document.querySelector('[data-stat="price-range"]');
   const marginStat = document.querySelector('[data-stat="avg-margin"]');
   const fmt = (n) => n >= 1e6 ? (n/1e6).toFixed(2)+'M' : n >= 1e3 ? Math.round(n/1e3)+'K' : String(n);
+  const updatedRoot = document.querySelector('.updated[data-rendered-at]');
+  const updatedText = updatedRoot ? updatedRoot.querySelector('[data-updated-text]') : null;
+
+  function fmtUpdatedAgo(iso) {
+    const ts = new Date(iso).getTime();
+    if (!Number.isFinite(ts)) return 'just now';
+    const dt = Date.now() - ts;
+    if (dt < 60_000) return 'just now';
+    const min = Math.floor(dt / 60_000);
+    if (min < 60) return min + ' minute' + (min === 1 ? '' : 's') + ' ago';
+    const hr = Math.floor(min / 60);
+    if (hr < 24) return hr + ' hour' + (hr === 1 ? '' : 's') + ' ago';
+    const day = Math.floor(hr / 24);
+    return day + ' day' + (day === 1 ? '' : 's') + ' ago';
+  }
+
+  function refreshUpdatedLabel() {
+    if (!updatedRoot || !updatedText) return;
+    const iso = updatedRoot.getAttribute('data-rendered-at');
+    if (!iso) return;
+    updatedText.textContent = '(Updated ' + fmtUpdatedAgo(iso) + ')';
+  }
 
   function readParams() {
     const p = new URLSearchParams(location.hash.slice(1) || location.search.slice(1));
@@ -878,6 +900,8 @@ const FILTER_JS = `
     history.replaceState(null, '', location.pathname);
     apply();
   });
+  refreshUpdatedLabel();
+  setInterval(refreshUpdatedLabel, 30_000);
   readParams();
   apply();
 })();
@@ -889,7 +913,7 @@ export function renderPage(snapshots: Snapshot[]): string {
     ? snapshots.map((s) => renderCard(s)).join("\n")
     : `<div class="empty"><h2>No listings yet</h2><div>The next cron run will seed the watch list.</div></div>`;
   const now = new Date();
-  const renderedUtc = `${now.toISOString().slice(0, 16).replace("T", " ")} UTC`;
+  const renderedIso = now.toISOString();
   return `<!doctype html>
 <html lang="en">
 <head>
@@ -911,7 +935,7 @@ export function renderPage(snapshots: Snapshot[]): string {
         <div class="brand-tag">personal &middot; auto-refreshed during EST business hours</div>
       </div>
     </div>
-    <div class="updated"><span class="pulse"></span>(Updated ${renderedUtc})</div>
+    <div class="updated" data-rendered-at="${renderedIso}"><span class="pulse"></span><span data-updated-text>(Updated just now)</span></div>
   </div>
   ${renderStatsBar(snapshots.length)}
   ${renderFilterBar(facets)}
