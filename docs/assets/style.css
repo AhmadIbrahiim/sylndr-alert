@@ -1034,6 +1034,38 @@ footer a:hover{color:var(--accent);border-color:var(--accent)}
   color:var(--accent);
 }
 .ins-finding-comment-text{white-space:pre-wrap;font-family:inherit}
+.ins-finding-comment-list{
+  margin:2px 0 0;padding:0;
+  list-style:none;
+  display:flex;flex-direction:column;gap:3px;
+  font-family:inherit;
+}
+.ins-finding-comment-list li{
+  position:relative;
+  padding-block:2px;
+  padding-inline-start:14px;
+  line-height:1.5;
+}
+.ins-finding-comment-list li::before{
+  content:"•";
+  position:absolute;top:1px;
+  inset-inline-start:2px;
+  color:var(--accent);font-weight:700;
+}
+
+.ins-finding-val-chips{
+  display:flex;flex-wrap:wrap;gap:4px;
+  background:transparent;border:0;padding:0;
+}
+.ins-val-chip{
+  display:inline-block;
+  background:var(--panel-2);
+  border:1px solid var(--border);
+  border-radius:6px;
+  padding:4px 8px;
+  font:11px/1.3 ui-monospace,SFMono-Regular,Menlo,monospace;
+  color:var(--fg);font-weight:500;
+}
 .ins-finding.ins-ok .ins-finding-label{color:var(--muted)}
 .ins-finding.ins-ok .ins-finding-val{display:none}
 

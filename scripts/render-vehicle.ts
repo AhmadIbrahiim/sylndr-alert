@@ -289,6 +289,52 @@ function severityLabel(locale: Locale, s: "clean" | "minor" | "many"): string {
   return t(locale, ("inspection.severity." + s) as Parameters<typeof t>[1]);
 }
 
+/** Break an inspector free-text comment into bullet lines.
+ *  Inspectors use newlines (mostly in Arabic) AND " / " separators
+ *  (mostly in the English translation). Both should render as bullets. */
+function splitInspectorNote(text: string): string[] {
+  return text
+    .split(/\n+|\s+\/\s+/)
+    .map((line) => line.replace(/^[\s.,،]+|[\s.,،]+$/g, ""))
+    .filter((line) => line.length > 0);
+}
+
+function renderInspectorNote(text: string, locale: Locale): string {
+  const items = splitInspectorNote(text);
+  if (items.length === 0) return "";
+  const noteLabel = escapeHtml(t(locale, "inspection.finding.note"));
+  if (items.length === 1) {
+    return `<div class="ins-finding-comment" dir="auto">
+      <span class="ins-finding-comment-key">${noteLabel}</span>
+      <span class="ins-finding-comment-text">${escapeHtml(items[0]!)}</span>
+    </div>`;
+  }
+  const bullets = items.map((line) => `<li dir="auto">${escapeHtml(line)}</li>`).join("");
+  return `<div class="ins-finding-comment" dir="auto">
+    <span class="ins-finding-comment-key">${noteLabel}</span>
+    <ul class="ins-finding-comment-list">${bullets}</ul>
+  </div>`;
+}
+
+function splitInspectorValue(text: string): string[] {
+  // Multi-select inspector values use ", " (or "، ") to join several entries.
+  return text
+    .split(/\s*[,،]\s+/)
+    .map((s) => s.trim())
+    .filter((s) => s.length > 0);
+}
+
+function renderFindingValue(value: string): string {
+  const parts = splitInspectorValue(value);
+  if (parts.length <= 1) {
+    return `<div class="ins-finding-val">${escapeHtml(value)}</div>`;
+  }
+  const chips = parts
+    .map((p) => `<span class="ins-val-chip" dir="auto">${escapeHtml(p)}</span>`)
+    .join("");
+  return `<div class="ins-finding-val ins-finding-val-chips">${chips}</div>`;
+}
+
 function renderFindingRow(a: SylndrInspectionAnswer, locale: Locale): string {
   const label = inspectionLabel(a, locale);
   const value = inspectionValue(a, locale);
@@ -306,8 +352,8 @@ function renderFindingRow(a: SylndrInspectionAnswer, locale: Locale): string {
       ${tagText ? `<span class="ins-tag ${tone}">${escapeHtml(tagText)}</span>` : ""}
       <span class="ins-finding-label">${escapeHtml(label)}</span>
     </div>
-    ${value ? `<div class="ins-finding-val">${escapeHtml(value)}</div>` : ""}
-    ${comment ? `<div class="ins-finding-comment" dir="auto"><span class="ins-finding-comment-key">${escapeHtml(t(locale, "inspection.finding.note"))}</span><span class="ins-finding-comment-text">${escapeHtml(comment)}</span></div>` : ""}
+    ${value ? renderFindingValue(value) : ""}
+    ${comment ? renderInspectorNote(comment, locale) : ""}
   </div>`;
 }
 
