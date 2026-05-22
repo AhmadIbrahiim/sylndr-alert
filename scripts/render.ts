@@ -67,7 +67,7 @@ function slug(s: string | null | undefined): string {
 function listingUrl(snap: Snapshot): string {
   const make = slug(snap.vehicle.carMake?.name);
   const model = slug(snap.vehicle.carModel?.name);
-  return `https://sylndr.com/en/car-details/used-cars/${make}/${model}/${snap.vehicle.id}`;
+  return `https://sylndr.com/ar/car-details/used-cars/${make}/${model}/${snap.vehicle.id}`;
 }
 
 function escapeHtml(s: string): string {
