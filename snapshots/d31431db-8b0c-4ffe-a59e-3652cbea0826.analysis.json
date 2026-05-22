@@ -1,0 +1,74 @@
+{
+  "vehicleId": "d31431db-8b0c-4ffe-a59e-3652cbea0826",
+  "computedAt": "2026-05-22T22:07:52.166Z",
+  "cohort": {
+    "sameModelCount": 3,
+    "sameYearCount": 1,
+    "refCohort": "model",
+    "refSize": 3
+  },
+  "pricePercentile": 33,
+  "pricePerKm": 9.617234083477593,
+  "pricePerKmPercentile": 0,
+  "kmPercentile": 67,
+  "daysListed": 3,
+  "marginPct": 33.32,
+  "marginTier": "high",
+  "auctionHeat": "cold",
+  "dealTag": "good",
+  "bullets": [
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.deal",
+      "textKey": "bullet.priceCheaper",
+      "textArgs": {
+        "pct": 67,
+        "n": 3,
+        "kind": "detail.cohort.refSize.kind.model"
+      }
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.value",
+      "textKey": "bullet.ppkmBetter",
+      "textArgs": {
+        "pct": 100,
+        "ppkm": 10
+      }
+    },
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.km",
+      "textKey": "bullet.kmLower",
+      "textArgs": {
+        "pct": 33
+      }
+    },
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.marginPct",
+      "pipArgs": {
+        "pct": "33"
+      },
+      "textKey": "bullet.marginHigh"
+    },
+    {
+      "tone": "neutral",
+      "pipKey": "bullet.pip.cold",
+      "textKey": "bullet.auctionCold"
+    }
+  ],
+  "summary": {
+    "verdictKey": "summary.verdict.good",
+    "cohortLineKey": "summary.cohortLine.yes",
+    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "ageSuffixKey": null,
+    "heatSuffixKey": null,
+    "marginSuffixKey": "summary.suffix.marginHigh",
+    "args": {
+      "refSize": 3,
+      "year": "2018",
+      "title": "Mercedes-Benz E180"
+    }
+  }
+}

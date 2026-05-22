@@ -1,0 +1,74 @@
+{
+  "vehicleId": "4d43628f-f24b-4a89-abf8-a74da1b9984d",
+  "computedAt": "2026-05-22T22:07:52.141Z",
+  "cohort": {
+    "sameModelCount": 7,
+    "sameYearCount": 1,
+    "refCohort": "model",
+    "refSize": 7
+  },
+  "pricePercentile": 0,
+  "pricePerKm": 1.8950774208458516,
+  "pricePerKmPercentile": 29,
+  "kmPercentile": 43,
+  "daysListed": 6,
+  "marginPct": 21.951219512195124,
+  "marginTier": "mid",
+  "auctionHeat": "warm",
+  "dealTag": "good",
+  "bullets": [
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.deal",
+      "textKey": "bullet.priceCheaper",
+      "textArgs": {
+        "pct": 100,
+        "n": 7,
+        "kind": "detail.cohort.refSize.kind.model"
+      }
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.value",
+      "textKey": "bullet.ppkmBetter",
+      "textArgs": {
+        "pct": 71,
+        "ppkm": 2
+      }
+    },
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.km",
+      "textKey": "bullet.kmLower",
+      "textArgs": {
+        "pct": 57
+      }
+    },
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.marginPct",
+      "pipArgs": {
+        "pct": "22"
+      },
+      "textKey": "bullet.marginMid"
+    },
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.warm",
+      "textKey": "bullet.auctionWarm"
+    }
+  ],
+  "summary": {
+    "verdictKey": "summary.verdict.good",
+    "cohortLineKey": "summary.cohortLine.yes",
+    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "ageSuffixKey": null,
+    "heatSuffixKey": null,
+    "marginSuffixKey": null,
+    "args": {
+      "refSize": 7,
+      "year": "2006",
+      "title": "Kia Cerato"
+    }
+  }
+}

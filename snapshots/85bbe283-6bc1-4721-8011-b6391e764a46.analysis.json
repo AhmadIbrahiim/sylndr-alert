@@ -1,0 +1,85 @@
+{
+  "vehicleId": "85bbe283-6bc1-4721-8011-b6391e764a46",
+  "computedAt": "2026-05-22T22:07:52.177Z",
+  "cohort": {
+    "sameModelCount": 12,
+    "sameYearCount": 3,
+    "refCohort": "model",
+    "refSize": 12
+  },
+  "pricePercentile": 8,
+  "pricePerKm": 3.8526912181303117,
+  "pricePerKmPercentile": 8,
+  "kmPercentile": 67,
+  "daysListed": 105,
+  "marginPct": 17.647058823529413,
+  "marginTier": "mid",
+  "auctionHeat": "hot",
+  "dealTag": "good",
+  "bullets": [
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.deal",
+      "textKey": "bullet.priceCheaper",
+      "textArgs": {
+        "pct": 92,
+        "n": 12,
+        "kind": "detail.cohort.refSize.kind.model"
+      }
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.value",
+      "textKey": "bullet.ppkmBetter",
+      "textArgs": {
+        "pct": 92,
+        "ppkm": 4
+      }
+    },
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.km",
+      "textKey": "bullet.kmLower",
+      "textArgs": {
+        "pct": 33
+      }
+    },
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.marginPct",
+      "pipArgs": {
+        "pct": "18"
+      },
+      "textKey": "bullet.marginMid"
+    },
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.hot",
+      "textKey": "bullet.auctionHot"
+    },
+    {
+      "tone": "neutral",
+      "pipKey": "bullet.pip.daysListed",
+      "pipArgs": {
+        "n": 105
+      },
+      "textKey": "bullet.listedOld",
+      "textArgs": {
+        "n": 105
+      }
+    }
+  ],
+  "summary": {
+    "verdictKey": "summary.verdict.good",
+    "cohortLineKey": "summary.cohortLine.yes",
+    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "ageSuffixKey": "summary.suffix.ageOld",
+    "heatSuffixKey": "summary.suffix.heatHot",
+    "marginSuffixKey": null,
+    "args": {
+      "refSize": 12,
+      "year": "2016",
+      "title": "Jeep Renegade"
+    }
+  }
+}

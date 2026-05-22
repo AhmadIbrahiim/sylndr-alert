@@ -1,0 +1,85 @@
+{
+  "vehicleId": "ec0f4c83-6b0c-4e74-b5be-c97a142fd38e",
+  "computedAt": "2026-05-22T22:07:52.164Z",
+  "cohort": {
+    "sameModelCount": 21,
+    "sameYearCount": 4,
+    "refCohort": "model+year",
+    "refSize": 4
+  },
+  "pricePercentile": 75,
+  "pricePerKm": 28.660436137071652,
+  "pricePerKmPercentile": 75,
+  "kmPercentile": 0,
+  "daysListed": 57,
+  "marginPct": 31.84782608695652,
+  "marginTier": "high",
+  "auctionHeat": "hot",
+  "dealTag": "fair",
+  "bullets": [
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.high",
+      "textKey": "bullet.priceCheaper",
+      "textArgs": {
+        "pct": 25,
+        "n": 4,
+        "kind": "detail.cohort.refSize.kind.modelYear"
+      }
+    },
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.pricey",
+      "textKey": "bullet.ppkmBetter",
+      "textArgs": {
+        "pct": 25,
+        "ppkm": 29
+      }
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.lowKm",
+      "textKey": "bullet.kmLower",
+      "textArgs": {
+        "pct": 100
+      }
+    },
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.marginPct",
+      "pipArgs": {
+        "pct": "32"
+      },
+      "textKey": "bullet.marginHigh"
+    },
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.hot",
+      "textKey": "bullet.auctionHot"
+    },
+    {
+      "tone": "neutral",
+      "pipKey": "bullet.pip.daysListed",
+      "pipArgs": {
+        "n": 57
+      },
+      "textKey": "bullet.listedOld",
+      "textArgs": {
+        "n": 57
+      }
+    }
+  ],
+  "summary": {
+    "verdictKey": "summary.verdict.fair",
+    "cohortLineKey": "summary.cohortLine.yes",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
+    "ageSuffixKey": "summary.suffix.ageOld",
+    "heatSuffixKey": "summary.suffix.heatHot",
+    "marginSuffixKey": "summary.suffix.marginHigh",
+    "args": {
+      "refSize": 4,
+      "year": "2022",
+      "title": "Fiat Tipo"
+    }
+  }
+}

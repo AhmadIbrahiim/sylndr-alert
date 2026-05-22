@@ -1,0 +1,85 @@
+{
+  "vehicleId": "fedb8dab-8096-4339-9155-2c1f66ae6cb6",
+  "computedAt": "2026-05-22T22:07:52.099Z",
+  "cohort": {
+    "sameModelCount": 23,
+    "sameYearCount": 6,
+    "refCohort": "model+year",
+    "refSize": 6
+  },
+  "pricePercentile": 17,
+  "pricePerKm": 10.590207423580786,
+  "pricePerKmPercentile": 50,
+  "kmPercentile": 33,
+  "daysListed": 66,
+  "marginPct": 21.44840077397035,
+  "marginTier": "mid",
+  "auctionHeat": "hot",
+  "dealTag": "good",
+  "bullets": [
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.deal",
+      "textKey": "bullet.priceCheaper",
+      "textArgs": {
+        "pct": 83,
+        "n": 6,
+        "kind": "detail.cohort.refSize.kind.modelYear"
+      }
+    },
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.value",
+      "textKey": "bullet.ppkmBetter",
+      "textArgs": {
+        "pct": 50,
+        "ppkm": 11
+      }
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.lowKm",
+      "textKey": "bullet.kmLower",
+      "textArgs": {
+        "pct": 67
+      }
+    },
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.marginPct",
+      "pipArgs": {
+        "pct": "21"
+      },
+      "textKey": "bullet.marginMid"
+    },
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.hot",
+      "textKey": "bullet.auctionHot"
+    },
+    {
+      "tone": "neutral",
+      "pipKey": "bullet.pip.daysListed",
+      "pipArgs": {
+        "n": 66
+      },
+      "textKey": "bullet.listedOld",
+      "textArgs": {
+        "n": 66
+      }
+    }
+  ],
+  "summary": {
+    "verdictKey": "summary.verdict.good",
+    "cohortLineKey": "summary.cohortLine.yes",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
+    "ageSuffixKey": "summary.suffix.ageOld",
+    "heatSuffixKey": "summary.suffix.heatHot",
+    "marginSuffixKey": null,
+    "args": {
+      "refSize": 6,
+      "year": "2020",
+      "title": "Peugeot 3008"
+    }
+  }
+}

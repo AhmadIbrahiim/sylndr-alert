@@ -1,0 +1,85 @@
+{
+  "vehicleId": "75407983-92b9-4ca8-9427-3490128477f3",
+  "computedAt": "2026-05-22T22:07:52.040Z",
+  "cohort": {
+    "sameModelCount": 6,
+    "sameYearCount": 1,
+    "refCohort": "model",
+    "refSize": 6
+  },
+  "pricePercentile": 0,
+  "pricePerKm": 10.141509433962264,
+  "pricePerKmPercentile": 33,
+  "kmPercentile": 17,
+  "daysListed": 20,
+  "marginPct": 12.093023255813954,
+  "marginTier": "low",
+  "auctionHeat": "hot",
+  "dealTag": "good",
+  "bullets": [
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.deal",
+      "textKey": "bullet.priceCheaper",
+      "textArgs": {
+        "pct": 100,
+        "n": 6,
+        "kind": "detail.cohort.refSize.kind.model"
+      }
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.value",
+      "textKey": "bullet.ppkmBetter",
+      "textArgs": {
+        "pct": 67,
+        "ppkm": 10
+      }
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.lowKm",
+      "textKey": "bullet.kmLower",
+      "textArgs": {
+        "pct": 83
+      }
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.marginPct",
+      "pipArgs": {
+        "pct": "12"
+      },
+      "textKey": "bullet.marginLow"
+    },
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.hot",
+      "textKey": "bullet.auctionHot"
+    },
+    {
+      "tone": "neutral",
+      "pipKey": "bullet.pip.daysListed",
+      "pipArgs": {
+        "n": 20
+      },
+      "textKey": "bullet.listedOld",
+      "textArgs": {
+        "n": 20
+      }
+    }
+  ],
+  "summary": {
+    "verdictKey": "summary.verdict.good",
+    "cohortLineKey": "summary.cohortLine.yes",
+    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "ageSuffixKey": null,
+    "heatSuffixKey": "summary.suffix.heatHot",
+    "marginSuffixKey": "summary.suffix.marginLow",
+    "args": {
+      "refSize": 6,
+      "year": "2019",
+      "title": "Kia Grand Cerato"
+    }
+  }
+}

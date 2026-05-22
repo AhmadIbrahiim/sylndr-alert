@@ -1,0 +1,74 @@
+{
+  "vehicleId": "1ee72105-2769-43e8-82d6-e14138b8fa4a",
+  "computedAt": "2026-05-22T22:07:52.248Z",
+  "cohort": {
+    "sameModelCount": 13,
+    "sameYearCount": 1,
+    "refCohort": "model",
+    "refSize": 13
+  },
+  "pricePercentile": 0,
+  "pricePerKm": 4.581358609794629,
+  "pricePerKmPercentile": 0,
+  "kmPercentile": 62,
+  "daysListed": 6,
+  "marginPct": 23.448275862068964,
+  "marginTier": "mid",
+  "auctionHeat": "hot",
+  "dealTag": "good",
+  "bullets": [
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.deal",
+      "textKey": "bullet.priceCheaper",
+      "textArgs": {
+        "pct": 100,
+        "n": 13,
+        "kind": "detail.cohort.refSize.kind.model"
+      }
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.value",
+      "textKey": "bullet.ppkmBetter",
+      "textArgs": {
+        "pct": 100,
+        "ppkm": 5
+      }
+    },
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.km",
+      "textKey": "bullet.kmLower",
+      "textArgs": {
+        "pct": 38
+      }
+    },
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.marginPct",
+      "pipArgs": {
+        "pct": "23"
+      },
+      "textKey": "bullet.marginMid"
+    },
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.hot",
+      "textKey": "bullet.auctionHot"
+    }
+  ],
+  "summary": {
+    "verdictKey": "summary.verdict.good",
+    "cohortLineKey": "summary.cohortLine.yes",
+    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "ageSuffixKey": null,
+    "heatSuffixKey": "summary.suffix.heatHot",
+    "marginSuffixKey": null,
+    "args": {
+      "refSize": 13,
+      "year": "2014",
+      "title": "Kia Sportage"
+    }
+  }
+}

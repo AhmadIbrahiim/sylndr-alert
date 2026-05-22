@@ -1,0 +1,74 @@
+{
+  "vehicleId": "5a017cb1-a492-449f-8079-319a8bbf9c45",
+  "computedAt": "2026-05-22T22:07:52.108Z",
+  "cohort": {
+    "sameModelCount": 28,
+    "sameYearCount": 1,
+    "refCohort": "model",
+    "refSize": 28
+  },
+  "pricePercentile": 0,
+  "pricePerKm": 0.642801728914995,
+  "pricePerKmPercentile": 0,
+  "kmPercentile": 96,
+  "daysListed": 4,
+  "marginPct": 52.758620689655174,
+  "marginTier": "high",
+  "auctionHeat": "warm",
+  "dealTag": "good",
+  "bullets": [
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.deal",
+      "textKey": "bullet.priceCheaper",
+      "textArgs": {
+        "pct": 100,
+        "n": 28,
+        "kind": "detail.cohort.refSize.kind.model"
+      }
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.value",
+      "textKey": "bullet.ppkmBetter",
+      "textArgs": {
+        "pct": 100,
+        "ppkm": 1
+      }
+    },
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.highKm",
+      "textKey": "bullet.kmLower",
+      "textArgs": {
+        "pct": 4
+      }
+    },
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.marginPct",
+      "pipArgs": {
+        "pct": "53"
+      },
+      "textKey": "bullet.marginHigh"
+    },
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.warm",
+      "textKey": "bullet.auctionWarm"
+    }
+  ],
+  "summary": {
+    "verdictKey": "summary.verdict.good",
+    "cohortLineKey": "summary.cohortLine.yes",
+    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "ageSuffixKey": null,
+    "heatSuffixKey": null,
+    "marginSuffixKey": "summary.suffix.marginHigh",
+    "args": {
+      "refSize": 28,
+      "year": "2005",
+      "title": "Renault Megane"
+    }
+  }
+}

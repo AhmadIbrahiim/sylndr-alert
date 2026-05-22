@@ -1,0 +1,85 @@
+{
+  "vehicleId": "b456de6f-b9cc-46ec-9010-ad64942d09b1",
+  "computedAt": "2026-05-22T22:07:52.006Z",
+  "cohort": {
+    "sameModelCount": 4,
+    "sameYearCount": 1,
+    "refCohort": "model",
+    "refSize": 4
+  },
+  "pricePercentile": 75,
+  "pricePerKm": 84.63022508038586,
+  "pricePerKmPercentile": 75,
+  "kmPercentile": 0,
+  "daysListed": 22,
+  "marginPct": 46.58054711246201,
+  "marginTier": "high",
+  "auctionHeat": "hot",
+  "dealTag": "fair",
+  "bullets": [
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.high",
+      "textKey": "bullet.priceCheaper",
+      "textArgs": {
+        "pct": 25,
+        "n": 4,
+        "kind": "detail.cohort.refSize.kind.model"
+      }
+    },
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.pricey",
+      "textKey": "bullet.ppkmBetter",
+      "textArgs": {
+        "pct": 25,
+        "ppkm": 85
+      }
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.lowKm",
+      "textKey": "bullet.kmLower",
+      "textArgs": {
+        "pct": 100
+      }
+    },
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.marginPct",
+      "pipArgs": {
+        "pct": "47"
+      },
+      "textKey": "bullet.marginHigh"
+    },
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.hot",
+      "textKey": "bullet.auctionHot"
+    },
+    {
+      "tone": "neutral",
+      "pipKey": "bullet.pip.daysListed",
+      "pipArgs": {
+        "n": 22
+      },
+      "textKey": "bullet.listedOld",
+      "textArgs": {
+        "n": 22
+      }
+    }
+  ],
+  "summary": {
+    "verdictKey": "summary.verdict.fair",
+    "cohortLineKey": "summary.cohortLine.yes",
+    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "ageSuffixKey": null,
+    "heatSuffixKey": "summary.suffix.heatHot",
+    "marginSuffixKey": "summary.suffix.marginHigh",
+    "args": {
+      "refSize": 4,
+      "year": "2019",
+      "title": "Mitsubishi Eclipse"
+    }
+  }
+}

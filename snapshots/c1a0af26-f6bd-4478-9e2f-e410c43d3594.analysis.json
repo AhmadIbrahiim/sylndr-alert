@@ -1,0 +1,85 @@
+{
+  "vehicleId": "c1a0af26-f6bd-4478-9e2f-e410c43d3594",
+  "computedAt": "2026-05-22T22:07:52.137Z",
+  "cohort": {
+    "sameModelCount": 3,
+    "sameYearCount": 1,
+    "refCohort": "model",
+    "refSize": 3
+  },
+  "pricePercentile": 0,
+  "pricePerKm": 2.5226765799256508,
+  "pricePerKmPercentile": 0,
+  "kmPercentile": 67,
+  "daysListed": 23,
+  "marginPct": 22.319060250094733,
+  "marginTier": "mid",
+  "auctionHeat": "hot",
+  "dealTag": "good",
+  "bullets": [
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.deal",
+      "textKey": "bullet.priceCheaper",
+      "textArgs": {
+        "pct": 100,
+        "n": 3,
+        "kind": "detail.cohort.refSize.kind.model"
+      }
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.value",
+      "textKey": "bullet.ppkmBetter",
+      "textArgs": {
+        "pct": 100,
+        "ppkm": 3
+      }
+    },
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.km",
+      "textKey": "bullet.kmLower",
+      "textArgs": {
+        "pct": 33
+      }
+    },
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.marginPct",
+      "pipArgs": {
+        "pct": "22"
+      },
+      "textKey": "bullet.marginMid"
+    },
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.hot",
+      "textKey": "bullet.auctionHot"
+    },
+    {
+      "tone": "neutral",
+      "pipKey": "bullet.pip.daysListed",
+      "pipArgs": {
+        "n": 23
+      },
+      "textKey": "bullet.listedOld",
+      "textArgs": {
+        "n": 23
+      }
+    }
+  ],
+  "summary": {
+    "verdictKey": "summary.verdict.good",
+    "cohortLineKey": "summary.cohortLine.yes",
+    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "ageSuffixKey": null,
+    "heatSuffixKey": "summary.suffix.heatHot",
+    "marginSuffixKey": null,
+    "args": {
+      "refSize": 3,
+      "year": "2015",
+      "title": "Ford Fiesta"
+    }
+  }
+}

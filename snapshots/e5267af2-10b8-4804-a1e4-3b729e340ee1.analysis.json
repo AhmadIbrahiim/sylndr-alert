@@ -1,0 +1,85 @@
+{
+  "vehicleId": "e5267af2-10b8-4804-a1e4-3b729e340ee1",
+  "computedAt": "2026-05-22T22:07:52.123Z",
+  "cohort": {
+    "sameModelCount": 8,
+    "sameYearCount": 1,
+    "refCohort": "model",
+    "refSize": 8
+  },
+  "pricePercentile": 63,
+  "pricePerKm": 21.829855537720707,
+  "pricePerKmPercentile": 63,
+  "kmPercentile": 0,
+  "daysListed": 44,
+  "marginPct": 23.333333333333332,
+  "marginTier": "mid",
+  "auctionHeat": "hot",
+  "dealTag": "fair",
+  "bullets": [
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.mid",
+      "textKey": "bullet.priceCheaper",
+      "textArgs": {
+        "pct": 37,
+        "n": 8,
+        "kind": "detail.cohort.refSize.kind.model"
+      }
+    },
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.value",
+      "textKey": "bullet.ppkmBetter",
+      "textArgs": {
+        "pct": 37,
+        "ppkm": 22
+      }
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.lowKm",
+      "textKey": "bullet.kmLower",
+      "textArgs": {
+        "pct": 100
+      }
+    },
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.marginPct",
+      "pipArgs": {
+        "pct": "23"
+      },
+      "textKey": "bullet.marginMid"
+    },
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.hot",
+      "textKey": "bullet.auctionHot"
+    },
+    {
+      "tone": "neutral",
+      "pipKey": "bullet.pip.daysListed",
+      "pipArgs": {
+        "n": 44
+      },
+      "textKey": "bullet.listedOld",
+      "textArgs": {
+        "n": 44
+      }
+    }
+  ],
+  "summary": {
+    "verdictKey": "summary.verdict.fair",
+    "cohortLineKey": "summary.cohortLine.yes",
+    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "ageSuffixKey": "summary.suffix.ageOld",
+    "heatSuffixKey": "summary.suffix.heatHot",
+    "marginSuffixKey": null,
+    "args": {
+      "refSize": 8,
+      "year": "2018",
+      "title": "Jeep Grand Cherokee"
+    }
+  }
+}

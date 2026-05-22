@@ -1,0 +1,58 @@
+{
+  "vehicleId": "3a548ab2-e03e-4749-8b84-bfb80d0e45da",
+  "computedAt": "2026-05-22T22:07:52.126Z",
+  "cohort": {
+    "sameModelCount": 2,
+    "sameYearCount": 1,
+    "refCohort": "model",
+    "refSize": 2
+  },
+  "pricePercentile": null,
+  "pricePerKm": 14.17651146629604,
+  "pricePerKmPercentile": null,
+  "kmPercentile": null,
+  "daysListed": 83,
+  "marginPct": 21.715686274509803,
+  "marginTier": "mid",
+  "auctionHeat": "warm",
+  "dealTag": "fair",
+  "bullets": [
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.marginPct",
+      "pipArgs": {
+        "pct": "22"
+      },
+      "textKey": "bullet.marginMid"
+    },
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.warm",
+      "textKey": "bullet.auctionWarm"
+    },
+    {
+      "tone": "neutral",
+      "pipKey": "bullet.pip.daysListed",
+      "pipArgs": {
+        "n": 83
+      },
+      "textKey": "bullet.listedOld",
+      "textArgs": {
+        "n": 83
+      }
+    }
+  ],
+  "summary": {
+    "verdictKey": "summary.verdict.fair",
+    "cohortLineKey": "summary.cohortLine.yes",
+    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "ageSuffixKey": "summary.suffix.ageOld",
+    "heatSuffixKey": null,
+    "marginSuffixKey": null,
+    "args": {
+      "refSize": 2,
+      "year": "2017",
+      "title": "Land Rover Range Rover Evoque"
+    }
+  }
+}

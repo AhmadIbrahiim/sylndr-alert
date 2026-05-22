@@ -1,0 +1,85 @@
+{
+  "vehicleId": "378fc36f-c9a4-4529-bd47-3530d537024c",
+  "computedAt": "2026-05-22T22:07:52.163Z",
+  "cohort": {
+    "sameModelCount": 13,
+    "sameYearCount": 2,
+    "refCohort": "model",
+    "refSize": 13
+  },
+  "pricePercentile": 0,
+  "pricePerKm": 1.181591368846932,
+  "pricePerKmPercentile": 0,
+  "kmPercentile": 92,
+  "daysListed": 20,
+  "marginPct": 44.073503395537294,
+  "marginTier": "high",
+  "auctionHeat": "hot",
+  "dealTag": "good",
+  "bullets": [
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.deal",
+      "textKey": "bullet.priceCheaper",
+      "textArgs": {
+        "pct": 100,
+        "n": 13,
+        "kind": "detail.cohort.refSize.kind.model"
+      }
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.value",
+      "textKey": "bullet.ppkmBetter",
+      "textArgs": {
+        "pct": 100,
+        "ppkm": 1
+      }
+    },
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.highKm",
+      "textKey": "bullet.kmLower",
+      "textArgs": {
+        "pct": 8
+      }
+    },
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.marginPct",
+      "pipArgs": {
+        "pct": "44"
+      },
+      "textKey": "bullet.marginHigh"
+    },
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.hot",
+      "textKey": "bullet.auctionHot"
+    },
+    {
+      "tone": "neutral",
+      "pipKey": "bullet.pip.daysListed",
+      "pipArgs": {
+        "n": 20
+      },
+      "textKey": "bullet.listedOld",
+      "textArgs": {
+        "n": 20
+      }
+    }
+  ],
+  "summary": {
+    "verdictKey": "summary.verdict.good",
+    "cohortLineKey": "summary.cohortLine.yes",
+    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "ageSuffixKey": null,
+    "heatSuffixKey": "summary.suffix.heatHot",
+    "marginSuffixKey": "summary.suffix.marginHigh",
+    "args": {
+      "refSize": 13,
+      "year": "2015",
+      "title": "Peugeot 301"
+    }
+  }
+}

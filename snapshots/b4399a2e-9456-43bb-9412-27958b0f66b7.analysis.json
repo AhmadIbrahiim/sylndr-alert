@@ -1,0 +1,58 @@
+{
+  "vehicleId": "b4399a2e-9456-43bb-9412-27958b0f66b7",
+  "computedAt": "2026-05-22T22:07:52.101Z",
+  "cohort": {
+    "sameModelCount": 1,
+    "sameYearCount": 1,
+    "refCohort": "model",
+    "refSize": 1
+  },
+  "pricePercentile": null,
+  "pricePerKm": 20.471204188481675,
+  "pricePerKmPercentile": null,
+  "kmPercentile": null,
+  "daysListed": 53,
+  "marginPct": 26.08695652173913,
+  "marginTier": "mid",
+  "auctionHeat": "hot",
+  "dealTag": "fair",
+  "bullets": [
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.marginPct",
+      "pipArgs": {
+        "pct": "26"
+      },
+      "textKey": "bullet.marginMid"
+    },
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.hot",
+      "textKey": "bullet.auctionHot"
+    },
+    {
+      "tone": "neutral",
+      "pipKey": "bullet.pip.daysListed",
+      "pipArgs": {
+        "n": 53
+      },
+      "textKey": "bullet.listedOld",
+      "textArgs": {
+        "n": 53
+      }
+    }
+  ],
+  "summary": {
+    "verdictKey": "summary.verdict.fair",
+    "cohortLineKey": "summary.cohortLine.yes",
+    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "ageSuffixKey": "summary.suffix.ageOld",
+    "heatSuffixKey": "summary.suffix.heatHot",
+    "marginSuffixKey": null,
+    "args": {
+      "refSize": 1,
+      "year": "2024",
+      "title": "GAC GS3 Emzoom"
+    }
+  }
+}

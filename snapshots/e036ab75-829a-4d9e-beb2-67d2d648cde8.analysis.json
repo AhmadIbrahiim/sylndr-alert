@@ -1,0 +1,47 @@
+{
+  "vehicleId": "e036ab75-829a-4d9e-beb2-67d2d648cde8",
+  "computedAt": "2026-05-22T22:07:52.198Z",
+  "cohort": {
+    "sameModelCount": 1,
+    "sameYearCount": 1,
+    "refCohort": "model",
+    "refSize": 1
+  },
+  "pricePercentile": null,
+  "pricePerKm": 6.784260515603799,
+  "pricePerKmPercentile": null,
+  "kmPercentile": null,
+  "daysListed": 3,
+  "marginPct": 35.733333333333334,
+  "marginTier": "high",
+  "auctionHeat": "cold",
+  "dealTag": "fair",
+  "bullets": [
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.marginPct",
+      "pipArgs": {
+        "pct": "36"
+      },
+      "textKey": "bullet.marginHigh"
+    },
+    {
+      "tone": "neutral",
+      "pipKey": "bullet.pip.cold",
+      "textKey": "bullet.auctionCold"
+    }
+  ],
+  "summary": {
+    "verdictKey": "summary.verdict.fair",
+    "cohortLineKey": "summary.cohortLine.yes",
+    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "ageSuffixKey": null,
+    "heatSuffixKey": null,
+    "marginSuffixKey": "summary.suffix.marginHigh",
+    "args": {
+      "refSize": 1,
+      "year": "2020",
+      "title": "Alfa Romeo Giulietta"
+    }
+  }
+}

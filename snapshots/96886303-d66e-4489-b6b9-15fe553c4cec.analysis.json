@@ -1,0 +1,85 @@
+{
+  "vehicleId": "96886303-d66e-4489-b6b9-15fe553c4cec",
+  "computedAt": "2026-05-22T22:07:52.012Z",
+  "cohort": {
+    "sameModelCount": 5,
+    "sameYearCount": 5,
+    "refCohort": "model+year",
+    "refSize": 5
+  },
+  "pricePercentile": 0,
+  "pricePerKm": 13.907831455028354,
+  "pricePerKmPercentile": 0,
+  "kmPercentile": 80,
+  "daysListed": 162,
+  "marginPct": 11.419354838709678,
+  "marginTier": "low",
+  "auctionHeat": "hot",
+  "dealTag": "good",
+  "bullets": [
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.deal",
+      "textKey": "bullet.priceCheaper",
+      "textArgs": {
+        "pct": 100,
+        "n": 5,
+        "kind": "detail.cohort.refSize.kind.modelYear"
+      }
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.value",
+      "textKey": "bullet.ppkmBetter",
+      "textArgs": {
+        "pct": 100,
+        "ppkm": 14
+      }
+    },
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.highKm",
+      "textKey": "bullet.kmLower",
+      "textArgs": {
+        "pct": 20
+      }
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.marginPct",
+      "pipArgs": {
+        "pct": "11"
+      },
+      "textKey": "bullet.marginLow"
+    },
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.hot",
+      "textKey": "bullet.auctionHot"
+    },
+    {
+      "tone": "neutral",
+      "pipKey": "bullet.pip.daysListed",
+      "pipArgs": {
+        "n": 162
+      },
+      "textKey": "bullet.listedOld",
+      "textArgs": {
+        "n": 162
+      }
+    }
+  ],
+  "summary": {
+    "verdictKey": "summary.verdict.good",
+    "cohortLineKey": "summary.cohortLine.yes",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
+    "ageSuffixKey": "summary.suffix.ageOld",
+    "heatSuffixKey": "summary.suffix.heatHot",
+    "marginSuffixKey": "summary.suffix.marginLow",
+    "args": {
+      "refSize": 5,
+      "year": "2021",
+      "title": "Mercedes-Benz A180"
+    }
+  }
+}

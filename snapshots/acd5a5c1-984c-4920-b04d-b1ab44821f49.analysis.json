@@ -1,0 +1,85 @@
+{
+  "vehicleId": "acd5a5c1-984c-4920-b04d-b1ab44821f49",
+  "computedAt": "2026-05-22T22:07:52.012Z",
+  "cohort": {
+    "sameModelCount": 10,
+    "sameYearCount": 1,
+    "refCohort": "model",
+    "refSize": 10
+  },
+  "pricePercentile": 60,
+  "pricePerKm": 10.16370602577499,
+  "pricePerKmPercentile": 40,
+  "kmPercentile": 70,
+  "daysListed": 16,
+  "marginPct": 14.050719671007538,
+  "marginTier": "low",
+  "auctionHeat": "hot",
+  "dealTag": "fair",
+  "bullets": [
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.mid",
+      "textKey": "bullet.priceCheaper",
+      "textArgs": {
+        "pct": 40,
+        "n": 10,
+        "kind": "detail.cohort.refSize.kind.model"
+      }
+    },
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.value",
+      "textKey": "bullet.ppkmBetter",
+      "textArgs": {
+        "pct": 60,
+        "ppkm": 10
+      }
+    },
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.km",
+      "textKey": "bullet.kmLower",
+      "textArgs": {
+        "pct": 30
+      }
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.marginPct",
+      "pipArgs": {
+        "pct": "14"
+      },
+      "textKey": "bullet.marginLow"
+    },
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.hot",
+      "textKey": "bullet.auctionHot"
+    },
+    {
+      "tone": "neutral",
+      "pipKey": "bullet.pip.daysListed",
+      "pipArgs": {
+        "n": 16
+      },
+      "textKey": "bullet.listedOld",
+      "textArgs": {
+        "n": 16
+      }
+    }
+  ],
+  "summary": {
+    "verdictKey": "summary.verdict.fair",
+    "cohortLineKey": "summary.cohortLine.yes",
+    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "ageSuffixKey": null,
+    "heatSuffixKey": "summary.suffix.heatHot",
+    "marginSuffixKey": "summary.suffix.marginLow",
+    "args": {
+      "refSize": 10,
+      "year": "2020",
+      "title": "BMW X1"
+    }
+  }
+}

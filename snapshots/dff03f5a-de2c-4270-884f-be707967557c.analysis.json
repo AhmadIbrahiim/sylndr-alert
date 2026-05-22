@@ -1,0 +1,85 @@
+{
+  "vehicleId": "dff03f5a-de2c-4270-884f-be707967557c",
+  "computedAt": "2026-05-22T22:07:52.210Z",
+  "cohort": {
+    "sameModelCount": 9,
+    "sameYearCount": 2,
+    "refCohort": "model",
+    "refSize": 9
+  },
+  "pricePercentile": 56,
+  "pricePerKm": 7.671480144404332,
+  "pricePerKmPercentile": 56,
+  "kmPercentile": 22,
+  "daysListed": 25,
+  "marginPct": 35.294117647058826,
+  "marginTier": "high",
+  "auctionHeat": "hot",
+  "dealTag": "fair",
+  "bullets": [
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.mid",
+      "textKey": "bullet.priceCheaper",
+      "textArgs": {
+        "pct": 44,
+        "n": 9,
+        "kind": "detail.cohort.refSize.kind.model"
+      }
+    },
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.value",
+      "textKey": "bullet.ppkmBetter",
+      "textArgs": {
+        "pct": 44,
+        "ppkm": 8
+      }
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.lowKm",
+      "textKey": "bullet.kmLower",
+      "textArgs": {
+        "pct": 78
+      }
+    },
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.marginPct",
+      "pipArgs": {
+        "pct": "35"
+      },
+      "textKey": "bullet.marginHigh"
+    },
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.hot",
+      "textKey": "bullet.auctionHot"
+    },
+    {
+      "tone": "neutral",
+      "pipKey": "bullet.pip.daysListed",
+      "pipArgs": {
+        "n": 25
+      },
+      "textKey": "bullet.listedOld",
+      "textArgs": {
+        "n": 25
+      }
+    }
+  ],
+  "summary": {
+    "verdictKey": "summary.verdict.fair",
+    "cohortLineKey": "summary.cohortLine.yes",
+    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "ageSuffixKey": null,
+    "heatSuffixKey": "summary.suffix.heatHot",
+    "marginSuffixKey": "summary.suffix.marginHigh",
+    "args": {
+      "refSize": 9,
+      "year": "2011",
+      "title": "Jeep Wrangler"
+    }
+  }
+}

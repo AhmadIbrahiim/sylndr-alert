@@ -1,0 +1,74 @@
+{
+  "vehicleId": "1ec9234e-4c9b-47a7-a1a7-738d93017669",
+  "computedAt": "2026-05-22T22:07:52.085Z",
+  "cohort": {
+    "sameModelCount": 28,
+    "sameYearCount": 3,
+    "refCohort": "model",
+    "refSize": 28
+  },
+  "pricePercentile": 75,
+  "pricePerKm": 5.7655349135169764,
+  "pricePerKmPercentile": 61,
+  "kmPercentile": 46,
+  "daysListed": 12,
+  "marginPct": 28.333333333333332,
+  "marginTier": "mid",
+  "auctionHeat": "hot",
+  "dealTag": "fair",
+  "bullets": [
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.high",
+      "textKey": "bullet.priceCheaper",
+      "textArgs": {
+        "pct": 25,
+        "n": 28,
+        "kind": "detail.cohort.refSize.kind.model"
+      }
+    },
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.value",
+      "textKey": "bullet.ppkmBetter",
+      "textArgs": {
+        "pct": 39,
+        "ppkm": 6
+      }
+    },
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.km",
+      "textKey": "bullet.kmLower",
+      "textArgs": {
+        "pct": 54
+      }
+    },
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.marginPct",
+      "pipArgs": {
+        "pct": "28"
+      },
+      "textKey": "bullet.marginMid"
+    },
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.hot",
+      "textKey": "bullet.auctionHot"
+    }
+  ],
+  "summary": {
+    "verdictKey": "summary.verdict.fair",
+    "cohortLineKey": "summary.cohortLine.yes",
+    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "ageSuffixKey": null,
+    "heatSuffixKey": "summary.suffix.heatHot",
+    "marginSuffixKey": null,
+    "args": {
+      "refSize": 28,
+      "year": "2021",
+      "title": "Nissan Qashqai"
+    }
+  }
+}

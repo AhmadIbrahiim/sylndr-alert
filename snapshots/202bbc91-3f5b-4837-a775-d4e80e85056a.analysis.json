@@ -1,0 +1,47 @@
+{
+  "vehicleId": "202bbc91-3f5b-4837-a775-d4e80e85056a",
+  "computedAt": "2026-05-22T22:07:52.121Z",
+  "cohort": {
+    "sameModelCount": 2,
+    "sameYearCount": 1,
+    "refCohort": "model",
+    "refSize": 2
+  },
+  "pricePercentile": null,
+  "pricePerKm": 3.701850925462731,
+  "pricePerKmPercentile": null,
+  "kmPercentile": null,
+  "daysListed": 2,
+  "marginPct": 38.108108108108105,
+  "marginTier": "high",
+  "auctionHeat": "cold",
+  "dealTag": "fair",
+  "bullets": [
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.marginPct",
+      "pipArgs": {
+        "pct": "38"
+      },
+      "textKey": "bullet.marginHigh"
+    },
+    {
+      "tone": "neutral",
+      "pipKey": "bullet.pip.cold",
+      "textKey": "bullet.auctionCold"
+    }
+  ],
+  "summary": {
+    "verdictKey": "summary.verdict.fair",
+    "cohortLineKey": "summary.cohortLine.yes",
+    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "ageSuffixKey": null,
+    "heatSuffixKey": null,
+    "marginSuffixKey": "summary.suffix.marginHigh",
+    "args": {
+      "refSize": 2,
+      "year": "2013",
+      "title": "Chevrolet Lanos"
+    }
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "vehicleId": "b1598fc0-79f7-4b4a-a5cd-9fb54770566b",
+  "computedAt": "2026-05-22T22:07:52.087Z",
+  "cohort": {
+    "sameModelCount": 28,
+    "sameYearCount": 1,
+    "refCohort": "model",
+    "refSize": 28
+  },
+  "pricePercentile": 18,
+  "pricePerKm": 1.6396443514644352,
+  "pricePerKmPercentile": 11,
+  "kmPercentile": 89,
+  "daysListed": 98,
+  "marginPct": 29.399255715045186,
+  "marginTier": "mid",
+  "auctionHeat": "hot",
+  "dealTag": "good",
+  "bullets": [
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.deal",
+      "textKey": "bullet.priceCheaper",
+      "textArgs": {
+        "pct": 82,
+        "n": 28,
+        "kind": "detail.cohort.refSize.kind.model"
+      }
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.value",
+      "textKey": "bullet.ppkmBetter",
+      "textArgs": {
+        "pct": 89,
+        "ppkm": 2
+      }
+    },
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.highKm",
+      "textKey": "bullet.kmLower",
+      "textArgs": {
+        "pct": 11
+      }
+    },
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.marginPct",
+      "pipArgs": {
+        "pct": "29"
+      },
+      "textKey": "bullet.marginMid"
+    },
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.hot",
+      "textKey": "bullet.auctionHot"
+    },
+    {
+      "tone": "neutral",
+      "pipKey": "bullet.pip.daysListed",
+      "pipArgs": {
+        "n": 98
+      },
+      "textKey": "bullet.listedOld",
+      "textArgs": {
+        "n": 98
+      }
+    }
+  ],
+  "summary": {
+    "verdictKey": "summary.verdict.good",
+    "cohortLineKey": "summary.cohortLine.yes",
+    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "ageSuffixKey": "summary.suffix.ageOld",
+    "heatSuffixKey": "summary.suffix.heatHot",
+    "marginSuffixKey": null,
+    "args": {
+      "refSize": 28,
+      "year": "2017",
+      "title": "Renault Megane"
+    }
+  }
+}

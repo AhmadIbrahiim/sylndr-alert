@@ -1,0 +1,85 @@
+{
+  "vehicleId": "e660c6ed-6bde-4913-a43b-72b7665352dd",
+  "computedAt": "2026-05-22T22:07:52.050Z",
+  "cohort": {
+    "sameModelCount": 18,
+    "sameYearCount": 2,
+    "refCohort": "model",
+    "refSize": 18
+  },
+  "pricePercentile": 11,
+  "pricePerKm": 3.1520882584712373,
+  "pricePerKmPercentile": 11,
+  "kmPercentile": 72,
+  "daysListed": 88,
+  "marginPct": 20.666666666666668,
+  "marginTier": "mid",
+  "auctionHeat": "hot",
+  "dealTag": "good",
+  "bullets": [
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.deal",
+      "textKey": "bullet.priceCheaper",
+      "textArgs": {
+        "pct": 89,
+        "n": 18,
+        "kind": "detail.cohort.refSize.kind.model"
+      }
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.value",
+      "textKey": "bullet.ppkmBetter",
+      "textArgs": {
+        "pct": 89,
+        "ppkm": 3
+      }
+    },
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.highKm",
+      "textKey": "bullet.kmLower",
+      "textArgs": {
+        "pct": 28
+      }
+    },
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.marginPct",
+      "pipArgs": {
+        "pct": "21"
+      },
+      "textKey": "bullet.marginMid"
+    },
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.hot",
+      "textKey": "bullet.auctionHot"
+    },
+    {
+      "tone": "neutral",
+      "pipKey": "bullet.pip.daysListed",
+      "pipArgs": {
+        "n": 88
+      },
+      "textKey": "bullet.listedOld",
+      "textArgs": {
+        "n": 88
+      }
+    }
+  ],
+  "summary": {
+    "verdictKey": "summary.verdict.good",
+    "cohortLineKey": "summary.cohortLine.yes",
+    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "ageSuffixKey": "summary.suffix.ageOld",
+    "heatSuffixKey": "summary.suffix.heatHot",
+    "marginSuffixKey": null,
+    "args": {
+      "refSize": 18,
+      "year": "2012",
+      "title": "Toyota Corolla"
+    }
+  }
+}

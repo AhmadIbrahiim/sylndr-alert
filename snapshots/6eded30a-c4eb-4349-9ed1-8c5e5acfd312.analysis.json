@@ -1,0 +1,58 @@
+{
+  "vehicleId": "6eded30a-c4eb-4349-9ed1-8c5e5acfd312",
+  "computedAt": "2026-05-22T22:07:52.155Z",
+  "cohort": {
+    "sameModelCount": 2,
+    "sameYearCount": 1,
+    "refCohort": "model",
+    "refSize": 2
+  },
+  "pricePercentile": null,
+  "pricePerKm": 8.98034398034398,
+  "pricePerKmPercentile": null,
+  "kmPercentile": null,
+  "daysListed": 38,
+  "marginPct": 30.323757409940722,
+  "marginTier": "high",
+  "auctionHeat": "warm",
+  "dealTag": "fair",
+  "bullets": [
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.marginPct",
+      "pipArgs": {
+        "pct": "30"
+      },
+      "textKey": "bullet.marginHigh"
+    },
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.warm",
+      "textKey": "bullet.auctionWarm"
+    },
+    {
+      "tone": "neutral",
+      "pipKey": "bullet.pip.daysListed",
+      "pipArgs": {
+        "n": 38
+      },
+      "textKey": "bullet.listedOld",
+      "textArgs": {
+        "n": 38
+      }
+    }
+  ],
+  "summary": {
+    "verdictKey": "summary.verdict.fair",
+    "cohortLineKey": "summary.cohortLine.yes",
+    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "ageSuffixKey": "summary.suffix.ageOld",
+    "heatSuffixKey": null,
+    "marginSuffixKey": "summary.suffix.marginHigh",
+    "args": {
+      "refSize": 2,
+      "year": "2017",
+      "title": "Mercedes-Benz E 180"
+    }
+  }
+}

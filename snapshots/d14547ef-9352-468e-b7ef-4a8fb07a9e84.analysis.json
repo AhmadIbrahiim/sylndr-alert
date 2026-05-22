@@ -1,0 +1,74 @@
+{
+  "vehicleId": "d14547ef-9352-468e-b7ef-4a8fb07a9e84",
+  "computedAt": "2026-05-22T22:07:52.078Z",
+  "cohort": {
+    "sameModelCount": 7,
+    "sameYearCount": 1,
+    "refCohort": "model",
+    "refSize": 7
+  },
+  "pricePercentile": 14,
+  "pricePerKm": 6.578947368421052,
+  "pricePerKmPercentile": 14,
+  "kmPercentile": 71,
+  "daysListed": 8,
+  "marginPct": 25.916666666666664,
+  "marginTier": "mid",
+  "auctionHeat": "cold",
+  "dealTag": "good",
+  "bullets": [
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.deal",
+      "textKey": "bullet.priceCheaper",
+      "textArgs": {
+        "pct": 86,
+        "n": 7,
+        "kind": "detail.cohort.refSize.kind.model"
+      }
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.value",
+      "textKey": "bullet.ppkmBetter",
+      "textArgs": {
+        "pct": 86,
+        "ppkm": 7
+      }
+    },
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.highKm",
+      "textKey": "bullet.kmLower",
+      "textArgs": {
+        "pct": 29
+      }
+    },
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.marginPct",
+      "pipArgs": {
+        "pct": "26"
+      },
+      "textKey": "bullet.marginMid"
+    },
+    {
+      "tone": "neutral",
+      "pipKey": "bullet.pip.cold",
+      "textKey": "bullet.auctionCold"
+    }
+  ],
+  "summary": {
+    "verdictKey": "summary.verdict.good",
+    "cohortLineKey": "summary.cohortLine.yes",
+    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "ageSuffixKey": null,
+    "heatSuffixKey": null,
+    "marginSuffixKey": null,
+    "args": {
+      "refSize": 7,
+      "year": "2012",
+      "title": "BMW X3"
+    }
+  }
+}

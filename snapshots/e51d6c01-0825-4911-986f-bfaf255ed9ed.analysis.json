@@ -1,0 +1,85 @@
+{
+  "vehicleId": "e51d6c01-0825-4911-986f-bfaf255ed9ed",
+  "computedAt": "2026-05-22T22:07:52.091Z",
+  "cohort": {
+    "sameModelCount": 8,
+    "sameYearCount": 2,
+    "refCohort": "model",
+    "refSize": 8
+  },
+  "pricePercentile": 75,
+  "pricePerKm": 259.5419847328244,
+  "pricePerKmPercentile": 88,
+  "kmPercentile": 0,
+  "daysListed": 124,
+  "marginPct": 12.091503267973856,
+  "marginTier": "low",
+  "auctionHeat": "hot",
+  "dealTag": "high",
+  "bullets": [
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.high",
+      "textKey": "bullet.priceCheaper",
+      "textArgs": {
+        "pct": 25,
+        "n": 8,
+        "kind": "detail.cohort.refSize.kind.model"
+      }
+    },
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.pricey",
+      "textKey": "bullet.ppkmBetter",
+      "textArgs": {
+        "pct": 12,
+        "ppkm": 260
+      }
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.lowKm",
+      "textKey": "bullet.kmLower",
+      "textArgs": {
+        "pct": 100
+      }
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.marginPct",
+      "pipArgs": {
+        "pct": "12"
+      },
+      "textKey": "bullet.marginLow"
+    },
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.hot",
+      "textKey": "bullet.auctionHot"
+    },
+    {
+      "tone": "neutral",
+      "pipKey": "bullet.pip.daysListed",
+      "pipArgs": {
+        "n": 124
+      },
+      "textKey": "bullet.listedOld",
+      "textArgs": {
+        "n": 124
+      }
+    }
+  ],
+  "summary": {
+    "verdictKey": "summary.verdict.high",
+    "cohortLineKey": "summary.cohortLine.yes",
+    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "ageSuffixKey": "summary.suffix.ageOld",
+    "heatSuffixKey": "summary.suffix.heatHot",
+    "marginSuffixKey": "summary.suffix.marginLow",
+    "args": {
+      "refSize": 8,
+      "year": "2024",
+      "title": "MG RX5"
+    }
+  }
+}

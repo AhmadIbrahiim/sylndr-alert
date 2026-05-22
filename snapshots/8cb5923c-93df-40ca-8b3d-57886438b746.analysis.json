@@ -1,0 +1,85 @@
+{
+  "vehicleId": "8cb5923c-93df-40ca-8b3d-57886438b746",
+  "computedAt": "2026-05-22T22:07:51.924Z",
+  "cohort": {
+    "sameModelCount": 28,
+    "sameYearCount": 9,
+    "refCohort": "model+year",
+    "refSize": 9
+  },
+  "pricePercentile": 56,
+  "pricePerKm": 4.104477611940299,
+  "pricePerKmPercentile": 0,
+  "kmPercentile": 89,
+  "daysListed": 30,
+  "marginPct": 35.45454545454545,
+  "marginTier": "high",
+  "auctionHeat": "hot",
+  "dealTag": "good",
+  "bullets": [
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.mid",
+      "textKey": "bullet.priceCheaper",
+      "textArgs": {
+        "pct": 44,
+        "n": 9,
+        "kind": "detail.cohort.refSize.kind.modelYear"
+      }
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.value",
+      "textKey": "bullet.ppkmBetter",
+      "textArgs": {
+        "pct": 100,
+        "ppkm": 4
+      }
+    },
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.highKm",
+      "textKey": "bullet.kmLower",
+      "textArgs": {
+        "pct": 11
+      }
+    },
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.marginPct",
+      "pipArgs": {
+        "pct": "35"
+      },
+      "textKey": "bullet.marginHigh"
+    },
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.hot",
+      "textKey": "bullet.auctionHot"
+    },
+    {
+      "tone": "neutral",
+      "pipKey": "bullet.pip.daysListed",
+      "pipArgs": {
+        "n": 30
+      },
+      "textKey": "bullet.listedOld",
+      "textArgs": {
+        "n": 30
+      }
+    }
+  ],
+  "summary": {
+    "verdictKey": "summary.verdict.good",
+    "cohortLineKey": "summary.cohortLine.yes",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
+    "ageSuffixKey": "summary.suffix.ageOld",
+    "heatSuffixKey": "summary.suffix.heatHot",
+    "marginSuffixKey": "summary.suffix.marginHigh",
+    "args": {
+      "refSize": 9,
+      "year": "2020",
+      "title": "Renault Megane"
+    }
+  }
+}

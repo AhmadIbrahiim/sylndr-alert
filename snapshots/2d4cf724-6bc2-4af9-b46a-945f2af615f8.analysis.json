@@ -1,0 +1,85 @@
+{
+  "vehicleId": "2d4cf724-6bc2-4af9-b46a-945f2af615f8",
+  "computedAt": "2026-05-22T22:07:52.275Z",
+  "cohort": {
+    "sameModelCount": 10,
+    "sameYearCount": 3,
+    "refCohort": "model",
+    "refSize": 10
+  },
+  "pricePercentile": 80,
+  "pricePerKm": 31.545862732520845,
+  "pricePerKmPercentile": 70,
+  "kmPercentile": 20,
+  "daysListed": 16,
+  "marginPct": 25.742171614477428,
+  "marginTier": "mid",
+  "auctionHeat": "hot",
+  "dealTag": "fair",
+  "bullets": [
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.high",
+      "textKey": "bullet.priceCheaper",
+      "textArgs": {
+        "pct": 20,
+        "n": 10,
+        "kind": "detail.cohort.refSize.kind.model"
+      }
+    },
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.value",
+      "textKey": "bullet.ppkmBetter",
+      "textArgs": {
+        "pct": 30,
+        "ppkm": 32
+      }
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.lowKm",
+      "textKey": "bullet.kmLower",
+      "textArgs": {
+        "pct": 80
+      }
+    },
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.marginPct",
+      "pipArgs": {
+        "pct": "26"
+      },
+      "textKey": "bullet.marginMid"
+    },
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.hot",
+      "textKey": "bullet.auctionHot"
+    },
+    {
+      "tone": "neutral",
+      "pipKey": "bullet.pip.daysListed",
+      "pipArgs": {
+        "n": 16
+      },
+      "textKey": "bullet.listedOld",
+      "textArgs": {
+        "n": 16
+      }
+    }
+  ],
+  "summary": {
+    "verdictKey": "summary.verdict.fair",
+    "cohortLineKey": "summary.cohortLine.yes",
+    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "ageSuffixKey": null,
+    "heatSuffixKey": "summary.suffix.heatHot",
+    "marginSuffixKey": null,
+    "args": {
+      "refSize": 10,
+      "year": "2024",
+      "title": "Audi Q3"
+    }
+  }
+}

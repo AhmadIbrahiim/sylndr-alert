@@ -1,0 +1,85 @@
+{
+  "vehicleId": "f9d63269-ea6a-4c8f-947f-a7756b45d7a0",
+  "computedAt": "2026-05-22T22:07:52.258Z",
+  "cohort": {
+    "sameModelCount": 28,
+    "sameYearCount": 2,
+    "refCohort": "model",
+    "refSize": 28
+  },
+  "pricePercentile": 25,
+  "pricePerKm": 5.0237610319076715,
+  "pricePerKmPercentile": 39,
+  "kmPercentile": 43,
+  "daysListed": 33,
+  "marginPct": 21.756756756756758,
+  "marginTier": "mid",
+  "auctionHeat": "hot",
+  "dealTag": "good",
+  "bullets": [
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.deal",
+      "textKey": "bullet.priceCheaper",
+      "textArgs": {
+        "pct": 75,
+        "n": 28,
+        "kind": "detail.cohort.refSize.kind.model"
+      }
+    },
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.value",
+      "textKey": "bullet.ppkmBetter",
+      "textArgs": {
+        "pct": 61,
+        "ppkm": 5
+      }
+    },
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.km",
+      "textKey": "bullet.kmLower",
+      "textArgs": {
+        "pct": 57
+      }
+    },
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.marginPct",
+      "pipArgs": {
+        "pct": "22"
+      },
+      "textKey": "bullet.marginMid"
+    },
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.hot",
+      "textKey": "bullet.auctionHot"
+    },
+    {
+      "tone": "neutral",
+      "pipKey": "bullet.pip.daysListed",
+      "pipArgs": {
+        "n": 33
+      },
+      "textKey": "bullet.listedOld",
+      "textArgs": {
+        "n": 33
+      }
+    }
+  ],
+  "summary": {
+    "verdictKey": "summary.verdict.good",
+    "cohortLineKey": "summary.cohortLine.yes",
+    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "ageSuffixKey": "summary.suffix.ageOld",
+    "heatSuffixKey": "summary.suffix.heatHot",
+    "marginSuffixKey": null,
+    "args": {
+      "refSize": 28,
+      "year": "2016",
+      "title": "Nissan Qashqai"
+    }
+  }
+}

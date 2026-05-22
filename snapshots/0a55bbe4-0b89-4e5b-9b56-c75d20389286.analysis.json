@@ -1,0 +1,58 @@
+{
+  "vehicleId": "0a55bbe4-0b89-4e5b-9b56-c75d20389286",
+  "computedAt": "2026-05-22T22:07:52.149Z",
+  "cohort": {
+    "sameModelCount": 2,
+    "sameYearCount": 1,
+    "refCohort": "model",
+    "refSize": 2
+  },
+  "pricePercentile": null,
+  "pricePerKm": 4.760746382330541,
+  "pricePerKmPercentile": null,
+  "kmPercentile": null,
+  "daysListed": 59,
+  "marginPct": 20.49094044659455,
+  "marginTier": "mid",
+  "auctionHeat": "hot",
+  "dealTag": "fair",
+  "bullets": [
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.marginPct",
+      "pipArgs": {
+        "pct": "20"
+      },
+      "textKey": "bullet.marginMid"
+    },
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.hot",
+      "textKey": "bullet.auctionHot"
+    },
+    {
+      "tone": "neutral",
+      "pipKey": "bullet.pip.daysListed",
+      "pipArgs": {
+        "n": 59
+      },
+      "textKey": "bullet.listedOld",
+      "textArgs": {
+        "n": 59
+      }
+    }
+  ],
+  "summary": {
+    "verdictKey": "summary.verdict.fair",
+    "cohortLineKey": "summary.cohortLine.yes",
+    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "ageSuffixKey": "summary.suffix.ageOld",
+    "heatSuffixKey": "summary.suffix.heatHot",
+    "marginSuffixKey": null,
+    "args": {
+      "refSize": 2,
+      "year": "2014",
+      "title": "Toyota Yaris"
+    }
+  }
+}

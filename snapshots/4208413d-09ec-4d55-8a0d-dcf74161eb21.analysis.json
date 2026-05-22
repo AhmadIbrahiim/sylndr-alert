@@ -1,0 +1,47 @@
+{
+  "vehicleId": "4208413d-09ec-4d55-8a0d-dcf74161eb21",
+  "computedAt": "2026-05-22T22:07:52.267Z",
+  "cohort": {
+    "sameModelCount": 2,
+    "sameYearCount": 1,
+    "refCohort": "model",
+    "refSize": 2
+  },
+  "pricePercentile": null,
+  "pricePerKm": 45.853658536585364,
+  "pricePerKmPercentile": null,
+  "kmPercentile": null,
+  "daysListed": 5,
+  "marginPct": 21.98581560283688,
+  "marginTier": "mid",
+  "auctionHeat": "warm",
+  "dealTag": "fair",
+  "bullets": [
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.marginPct",
+      "pipArgs": {
+        "pct": "22"
+      },
+      "textKey": "bullet.marginMid"
+    },
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.warm",
+      "textKey": "bullet.auctionWarm"
+    }
+  ],
+  "summary": {
+    "verdictKey": "summary.verdict.fair",
+    "cohortLineKey": "summary.cohortLine.yes",
+    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "ageSuffixKey": null,
+    "heatSuffixKey": null,
+    "marginSuffixKey": null,
+    "args": {
+      "refSize": 2,
+      "year": "2021",
+      "title": "Mercedes-Benz Gle 450"
+    }
+  }
+}

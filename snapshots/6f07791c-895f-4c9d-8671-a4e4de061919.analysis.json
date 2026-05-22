@@ -1,0 +1,85 @@
+{
+  "vehicleId": "6f07791c-895f-4c9d-8671-a4e4de061919",
+  "computedAt": "2026-05-22T22:07:52.213Z",
+  "cohort": {
+    "sameModelCount": 4,
+    "sameYearCount": 2,
+    "refCohort": "model",
+    "refSize": 4
+  },
+  "pricePercentile": 25,
+  "pricePerKm": 10.795454545454545,
+  "pricePerKmPercentile": 0,
+  "kmPercentile": 75,
+  "daysListed": 123,
+  "marginPct": 21.78137651821862,
+  "marginTier": "mid",
+  "auctionHeat": "hot",
+  "dealTag": "good",
+  "bullets": [
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.deal",
+      "textKey": "bullet.priceCheaper",
+      "textArgs": {
+        "pct": 75,
+        "n": 4,
+        "kind": "detail.cohort.refSize.kind.model"
+      }
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.value",
+      "textKey": "bullet.ppkmBetter",
+      "textArgs": {
+        "pct": 100,
+        "ppkm": 11
+      }
+    },
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.highKm",
+      "textKey": "bullet.kmLower",
+      "textArgs": {
+        "pct": 25
+      }
+    },
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.marginPct",
+      "pipArgs": {
+        "pct": "22"
+      },
+      "textKey": "bullet.marginMid"
+    },
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.hot",
+      "textKey": "bullet.auctionHot"
+    },
+    {
+      "tone": "neutral",
+      "pipKey": "bullet.pip.daysListed",
+      "pipArgs": {
+        "n": 123
+      },
+      "textKey": "bullet.listedOld",
+      "textArgs": {
+        "n": 123
+      }
+    }
+  ],
+  "summary": {
+    "verdictKey": "summary.verdict.good",
+    "cohortLineKey": "summary.cohortLine.yes",
+    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "ageSuffixKey": "summary.suffix.ageOld",
+    "heatSuffixKey": "summary.suffix.heatHot",
+    "marginSuffixKey": null,
+    "args": {
+      "refSize": 4,
+      "year": "2022",
+      "title": "Skoda Octavia A8"
+    }
+  }
+}

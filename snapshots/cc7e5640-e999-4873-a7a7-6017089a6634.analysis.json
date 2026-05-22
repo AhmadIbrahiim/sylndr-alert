@@ -1,0 +1,58 @@
+{
+  "vehicleId": "cc7e5640-e999-4873-a7a7-6017089a6634",
+  "computedAt": "2026-05-22T22:07:52.248Z",
+  "cohort": {
+    "sameModelCount": 1,
+    "sameYearCount": 1,
+    "refCohort": "model",
+    "refSize": 1
+  },
+  "pricePercentile": null,
+  "pricePerKm": 7.524343464148717,
+  "pricePerKmPercentile": null,
+  "kmPercentile": null,
+  "daysListed": 88,
+  "marginPct": 8.941176470588236,
+  "marginTier": "low",
+  "auctionHeat": "warm",
+  "dealTag": "fair",
+  "bullets": [
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.marginPct",
+      "pipArgs": {
+        "pct": "9"
+      },
+      "textKey": "bullet.marginLow"
+    },
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.warm",
+      "textKey": "bullet.auctionWarm"
+    },
+    {
+      "tone": "neutral",
+      "pipKey": "bullet.pip.daysListed",
+      "pipArgs": {
+        "n": 88
+      },
+      "textKey": "bullet.listedOld",
+      "textArgs": {
+        "n": 88
+      }
+    }
+  ],
+  "summary": {
+    "verdictKey": "summary.verdict.fair",
+    "cohortLineKey": "summary.cohortLine.yes",
+    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "ageSuffixKey": "summary.suffix.ageOld",
+    "heatSuffixKey": null,
+    "marginSuffixKey": "summary.suffix.marginLow",
+    "args": {
+      "refSize": 1,
+      "year": "2009",
+      "title": "Mercedes-Benz E230"
+    }
+  }
+}

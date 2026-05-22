@@ -1,0 +1,74 @@
+{
+  "vehicleId": "81b08f32-2b13-4bd9-ac5b-6883c63ab42f",
+  "computedAt": "2026-05-22T22:07:52.290Z",
+  "cohort": {
+    "sameModelCount": 10,
+    "sameYearCount": 2,
+    "refCohort": "model",
+    "refSize": 10
+  },
+  "pricePercentile": 70,
+  "pricePerKm": 29.296875,
+  "pricePerKmPercentile": 90,
+  "kmPercentile": 0,
+  "daysListed": 7,
+  "marginPct": 28.26666666666667,
+  "marginTier": "mid",
+  "auctionHeat": "hot",
+  "dealTag": "fair",
+  "bullets": [
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.mid",
+      "textKey": "bullet.priceCheaper",
+      "textArgs": {
+        "pct": 30,
+        "n": 10,
+        "kind": "detail.cohort.refSize.kind.model"
+      }
+    },
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.pricey",
+      "textKey": "bullet.ppkmBetter",
+      "textArgs": {
+        "pct": 10,
+        "ppkm": 29
+      }
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.lowKm",
+      "textKey": "bullet.kmLower",
+      "textArgs": {
+        "pct": 100
+      }
+    },
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.marginPct",
+      "pipArgs": {
+        "pct": "28"
+      },
+      "textKey": "bullet.marginMid"
+    },
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.hot",
+      "textKey": "bullet.auctionHot"
+    }
+  ],
+  "summary": {
+    "verdictKey": "summary.verdict.fair",
+    "cohortLineKey": "summary.cohortLine.yes",
+    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "ageSuffixKey": null,
+    "heatSuffixKey": "summary.suffix.heatHot",
+    "marginSuffixKey": null,
+    "args": {
+      "refSize": 10,
+      "year": "2017",
+      "title": "BMW X1"
+    }
+  }
+}

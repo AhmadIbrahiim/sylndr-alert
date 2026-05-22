@@ -1,0 +1,85 @@
+{
+  "vehicleId": "4799c17e-5f7e-4a90-9416-f6eb0a3150be",
+  "computedAt": "2026-05-22T22:07:52.109Z",
+  "cohort": {
+    "sameModelCount": 11,
+    "sameYearCount": 3,
+    "refCohort": "model",
+    "refSize": 11
+  },
+  "pricePercentile": 27,
+  "pricePerKm": 7.929755254822919,
+  "pricePerKmPercentile": 18,
+  "kmPercentile": 73,
+  "daysListed": 88,
+  "marginPct": 36.02042698558172,
+  "marginTier": "high",
+  "auctionHeat": "hot",
+  "dealTag": "good",
+  "bullets": [
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.deal",
+      "textKey": "bullet.priceCheaper",
+      "textArgs": {
+        "pct": 73,
+        "n": 11,
+        "kind": "detail.cohort.refSize.kind.model"
+      }
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.value",
+      "textKey": "bullet.ppkmBetter",
+      "textArgs": {
+        "pct": 82,
+        "ppkm": 8
+      }
+    },
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.highKm",
+      "textKey": "bullet.kmLower",
+      "textArgs": {
+        "pct": 27
+      }
+    },
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.marginPct",
+      "pipArgs": {
+        "pct": "36"
+      },
+      "textKey": "bullet.marginHigh"
+    },
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.hot",
+      "textKey": "bullet.auctionHot"
+    },
+    {
+      "tone": "neutral",
+      "pipKey": "bullet.pip.daysListed",
+      "pipArgs": {
+        "n": 88
+      },
+      "textKey": "bullet.listedOld",
+      "textArgs": {
+        "n": 88
+      }
+    }
+  ],
+  "summary": {
+    "verdictKey": "summary.verdict.good",
+    "cohortLineKey": "summary.cohortLine.yes",
+    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "ageSuffixKey": "summary.suffix.ageOld",
+    "heatSuffixKey": "summary.suffix.heatHot",
+    "marginSuffixKey": "summary.suffix.marginHigh",
+    "args": {
+      "refSize": 11,
+      "year": "2019",
+      "title": "Skoda KODIAQ"
+    }
+  }
+}

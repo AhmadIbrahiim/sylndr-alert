@@ -1,0 +1,58 @@
+{
+  "vehicleId": "2d85a01d-083c-4c05-ae41-909b215db35c",
+  "computedAt": "2026-05-22T22:07:52.161Z",
+  "cohort": {
+    "sameModelCount": 1,
+    "sameYearCount": 1,
+    "refCohort": "model",
+    "refSize": 1
+  },
+  "pricePercentile": null,
+  "pricePerKm": 21.81810909090909,
+  "pricePerKmPercentile": null,
+  "kmPercentile": null,
+  "daysListed": 77,
+  "marginPct": 7.166357221190737,
+  "marginTier": "low",
+  "auctionHeat": "hot",
+  "dealTag": "fair",
+  "bullets": [
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.marginPct",
+      "pipArgs": {
+        "pct": "7"
+      },
+      "textKey": "bullet.marginLow"
+    },
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.hot",
+      "textKey": "bullet.auctionHot"
+    },
+    {
+      "tone": "neutral",
+      "pipKey": "bullet.pip.daysListed",
+      "pipArgs": {
+        "n": 77
+      },
+      "textKey": "bullet.listedOld",
+      "textArgs": {
+        "n": 77
+      }
+    }
+  ],
+  "summary": {
+    "verdictKey": "summary.verdict.fair",
+    "cohortLineKey": "summary.cohortLine.yes",
+    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "ageSuffixKey": "summary.suffix.ageOld",
+    "heatSuffixKey": "summary.suffix.heatHot",
+    "marginSuffixKey": "summary.suffix.marginLow",
+    "args": {
+      "refSize": 1,
+      "year": "2025",
+      "title": "JAC S2"
+    }
+  }
+}

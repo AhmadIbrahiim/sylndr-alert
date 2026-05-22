@@ -1,0 +1,85 @@
+{
+  "vehicleId": "ed6acdea-228f-4a69-b1d2-230fb8ecc324",
+  "computedAt": "2026-05-22T22:07:52.169Z",
+  "cohort": {
+    "sameModelCount": 28,
+    "sameYearCount": 1,
+    "refCohort": "model",
+    "refSize": 28
+  },
+  "pricePercentile": 93,
+  "pricePerKm": 23.486238532110093,
+  "pricePerKmPercentile": 89,
+  "kmPercentile": 11,
+  "daysListed": 24,
+  "marginPct": 25,
+  "marginTier": "mid",
+  "auctionHeat": "hot",
+  "dealTag": "high",
+  "bullets": [
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.high",
+      "textKey": "bullet.priceCheaper",
+      "textArgs": {
+        "pct": 7,
+        "n": 28,
+        "kind": "detail.cohort.refSize.kind.model"
+      }
+    },
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.pricey",
+      "textKey": "bullet.ppkmBetter",
+      "textArgs": {
+        "pct": 11,
+        "ppkm": 23
+      }
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.lowKm",
+      "textKey": "bullet.kmLower",
+      "textArgs": {
+        "pct": 89
+      }
+    },
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.marginPct",
+      "pipArgs": {
+        "pct": "25"
+      },
+      "textKey": "bullet.marginMid"
+    },
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.hot",
+      "textKey": "bullet.auctionHot"
+    },
+    {
+      "tone": "neutral",
+      "pipKey": "bullet.pip.daysListed",
+      "pipArgs": {
+        "n": 24
+      },
+      "textKey": "bullet.listedOld",
+      "textArgs": {
+        "n": 24
+      }
+    }
+  ],
+  "summary": {
+    "verdictKey": "summary.verdict.high",
+    "cohortLineKey": "summary.cohortLine.yes",
+    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "ageSuffixKey": null,
+    "heatSuffixKey": "summary.suffix.heatHot",
+    "marginSuffixKey": null,
+    "args": {
+      "refSize": 28,
+      "year": "2022",
+      "title": "Nissan Qashqai"
+    }
+  }
+}

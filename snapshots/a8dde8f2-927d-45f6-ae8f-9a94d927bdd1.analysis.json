@@ -1,0 +1,85 @@
+{
+  "vehicleId": "a8dde8f2-927d-45f6-ae8f-9a94d927bdd1",
+  "computedAt": "2026-05-22T22:07:52.028Z",
+  "cohort": {
+    "sameModelCount": 5,
+    "sameYearCount": 2,
+    "refCohort": "model",
+    "refSize": 5
+  },
+  "pricePercentile": 20,
+  "pricePerKm": 4.023508137432188,
+  "pricePerKmPercentile": 20,
+  "kmPercentile": 80,
+  "daysListed": 16,
+  "marginPct": 26.741573033707866,
+  "marginTier": "mid",
+  "auctionHeat": "warm",
+  "dealTag": "good",
+  "bullets": [
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.deal",
+      "textKey": "bullet.priceCheaper",
+      "textArgs": {
+        "pct": 80,
+        "n": 5,
+        "kind": "detail.cohort.refSize.kind.model"
+      }
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.value",
+      "textKey": "bullet.ppkmBetter",
+      "textArgs": {
+        "pct": 80,
+        "ppkm": 4
+      }
+    },
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.highKm",
+      "textKey": "bullet.kmLower",
+      "textArgs": {
+        "pct": 20
+      }
+    },
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.marginPct",
+      "pipArgs": {
+        "pct": "27"
+      },
+      "textKey": "bullet.marginMid"
+    },
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.warm",
+      "textKey": "bullet.auctionWarm"
+    },
+    {
+      "tone": "neutral",
+      "pipKey": "bullet.pip.daysListed",
+      "pipArgs": {
+        "n": 16
+      },
+      "textKey": "bullet.listedOld",
+      "textArgs": {
+        "n": 16
+      }
+    }
+  ],
+  "summary": {
+    "verdictKey": "summary.verdict.good",
+    "cohortLineKey": "summary.cohortLine.yes",
+    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "ageSuffixKey": null,
+    "heatSuffixKey": null,
+    "marginSuffixKey": null,
+    "args": {
+      "refSize": 5,
+      "year": "2019",
+      "title": "Mini Cooper Countryman"
+    }
+  }
+}

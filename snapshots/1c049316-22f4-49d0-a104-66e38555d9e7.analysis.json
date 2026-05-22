@@ -1,0 +1,58 @@
+{
+  "vehicleId": "1c049316-22f4-49d0-a104-66e38555d9e7",
+  "computedAt": "2026-05-22T22:07:52.079Z",
+  "cohort": {
+    "sameModelCount": 1,
+    "sameYearCount": 1,
+    "refCohort": "model",
+    "refSize": 1
+  },
+  "pricePercentile": null,
+  "pricePerKm": 505.5652173913044,
+  "pricePerKmPercentile": null,
+  "kmPercentile": null,
+  "daysListed": 47,
+  "marginPct": 11.179910560715514,
+  "marginTier": "low",
+  "auctionHeat": "hot",
+  "dealTag": "fair",
+  "bullets": [
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.marginPct",
+      "pipArgs": {
+        "pct": "11"
+      },
+      "textKey": "bullet.marginLow"
+    },
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.hot",
+      "textKey": "bullet.auctionHot"
+    },
+    {
+      "tone": "neutral",
+      "pipKey": "bullet.pip.daysListed",
+      "pipArgs": {
+        "n": 47
+      },
+      "textKey": "bullet.listedOld",
+      "textArgs": {
+        "n": 47
+      }
+    }
+  ],
+  "summary": {
+    "verdictKey": "summary.verdict.fair",
+    "cohortLineKey": "summary.cohortLine.yes",
+    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "ageSuffixKey": "summary.suffix.ageOld",
+    "heatSuffixKey": "summary.suffix.heatHot",
+    "marginSuffixKey": "summary.suffix.marginLow",
+    "args": {
+      "refSize": 1,
+      "year": "2025",
+      "title": "Audi Q5"
+    }
+  }
+}

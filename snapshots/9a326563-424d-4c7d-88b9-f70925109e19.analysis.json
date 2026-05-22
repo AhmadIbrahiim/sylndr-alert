@@ -1,0 +1,58 @@
+{
+  "vehicleId": "9a326563-424d-4c7d-88b9-f70925109e19",
+  "computedAt": "2026-05-22T22:07:52.016Z",
+  "cohort": {
+    "sameModelCount": 2,
+    "sameYearCount": 1,
+    "refCohort": "model",
+    "refSize": 2
+  },
+  "pricePercentile": null,
+  "pricePerKm": 27.617328519855597,
+  "pricePerKmPercentile": null,
+  "kmPercentile": null,
+  "daysListed": 88,
+  "marginPct": 15.816993464052286,
+  "marginTier": "mid",
+  "auctionHeat": "hot",
+  "dealTag": "fair",
+  "bullets": [
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.marginPct",
+      "pipArgs": {
+        "pct": "16"
+      },
+      "textKey": "bullet.marginMid"
+    },
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.hot",
+      "textKey": "bullet.auctionHot"
+    },
+    {
+      "tone": "neutral",
+      "pipKey": "bullet.pip.daysListed",
+      "pipArgs": {
+        "n": 88
+      },
+      "textKey": "bullet.listedOld",
+      "textArgs": {
+        "n": 88
+      }
+    }
+  ],
+  "summary": {
+    "verdictKey": "summary.verdict.fair",
+    "cohortLineKey": "summary.cohortLine.yes",
+    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "ageSuffixKey": "summary.suffix.ageOld",
+    "heatSuffixKey": "summary.suffix.heatHot",
+    "marginSuffixKey": null,
+    "args": {
+      "refSize": 2,
+      "year": "2020",
+      "title": "BMW X2"
+    }
+  }
+}

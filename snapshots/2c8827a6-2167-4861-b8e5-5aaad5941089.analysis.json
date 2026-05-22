@@ -1,0 +1,58 @@
+{
+  "vehicleId": "2c8827a6-2167-4861-b8e5-5aaad5941089",
+  "computedAt": "2026-05-22T22:07:52.163Z",
+  "cohort": {
+    "sameModelCount": 1,
+    "sameYearCount": 1,
+    "refCohort": "model",
+    "refSize": 1
+  },
+  "pricePercentile": null,
+  "pricePerKm": 3.3012016373960122,
+  "pricePerKmPercentile": null,
+  "kmPercentile": null,
+  "daysListed": 144,
+  "marginPct": -2.8000000000000003,
+  "marginTier": "low",
+  "auctionHeat": "hot",
+  "dealTag": "fair",
+  "bullets": [
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.marginPct",
+      "pipArgs": {
+        "pct": "-3"
+      },
+      "textKey": "bullet.marginLow"
+    },
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.hot",
+      "textKey": "bullet.auctionHot"
+    },
+    {
+      "tone": "neutral",
+      "pipKey": "bullet.pip.daysListed",
+      "pipArgs": {
+        "n": 144
+      },
+      "textKey": "bullet.listedOld",
+      "textArgs": {
+        "n": 144
+      }
+    }
+  ],
+  "summary": {
+    "verdictKey": "summary.verdict.fair",
+    "cohortLineKey": "summary.cohortLine.yes",
+    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "ageSuffixKey": "summary.suffix.ageOld",
+    "heatSuffixKey": "summary.suffix.heatHot",
+    "marginSuffixKey": "summary.suffix.marginLow",
+    "args": {
+      "refSize": 1,
+      "year": "2016",
+      "title": "Lada Granta"
+    }
+  }
+}

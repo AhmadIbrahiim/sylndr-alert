@@ -1,0 +1,85 @@
+{
+  "vehicleId": "f7767ff6-3044-4b5f-90f3-0c207858c82d",
+  "computedAt": "2026-05-22T22:07:51.986Z",
+  "cohort": {
+    "sameModelCount": 8,
+    "sameYearCount": 3,
+    "refCohort": "model",
+    "refSize": 8
+  },
+  "pricePercentile": 63,
+  "pricePerKm": 11.835443037974683,
+  "pricePerKmPercentile": 63,
+  "kmPercentile": 25,
+  "daysListed": 68,
+  "marginPct": 8.467023172905526,
+  "marginTier": "low",
+  "auctionHeat": "hot",
+  "dealTag": "fair",
+  "bullets": [
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.mid",
+      "textKey": "bullet.priceCheaper",
+      "textArgs": {
+        "pct": 37,
+        "n": 8,
+        "kind": "detail.cohort.refSize.kind.model"
+      }
+    },
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.value",
+      "textKey": "bullet.ppkmBetter",
+      "textArgs": {
+        "pct": 37,
+        "ppkm": 12
+      }
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.lowKm",
+      "textKey": "bullet.kmLower",
+      "textArgs": {
+        "pct": 75
+      }
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.marginPct",
+      "pipArgs": {
+        "pct": "8"
+      },
+      "textKey": "bullet.marginLow"
+    },
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.hot",
+      "textKey": "bullet.auctionHot"
+    },
+    {
+      "tone": "neutral",
+      "pipKey": "bullet.pip.daysListed",
+      "pipArgs": {
+        "n": 68
+      },
+      "textKey": "bullet.listedOld",
+      "textArgs": {
+        "n": 68
+      }
+    }
+  ],
+  "summary": {
+    "verdictKey": "summary.verdict.fair",
+    "cohortLineKey": "summary.cohortLine.yes",
+    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "ageSuffixKey": "summary.suffix.ageOld",
+    "heatSuffixKey": "summary.suffix.heatHot",
+    "marginSuffixKey": "summary.suffix.marginLow",
+    "args": {
+      "refSize": 8,
+      "year": "2021",
+      "title": "Citroen C5 Aircross"
+    }
+  }
+}

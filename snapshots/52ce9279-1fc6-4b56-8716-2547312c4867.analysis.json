@@ -1,0 +1,85 @@
+{
+  "vehicleId": "52ce9279-1fc6-4b56-8716-2547312c4867",
+  "computedAt": "2026-05-22T22:07:52.150Z",
+  "cohort": {
+    "sameModelCount": 13,
+    "sameYearCount": 1,
+    "refCohort": "model",
+    "refSize": 13
+  },
+  "pricePercentile": 77,
+  "pricePerKm": 3.637430331475506,
+  "pricePerKmPercentile": 54,
+  "kmPercentile": 54,
+  "daysListed": 36,
+  "marginPct": 40.16129032258065,
+  "marginTier": "high",
+  "auctionHeat": "hot",
+  "dealTag": "fair",
+  "bullets": [
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.high",
+      "textKey": "bullet.priceCheaper",
+      "textArgs": {
+        "pct": 23,
+        "n": 13,
+        "kind": "detail.cohort.refSize.kind.model"
+      }
+    },
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.value",
+      "textKey": "bullet.ppkmBetter",
+      "textArgs": {
+        "pct": 46,
+        "ppkm": 4
+      }
+    },
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.km",
+      "textKey": "bullet.kmLower",
+      "textArgs": {
+        "pct": 46
+      }
+    },
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.marginPct",
+      "pipArgs": {
+        "pct": "40"
+      },
+      "textKey": "bullet.marginHigh"
+    },
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.hot",
+      "textKey": "bullet.auctionHot"
+    },
+    {
+      "tone": "neutral",
+      "pipKey": "bullet.pip.daysListed",
+      "pipArgs": {
+        "n": 36
+      },
+      "textKey": "bullet.listedOld",
+      "textArgs": {
+        "n": 36
+      }
+    }
+  ],
+  "summary": {
+    "verdictKey": "summary.verdict.fair",
+    "cohortLineKey": "summary.cohortLine.yes",
+    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "ageSuffixKey": "summary.suffix.ageOld",
+    "heatSuffixKey": "summary.suffix.heatHot",
+    "marginSuffixKey": "summary.suffix.marginHigh",
+    "args": {
+      "refSize": 13,
+      "year": "2020",
+      "title": "Peugeot 301"
+    }
+  }
+}

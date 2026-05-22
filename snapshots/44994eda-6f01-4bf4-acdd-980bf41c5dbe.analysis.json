@@ -1,0 +1,74 @@
+{
+  "vehicleId": "44994eda-6f01-4bf4-acdd-980bf41c5dbe",
+  "computedAt": "2026-05-22T22:07:52.147Z",
+  "cohort": {
+    "sameModelCount": 6,
+    "sameYearCount": 3,
+    "refCohort": "model",
+    "refSize": 6
+  },
+  "pricePercentile": 83,
+  "pricePerKm": 16.606315789473683,
+  "pricePerKmPercentile": 83,
+  "kmPercentile": 0,
+  "daysListed": 6,
+  "marginPct": 15.652467883705206,
+  "marginTier": "mid",
+  "auctionHeat": "warm",
+  "dealTag": "high",
+  "bullets": [
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.high",
+      "textKey": "bullet.priceCheaper",
+      "textArgs": {
+        "pct": 17,
+        "n": 6,
+        "kind": "detail.cohort.refSize.kind.model"
+      }
+    },
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.pricey",
+      "textKey": "bullet.ppkmBetter",
+      "textArgs": {
+        "pct": 17,
+        "ppkm": 17
+      }
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.lowKm",
+      "textKey": "bullet.kmLower",
+      "textArgs": {
+        "pct": 100
+      }
+    },
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.marginPct",
+      "pipArgs": {
+        "pct": "16"
+      },
+      "textKey": "bullet.marginMid"
+    },
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.warm",
+      "textKey": "bullet.auctionWarm"
+    }
+  ],
+  "summary": {
+    "verdictKey": "summary.verdict.high",
+    "cohortLineKey": "summary.cohortLine.yes",
+    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "ageSuffixKey": null,
+    "heatSuffixKey": null,
+    "marginSuffixKey": null,
+    "args": {
+      "refSize": 6,
+      "year": "2022",
+      "title": "Kia Grand Cerato"
+    }
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "vehicleId": "b3464ea0-2f79-435b-a3ce-9ae59dc20bbe",
+  "computedAt": "2026-05-22T22:07:52.161Z",
+  "cohort": {
+    "sameModelCount": 7,
+    "sameYearCount": 2,
+    "refCohort": "model",
+    "refSize": 7
+  },
+  "pricePercentile": 43,
+  "pricePerKm": 4.357377584923474,
+  "pricePerKmPercentile": 86,
+  "kmPercentile": 0,
+  "daysListed": 86,
+  "marginPct": 14.86111111111111,
+  "marginTier": "low",
+  "auctionHeat": "hot",
+  "dealTag": "fair",
+  "bullets": [
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.mid",
+      "textKey": "bullet.priceCheaper",
+      "textArgs": {
+        "pct": 57,
+        "n": 7,
+        "kind": "detail.cohort.refSize.kind.model"
+      }
+    },
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.pricey",
+      "textKey": "bullet.ppkmBetter",
+      "textArgs": {
+        "pct": 14,
+        "ppkm": 4
+      }
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.lowKm",
+      "textKey": "bullet.kmLower",
+      "textArgs": {
+        "pct": 100
+      }
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.marginPct",
+      "pipArgs": {
+        "pct": "15"
+      },
+      "textKey": "bullet.marginLow"
+    },
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.hot",
+      "textKey": "bullet.auctionHot"
+    },
+    {
+      "tone": "neutral",
+      "pipKey": "bullet.pip.daysListed",
+      "pipArgs": {
+        "n": 86
+      },
+      "textKey": "bullet.listedOld",
+      "textArgs": {
+        "n": 86
+      }
+    }
+  ],
+  "summary": {
+    "verdictKey": "summary.verdict.fair",
+    "cohortLineKey": "summary.cohortLine.yes",
+    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "ageSuffixKey": "summary.suffix.ageOld",
+    "heatSuffixKey": "summary.suffix.heatHot",
+    "marginSuffixKey": "summary.suffix.marginLow",
+    "args": {
+      "refSize": 7,
+      "year": "2016",
+      "title": "Ford Kuga"
+    }
+  }
+}

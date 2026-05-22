@@ -1,0 +1,58 @@
+{
+  "vehicleId": "c15662f6-e2d9-46f6-80b6-11658e479d3a",
+  "computedAt": "2026-05-22T22:07:52.058Z",
+  "cohort": {
+    "sameModelCount": 2,
+    "sameYearCount": 1,
+    "refCohort": "model",
+    "refSize": 2
+  },
+  "pricePercentile": null,
+  "pricePerKm": 4.826629680998613,
+  "pricePerKmPercentile": null,
+  "kmPercentile": null,
+  "daysListed": 24,
+  "marginPct": 30.344827586206897,
+  "marginTier": "high",
+  "auctionHeat": "hot",
+  "dealTag": "fair",
+  "bullets": [
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.marginPct",
+      "pipArgs": {
+        "pct": "30"
+      },
+      "textKey": "bullet.marginHigh"
+    },
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.hot",
+      "textKey": "bullet.auctionHot"
+    },
+    {
+      "tone": "neutral",
+      "pipKey": "bullet.pip.daysListed",
+      "pipArgs": {
+        "n": 24
+      },
+      "textKey": "bullet.listedOld",
+      "textArgs": {
+        "n": 24
+      }
+    }
+  ],
+  "summary": {
+    "verdictKey": "summary.verdict.fair",
+    "cohortLineKey": "summary.cohortLine.yes",
+    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "ageSuffixKey": null,
+    "heatSuffixKey": "summary.suffix.heatHot",
+    "marginSuffixKey": "summary.suffix.marginHigh",
+    "args": {
+      "refSize": 2,
+      "year": "2015",
+      "title": "BMW 316"
+    }
+  }
+}

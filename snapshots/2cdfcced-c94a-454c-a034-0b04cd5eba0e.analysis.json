@@ -1,0 +1,74 @@
+{
+  "vehicleId": "2cdfcced-c94a-454c-a034-0b04cd5eba0e",
+  "computedAt": "2026-05-22T22:07:52.236Z",
+  "cohort": {
+    "sameModelCount": 32,
+    "sameYearCount": 1,
+    "refCohort": "model",
+    "refSize": 32
+  },
+  "pricePercentile": 97,
+  "pricePerKm": 102857.14285714286,
+  "pricePerKmPercentile": 97,
+  "kmPercentile": 0,
+  "daysListed": 11,
+  "marginPct": 35.27777777777778,
+  "marginTier": "high",
+  "auctionHeat": "cold",
+  "dealTag": "high",
+  "bullets": [
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.high",
+      "textKey": "bullet.priceCheaper",
+      "textArgs": {
+        "pct": 3,
+        "n": 32,
+        "kind": "detail.cohort.refSize.kind.model"
+      }
+    },
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.pricey",
+      "textKey": "bullet.ppkmBetter",
+      "textArgs": {
+        "pct": 3,
+        "ppkm": 102857
+      }
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.lowKm",
+      "textKey": "bullet.kmLower",
+      "textArgs": {
+        "pct": 100
+      }
+    },
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.marginPct",
+      "pipArgs": {
+        "pct": "35"
+      },
+      "textKey": "bullet.marginHigh"
+    },
+    {
+      "tone": "neutral",
+      "pipKey": "bullet.pip.cold",
+      "textKey": "bullet.auctionCold"
+    }
+  ],
+  "summary": {
+    "verdictKey": "summary.verdict.high",
+    "cohortLineKey": "summary.cohortLine.yes",
+    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "ageSuffixKey": null,
+    "heatSuffixKey": null,
+    "marginSuffixKey": "summary.suffix.marginHigh",
+    "args": {
+      "refSize": 32,
+      "year": "2025",
+      "title": "Mercedes-Benz C180"
+    }
+  }
+}

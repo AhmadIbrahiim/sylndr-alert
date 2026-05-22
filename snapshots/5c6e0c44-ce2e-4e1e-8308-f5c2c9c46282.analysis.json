@@ -1,0 +1,74 @@
+{
+  "vehicleId": "5c6e0c44-ce2e-4e1e-8308-f5c2c9c46282",
+  "computedAt": "2026-05-22T22:07:52.053Z",
+  "cohort": {
+    "sameModelCount": 4,
+    "sameYearCount": 2,
+    "refCohort": "model",
+    "refSize": 4
+  },
+  "pricePercentile": 25,
+  "pricePerKm": 7.730147575544624,
+  "pricePerKmPercentile": 25,
+  "kmPercentile": 75,
+  "daysListed": 10,
+  "marginPct": 10,
+  "marginTier": "low",
+  "auctionHeat": "warm",
+  "dealTag": "good",
+  "bullets": [
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.deal",
+      "textKey": "bullet.priceCheaper",
+      "textArgs": {
+        "pct": 75,
+        "n": 4,
+        "kind": "detail.cohort.refSize.kind.model"
+      }
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.value",
+      "textKey": "bullet.ppkmBetter",
+      "textArgs": {
+        "pct": 75,
+        "ppkm": 8
+      }
+    },
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.highKm",
+      "textKey": "bullet.kmLower",
+      "textArgs": {
+        "pct": 25
+      }
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.marginPct",
+      "pipArgs": {
+        "pct": "10"
+      },
+      "textKey": "bullet.marginLow"
+    },
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.warm",
+      "textKey": "bullet.auctionWarm"
+    }
+  ],
+  "summary": {
+    "verdictKey": "summary.verdict.good",
+    "cohortLineKey": "summary.cohortLine.yes",
+    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "ageSuffixKey": null,
+    "heatSuffixKey": null,
+    "marginSuffixKey": "summary.suffix.marginLow",
+    "args": {
+      "refSize": 4,
+      "year": "2020",
+      "title": "Honda Civic"
+    }
+  }
+}

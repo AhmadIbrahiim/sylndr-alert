@@ -1,0 +1,58 @@
+{
+  "vehicleId": "f4661069-263d-47a1-adc0-a321eddbdb0c",
+  "computedAt": "2026-05-22T22:07:52.031Z",
+  "cohort": {
+    "sameModelCount": 1,
+    "sameYearCount": 1,
+    "refCohort": "model",
+    "refSize": 1
+  },
+  "pricePercentile": null,
+  "pricePerKm": 3.475103734439834,
+  "pricePerKmPercentile": null,
+  "kmPercentile": null,
+  "daysListed": 24,
+  "marginPct": 18.35820895522388,
+  "marginTier": "mid",
+  "auctionHeat": "hot",
+  "dealTag": "fair",
+  "bullets": [
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.marginPct",
+      "pipArgs": {
+        "pct": "18"
+      },
+      "textKey": "bullet.marginMid"
+    },
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.hot",
+      "textKey": "bullet.auctionHot"
+    },
+    {
+      "tone": "neutral",
+      "pipKey": "bullet.pip.daysListed",
+      "pipArgs": {
+        "n": 24
+      },
+      "textKey": "bullet.listedOld",
+      "textArgs": {
+        "n": 24
+      }
+    }
+  ],
+  "summary": {
+    "verdictKey": "summary.verdict.fair",
+    "cohortLineKey": "summary.cohortLine.yes",
+    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "ageSuffixKey": null,
+    "heatSuffixKey": "summary.suffix.heatHot",
+    "marginSuffixKey": null,
+    "args": {
+      "refSize": 1,
+      "year": "2019",
+      "title": "Citroen C4 Grand Picasso"
+    }
+  }
+}

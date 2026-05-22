@@ -1,0 +1,74 @@
+{
+  "vehicleId": "0a32acdb-57cb-42a9-90b5-381e22ec4b08",
+  "computedAt": "2026-05-22T22:07:52.209Z",
+  "cohort": {
+    "sameModelCount": 3,
+    "sameYearCount": 3,
+    "refCohort": "model",
+    "refSize": 3
+  },
+  "pricePercentile": 67,
+  "pricePerKm": 29.295039164490863,
+  "pricePerKmPercentile": 0,
+  "kmPercentile": 67,
+  "daysListed": 3,
+  "marginPct": 31.63992869875223,
+  "marginTier": "high",
+  "auctionHeat": "cold",
+  "dealTag": "good",
+  "bullets": [
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.mid",
+      "textKey": "bullet.priceCheaper",
+      "textArgs": {
+        "pct": 33,
+        "n": 3,
+        "kind": "detail.cohort.refSize.kind.model"
+      }
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.value",
+      "textKey": "bullet.ppkmBetter",
+      "textArgs": {
+        "pct": 100,
+        "ppkm": 29
+      }
+    },
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.km",
+      "textKey": "bullet.kmLower",
+      "textArgs": {
+        "pct": 33
+      }
+    },
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.marginPct",
+      "pipArgs": {
+        "pct": "32"
+      },
+      "textKey": "bullet.marginHigh"
+    },
+    {
+      "tone": "neutral",
+      "pipKey": "bullet.pip.cold",
+      "textKey": "bullet.auctionCold"
+    }
+  ],
+  "summary": {
+    "verdictKey": "summary.verdict.good",
+    "cohortLineKey": "summary.cohortLine.yes",
+    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "ageSuffixKey": null,
+    "heatSuffixKey": null,
+    "marginSuffixKey": "summary.suffix.marginHigh",
+    "args": {
+      "refSize": 3,
+      "year": "2025",
+      "title": "Geely Coolray"
+    }
+  }
+}

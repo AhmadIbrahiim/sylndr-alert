@@ -1,0 +1,85 @@
+{
+  "vehicleId": "03e6dad8-b6b3-43a0-a4ef-47ceac4b32fa",
+  "computedAt": "2026-05-22T22:07:52.013Z",
+  "cohort": {
+    "sameModelCount": 8,
+    "sameYearCount": 1,
+    "refCohort": "model",
+    "refSize": 8
+  },
+  "pricePercentile": 13,
+  "pricePerKm": 9.340659340659341,
+  "pricePerKmPercentile": 25,
+  "kmPercentile": 63,
+  "daysListed": 23,
+  "marginPct": 35.74229691876751,
+  "marginTier": "high",
+  "auctionHeat": "hot",
+  "dealTag": "good",
+  "bullets": [
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.deal",
+      "textKey": "bullet.priceCheaper",
+      "textArgs": {
+        "pct": 87,
+        "n": 8,
+        "kind": "detail.cohort.refSize.kind.model"
+      }
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.value",
+      "textKey": "bullet.ppkmBetter",
+      "textArgs": {
+        "pct": 75,
+        "ppkm": 9
+      }
+    },
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.km",
+      "textKey": "bullet.kmLower",
+      "textArgs": {
+        "pct": 37
+      }
+    },
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.marginPct",
+      "pipArgs": {
+        "pct": "36"
+      },
+      "textKey": "bullet.marginHigh"
+    },
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.hot",
+      "textKey": "bullet.auctionHot"
+    },
+    {
+      "tone": "neutral",
+      "pipKey": "bullet.pip.daysListed",
+      "pipArgs": {
+        "n": 23
+      },
+      "textKey": "bullet.listedOld",
+      "textArgs": {
+        "n": 23
+      }
+    }
+  ],
+  "summary": {
+    "verdictKey": "summary.verdict.good",
+    "cohortLineKey": "summary.cohortLine.yes",
+    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "ageSuffixKey": null,
+    "heatSuffixKey": "summary.suffix.heatHot",
+    "marginSuffixKey": "summary.suffix.marginHigh",
+    "args": {
+      "refSize": 8,
+      "year": "2016",
+      "title": "BMW X5"
+    }
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "vehicleId": "cc6cfc42-9dad-479a-9da7-37c2cfe5b45f",
+  "computedAt": "2026-05-22T22:07:51.970Z",
+  "cohort": {
+    "sameModelCount": 12,
+    "sameYearCount": 2,
+    "refCohort": "model",
+    "refSize": 12
+  },
+  "pricePercentile": 67,
+  "pricePerKm": 10.722989439480097,
+  "pricePerKmPercentile": 92,
+  "kmPercentile": 0,
+  "daysListed": 116,
+  "marginPct": null,
+  "marginTier": null,
+  "auctionHeat": "hot",
+  "dealTag": "fair",
+  "bullets": [
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.mid",
+      "textKey": "bullet.priceCheaper",
+      "textArgs": {
+        "pct": 33,
+        "n": 12,
+        "kind": "detail.cohort.refSize.kind.model"
+      }
+    },
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.pricey",
+      "textKey": "bullet.ppkmBetter",
+      "textArgs": {
+        "pct": 8,
+        "ppkm": 11
+      }
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.lowKm",
+      "textKey": "bullet.kmLower",
+      "textArgs": {
+        "pct": 100
+      }
+    },
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.hot",
+      "textKey": "bullet.auctionHot"
+    },
+    {
+      "tone": "neutral",
+      "pipKey": "bullet.pip.daysListed",
+      "pipArgs": {
+        "n": 116
+      },
+      "textKey": "bullet.listedOld",
+      "textArgs": {
+        "n": 116
+      }
+    }
+  ],
+  "summary": {
+    "verdictKey": "summary.verdict.fair",
+    "cohortLineKey": "summary.cohortLine.yes",
+    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "ageSuffixKey": "summary.suffix.ageOld",
+    "heatSuffixKey": "summary.suffix.heatHot",
+    "marginSuffixKey": null,
+    "args": {
+      "refSize": 12,
+      "year": "2013",
+      "title": "Mitsubishi Lancer"
+    }
+  }
+}

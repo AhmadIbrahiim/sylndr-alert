@@ -1,0 +1,85 @@
+{
+  "vehicleId": "5488dcf8-6f88-4356-94d0-e5048e26e080",
+  "computedAt": "2026-05-22T22:07:52.062Z",
+  "cohort": {
+    "sameModelCount": 18,
+    "sameYearCount": 2,
+    "refCohort": "model",
+    "refSize": 18
+  },
+  "pricePercentile": 17,
+  "pricePerKm": 4.264139769025762,
+  "pricePerKmPercentile": 22,
+  "kmPercentile": 56,
+  "daysListed": 16,
+  "marginPct": 12.5,
+  "marginTier": "low",
+  "auctionHeat": "hot",
+  "dealTag": "good",
+  "bullets": [
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.deal",
+      "textKey": "bullet.priceCheaper",
+      "textArgs": {
+        "pct": 83,
+        "n": 18,
+        "kind": "detail.cohort.refSize.kind.model"
+      }
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.value",
+      "textKey": "bullet.ppkmBetter",
+      "textArgs": {
+        "pct": 78,
+        "ppkm": 4
+      }
+    },
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.km",
+      "textKey": "bullet.kmLower",
+      "textArgs": {
+        "pct": 44
+      }
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.marginPct",
+      "pipArgs": {
+        "pct": "13"
+      },
+      "textKey": "bullet.marginLow"
+    },
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.hot",
+      "textKey": "bullet.auctionHot"
+    },
+    {
+      "tone": "neutral",
+      "pipKey": "bullet.pip.daysListed",
+      "pipArgs": {
+        "n": 16
+      },
+      "textKey": "bullet.listedOld",
+      "textArgs": {
+        "n": 16
+      }
+    }
+  ],
+  "summary": {
+    "verdictKey": "summary.verdict.good",
+    "cohortLineKey": "summary.cohortLine.yes",
+    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "ageSuffixKey": null,
+    "heatSuffixKey": "summary.suffix.heatHot",
+    "marginSuffixKey": "summary.suffix.marginLow",
+    "args": {
+      "refSize": 18,
+      "year": "2016",
+      "title": "Toyota Corolla"
+    }
+  }
+}

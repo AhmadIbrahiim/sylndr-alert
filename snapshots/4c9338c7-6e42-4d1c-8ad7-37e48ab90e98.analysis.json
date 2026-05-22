@@ -1,0 +1,85 @@
+{
+  "vehicleId": "4c9338c7-6e42-4d1c-8ad7-37e48ab90e98",
+  "computedAt": "2026-05-22T22:07:52.258Z",
+  "cohort": {
+    "sameModelCount": 6,
+    "sameYearCount": 2,
+    "refCohort": "model",
+    "refSize": 6
+  },
+  "pricePercentile": 17,
+  "pricePerKm": 5.553627212773343,
+  "pricePerKmPercentile": 33,
+  "kmPercentile": 17,
+  "daysListed": 43,
+  "marginPct": 29.375,
+  "marginTier": "mid",
+  "auctionHeat": "hot",
+  "dealTag": "good",
+  "bullets": [
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.deal",
+      "textKey": "bullet.priceCheaper",
+      "textArgs": {
+        "pct": 83,
+        "n": 6,
+        "kind": "detail.cohort.refSize.kind.model"
+      }
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.value",
+      "textKey": "bullet.ppkmBetter",
+      "textArgs": {
+        "pct": 67,
+        "ppkm": 6
+      }
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.lowKm",
+      "textKey": "bullet.kmLower",
+      "textArgs": {
+        "pct": 83
+      }
+    },
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.marginPct",
+      "pipArgs": {
+        "pct": "29"
+      },
+      "textKey": "bullet.marginMid"
+    },
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.hot",
+      "textKey": "bullet.auctionHot"
+    },
+    {
+      "tone": "neutral",
+      "pipKey": "bullet.pip.daysListed",
+      "pipArgs": {
+        "n": 43
+      },
+      "textKey": "bullet.listedOld",
+      "textArgs": {
+        "n": 43
+      }
+    }
+  ],
+  "summary": {
+    "verdictKey": "summary.verdict.good",
+    "cohortLineKey": "summary.cohortLine.yes",
+    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "ageSuffixKey": "summary.suffix.ageOld",
+    "heatSuffixKey": "summary.suffix.heatHot",
+    "marginSuffixKey": null,
+    "args": {
+      "refSize": 6,
+      "year": "2020",
+      "title": "Chevrolet Captiva"
+    }
+  }
+}

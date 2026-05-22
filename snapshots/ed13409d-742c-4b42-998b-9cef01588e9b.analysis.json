@@ -1,0 +1,58 @@
+{
+  "vehicleId": "ed13409d-742c-4b42-998b-9cef01588e9b",
+  "computedAt": "2026-05-22T22:07:52.052Z",
+  "cohort": {
+    "sameModelCount": 1,
+    "sameYearCount": 1,
+    "refCohort": "model",
+    "refSize": 1
+  },
+  "pricePercentile": null,
+  "pricePerKm": 3.259779338014042,
+  "pricePerKmPercentile": null,
+  "kmPercentile": null,
+  "daysListed": 30,
+  "marginPct": 40.92307692307692,
+  "marginTier": "high",
+  "auctionHeat": "hot",
+  "dealTag": "fair",
+  "bullets": [
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.marginPct",
+      "pipArgs": {
+        "pct": "41"
+      },
+      "textKey": "bullet.marginHigh"
+    },
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.hot",
+      "textKey": "bullet.auctionHot"
+    },
+    {
+      "tone": "neutral",
+      "pipKey": "bullet.pip.daysListed",
+      "pipArgs": {
+        "n": 30
+      },
+      "textKey": "bullet.listedOld",
+      "textArgs": {
+        "n": 30
+      }
+    }
+  ],
+  "summary": {
+    "verdictKey": "summary.verdict.fair",
+    "cohortLineKey": "summary.cohortLine.yes",
+    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "ageSuffixKey": "summary.suffix.ageOld",
+    "heatSuffixKey": "summary.suffix.heatHot",
+    "marginSuffixKey": "summary.suffix.marginHigh",
+    "args": {
+      "refSize": 1,
+      "year": "2010",
+      "title": "Skoda Octavia"
+    }
+  }
+}

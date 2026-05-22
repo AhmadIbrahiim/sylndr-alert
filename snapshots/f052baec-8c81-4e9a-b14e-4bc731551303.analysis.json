@@ -1,0 +1,74 @@
+{
+  "vehicleId": "f052baec-8c81-4e9a-b14e-4bc731551303",
+  "computedAt": "2026-05-22T22:07:52.255Z",
+  "cohort": {
+    "sameModelCount": 5,
+    "sameYearCount": 3,
+    "refCohort": "model",
+    "refSize": 5
+  },
+  "pricePercentile": 40,
+  "pricePerKm": 5.474198047419804,
+  "pricePerKmPercentile": 20,
+  "kmPercentile": 60,
+  "daysListed": 6,
+  "marginPct": 39.61783439490446,
+  "marginTier": "high",
+  "auctionHeat": "warm",
+  "dealTag": "good",
+  "bullets": [
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.mid",
+      "textKey": "bullet.priceCheaper",
+      "textArgs": {
+        "pct": 60,
+        "n": 5,
+        "kind": "detail.cohort.refSize.kind.model"
+      }
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.value",
+      "textKey": "bullet.ppkmBetter",
+      "textArgs": {
+        "pct": 80,
+        "ppkm": 5
+      }
+    },
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.km",
+      "textKey": "bullet.kmLower",
+      "textArgs": {
+        "pct": 40
+      }
+    },
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.marginPct",
+      "pipArgs": {
+        "pct": "40"
+      },
+      "textKey": "bullet.marginHigh"
+    },
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.warm",
+      "textKey": "bullet.auctionWarm"
+    }
+  ],
+  "summary": {
+    "verdictKey": "summary.verdict.good",
+    "cohortLineKey": "summary.cohortLine.yes",
+    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "ageSuffixKey": null,
+    "heatSuffixKey": null,
+    "marginSuffixKey": "summary.suffix.marginHigh",
+    "args": {
+      "refSize": 5,
+      "year": "2011",
+      "title": "Volkswagen Golf"
+    }
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "vehicleId": "e246603c-8e79-4d08-850b-8c7b964da5a0",
+  "computedAt": "2026-05-22T22:07:52.058Z",
+  "cohort": {
+    "sameModelCount": 13,
+    "sameYearCount": 3,
+    "refCohort": "model",
+    "refSize": 13
+  },
+  "pricePercentile": 15,
+  "pricePerKm": 9.010665685913938,
+  "pricePerKmPercentile": 54,
+  "kmPercentile": 38,
+  "daysListed": 121,
+  "marginPct": 26.857142857142858,
+  "marginTier": "mid",
+  "auctionHeat": "hot",
+  "dealTag": "good",
+  "bullets": [
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.deal",
+      "textKey": "bullet.priceCheaper",
+      "textArgs": {
+        "pct": 85,
+        "n": 13,
+        "kind": "detail.cohort.refSize.kind.model"
+      }
+    },
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.value",
+      "textKey": "bullet.ppkmBetter",
+      "textArgs": {
+        "pct": 46,
+        "ppkm": 9
+      }
+    },
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.km",
+      "textKey": "bullet.kmLower",
+      "textArgs": {
+        "pct": 62
+      }
+    },
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.marginPct",
+      "pipArgs": {
+        "pct": "27"
+      },
+      "textKey": "bullet.marginMid"
+    },
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.hot",
+      "textKey": "bullet.auctionHot"
+    },
+    {
+      "tone": "neutral",
+      "pipKey": "bullet.pip.daysListed",
+      "pipArgs": {
+        "n": 121
+      },
+      "textKey": "bullet.listedOld",
+      "textArgs": {
+        "n": 121
+      }
+    }
+  ],
+  "summary": {
+    "verdictKey": "summary.verdict.good",
+    "cohortLineKey": "summary.cohortLine.yes",
+    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "ageSuffixKey": "summary.suffix.ageOld",
+    "heatSuffixKey": "summary.suffix.heatHot",
+    "marginSuffixKey": null,
+    "args": {
+      "refSize": 13,
+      "year": "2022",
+      "title": "Kia Sportage"
+    }
+  }
+}

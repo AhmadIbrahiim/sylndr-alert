@@ -1,0 +1,85 @@
+{
+  "vehicleId": "f03ebf2b-eb04-46a4-9bd4-36da58279fcc",
+  "computedAt": "2026-05-22T22:07:51.997Z",
+  "cohort": {
+    "sameModelCount": 12,
+    "sameYearCount": 1,
+    "refCohort": "model",
+    "refSize": 12
+  },
+  "pricePercentile": 0,
+  "pricePerKm": 3.04228780042592,
+  "pricePerKmPercentile": 0,
+  "kmPercentile": 92,
+  "daysListed": 86,
+  "marginPct": 30.8,
+  "marginTier": "high",
+  "auctionHeat": "hot",
+  "dealTag": "good",
+  "bullets": [
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.deal",
+      "textKey": "bullet.priceCheaper",
+      "textArgs": {
+        "pct": 100,
+        "n": 12,
+        "kind": "detail.cohort.refSize.kind.model"
+      }
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.value",
+      "textKey": "bullet.ppkmBetter",
+      "textArgs": {
+        "pct": 100,
+        "ppkm": 3
+      }
+    },
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.highKm",
+      "textKey": "bullet.kmLower",
+      "textArgs": {
+        "pct": 8
+      }
+    },
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.marginPct",
+      "pipArgs": {
+        "pct": "31"
+      },
+      "textKey": "bullet.marginHigh"
+    },
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.hot",
+      "textKey": "bullet.auctionHot"
+    },
+    {
+      "tone": "neutral",
+      "pipKey": "bullet.pip.daysListed",
+      "pipArgs": {
+        "n": 86
+      },
+      "textKey": "bullet.listedOld",
+      "textArgs": {
+        "n": 86
+      }
+    }
+  ],
+  "summary": {
+    "verdictKey": "summary.verdict.good",
+    "cohortLineKey": "summary.cohortLine.yes",
+    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "ageSuffixKey": "summary.suffix.ageOld",
+    "heatSuffixKey": "summary.suffix.heatHot",
+    "marginSuffixKey": "summary.suffix.marginHigh",
+    "args": {
+      "refSize": 12,
+      "year": "2016",
+      "title": "Ford Focus"
+    }
+  }
+}

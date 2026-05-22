@@ -3,7 +3,9 @@ import { mkdir, readFile, writeFile } from "node:fs/promises";
 import { join } from "node:path";
 import { fetchAllMatching, FETCH_SCOPE } from "./fetch.ts";
 import { diffAndPersist } from "./diff.ts";
-import { writeDocsIndex } from "./render.ts";
+import { writeAllDocs } from "./render.ts";
+import { analyzeAll } from "./analyze.ts";
+import { analyzeAiForItems } from "./analyze-ai.ts";
 import { sendEmail } from "./email.ts";
 import { sendNtfy } from "./ntfy.ts";
 
@@ -72,8 +74,19 @@ async function main(): Promise<void> {
     console.log("[poll] no new listings — no notifications");
   }
 
-  const n = await writeDocsIndex();
-  console.log(`[poll] rendered docs/index.html with ${n} snapshots`);
+  const analyzed = await analyzeAll();
+  console.log(`[poll] analyzed ${analyzed} snapshots (heuristic cohort stats)`);
+
+  if (diff.newItems.length > 0) {
+    try {
+      await analyzeAiForItems(diff.newItems);
+    } catch (err) {
+      console.error(`[poll] AI analysis failed (continuing): ${err instanceof Error ? err.message : err}`);
+    }
+  }
+
+  const out = await writeAllDocs();
+  console.log(`[poll] rendered docs/index.html (${out.index} listings) + ${out.details} detail pages`);
   console.log(`[poll] done`);
 }
 

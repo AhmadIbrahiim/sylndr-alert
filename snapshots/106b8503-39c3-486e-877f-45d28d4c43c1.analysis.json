@@ -1,0 +1,58 @@
+{
+  "vehicleId": "106b8503-39c3-486e-877f-45d28d4c43c1",
+  "computedAt": "2026-05-22T22:07:52.106Z",
+  "cohort": {
+    "sameModelCount": 1,
+    "sameYearCount": 1,
+    "refCohort": "model",
+    "refSize": 1
+  },
+  "pricePercentile": null,
+  "pricePerKm": 39.322916666666664,
+  "pricePerKmPercentile": null,
+  "kmPercentile": null,
+  "daysListed": 25,
+  "marginPct": 16.688741721854306,
+  "marginTier": "mid",
+  "auctionHeat": "hot",
+  "dealTag": "fair",
+  "bullets": [
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.marginPct",
+      "pipArgs": {
+        "pct": "17"
+      },
+      "textKey": "bullet.marginMid"
+    },
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.hot",
+      "textKey": "bullet.auctionHot"
+    },
+    {
+      "tone": "neutral",
+      "pipKey": "bullet.pip.daysListed",
+      "pipArgs": {
+        "n": 25
+      },
+      "textKey": "bullet.listedOld",
+      "textArgs": {
+        "n": 25
+      }
+    }
+  ],
+  "summary": {
+    "verdictKey": "summary.verdict.fair",
+    "cohortLineKey": "summary.cohortLine.yes",
+    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "ageSuffixKey": null,
+    "heatSuffixKey": "summary.suffix.heatHot",
+    "marginSuffixKey": null,
+    "args": {
+      "refSize": 1,
+      "year": "2025",
+      "title": "MG 7"
+    }
+  }
+}

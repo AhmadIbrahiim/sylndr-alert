@@ -1,0 +1,58 @@
+{
+  "vehicleId": "45d7a372-1317-4e30-9fbf-d57a064af773",
+  "computedAt": "2026-05-22T22:07:52.053Z",
+  "cohort": {
+    "sameModelCount": 1,
+    "sameYearCount": 1,
+    "refCohort": "model",
+    "refSize": 1
+  },
+  "pricePercentile": null,
+  "pricePerKm": 49.714285714285715,
+  "pricePerKmPercentile": null,
+  "kmPercentile": null,
+  "daysListed": 53,
+  "marginPct": 21.35511191772535,
+  "marginTier": "mid",
+  "auctionHeat": "hot",
+  "dealTag": "fair",
+  "bullets": [
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.marginPct",
+      "pipArgs": {
+        "pct": "21"
+      },
+      "textKey": "bullet.marginMid"
+    },
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.hot",
+      "textKey": "bullet.auctionHot"
+    },
+    {
+      "tone": "neutral",
+      "pipKey": "bullet.pip.daysListed",
+      "pipArgs": {
+        "n": 53
+      },
+      "textKey": "bullet.listedOld",
+      "textArgs": {
+        "n": 53
+      }
+    }
+  ],
+  "summary": {
+    "verdictKey": "summary.verdict.fair",
+    "cohortLineKey": "summary.cohortLine.yes",
+    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "ageSuffixKey": "summary.suffix.ageOld",
+    "heatSuffixKey": "summary.suffix.heatHot",
+    "marginSuffixKey": null,
+    "args": {
+      "refSize": 1,
+      "year": "2024",
+      "title": "Cupra Leon"
+    }
+  }
+}

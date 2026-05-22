@@ -1,0 +1,85 @@
+{
+  "vehicleId": "2fded7f9-efc5-4940-8af9-410c1b0f681e",
+  "computedAt": "2026-05-22T22:07:52.136Z",
+  "cohort": {
+    "sameModelCount": 18,
+    "sameYearCount": 2,
+    "refCohort": "model",
+    "refSize": 18
+  },
+  "pricePercentile": 44,
+  "pricePerKm": 3.615944380069525,
+  "pricePerKmPercentile": 17,
+  "kmPercentile": 83,
+  "daysListed": 30,
+  "marginPct": 19.757992155254186,
+  "marginTier": "mid",
+  "auctionHeat": "hot",
+  "dealTag": "good",
+  "bullets": [
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.mid",
+      "textKey": "bullet.priceCheaper",
+      "textArgs": {
+        "pct": 56,
+        "n": 18,
+        "kind": "detail.cohort.refSize.kind.model"
+      }
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.value",
+      "textKey": "bullet.ppkmBetter",
+      "textArgs": {
+        "pct": 83,
+        "ppkm": 4
+      }
+    },
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.highKm",
+      "textKey": "bullet.kmLower",
+      "textArgs": {
+        "pct": 17
+      }
+    },
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.marginPct",
+      "pipArgs": {
+        "pct": "20"
+      },
+      "textKey": "bullet.marginMid"
+    },
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.hot",
+      "textKey": "bullet.auctionHot"
+    },
+    {
+      "tone": "neutral",
+      "pipKey": "bullet.pip.daysListed",
+      "pipArgs": {
+        "n": 30
+      },
+      "textKey": "bullet.listedOld",
+      "textArgs": {
+        "n": 30
+      }
+    }
+  ],
+  "summary": {
+    "verdictKey": "summary.verdict.good",
+    "cohortLineKey": "summary.cohortLine.yes",
+    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "ageSuffixKey": "summary.suffix.ageOld",
+    "heatSuffixKey": "summary.suffix.heatHot",
+    "marginSuffixKey": null,
+    "args": {
+      "refSize": 18,
+      "year": "2017",
+      "title": "Toyota Corolla"
+    }
+  }
+}

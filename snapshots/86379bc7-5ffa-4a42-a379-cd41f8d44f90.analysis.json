@@ -1,0 +1,47 @@
+{
+  "vehicleId": "86379bc7-5ffa-4a42-a379-cd41f8d44f90",
+  "computedAt": "2026-05-22T22:07:52.065Z",
+  "cohort": {
+    "sameModelCount": 2,
+    "sameYearCount": 2,
+    "refCohort": "model",
+    "refSize": 2
+  },
+  "pricePercentile": null,
+  "pricePerKm": 14.814814814814815,
+  "pricePerKmPercentile": null,
+  "kmPercentile": null,
+  "daysListed": 3,
+  "marginPct": 30.8125,
+  "marginTier": "high",
+  "auctionHeat": "cold",
+  "dealTag": "fair",
+  "bullets": [
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.marginPct",
+      "pipArgs": {
+        "pct": "31"
+      },
+      "textKey": "bullet.marginHigh"
+    },
+    {
+      "tone": "neutral",
+      "pipKey": "bullet.pip.cold",
+      "textKey": "bullet.auctionCold"
+    }
+  ],
+  "summary": {
+    "verdictKey": "summary.verdict.fair",
+    "cohortLineKey": "summary.cohortLine.yes",
+    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "ageSuffixKey": null,
+    "heatSuffixKey": null,
+    "marginSuffixKey": "summary.suffix.marginHigh",
+    "args": {
+      "refSize": 2,
+      "year": "2021",
+      "title": "BMW 118i"
+    }
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "vehicleId": "eaf8d8cd-6095-49ce-9f6b-9113f51e539a",
+  "computedAt": "2026-05-22T22:07:52.129Z",
+  "cohort": {
+    "sameModelCount": 10,
+    "sameYearCount": 3,
+    "refCohort": "model",
+    "refSize": 10
+  },
+  "pricePercentile": 50,
+  "pricePerKm": 30.563514804202484,
+  "pricePerKmPercentile": 70,
+  "kmPercentile": 10,
+  "daysListed": 110,
+  "marginPct": 14.374999999999998,
+  "marginTier": "low",
+  "auctionHeat": "hot",
+  "dealTag": "fair",
+  "bullets": [
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.mid",
+      "textKey": "bullet.priceCheaper",
+      "textArgs": {
+        "pct": 50,
+        "n": 10,
+        "kind": "detail.cohort.refSize.kind.model"
+      }
+    },
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.value",
+      "textKey": "bullet.ppkmBetter",
+      "textArgs": {
+        "pct": 30,
+        "ppkm": 31
+      }
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.lowKm",
+      "textKey": "bullet.kmLower",
+      "textArgs": {
+        "pct": 90
+      }
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.marginPct",
+      "pipArgs": {
+        "pct": "14"
+      },
+      "textKey": "bullet.marginLow"
+    },
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.hot",
+      "textKey": "bullet.auctionHot"
+    },
+    {
+      "tone": "neutral",
+      "pipKey": "bullet.pip.daysListed",
+      "pipArgs": {
+        "n": 110
+      },
+      "textKey": "bullet.listedOld",
+      "textArgs": {
+        "n": 110
+      }
+    }
+  ],
+  "summary": {
+    "verdictKey": "summary.verdict.fair",
+    "cohortLineKey": "summary.cohortLine.yes",
+    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "ageSuffixKey": "summary.suffix.ageOld",
+    "heatSuffixKey": "summary.suffix.heatHot",
+    "marginSuffixKey": "summary.suffix.marginLow",
+    "args": {
+      "refSize": 10,
+      "year": "2022",
+      "title": "Hyundai Tucson"
+    }
+  }
+}

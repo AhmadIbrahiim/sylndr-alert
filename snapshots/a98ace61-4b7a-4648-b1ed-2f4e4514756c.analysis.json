@@ -1,0 +1,85 @@
+{
+  "vehicleId": "a98ace61-4b7a-4648-b1ed-2f4e4514756c",
+  "computedAt": "2026-05-22T22:07:52.143Z",
+  "cohort": {
+    "sameModelCount": 8,
+    "sameYearCount": 2,
+    "refCohort": "model",
+    "refSize": 8
+  },
+  "pricePercentile": 38,
+  "pricePerKm": 3.4540389972144845,
+  "pricePerKmPercentile": 13,
+  "kmPercentile": 75,
+  "daysListed": 26,
+  "marginPct": 16.451612903225808,
+  "marginTier": "mid",
+  "auctionHeat": "hot",
+  "dealTag": "good",
+  "bullets": [
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.mid",
+      "textKey": "bullet.priceCheaper",
+      "textArgs": {
+        "pct": 62,
+        "n": 8,
+        "kind": "detail.cohort.refSize.kind.model"
+      }
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.value",
+      "textKey": "bullet.ppkmBetter",
+      "textArgs": {
+        "pct": 87,
+        "ppkm": 3
+      }
+    },
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.highKm",
+      "textKey": "bullet.kmLower",
+      "textArgs": {
+        "pct": 25
+      }
+    },
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.marginPct",
+      "pipArgs": {
+        "pct": "16"
+      },
+      "textKey": "bullet.marginMid"
+    },
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.hot",
+      "textKey": "bullet.auctionHot"
+    },
+    {
+      "tone": "neutral",
+      "pipKey": "bullet.pip.daysListed",
+      "pipArgs": {
+        "n": 26
+      },
+      "textKey": "bullet.listedOld",
+      "textArgs": {
+        "n": 26
+      }
+    }
+  ],
+  "summary": {
+    "verdictKey": "summary.verdict.good",
+    "cohortLineKey": "summary.cohortLine.yes",
+    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "ageSuffixKey": null,
+    "heatSuffixKey": "summary.suffix.heatHot",
+    "marginSuffixKey": null,
+    "args": {
+      "refSize": 8,
+      "year": "2019",
+      "title": "Renault Captur"
+    }
+  }
+}

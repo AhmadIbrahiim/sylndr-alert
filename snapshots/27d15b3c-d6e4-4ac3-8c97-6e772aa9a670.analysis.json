@@ -1,0 +1,58 @@
+{
+  "vehicleId": "27d15b3c-d6e4-4ac3-8c97-6e772aa9a670",
+  "computedAt": "2026-05-22T22:07:52.303Z",
+  "cohort": {
+    "sameModelCount": 2,
+    "sameYearCount": 2,
+    "refCohort": "model",
+    "refSize": 2
+  },
+  "pricePercentile": null,
+  "pricePerKm": 6.930817610062893,
+  "pricePerKmPercentile": null,
+  "kmPercentile": null,
+  "daysListed": 73,
+  "marginPct": 14.609800362976408,
+  "marginTier": "low",
+  "auctionHeat": "hot",
+  "dealTag": "fair",
+  "bullets": [
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.marginPct",
+      "pipArgs": {
+        "pct": "15"
+      },
+      "textKey": "bullet.marginLow"
+    },
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.hot",
+      "textKey": "bullet.auctionHot"
+    },
+    {
+      "tone": "neutral",
+      "pipKey": "bullet.pip.daysListed",
+      "pipArgs": {
+        "n": 73
+      },
+      "textKey": "bullet.listedOld",
+      "textArgs": {
+        "n": 73
+      }
+    }
+  ],
+  "summary": {
+    "verdictKey": "summary.verdict.fair",
+    "cohortLineKey": "summary.cohortLine.yes",
+    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "ageSuffixKey": "summary.suffix.ageOld",
+    "heatSuffixKey": "summary.suffix.heatHot",
+    "marginSuffixKey": "summary.suffix.marginLow",
+    "args": {
+      "refSize": 2,
+      "year": "2016",
+      "title": "BMW 320"
+    }
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "vehicleId": "13c51746-56f7-4395-8dc7-c36f4a9ba025",
+  "computedAt": "2026-05-22T22:07:52.073Z",
+  "cohort": {
+    "sameModelCount": 18,
+    "sameYearCount": 3,
+    "refCohort": "model",
+    "refSize": 18
+  },
+  "pricePercentile": 33,
+  "pricePerKm": 6.912590216519647,
+  "pricePerKmPercentile": 78,
+  "kmPercentile": 6,
+  "daysListed": 116,
+  "marginPct": 4.872389791183294,
+  "marginTier": "low",
+  "auctionHeat": "hot",
+  "dealTag": "fair",
+  "bullets": [
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.deal",
+      "textKey": "bullet.priceCheaper",
+      "textArgs": {
+        "pct": 67,
+        "n": 18,
+        "kind": "detail.cohort.refSize.kind.model"
+      }
+    },
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.pricey",
+      "textKey": "bullet.ppkmBetter",
+      "textArgs": {
+        "pct": 22,
+        "ppkm": 7
+      }
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.lowKm",
+      "textKey": "bullet.kmLower",
+      "textArgs": {
+        "pct": 94
+      }
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.marginPct",
+      "pipArgs": {
+        "pct": "5"
+      },
+      "textKey": "bullet.marginLow"
+    },
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.hot",
+      "textKey": "bullet.auctionHot"
+    },
+    {
+      "tone": "neutral",
+      "pipKey": "bullet.pip.daysListed",
+      "pipArgs": {
+        "n": 116
+      },
+      "textKey": "bullet.listedOld",
+      "textArgs": {
+        "n": 116
+      }
+    }
+  ],
+  "summary": {
+    "verdictKey": "summary.verdict.fair",
+    "cohortLineKey": "summary.cohortLine.yes",
+    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "ageSuffixKey": "summary.suffix.ageOld",
+    "heatSuffixKey": "summary.suffix.heatHot",
+    "marginSuffixKey": "summary.suffix.marginLow",
+    "args": {
+      "refSize": 18,
+      "year": "2017",
+      "title": "Renault Logan"
+    }
+  }
+}

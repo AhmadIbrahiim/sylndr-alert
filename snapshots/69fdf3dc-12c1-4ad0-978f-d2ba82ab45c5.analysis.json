@@ -1,0 +1,58 @@
+{
+  "vehicleId": "69fdf3dc-12c1-4ad0-978f-d2ba82ab45c5",
+  "computedAt": "2026-05-22T22:07:52.109Z",
+  "cohort": {
+    "sameModelCount": 2,
+    "sameYearCount": 2,
+    "refCohort": "model",
+    "refSize": 2
+  },
+  "pricePercentile": null,
+  "pricePerKm": 6.155108740254411,
+  "pricePerKmPercentile": null,
+  "kmPercentile": null,
+  "daysListed": 68,
+  "marginPct": 17.866666666666667,
+  "marginTier": "mid",
+  "auctionHeat": "hot",
+  "dealTag": "fair",
+  "bullets": [
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.marginPct",
+      "pipArgs": {
+        "pct": "18"
+      },
+      "textKey": "bullet.marginMid"
+    },
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.hot",
+      "textKey": "bullet.auctionHot"
+    },
+    {
+      "tone": "neutral",
+      "pipKey": "bullet.pip.daysListed",
+      "pipArgs": {
+        "n": 68
+      },
+      "textKey": "bullet.listedOld",
+      "textArgs": {
+        "n": 68
+      }
+    }
+  ],
+  "summary": {
+    "verdictKey": "summary.verdict.fair",
+    "cohortLineKey": "summary.cohortLine.yes",
+    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "ageSuffixKey": "summary.suffix.ageOld",
+    "heatSuffixKey": "summary.suffix.heatHot",
+    "marginSuffixKey": null,
+    "args": {
+      "refSize": 2,
+      "year": "2020",
+      "title": "Fiat Tipo Hatchback"
+    }
+  }
+}

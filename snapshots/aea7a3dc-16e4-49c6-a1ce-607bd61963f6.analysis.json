@@ -1,0 +1,50 @@
+{
+  "vehicleId": "aea7a3dc-16e4-49c6-a1ce-607bd61963f6",
+  "computedAt": "2026-05-22T22:07:51.943Z",
+  "cohort": {
+    "sameModelCount": 1,
+    "sameYearCount": 1,
+    "refCohort": "model",
+    "refSize": 1
+  },
+  "pricePercentile": null,
+  "pricePerKm": 2465,
+  "pricePerKmPercentile": null,
+  "kmPercentile": null,
+  "daysListed": 116,
+  "marginPct": null,
+  "marginTier": null,
+  "auctionHeat": "hot",
+  "dealTag": "fair",
+  "bullets": [
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.hot",
+      "textKey": "bullet.auctionHot"
+    },
+    {
+      "tone": "neutral",
+      "pipKey": "bullet.pip.daysListed",
+      "pipArgs": {
+        "n": 116
+      },
+      "textKey": "bullet.listedOld",
+      "textArgs": {
+        "n": 116
+      }
+    }
+  ],
+  "summary": {
+    "verdictKey": "summary.verdict.fair",
+    "cohortLineKey": "summary.cohortLine.yes",
+    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "ageSuffixKey": "summary.suffix.ageOld",
+    "heatSuffixKey": "summary.suffix.heatHot",
+    "marginSuffixKey": null,
+    "args": {
+      "refSize": 1,
+      "year": "2023",
+      "title": "Volkswagen T-Cross"
+    }
+  }
+}

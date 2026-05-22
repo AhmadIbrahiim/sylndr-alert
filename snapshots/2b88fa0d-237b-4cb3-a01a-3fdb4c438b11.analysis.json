@@ -1,0 +1,85 @@
+{
+  "vehicleId": "2b88fa0d-237b-4cb3-a01a-3fdb4c438b11",
+  "computedAt": "2026-05-22T22:07:52.233Z",
+  "cohort": {
+    "sameModelCount": 8,
+    "sameYearCount": 3,
+    "refCohort": "model",
+    "refSize": 8
+  },
+  "pricePercentile": 13,
+  "pricePerKm": 1.799043062200957,
+  "pricePerKmPercentile": 13,
+  "kmPercentile": 75,
+  "daysListed": 80,
+  "marginPct": 34.04255319148936,
+  "marginTier": "high",
+  "auctionHeat": "hot",
+  "dealTag": "good",
+  "bullets": [
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.deal",
+      "textKey": "bullet.priceCheaper",
+      "textArgs": {
+        "pct": 87,
+        "n": 8,
+        "kind": "detail.cohort.refSize.kind.model"
+      }
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.value",
+      "textKey": "bullet.ppkmBetter",
+      "textArgs": {
+        "pct": 87,
+        "ppkm": 2
+      }
+    },
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.highKm",
+      "textKey": "bullet.kmLower",
+      "textArgs": {
+        "pct": 25
+      }
+    },
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.marginPct",
+      "pipArgs": {
+        "pct": "34"
+      },
+      "textKey": "bullet.marginHigh"
+    },
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.hot",
+      "textKey": "bullet.auctionHot"
+    },
+    {
+      "tone": "neutral",
+      "pipKey": "bullet.pip.daysListed",
+      "pipArgs": {
+        "n": 80
+      },
+      "textKey": "bullet.listedOld",
+      "textArgs": {
+        "n": 80
+      }
+    }
+  ],
+  "summary": {
+    "verdictKey": "summary.verdict.good",
+    "cohortLineKey": "summary.cohortLine.yes",
+    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "ageSuffixKey": "summary.suffix.ageOld",
+    "heatSuffixKey": "summary.suffix.heatHot",
+    "marginSuffixKey": "summary.suffix.marginHigh",
+    "args": {
+      "refSize": 8,
+      "year": "2013",
+      "title": "Kia Rio"
+    }
+  }
+}

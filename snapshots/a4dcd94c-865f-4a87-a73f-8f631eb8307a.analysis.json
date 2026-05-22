@@ -1,0 +1,77 @@
+{
+  "vehicleId": "a4dcd94c-865f-4a87-a73f-8f631eb8307a",
+  "computedAt": "2026-05-22T22:07:51.990Z",
+  "cohort": {
+    "sameModelCount": 13,
+    "sameYearCount": 1,
+    "refCohort": "model",
+    "refSize": 13
+  },
+  "pricePercentile": 0,
+  "pricePerKm": 1.6717569522584794,
+  "pricePerKmPercentile": 0,
+  "kmPercentile": 92,
+  "daysListed": 116,
+  "marginPct": null,
+  "marginTier": null,
+  "auctionHeat": "hot",
+  "dealTag": "good",
+  "bullets": [
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.deal",
+      "textKey": "bullet.priceCheaper",
+      "textArgs": {
+        "pct": 100,
+        "n": 13,
+        "kind": "detail.cohort.refSize.kind.model"
+      }
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.value",
+      "textKey": "bullet.ppkmBetter",
+      "textArgs": {
+        "pct": 100,
+        "ppkm": 2
+      }
+    },
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.highKm",
+      "textKey": "bullet.kmLower",
+      "textArgs": {
+        "pct": 8
+      }
+    },
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.hot",
+      "textKey": "bullet.auctionHot"
+    },
+    {
+      "tone": "neutral",
+      "pipKey": "bullet.pip.daysListed",
+      "pipArgs": {
+        "n": 116
+      },
+      "textKey": "bullet.listedOld",
+      "textArgs": {
+        "n": 116
+      }
+    }
+  ],
+  "summary": {
+    "verdictKey": "summary.verdict.good",
+    "cohortLineKey": "summary.cohortLine.yes",
+    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "ageSuffixKey": "summary.suffix.ageOld",
+    "heatSuffixKey": "summary.suffix.heatHot",
+    "marginSuffixKey": null,
+    "args": {
+      "refSize": 13,
+      "year": "2006",
+      "title": "Volkswagen Passat"
+    }
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "vehicleId": "284fdcb1-6a6d-43f6-a9e2-69344482972a",
+  "computedAt": "2026-05-22T22:07:52.095Z",
+  "cohort": {
+    "sameModelCount": 12,
+    "sameYearCount": 1,
+    "refCohort": "model",
+    "refSize": 12
+  },
+  "pricePercentile": 8,
+  "pricePerKm": 1.8800282999797857,
+  "pricePerKmPercentile": 8,
+  "kmPercentile": 83,
+  "daysListed": 33,
+  "marginPct": 15.48841460136552,
+  "marginTier": "mid",
+  "auctionHeat": "hot",
+  "dealTag": "good",
+  "bullets": [
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.deal",
+      "textKey": "bullet.priceCheaper",
+      "textArgs": {
+        "pct": 92,
+        "n": 12,
+        "kind": "detail.cohort.refSize.kind.model"
+      }
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.value",
+      "textKey": "bullet.ppkmBetter",
+      "textArgs": {
+        "pct": 92,
+        "ppkm": 2
+      }
+    },
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.highKm",
+      "textKey": "bullet.kmLower",
+      "textArgs": {
+        "pct": 17
+      }
+    },
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.marginPct",
+      "pipArgs": {
+        "pct": "15"
+      },
+      "textKey": "bullet.marginMid"
+    },
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.hot",
+      "textKey": "bullet.auctionHot"
+    },
+    {
+      "tone": "neutral",
+      "pipKey": "bullet.pip.daysListed",
+      "pipArgs": {
+        "n": 33
+      },
+      "textKey": "bullet.listedOld",
+      "textArgs": {
+        "n": 33
+      }
+    }
+  ],
+  "summary": {
+    "verdictKey": "summary.verdict.good",
+    "cohortLineKey": "summary.cohortLine.yes",
+    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "ageSuffixKey": "summary.suffix.ageOld",
+    "heatSuffixKey": "summary.suffix.heatHot",
+    "marginSuffixKey": null,
+    "args": {
+      "refSize": 12,
+      "year": "2017",
+      "title": "Renault Duster"
+    }
+  }
+}

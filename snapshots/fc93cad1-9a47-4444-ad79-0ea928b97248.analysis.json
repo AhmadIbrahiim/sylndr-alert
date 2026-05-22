@@ -1,0 +1,58 @@
+{
+  "vehicleId": "fc93cad1-9a47-4444-ad79-0ea928b97248",
+  "computedAt": "2026-05-22T22:07:52.243Z",
+  "cohort": {
+    "sameModelCount": 2,
+    "sameYearCount": 1,
+    "refCohort": "model",
+    "refSize": 2
+  },
+  "pricePercentile": null,
+  "pricePerKm": 12.285012285012286,
+  "pricePerKmPercentile": null,
+  "kmPercentile": null,
+  "daysListed": 29,
+  "marginPct": 20.200000000000003,
+  "marginTier": "mid",
+  "auctionHeat": "hot",
+  "dealTag": "fair",
+  "bullets": [
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.marginPct",
+      "pipArgs": {
+        "pct": "20"
+      },
+      "textKey": "bullet.marginMid"
+    },
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.hot",
+      "textKey": "bullet.auctionHot"
+    },
+    {
+      "tone": "neutral",
+      "pipKey": "bullet.pip.daysListed",
+      "pipArgs": {
+        "n": 29
+      },
+      "textKey": "bullet.listedOld",
+      "textArgs": {
+        "n": 29
+      }
+    }
+  ],
+  "summary": {
+    "verdictKey": "summary.verdict.fair",
+    "cohortLineKey": "summary.cohortLine.yes",
+    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "ageSuffixKey": null,
+    "heatSuffixKey": "summary.suffix.heatHot",
+    "marginSuffixKey": null,
+    "args": {
+      "refSize": 2,
+      "year": "2019",
+      "title": "Chevrolet Malibu"
+    }
+  }
+}

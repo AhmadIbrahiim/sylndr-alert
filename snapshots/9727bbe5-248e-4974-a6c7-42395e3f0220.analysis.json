@@ -1,0 +1,85 @@
+{
+  "vehicleId": "9727bbe5-248e-4974-a6c7-42395e3f0220",
+  "computedAt": "2026-05-22T22:07:52.086Z",
+  "cohort": {
+    "sameModelCount": 18,
+    "sameYearCount": 1,
+    "refCohort": "model",
+    "refSize": 18
+  },
+  "pricePercentile": 78,
+  "pricePerKm": 8.000476923076922,
+  "pricePerKmPercentile": 89,
+  "kmPercentile": 11,
+  "daysListed": 51,
+  "marginPct": 17.889510433031877,
+  "marginTier": "mid",
+  "auctionHeat": "hot",
+  "dealTag": "high",
+  "bullets": [
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.high",
+      "textKey": "bullet.priceCheaper",
+      "textArgs": {
+        "pct": 22,
+        "n": 18,
+        "kind": "detail.cohort.refSize.kind.model"
+      }
+    },
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.pricey",
+      "textKey": "bullet.ppkmBetter",
+      "textArgs": {
+        "pct": 11,
+        "ppkm": 8
+      }
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.lowKm",
+      "textKey": "bullet.kmLower",
+      "textArgs": {
+        "pct": 89
+      }
+    },
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.marginPct",
+      "pipArgs": {
+        "pct": "18"
+      },
+      "textKey": "bullet.marginMid"
+    },
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.hot",
+      "textKey": "bullet.auctionHot"
+    },
+    {
+      "tone": "neutral",
+      "pipKey": "bullet.pip.daysListed",
+      "pipArgs": {
+        "n": 51
+      },
+      "textKey": "bullet.listedOld",
+      "textArgs": {
+        "n": 51
+      }
+    }
+  ],
+  "summary": {
+    "verdictKey": "summary.verdict.high",
+    "cohortLineKey": "summary.cohortLine.yes",
+    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "ageSuffixKey": "summary.suffix.ageOld",
+    "heatSuffixKey": "summary.suffix.heatHot",
+    "marginSuffixKey": null,
+    "args": {
+      "refSize": 18,
+      "year": "2020",
+      "title": "Renault Logan"
+    }
+  }
+}

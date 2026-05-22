@@ -1,0 +1,85 @@
+{
+  "vehicleId": "d089893f-0747-4f42-a5fc-9858edab327a",
+  "computedAt": "2026-05-22T22:07:52.056Z",
+  "cohort": {
+    "sameModelCount": 14,
+    "sameYearCount": 1,
+    "refCohort": "model",
+    "refSize": 14
+  },
+  "pricePercentile": 14,
+  "pricePerKm": 4.385382059800665,
+  "pricePerKmPercentile": 14,
+  "kmPercentile": 64,
+  "daysListed": 106,
+  "marginPct": 27.878787878787882,
+  "marginTier": "mid",
+  "auctionHeat": "hot",
+  "dealTag": "good",
+  "bullets": [
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.deal",
+      "textKey": "bullet.priceCheaper",
+      "textArgs": {
+        "pct": 86,
+        "n": 14,
+        "kind": "detail.cohort.refSize.kind.model"
+      }
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.value",
+      "textKey": "bullet.ppkmBetter",
+      "textArgs": {
+        "pct": 86,
+        "ppkm": 4
+      }
+    },
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.km",
+      "textKey": "bullet.kmLower",
+      "textArgs": {
+        "pct": 36
+      }
+    },
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.marginPct",
+      "pipArgs": {
+        "pct": "28"
+      },
+      "textKey": "bullet.marginMid"
+    },
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.hot",
+      "textKey": "bullet.auctionHot"
+    },
+    {
+      "tone": "neutral",
+      "pipKey": "bullet.pip.daysListed",
+      "pipArgs": {
+        "n": 106
+      },
+      "textKey": "bullet.listedOld",
+      "textArgs": {
+        "n": 106
+      }
+    }
+  ],
+  "summary": {
+    "verdictKey": "summary.verdict.good",
+    "cohortLineKey": "summary.cohortLine.yes",
+    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "ageSuffixKey": "summary.suffix.ageOld",
+    "heatSuffixKey": "summary.suffix.heatHot",
+    "marginSuffixKey": null,
+    "args": {
+      "refSize": 14,
+      "year": "2015",
+      "title": "Peugeot 508"
+    }
+  }
+}

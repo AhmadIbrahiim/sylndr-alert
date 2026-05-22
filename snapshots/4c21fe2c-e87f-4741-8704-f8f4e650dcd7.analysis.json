@@ -1,0 +1,85 @@
+{
+  "vehicleId": "4c21fe2c-e87f-4741-8704-f8f4e650dcd7",
+  "computedAt": "2026-05-22T22:07:52.163Z",
+  "cohort": {
+    "sameModelCount": 9,
+    "sameYearCount": 2,
+    "refCohort": "model",
+    "refSize": 9
+  },
+  "pricePercentile": 22,
+  "pricePerKm": 12.096699209669922,
+  "pricePerKmPercentile": 22,
+  "kmPercentile": 67,
+  "daysListed": 114,
+  "marginPct": 9.377401998462721,
+  "marginTier": "low",
+  "auctionHeat": "hot",
+  "dealTag": "good",
+  "bullets": [
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.deal",
+      "textKey": "bullet.priceCheaper",
+      "textArgs": {
+        "pct": 78,
+        "n": 9,
+        "kind": "detail.cohort.refSize.kind.model"
+      }
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.value",
+      "textKey": "bullet.ppkmBetter",
+      "textArgs": {
+        "pct": 78,
+        "ppkm": 12
+      }
+    },
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.km",
+      "textKey": "bullet.kmLower",
+      "textArgs": {
+        "pct": 33
+      }
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.marginPct",
+      "pipArgs": {
+        "pct": "9"
+      },
+      "textKey": "bullet.marginLow"
+    },
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.hot",
+      "textKey": "bullet.auctionHot"
+    },
+    {
+      "tone": "neutral",
+      "pipKey": "bullet.pip.daysListed",
+      "pipArgs": {
+        "n": 114
+      },
+      "textKey": "bullet.listedOld",
+      "textArgs": {
+        "n": 114
+      }
+    }
+  ],
+  "summary": {
+    "verdictKey": "summary.verdict.good",
+    "cohortLineKey": "summary.cohortLine.yes",
+    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "ageSuffixKey": "summary.suffix.ageOld",
+    "heatSuffixKey": "summary.suffix.heatHot",
+    "marginSuffixKey": "summary.suffix.marginLow",
+    "args": {
+      "refSize": 9,
+      "year": "2020",
+      "title": "Volkswagen Tiguan"
+    }
+  }
+}

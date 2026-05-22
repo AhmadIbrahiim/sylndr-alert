@@ -1,0 +1,85 @@
+{
+  "vehicleId": "4764fd75-ca31-4d33-a9a3-205139346cea",
+  "computedAt": "2026-05-22T22:07:51.956Z",
+  "cohort": {
+    "sameModelCount": 7,
+    "sameYearCount": 3,
+    "refCohort": "model",
+    "refSize": 7
+  },
+  "pricePercentile": 14,
+  "pricePerKm": 2.809224318658281,
+  "pricePerKmPercentile": 0,
+  "kmPercentile": 86,
+  "daysListed": 47,
+  "marginPct": 41.04477611940299,
+  "marginTier": "high",
+  "auctionHeat": "warm",
+  "dealTag": "good",
+  "bullets": [
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.deal",
+      "textKey": "bullet.priceCheaper",
+      "textArgs": {
+        "pct": 86,
+        "n": 7,
+        "kind": "detail.cohort.refSize.kind.model"
+      }
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.value",
+      "textKey": "bullet.ppkmBetter",
+      "textArgs": {
+        "pct": 100,
+        "ppkm": 3
+      }
+    },
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.highKm",
+      "textKey": "bullet.kmLower",
+      "textArgs": {
+        "pct": 14
+      }
+    },
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.marginPct",
+      "pipArgs": {
+        "pct": "41"
+      },
+      "textKey": "bullet.marginHigh"
+    },
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.warm",
+      "textKey": "bullet.auctionWarm"
+    },
+    {
+      "tone": "neutral",
+      "pipKey": "bullet.pip.daysListed",
+      "pipArgs": {
+        "n": 47
+      },
+      "textKey": "bullet.listedOld",
+      "textArgs": {
+        "n": 47
+      }
+    }
+  ],
+  "summary": {
+    "verdictKey": "summary.verdict.good",
+    "cohortLineKey": "summary.cohortLine.yes",
+    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "ageSuffixKey": "summary.suffix.ageOld",
+    "heatSuffixKey": null,
+    "marginSuffixKey": "summary.suffix.marginHigh",
+    "args": {
+      "refSize": 7,
+      "year": "2015",
+      "title": "Ford Kuga"
+    }
+  }
+}

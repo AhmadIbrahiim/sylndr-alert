@@ -1,0 +1,85 @@
+{
+  "vehicleId": "116752c6-ca94-455d-9a06-ac1302bad853",
+  "computedAt": "2026-05-22T22:07:52.265Z",
+  "cohort": {
+    "sameModelCount": 12,
+    "sameYearCount": 3,
+    "refCohort": "model",
+    "refSize": 12
+  },
+  "pricePercentile": 33,
+  "pricePerKm": 3.7625249828976135,
+  "pricePerKmPercentile": 50,
+  "kmPercentile": 25,
+  "daysListed": 151,
+  "marginPct": 15.32976827094474,
+  "marginTier": "mid",
+  "auctionHeat": "warm",
+  "dealTag": "good",
+  "bullets": [
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.deal",
+      "textKey": "bullet.priceCheaper",
+      "textArgs": {
+        "pct": 67,
+        "n": 12,
+        "kind": "detail.cohort.refSize.kind.model"
+      }
+    },
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.value",
+      "textKey": "bullet.ppkmBetter",
+      "textArgs": {
+        "pct": 50,
+        "ppkm": 4
+      }
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.lowKm",
+      "textKey": "bullet.kmLower",
+      "textArgs": {
+        "pct": 75
+      }
+    },
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.marginPct",
+      "pipArgs": {
+        "pct": "15"
+      },
+      "textKey": "bullet.marginMid"
+    },
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.warm",
+      "textKey": "bullet.auctionWarm"
+    },
+    {
+      "tone": "neutral",
+      "pipKey": "bullet.pip.daysListed",
+      "pipArgs": {
+        "n": 151
+      },
+      "textKey": "bullet.listedOld",
+      "textArgs": {
+        "n": 151
+      }
+    }
+  ],
+  "summary": {
+    "verdictKey": "summary.verdict.good",
+    "cohortLineKey": "summary.cohortLine.yes",
+    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "ageSuffixKey": "summary.suffix.ageOld",
+    "heatSuffixKey": null,
+    "marginSuffixKey": null,
+    "args": {
+      "refSize": 12,
+      "year": "2015",
+      "title": "Mitsubishi Lancer"
+    }
+  }
+}

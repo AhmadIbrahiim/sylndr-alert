@@ -1,0 +1,85 @@
+{
+  "vehicleId": "116f9361-655c-469f-b6b3-306f06ae12ca",
+  "computedAt": "2026-05-22T22:07:52.298Z",
+  "cohort": {
+    "sameModelCount": 28,
+    "sameYearCount": 2,
+    "refCohort": "model",
+    "refSize": 28
+  },
+  "pricePercentile": 4,
+  "pricePerKm": 1.4678899082568808,
+  "pricePerKmPercentile": 7,
+  "kmPercentile": 79,
+  "daysListed": 35,
+  "marginPct": 51.87500000000001,
+  "marginTier": "high",
+  "auctionHeat": "hot",
+  "dealTag": "good",
+  "bullets": [
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.deal",
+      "textKey": "bullet.priceCheaper",
+      "textArgs": {
+        "pct": 96,
+        "n": 28,
+        "kind": "detail.cohort.refSize.kind.model"
+      }
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.value",
+      "textKey": "bullet.ppkmBetter",
+      "textArgs": {
+        "pct": 93,
+        "ppkm": 1
+      }
+    },
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.highKm",
+      "textKey": "bullet.kmLower",
+      "textArgs": {
+        "pct": 21
+      }
+    },
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.marginPct",
+      "pipArgs": {
+        "pct": "52"
+      },
+      "textKey": "bullet.marginHigh"
+    },
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.hot",
+      "textKey": "bullet.auctionHot"
+    },
+    {
+      "tone": "neutral",
+      "pipKey": "bullet.pip.daysListed",
+      "pipArgs": {
+        "n": 35
+      },
+      "textKey": "bullet.listedOld",
+      "textArgs": {
+        "n": 35
+      }
+    }
+  ],
+  "summary": {
+    "verdictKey": "summary.verdict.good",
+    "cohortLineKey": "summary.cohortLine.yes",
+    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "ageSuffixKey": "summary.suffix.ageOld",
+    "heatSuffixKey": "summary.suffix.heatHot",
+    "marginSuffixKey": "summary.suffix.marginHigh",
+    "args": {
+      "refSize": 28,
+      "year": "2006",
+      "title": "Renault Megane"
+    }
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "vehicleId": "94f92e4f-94b5-4eb2-832f-efd3f3dd6086",
+  "computedAt": "2026-05-22T22:07:52.215Z",
+  "cohort": {
+    "sameModelCount": 16,
+    "sameYearCount": 3,
+    "refCohort": "model",
+    "refSize": 16
+  },
+  "pricePercentile": 88,
+  "pricePerKm": 7.2225869993434015,
+  "pricePerKmPercentile": 38,
+  "kmPercentile": 69,
+  "daysListed": 3,
+  "marginPct": 34.81818181818182,
+  "marginTier": "high",
+  "auctionHeat": "cold",
+  "dealTag": "fair",
+  "bullets": [
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.high",
+      "textKey": "bullet.priceCheaper",
+      "textArgs": {
+        "pct": 12,
+        "n": 16,
+        "kind": "detail.cohort.refSize.kind.model"
+      }
+    },
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.value",
+      "textKey": "bullet.ppkmBetter",
+      "textArgs": {
+        "pct": 62,
+        "ppkm": 7
+      }
+    },
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.km",
+      "textKey": "bullet.kmLower",
+      "textArgs": {
+        "pct": 31
+      }
+    },
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.marginPct",
+      "pipArgs": {
+        "pct": "35"
+      },
+      "textKey": "bullet.marginHigh"
+    },
+    {
+      "tone": "neutral",
+      "pipKey": "bullet.pip.cold",
+      "textKey": "bullet.auctionCold"
+    }
+  ],
+  "summary": {
+    "verdictKey": "summary.verdict.fair",
+    "cohortLineKey": "summary.cohortLine.yes",
+    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "ageSuffixKey": null,
+    "heatSuffixKey": null,
+    "marginSuffixKey": "summary.suffix.marginHigh",
+    "args": {
+      "refSize": 16,
+      "year": "2021",
+      "title": "Renault Kadjar"
+    }
+  }
+}

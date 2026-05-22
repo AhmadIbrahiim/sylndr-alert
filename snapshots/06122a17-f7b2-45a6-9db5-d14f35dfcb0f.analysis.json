@@ -1,0 +1,85 @@
+{
+  "vehicleId": "06122a17-f7b2-45a6-9db5-d14f35dfcb0f",
+  "computedAt": "2026-05-22T22:07:52.045Z",
+  "cohort": {
+    "sameModelCount": 7,
+    "sameYearCount": 3,
+    "refCohort": "model",
+    "refSize": 7
+  },
+  "pricePercentile": 0,
+  "pricePerKm": 24.599483204134366,
+  "pricePerKmPercentile": 14,
+  "kmPercentile": 71,
+  "daysListed": 74,
+  "marginPct": 16.841736694677873,
+  "marginTier": "mid",
+  "auctionHeat": "hot",
+  "dealTag": "good",
+  "bullets": [
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.deal",
+      "textKey": "bullet.priceCheaper",
+      "textArgs": {
+        "pct": 100,
+        "n": 7,
+        "kind": "detail.cohort.refSize.kind.model"
+      }
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.value",
+      "textKey": "bullet.ppkmBetter",
+      "textArgs": {
+        "pct": 86,
+        "ppkm": 25
+      }
+    },
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.highKm",
+      "textKey": "bullet.kmLower",
+      "textArgs": {
+        "pct": 29
+      }
+    },
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.marginPct",
+      "pipArgs": {
+        "pct": "17"
+      },
+      "textKey": "bullet.marginMid"
+    },
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.hot",
+      "textKey": "bullet.auctionHot"
+    },
+    {
+      "tone": "neutral",
+      "pipKey": "bullet.pip.daysListed",
+      "pipArgs": {
+        "n": 74
+      },
+      "textKey": "bullet.listedOld",
+      "textArgs": {
+        "n": 74
+      }
+    }
+  ],
+  "summary": {
+    "verdictKey": "summary.verdict.good",
+    "cohortLineKey": "summary.cohortLine.yes",
+    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "ageSuffixKey": "summary.suffix.ageOld",
+    "heatSuffixKey": "summary.suffix.heatHot",
+    "marginSuffixKey": null,
+    "args": {
+      "refSize": 7,
+      "year": "2020",
+      "title": "Mercedes-Benz GLC 200"
+    }
+  }
+}

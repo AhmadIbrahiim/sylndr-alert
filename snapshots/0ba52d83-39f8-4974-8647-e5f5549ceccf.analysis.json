@@ -1,0 +1,77 @@
+{
+  "vehicleId": "0ba52d83-39f8-4974-8647-e5f5549ceccf",
+  "computedAt": "2026-05-22T22:07:52.217Z",
+  "cohort": {
+    "sameModelCount": 6,
+    "sameYearCount": 3,
+    "refCohort": "model",
+    "refSize": 6
+  },
+  "pricePercentile": 33,
+  "pricePerKm": 12.095357590966122,
+  "pricePerKmPercentile": 33,
+  "kmPercentile": 50,
+  "daysListed": 87,
+  "marginPct": null,
+  "marginTier": null,
+  "auctionHeat": "hot",
+  "dealTag": "good",
+  "bullets": [
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.deal",
+      "textKey": "bullet.priceCheaper",
+      "textArgs": {
+        "pct": 67,
+        "n": 6,
+        "kind": "detail.cohort.refSize.kind.model"
+      }
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.value",
+      "textKey": "bullet.ppkmBetter",
+      "textArgs": {
+        "pct": 67,
+        "ppkm": 12
+      }
+    },
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.km",
+      "textKey": "bullet.kmLower",
+      "textArgs": {
+        "pct": 50
+      }
+    },
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.hot",
+      "textKey": "bullet.auctionHot"
+    },
+    {
+      "tone": "neutral",
+      "pipKey": "bullet.pip.daysListed",
+      "pipArgs": {
+        "n": 87
+      },
+      "textKey": "bullet.listedOld",
+      "textArgs": {
+        "n": 87
+      }
+    }
+  ],
+  "summary": {
+    "verdictKey": "summary.verdict.good",
+    "cohortLineKey": "summary.cohortLine.yes",
+    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "ageSuffixKey": "summary.suffix.ageOld",
+    "heatSuffixKey": "summary.suffix.heatHot",
+    "marginSuffixKey": null,
+    "args": {
+      "refSize": 6,
+      "year": "2020",
+      "title": "BMW 520i"
+    }
+  }
+}

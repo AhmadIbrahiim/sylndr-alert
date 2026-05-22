@@ -1,0 +1,58 @@
+{
+  "vehicleId": "5f9e76f0-23bc-4580-9fc9-2cf8eeb4e5fa",
+  "computedAt": "2026-05-22T22:07:52.220Z",
+  "cohort": {
+    "sameModelCount": 2,
+    "sameYearCount": 1,
+    "refCohort": "model",
+    "refSize": 2
+  },
+  "pricePercentile": null,
+  "pricePerKm": 14.680648236415633,
+  "pricePerKmPercentile": null,
+  "kmPercentile": null,
+  "daysListed": 36,
+  "marginPct": 16.233766233766232,
+  "marginTier": "mid",
+  "auctionHeat": "hot",
+  "dealTag": "fair",
+  "bullets": [
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.marginPct",
+      "pipArgs": {
+        "pct": "16"
+      },
+      "textKey": "bullet.marginMid"
+    },
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.hot",
+      "textKey": "bullet.auctionHot"
+    },
+    {
+      "tone": "neutral",
+      "pipKey": "bullet.pip.daysListed",
+      "pipArgs": {
+        "n": 36
+      },
+      "textKey": "bullet.listedOld",
+      "textArgs": {
+        "n": 36
+      }
+    }
+  ],
+  "summary": {
+    "verdictKey": "summary.verdict.fair",
+    "cohortLineKey": "summary.cohortLine.yes",
+    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "ageSuffixKey": "summary.suffix.ageOld",
+    "heatSuffixKey": "summary.suffix.heatHot",
+    "marginSuffixKey": null,
+    "args": {
+      "refSize": 2,
+      "year": "2021",
+      "title": "Hyundai Accent RB"
+    }
+  }
+}

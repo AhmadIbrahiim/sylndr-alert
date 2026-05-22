@@ -1,0 +1,74 @@
+{
+  "vehicleId": "568b3325-5cfd-4dfd-9f16-3642bf13eb04",
+  "computedAt": "2026-05-22T22:07:52.281Z",
+  "cohort": {
+    "sameModelCount": 11,
+    "sameYearCount": 1,
+    "refCohort": "model",
+    "refSize": 11
+  },
+  "pricePercentile": 36,
+  "pricePerKm": 6.164685160722149,
+  "pricePerKmPercentile": 9,
+  "kmPercentile": 82,
+  "daysListed": 8,
+  "marginPct": 28.499999999999996,
+  "marginTier": "mid",
+  "auctionHeat": "hot",
+  "dealTag": "good",
+  "bullets": [
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.mid",
+      "textKey": "bullet.priceCheaper",
+      "textArgs": {
+        "pct": 64,
+        "n": 11,
+        "kind": "detail.cohort.refSize.kind.model"
+      }
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.value",
+      "textKey": "bullet.ppkmBetter",
+      "textArgs": {
+        "pct": 91,
+        "ppkm": 6
+      }
+    },
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.highKm",
+      "textKey": "bullet.kmLower",
+      "textArgs": {
+        "pct": 18
+      }
+    },
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.marginPct",
+      "pipArgs": {
+        "pct": "28"
+      },
+      "textKey": "bullet.marginMid"
+    },
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.hot",
+      "textKey": "bullet.auctionHot"
+    }
+  ],
+  "summary": {
+    "verdictKey": "summary.verdict.good",
+    "cohortLineKey": "summary.cohortLine.yes",
+    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "ageSuffixKey": null,
+    "heatSuffixKey": "summary.suffix.heatHot",
+    "marginSuffixKey": null,
+    "args": {
+      "refSize": 11,
+      "year": "2020",
+      "title": "Skoda KODIAQ"
+    }
+  }
+}

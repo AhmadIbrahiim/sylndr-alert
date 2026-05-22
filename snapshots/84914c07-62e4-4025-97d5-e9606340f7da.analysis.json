@@ -1,0 +1,85 @@
+{
+  "vehicleId": "84914c07-62e4-4025-97d5-e9606340f7da",
+  "computedAt": "2026-05-22T22:07:52.021Z",
+  "cohort": {
+    "sameModelCount": 35,
+    "sameYearCount": 3,
+    "refCohort": "model",
+    "refSize": 35
+  },
+  "pricePercentile": 17,
+  "pricePerKm": 2.693266832917706,
+  "pricePerKmPercentile": 11,
+  "kmPercentile": 77,
+  "daysListed": 51,
+  "marginPct": 21.666666666666668,
+  "marginTier": "mid",
+  "auctionHeat": "hot",
+  "dealTag": "good",
+  "bullets": [
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.deal",
+      "textKey": "bullet.priceCheaper",
+      "textArgs": {
+        "pct": 83,
+        "n": 35,
+        "kind": "detail.cohort.refSize.kind.model"
+      }
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.value",
+      "textKey": "bullet.ppkmBetter",
+      "textArgs": {
+        "pct": 89,
+        "ppkm": 3
+      }
+    },
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.highKm",
+      "textKey": "bullet.kmLower",
+      "textArgs": {
+        "pct": 23
+      }
+    },
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.marginPct",
+      "pipArgs": {
+        "pct": "22"
+      },
+      "textKey": "bullet.marginMid"
+    },
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.hot",
+      "textKey": "bullet.auctionHot"
+    },
+    {
+      "tone": "neutral",
+      "pipKey": "bullet.pip.daysListed",
+      "pipArgs": {
+        "n": 51
+      },
+      "textKey": "bullet.listedOld",
+      "textArgs": {
+        "n": 51
+      }
+    }
+  ],
+  "summary": {
+    "verdictKey": "summary.verdict.good",
+    "cohortLineKey": "summary.cohortLine.yes",
+    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "ageSuffixKey": "summary.suffix.ageOld",
+    "heatSuffixKey": "summary.suffix.heatHot",
+    "marginSuffixKey": null,
+    "args": {
+      "refSize": 35,
+      "year": "2013",
+      "title": "Opel Astra"
+    }
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "vehicleId": "f1cf4120-67a6-485a-8715-71095c6df5ae",
+  "computedAt": "2026-05-22T22:07:52.105Z",
+  "cohort": {
+    "sameModelCount": 23,
+    "sameYearCount": 1,
+    "refCohort": "model",
+    "refSize": 23
+  },
+  "pricePercentile": 0,
+  "pricePerKm": 2.2854768335757325,
+  "pricePerKmPercentile": 0,
+  "kmPercentile": 96,
+  "daysListed": 58,
+  "marginPct": 31.09090909090909,
+  "marginTier": "high",
+  "auctionHeat": "hot",
+  "dealTag": "good",
+  "bullets": [
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.deal",
+      "textKey": "bullet.priceCheaper",
+      "textArgs": {
+        "pct": 100,
+        "n": 23,
+        "kind": "detail.cohort.refSize.kind.model"
+      }
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.value",
+      "textKey": "bullet.ppkmBetter",
+      "textArgs": {
+        "pct": 100,
+        "ppkm": 2
+      }
+    },
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.highKm",
+      "textKey": "bullet.kmLower",
+      "textArgs": {
+        "pct": 4
+      }
+    },
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.marginPct",
+      "pipArgs": {
+        "pct": "31"
+      },
+      "textKey": "bullet.marginHigh"
+    },
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.hot",
+      "textKey": "bullet.auctionHot"
+    },
+    {
+      "tone": "neutral",
+      "pipKey": "bullet.pip.daysListed",
+      "pipArgs": {
+        "n": 58
+      },
+      "textKey": "bullet.listedOld",
+      "textArgs": {
+        "n": 58
+      }
+    }
+  ],
+  "summary": {
+    "verdictKey": "summary.verdict.good",
+    "cohortLineKey": "summary.cohortLine.yes",
+    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "ageSuffixKey": "summary.suffix.ageOld",
+    "heatSuffixKey": "summary.suffix.heatHot",
+    "marginSuffixKey": "summary.suffix.marginHigh",
+    "args": {
+      "refSize": 23,
+      "year": "2015",
+      "title": "Peugeot 3008"
+    }
+  }
+}

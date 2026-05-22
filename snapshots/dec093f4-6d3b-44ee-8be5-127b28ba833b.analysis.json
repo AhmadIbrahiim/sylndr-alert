@@ -1,0 +1,50 @@
+{
+  "vehicleId": "dec093f4-6d3b-44ee-8be5-127b28ba833b",
+  "computedAt": "2026-05-22T22:07:51.988Z",
+  "cohort": {
+    "sameModelCount": 1,
+    "sameYearCount": 1,
+    "refCohort": "model",
+    "refSize": 1
+  },
+  "pricePercentile": null,
+  "pricePerKm": 5.374823196605375,
+  "pricePerKmPercentile": null,
+  "kmPercentile": null,
+  "daysListed": 32,
+  "marginPct": null,
+  "marginTier": null,
+  "auctionHeat": "hot",
+  "dealTag": "fair",
+  "bullets": [
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.hot",
+      "textKey": "bullet.auctionHot"
+    },
+    {
+      "tone": "neutral",
+      "pipKey": "bullet.pip.daysListed",
+      "pipArgs": {
+        "n": 32
+      },
+      "textKey": "bullet.listedOld",
+      "textArgs": {
+        "n": 32
+      }
+    }
+  ],
+  "summary": {
+    "verdictKey": "summary.verdict.fair",
+    "cohortLineKey": "summary.cohortLine.yes",
+    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "ageSuffixKey": "summary.suffix.ageOld",
+    "heatSuffixKey": "summary.suffix.heatHot",
+    "marginSuffixKey": null,
+    "args": {
+      "refSize": 1,
+      "year": "2020",
+      "title": "Suzuki Alto"
+    }
+  }
+}

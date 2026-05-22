@@ -23,6 +23,9 @@ on:
 
 permissions:
   contents: write
+  # `models: read` enables free-tier access to GitHub Models for AI take
+  # generation on new vehicles. Scoped read-only.
+  models: read
 
 concurrency:
   group: poll
@@ -51,6 +54,11 @@ jobs:
           RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
           EMAIL_TO: ${{ secrets.EMAIL_TO }}
           NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+          # GITHUB_TOKEN with `models: read` lets analyze-ai.ts call GitHub
+          # Models for new vehicles. Caps at AI_PER_RUN_CAP per poll.
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          AI_MODEL: openai/gpt-4o-mini
+          AI_PER_RUN_CAP: "10"
         run: bun scripts/poll.ts
 
       - name: Commit state + docs

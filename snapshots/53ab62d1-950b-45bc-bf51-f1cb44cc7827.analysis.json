@@ -1,0 +1,85 @@
+{
+  "vehicleId": "53ab62d1-950b-45bc-bf51-f1cb44cc7827",
+  "computedAt": "2026-05-22T22:07:52.165Z",
+  "cohort": {
+    "sameModelCount": 14,
+    "sameYearCount": 2,
+    "refCohort": "model",
+    "refSize": 14
+  },
+  "pricePercentile": 57,
+  "pricePerKm": 7.859894921190893,
+  "pricePerKmPercentile": 64,
+  "kmPercentile": 36,
+  "daysListed": 20,
+  "marginPct": 20.499108734402853,
+  "marginTier": "mid",
+  "auctionHeat": "hot",
+  "dealTag": "fair",
+  "bullets": [
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.mid",
+      "textKey": "bullet.priceCheaper",
+      "textArgs": {
+        "pct": 43,
+        "n": 14,
+        "kind": "detail.cohort.refSize.kind.model"
+      }
+    },
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.value",
+      "textKey": "bullet.ppkmBetter",
+      "textArgs": {
+        "pct": 36,
+        "ppkm": 8
+      }
+    },
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.km",
+      "textKey": "bullet.kmLower",
+      "textArgs": {
+        "pct": 64
+      }
+    },
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.marginPct",
+      "pipArgs": {
+        "pct": "20"
+      },
+      "textKey": "bullet.marginMid"
+    },
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.hot",
+      "textKey": "bullet.auctionHot"
+    },
+    {
+      "tone": "neutral",
+      "pipKey": "bullet.pip.daysListed",
+      "pipArgs": {
+        "n": 20
+      },
+      "textKey": "bullet.listedOld",
+      "textArgs": {
+        "n": 20
+      }
+    }
+  ],
+  "summary": {
+    "verdictKey": "summary.verdict.fair",
+    "cohortLineKey": "summary.cohortLine.yes",
+    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "ageSuffixKey": null,
+    "heatSuffixKey": "summary.suffix.heatHot",
+    "marginSuffixKey": null,
+    "args": {
+      "refSize": 14,
+      "year": "2022",
+      "title": "Peugeot 508"
+    }
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "vehicleId": "bc053b59-21f9-45d2-956a-503d3ce32b0c",
+  "computedAt": "2026-05-22T22:07:51.927Z",
+  "cohort": {
+    "sameModelCount": 15,
+    "sameYearCount": 3,
+    "refCohort": "model",
+    "refSize": 15
+  },
+  "pricePercentile": 67,
+  "pricePerKm": 4.659318637274549,
+  "pricePerKmPercentile": 27,
+  "kmPercentile": 80,
+  "daysListed": 121,
+  "marginPct": 33.97849462365591,
+  "marginTier": "high",
+  "auctionHeat": "warm",
+  "dealTag": "fair",
+  "bullets": [
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.mid",
+      "textKey": "bullet.priceCheaper",
+      "textArgs": {
+        "pct": 33,
+        "n": 15,
+        "kind": "detail.cohort.refSize.kind.model"
+      }
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.value",
+      "textKey": "bullet.ppkmBetter",
+      "textArgs": {
+        "pct": 73,
+        "ppkm": 5
+      }
+    },
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.highKm",
+      "textKey": "bullet.kmLower",
+      "textArgs": {
+        "pct": 20
+      }
+    },
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.marginPct",
+      "pipArgs": {
+        "pct": "34"
+      },
+      "textKey": "bullet.marginHigh"
+    },
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.warm",
+      "textKey": "bullet.auctionWarm"
+    },
+    {
+      "tone": "neutral",
+      "pipKey": "bullet.pip.daysListed",
+      "pipArgs": {
+        "n": 121
+      },
+      "textKey": "bullet.listedOld",
+      "textArgs": {
+        "n": 121
+      }
+    }
+  ],
+  "summary": {
+    "verdictKey": "summary.verdict.fair",
+    "cohortLineKey": "summary.cohortLine.yes",
+    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "ageSuffixKey": "summary.suffix.ageOld",
+    "heatSuffixKey": null,
+    "marginSuffixKey": "summary.suffix.marginHigh",
+    "args": {
+      "refSize": 15,
+      "year": "2019",
+      "title": "Opel Insignia"
+    }
+  }
+}
