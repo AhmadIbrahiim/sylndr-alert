@@ -40,8 +40,9 @@ export type SylndrAuction = {
   updatedAt?: string | null;
   /** Despite the name, this is the consumer-facing retail price displayed on
    *  Sylndr's listing page (e.g. "850000.00"). It is a string and may need
-   *  Number() coercion. `vehicle.netSylndrOfferPrice` is Sylndr's wholesale
-   *  cost (what they paid the seller) — not the buyer-facing price. */
+   *  Number() coercion. `vehicle.netSylndrOfferPrice` is Sylndr's *market
+   *  price estimate* (what they think the car is worth on the open market),
+   *  NOT what they paid the seller. */
   maxPriceLimit?: string | null;
   initialPrice?: string | null;
   incrementValue?: string | null;
@@ -60,7 +61,9 @@ export function retailPrice(item: SylndrItem): number {
   return item.vehicle.netSylndrOfferPrice ?? 0;
 }
 
-export function wholesalePrice(item: SylndrItem): number {
+/** Sylndr's market price estimate — what they think the car is worth on the
+ *  open market. NOT what they paid the seller. */
+export function marketPrice(item: SylndrItem): number {
   return item.vehicle.netSylndrOfferPrice ?? 0;
 }
 
@@ -68,12 +71,16 @@ export function askingPrice(item: SylndrItem): number {
   return item.vehicle.askingPrice ?? 0;
 }
 
-export type Margin = { abs: number; pct: number } | null;
-export function sylndrMargin(item: SylndrItem): Margin {
+/** Premium (or discount) of Sylndr's retail price vs their market-price estimate.
+ *  abs = retail - market; pct = abs / retail * 100.
+ *  Positive pct = retail above market (buyer pays a premium).
+ *  Negative pct = retail below market (priced below open-market value). */
+export type MarketPremium = { abs: number; pct: number } | null;
+export function marketPremium(item: SylndrItem): MarketPremium {
   const retail = retailPrice(item);
-  const wholesale = wholesalePrice(item);
-  if (retail <= 0 || wholesale <= 0) return null;
-  const abs = retail - wholesale;
+  const market = marketPrice(item);
+  if (retail <= 0 || market <= 0) return null;
+  const abs = retail - market;
   return { abs, pct: (abs / retail) * 100 };
 }
 

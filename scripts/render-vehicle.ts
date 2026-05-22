@@ -4,9 +4,9 @@ import type {
 } from "./types.ts";
 import {
   retailPrice,
-  wholesalePrice,
+  marketPrice,
   askingPrice,
-  sylndrMargin,
+  marketPremium,
   auctionInfo,
   sylndrListingUrl,
 } from "./types.ts";
@@ -506,9 +506,9 @@ export function renderVehiclePage(args: {
   ];
 
   const retail = retailPrice(snap);
-  const wholesale = wholesalePrice(snap);
+  const market = marketPrice(snap);
   const asked = askingPrice(snap);
-  const margin = sylndrMargin(snap);
+  const margin = marketPremium(snap);
   const auction = auctionInfo(snap);
   const listedIso = listedAt(snap);
   const listedAbs = fmtAbsolute(listedIso);
@@ -534,11 +534,11 @@ export function renderVehiclePage(args: {
       </div>`,
     );
   }
-  if (wholesale > 0) {
+  if (market > 0) {
     ladderRows.push(
       `<div class="v-ladder-row">
-        <span class="v-ladder-key">${escapeHtml(t(locale, "detail.ladder.wholesale"))} <span class="v-ladder-note">${escapeHtml(t(locale, "detail.ladder.wholesale.note"))}</span></span>
-        <span class="v-ladder-val">${escapeHtml(fmtPrice(wholesale))} ${escapeHtml(t(locale, "card.egp"))}</span>
+        <span class="v-ladder-key">${escapeHtml(t(locale, "detail.ladder.market"))} <span class="v-ladder-note">${escapeHtml(t(locale, "detail.ladder.market.note"))}</span></span>
+        <span class="v-ladder-val">${escapeHtml(fmtPrice(market))} ${escapeHtml(t(locale, "card.egp"))}</span>
       </div>`,
     );
   }
@@ -559,16 +559,16 @@ export function renderVehiclePage(args: {
     );
   }
 
-  const marginViz =
-    margin && wholesale > 0 && retail > 0
+  const premiumViz =
+    margin && market > 0 && retail > 0
       ? `<div class="margin-viz">
           <div class="margin-bar">
             <div class="margin-marker" style="left:${Math.min(100, Math.max(0, margin.pct))}%"></div>
           </div>
           <div class="margin-labels">
-            <span>${escapeHtml(t(locale, "detail.margin.thin"))}</span>
-            <span style="color:var(--fg);font-weight:700">${escapeHtml(t(locale, "detail.margin.label", { pct: margin.pct.toFixed(1), abs: fmtPriceShort(margin.abs) }))}</span>
-            <span>${escapeHtml(t(locale, "detail.margin.fat"))}</span>
+            <span>${escapeHtml(t(locale, "detail.premium.atMarket"))}</span>
+            <span style="color:var(--fg);font-weight:700">${escapeHtml(t(locale, margin.pct < 0 ? "detail.premium.labelUnder" : "detail.premium.label", { pct: Math.abs(margin.pct).toFixed(1), abs: fmtPriceShort(Math.abs(margin.abs)) }))}</span>
+            <span>${escapeHtml(t(locale, "detail.premium.bigPremium"))}</span>
           </div>
         </div>`
       : "";
@@ -684,7 +684,7 @@ export function renderVehiclePage(args: {
         <span class="v-section-sub">${escapeHtml(t(locale, "detail.section.priceLadder.sub"))}</span>
       </div>
       <div class="v-ladder">${ladderRows.join("")}</div>
-      ${marginViz}
+      ${premiumViz}
     </section>
 
     ${renderAnalysisSection(locale, analysis, names.title)}

@@ -1,5 +1,5 @@
 import type { SylndrItem } from "./types.ts";
-import { retailPrice, sylndrMargin, auctionInfo, sylndrListingUrl } from "./types.ts";
+import { retailPrice, marketPremium, auctionInfo, sylndrListingUrl } from "./types.ts";
 
 const NTFY_BASE = "https://ntfy.sh";
 const DASHBOARD_URL = "https://ahmadibrahiim.github.io/sylndr-alert/";
@@ -42,7 +42,7 @@ function buildPayload(kind: NtfyKind, payload: { items?: SylndrItem[]; message?:
   if (items.length === 1) {
     const it = items[0];
     const beingSold = it.auction?.status === "BEING_SOLD";
-    const margin = sylndrMargin(it);
+    const margin = marketPremium(it);
     const auction = auctionInfo(it);
     const retail = retailPrice(it);
     const lines = [`${fmtPrice(retail)} EGP · ${it.vehicle.kilometrage ?? "?"} km`];
@@ -50,7 +50,8 @@ function buildPayload(kind: NtfyKind, payload: { items?: SylndrItem[]; message?:
       const disc = Math.round((1 - auction.winnerAmount / retail) * 100);
       lines.push(`sold at ${fmtPrice(auction.winnerAmount)} (${disc}% under)`);
     } else if (margin) {
-      lines.push(`Sylndr margin: ${margin.pct.toFixed(0)}%`);
+      const sign = margin.pct >= 0 ? "+" : "−";
+      lines.push(`${sign}${Math.abs(margin.pct).toFixed(0)}% vs market`);
     }
     if (auction && auction.bids > 0 && !auction.winnerAmount) {
       lines.push(`${auction.bids} bids · ${auction.bidders} bidders`);
@@ -67,7 +68,7 @@ function buildPayload(kind: NtfyKind, payload: { items?: SylndrItem[]; message?:
   const ranked = [...items].sort((a, b) => {
     const score = (it: SylndrItem) => {
       const sold = it.auction?.status === "BEING_SOLD" ? 1_000_000 : 0;
-      const m = sylndrMargin(it);
+      const m = marketPremium(it);
       return sold + (m?.pct ?? 0);
     };
     return score(b) - score(a);

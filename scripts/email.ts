@@ -2,9 +2,9 @@ import { Resend } from "resend";
 import type { SylndrItem } from "./types.ts";
 import {
   retailPrice,
-  wholesalePrice,
+  marketPrice,
   askingPrice,
-  sylndrMargin,
+  marketPremium,
   auctionInfo,
   sylndrListingUrl,
 } from "./types.ts";
@@ -65,9 +65,9 @@ function emailCard(item: SylndrItem): string {
   const beingSold = item.auction?.status === "BEING_SOLD";
   const retailN = retailPrice(item);
   const price = retailN > 0 ? fmt(retailN) : "—";
-  const wholesale = wholesalePrice(item);
+  const market = marketPrice(item);
   const asked = askingPrice(item);
-  const margin = sylndrMargin(item);
+  const margin = marketPremium(item);
   const auction = auctionInfo(item);
   const km = v.kilometrage ? `${fmt(Number(v.kilometrage))} km` : "—";
   const body = v.bodyStyle ?? "—";
@@ -98,12 +98,13 @@ function emailCard(item: SylndrItem): string {
         const labelStyle = `font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:10px;color:${MUTED};text-transform:lowercase;letter-spacing:.01em;font-weight:500`;
         const valStyle = `font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:11px;color:${FG};font-weight:700;font-variant-numeric:tabular-nums`;
         const tagBase = `font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:9px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;padding:1px 5px;border-radius:4px;margin-left:6px`;
-        if (wholesale > 0 && margin) {
+        if (market > 0 && margin) {
           const c = margin.pct >= 30 ? HOT : margin.pct >= 15 ? "#a06d00" : "#2c8a52";
           const bg = margin.pct >= 30 ? "rgba(200,50,69,.10)" : margin.pct >= 15 ? "rgba(245,185,66,.14)" : "rgba(61,220,132,.12)";
-          rows.push(`<tr><td style="${labelStyle};padding:1px 0">Sylndr price</td><td align="right" style="${valStyle};padding:1px 0">${fmt(wholesale)}<span style="${tagBase};color:${c};background:${bg}">${margin.pct.toFixed(0)}% margin</span></td></tr>`);
+          const sign = margin.pct >= 0 ? "+" : "−";
+          rows.push(`<tr><td style="${labelStyle};padding:1px 0">Market price</td><td align="right" style="${valStyle};padding:1px 0">${fmt(market)}<span style="${tagBase};color:${c};background:${bg}">${sign}${Math.abs(margin.pct).toFixed(0)}% vs market</span></td></tr>`);
         }
-        if (asked > 0 && asked !== wholesale) {
+        if (asked > 0 && asked !== market) {
           rows.push(`<tr><td style="${labelStyle};padding:1px 0">Asking</td><td align="right" style="${valStyle};padding:1px 0">${fmt(asked)}</td></tr>`);
         }
         const winner = auction?.winnerAmount ?? null;

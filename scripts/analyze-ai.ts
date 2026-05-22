@@ -4,9 +4,9 @@ import { join } from "node:path";
 import type { Snapshot, SylndrItem } from "./types.ts";
 import {
   retailPrice,
-  wholesalePrice,
+  marketPrice,
   askingPrice,
-  sylndrMargin,
+  marketPremium,
   auctionInfo,
 } from "./types.ts";
 import { fmt, fmtKm, listedAt, daysSince } from "./shared.ts";
@@ -30,9 +30,9 @@ function buildUserPrompt(snap: Snapshot, analysis: Awaited<ReturnType<typeof loa
   const v = snap.vehicle;
   const a = auctionInfo(snap);
   const retail = retailPrice(snap);
-  const wholesale = wholesalePrice(snap);
+  const market = marketPrice(snap);
   const asked = askingPrice(snap);
-  const margin = sylndrMargin(snap);
+  const margin = marketPremium(snap);
   const days = daysSince(listedAt(snap));
 
   const lines: string[] = [];
@@ -46,9 +46,12 @@ function buildUserPrompt(snap: Snapshot, analysis: Awaited<ReturnType<typeof loa
 
   lines.push(`\n## Prices (EGP)`);
   if (asked) lines.push(`- Asking: ${fmt(asked)}`);
-  if (wholesale) lines.push(`- Sylndr wholesale: ${fmt(wholesale)}`);
+  if (market) lines.push(`- Sylndr's market price estimate: ${fmt(market)}`);
   if (retail) lines.push(`- Retail (buyer pays): ${fmt(retail)}`);
-  if (margin) lines.push(`- Sylndr margin: ${margin.pct.toFixed(1)}% (${fmt(margin.abs)} EGP)`);
+  if (margin) {
+    const label = margin.pct >= 0 ? "above market" : "below market";
+    lines.push(`- Retail vs market: ${Math.abs(margin.pct).toFixed(1)}% ${label} (${fmt(Math.abs(margin.abs))} EGP)`);
+  }
 
   if (a) {
     lines.push(`\n## Auction`);

@@ -3,9 +3,9 @@ import { join } from "node:path";
 import type { Snapshot } from "./types.ts";
 import {
   retailPrice,
-  wholesalePrice,
+  marketPrice,
   askingPrice,
-  sylndrMargin,
+  marketPremium,
   auctionInfo,
   sylndrListingUrl,
 } from "./types.ts";
@@ -114,9 +114,9 @@ export function renderCard(snap: Snapshot, analysis: Analysis | null, locale: Lo
   const dUrl = detailUrl(locale, v.id);
   const beingSold = snap.auction?.status === "BEING_SOLD";
   const retail = retailPrice(snap);
-  const wholesale = wholesalePrice(snap);
+  const market = marketPrice(snap);
   const asked = askingPrice(snap);
-  const margin = sylndrMargin(snap);
+  const margin = marketPremium(snap);
   const auction = auctionInfo(snap);
   const price = fmtPrice(retail);
   const km = fmtKm(v.kilometrage);
@@ -150,16 +150,16 @@ export function renderCard(snap: Snapshot, analysis: Analysis | null, locale: Lo
 
   const ladderRows: string[] = [];
 
-  if (wholesale > 0 && margin) {
+  if (market > 0 && margin) {
     ladderRows.push(
-      `<div class="pl-row" title="${escapeHtml(t(locale, "card.priceLadder.sylndr.tooltip", { amount: fmt(wholesale) }))}">
-        <dt>${escapeHtml(t(locale, "card.priceLadder.sylndr"))}</dt>
-        <dd><span class="pl-val">${escapeHtml(fmtPriceShort(wholesale))}</span><span class="pl-tag pl-margin-${marginTier(margin.pct)}">${escapeHtml(t(locale, "card.priceLadder.margin", { pct: margin.pct.toFixed(0) }))}</span></dd>
+      `<div class="pl-row" title="${escapeHtml(t(locale, "card.priceLadder.market.tooltip", { amount: fmt(market) }))}">
+        <dt>${escapeHtml(t(locale, "card.priceLadder.market"))}</dt>
+        <dd><span class="pl-val">${escapeHtml(fmtPriceShort(market))}</span><span class="pl-tag pl-margin-${marginTier(margin.pct)}">${escapeHtml(t(locale, "card.priceLadder.premium", { pct: margin.pct.toFixed(0) }))}</span></dd>
       </div>`,
     );
   }
 
-  if (asked > 0 && asked !== wholesale) {
+  if (asked > 0 && asked !== market) {
     ladderRows.push(
       `<div class="pl-row" title="${escapeHtml(t(locale, "card.priceLadder.asking.tooltip"))}">
         <dt>${escapeHtml(t(locale, "card.priceLadder.asking"))}</dt>
@@ -304,7 +304,7 @@ function renderFeaturedRow(
   const recent = [...snapshots].sort((a, b) => (listedAt(a) < listedAt(b) ? 1 : -1)).slice(0, 12);
   const goodDeals = snapshots.filter((s) => analyses.get(s.vehicle.id)?.dealTag === "good");
   const highMargin = snapshots
-    .map((s) => ({ s, m: sylndrMargin(s) }))
+    .map((s) => ({ s, m: marketPremium(s) }))
     .filter((x) => x.m && x.m.pct >= 30)
     .sort((a, b) => (b.m!.pct - a.m!.pct))
     .slice(0, 8)

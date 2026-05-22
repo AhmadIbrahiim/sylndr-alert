@@ -1,7 +1,7 @@
 import { readdir, mkdir, writeFile } from "node:fs/promises";
 import { join } from "node:path";
 import type { Snapshot } from "./types.ts";
-import { retailPrice, sylndrMargin, auctionInfo } from "./types.ts";
+import { retailPrice, marketPremium, auctionInfo } from "./types.ts";
 import { daysSince, listedAt, marginTier } from "./shared.ts";
 
 const ROOT = new URL("..", import.meta.url).pathname;
@@ -140,7 +140,7 @@ export function analyzeSnapshot(snap: Snapshot, all: Snapshot[]): Analysis {
   const kmPctl = myKm > 0 && refKms.length >= 3 ? percentile(myKm, refKms) : null;
   const ppkmPctl = myPpkm != null && refPpkms.length >= 3 ? percentile(myPpkm, refPpkms) : null;
 
-  const margin = sylndrMargin(snap);
+  const margin = marketPremium(snap);
   const marginPct = margin?.pct ?? null;
   const mTier = marginPct != null ? marginTier(marginPct) : null;
   const heat = auctionHeat(snap);
