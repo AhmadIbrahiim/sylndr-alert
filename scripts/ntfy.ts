@@ -1,5 +1,5 @@
 import type { SylndrItem } from "./types.ts";
-import { retailPrice, sylndrMargin, auctionInfo } from "./types.ts";
+import { retailPrice, sylndrMargin, auctionInfo, sylndrListingUrl } from "./types.ts";
 
 const NTFY_BASE = "https://ntfy.sh";
 const DASHBOARD_URL = "https://ahmadibrahiim.github.io/sylndr-alert/";
@@ -17,7 +17,7 @@ function listingTitle(item: SylndrItem): string {
 }
 
 function listingUrl(item: SylndrItem): string {
-  return `https://sylndr.com/en/buy-cars/${item.vehicle.id}`;
+  return sylndrListingUrl(item);
 }
 
 function buildPayload(kind: NtfyKind, payload: { items?: SylndrItem[]; message?: string; seedCount?: number }) {

@@ -114,6 +114,17 @@ export type SylndrItem = {
   vehicleOwner?: SylndrVehicleOwner;
 };
 
+function slug(s: string | null | undefined): string {
+  if (!s) return "x";
+  return s.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "") || "x";
+}
+
+export function sylndrListingUrl(item: SylndrItem): string {
+  const make = slug(item.vehicle.carMake?.name);
+  const model = slug(item.vehicle.carModel?.name);
+  return `https://sylndr.com/ar/car-details/used-cars/${make}/${model}/${item.vehicle.id}`;
+}
+
 export type SylndrResponse = {
   items: SylndrItem[];
   total: number;

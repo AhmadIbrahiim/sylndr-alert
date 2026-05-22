@@ -6,6 +6,7 @@ import {
   askingPrice,
   sylndrMargin,
   auctionInfo,
+  sylndrListingUrl,
 } from "./types.ts";
 
 const FROM = "Sylndr Alert <onboarding@resend.dev>";
@@ -30,15 +31,8 @@ function pickPhoto(item: SylndrItem): string | null {
   return ext?.imageUrl ?? imgs[0]?.imageUrl ?? null;
 }
 
-function slug(s: string | null | undefined): string {
-  if (!s) return "x";
-  return s.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "") || "x";
-}
-
 function listingUrl(item: SylndrItem): string {
-  const make = slug(item.vehicle.carMake?.name);
-  const model = slug(item.vehicle.carModel?.name);
-  return `https://sylndr.com/en/car-details/used-cars/${make}/${model}/${item.vehicle.id}`;
+  return sylndrListingUrl(item);
 }
 
 function fmtRelative(iso: string): string {
