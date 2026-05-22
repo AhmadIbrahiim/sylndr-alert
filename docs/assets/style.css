@@ -470,6 +470,20 @@ main.grid{
   border:1px solid var(--border);
   border-radius:8px;
 }
+.ins-chip{
+  display:inline-flex;align-items:center;gap:6px;
+  font-size:10px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;
+  font-family:ui-monospace,SFMono-Regular,Menlo,monospace;
+  margin-top:6px;padding:4px 9px;border-radius:8px;
+  align-self:flex-start;
+}
+.ins-chip-icon{font-size:11px;opacity:.7}
+.ins-chip-count{font-weight:800;font-variant-numeric:tabular-nums}
+.ins-chip-label{font-weight:600;opacity:.85}
+.ins-chip-clean{background:var(--good-soft);color:var(--good)}
+.ins-chip-minor{background:rgba(245,185,66,.14);color:var(--gold)}
+.ins-chip-many{background:var(--hot-soft);color:var(--hot)}
+.ins-chip-none{background:rgba(127,127,127,.10);color:var(--muted)}
 .auction-strip .auction-type{
   color:var(--fg-soft);
   letter-spacing:.04em;

@@ -21,6 +21,7 @@ import {
   marginTier,
   fmtAuctionTypeLabel,
   vehicleTitle,
+  computeInspectionStats,
 } from "./shared.ts";
 import { SHARED_CSS } from "./styles.ts";
 import { renderVehiclePage } from "./render-vehicle.ts";
@@ -198,6 +199,17 @@ export function renderCard(snap: Snapshot, analysis: Analysis | null, locale: Lo
   const ownerName = snap.vehicleOwner?.name?.trim() ?? "";
   const search = `${title} ${vehicleTitle(snap)} ${v.salesforceName ?? ""} ${ownerName}`.toLowerCase();
 
+  const inspection = computeInspectionStats(snap);
+  const condition = inspection ? inspection.severity : "none";
+  const flagged = inspection ? inspection.faulty : -1;
+  const inspectionStrip = inspection
+    ? `<div class="ins-chip ins-chip-${condition}" title="${escapeHtml(t(locale, "inspection.chip.tooltip", { ok: inspection.ok, total: inspection.total - inspection.neutral }))}">
+        <span class="ins-chip-icon" aria-hidden="true">⚙</span>
+        <span class="ins-chip-count">${inspection.faulty}</span>
+        <span class="ins-chip-label">${escapeHtml(t(locale, "inspection.chip.flagged"))}</span>
+      </div>`
+    : "";
+
   const cardClasses =
     "card" +
     (beingSold ? " card-hot" : "") +
@@ -214,6 +226,8 @@ export function renderCard(snap: Snapshot, analysis: Analysis | null, locale: Lo
     data-status="${escapeHtml(auction?.status ?? "")}"
     data-margin="${margin ? margin.pct.toFixed(1) : ""}"
     data-deal="${analysis?.dealTag ?? ""}"
+    data-condition="${condition}"
+    data-flagged="${flagged}"
     data-listed="${escapeHtml(listedIso)}"
     data-search="${escapeHtml(search)}">
   <a class="thumb" href="${escapeHtml(sylndrUrl)}" target="_blank" rel="noopener noreferrer" aria-label="${escapeHtml(t(locale, "card.sylndr.aria", { title }))}">
@@ -237,6 +251,7 @@ export function renderCard(snap: Snapshot, analysis: Analysis | null, locale: Lo
       <span class="meta-item">${escapeHtml(trans)}</span>
     </div>
     ${auctionStrip}
+    ${inspectionStrip}
     <div class="stamp">
       <span title="${escapeHtml(listedAbs)}">${escapeHtml(t(locale, "card.listed", { when: listedRel }))}</span>
       ${v.salesforceName ? `<span class="ref">${escapeHtml(v.salesforceName)}</span>` : ""}
@@ -366,6 +381,11 @@ function renderFilterBar(f: FacetData, locale: Locale): string {
       (d) => `<label class="chip"><input type="checkbox" name="deal" value="${d}"><span>${escapeHtml(t(locale, `filter.deal.${d}` as Parameters<typeof t>[1]))}</span></label>`,
     )
     .join("");
+  const conditionChips = (["clean", "minor", "many", "none"] as const)
+    .map(
+      (c) => `<label class="chip"><input type="checkbox" name="condition" value="${c}"><span>${escapeHtml(t(locale, `filter.condition.${c}` as Parameters<typeof t>[1]))}</span></label>`,
+    )
+    .join("");
   return `<form class="filter-bar" autocomplete="off" onsubmit="return false">
   <div class="fb-row fb-row-top">
     <input class="fb-search" name="q" type="search" placeholder="${escapeHtml(t(locale, "filter.search"))}" />
@@ -397,6 +417,10 @@ function renderFilterBar(f: FacetData, locale: Locale): string {
     <span class="fb-label">${escapeHtml(t(locale, "filter.label.deal"))}</span>
     <div class="chips" data-group="deal">${dealChips}</div>
   </div>
+  <div class="fb-row">
+    <span class="fb-label">${escapeHtml(t(locale, "filter.label.condition"))}</span>
+    <div class="chips" data-group="condition">${conditionChips}</div>
+  </div>
   <div class="fb-row fb-ranges">
     <label class="fb-range">
       <span class="fb-label">${escapeHtml(t(locale, "filter.label.price"))}</span>
@@ -407,6 +431,10 @@ function renderFilterBar(f: FacetData, locale: Locale): string {
     <label class="fb-range">
       <span class="fb-label">${escapeHtml(t(locale, "filter.label.maxKm"))}</span>
       <input type="number" name="maxKm" placeholder="${escapeHtml(t(locale, "filter.placeholder.any"))}" min="0" step="10000" />
+    </label>
+    <label class="fb-range">
+      <span class="fb-label">${escapeHtml(t(locale, "filter.label.maxFlagged"))}</span>
+      <input type="number" name="maxFlagged" placeholder="${escapeHtml(t(locale, "filter.placeholder.any"))}" min="0" step="1" />
     </label>
     <label class="fb-range">
       <span class="fb-label">${escapeHtml(t(locale, "filter.label.year"))}</span>
@@ -529,24 +557,30 @@ window.__I18N__ = ${JSON.stringify(labels)};
     const trans = getValues('trans');
     const status = getValues('status');
     const deal = getValues('deal');
+    const condition = getValues('condition');
     const q = (form.q.value || '').trim().toLowerCase();
     const minP = num('minPrice', 0);
     const maxP = num('maxPrice', Infinity);
     const maxKm = num('maxKm', Infinity);
+    const maxFlagged = num('maxFlagged', Infinity);
     const minY = num('minYear', 0);
     const maxY = num('maxYear', Infinity);
     const sort = form.sort.value;
     let visible = 0, sold = 0, marginSum = 0, marginN = 0, pMin = Infinity, pMax = -Infinity;
     for (const c of cards) {
       const d = c.dataset;
+      const flaggedN = Number(d.flagged);
+      const flaggedHas = flaggedN >= 0;
       const ok =
         (!body.length || body.includes(d.body)) &&
         (!trans.length || trans.includes(d.trans)) &&
         (!status.length || status.includes(d.status)) &&
         (!deal.length || deal.includes(d.deal)) &&
+        (!condition.length || condition.includes(d.condition)) &&
         (!q || d.search.includes(q)) &&
         Number(d.price) >= minP && Number(d.price) <= maxP &&
         Number(d.km) <= maxKm &&
+        (maxFlagged === Infinity || (flaggedHas && flaggedN <= maxFlagged)) &&
         Number(d.year) >= minY && Number(d.year) <= maxY;
       c.style.display = ok ? '' : 'none';
       if (ok) {

@@ -82,6 +82,12 @@ const STRINGS = {
   "filter.deal.good": { en: "Looks fair", ar: "سعرها معقول" },
   "filter.deal.fair": { en: "Middle", ar: "متوسط" },
   "filter.deal.high": { en: "Trends pricey", ar: "سعرها عالي" },
+  "filter.label.condition": { en: "Condition", ar: "حالة الفحص" },
+  "filter.label.maxFlagged": { en: "Max flagged", ar: "أقصى ملاحظات" },
+  "filter.condition.clean": { en: "Clean", ar: "نظيفة" },
+  "filter.condition.minor": { en: "Minor", ar: "ملاحظات بسيطة" },
+  "filter.condition.many": { en: "Many", ar: "ملاحظات كتيرة" },
+  "filter.condition.none": { en: "No report", ar: "بدون فحص" },
 
   // card
   "card.km": { en: "km", ar: "كم" },
@@ -274,6 +280,8 @@ const STRINGS = {
   "page.description.index": { en: "Browse and filter Sylndr (Egypt) used-car inventory with cohort analysis on every listing.", ar: "تصفّح وفلتر عربيات سيلندر (مصر) مع تحليل ومقارنة لكل عربية." },
 
   // INSPECTION REPORT
+  "inspection.chip.flagged": { en: "flagged", ar: "ملاحظة" },
+  "inspection.chip.tooltip": { en: "{ok} of {total} inspection points clean", ar: "{ok} من {total} نقطة فحص سليمة" },
   "inspection.section": { en: "Inspection report", ar: "تقرير الفحص" },
   "inspection.section.sub": { en: "from Sylndr's inspection team", ar: "من فريق الفحص الفنّي لسيلندر" },
   "inspection.empty": { en: "No inspection report on this listing yet.", ar: "لسه مفيش تقرير فحص للعربية دي." },
