@@ -113,3 +113,88 @@ export function vehicleTitle(snap: Snapshot): string {
 }
 
 // URL helpers now live in i18n.ts since they vary by locale.
+
+export type InspectionStats = {
+  total: number;
+  faulty: number;
+  ok: number;
+  neutral: number;
+  okPct: number;             // 0-100
+  severity: "clean" | "minor" | "many";
+  bySection: Array<{
+    name: string;
+    nameEn: string;
+    order: number;
+    total: number;
+    faulty: number;
+    ok: number;
+    neutral: number;
+    okPct: number;
+    severity: "clean" | "minor" | "many";
+  }>;
+};
+
+import type { Snapshot } from "./types.ts";
+
+function classify(faultyPct: number): "clean" | "minor" | "many" {
+  if (faultyPct < 15) return "clean";
+  if (faultyPct < 40) return "minor";
+  return "many";
+}
+
+export function computeInspectionStats(snap: Snapshot): InspectionStats | null {
+  const sections = snap.inspectionReport?.sections;
+  if (!sections || sections.length === 0) return null;
+
+  let total = 0;
+  let faulty = 0;
+  let ok = 0;
+  let neutral = 0;
+  const bySection: InspectionStats["bySection"] = [];
+
+  for (const s of sections) {
+    let sTotal = 0;
+    let sFaulty = 0;
+    let sOk = 0;
+    let sNeutral = 0;
+    for (const a of s.answers ?? []) {
+      sTotal++;
+      if (a.faulty === true) sFaulty++;
+      else if (a.faulty === false) sOk++;
+      else sNeutral++;
+    }
+    total += sTotal;
+    faulty += sFaulty;
+    ok += sOk;
+    neutral += sNeutral;
+    const denom = sTotal - sNeutral || 1;
+    const sOkPct = Math.round((sOk / denom) * 100);
+    bySection.push({
+      name: s.name,
+      nameEn: s.nameEn,
+      order: s.order ?? 0,
+      total: sTotal,
+      faulty: sFaulty,
+      ok: sOk,
+      neutral: sNeutral,
+      okPct: sOkPct,
+      severity: classify(((sFaulty / denom) * 100)),
+    });
+  }
+
+  bySection.sort((a, b) => a.order - b.order);
+
+  const denomTotal = total - neutral || 1;
+  const okPct = Math.round((ok / denomTotal) * 100);
+  const faultyPct = (faulty / denomTotal) * 100;
+
+  return {
+    total,
+    faulty,
+    ok,
+    neutral,
+    okPct,
+    severity: classify(faultyPct),
+    bySection,
+  };
+}

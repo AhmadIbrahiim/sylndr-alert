@@ -1,4 +1,7 @@
-import type { Snapshot, SylndrImage } from "./types.ts";
+import type {
+  Snapshot,
+  SylndrImage,
+} from "./types.ts";
 import {
   retailPrice,
   wholesalePrice,
@@ -18,7 +21,15 @@ import {
   partitionedImages,
   vehicleTitle,
   fmtAuctionTypeLabel,
+  computeInspectionStats,
+  type InspectionStats,
 } from "./shared.ts";
+import type {
+  SylndrInspectionAnswer,
+  SylndrInspectionSection,
+  SylndrFeatureSection,
+  SylndrFeature,
+} from "./types.ts";
 import type { Analysis, AnalysisBullet, SummaryParts } from "./analyze.ts";
 import {
   t,
@@ -248,6 +259,207 @@ function inline(s: string): string {
   return s
     .replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>")
     .replace(/(^|[^*])\*(?!\s)([^*]+?)\*(?!\*)/g, "$1<em>$2</em>");
+}
+
+// --- inspection rendering ---
+
+function inspectionLabel(answer: SylndrInspectionAnswer, locale: Locale): string {
+  return locale === "ar" ? answer.name : (answer.nameEn || answer.name);
+}
+
+function inspectionValue(answer: SylndrInspectionAnswer, locale: Locale): string {
+  return (locale === "ar" ? answer.value : answer.valueEn || answer.value) ?? "";
+}
+
+function inspectionComment(answer: SylndrInspectionAnswer, locale: Locale): string {
+  const raw = locale === "ar" ? answer.comment : answer.commentEn || answer.comment;
+  if (!raw) return "";
+  return raw.trim();
+}
+
+function sectionTitle(s: SylndrInspectionSection, locale: Locale): string {
+  return locale === "ar" ? s.name : (s.nameEn || s.name);
+}
+
+function severityClass(s: "clean" | "minor" | "many"): string {
+  return s === "clean" ? "good" : s === "minor" ? "mid" : "hot";
+}
+
+function severityLabel(locale: Locale, s: "clean" | "minor" | "many"): string {
+  return t(locale, ("inspection.severity." + s) as Parameters<typeof t>[1]);
+}
+
+function renderFindingRow(a: SylndrInspectionAnswer, locale: Locale): string {
+  const label = inspectionLabel(a, locale);
+  const value = inspectionValue(a, locale);
+  const comment = inspectionComment(a, locale);
+  const tone = a.faulty === true ? "hot" : a.faulty === false ? "good" : "neutral";
+  const tagText =
+    a.faulty === true
+      ? t(locale, "inspection.finding.faulty")
+      : a.faulty === false
+        ? t(locale, "inspection.finding.ok")
+        : "";
+  const okClass = a.faulty === false ? " ins-ok" : "";
+  return `<div class="ins-finding ${tone}${okClass}">
+    <div class="ins-finding-head">
+      ${tagText ? `<span class="ins-tag ${tone}">${escapeHtml(tagText)}</span>` : ""}
+      <span class="ins-finding-label">${escapeHtml(label)}</span>
+    </div>
+    ${value ? `<div class="ins-finding-val">${escapeHtml(value)}</div>` : ""}
+    ${comment ? `<div class="ins-finding-comment" dir="auto"><span class="ins-finding-comment-key">${escapeHtml(t(locale, "inspection.finding.note"))}</span><span class="ins-finding-comment-text">${escapeHtml(comment)}</span></div>` : ""}
+  </div>`;
+}
+
+function renderInspectionSectionCard(
+  s: SylndrInspectionSection,
+  stats: InspectionStats["bySection"][number],
+  locale: Locale,
+): string {
+  const title = sectionTitle(s, locale);
+  const sev = severityClass(stats.severity);
+  const answers = s.answers ?? [];
+  const faultyRows = answers.filter((a) => a.faulty === true).map((a) => renderFindingRow(a, locale)).join("");
+  const okRows = answers.filter((a) => a.faulty === false).map((a) => renderFindingRow(a, locale)).join("");
+  const neutralRows = answers.filter((a) => a.faulty == null).map((a) => renderFindingRow(a, locale)).join("");
+  const totalCounted = stats.total - stats.neutral;
+  const flagged = stats.faulty;
+  const okCount = stats.ok;
+  const okSentence = totalCounted > 0
+    ? `${okCount}/${totalCounted}`
+    : `${stats.total}`;
+
+  return `<details class="ins-section" ${flagged > 0 ? "open" : ""}>
+    <summary class="ins-section-head">
+      <span class="ins-section-name">${escapeHtml(title)}</span>
+      <span class="ins-section-stats">
+        <span class="ins-section-count ${sev}">${flagged} ${escapeHtml(t(locale, "inspection.finding.faulty"))}</span>
+        <span class="ins-section-okcount">${okSentence}</span>
+        <span class="ins-bar"><span class="ins-bar-fill ${sev}" style="width:${Math.min(100, Math.max(0, 100 - stats.okPct))}%"></span></span>
+      </span>
+    </summary>
+    <div class="ins-section-body">
+      ${faultyRows}
+      ${neutralRows}
+      ${okRows || (faultyRows ? "" : `<div class="ai-empty">${escapeHtml(t(locale, "inspection.section.empty"))}</div>`)}
+    </div>
+  </details>`;
+}
+
+function renderInspectionReport(snap: Snapshot, locale: Locale): string {
+  const stats = computeInspectionStats(snap);
+  const sections = snap.inspectionReport?.sections ?? [];
+
+  if (!stats || !sections.length) {
+    return `<section class="v-section">
+      <div class="v-section-head">
+        <h2 class="v-section-title"><span class="dot"></span>${escapeHtml(t(locale, "inspection.section"))}</h2>
+        <span class="v-section-sub">${escapeHtml(t(locale, "inspection.section.sub"))}</span>
+      </div>
+      <div class="ai-empty">${escapeHtml(t(locale, "inspection.empty"))}</div>
+    </section>`;
+  }
+
+  const sev = severityClass(stats.severity);
+  const sevLabel = severityLabel(locale, stats.severity);
+  const okPct = stats.okPct;
+  const orderedSections = [...sections].sort(
+    (a, b) => (a.order ?? 0) - (b.order ?? 0),
+  );
+
+  const sectionsHtml = orderedSections
+    .map((s) => {
+      const sStats = stats.bySection.find((x) => x.nameEn === s.nameEn) ?? stats.bySection[0]!;
+      return renderInspectionSectionCard(s, sStats, locale);
+    })
+    .join("");
+
+  return `<section class="v-section ins-card">
+    <div class="v-section-head">
+      <h2 class="v-section-title"><span class="dot"></span>${escapeHtml(t(locale, "inspection.section"))}</h2>
+      <span class="v-section-sub">${escapeHtml(t(locale, "inspection.section.sub"))}</span>
+    </div>
+
+    <div class="ins-overview">
+      <div class="ins-overview-head">
+        <div class="ins-overview-title">${escapeHtml(t(locale, "inspection.overview.title"))}</div>
+        <div class="ins-overview-sev ${sev}">${escapeHtml(sevLabel)}</div>
+      </div>
+      <div class="ins-health-bar">
+        <div class="ins-health-bar-fill ${sev}" style="width:${okPct}%"></div>
+        <div class="ins-health-bar-pct">${okPct}%</div>
+      </div>
+      <div class="ins-overview-stats">
+        <span class="ins-overview-stat">${escapeHtml(t(locale, "inspection.overview.points", { ok: stats.ok, total: stats.total - stats.neutral }))}</span>
+        <span class="ins-overview-dot"></span>
+        <span class="ins-overview-stat ${sev}">${escapeHtml(t(locale, "inspection.overview.flagged", { n: stats.faulty }))}</span>
+      </div>
+    </div>
+
+    <div class="ins-sections">${sectionsHtml}</div>
+  </section>`;
+}
+
+// --- features rendering ---
+
+function featureValue(f: SylndrFeature, locale: Locale): string {
+  return locale === "ar" ? (f.value_ar || f.value_en) : (f.value_en || f.value_ar);
+}
+
+function featureName(f: SylndrFeature, locale: Locale): string {
+  return locale === "ar" ? (f.name_ar || f.name_en) : (f.name_en || f.name_ar);
+}
+
+function featureSectionTitle(s: SylndrFeatureSection, locale: Locale): string {
+  return locale === "ar" ? (s.name_ar || s.name_en) : (s.name_en || s.name_ar);
+}
+
+function isYesValue(v: string): boolean {
+  const s = v.trim().toLowerCase();
+  return s === "yes" || s === "نعم";
+}
+
+function isNoValue(v: string): boolean {
+  const s = v.trim().toLowerCase();
+  return s === "no" || s === "لا";
+}
+
+function renderFeatureCell(f: SylndrFeature, locale: Locale): string {
+  const name = featureName(f, locale);
+  const val = featureValue(f, locale);
+  if (isYesValue(val)) {
+    return `<div class="feat-cell feat-yes"><span class="feat-icon">✓</span><span class="feat-name">${escapeHtml(name)}</span></div>`;
+  }
+  if (isNoValue(val)) {
+    return `<div class="feat-cell feat-no"><span class="feat-icon">—</span><span class="feat-name">${escapeHtml(name)}</span></div>`;
+  }
+  return `<div class="feat-cell feat-val"><span class="feat-name">${escapeHtml(name)}</span><span class="feat-value">${escapeHtml(val)}</span></div>`;
+}
+
+function renderFeaturesSection(snap: Snapshot, locale: Locale): string {
+  const sections = snap.extraInfo?.carFeatures?.sections;
+  if (!sections || sections.length === 0) return "";
+
+  const ordered = [...sections].sort((a, b) => a.order - b.order);
+  const blocks = ordered.map((s) => {
+    const cells = (s.features ?? [])
+      .slice()
+      .sort((a, b) => a.order - b.order)
+      .map((f) => renderFeatureCell(f, locale))
+      .join("");
+    return `<div class="feat-group">
+      <div class="feat-group-title">${escapeHtml(featureSectionTitle(s, locale))}</div>
+      <div class="feat-grid">${cells}</div>
+    </div>`;
+  }).join("");
+
+  return `<section class="v-section">
+    <div class="v-section-head">
+      <h2 class="v-section-title"><span class="dot"></span>${escapeHtml(t(locale, "features.section"))}</h2>
+      <span class="v-section-sub">${escapeHtml(t(locale, "features.section.sub"))}</span>
+    </div>
+    <div class="feat-groups">${blocks}</div>
+  </section>`;
 }
 
 function localizedDisplayName(snap: Snapshot, locale: Locale): {
@@ -494,6 +706,14 @@ export function renderVehiclePage(args: {
       </div>
       <div class="v-spec">${specRows}</div>
     </section>
+  </div>
+
+  <div class="v-grid full">
+    ${renderInspectionReport(snap, locale)}
+  </div>
+
+  <div class="v-grid full">
+    ${renderFeaturesSection(snap, locale)}
   </div>
 
   <div class="v-grid full">

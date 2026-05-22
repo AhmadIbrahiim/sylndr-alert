@@ -107,11 +107,62 @@ export type SylndrVehicleOwner = {
   name?: string | null;
 } | null;
 
+export type SylndrInspectionAnswer = {
+  id?: string;
+  name: string;                 // Arabic question label
+  nameEn: string | null;        // English question label
+  value: string | null;         // Arabic answer
+  valueEn: string | null;       // English answer
+  comment: string | null;       // Arabic inspector free-text
+  commentEn: string | null;     // English inspector free-text
+  faulty: boolean | null;       // true = issue, false = ok, null = neutral/info
+  answerType?: string | null;
+  questionOrder?: number | null;
+  originalSection?: string | null;
+  hasAttachment?: boolean | null;
+};
+
+export type SylndrInspectionSection = {
+  name: string;                 // Arabic section title
+  nameEn: string;               // English section title
+  order: number;
+  answers: SylndrInspectionAnswer[];
+};
+
+export type SylndrInspectionReport = {
+  sections: SylndrInspectionSection[];
+} | null;
+
+export type SylndrFeature = {
+  name_en: string;
+  name_ar: string;
+  value_en: string;
+  value_ar: string;
+  order: number;
+};
+
+export type SylndrFeatureSection = {
+  name_en: string;
+  name_ar: string;
+  order: number;
+  features: SylndrFeature[];
+};
+
+export type SylndrCarFeatures = {
+  sections: SylndrFeatureSection[];
+} | null;
+
+export type SylndrExtraInfo = {
+  carFeatures?: SylndrCarFeatures;
+} | null;
+
 export type SylndrItem = {
   vehicle: SylndrVehicle;
   auction?: SylndrAuction;
   installmentPrice?: number | null;
   vehicleOwner?: SylndrVehicleOwner;
+  inspectionReport?: SylndrInspectionReport;
+  extraInfo?: SylndrExtraInfo;
 };
 
 function slug(s: string | null | undefined): string {

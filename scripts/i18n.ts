@@ -271,6 +271,30 @@ const STRINGS = {
   "page.title.index": { en: "Sylndr alerts · {n} listings", ar: "تنبيهات سيلندر · {n} عربية" },
   "page.title.detail": { en: "{year} {title} · Sylndr alerts", ar: "{year} {title} · تنبيهات سيلندر" },
   "page.description.index": { en: "Browse and filter Sylndr (Egypt) used-car inventory with cohort analysis on every listing.", ar: "تصفّح وفلتر عربيات سيلندر (مصر) مع تحليل ومقارنة لكل عربية." },
+
+  // INSPECTION REPORT
+  "inspection.section": { en: "Inspection report", ar: "تقرير الفحص" },
+  "inspection.section.sub": { en: "from Sylndr's inspection team", ar: "من فريق الفحص الفنّي لسيلندر" },
+  "inspection.empty": { en: "No inspection report on this listing yet.", ar: "لسه مفيش تقرير فحص للعربية دي." },
+  "inspection.overview.title": { en: "Overall condition", ar: "الحالة العامة" },
+  "inspection.overview.points": { en: "{ok} of {total} points clean", ar: "{ok} من {total} نقطة سليمة" },
+  "inspection.overview.flagged": { en: "{n} flagged", ar: "{n} ملاحظة" },
+  "inspection.severity.clean": { en: "clean", ar: "نظيفة" },
+  "inspection.severity.minor": { en: "minor issues", ar: "ملاحظات بسيطة" },
+  "inspection.severity.many": { en: "many issues", ar: "ملاحظات كتيرة" },
+  "inspection.findings.title": { en: "Inspector findings", ar: "ملاحظات الفاحص" },
+  "inspection.findings.toggle.show": { en: "Show OK items", ar: "اعرض النقاط السليمة" },
+  "inspection.findings.toggle.hide": { en: "Hide OK items", ar: "اخفي النقاط السليمة" },
+  "inspection.finding.faulty": { en: "issue", ar: "ملاحظة" },
+  "inspection.finding.ok": { en: "ok", ar: "سليم" },
+  "inspection.finding.note": { en: "Inspector note", ar: "ملاحظة الفاحص" },
+  "inspection.section.empty": { en: "Nothing flagged in this section.", ar: "مفيش ملاحظات في القسم ده." },
+
+  // CAR FEATURES
+  "features.section": { en: "Car features", ar: "مميّزات العربية" },
+  "features.section.sub": { en: "spec sheet", ar: "ورقة المواصفات" },
+  "features.yes": { en: "Yes", ar: "نعم" },
+  "features.no": { en: "No", ar: "لا" },
 } as const satisfies Record<string, Record<Locale, string>>;
 
 export type StringKey = keyof typeof STRINGS;
