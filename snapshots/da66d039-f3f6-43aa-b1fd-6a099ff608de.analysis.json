@@ -1,17 +1,17 @@
 {
   "vehicleId": "da66d039-f3f6-43aa-b1fd-6a099ff608de",
-  "computedAt": "2026-05-23T11:58:38.604Z",
+  "computedAt": "2026-05-23T13:46:15.328Z",
   "cohort": {
-    "sameModelCount": 12,
+    "sameModelCount": 13,
     "sameYearCount": 2,
     "refCohort": "model",
-    "refSize": 12
+    "refSize": 13
   },
-  "pricePercentile": 58,
+  "pricePercentile": 62,
   "pricePerKm": 66.48567119155355,
-  "pricePerKmPercentile": 75,
-  "kmPercentile": 17,
-  "daysListed": 14,
+  "pricePerKmPercentile": 69,
+  "kmPercentile": 23,
+  "daysListed": 15,
   "marginPct": 24.500907441016334,
   "marginTier": "mid",
   "auctionHeat": "hot",
@@ -22,17 +22,17 @@
       "pipKey": "bullet.pip.mid",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 42,
-        "n": 12,
+        "pct": 38,
+        "n": 13,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
     {
-      "tone": "hot",
-      "pipKey": "bullet.pip.pricey",
+      "tone": "mid",
+      "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 25,
+        "pct": 31,
         "ppkm": 66
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.lowKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 83
+        "pct": 77
       }
     },
     {
@@ -61,11 +61,11 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 14
+        "n": 15
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 14
+        "n": 15
       }
     }
   ],
@@ -77,7 +77,7 @@
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": null,
     "args": {
-      "refSize": 12,
+      "refSize": 13,
       "year": "2021",
       "title": "Mercedes-Benz GLA 200"
     }

@@ -1,29 +1,29 @@
 {
   "vehicleId": "500c8e34-d74b-4c7f-b88d-54fd9d63bae7",
-  "computedAt": "2026-05-23T11:58:39.055Z",
+  "computedAt": "2026-05-23T13:46:15.834Z",
   "cohort": {
-    "sameModelCount": 9,
+    "sameModelCount": 10,
     "sameYearCount": 3,
     "refCohort": "model",
-    "refSize": 9
+    "refSize": 10
   },
-  "pricePercentile": 33,
+  "pricePercentile": 30,
   "pricePerKm": 6.695090329436769,
-  "pricePerKmPercentile": 56,
-  "kmPercentile": 33,
-  "daysListed": 80,
+  "pricePerKmPercentile": 60,
+  "kmPercentile": 30,
+  "daysListed": 81,
   "marginPct": 13.810618277863137,
   "marginTier": "low",
   "auctionHeat": "hot",
-  "dealTag": "good",
+  "dealTag": "fair",
   "bullets": [
     {
       "tone": "good",
       "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 67,
-        "n": 9,
+        "pct": 70,
+        "n": 10,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 44,
+        "pct": 40,
         "ppkm": 7
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.lowKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 67
+        "pct": 70
       }
     },
     {
@@ -61,23 +61,23 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 80
+        "n": 81
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 80
+        "n": 81
       }
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.good",
+    "verdictKey": "summary.verdict.fair",
     "cohortLineKey": "summary.cohortLine.yes",
     "cohortKindKey": "detail.cohort.refSize.kind.model",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": "summary.suffix.marginLow",
     "args": {
-      "refSize": 9,
+      "refSize": 10,
       "year": "2023",
       "title": "Citroen C-Elysee"
     }
