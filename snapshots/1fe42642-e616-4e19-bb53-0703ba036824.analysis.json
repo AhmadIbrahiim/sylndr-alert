@@ -1,16 +1,16 @@
 {
   "vehicleId": "1fe42642-e616-4e19-bb53-0703ba036824",
-  "computedAt": "2026-05-24T07:48:04.127Z",
+  "computedAt": "2026-05-24T09:51:54.751Z",
   "cohort": {
-    "sameModelCount": 5,
-    "sameYearCount": 2,
+    "sameModelCount": 6,
+    "sameYearCount": 3,
     "refCohort": "model",
-    "refSize": 5
+    "refSize": 6
   },
   "pricePercentile": 0,
   "pricePerKm": 13.618157543391188,
-  "pricePerKmPercentile": 20,
-  "kmPercentile": 40,
+  "pricePerKmPercentile": 33,
+  "kmPercentile": 33,
   "daysListed": 76,
   "marginPct": 6.2745098039215685,
   "marginTier": "low",
@@ -23,7 +23,7 @@
       "textKey": "bullet.priceCheaper",
       "textArgs": {
         "pct": 100,
-        "n": 5,
+        "n": 6,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -32,16 +32,16 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 80,
+        "pct": 67,
         "ppkm": 14
       }
     },
     {
-      "tone": "mid",
-      "pipKey": "bullet.pip.km",
+      "tone": "good",
+      "pipKey": "bullet.pip.lowKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 60
+        "pct": 67
       }
     },
     {
@@ -77,7 +77,7 @@
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": "summary.suffix.marginLow",
     "args": {
-      "refSize": 5,
+      "refSize": 6,
       "year": "2022",
       "title": "Kia XCeed"
     }
