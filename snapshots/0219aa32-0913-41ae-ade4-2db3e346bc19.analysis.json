@@ -1,16 +1,16 @@
 {
   "vehicleId": "0219aa32-0913-41ae-ade4-2db3e346bc19",
-  "computedAt": "2026-05-24T14:01:57.483Z",
+  "computedAt": "2026-05-24T15:21:54.309Z",
   "cohort": {
-    "sameModelCount": 5,
+    "sameModelCount": 6,
     "sameYearCount": 1,
     "refCohort": "model",
-    "refSize": 5
+    "refSize": 6
   },
   "pricePercentile": 0,
   "pricePerKm": 2.4498886414253898,
   "pricePerKmPercentile": 0,
-  "kmPercentile": 80,
+  "kmPercentile": 67,
   "daysListed": 88,
   "marginPct": 13.818181818181818,
   "marginTier": "low",
@@ -23,7 +23,7 @@
       "textKey": "bullet.priceCheaper",
       "textArgs": {
         "pct": 100,
-        "n": 5,
+        "n": 6,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -37,11 +37,11 @@
       }
     },
     {
-      "tone": "hot",
-      "pipKey": "bullet.pip.highKm",
+      "tone": "mid",
+      "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 20
+        "pct": 33
       }
     },
     {
@@ -77,7 +77,7 @@
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": "summary.suffix.marginLow",
     "args": {
-      "refSize": 5,
+      "refSize": 6,
       "year": "2014",
       "title": "Seat Leon"
     }

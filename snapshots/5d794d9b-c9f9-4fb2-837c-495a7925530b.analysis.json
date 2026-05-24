@@ -1,0 +1,52 @@
+{
+  "vehicleId": "5d794d9b-c9f9-4fb2-837c-495a7925530b",
+  "computedAt": "2026-05-24T15:21:54.145Z",
+  "cohort": {
+    "sameModelCount": 2,
+    "sameYearCount": 1,
+    "refCohort": "model",
+    "refSize": 2
+  },
+  "pricePercentile": null,
+  "pricePerKm": 10.303030303030303,
+  "pricePerKmPercentile": null,
+  "kmPercentile": null,
+  "daysListed": 0,
+  "marginPct": 37.470588235294116,
+  "marginTier": "high",
+  "auctionHeat": "cold",
+  "dealTag": "fair",
+  "bullets": [
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.marginPct",
+      "pipArgs": {
+        "pct": "37"
+      },
+      "textKey": "bullet.marginHigh"
+    },
+    {
+      "tone": "neutral",
+      "pipKey": "bullet.pip.cold",
+      "textKey": "bullet.auctionCold"
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.fresh",
+      "textKey": "bullet.listedFresh"
+    }
+  ],
+  "summary": {
+    "verdictKey": "summary.verdict.fair",
+    "cohortLineKey": "summary.cohortLine.yes",
+    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "ageSuffixKey": "summary.suffix.ageFresh",
+    "heatSuffixKey": null,
+    "marginSuffixKey": "summary.suffix.marginHigh",
+    "args": {
+      "refSize": 2,
+      "year": "2021",
+      "title": "Skoda Superb"
+    }
+  }
+}
