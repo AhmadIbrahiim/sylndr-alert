@@ -45,6 +45,7 @@ const SNAPSHOT_DIR = join(ROOT, "snapshots");
 const DOCS_DIR = join(ROOT, "docs");
 const DOCS_ASSETS_DIR = join(DOCS_DIR, "assets");
 const DOCS_STYLE = join(DOCS_ASSETS_DIR, "style.css");
+const POLL_WORKFLOW_URL = "https://github.com/AhmadIbrahiim/sylndr-alert/actions/workflows/poll.yml";
 
 function docsDirFor(locale: Locale): string {
   return locale === "en" ? DOCS_DIR : join(DOCS_DIR, "ar");
@@ -698,6 +699,7 @@ export function renderPage(
       </div>
     </a>
     <div class="brand-right">
+      <a class="workflow-trigger" href="${POLL_WORKFLOW_URL}" target="_blank" rel="noopener noreferrer" aria-label="${escapeHtml(t(locale, "header.updateData.aria"))}">${escapeHtml(t(locale, "header.updateData"))}</a>
       <a class="lang-toggle" href="${escapeHtml(altHref)}" aria-label="${escapeHtml(altLabel)}">${escapeHtml(altLabel)}</a>
       <div class="updated" data-rendered-at="${renderedIso}"><span class="pulse"></span><span data-updated-text>(${escapeHtml(t(locale, "header.updated.justNow"))})</span></div>
     </div>
