@@ -25,6 +25,8 @@ const STRINGS = {
   "header.lang.en": { en: "EN", ar: "EN" },
   "header.lang.ar": { en: "AR", ar: "AR" },
   "header.lang.switch": { en: "العربية", ar: "English" },
+  "header.updateData": { en: "Update data", ar: "حدّث البيانات" },
+  "header.updateData.aria": { en: "Trigger the update data workflow", ar: "شغّل وركفلو تحديث البيانات" },
   "header.updated.justNow": { en: "Updated just now", ar: "اتحدّث لسه" },
   "header.updated.rendered": { en: "rendered", ar: "اتجدّد" },
   "header.updated.ago.justNow": { en: "just now", ar: "دلوقتي" },

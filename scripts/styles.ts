@@ -99,7 +99,8 @@ header.hero{margin-bottom:36px}
 .brand-right{
   display:flex;align-items:center;gap:14px;flex-wrap:wrap;
 }
-.lang-toggle{
+.lang-toggle,
+.workflow-trigger{
   display:inline-flex;align-items:center;justify-content:center;
   padding:6px 12px;border-radius:8px;
   background:var(--panel);border:1px solid var(--border);
@@ -108,8 +109,13 @@ header.hero{margin-bottom:36px}
   transition:border-color .12s ease,color .12s ease,background .12s ease;
   font-family:-apple-system,BlinkMacSystemFont,"SF Pro Text","Inter","Tahoma",sans-serif;
 }
-.lang-toggle:hover{
+.lang-toggle:hover,
+.workflow-trigger:hover{
   border-color:var(--accent);color:var(--accent);
+}
+.workflow-trigger{
+  background:var(--accent-soft);
+  color:var(--accent);
 }
 .pulse{width:7px;height:7px;border-radius:50%;background:var(--good);box-shadow:0 0 0 0 rgba(61,220,132,.5);animation:pulse 2s infinite}
 @keyframes pulse{0%,100%{box-shadow:0 0 0 0 rgba(61,220,132,.4)}50%{box-shadow:0 0 0 6px rgba(61,220,132,0)}}
