@@ -1,38 +1,38 @@
 {
   "vehicleId": "4fd2dab5-c6fe-4630-938a-434c7ddd50a9",
-  "computedAt": "2026-05-25T10:19:12.017Z",
+  "computedAt": "2026-05-25T12:27:36.444Z",
   "cohort": {
-    "sameModelCount": 14,
-    "sameYearCount": 3,
-    "refCohort": "model",
-    "refSize": 14
+    "sameModelCount": 15,
+    "sameYearCount": 4,
+    "refCohort": "model+year",
+    "refSize": 4
   },
-  "pricePercentile": 57,
+  "pricePercentile": 25,
   "pricePerKm": 11.516314779270633,
-  "pricePerKmPercentile": 71,
-  "kmPercentile": 29,
+  "pricePerKmPercentile": 50,
+  "kmPercentile": 25,
   "daysListed": 8,
   "marginPct": 36.13333333333333,
   "marginTier": "high",
   "auctionHeat": "hot",
-  "dealTag": "fair",
+  "dealTag": "good",
   "bullets": [
     {
-      "tone": "mid",
-      "pipKey": "bullet.pip.mid",
+      "tone": "good",
+      "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 43,
-        "n": 14,
-        "kind": "detail.cohort.refSize.kind.model"
+        "pct": 75,
+        "n": 4,
+        "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
-      "tone": "hot",
-      "pipKey": "bullet.pip.pricey",
+      "tone": "mid",
+      "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 29,
+        "pct": 50,
         "ppkm": 12
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.lowKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 71
+        "pct": 75
       }
     },
     {
@@ -59,14 +59,14 @@
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.fair",
+    "verdictKey": "summary.verdict.good",
     "cohortLineKey": "summary.cohortLine.yes",
-    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": null,
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": "summary.suffix.marginHigh",
     "args": {
-      "refSize": 14,
+      "refSize": 4,
       "year": "2022",
       "title": "Kia Sportage"
     }

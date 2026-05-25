@@ -1,16 +1,16 @@
 {
   "vehicleId": "eaf8d8cd-6095-49ce-9f6b-9113f51e539a",
-  "computedAt": "2026-05-25T10:19:12.126Z",
+  "computedAt": "2026-05-25T12:27:36.541Z",
   "cohort": {
-    "sameModelCount": 11,
-    "sameYearCount": 3,
-    "refCohort": "model",
-    "refSize": 11
+    "sameModelCount": 12,
+    "sameYearCount": 4,
+    "refCohort": "model+year",
+    "refSize": 4
   },
-  "pricePercentile": 55,
+  "pricePercentile": 50,
   "pricePerKm": 30.563514804202484,
-  "pricePerKmPercentile": 73,
-  "kmPercentile": 9,
+  "pricePerKmPercentile": 50,
+  "kmPercentile": 0,
   "daysListed": 112,
   "marginPct": 14.374999999999998,
   "marginTier": "low",
@@ -22,17 +22,17 @@
       "pipKey": "bullet.pip.mid",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 45,
-        "n": 11,
-        "kind": "detail.cohort.refSize.kind.model"
+        "pct": 50,
+        "n": 4,
+        "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
-      "tone": "hot",
-      "pipKey": "bullet.pip.pricey",
+      "tone": "mid",
+      "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 27,
+        "pct": 50,
         "ppkm": 31
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.lowKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 91
+        "pct": 100
       }
     },
     {
@@ -72,12 +72,12 @@
   "summary": {
     "verdictKey": "summary.verdict.fair",
     "cohortLineKey": "summary.cohortLine.yes",
-    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": "summary.suffix.marginLow",
     "args": {
-      "refSize": 11,
+      "refSize": 4,
       "year": "2022",
       "title": "Hyundai Tucson"
     }

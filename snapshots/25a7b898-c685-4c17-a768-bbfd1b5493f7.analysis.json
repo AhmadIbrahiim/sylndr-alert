@@ -1,30 +1,30 @@
 {
   "vehicleId": "25a7b898-c685-4c17-a768-bbfd1b5493f7",
-  "computedAt": "2026-05-25T10:19:12.040Z",
+  "computedAt": "2026-05-25T12:27:36.465Z",
   "cohort": {
-    "sameModelCount": 14,
-    "sameYearCount": 3,
-    "refCohort": "model",
-    "refSize": 14
+    "sameModelCount": 15,
+    "sameYearCount": 4,
+    "refCohort": "model+year",
+    "refSize": 4
   },
-  "pricePercentile": 71,
+  "pricePercentile": 50,
   "pricePerKm": 6.3014827018121915,
-  "pricePerKmPercentile": 21,
-  "kmPercentile": 93,
-  "daysListed": 54,
+  "pricePerKmPercentile": 0,
+  "kmPercentile": 75,
+  "daysListed": 55,
   "marginPct": 42.35294117647059,
   "marginTier": "high",
   "auctionHeat": "hot",
-  "dealTag": "fair",
+  "dealTag": "good",
   "bullets": [
     {
-      "tone": "hot",
-      "pipKey": "bullet.pip.high",
+      "tone": "mid",
+      "pipKey": "bullet.pip.mid",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 29,
-        "n": 14,
-        "kind": "detail.cohort.refSize.kind.model"
+        "pct": 50,
+        "n": 4,
+        "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 79,
+        "pct": 100,
         "ppkm": 6
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.highKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 7
+        "pct": 25
       }
     },
     {
@@ -61,23 +61,23 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 54
+        "n": 55
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 54
+        "n": 55
       }
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.fair",
+    "verdictKey": "summary.verdict.good",
     "cohortLineKey": "summary.cohortLine.yes",
-    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": "summary.suffix.marginHigh",
     "args": {
-      "refSize": 14,
+      "refSize": 4,
       "year": "2022",
       "title": "Kia Sportage"
     }
