@@ -1,16 +1,16 @@
 {
   "vehicleId": "26e5777a-5007-40d2-9500-a3fcfbb25663",
-  "computedAt": "2026-05-25T08:54:26.905Z",
+  "computedAt": "2026-05-25T10:19:12.421Z",
   "cohort": {
-    "sameModelCount": 18,
-    "sameYearCount": 3,
-    "refCohort": "model",
-    "refSize": 18
+    "sameModelCount": 19,
+    "sameYearCount": 4,
+    "refCohort": "model+year",
+    "refSize": 4
   },
-  "pricePercentile": 67,
+  "pricePercentile": 75,
   "pricePerKm": 3.2869785082174463,
-  "pricePerKmPercentile": 39,
-  "kmPercentile": 72,
+  "pricePerKmPercentile": 50,
+  "kmPercentile": 50,
   "daysListed": 47,
   "marginPct": 36.34615384615385,
   "marginTier": "high",
@@ -18,13 +18,13 @@
   "dealTag": "fair",
   "bullets": [
     {
-      "tone": "mid",
-      "pipKey": "bullet.pip.mid",
+      "tone": "hot",
+      "pipKey": "bullet.pip.high",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 33,
-        "n": 18,
-        "kind": "detail.cohort.refSize.kind.model"
+        "pct": 25,
+        "n": 4,
+        "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
@@ -32,16 +32,16 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 61,
+        "pct": 50,
         "ppkm": 3
       }
     },
     {
-      "tone": "hot",
-      "pipKey": "bullet.pip.highKm",
+      "tone": "mid",
+      "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 28
+        "pct": 50
       }
     },
     {
@@ -72,12 +72,12 @@
   "summary": {
     "verdictKey": "summary.verdict.fair",
     "cohortLineKey": "summary.cohortLine.yes",
-    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": "summary.suffix.marginHigh",
     "args": {
-      "refSize": 18,
+      "refSize": 4,
       "year": "2017",
       "title": "Renault Logan"
     }
