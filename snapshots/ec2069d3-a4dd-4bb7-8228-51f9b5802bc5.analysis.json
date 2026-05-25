@@ -1,16 +1,16 @@
 {
   "vehicleId": "ec2069d3-a4dd-4bb7-8228-51f9b5802bc5",
-  "computedAt": "2026-05-25T05:23:40.771Z",
+  "computedAt": "2026-05-25T08:54:27.077Z",
   "cohort": {
-    "sameModelCount": 4,
+    "sameModelCount": 5,
     "sameYearCount": 1,
     "refCohort": "model",
-    "refSize": 4
+    "refSize": 5
   },
-  "pricePercentile": 0,
+  "pricePercentile": 20,
   "pricePerKm": 5.551149881046788,
-  "pricePerKmPercentile": 0,
-  "kmPercentile": 75,
+  "pricePerKmPercentile": 20,
+  "kmPercentile": 60,
   "daysListed": 4,
   "marginPct": 25.61904761904762,
   "marginTier": "mid",
@@ -22,8 +22,8 @@
       "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 100,
-        "n": 4,
+        "pct": 80,
+        "n": 5,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -32,16 +32,16 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 100,
+        "pct": 80,
         "ppkm": 6
       }
     },
     {
-      "tone": "hot",
-      "pipKey": "bullet.pip.highKm",
+      "tone": "mid",
+      "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 25
+        "pct": 40
       }
     },
     {
@@ -66,7 +66,7 @@
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 4,
+      "refSize": 5,
       "year": "2015",
       "title": "Audi A3"
     }
