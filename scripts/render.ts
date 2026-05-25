@@ -459,6 +459,7 @@ function filterJs(locale: Locale): string {
   return `
 window.__I18N__ = ${JSON.stringify(labels)};
 (() => {
+  const PAGE_SIZE = 30;
   const form = document.querySelector('.filter-bar');
   if (!form) return;
   const grid = document.querySelector('main.grid');
@@ -471,6 +472,10 @@ window.__I18N__ = ${JSON.stringify(labels)};
   const fmt = (n) => n >= 1e6 ? (n/1e6).toFixed(2)+'M' : n >= 1e3 ? Math.round(n/1e3)+'K' : String(n);
   const updatedRoot = document.querySelector('.updated[data-rendered-at]');
   const updatedText = updatedRoot ? updatedRoot.querySelector('[data-updated-text]') : null;
+
+  let filteredCards = [];
+  let renderedCount = 0;
+  let loading = false;
 
   function pick(tplOne, tplMany, n) {
     return (n === 1 ? (tplOne || tplMany) : tplMany).replace('{n}', n);
@@ -552,6 +557,23 @@ window.__I18N__ = ${JSON.stringify(labels)};
       priceStat.appendChild(unit);
     }
   }
+
+  function showBatch() {
+    const end = Math.min(renderedCount + PAGE_SIZE, filteredCards.length);
+    for (let i = renderedCount; i < end; i++) {
+      filteredCards[i].style.display = '';
+      grid.appendChild(filteredCards[i]);
+    }
+    renderedCount = end;
+    updateLoadMoreVisibility();
+  }
+
+  function updateLoadMoreVisibility() {
+    const sentinel = document.getElementById('load-more-sentinel');
+    if (!sentinel) return;
+    sentinel.style.display = renderedCount < filteredCards.length ? '' : 'none';
+  }
+
   function apply() {
     const body = getValues('body');
     const trans = getValues('trans');
@@ -567,6 +589,7 @@ window.__I18N__ = ${JSON.stringify(labels)};
     const maxY = num('maxYear', Infinity);
     const sort = form.sort.value;
     let visible = 0, sold = 0, marginSum = 0, marginN = 0, pMin = Infinity, pMax = -Infinity;
+    filteredCards = [];
     for (const c of cards) {
       const d = c.dataset;
       const flaggedN = Number(d.flagged);
@@ -582,9 +605,10 @@ window.__I18N__ = ${JSON.stringify(labels)};
         Number(d.km) <= maxKm &&
         (maxFlagged === Infinity || (flaggedHas && flaggedN <= maxFlagged)) &&
         Number(d.year) >= minY && Number(d.year) <= maxY;
-      c.style.display = ok ? '' : 'none';
+      c.style.display = 'none';
       if (ok) {
         visible++;
+        filteredCards.push(c);
         if (d.status === 'BEING_SOLD') sold++;
         const m = parseFloat(d.margin);
         if (!isNaN(m)) { marginSum += m; marginN++; }
@@ -596,11 +620,29 @@ window.__I18N__ = ${JSON.stringify(labels)};
     soldStat.textContent = sold;
     setPriceRange(pMin, pMax);
     marginStat.textContent = marginN ? Math.round(marginSum / marginN) + '%' : '—';
-    const visCards = cards.filter((c) => c.style.display !== 'none');
-    visCards.sort((a, b) => sortKey(a, sort) - sortKey(b, sort));
-    for (const c of visCards) grid.appendChild(c);
+    filteredCards.sort((a, b) => sortKey(a, sort) - sortKey(b, sort));
+    for (const c of filteredCards) grid.appendChild(c);
+    renderedCount = 0;
+    showBatch();
     writeParams();
   }
+
+  // Infinite scroll using IntersectionObserver
+  const sentinel = document.createElement('div');
+  sentinel.id = 'load-more-sentinel';
+  sentinel.style.height = '1px';
+  sentinel.style.width = '100%';
+  grid.parentNode.insertBefore(sentinel, grid.nextSibling);
+
+  const observer = new IntersectionObserver((entries) => {
+    if (entries[0].isIntersecting && !loading && renderedCount < filteredCards.length) {
+      loading = true;
+      showBatch();
+      loading = false;
+    }
+  }, { rootMargin: '200px' });
+  observer.observe(sentinel);
+
   form.addEventListener('input', apply);
   form.querySelector('[data-action="reset"]').addEventListener('click', () => {
     form.reset();
