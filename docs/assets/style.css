@@ -776,6 +776,53 @@ main.grid{
 .v-auc-val.accent{color:var(--accent)}
 .v-auc-val.hot{color:var(--hot)}
 
+/* --- bid history (auction momentum over time) --- */
+.spark{display:block;overflow:visible}
+.spark-line{stroke:currentColor;stroke-width:1.6;stroke-linejoin:round;stroke-linecap:round;vector-effect:non-scaling-stroke}
+.spark-area{fill:currentColor;opacity:.13}
+.spark-dot{fill:currentColor}
+
+.bidhist-cap{
+  margin-top:18px;display:flex;align-items:baseline;gap:8px;
+  font-size:10px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);
+}
+.bidhist-cap-sub{font-size:10px;font-weight:500;letter-spacing:.02em;text-transform:none;color:var(--muted-dim)}
+.bidhist{
+  margin-top:8px;padding:14px 16px;
+  background:var(--panel-2);border:1px solid var(--border);border-radius:12px;
+  color:var(--muted);
+}
+.bidhist-new{color:var(--muted-dim)}
+.bidhist-active{color:var(--accent)}
+.bidhist-stale{color:var(--gold)}
+.bidhist-cold{color:var(--muted)}
+.bidhist-head{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.bidhist-now{display:flex;align-items:baseline;gap:6px}
+.bidhist-num{font-size:26px;font-weight:800;color:var(--fg);letter-spacing:-0.02em;font-variant-numeric:tabular-nums;line-height:1}
+.bidhist-unit{font-size:12px;color:var(--muted)}
+.bidhist-status{display:inline-flex;align-items:center;gap:7px;font-size:12px;font-weight:600;color:currentColor}
+.bidhist-pip{width:7px;height:7px;border-radius:50%;background:currentColor;flex:none}
+.bidhist-chart{margin-top:12px}
+.bidhist-chart .spark{width:100%;height:52px}
+.bidhist-foot{
+  margin-top:8px;font-size:10px;letter-spacing:.04em;text-transform:uppercase;font-weight:600;
+  color:var(--muted-dim);font-family:ui-monospace,SFMono-Regular,Menlo,monospace;
+}
+
+.bid-chip{
+  display:flex;align-items:center;gap:7px;
+  margin-top:6px;padding:5px 9px;border-radius:8px;align-self:flex-start;
+  background:rgba(127,127,127,.06);border:1px solid var(--border);
+  font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:11px;color:var(--muted);
+}
+.bid-chip-new{color:var(--muted-dim)}
+.bid-chip-active{color:var(--accent);background:var(--accent-soft);border-color:transparent}
+.bid-chip-stale{color:var(--gold);background:rgba(245,185,66,.10);border-color:transparent}
+.bid-chip-cold{color:var(--muted)}
+.bid-chip-num{font-weight:800;color:var(--fg);font-variant-numeric:tabular-nums}
+.bid-chip .spark-mini{width:46px;height:16px;flex:none}
+.bid-chip-note{font-weight:600;letter-spacing:.02em;white-space:nowrap}
+
 .cohort{
   display:flex;flex-direction:column;gap:12px;
 }
