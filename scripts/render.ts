@@ -27,6 +27,8 @@ import { SHARED_CSS } from "./styles.ts";
 import { renderVehiclePage } from "./render-vehicle.ts";
 import { loadAnalysis, analyzeSnapshot } from "./analyze.ts";
 import type { Analysis } from "./analyze.ts";
+import { loadBidHistory, bidTrend, type BidHistory } from "./bid-history.ts";
+import { renderBidCardChip } from "./render-bids.ts";
 import {
   t,
   tRelative,
@@ -105,7 +107,12 @@ function localizedStatus(locale: Locale, status: string): string {
   return status.toLowerCase();
 }
 
-export function renderCard(snap: Snapshot, analysis: Analysis | null, locale: Locale): string {
+export function renderCard(
+  snap: Snapshot,
+  analysis: Analysis | null,
+  bidHistory: BidHistory | null,
+  locale: Locale,
+): string {
   const v = snap.vehicle;
   const year = v.carYear?.name ?? "";
   const make = v.carMake?.name ?? "";
@@ -197,6 +204,8 @@ export function renderCard(snap: Snapshot, analysis: Analysis | null, locale: Lo
       </div>`
     : "";
 
+  const bidChip = renderBidCardChip(bidTrend(bidHistory), locale);
+
   const ownerName = snap.vehicleOwner?.name?.trim() ?? "";
   const search = `${title} ${vehicleTitle(snap)} ${v.salesforceName ?? ""} ${ownerName}`.toLowerCase();
 
@@ -252,6 +261,7 @@ export function renderCard(snap: Snapshot, analysis: Analysis | null, locale: Lo
       <span class="meta-item">${escapeHtml(trans)}</span>
     </div>
     ${auctionStrip}
+    ${bidChip}
     ${inspectionStrip}
     <div class="stamp">
       <span title="${escapeHtml(listedAbs)}">${escapeHtml(t(locale, "card.listed", { when: listedRel }))}</span>
@@ -661,11 +671,16 @@ window.__I18N__ = ${JSON.stringify(labels)};
 export function renderPage(
   snapshots: Snapshot[],
   analyses: Map<string, Analysis | null>,
+  bidHistories: Map<string, BidHistory | null>,
   locale: Locale,
 ): string {
   const facets = computeFacets(snapshots);
   const cards = snapshots.length
-    ? snapshots.map((s) => renderCard(s, analyses.get(s.vehicle.id) ?? null, locale)).join("\n")
+    ? snapshots
+        .map((s) =>
+          renderCard(s, analyses.get(s.vehicle.id) ?? null, bidHistories.get(s.vehicle.id) ?? null, locale),
+        )
+        .join("\n")
     : `<div class="empty"><h2>${escapeHtml(t(locale, "empty.title"))}</h2><div>${escapeHtml(t(locale, "empty.sub"))}</div></div>`;
   const now = new Date();
   const renderedIso = now.toISOString();
@@ -737,6 +752,7 @@ export async function loadAllSnapshots(): Promise<Snapshot[]> {
   for (const f of files) {
     if (!f.endsWith(".json")) continue;
     if (f.endsWith(".analysis.json")) continue;
+    if (f.endsWith(".bids.json")) continue;
     const raw = await Bun.file(join(SNAPSHOT_DIR, f)).text();
     snaps.push(JSON.parse(raw) as Snapshot);
   }
@@ -770,8 +786,10 @@ export async function writeAllDocs(): Promise<{ index: number; details: number; 
   await writeFile(DOCS_STYLE, SHARED_CSS.trim() + "\n");
 
   const analyses = new Map<string, Analysis | null>();
+  const bidHistories = new Map<string, BidHistory | null>();
   for (const snap of snaps) {
     analyses.set(snap.vehicle.id, await loadOrComputeAnalysis(snap, snaps));
+    bidHistories.set(snap.vehicle.id, await loadBidHistory(snap.vehicle.id));
   }
 
   let totalDetails = 0;
@@ -782,14 +800,15 @@ export async function writeAllDocs(): Promise<{ index: number; details: number; 
     await mkdir(localeDocsDir, { recursive: true });
     await mkdir(localeVehicleDir, { recursive: true });
 
-    const indexHtml = renderPage(snaps, analyses, locale);
+    const indexHtml = renderPage(snaps, analyses, bidHistories, locale);
     await writeFile(join(localeDocsDir, "index.html"), indexHtml);
 
     for (const snap of snaps) {
       const id = snap.vehicle.id;
       const analysis = analyses.get(id) ?? null;
+      const bidHistory = bidHistories.get(id) ?? null;
       const ai = await loadAiMarkdown(id);
-      const html = renderVehiclePage({ snapshot: snap, analysis, aiMarkdown: ai, locale });
+      const html = renderVehiclePage({ snapshot: snap, analysis, aiMarkdown: ai, bidHistory, locale });
       await writeFile(join(localeVehicleDir, `${id}.html`), html);
       totalDetails++;
     }

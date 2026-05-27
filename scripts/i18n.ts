@@ -306,6 +306,27 @@ const STRINGS = {
   "features.section.sub": { en: "spec sheet", ar: "ورقة المواصفات" },
   "features.yes": { en: "Yes", ar: "نعم" },
   "features.no": { en: "No", ar: "لا" },
+
+  // BID HISTORY (auction momentum over time)
+  "bidhist.section": { en: "Bid history", ar: "تاريخ المزايدات" },
+  "bidhist.section.sub": { en: "how the auction moved across polls", ar: "تطوّر المزاد عبر الجولات" },
+  "bidhist.unit": { en: "bids · {n} bidders", ar: "مزايدة · {n} مزايد" },
+  "bidhist.window": { en: "tracked over {span}", ar: "متابَعة على مدى {span}" },
+  "bidhist.empty": { en: "No bid history yet — it builds up from the next poll.", ar: "لسه مفيش تاريخ مزايدات — هيتجمّع من الجولة الجاية." },
+  // detail-page status line (one sentence)
+  "bidtrend.new": { en: "Just started tracking this auction — the graph fills in as polls run.", ar: "لسه بدأنا نتابع المزاد ده — الرسم هيكمل مع كل جولة." },
+  "bidtrend.cold": { en: "No offers yet — quiet for {span}.", ar: "مفيش عروض لسه — هادية من {span}." },
+  "bidtrend.stale": { en: "No new bids in the last {span}.", ar: "مفيش مزايدات جديدة من {span}." },
+  "bidtrend.active": { en: "Heating up — newest bid {span} ago.", ar: "بيسخن — آخر مزايدة من {span}." },
+  // compact card chip
+  "bidhist.card.active": { en: "+{n}", ar: "+{n}" },
+  "bidhist.card.flat": { en: "flat {span}", ar: "ثابتة {span}" },
+  "bidhist.card.quiet": { en: "quiet {span}", ar: "هادية {span}" },
+  "bidhist.card.new": { en: "new", ar: "جديدة" },
+  // duration spans
+  "bidspan.lt1h": { en: "under 1h", ar: "أقل من ساعة" },
+  "bidspan.hours": { en: "{n}h", ar: "{n} ساعة" },
+  "bidspan.days": { en: "{n}d", ar: "{n} يوم" },
 } as const satisfies Record<string, Record<Locale, string>>;
 
 export type StringKey = keyof typeof STRINGS;
@@ -342,6 +363,13 @@ export function tRelative(locale: Locale, iso: string): string {
   if (day < 30) return t(locale, "rel.days", { n: day });
   const mo = Math.floor(day / 30);
   return t(locale, "rel.months", { n: mo });
+}
+
+/** Compact, locale-aware duration for bid-staleness ("10h", "3d", "under 1h"). */
+export function fmtBidSpan(locale: Locale, hours: number): string {
+  if (hours < 1) return t(locale, "bidspan.lt1h");
+  if (hours < 48) return t(locale, "bidspan.hours", { n: Math.round(hours) });
+  return t(locale, "bidspan.days", { n: Math.round(hours / 24) });
 }
 
 /** Per-locale paths from the index page. */

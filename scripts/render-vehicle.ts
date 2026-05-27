@@ -31,6 +31,8 @@ import type {
   SylndrFeature,
 } from "./types.ts";
 import type { Analysis, AnalysisBullet, SummaryParts } from "./analyze.ts";
+import { bidTrend, type BidHistory } from "./bid-history.ts";
+import { renderBidHistoryBlock } from "./render-bids.ts";
 import {
   t,
   tRelative,
@@ -536,9 +538,11 @@ export function renderVehiclePage(args: {
   snapshot: Snapshot;
   analysis: Analysis | null;
   aiMarkdown: string | null;
+  bidHistory: BidHistory | null;
   locale: Locale;
 }): string {
-  const { snapshot: snap, analysis, aiMarkdown, locale } = args;
+  const { snapshot: snap, analysis, aiMarkdown, bidHistory, locale } = args;
+  const trend = bidTrend(bidHistory);
   const v = snap.vehicle;
   const names = localizedDisplayName(snap, locale);
   const year = v.carYear?.name ?? "";
@@ -643,12 +647,17 @@ export function renderVehiclePage(args: {
           ? t(locale, "filter.status.sold")
           : (auction?.status ?? "").toLowerCase().replace("_", " ");
 
+  // Snapshots are frozen at first-seen; the bid-history series is the only
+  // up-to-date source, so prefer its latest point for the live tally.
+  const liveBids = trend?.current ?? auction?.bids ?? 0;
+  const liveBidders = trend?.currentBidders ?? auction?.bidders ?? 0;
+
   const auctionTiles = auction
     ? `<div class="v-auction">
         <div class="v-auc-tile"><span class="v-auc-key">${escapeHtml(t(locale, "detail.auction.status"))}</span><span class="v-auc-val ${auction.isLive ? "hot" : ""}">${escapeHtml(statusLabel)}</span></div>
         <div class="v-auc-tile"><span class="v-auc-key">${escapeHtml(t(locale, "detail.auction.type"))}</span><span class="v-auc-val">${escapeHtml(fmtAuctionTypeLabel(auction.type))}</span></div>
-        <div class="v-auc-tile"><span class="v-auc-key">${escapeHtml(t(locale, "detail.auction.bids"))}</span><span class="v-auc-val ${auction.bids > 0 ? "accent" : ""}">${fmt(auction.bids)}</span></div>
-        <div class="v-auc-tile"><span class="v-auc-key">${escapeHtml(t(locale, "detail.auction.bidders"))}</span><span class="v-auc-val">${fmt(auction.bidders)}</span></div>
+        <div class="v-auc-tile"><span class="v-auc-key">${escapeHtml(t(locale, "detail.auction.bids"))}</span><span class="v-auc-val ${liveBids > 0 ? "accent" : ""}">${fmt(liveBids)}</span></div>
+        <div class="v-auc-tile"><span class="v-auc-key">${escapeHtml(t(locale, "detail.auction.bidders"))}</span><span class="v-auc-val">${fmt(liveBidders)}</span></div>
         ${auction.startsAt ? `<div class="v-auc-tile"><span class="v-auc-key">${escapeHtml(t(locale, "detail.auction.starts"))}</span><span class="v-auc-val" style="font-size:13px">${escapeHtml(fmtAbsolute(auction.startsAt))}</span></div>` : ""}
         ${auction.endsAt ? `<div class="v-auc-tile"><span class="v-auc-key">${escapeHtml(t(locale, "detail.auction.ends"))}</span><span class="v-auc-val" style="font-size:13px">${escapeHtml(fmtAbsolute(auction.endsAt))}</span></div>` : ""}
       </div>`
@@ -743,6 +752,12 @@ export function renderVehiclePage(args: {
         <span class="v-section-sub">${escapeHtml(t(locale, "detail.section.auction.sub"))}</span>
       </div>
       ${auctionTiles}
+      ${
+        auction
+          ? `<div class="bidhist-cap">${escapeHtml(t(locale, "bidhist.section"))}<span class="bidhist-cap-sub">${escapeHtml(t(locale, "bidhist.section.sub"))}</span></div>
+      ${renderBidHistoryBlock(trend, locale)}`
+          : ""
+      }
     </section>
 
     <section class="v-section">

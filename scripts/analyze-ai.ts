@@ -185,6 +185,7 @@ if (import.meta.main) {
     for (const f of files) {
       if (!f.endsWith(".json")) continue;
       if (f.endsWith(".analysis.json")) continue;
+      if (f.endsWith(".bids.json")) continue;
       const id = f.replace(/\.json$/, "");
       if (await analysisExists(id)) continue;
       ids.push(id);

@@ -3,6 +3,7 @@ import { mkdir, readFile, writeFile } from "node:fs/promises";
 import { join } from "node:path";
 import { fetchAllMatching, FETCH_SCOPE } from "./fetch.ts";
 import { diffAndPersist } from "./diff.ts";
+import { recordBidHistory } from "./bid-history.ts";
 import { writeAllDocs } from "./render.ts";
 import { analyzeAll } from "./analyze.ts";
 import { analyzeAiForItems } from "./analyze-ai.ts";
@@ -59,6 +60,9 @@ async function main(): Promise<void> {
   console.log(
     `[poll] ${diff.seedRun ? "SEED run" : "steady-state run"}; new=${diff.newItems.length}; totalSeen=${diff.totalSeen}`,
   );
+
+  const bidChanges = await recordBidHistory(items, new Date().toISOString());
+  console.log(`[poll] bid history: ${bidChanges} vehicles gained a new bid datapoint`);
 
   if (diff.seedRun) {
     await Promise.allSettled([

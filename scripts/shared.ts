@@ -47,6 +47,47 @@ export function daysSince(iso: string): number {
   return Math.max(0, Math.floor((Date.now() - t) / 86_400_000));
 }
 
+/**
+ * Inline-SVG sparkline from a series of values. No deps, no script — just a
+ * filled area + stroked line + a dot on the latest point, sized to fit a
+ * flex/grid cell via preserveAspectRatio="none". Classes (spark-area /
+ * spark-line / spark-dot) are styled in styles.ts. A flat or single-point
+ * series renders as a centered horizontal line so "no movement" still reads.
+ */
+export function sparklineSvg(
+  values: number[],
+  opts?: { w?: number; h?: number; cls?: string },
+): string {
+  const w = opts?.w ?? 120;
+  const h = opts?.h ?? 30;
+  const cls = opts?.cls ?? "spark";
+  if (values.length === 0) return "";
+
+  const pad = 2;
+  const innerW = w - pad * 2;
+  const innerH = h - pad * 2;
+  const max = Math.max(...values);
+  const min = Math.min(...values);
+  const flat = max === min;
+  const range = flat ? 1 : max - min;
+  const n = values.length;
+
+  const xAt = (i: number) => (n === 1 ? pad + innerW / 2 : pad + (i / (n - 1)) * innerW);
+  const yAt = (v: number) => (flat ? h / 2 : pad + innerH - ((v - min) / range) * innerH);
+
+  // For a single point, draw a flat line spanning the full width.
+  const xs = n === 1 ? [pad, w - pad] : values.map((_, i) => xAt(i));
+  const ys = n === 1 ? [yAt(values[0]), yAt(values[0])] : values.map((v) => yAt(v));
+
+  const line = xs.map((x, i) => `${i === 0 ? "M" : "L"}${x.toFixed(1)},${ys[i].toFixed(1)}`).join(" ");
+  const baseline = (h - pad).toFixed(1);
+  const area = `${line} L${xs[xs.length - 1].toFixed(1)},${baseline} L${xs[0].toFixed(1)},${baseline} Z`;
+  const dotX = xs[xs.length - 1].toFixed(1);
+  const dotY = ys[ys.length - 1].toFixed(1);
+
+  return `<svg class="${cls}" viewBox="0 0 ${w} ${h}" preserveAspectRatio="none" role="img" aria-hidden="true"><path class="spark-area" d="${area}" /><path class="spark-line" d="${line}" fill="none" /><circle class="spark-dot" cx="${dotX}" cy="${dotY}" r="2.4" /></svg>`;
+}
+
 export function escapeHtml(s: string): string {
   return s
     .replace(/&/g, "&amp;")

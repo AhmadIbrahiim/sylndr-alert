@@ -286,6 +286,7 @@ async function loadAllSnapshots(): Promise<Snapshot[]> {
   for (const f of files) {
     if (!f.endsWith(".json")) continue;
     if (f.endsWith(".analysis.json")) continue;
+    if (f.endsWith(".bids.json")) continue;
     const raw = await Bun.file(join(SNAPSHOT_DIR, f)).text();
     snaps.push(JSON.parse(raw) as Snapshot);
   }
