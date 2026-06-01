@@ -1,16 +1,16 @@
 {
   "vehicleId": "53ab62d1-950b-45bc-bf51-f1cb44cc7827",
-  "computedAt": "2026-06-01T13:41:25.097Z",
+  "computedAt": "2026-06-01T16:21:02.900Z",
   "cohort": {
-    "sameModelCount": 14,
-    "sameYearCount": 2,
+    "sameModelCount": 15,
+    "sameYearCount": 3,
     "refCohort": "model",
-    "refSize": 14
+    "refSize": 15
   },
-  "pricePercentile": 57,
+  "pricePercentile": 53,
   "pricePerKm": 7.859894921190893,
-  "pricePerKmPercentile": 64,
-  "kmPercentile": 36,
+  "pricePerKmPercentile": 60,
+  "kmPercentile": 33,
   "daysListed": 30,
   "marginPct": 20.499108734402853,
   "marginTier": "mid",
@@ -22,8 +22,8 @@
       "pipKey": "bullet.pip.mid",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 43,
-        "n": 14,
+        "pct": 47,
+        "n": 15,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -32,16 +32,16 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 36,
+        "pct": 40,
         "ppkm": 8
       }
     },
     {
-      "tone": "mid",
-      "pipKey": "bullet.pip.km",
+      "tone": "good",
+      "pipKey": "bullet.pip.lowKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 64
+        "pct": 67
       }
     },
     {
@@ -77,7 +77,7 @@
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": null,
     "args": {
-      "refSize": 14,
+      "refSize": 15,
       "year": "2022",
       "title": "Peugeot 508"
     }

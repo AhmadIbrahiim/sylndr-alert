@@ -1,17 +1,17 @@
 {
   "vehicleId": "9727bbe5-248e-4974-a6c7-42395e3f0220",
-  "computedAt": "2026-06-01T13:41:24.813Z",
+  "computedAt": "2026-06-01T16:21:02.604Z",
   "cohort": {
-    "sameModelCount": 20,
-    "sameYearCount": 1,
+    "sameModelCount": 21,
+    "sameYearCount": 2,
     "refCohort": "model",
-    "refSize": 20
+    "refSize": 21
   },
-  "pricePercentile": 80,
+  "pricePercentile": 76,
   "pricePerKm": 8.000476923076922,
-  "pricePerKmPercentile": 90,
+  "pricePerKmPercentile": 86,
   "kmPercentile": 10,
-  "daysListed": 60,
+  "daysListed": 61,
   "marginPct": 17.889510433031877,
   "marginTier": "mid",
   "auctionHeat": "hot",
@@ -22,8 +22,8 @@
       "pipKey": "bullet.pip.high",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 20,
-        "n": 20,
+        "pct": 24,
+        "n": 21,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.pricey",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 10,
+        "pct": 14,
         "ppkm": 8
       }
     },
@@ -61,11 +61,11 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 60
+        "n": 61
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 60
+        "n": 61
       }
     }
   ],
@@ -77,7 +77,7 @@
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": null,
     "args": {
-      "refSize": 20,
+      "refSize": 21,
       "year": "2020",
       "title": "Renault Logan"
     }

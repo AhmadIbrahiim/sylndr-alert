@@ -1,17 +1,17 @@
 {
   "vehicleId": "8582561c-3f29-4ea6-8f0f-4fe8159dfaa7",
-  "computedAt": "2026-06-01T13:41:24.777Z",
+  "computedAt": "2026-06-01T16:21:02.566Z",
   "cohort": {
-    "sameModelCount": 20,
+    "sameModelCount": 21,
     "sameYearCount": 3,
     "refCohort": "model",
-    "refSize": 20
+    "refSize": 21
   },
-  "pricePercentile": 25,
+  "pricePercentile": 24,
   "pricePerKm": 2.7750887383026783,
-  "pricePerKmPercentile": 35,
-  "kmPercentile": 60,
-  "daysListed": 14,
+  "pricePerKmPercentile": 33,
+  "kmPercentile": 62,
+  "daysListed": 15,
   "marginPct": 20.232558139534884,
   "marginTier": "mid",
   "auctionHeat": "hot",
@@ -22,17 +22,17 @@
       "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 75,
-        "n": 20,
+        "pct": 76,
+        "n": 21,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
     {
-      "tone": "mid",
+      "tone": "good",
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 65,
+        "pct": 67,
         "ppkm": 3
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 40
+        "pct": 38
       }
     },
     {
@@ -61,11 +61,11 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 14
+        "n": 15
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 14
+        "n": 15
       }
     }
   ],
@@ -77,7 +77,7 @@
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": null,
     "args": {
-      "refSize": 20,
+      "refSize": 21,
       "year": "2016",
       "title": "Renault Logan"
     }

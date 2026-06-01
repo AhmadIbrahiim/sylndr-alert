@@ -1,22 +1,49 @@
 {
   "vehicleId": "0a55bbe4-0b89-4e5b-9b56-c75d20389286",
-  "computedAt": "2026-06-01T13:41:24.637Z",
+  "computedAt": "2026-06-01T16:21:02.433Z",
   "cohort": {
-    "sameModelCount": 2,
+    "sameModelCount": 3,
     "sameYearCount": 1,
     "refCohort": "model",
-    "refSize": 2
+    "refSize": 3
   },
-  "pricePercentile": null,
+  "pricePercentile": 67,
   "pricePerKm": 4.760746382330541,
-  "pricePerKmPercentile": null,
-  "kmPercentile": null,
-  "daysListed": 68,
+  "pricePerKmPercentile": 67,
+  "kmPercentile": 0,
+  "daysListed": 69,
   "marginPct": 20.49094044659455,
   "marginTier": "mid",
   "auctionHeat": "hot",
   "dealTag": "fair",
   "bullets": [
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.mid",
+      "textKey": "bullet.priceCheaper",
+      "textArgs": {
+        "pct": 33,
+        "n": 3,
+        "kind": "detail.cohort.refSize.kind.model"
+      }
+    },
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.value",
+      "textKey": "bullet.ppkmBetter",
+      "textArgs": {
+        "pct": 33,
+        "ppkm": 5
+      }
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.lowKm",
+      "textKey": "bullet.kmLower",
+      "textArgs": {
+        "pct": 100
+      }
+    },
     {
       "tone": "mid",
       "pipKey": "bullet.pip.marginPct",
@@ -34,11 +61,11 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 68
+        "n": 69
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 68
+        "n": 69
       }
     }
   ],
@@ -50,7 +77,7 @@
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": null,
     "args": {
-      "refSize": 2,
+      "refSize": 3,
       "year": "2014",
       "title": "Toyota Yaris"
     }
