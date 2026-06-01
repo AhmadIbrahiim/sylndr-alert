@@ -1,22 +1,49 @@
 {
   "vehicleId": "dab57269-b647-4c63-be8f-fae052ad222c",
-  "computedAt": "2026-06-01T12:13:38.069Z",
+  "computedAt": "2026-06-01T13:41:24.940Z",
   "cohort": {
-    "sameModelCount": 2,
-    "sameYearCount": 1,
+    "sameModelCount": 3,
+    "sameYearCount": 2,
     "refCohort": "model",
-    "refSize": 2
+    "refSize": 3
   },
-  "pricePercentile": null,
+  "pricePercentile": 33,
   "pricePerKm": 58.94060995184591,
-  "pricePerKmPercentile": null,
-  "kmPercentile": null,
+  "pricePerKmPercentile": 67,
+  "kmPercentile": 0,
   "daysListed": 151,
   "marginPct": 12.47276688453159,
   "marginTier": "low",
   "auctionHeat": "hot",
   "dealTag": "fair",
   "bullets": [
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.deal",
+      "textKey": "bullet.priceCheaper",
+      "textArgs": {
+        "pct": 67,
+        "n": 3,
+        "kind": "detail.cohort.refSize.kind.model"
+      }
+    },
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.value",
+      "textKey": "bullet.ppkmBetter",
+      "textArgs": {
+        "pct": 33,
+        "ppkm": 59
+      }
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.lowKm",
+      "textKey": "bullet.kmLower",
+      "textArgs": {
+        "pct": 100
+      }
+    },
     {
       "tone": "good",
       "pipKey": "bullet.pip.marginPct",
@@ -50,7 +77,7 @@
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": "summary.suffix.marginLow",
     "args": {
-      "refSize": 2,
+      "refSize": 3,
       "year": "2024",
       "title": "Seat Tarraco"
     }

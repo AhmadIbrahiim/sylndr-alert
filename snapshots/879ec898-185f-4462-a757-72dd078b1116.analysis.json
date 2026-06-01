@@ -1,16 +1,16 @@
 {
   "vehicleId": "879ec898-185f-4462-a757-72dd078b1116",
-  "computedAt": "2026-06-01T12:13:38.045Z",
+  "computedAt": "2026-06-01T13:41:24.915Z",
   "cohort": {
-    "sameModelCount": 5,
-    "sameYearCount": 2,
+    "sameModelCount": 6,
+    "sameYearCount": 3,
     "refCohort": "model",
-    "refSize": 5
+    "refSize": 6
   },
-  "pricePercentile": 20,
+  "pricePercentile": 33,
   "pricePerKm": 51.42857142857143,
-  "pricePerKmPercentile": 40,
-  "kmPercentile": 40,
+  "pricePerKmPercentile": 50,
+  "kmPercentile": 33,
   "daysListed": 18,
   "marginPct": 9.88888888888889,
   "marginTier": "low",
@@ -22,8 +22,8 @@
       "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 80,
-        "n": 5,
+        "pct": 67,
+        "n": 6,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -32,16 +32,16 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 60,
+        "pct": 50,
         "ppkm": 51
       }
     },
     {
-      "tone": "mid",
-      "pipKey": "bullet.pip.km",
+      "tone": "good",
+      "pipKey": "bullet.pip.lowKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 60
+        "pct": 67
       }
     },
     {
@@ -77,7 +77,7 @@
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": "summary.suffix.marginLow",
     "args": {
-      "refSize": 5,
+      "refSize": 6,
       "year": "2025",
       "title": "BAIC U5 Plus"
     }

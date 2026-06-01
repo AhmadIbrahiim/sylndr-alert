@@ -1,17 +1,17 @@
 {
   "vehicleId": "fde81ac2-42a5-4d81-b06b-5c8751e152be",
-  "computedAt": "2026-06-01T12:13:38.142Z",
+  "computedAt": "2026-06-01T13:41:25.013Z",
   "cohort": {
-    "sameModelCount": 9,
+    "sameModelCount": 10,
     "sameYearCount": 1,
     "refCohort": "model",
-    "refSize": 9
+    "refSize": 10
   },
-  "pricePercentile": 67,
+  "pricePercentile": 70,
   "pricePerKm": 22.081613938560295,
-  "pricePerKmPercentile": 67,
-  "kmPercentile": 22,
-  "daysListed": 42,
+  "pricePerKmPercentile": 70,
+  "kmPercentile": 20,
+  "daysListed": 43,
   "marginPct": 27.242524916943523,
   "marginTier": "mid",
   "auctionHeat": "hot",
@@ -22,8 +22,8 @@
       "pipKey": "bullet.pip.mid",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 33,
-        "n": 9,
+        "pct": 30,
+        "n": 10,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 33,
+        "pct": 30,
         "ppkm": 22
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.lowKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 78
+        "pct": 80
       }
     },
     {
@@ -61,11 +61,11 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 42
+        "n": 43
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 42
+        "n": 43
       }
     }
   ],
@@ -77,7 +77,7 @@
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": null,
     "args": {
-      "refSize": 9,
+      "refSize": 10,
       "year": "2019",
       "title": "Jeep Grand Cherokee"
     }
