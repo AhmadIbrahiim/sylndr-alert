@@ -1,16 +1,16 @@
 {
   "vehicleId": "94f92e4f-94b5-4eb2-832f-efd3f3dd6086",
-  "computedAt": "2026-06-01T09:21:52.382Z",
+  "computedAt": "2026-06-01T10:16:15.022Z",
   "cohort": {
-    "sameModelCount": 16,
-    "sameYearCount": 3,
-    "refCohort": "model",
-    "refSize": 16
+    "sameModelCount": 17,
+    "sameYearCount": 4,
+    "refCohort": "model+year",
+    "refSize": 4
   },
-  "pricePercentile": 88,
+  "pricePercentile": 50,
   "pricePerKm": 7.2225869993434015,
-  "pricePerKmPercentile": 38,
-  "kmPercentile": 69,
+  "pricePerKmPercentile": 25,
+  "kmPercentile": 75,
   "daysListed": 12,
   "marginPct": 34.81818181818182,
   "marginTier": "high",
@@ -18,30 +18,30 @@
   "dealTag": "fair",
   "bullets": [
     {
-      "tone": "hot",
-      "pipKey": "bullet.pip.high",
+      "tone": "mid",
+      "pipKey": "bullet.pip.mid",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 12,
-        "n": 16,
-        "kind": "detail.cohort.refSize.kind.model"
+        "pct": 50,
+        "n": 4,
+        "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
-      "tone": "mid",
+      "tone": "good",
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 62,
+        "pct": 75,
         "ppkm": 7
       }
     },
     {
-      "tone": "mid",
-      "pipKey": "bullet.pip.km",
+      "tone": "hot",
+      "pipKey": "bullet.pip.highKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 31
+        "pct": 25
       }
     },
     {
@@ -61,12 +61,12 @@
   "summary": {
     "verdictKey": "summary.verdict.fair",
     "cohortLineKey": "summary.cohortLine.yes",
-    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": null,
     "heatSuffixKey": null,
     "marginSuffixKey": "summary.suffix.marginHigh",
     "args": {
-      "refSize": 16,
+      "refSize": 4,
       "year": "2021",
       "title": "Renault Kadjar"
     }
