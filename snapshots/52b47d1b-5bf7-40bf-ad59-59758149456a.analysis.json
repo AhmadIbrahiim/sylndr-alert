@@ -1,15 +1,15 @@
 {
   "vehicleId": "52b47d1b-5bf7-40bf-ad59-59758149456a",
-  "computedAt": "2026-06-01T10:31:33.148Z",
+  "computedAt": "2026-06-01T12:13:37.635Z",
   "cohort": {
-    "sameModelCount": 4,
-    "sameYearCount": 2,
+    "sameModelCount": 5,
+    "sameYearCount": 3,
     "refCohort": "model",
-    "refSize": 4
+    "refSize": 5
   },
-  "pricePercentile": 50,
+  "pricePercentile": 60,
   "pricePerKm": 14.17651146629604,
-  "pricePerKmPercentile": 75,
+  "pricePerKmPercentile": 80,
   "kmPercentile": 0,
   "daysListed": 165,
   "marginPct": 10.457516339869281,
@@ -22,8 +22,8 @@
       "pipKey": "bullet.pip.mid",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 50,
-        "n": 4,
+        "pct": 40,
+        "n": 5,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.pricey",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 25,
+        "pct": 20,
         "ppkm": 14
       }
     },
@@ -77,7 +77,7 @@
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": "summary.suffix.marginLow",
     "args": {
-      "refSize": 4,
+      "refSize": 5,
       "year": "2022",
       "title": "Suzuki Dzire"
     }

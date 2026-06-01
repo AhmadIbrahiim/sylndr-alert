@@ -1,30 +1,30 @@
 {
   "vehicleId": "1ec9234e-4c9b-47a7-a1a7-738d93017669",
-  "computedAt": "2026-06-01T10:31:33.643Z",
+  "computedAt": "2026-06-01T12:13:38.113Z",
   "cohort": {
-    "sameModelCount": 28,
-    "sameYearCount": 3,
-    "refCohort": "model",
-    "refSize": 28
+    "sameModelCount": 29,
+    "sameYearCount": 4,
+    "refCohort": "model+year",
+    "refSize": 4
   },
-  "pricePercentile": 75,
+  "pricePercentile": 0,
   "pricePerKm": 5.7655349135169764,
-  "pricePerKmPercentile": 61,
-  "kmPercentile": 46,
-  "daysListed": 21,
+  "pricePerKmPercentile": 50,
+  "kmPercentile": 25,
+  "daysListed": 22,
   "marginPct": 28.333333333333332,
   "marginTier": "mid",
   "auctionHeat": "hot",
-  "dealTag": "fair",
+  "dealTag": "good",
   "bullets": [
     {
-      "tone": "hot",
-      "pipKey": "bullet.pip.high",
+      "tone": "good",
+      "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 25,
-        "n": 28,
-        "kind": "detail.cohort.refSize.kind.model"
+        "pct": 100,
+        "n": 4,
+        "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
@@ -32,16 +32,16 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 39,
+        "pct": 50,
         "ppkm": 6
       }
     },
     {
-      "tone": "mid",
-      "pipKey": "bullet.pip.km",
+      "tone": "good",
+      "pipKey": "bullet.pip.lowKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 54
+        "pct": 75
       }
     },
     {
@@ -61,23 +61,23 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 21
+        "n": 22
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 21
+        "n": 22
       }
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.fair",
+    "verdictKey": "summary.verdict.good",
     "cohortLineKey": "summary.cohortLine.yes",
-    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": null,
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": null,
     "args": {
-      "refSize": 28,
+      "refSize": 4,
       "year": "2021",
       "title": "Nissan Qashqai"
     }

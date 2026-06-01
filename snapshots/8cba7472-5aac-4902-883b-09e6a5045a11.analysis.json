@@ -1,0 +1,79 @@
+{
+  "vehicleId": "8cba7472-5aac-4902-883b-09e6a5045a11",
+  "computedAt": "2026-06-01T12:13:37.727Z",
+  "cohort": {
+    "sameModelCount": 5,
+    "sameYearCount": 3,
+    "refCohort": "model",
+    "refSize": 5
+  },
+  "pricePercentile": 40,
+  "pricePerKm": 11.213235294117647,
+  "pricePerKmPercentile": 60,
+  "kmPercentile": 20,
+  "daysListed": 0,
+  "marginPct": 10.655737704918032,
+  "marginTier": "low",
+  "auctionHeat": "cold",
+  "dealTag": "fair",
+  "bullets": [
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.mid",
+      "textKey": "bullet.priceCheaper",
+      "textArgs": {
+        "pct": 60,
+        "n": 5,
+        "kind": "detail.cohort.refSize.kind.model"
+      }
+    },
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.value",
+      "textKey": "bullet.ppkmBetter",
+      "textArgs": {
+        "pct": 40,
+        "ppkm": 11
+      }
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.lowKm",
+      "textKey": "bullet.kmLower",
+      "textArgs": {
+        "pct": 80
+      }
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.marginPct",
+      "pipArgs": {
+        "pct": "11"
+      },
+      "textKey": "bullet.marginLow"
+    },
+    {
+      "tone": "neutral",
+      "pipKey": "bullet.pip.cold",
+      "textKey": "bullet.auctionCold"
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.fresh",
+      "textKey": "bullet.listedFresh"
+    }
+  ],
+  "summary": {
+    "verdictKey": "summary.verdict.fair",
+    "cohortLineKey": "summary.cohortLine.yes",
+    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "ageSuffixKey": "summary.suffix.ageFresh",
+    "heatSuffixKey": null,
+    "marginSuffixKey": "summary.suffix.marginLow",
+    "args": {
+      "refSize": 5,
+      "year": "2022",
+      "title": "Suzuki Dzire"
+    }
+  }
+}
