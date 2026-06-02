@@ -1,17 +1,17 @@
 {
   "vehicleId": "b94e5d1a-266d-4a3d-b1dd-c6182d92c8ba",
-  "computedAt": "2026-06-02T09:04:51.684Z",
+  "computedAt": "2026-06-02T12:51:43.840Z",
   "cohort": {
-    "sameModelCount": 24,
-    "sameYearCount": 4,
+    "sameModelCount": 25,
+    "sameYearCount": 5,
     "refCohort": "model+year",
-    "refSize": 4
+    "refSize": 5
   },
-  "pricePercentile": 50,
+  "pricePercentile": 60,
   "pricePerKm": 21.669341894060995,
-  "pricePerKmPercentile": 75,
+  "pricePerKmPercentile": 80,
   "kmPercentile": 0,
-  "daysListed": 10,
+  "daysListed": 11,
   "marginPct": 15.925925925925927,
   "marginTier": "mid",
   "auctionHeat": "cold",
@@ -22,8 +22,8 @@
       "pipKey": "bullet.pip.mid",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 50,
-        "n": 4,
+        "pct": 40,
+        "n": 5,
         "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.pricey",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 25,
+        "pct": 20,
         "ppkm": 22
       }
     },
@@ -66,7 +66,7 @@
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 4,
+      "refSize": 5,
       "year": "2022",
       "title": "Peugeot 3008"
     }
