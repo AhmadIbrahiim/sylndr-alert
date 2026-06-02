@@ -1,17 +1,17 @@
 {
   "vehicleId": "dd29e412-708a-4134-b3ea-670cb37de9f8",
-  "computedAt": "2026-06-02T12:51:43.929Z",
+  "computedAt": "2026-06-02T17:20:17.076Z",
   "cohort": {
-    "sameModelCount": 30,
+    "sameModelCount": 31,
     "sameYearCount": 1,
     "refCohort": "model",
-    "refSize": 30
+    "refSize": 31
   },
   "pricePercentile": 10,
   "pricePerKm": 2.254428341384863,
-  "pricePerKmPercentile": 17,
-  "kmPercentile": 70,
-  "daysListed": 64,
+  "pricePerKmPercentile": 16,
+  "kmPercentile": 71,
+  "daysListed": 65,
   "marginPct": 15.476190476190476,
   "marginTier": "mid",
   "auctionHeat": "hot",
@@ -23,7 +23,7 @@
       "textKey": "bullet.priceCheaper",
       "textArgs": {
         "pct": 90,
-        "n": 30,
+        "n": 31,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -32,16 +32,16 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 83,
+        "pct": 84,
         "ppkm": 2
       }
     },
     {
-      "tone": "mid",
-      "pipKey": "bullet.pip.km",
+      "tone": "hot",
+      "pipKey": "bullet.pip.highKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 30
+        "pct": 29
       }
     },
     {
@@ -61,11 +61,11 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 64
+        "n": 65
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 64
+        "n": 65
       }
     }
   ],
@@ -77,7 +77,7 @@
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": null,
     "args": {
-      "refSize": 30,
+      "refSize": 31,
       "year": "2008",
       "title": "Renault Megane"
     }

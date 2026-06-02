@@ -1,29 +1,29 @@
 {
   "vehicleId": "677825fb-c4ef-41cf-a380-e9ec2357a70e",
-  "computedAt": "2026-06-02T12:51:43.878Z",
+  "computedAt": "2026-06-02T17:20:17.023Z",
   "cohort": {
-    "sameModelCount": 14,
+    "sameModelCount": 15,
     "sameYearCount": 1,
     "refCohort": "model",
-    "refSize": 14
+    "refSize": 15
   },
-  "pricePercentile": 93,
+  "pricePercentile": 87,
   "pricePerKm": 12.283236994219653,
-  "pricePerKmPercentile": 79,
-  "kmPercentile": 14,
-  "daysListed": 65,
+  "pricePerKmPercentile": 73,
+  "kmPercentile": 20,
+  "daysListed": 66,
   "marginPct": 22.470588235294116,
   "marginTier": "mid",
   "auctionHeat": "hot",
-  "dealTag": "high",
+  "dealTag": "fair",
   "bullets": [
     {
       "tone": "hot",
       "pipKey": "bullet.pip.high",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 7,
-        "n": 14,
+        "pct": 13,
+        "n": 15,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.pricey",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 21,
+        "pct": 27,
         "ppkm": 12
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.lowKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 86
+        "pct": 80
       }
     },
     {
@@ -61,23 +61,23 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 65
+        "n": 66
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 65
+        "n": 66
       }
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.high",
+    "verdictKey": "summary.verdict.fair",
     "cohortLineKey": "summary.cohortLine.yes",
     "cohortKindKey": "detail.cohort.refSize.kind.model",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": null,
     "args": {
-      "refSize": 14,
+      "refSize": 15,
       "year": "2020",
       "title": "Renault Duster"
     }
