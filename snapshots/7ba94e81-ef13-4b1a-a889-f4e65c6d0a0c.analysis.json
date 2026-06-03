@@ -1,30 +1,30 @@
 {
   "vehicleId": "7ba94e81-ef13-4b1a-a889-f4e65c6d0a0c",
-  "computedAt": "2026-06-03T13:44:02.147Z",
+  "computedAt": "2026-06-03T18:33:36.388Z",
   "cohort": {
-    "sameModelCount": 10,
-    "sameYearCount": 3,
-    "refCohort": "model",
-    "refSize": 10
+    "sameModelCount": 11,
+    "sameYearCount": 4,
+    "refCohort": "model+year",
+    "refSize": 4
   },
-  "pricePercentile": 30,
+  "pricePercentile": 50,
   "pricePerKm": 6.869934388267079,
-  "pricePerKmPercentile": 30,
-  "kmPercentile": 70,
+  "pricePerKmPercentile": 25,
+  "kmPercentile": 50,
   "daysListed": 76,
   "marginPct": 31.235955056179776,
   "marginTier": "high",
   "auctionHeat": "hot",
-  "dealTag": "good",
+  "dealTag": "fair",
   "bullets": [
     {
-      "tone": "good",
-      "pipKey": "bullet.pip.deal",
+      "tone": "mid",
+      "pipKey": "bullet.pip.mid",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 70,
-        "n": 10,
-        "kind": "detail.cohort.refSize.kind.model"
+        "pct": 50,
+        "n": 4,
+        "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 70,
+        "pct": 75,
         "ppkm": 7
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 30
+        "pct": 50
       }
     },
     {
@@ -70,14 +70,14 @@
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.good",
+    "verdictKey": "summary.verdict.fair",
     "cohortLineKey": "summary.cohortLine.yes",
-    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": "summary.suffix.marginHigh",
     "args": {
-      "refSize": 10,
+      "refSize": 4,
       "year": "2019",
       "title": "MG RX5"
     }
