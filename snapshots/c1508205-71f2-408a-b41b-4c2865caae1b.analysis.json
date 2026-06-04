@@ -1,0 +1,79 @@
+{
+  "vehicleId": "c1508205-71f2-408a-b41b-4c2865caae1b",
+  "computedAt": "2026-06-04T11:40:54.489Z",
+  "cohort": {
+    "sameModelCount": 3,
+    "sameYearCount": 1,
+    "refCohort": "model",
+    "refSize": 3
+  },
+  "pricePercentile": 0,
+  "pricePerKm": 8.611007113440659,
+  "pricePerKmPercentile": 0,
+  "kmPercentile": 67,
+  "daysListed": 0,
+  "marginPct": 19.652173913043477,
+  "marginTier": "mid",
+  "auctionHeat": "warm",
+  "dealTag": "good",
+  "bullets": [
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.deal",
+      "textKey": "bullet.priceCheaper",
+      "textArgs": {
+        "pct": 100,
+        "n": 3,
+        "kind": "detail.cohort.refSize.kind.model"
+      }
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.value",
+      "textKey": "bullet.ppkmBetter",
+      "textArgs": {
+        "pct": 100,
+        "ppkm": 9
+      }
+    },
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.km",
+      "textKey": "bullet.kmLower",
+      "textArgs": {
+        "pct": 33
+      }
+    },
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.marginPct",
+      "pipArgs": {
+        "pct": "20"
+      },
+      "textKey": "bullet.marginMid"
+    },
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.warm",
+      "textKey": "bullet.auctionWarm"
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.fresh",
+      "textKey": "bullet.listedFresh"
+    }
+  ],
+  "summary": {
+    "verdictKey": "summary.verdict.good",
+    "cohortLineKey": "summary.cohortLine.yes",
+    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "ageSuffixKey": "summary.suffix.ageFresh",
+    "heatSuffixKey": null,
+    "marginSuffixKey": null,
+    "args": {
+      "refSize": 3,
+      "year": "2021",
+      "title": "Opel Grandland"
+    }
+  }
+}
