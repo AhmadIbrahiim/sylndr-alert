@@ -1,29 +1,29 @@
 {
   "vehicleId": "08339d35-28c6-4c20-8d92-883ef3e5d705",
-  "computedAt": "2026-06-04T11:40:54.139Z",
+  "computedAt": "2026-06-04T14:18:28.053Z",
   "cohort": {
-    "sameModelCount": 5,
-    "sameYearCount": 1,
+    "sameModelCount": 6,
+    "sameYearCount": 2,
     "refCohort": "model",
-    "refSize": 5
+    "refSize": 6
   },
-  "pricePercentile": 80,
+  "pricePercentile": 67,
   "pricePerKm": 15.639374425022998,
-  "pricePerKmPercentile": 60,
-  "kmPercentile": 20,
-  "daysListed": 28,
+  "pricePerKmPercentile": 67,
+  "kmPercentile": 17,
+  "daysListed": 29,
   "marginPct": 13.647058823529413,
   "marginTier": "low",
   "auctionHeat": "hot",
   "dealTag": "fair",
   "bullets": [
     {
-      "tone": "hot",
-      "pipKey": "bullet.pip.high",
+      "tone": "mid",
+      "pipKey": "bullet.pip.mid",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 20,
-        "n": 5,
+        "pct": 33,
+        "n": 6,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 40,
+        "pct": 33,
         "ppkm": 16
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.lowKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 80
+        "pct": 83
       }
     },
     {
@@ -61,11 +61,11 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 28
+        "n": 29
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 28
+        "n": 29
       }
     }
   ],
@@ -77,7 +77,7 @@
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": "summary.suffix.marginLow",
     "args": {
-      "refSize": 5,
+      "refSize": 6,
       "year": "2022",
       "title": "Opel Cross Land"
     }

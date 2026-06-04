@@ -1,30 +1,30 @@
 {
   "vehicleId": "815251ad-a5e8-4adc-bccd-672d8157a4a8",
-  "computedAt": "2026-06-04T11:40:53.953Z",
+  "computedAt": "2026-06-04T14:18:27.889Z",
   "cohort": {
-    "sameModelCount": 8,
-    "sameYearCount": 3,
-    "refCohort": "model",
-    "refSize": 8
+    "sameModelCount": 9,
+    "sameYearCount": 4,
+    "refCohort": "model+year",
+    "refSize": 4
   },
-  "pricePercentile": 38,
+  "pricePercentile": 0,
   "pricePerKm": 6.114180478821363,
   "pricePerKmPercentile": 25,
-  "kmPercentile": 63,
-  "daysListed": 28,
+  "kmPercentile": 50,
+  "daysListed": 29,
   "marginPct": 23.734939759036145,
   "marginTier": "mid",
   "auctionHeat": "hot",
   "dealTag": "good",
   "bullets": [
     {
-      "tone": "mid",
-      "pipKey": "bullet.pip.mid",
+      "tone": "good",
+      "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 62,
-        "n": 8,
-        "kind": "detail.cohort.refSize.kind.model"
+        "pct": 100,
+        "n": 4,
+        "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 37
+        "pct": 50
       }
     },
     {
@@ -61,23 +61,23 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 28
+        "n": 29
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 28
+        "n": 29
       }
     }
   ],
   "summary": {
     "verdictKey": "summary.verdict.good",
     "cohortLineKey": "summary.cohortLine.yes",
-    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": null,
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": null,
     "args": {
-      "refSize": 8,
+      "refSize": 4,
       "year": "2022",
       "title": "MG 6"
     }

@@ -1,0 +1,52 @@
+{
+  "vehicleId": "cc91702e-ee66-4f84-b6b4-df941c557ef6",
+  "computedAt": "2026-06-04T14:18:28.133Z",
+  "cohort": {
+    "sameModelCount": 2,
+    "sameYearCount": 1,
+    "refCohort": "model",
+    "refSize": 2
+  },
+  "pricePercentile": null,
+  "pricePerKm": 58.98123324396783,
+  "pricePerKmPercentile": null,
+  "kmPercentile": null,
+  "daysListed": 0,
+  "marginPct": 10.09090909090909,
+  "marginTier": "low",
+  "auctionHeat": "cold",
+  "dealTag": "fair",
+  "bullets": [
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.marginPct",
+      "pipArgs": {
+        "pct": "10"
+      },
+      "textKey": "bullet.marginLow"
+    },
+    {
+      "tone": "neutral",
+      "pipKey": "bullet.pip.cold",
+      "textKey": "bullet.auctionCold"
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.fresh",
+      "textKey": "bullet.listedFresh"
+    }
+  ],
+  "summary": {
+    "verdictKey": "summary.verdict.fair",
+    "cohortLineKey": "summary.cohortLine.yes",
+    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "ageSuffixKey": "summary.suffix.ageFresh",
+    "heatSuffixKey": null,
+    "marginSuffixKey": "summary.suffix.marginLow",
+    "args": {
+      "refSize": 2,
+      "year": "2024",
+      "title": "Changan CS35"
+    }
+  }
+}
