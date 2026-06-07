@@ -1,0 +1,79 @@
+{
+  "vehicleId": "81aec2bc-c4d4-4743-b181-ded6066a2a17",
+  "computedAt": "2026-06-07T17:26:02.365Z",
+  "cohort": {
+    "sameModelCount": 3,
+    "sameYearCount": 1,
+    "refCohort": "model",
+    "refSize": 3
+  },
+  "pricePercentile": 67,
+  "pricePerKm": 22.753128555176335,
+  "pricePerKmPercentile": 67,
+  "kmPercentile": 0,
+  "daysListed": 0,
+  "marginPct": 16.8,
+  "marginTier": "mid",
+  "auctionHeat": "cold",
+  "dealTag": "fair",
+  "bullets": [
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.mid",
+      "textKey": "bullet.priceCheaper",
+      "textArgs": {
+        "pct": 33,
+        "n": 3,
+        "kind": "detail.cohort.refSize.kind.model"
+      }
+    },
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.value",
+      "textKey": "bullet.ppkmBetter",
+      "textArgs": {
+        "pct": 33,
+        "ppkm": 23
+      }
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.lowKm",
+      "textKey": "bullet.kmLower",
+      "textArgs": {
+        "pct": 100
+      }
+    },
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.marginPct",
+      "pipArgs": {
+        "pct": "17"
+      },
+      "textKey": "bullet.marginMid"
+    },
+    {
+      "tone": "neutral",
+      "pipKey": "bullet.pip.cold",
+      "textKey": "bullet.auctionCold"
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.fresh",
+      "textKey": "bullet.listedFresh"
+    }
+  ],
+  "summary": {
+    "verdictKey": "summary.verdict.fair",
+    "cohortLineKey": "summary.cohortLine.yes",
+    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "ageSuffixKey": "summary.suffix.ageFresh",
+    "heatSuffixKey": null,
+    "marginSuffixKey": null,
+    "args": {
+      "refSize": 3,
+      "year": "2025",
+      "title": "Nissan Juke"
+    }
+  }
+}
