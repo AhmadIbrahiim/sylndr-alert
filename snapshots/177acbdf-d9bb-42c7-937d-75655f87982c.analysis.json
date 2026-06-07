@@ -1,17 +1,17 @@
 {
   "vehicleId": "177acbdf-d9bb-42c7-937d-75655f87982c",
-  "computedAt": "2026-06-07T08:22:14.718Z",
+  "computedAt": "2026-06-07T10:40:38.534Z",
   "cohort": {
-    "sameModelCount": 4,
+    "sameModelCount": 5,
     "sameYearCount": 1,
     "refCohort": "model",
-    "refSize": 4
+    "refSize": 5
   },
-  "pricePercentile": 75,
+  "pricePercentile": 80,
   "pricePerKm": 33.2067281606077,
-  "pricePerKmPercentile": 25,
-  "kmPercentile": 50,
-  "daysListed": 38,
+  "pricePerKmPercentile": 40,
+  "kmPercentile": 40,
+  "daysListed": 39,
   "marginPct": 27.516339869281047,
   "marginTier": "mid",
   "auctionHeat": "warm",
@@ -22,17 +22,17 @@
       "pipKey": "bullet.pip.high",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 25,
-        "n": 4,
+        "pct": 20,
+        "n": 5,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
     {
-      "tone": "good",
+      "tone": "mid",
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 75,
+        "pct": 60,
         "ppkm": 33
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 50
+        "pct": 60
       }
     },
     {
@@ -61,11 +61,11 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 38
+        "n": 39
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 38
+        "n": 39
       }
     }
   ],
@@ -77,7 +77,7 @@
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 4,
+      "refSize": 5,
       "year": "2020",
       "title": "Toyota Fortuner"
     }

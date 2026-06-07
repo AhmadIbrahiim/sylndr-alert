@@ -1,16 +1,16 @@
 {
   "vehicleId": "93885b5e-ea2a-4d08-a6f2-ba97d3988b57",
-  "computedAt": "2026-06-07T08:22:15.266Z",
+  "computedAt": "2026-06-07T10:40:39.075Z",
   "cohort": {
-    "sameModelCount": 7,
+    "sameModelCount": 8,
     "sameYearCount": 3,
     "refCohort": "model",
-    "refSize": 7
+    "refSize": 8
   },
   "pricePercentile": 0,
   "pricePerKm": 36.08338597599494,
-  "pricePerKmPercentile": 43,
-  "kmPercentile": 29,
+  "pricePerKmPercentile": 38,
+  "kmPercentile": 38,
   "daysListed": 104,
   "marginPct": 26.225490196078432,
   "marginTier": "mid",
@@ -23,7 +23,7 @@
       "textKey": "bullet.priceCheaper",
       "textArgs": {
         "pct": 100,
-        "n": 7,
+        "n": 8,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -32,16 +32,16 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 57,
+        "pct": 62,
         "ppkm": 36
       }
     },
     {
-      "tone": "good",
-      "pipKey": "bullet.pip.lowKm",
+      "tone": "mid",
+      "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 71
+        "pct": 62
       }
     },
     {
@@ -77,7 +77,7 @@
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": null,
     "args": {
-      "refSize": 7,
+      "refSize": 8,
       "year": "2020",
       "title": "Mercedes-Benz GLC 200"
     }
