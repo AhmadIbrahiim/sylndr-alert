@@ -1,38 +1,38 @@
 {
   "vehicleId": "f924aedd-8db1-43d6-bc77-d8aad8939fc1",
-  "computedAt": "2026-06-08T09:21:31.972Z",
+  "computedAt": "2026-06-08T13:50:28.008Z",
   "cohort": {
-    "sameModelCount": 8,
+    "sameModelCount": 9,
     "sameYearCount": 1,
     "refCohort": "model",
-    "refSize": 8
+    "refSize": 9
   },
-  "pricePercentile": 63,
+  "pricePercentile": 56,
   "pricePerKm": 3.858435337945716,
-  "pricePerKmPercentile": 38,
-  "kmPercentile": 25,
-  "daysListed": 16,
+  "pricePerKmPercentile": 33,
+  "kmPercentile": 33,
+  "daysListed": 17,
   "marginPct": 27.448275862068964,
   "marginTier": "mid",
   "auctionHeat": "cold",
-  "dealTag": "fair",
+  "dealTag": "good",
   "bullets": [
     {
       "tone": "mid",
       "pipKey": "bullet.pip.mid",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 37,
-        "n": 8,
+        "pct": 44,
+        "n": 9,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
     {
-      "tone": "mid",
+      "tone": "good",
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 62,
+        "pct": 67,
         "ppkm": 4
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.lowKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 75
+        "pct": 67
       }
     },
     {
@@ -61,23 +61,23 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 16
+        "n": 17
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 16
+        "n": 17
       }
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.fair",
+    "verdictKey": "summary.verdict.good",
     "cohortLineKey": "summary.cohortLine.yes",
     "cohortKindKey": "detail.cohort.refSize.kind.model",
     "ageSuffixKey": null,
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 8,
+      "refSize": 9,
       "year": "2017",
       "title": "Ford Kuga"
     }
