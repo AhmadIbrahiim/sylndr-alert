@@ -1,38 +1,38 @@
 {
   "vehicleId": "1b6254dd-e614-4be1-bbd2-3d5cbd2acc3b",
-  "computedAt": "2026-06-09T14:05:56.645Z",
+  "computedAt": "2026-06-09T16:47:48.481Z",
   "cohort": {
-    "sameModelCount": 3,
-    "sameYearCount": 1,
+    "sameModelCount": 4,
+    "sameYearCount": 2,
     "refCohort": "model",
-    "refSize": 3
+    "refSize": 4
   },
-  "pricePercentile": 33,
+  "pricePercentile": 25,
   "pricePerKm": 1.9204389574759946,
-  "pricePerKmPercentile": 33,
-  "kmPercentile": 67,
+  "pricePerKmPercentile": 50,
+  "kmPercentile": 50,
   "daysListed": 23,
   "marginPct": 38.80952380952381,
   "marginTier": "high",
   "auctionHeat": "warm",
-  "dealTag": "good",
+  "dealTag": "fair",
   "bullets": [
     {
       "tone": "good",
       "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 67,
-        "n": 3,
+        "pct": 75,
+        "n": 4,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
     {
-      "tone": "good",
+      "tone": "mid",
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 67,
+        "pct": 50,
         "ppkm": 2
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 33
+        "pct": 50
       }
     },
     {
@@ -70,14 +70,14 @@
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.good",
+    "verdictKey": "summary.verdict.fair",
     "cohortLineKey": "summary.cohortLine.yes",
     "cohortKindKey": "detail.cohort.refSize.kind.model",
     "ageSuffixKey": null,
     "heatSuffixKey": null,
     "marginSuffixKey": "summary.suffix.marginHigh",
     "args": {
-      "refSize": 3,
+      "refSize": 4,
       "year": "2016",
       "title": "Fiat Punto"
     }
