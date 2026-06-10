@@ -1,0 +1,52 @@
+{
+  "vehicleId": "85fae633-d4ec-4337-8334-fe4c6d99ad5a",
+  "computedAt": "2026-06-10T16:14:23.317Z",
+  "cohort": {
+    "sameModelCount": 1,
+    "sameYearCount": 1,
+    "refCohort": "model",
+    "refSize": 1
+  },
+  "pricePercentile": null,
+  "pricePerKm": 320.48192771084337,
+  "pricePerKmPercentile": null,
+  "kmPercentile": null,
+  "daysListed": 0,
+  "marginPct": 15.939849624060152,
+  "marginTier": "mid",
+  "auctionHeat": "warm",
+  "dealTag": "fair",
+  "bullets": [
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.marginPct",
+      "pipArgs": {
+        "pct": "16"
+      },
+      "textKey": "bullet.marginMid"
+    },
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.warm",
+      "textKey": "bullet.auctionWarm"
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.fresh",
+      "textKey": "bullet.listedFresh"
+    }
+  ],
+  "summary": {
+    "verdictKey": "summary.verdict.fair",
+    "cohortLineKey": "summary.cohortLine.yes",
+    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "ageSuffixKey": "summary.suffix.ageFresh",
+    "heatSuffixKey": null,
+    "marginSuffixKey": null,
+    "args": {
+      "refSize": 1,
+      "year": "2024",
+      "title": "Toyota Urban Cruiser"
+    }
+  }
+}

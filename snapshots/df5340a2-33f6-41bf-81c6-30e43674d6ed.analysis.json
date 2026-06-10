@@ -1,38 +1,38 @@
 {
   "vehicleId": "df5340a2-33f6-41bf-81c6-30e43674d6ed",
-  "computedAt": "2026-06-10T12:18:39.839Z",
+  "computedAt": "2026-06-10T16:14:23.093Z",
   "cohort": {
-    "sameModelCount": 3,
+    "sameModelCount": 4,
     "sameYearCount": 2,
     "refCohort": "model",
-    "refSize": 3
+    "refSize": 4
   },
-  "pricePercentile": 33,
+  "pricePercentile": 50,
   "pricePerKm": 7.060518731988473,
-  "pricePerKmPercentile": 33,
-  "kmPercentile": 33,
+  "pricePerKmPercentile": 50,
+  "kmPercentile": 25,
   "daysListed": 161,
   "marginPct": 15.510204081632653,
   "marginTier": "mid",
   "auctionHeat": "hot",
-  "dealTag": "good",
+  "dealTag": "fair",
   "bullets": [
     {
-      "tone": "good",
-      "pipKey": "bullet.pip.deal",
+      "tone": "mid",
+      "pipKey": "bullet.pip.mid",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 67,
-        "n": 3,
+        "pct": 50,
+        "n": 4,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
     {
-      "tone": "good",
+      "tone": "mid",
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 67,
+        "pct": 50,
         "ppkm": 7
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.lowKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 67
+        "pct": 75
       }
     },
     {
@@ -70,14 +70,14 @@
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.good",
+    "verdictKey": "summary.verdict.fair",
     "cohortLineKey": "summary.cohortLine.yes",
     "cohortKindKey": "detail.cohort.refSize.kind.model",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": null,
     "args": {
-      "refSize": 3,
+      "refSize": 4,
       "year": "2023",
       "title": "Mitsubishi Attrage"
     }

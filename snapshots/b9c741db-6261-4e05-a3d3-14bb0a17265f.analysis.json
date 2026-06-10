@@ -1,30 +1,30 @@
 {
   "vehicleId": "b9c741db-6261-4e05-a3d3-14bb0a17265f",
-  "computedAt": "2026-06-10T12:18:40.405Z",
+  "computedAt": "2026-06-10T16:14:23.100Z",
   "cohort": {
-    "sameModelCount": 12,
-    "sameYearCount": 3,
-    "refCohort": "model",
-    "refSize": 12
+    "sameModelCount": 13,
+    "sameYearCount": 4,
+    "refCohort": "model+year",
+    "refSize": 4
   },
-  "pricePercentile": 75,
+  "pricePercentile": 50,
   "pricePerKm": 3.8705950317735414,
-  "pricePerKmPercentile": 58,
-  "kmPercentile": 50,
-  "daysListed": 54,
+  "pricePerKmPercentile": 50,
+  "kmPercentile": 75,
+  "daysListed": 55,
   "marginPct": 37.61194029850746,
   "marginTier": "high",
   "auctionHeat": "hot",
   "dealTag": "fair",
   "bullets": [
     {
-      "tone": "hot",
-      "pipKey": "bullet.pip.high",
+      "tone": "mid",
+      "pipKey": "bullet.pip.mid",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 25,
-        "n": 12,
-        "kind": "detail.cohort.refSize.kind.model"
+        "pct": 50,
+        "n": 4,
+        "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
@@ -32,16 +32,16 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 42,
+        "pct": 50,
         "ppkm": 4
       }
     },
     {
-      "tone": "mid",
-      "pipKey": "bullet.pip.km",
+      "tone": "hot",
+      "pipKey": "bullet.pip.highKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 50
+        "pct": 25
       }
     },
     {
@@ -61,23 +61,23 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 54
+        "n": 55
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 54
+        "n": 55
       }
     }
   ],
   "summary": {
     "verdictKey": "summary.verdict.fair",
     "cohortLineKey": "summary.cohortLine.yes",
-    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": "summary.suffix.marginHigh",
     "args": {
-      "refSize": 12,
+      "refSize": 4,
       "year": "2015",
       "title": "Mitsubishi Lancer"
     }

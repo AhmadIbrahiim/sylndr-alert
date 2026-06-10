@@ -1,17 +1,17 @@
 {
   "vehicleId": "61bbf6f2-6ffc-40ba-8294-10541a2a9126",
-  "computedAt": "2026-06-10T12:18:40.640Z",
+  "computedAt": "2026-06-10T16:14:23.308Z",
   "cohort": {
-    "sameModelCount": 10,
+    "sameModelCount": 11,
     "sameYearCount": 1,
     "refCohort": "model",
-    "refSize": 10
+    "refSize": 11
   },
   "pricePercentile": 0,
   "pricePerKm": 6.781045751633987,
-  "pricePerKmPercentile": 20,
-  "kmPercentile": 50,
-  "daysListed": 138,
+  "pricePerKmPercentile": 18,
+  "kmPercentile": 55,
+  "daysListed": 139,
   "marginPct": 18.072289156626507,
   "marginTier": "mid",
   "auctionHeat": "hot",
@@ -23,7 +23,7 @@
       "textKey": "bullet.priceCheaper",
       "textArgs": {
         "pct": 100,
-        "n": 10,
+        "n": 11,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 80,
+        "pct": 82,
         "ppkm": 7
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 50
+        "pct": 45
       }
     },
     {
@@ -61,11 +61,11 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 138
+        "n": 139
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 138
+        "n": 139
       }
     }
   ],
@@ -77,7 +77,7 @@
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": null,
     "args": {
-      "refSize": 10,
+      "refSize": 11,
       "year": "2011",
       "title": "BMW X1"
     }

@@ -1,29 +1,29 @@
 {
   "vehicleId": "48dad4f0-239b-43f1-aeaa-62d658f9fbe4",
-  "computedAt": "2026-06-10T12:18:40.125Z",
+  "computedAt": "2026-06-10T16:14:23.000Z",
   "cohort": {
-    "sameModelCount": 5,
+    "sameModelCount": 6,
     "sameYearCount": 1,
     "refCohort": "model",
-    "refSize": 5
+    "refSize": 6
   },
-  "pricePercentile": 60,
+  "pricePercentile": 50,
   "pricePerKm": 6.437125748502994,
-  "pricePerKmPercentile": 20,
-  "kmPercentile": 60,
-  "daysListed": 60,
+  "pricePerKmPercentile": 17,
+  "kmPercentile": 67,
+  "daysListed": 61,
   "marginPct": 23.72093023255814,
   "marginTier": "mid",
   "auctionHeat": "hot",
-  "dealTag": "fair",
+  "dealTag": "good",
   "bullets": [
     {
       "tone": "mid",
       "pipKey": "bullet.pip.mid",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 40,
-        "n": 5,
+        "pct": 50,
+        "n": 6,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 80,
+        "pct": 83,
         "ppkm": 6
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 40
+        "pct": 33
       }
     },
     {
@@ -61,23 +61,23 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 60
+        "n": 61
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 60
+        "n": 61
       }
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.fair",
+    "verdictKey": "summary.verdict.good",
     "cohortLineKey": "summary.cohortLine.yes",
     "cohortKindKey": "detail.cohort.refSize.kind.model",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": null,
     "args": {
-      "refSize": 5,
+      "refSize": 6,
       "year": "2017",
       "title": "Volvo S60"
     }

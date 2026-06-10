@@ -1,22 +1,49 @@
 {
   "vehicleId": "9189428b-cd10-4177-ac3b-66e5e19acb99",
-  "computedAt": "2026-06-10T12:18:40.428Z",
+  "computedAt": "2026-06-10T16:14:23.493Z",
   "cohort": {
-    "sameModelCount": 2,
+    "sameModelCount": 3,
     "sameYearCount": 1,
     "refCohort": "model",
-    "refSize": 2
+    "refSize": 3
   },
-  "pricePercentile": null,
+  "pricePercentile": 33,
   "pricePerKm": 44.0251572327044,
-  "pricePerKmPercentile": null,
-  "kmPercentile": null,
+  "pricePerKmPercentile": 67,
+  "kmPercentile": 0,
   "daysListed": 25,
   "marginPct": 2,
   "marginTier": "low",
   "auctionHeat": "hot",
   "dealTag": "fair",
   "bullets": [
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.deal",
+      "textKey": "bullet.priceCheaper",
+      "textArgs": {
+        "pct": 67,
+        "n": 3,
+        "kind": "detail.cohort.refSize.kind.model"
+      }
+    },
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.value",
+      "textKey": "bullet.ppkmBetter",
+      "textArgs": {
+        "pct": 33,
+        "ppkm": 44
+      }
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.lowKm",
+      "textKey": "bullet.kmLower",
+      "textArgs": {
+        "pct": 100
+      }
+    },
     {
       "tone": "good",
       "pipKey": "bullet.pip.marginPct",
@@ -50,7 +77,7 @@
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": "summary.suffix.marginLow",
     "args": {
-      "refSize": 2,
+      "refSize": 3,
       "year": "2024",
       "title": "Volkswagen T-Roc"
     }

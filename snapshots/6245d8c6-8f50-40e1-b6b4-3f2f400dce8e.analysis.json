@@ -1,17 +1,17 @@
 {
   "vehicleId": "6245d8c6-8f50-40e1-b6b4-3f2f400dce8e",
-  "computedAt": "2026-06-10T12:18:40.640Z",
+  "computedAt": "2026-06-10T16:14:23.198Z",
   "cohort": {
-    "sameModelCount": 5,
-    "sameYearCount": 3,
-    "refCohort": "model",
-    "refSize": 5
+    "sameModelCount": 6,
+    "sameYearCount": 4,
+    "refCohort": "model+year",
+    "refSize": 4
   },
-  "pricePercentile": 20,
+  "pricePercentile": 0,
   "pricePerKm": 3.4169070335034393,
   "pricePerKmPercentile": 0,
-  "kmPercentile": 80,
-  "daysListed": 42,
+  "kmPercentile": 75,
+  "daysListed": 43,
   "marginPct": 45.45454545454545,
   "marginTier": "high",
   "auctionHeat": "hot",
@@ -22,9 +22,9 @@
       "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 80,
-        "n": 5,
-        "kind": "detail.cohort.refSize.kind.model"
+        "pct": 100,
+        "n": 4,
+        "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.highKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 20
+        "pct": 25
       }
     },
     {
@@ -61,23 +61,23 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 42
+        "n": 43
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 42
+        "n": 43
       }
     }
   ],
   "summary": {
     "verdictKey": "summary.verdict.good",
     "cohortLineKey": "summary.cohortLine.yes",
-    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": "summary.suffix.marginHigh",
     "args": {
-      "refSize": 5,
+      "refSize": 4,
       "year": "2018",
       "title": "Volvo S60"
     }

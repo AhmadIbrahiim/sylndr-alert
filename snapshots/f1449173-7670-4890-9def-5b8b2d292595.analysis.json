@@ -1,38 +1,38 @@
 {
   "vehicleId": "f1449173-7670-4890-9def-5b8b2d292595",
-  "computedAt": "2026-06-10T12:18:40.690Z",
+  "computedAt": "2026-06-10T16:14:23.100Z",
   "cohort": {
-    "sameModelCount": 5,
-    "sameYearCount": 3,
-    "refCohort": "model",
-    "refSize": 5
+    "sameModelCount": 6,
+    "sameYearCount": 4,
+    "refCohort": "model+year",
+    "refSize": 4
   },
-  "pricePercentile": 40,
+  "pricePercentile": 25,
   "pricePerKm": 6.870796689084325,
-  "pricePerKmPercentile": 60,
-  "kmPercentile": 40,
+  "pricePerKmPercentile": 25,
+  "kmPercentile": 50,
   "daysListed": 160,
   "marginPct": 7.294117647058823,
   "marginTier": "low",
   "auctionHeat": "hot",
-  "dealTag": "fair",
+  "dealTag": "good",
   "bullets": [
     {
-      "tone": "mid",
-      "pipKey": "bullet.pip.mid",
+      "tone": "good",
+      "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 60,
-        "n": 5,
-        "kind": "detail.cohort.refSize.kind.model"
+        "pct": 75,
+        "n": 4,
+        "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
-      "tone": "mid",
+      "tone": "good",
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 40,
+        "pct": 75,
         "ppkm": 7
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 60
+        "pct": 50
       }
     },
     {
@@ -70,14 +70,14 @@
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.fair",
+    "verdictKey": "summary.verdict.good",
     "cohortLineKey": "summary.cohortLine.yes",
-    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": "summary.suffix.marginLow",
     "args": {
-      "refSize": 5,
+      "refSize": 4,
       "year": "2018",
       "title": "Volvo S60"
     }
