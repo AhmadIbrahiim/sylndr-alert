@@ -1,47 +1,47 @@
 {
   "vehicleId": "165af634-49b2-4929-9bd6-c49ae6b46a8c",
-  "computedAt": "2026-06-09T18:15:12.934Z",
+  "computedAt": "2026-06-10T08:47:09.389Z",
   "cohort": {
-    "sameModelCount": 31,
-    "sameYearCount": 3,
-    "refCohort": "model",
-    "refSize": 31
+    "sameModelCount": 32,
+    "sameYearCount": 4,
+    "refCohort": "model+year",
+    "refSize": 4
   },
-  "pricePercentile": 26,
+  "pricePercentile": 25,
   "pricePerKm": 4.301786896095301,
-  "pricePerKmPercentile": 32,
-  "kmPercentile": 61,
+  "pricePerKmPercentile": 75,
+  "kmPercentile": 0,
   "daysListed": 43,
   "marginPct": 27.384615384615387,
   "marginTier": "mid",
   "auctionHeat": "hot",
-  "dealTag": "good",
+  "dealTag": "fair",
   "bullets": [
     {
       "tone": "good",
       "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 74,
-        "n": 31,
-        "kind": "detail.cohort.refSize.kind.model"
+        "pct": 75,
+        "n": 4,
+        "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
-      "tone": "good",
-      "pipKey": "bullet.pip.value",
+      "tone": "hot",
+      "pipKey": "bullet.pip.pricey",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 68,
+        "pct": 25,
         "ppkm": 4
       }
     },
     {
-      "tone": "mid",
-      "pipKey": "bullet.pip.km",
+      "tone": "good",
+      "pipKey": "bullet.pip.lowKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 39
+        "pct": 100
       }
     },
     {
@@ -70,14 +70,14 @@
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.good",
+    "verdictKey": "summary.verdict.fair",
     "cohortLineKey": "summary.cohortLine.yes",
-    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": null,
     "args": {
-      "refSize": 31,
+      "refSize": 4,
       "year": "2018",
       "title": "Renault Megane"
     }

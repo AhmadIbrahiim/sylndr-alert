@@ -1,30 +1,30 @@
 {
   "vehicleId": "8c302abb-153b-4108-bd8b-0a91da024c00",
-  "computedAt": "2026-06-09T18:15:12.584Z",
+  "computedAt": "2026-06-10T08:47:09.028Z",
   "cohort": {
-    "sameModelCount": 31,
-    "sameYearCount": 3,
-    "refCohort": "model",
-    "refSize": 31
+    "sameModelCount": 32,
+    "sameYearCount": 4,
+    "refCohort": "model+year",
+    "refSize": 4
   },
-  "pricePercentile": 39,
+  "pricePercentile": 50,
   "pricePerKm": 3.2715900890064953,
-  "pricePerKmPercentile": 23,
-  "kmPercentile": 77,
+  "pricePerKmPercentile": 25,
+  "kmPercentile": 50,
   "daysListed": 22,
   "marginPct": 33.82352941176471,
   "marginTier": "high",
   "auctionHeat": "cold",
-  "dealTag": "good",
+  "dealTag": "fair",
   "bullets": [
     {
       "tone": "mid",
       "pipKey": "bullet.pip.mid",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 61,
-        "n": 31,
-        "kind": "detail.cohort.refSize.kind.model"
+        "pct": 50,
+        "n": 4,
+        "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
@@ -32,16 +32,16 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 77,
+        "pct": 75,
         "ppkm": 3
       }
     },
     {
-      "tone": "hot",
-      "pipKey": "bullet.pip.highKm",
+      "tone": "mid",
+      "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 23
+        "pct": 50
       }
     },
     {
@@ -70,14 +70,14 @@
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.good",
+    "verdictKey": "summary.verdict.fair",
     "cohortLineKey": "summary.cohortLine.yes",
-    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": null,
     "heatSuffixKey": null,
     "marginSuffixKey": "summary.suffix.marginHigh",
     "args": {
-      "refSize": 31,
+      "refSize": 4,
       "year": "2018",
       "title": "Renault Megane"
     }
