@@ -1,17 +1,17 @@
 {
   "vehicleId": "9965a03d-325e-4a8f-912f-d08f3f43deaf",
-  "computedAt": "2026-06-10T08:47:09.396Z",
+  "computedAt": "2026-06-10T12:18:40.422Z",
   "cohort": {
-    "sameModelCount": 3,
-    "sameYearCount": 2,
+    "sameModelCount": 4,
+    "sameYearCount": 3,
     "refCohort": "model",
-    "refSize": 3
+    "refSize": 4
   },
-  "pricePercentile": 0,
+  "pricePercentile": 25,
   "pricePerKm": 2.5316455696202533,
   "pricePerKmPercentile": 0,
-  "kmPercentile": 67,
-  "daysListed": 91,
+  "kmPercentile": 75,
+  "daysListed": 92,
   "marginPct": 20.545454545454543,
   "marginTier": "mid",
   "auctionHeat": "hot",
@@ -22,8 +22,8 @@
       "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 100,
-        "n": 3,
+        "pct": 75,
+        "n": 4,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -37,11 +37,11 @@
       }
     },
     {
-      "tone": "mid",
-      "pipKey": "bullet.pip.km",
+      "tone": "hot",
+      "pipKey": "bullet.pip.highKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 33
+        "pct": 25
       }
     },
     {
@@ -61,11 +61,11 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 91
+        "n": 92
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 91
+        "n": 92
       }
     }
   ],
@@ -77,7 +77,7 @@
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": null,
     "args": {
-      "refSize": 3,
+      "refSize": 4,
       "year": "2015",
       "title": "Renault Fluence"
     }

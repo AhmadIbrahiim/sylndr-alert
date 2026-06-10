@@ -1,38 +1,38 @@
 {
   "vehicleId": "f59ac98c-c822-4f82-9734-3c586592c67c",
-  "computedAt": "2026-06-10T08:47:09.276Z",
+  "computedAt": "2026-06-10T12:18:40.294Z",
   "cohort": {
-    "sameModelCount": 18,
-    "sameYearCount": 7,
+    "sameModelCount": 19,
+    "sameYearCount": 8,
     "refCohort": "model+year",
-    "refSize": 7
+    "refSize": 8
   },
-  "pricePercentile": 71,
+  "pricePercentile": 63,
   "pricePerKm": 8.122312470138557,
-  "pricePerKmPercentile": 71,
-  "kmPercentile": 14,
-  "daysListed": 24,
+  "pricePerKmPercentile": 63,
+  "kmPercentile": 25,
+  "daysListed": 25,
   "marginPct": 24.47058823529412,
   "marginTier": "mid",
   "auctionHeat": "warm",
   "dealTag": "fair",
   "bullets": [
     {
-      "tone": "hot",
-      "pipKey": "bullet.pip.high",
+      "tone": "mid",
+      "pipKey": "bullet.pip.mid",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 29,
-        "n": 7,
+        "pct": 37,
+        "n": 8,
         "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
-      "tone": "hot",
-      "pipKey": "bullet.pip.pricey",
+      "tone": "mid",
+      "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 29,
+        "pct": 37,
         "ppkm": 8
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.lowKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 86
+        "pct": 75
       }
     },
     {
@@ -61,11 +61,11 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 24
+        "n": 25
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 24
+        "n": 25
       }
     }
   ],
@@ -77,7 +77,7 @@
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 7,
+      "refSize": 8,
       "year": "2019",
       "title": "Renault Kadjar"
     }
