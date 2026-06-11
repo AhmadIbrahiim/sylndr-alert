@@ -1,16 +1,16 @@
 {
   "vehicleId": "0b83bb76-2b6c-4f0e-b59f-052158931837",
-  "computedAt": "2026-06-11T16:52:33.765Z",
+  "computedAt": "2026-06-11T18:52:18.044Z",
   "cohort": {
-    "sameModelCount": 10,
-    "sameYearCount": 1,
+    "sameModelCount": 11,
+    "sameYearCount": 2,
     "refCohort": "model",
-    "refSize": 10
+    "refSize": 11
   },
-  "pricePercentile": 80,
+  "pricePercentile": 73,
   "pricePerKm": 58.348294434470375,
-  "pricePerKmPercentile": 80,
-  "kmPercentile": 10,
+  "pricePerKmPercentile": 73,
+  "kmPercentile": 18,
   "daysListed": 6,
   "marginPct": 9.63076923076923,
   "marginTier": "low",
@@ -22,8 +22,8 @@
       "pipKey": "bullet.pip.high",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 20,
-        "n": 10,
+        "pct": 27,
+        "n": 11,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.pricey",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 20,
+        "pct": 27,
         "ppkm": 58
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.lowKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 90
+        "pct": 82
       }
     },
     {
@@ -66,7 +66,7 @@
     "heatSuffixKey": null,
     "marginSuffixKey": "summary.suffix.marginLow",
     "args": {
-      "refSize": 10,
+      "refSize": 11,
       "year": "2024",
       "title": "BMW X3"
     }
