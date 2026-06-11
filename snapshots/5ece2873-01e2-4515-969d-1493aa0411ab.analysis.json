@@ -1,0 +1,79 @@
+{
+  "vehicleId": "5ece2873-01e2-4515-969d-1493aa0411ab",
+  "computedAt": "2026-06-11T12:55:01.860Z",
+  "cohort": {
+    "sameModelCount": 11,
+    "sameYearCount": 4,
+    "refCohort": "model+year",
+    "refSize": 4
+  },
+  "pricePercentile": 0,
+  "pricePerKm": 3.7093606807767836,
+  "pricePerKmPercentile": 0,
+  "kmPercentile": 75,
+  "daysListed": 0,
+  "marginPct": 27.88235294117647,
+  "marginTier": "mid",
+  "auctionHeat": "cold",
+  "dealTag": "good",
+  "bullets": [
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.deal",
+      "textKey": "bullet.priceCheaper",
+      "textArgs": {
+        "pct": 100,
+        "n": 4,
+        "kind": "detail.cohort.refSize.kind.modelYear"
+      }
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.value",
+      "textKey": "bullet.ppkmBetter",
+      "textArgs": {
+        "pct": 100,
+        "ppkm": 4
+      }
+    },
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.highKm",
+      "textKey": "bullet.kmLower",
+      "textArgs": {
+        "pct": 25
+      }
+    },
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.marginPct",
+      "pipArgs": {
+        "pct": "28"
+      },
+      "textKey": "bullet.marginMid"
+    },
+    {
+      "tone": "neutral",
+      "pipKey": "bullet.pip.cold",
+      "textKey": "bullet.auctionCold"
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.fresh",
+      "textKey": "bullet.listedFresh"
+    }
+  ],
+  "summary": {
+    "verdictKey": "summary.verdict.good",
+    "cohortLineKey": "summary.cohortLine.yes",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
+    "ageSuffixKey": "summary.suffix.ageFresh",
+    "heatSuffixKey": null,
+    "marginSuffixKey": null,
+    "args": {
+      "refSize": 4,
+      "year": "2010",
+      "title": "Jeep Wrangler"
+    }
+  }
+}

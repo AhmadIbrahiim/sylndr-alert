@@ -1,29 +1,29 @@
 {
   "vehicleId": "112823a6-6901-4fc2-85e9-de1a3f362e0b",
-  "computedAt": "2026-06-11T09:11:11.476Z",
+  "computedAt": "2026-06-11T12:55:01.930Z",
   "cohort": {
-    "sameModelCount": 3,
+    "sameModelCount": 4,
     "sameYearCount": 1,
     "refCohort": "model",
-    "refSize": 3
+    "refSize": 4
   },
-  "pricePercentile": 67,
+  "pricePercentile": 75,
   "pricePerKm": 46.15384615384615,
-  "pricePerKmPercentile": 0,
-  "kmPercentile": 67,
-  "daysListed": 64,
+  "pricePerKmPercentile": 25,
+  "kmPercentile": 50,
+  "daysListed": 65,
   "marginPct": 21.813725490196077,
   "marginTier": "mid",
   "auctionHeat": "hot",
-  "dealTag": "good",
+  "dealTag": "fair",
   "bullets": [
     {
-      "tone": "mid",
-      "pipKey": "bullet.pip.mid",
+      "tone": "hot",
+      "pipKey": "bullet.pip.high",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 33,
-        "n": 3,
+        "pct": 25,
+        "n": 4,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 100,
+        "pct": 75,
         "ppkm": 46
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 33
+        "pct": 50
       }
     },
     {
@@ -61,23 +61,23 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 64
+        "n": 65
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 64
+        "n": 65
       }
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.good",
+    "verdictKey": "summary.verdict.fair",
     "cohortLineKey": "summary.cohortLine.yes",
     "cohortKindKey": "detail.cohort.refSize.kind.model",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": null,
     "args": {
-      "refSize": 3,
+      "refSize": 4,
       "year": "2024",
       "title": "BMW 218i"
     }

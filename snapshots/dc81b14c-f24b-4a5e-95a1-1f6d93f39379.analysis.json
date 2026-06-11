@@ -1,38 +1,38 @@
 {
   "vehicleId": "dc81b14c-f24b-4a5e-95a1-1f6d93f39379",
-  "computedAt": "2026-06-11T09:11:11.200Z",
+  "computedAt": "2026-06-11T12:55:01.742Z",
   "cohort": {
-    "sameModelCount": 3,
+    "sameModelCount": 4,
     "sameYearCount": 2,
     "refCohort": "model",
-    "refSize": 3
+    "refSize": 4
   },
-  "pricePercentile": 0,
+  "pricePercentile": 25,
   "pricePerKm": 222.75862068965517,
-  "pricePerKmPercentile": 67,
+  "pricePerKmPercentile": 75,
   "kmPercentile": 0,
   "daysListed": 153,
   "marginPct": 7.430340557275541,
   "marginTier": "low",
   "auctionHeat": "hot",
-  "dealTag": "good",
+  "dealTag": "fair",
   "bullets": [
     {
       "tone": "good",
       "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 100,
-        "n": 3,
+        "pct": 75,
+        "n": 4,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
     {
-      "tone": "mid",
-      "pipKey": "bullet.pip.value",
+      "tone": "hot",
+      "pipKey": "bullet.pip.pricey",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 33,
+        "pct": 25,
         "ppkm": 223
       }
     },
@@ -70,14 +70,14 @@
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.good",
+    "verdictKey": "summary.verdict.fair",
     "cohortLineKey": "summary.cohortLine.yes",
     "cohortKindKey": "detail.cohort.refSize.kind.model",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": "summary.suffix.marginLow",
     "args": {
-      "refSize": 3,
+      "refSize": 4,
       "year": "2023",
       "title": "BMW 218i"
     }

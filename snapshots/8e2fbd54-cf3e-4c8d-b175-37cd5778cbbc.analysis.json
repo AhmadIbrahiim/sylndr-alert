@@ -1,30 +1,30 @@
 {
   "vehicleId": "8e2fbd54-cf3e-4c8d-b175-37cd5778cbbc",
-  "computedAt": "2026-06-11T09:11:11.381Z",
+  "computedAt": "2026-06-11T12:55:01.398Z",
   "cohort": {
-    "sameModelCount": 10,
-    "sameYearCount": 3,
-    "refCohort": "model",
-    "refSize": 10
+    "sameModelCount": 11,
+    "sameYearCount": 4,
+    "refCohort": "model+year",
+    "refSize": 4
   },
-  "pricePercentile": 10,
+  "pricePercentile": 50,
   "pricePerKm": 4.754358161648177,
-  "pricePerKmPercentile": 20,
-  "kmPercentile": 70,
+  "pricePerKmPercentile": 25,
+  "kmPercentile": 50,
   "daysListed": 49,
   "marginPct": 26.222222222222225,
   "marginTier": "mid",
   "auctionHeat": "hot",
-  "dealTag": "good",
+  "dealTag": "fair",
   "bullets": [
     {
-      "tone": "good",
-      "pipKey": "bullet.pip.deal",
+      "tone": "mid",
+      "pipKey": "bullet.pip.mid",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 90,
-        "n": 10,
-        "kind": "detail.cohort.refSize.kind.model"
+        "pct": 50,
+        "n": 4,
+        "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 80,
+        "pct": 75,
         "ppkm": 5
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 30
+        "pct": 50
       }
     },
     {
@@ -70,14 +70,14 @@
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.good",
+    "verdictKey": "summary.verdict.fair",
     "cohortLineKey": "summary.cohortLine.yes",
-    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": null,
     "args": {
-      "refSize": 10,
+      "refSize": 4,
       "year": "2010",
       "title": "Jeep Wrangler"
     }

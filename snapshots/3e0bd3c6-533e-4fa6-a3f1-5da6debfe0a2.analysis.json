@@ -1,0 +1,79 @@
+{
+  "vehicleId": "3e0bd3c6-533e-4fa6-a3f1-5da6debfe0a2",
+  "computedAt": "2026-06-11T12:55:02.160Z",
+  "cohort": {
+    "sameModelCount": 7,
+    "sameYearCount": 2,
+    "refCohort": "model",
+    "refSize": 7
+  },
+  "pricePercentile": 0,
+  "pricePerKm": 12.888070013818517,
+  "pricePerKmPercentile": 0,
+  "kmPercentile": 86,
+  "daysListed": 0,
+  "marginPct": 17.29807005003574,
+  "marginTier": "mid",
+  "auctionHeat": "warm",
+  "dealTag": "good",
+  "bullets": [
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.deal",
+      "textKey": "bullet.priceCheaper",
+      "textArgs": {
+        "pct": 100,
+        "n": 7,
+        "kind": "detail.cohort.refSize.kind.model"
+      }
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.value",
+      "textKey": "bullet.ppkmBetter",
+      "textArgs": {
+        "pct": 100,
+        "ppkm": 13
+      }
+    },
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.highKm",
+      "textKey": "bullet.kmLower",
+      "textArgs": {
+        "pct": 14
+      }
+    },
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.marginPct",
+      "pipArgs": {
+        "pct": "17"
+      },
+      "textKey": "bullet.marginMid"
+    },
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.warm",
+      "textKey": "bullet.auctionWarm"
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.fresh",
+      "textKey": "bullet.listedFresh"
+    }
+  ],
+  "summary": {
+    "verdictKey": "summary.verdict.good",
+    "cohortLineKey": "summary.cohortLine.yes",
+    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "ageSuffixKey": "summary.suffix.ageFresh",
+    "heatSuffixKey": null,
+    "marginSuffixKey": null,
+    "args": {
+      "refSize": 7,
+      "year": "2021",
+      "title": "Hyundai Tucson NX4e"
+    }
+  }
+}

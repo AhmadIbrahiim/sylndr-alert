@@ -1,38 +1,38 @@
 {
   "vehicleId": "0ba52d83-39f8-4974-8647-e5f5549ceccf",
-  "computedAt": "2026-06-11T09:11:11.513Z",
+  "computedAt": "2026-06-11T12:55:01.698Z",
   "cohort": {
-    "sameModelCount": 9,
+    "sameModelCount": 10,
     "sameYearCount": 3,
     "refCohort": "model",
-    "refSize": 9
+    "refSize": 10
   },
-  "pricePercentile": 33,
+  "pricePercentile": 40,
   "pricePerKm": 12.095357590966122,
-  "pricePerKmPercentile": 33,
-  "kmPercentile": 56,
+  "pricePerKmPercentile": 40,
+  "kmPercentile": 50,
   "daysListed": 106,
   "marginPct": null,
   "marginTier": null,
   "auctionHeat": "hot",
-  "dealTag": "good",
+  "dealTag": "fair",
   "bullets": [
     {
-      "tone": "good",
-      "pipKey": "bullet.pip.deal",
+      "tone": "mid",
+      "pipKey": "bullet.pip.mid",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 67,
-        "n": 9,
+        "pct": 60,
+        "n": 10,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
     {
-      "tone": "good",
+      "tone": "mid",
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 67,
+        "pct": 60,
         "ppkm": 12
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 44
+        "pct": 50
       }
     },
     {
@@ -62,14 +62,14 @@
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.good",
+    "verdictKey": "summary.verdict.fair",
     "cohortLineKey": "summary.cohortLine.yes",
     "cohortKindKey": "detail.cohort.refSize.kind.model",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": null,
     "args": {
-      "refSize": 9,
+      "refSize": 10,
       "year": "2020",
       "title": "BMW 520i"
     }
