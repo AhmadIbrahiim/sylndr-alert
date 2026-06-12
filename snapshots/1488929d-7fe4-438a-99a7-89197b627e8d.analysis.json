@@ -1,17 +1,17 @@
 {
   "vehicleId": "1488929d-7fe4-438a-99a7-89197b627e8d",
-  "computedAt": "2026-06-12T08:56:18.373Z",
+  "computedAt": "2026-06-12T12:18:02.297Z",
   "cohort": {
-    "sameModelCount": 13,
-    "sameYearCount": 3,
-    "refCohort": "model",
-    "refSize": 13
+    "sameModelCount": 14,
+    "sameYearCount": 4,
+    "refCohort": "model+year",
+    "refSize": 4
   },
-  "pricePercentile": 46,
+  "pricePercentile": 50,
   "pricePerKm": 8.98961284230406,
-  "pricePerKmPercentile": 23,
-  "kmPercentile": 85,
-  "daysListed": 108,
+  "pricePerKmPercentile": 0,
+  "kmPercentile": 75,
+  "daysListed": 109,
   "marginPct": 15.196078431372548,
   "marginTier": "mid",
   "auctionHeat": "warm",
@@ -22,9 +22,9 @@
       "pipKey": "bullet.pip.mid",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 54,
-        "n": 13,
-        "kind": "detail.cohort.refSize.kind.model"
+        "pct": 50,
+        "n": 4,
+        "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 77,
+        "pct": 100,
         "ppkm": 9
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.highKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 15
+        "pct": 25
       }
     },
     {
@@ -61,23 +61,23 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 108
+        "n": 109
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 108
+        "n": 109
       }
     }
   ],
   "summary": {
     "verdictKey": "summary.verdict.good",
     "cohortLineKey": "summary.cohortLine.yes",
-    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 13,
+      "refSize": 4,
       "year": "2019",
       "title": "BMW X1"
     }
