@@ -1,29 +1,29 @@
 {
   "vehicleId": "f7655bb5-7369-46f2-a98d-7ab24b9cbbe0",
-  "computedAt": "2026-06-12T12:18:02.630Z",
+  "computedAt": "2026-06-12T15:46:26.237Z",
   "cohort": {
-    "sameModelCount": 36,
-    "sameYearCount": 4,
+    "sameModelCount": 37,
+    "sameYearCount": 5,
     "refCohort": "model+year",
-    "refSize": 4
+    "refSize": 5
   },
-  "pricePercentile": 25,
+  "pricePercentile": 40,
   "pricePerKm": null,
   "pricePerKmPercentile": null,
   "kmPercentile": null,
-  "daysListed": 144,
+  "daysListed": 145,
   "marginPct": 9.209621993127149,
   "marginTier": "low",
   "auctionHeat": "hot",
-  "dealTag": "good",
+  "dealTag": "fair",
   "bullets": [
     {
-      "tone": "good",
-      "pipKey": "bullet.pip.deal",
+      "tone": "mid",
+      "pipKey": "bullet.pip.mid",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 75,
-        "n": 4,
+        "pct": 60,
+        "n": 5,
         "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
@@ -44,23 +44,23 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 144
+        "n": 145
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 144
+        "n": 145
       }
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.good",
+    "verdictKey": "summary.verdict.fair",
     "cohortLineKey": "summary.cohortLine.yes",
     "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": "summary.suffix.marginLow",
     "args": {
-      "refSize": 4,
+      "refSize": 5,
       "year": "2015",
       "title": "Mercedes-Benz C180"
     }
