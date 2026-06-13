@@ -1,29 +1,29 @@
 {
   "vehicleId": "ab830a7e-9c07-46d3-80de-88cc24d50878",
-  "computedAt": "2026-06-13T08:19:43.124Z",
+  "computedAt": "2026-06-13T10:57:05.609Z",
   "cohort": {
-    "sameModelCount": 22,
+    "sameModelCount": 23,
     "sameYearCount": 3,
     "refCohort": "model",
-    "refSize": 22
+    "refSize": 23
   },
-  "pricePercentile": 77,
+  "pricePercentile": 78,
   "pricePerKm": 11.983261272390365,
-  "pricePerKmPercentile": 82,
-  "kmPercentile": 14,
-  "daysListed": 89,
+  "pricePerKmPercentile": 83,
+  "kmPercentile": 13,
+  "daysListed": 90,
   "marginPct": 12.272111087629956,
   "marginTier": "low",
   "auctionHeat": "warm",
-  "dealTag": "fair",
+  "dealTag": "high",
   "bullets": [
     {
       "tone": "hot",
       "pipKey": "bullet.pip.high",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 23,
-        "n": 22,
+        "pct": 22,
+        "n": 23,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.pricey",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 18,
+        "pct": 17,
         "ppkm": 12
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.lowKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 86
+        "pct": 87
       }
     },
     {
@@ -61,23 +61,23 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 89
+        "n": 90
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 89
+        "n": 90
       }
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.fair",
+    "verdictKey": "summary.verdict.high",
     "cohortLineKey": "summary.cohortLine.yes",
     "cohortKindKey": "detail.cohort.refSize.kind.model",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": null,
     "marginSuffixKey": "summary.suffix.marginLow",
     "args": {
-      "refSize": 22,
+      "refSize": 23,
       "year": "2022",
       "title": "Renault Kadjar"
     }

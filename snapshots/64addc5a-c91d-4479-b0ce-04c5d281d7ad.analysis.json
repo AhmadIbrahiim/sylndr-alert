@@ -1,16 +1,16 @@
 {
   "vehicleId": "64addc5a-c91d-4479-b0ce-04c5d281d7ad",
-  "computedAt": "2026-06-13T08:19:42.956Z",
+  "computedAt": "2026-06-13T10:57:05.444Z",
   "cohort": {
-    "sameModelCount": 7,
+    "sameModelCount": 9,
     "sameYearCount": 3,
     "refCohort": "model",
-    "refSize": 7
+    "refSize": 9
   },
-  "pricePercentile": 14,
+  "pricePercentile": 22,
   "pricePerKm": 5.119825708061002,
-  "pricePerKmPercentile": 86,
-  "kmPercentile": 0,
+  "pricePerKmPercentile": 78,
+  "kmPercentile": 11,
   "daysListed": 135,
   "marginPct": 10.212765957446807,
   "marginTier": "low",
@@ -22,8 +22,8 @@
       "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 86,
-        "n": 7,
+        "pct": 78,
+        "n": 9,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.pricey",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 14,
+        "pct": 22,
         "ppkm": 5
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.lowKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 100
+        "pct": 89
       }
     },
     {
@@ -77,7 +77,7 @@
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": "summary.suffix.marginLow",
     "args": {
-      "refSize": 7,
+      "refSize": 9,
       "year": "2019",
       "title": "Chevrolet Optra"
     }

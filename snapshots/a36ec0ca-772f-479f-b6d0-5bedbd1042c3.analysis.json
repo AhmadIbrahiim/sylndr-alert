@@ -1,16 +1,16 @@
 {
   "vehicleId": "a36ec0ca-772f-479f-b6d0-5bedbd1042c3",
-  "computedAt": "2026-06-13T08:19:42.996Z",
+  "computedAt": "2026-06-13T10:57:05.483Z",
   "cohort": {
-    "sameModelCount": 7,
+    "sameModelCount": 9,
     "sameYearCount": 1,
     "refCohort": "model",
-    "refSize": 7
+    "refSize": 9
   },
-  "pricePercentile": 86,
+  "pricePercentile": 78,
   "pricePerKm": 3.8273788468340997,
-  "pricePerKmPercentile": 71,
-  "kmPercentile": 29,
+  "pricePerKmPercentile": 67,
+  "kmPercentile": 33,
   "daysListed": 158,
   "marginPct": 10.166358595194085,
   "marginTier": "low",
@@ -22,17 +22,17 @@
       "pipKey": "bullet.pip.high",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 14,
-        "n": 7,
+        "pct": 22,
+        "n": 9,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
     {
-      "tone": "hot",
-      "pipKey": "bullet.pip.pricey",
+      "tone": "mid",
+      "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 29,
+        "pct": 33,
         "ppkm": 4
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.lowKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 71
+        "pct": 67
       }
     },
     {
@@ -77,7 +77,7 @@
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": "summary.suffix.marginLow",
     "args": {
-      "refSize": 7,
+      "refSize": 9,
       "year": "2022",
       "title": "Chevrolet Optra"
     }
