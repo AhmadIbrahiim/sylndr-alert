@@ -1,16 +1,16 @@
 {
   "vehicleId": "100b33ff-4b0e-4b5d-bfd0-68f39e38b108",
-  "computedAt": "2026-06-13T12:25:50.887Z",
+  "computedAt": "2026-06-13T14:37:46.423Z",
   "cohort": {
-    "sameModelCount": 23,
-    "sameYearCount": 3,
-    "refCohort": "model",
-    "refSize": 23
+    "sameModelCount": 24,
+    "sameYearCount": 4,
+    "refCohort": "model+year",
+    "refSize": 4
   },
-  "pricePercentile": 74,
+  "pricePercentile": 75,
   "pricePerKm": 9.002320185614849,
-  "pricePerKmPercentile": 65,
-  "kmPercentile": 39,
+  "pricePerKmPercentile": 50,
+  "kmPercentile": 50,
   "daysListed": 57,
   "marginPct": 27.835051546391753,
   "marginTier": "mid",
@@ -22,9 +22,9 @@
       "pipKey": "bullet.pip.high",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 26,
-        "n": 23,
-        "kind": "detail.cohort.refSize.kind.model"
+        "pct": 25,
+        "n": 4,
+        "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 35,
+        "pct": 50,
         "ppkm": 9
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 61
+        "pct": 50
       }
     },
     {
@@ -72,12 +72,12 @@
   "summary": {
     "verdictKey": "summary.verdict.fair",
     "cohortLineKey": "summary.cohortLine.yes",
-    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": null,
     "args": {
-      "refSize": 23,
+      "refSize": 4,
       "year": "2020",
       "title": "Renault Kadjar"
     }

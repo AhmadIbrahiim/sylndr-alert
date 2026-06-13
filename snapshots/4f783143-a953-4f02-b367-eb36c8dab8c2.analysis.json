@@ -1,38 +1,38 @@
 {
   "vehicleId": "4f783143-a953-4f02-b367-eb36c8dab8c2",
-  "computedAt": "2026-06-13T12:25:50.499Z",
+  "computedAt": "2026-06-13T14:37:46.036Z",
   "cohort": {
-    "sameModelCount": 23,
-    "sameYearCount": 3,
-    "refCohort": "model",
-    "refSize": 23
+    "sameModelCount": 24,
+    "sameYearCount": 4,
+    "refCohort": "model+year",
+    "refSize": 4
   },
-  "pricePercentile": 52,
+  "pricePercentile": 0,
   "pricePerKm": 8.895405669599217,
-  "pricePerKmPercentile": 61,
-  "kmPercentile": 26,
+  "pricePerKmPercentile": 25,
+  "kmPercentile": 25,
   "daysListed": 151,
   "marginPct": 26.593406593406595,
   "marginTier": "mid",
   "auctionHeat": "hot",
-  "dealTag": "fair",
+  "dealTag": "good",
   "bullets": [
     {
-      "tone": "mid",
-      "pipKey": "bullet.pip.mid",
+      "tone": "good",
+      "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 48,
-        "n": 23,
-        "kind": "detail.cohort.refSize.kind.model"
+        "pct": 100,
+        "n": 4,
+        "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
-      "tone": "mid",
+      "tone": "good",
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 39,
+        "pct": 75,
         "ppkm": 9
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.lowKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 74
+        "pct": 75
       }
     },
     {
@@ -70,14 +70,14 @@
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.fair",
+    "verdictKey": "summary.verdict.good",
     "cohortLineKey": "summary.cohortLine.yes",
-    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": null,
     "args": {
-      "refSize": 23,
+      "refSize": 4,
       "year": "2020",
       "title": "Renault Kadjar"
     }
