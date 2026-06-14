@@ -1,30 +1,30 @@
 {
   "vehicleId": "5635345d-7148-464d-a16e-48e29d5d2cef",
-  "computedAt": "2026-06-14T08:39:11.678Z",
+  "computedAt": "2026-06-14T11:17:07.328Z",
   "cohort": {
-    "sameModelCount": 7,
-    "sameYearCount": 3,
-    "refCohort": "model",
-    "refSize": 7
+    "sameModelCount": 8,
+    "sameYearCount": 4,
+    "refCohort": "model+year",
+    "refSize": 4
   },
-  "pricePercentile": 43,
+  "pricePercentile": 0,
   "pricePerKm": 6.022187004754358,
-  "pricePerKmPercentile": 14,
-  "kmPercentile": 71,
-  "daysListed": 28,
+  "pricePerKmPercentile": 0,
+  "kmPercentile": 75,
+  "daysListed": 29,
   "marginPct": 47.578947368421055,
   "marginTier": "high",
   "auctionHeat": "warm",
   "dealTag": "good",
   "bullets": [
     {
-      "tone": "mid",
-      "pipKey": "bullet.pip.mid",
+      "tone": "good",
+      "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 57,
-        "n": 7,
-        "kind": "detail.cohort.refSize.kind.model"
+        "pct": 100,
+        "n": 4,
+        "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 86,
+        "pct": 100,
         "ppkm": 6
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.highKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 29
+        "pct": 25
       }
     },
     {
@@ -61,23 +61,23 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 28
+        "n": 29
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 28
+        "n": 29
       }
     }
   ],
   "summary": {
     "verdictKey": "summary.verdict.good",
     "cohortLineKey": "summary.cohortLine.yes",
-    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": null,
     "heatSuffixKey": null,
     "marginSuffixKey": "summary.suffix.marginHigh",
     "args": {
-      "refSize": 7,
+      "refSize": 4,
       "year": "2022",
       "title": "Peugeot 2008"
     }

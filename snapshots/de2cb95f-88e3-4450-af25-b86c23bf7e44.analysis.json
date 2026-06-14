@@ -1,16 +1,16 @@
 {
   "vehicleId": "de2cb95f-88e3-4450-af25-b86c23bf7e44",
-  "computedAt": "2026-06-14T08:39:11.087Z",
+  "computedAt": "2026-06-14T11:17:06.744Z",
   "cohort": {
-    "sameModelCount": 9,
-    "sameYearCount": 3,
-    "refCohort": "model",
-    "refSize": 9
+    "sameModelCount": 10,
+    "sameYearCount": 4,
+    "refCohort": "model+year",
+    "refSize": 4
   },
-  "pricePercentile": 44,
+  "pricePercentile": 75,
   "pricePerKm": 8.403361344537815,
-  "pricePerKmPercentile": 33,
-  "kmPercentile": 78,
+  "pricePerKmPercentile": 75,
+  "kmPercentile": 25,
   "daysListed": 21,
   "marginPct": 30.5,
   "marginTier": "high",
@@ -18,30 +18,30 @@
   "dealTag": "fair",
   "bullets": [
     {
-      "tone": "mid",
-      "pipKey": "bullet.pip.mid",
+      "tone": "hot",
+      "pipKey": "bullet.pip.high",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 56,
-        "n": 9,
-        "kind": "detail.cohort.refSize.kind.model"
-      }
-    },
-    {
-      "tone": "good",
-      "pipKey": "bullet.pip.value",
-      "textKey": "bullet.ppkmBetter",
-      "textArgs": {
-        "pct": 67,
-        "ppkm": 8
+        "pct": 25,
+        "n": 4,
+        "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
       "tone": "hot",
-      "pipKey": "bullet.pip.highKm",
+      "pipKey": "bullet.pip.pricey",
+      "textKey": "bullet.ppkmBetter",
+      "textArgs": {
+        "pct": 25,
+        "ppkm": 8
+      }
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.lowKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 22
+        "pct": 75
       }
     },
     {
@@ -72,12 +72,12 @@
   "summary": {
     "verdictKey": "summary.verdict.fair",
     "cohortLineKey": "summary.cohortLine.yes",
-    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": null,
     "heatSuffixKey": null,
     "marginSuffixKey": "summary.suffix.marginHigh",
     "args": {
-      "refSize": 9,
+      "refSize": 4,
       "year": "2021",
       "title": "Chery Tiggo 7"
     }

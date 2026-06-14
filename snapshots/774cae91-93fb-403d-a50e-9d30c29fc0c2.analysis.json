@@ -1,38 +1,38 @@
 {
   "vehicleId": "774cae91-93fb-403d-a50e-9d30c29fc0c2",
-  "computedAt": "2026-06-14T08:39:11.299Z",
+  "computedAt": "2026-06-14T11:17:06.952Z",
   "cohort": {
-    "sameModelCount": 7,
-    "sameYearCount": 3,
-    "refCohort": "model",
-    "refSize": 7
+    "sameModelCount": 8,
+    "sameYearCount": 4,
+    "refCohort": "model+year",
+    "refSize": 4
   },
-  "pricePercentile": 71,
+  "pricePercentile": 25,
   "pricePerKm": 10.382937469704315,
-  "pricePerKmPercentile": 57,
-  "kmPercentile": 43,
-  "daysListed": 42,
+  "pricePerKmPercentile": 25,
+  "kmPercentile": 50,
+  "daysListed": 43,
   "marginPct": 7.65639589169001,
   "marginTier": "low",
   "auctionHeat": "hot",
-  "dealTag": "fair",
+  "dealTag": "good",
   "bullets": [
     {
-      "tone": "hot",
-      "pipKey": "bullet.pip.high",
+      "tone": "good",
+      "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 29,
-        "n": 7,
-        "kind": "detail.cohort.refSize.kind.model"
+        "pct": 75,
+        "n": 4,
+        "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
-      "tone": "mid",
+      "tone": "good",
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 43,
+        "pct": 75,
         "ppkm": 10
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 57
+        "pct": 50
       }
     },
     {
@@ -61,23 +61,23 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 42
+        "n": 43
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 42
+        "n": 43
       }
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.fair",
+    "verdictKey": "summary.verdict.good",
     "cohortLineKey": "summary.cohortLine.yes",
-    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": "summary.suffix.marginLow",
     "args": {
-      "refSize": 7,
+      "refSize": 4,
       "year": "2022",
       "title": "Peugeot 2008"
     }

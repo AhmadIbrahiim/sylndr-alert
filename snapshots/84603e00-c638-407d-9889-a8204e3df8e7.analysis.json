@@ -1,0 +1,79 @@
+{
+  "vehicleId": "84603e00-c638-407d-9889-a8204e3df8e7",
+  "computedAt": "2026-06-14T11:17:07.032Z",
+  "cohort": {
+    "sameModelCount": 12,
+    "sameYearCount": 1,
+    "refCohort": "model",
+    "refSize": 12
+  },
+  "pricePercentile": 0,
+  "pricePerKm": 4.178957718780728,
+  "pricePerKmPercentile": 8,
+  "kmPercentile": 83,
+  "daysListed": 0,
+  "marginPct": 36.35294117647059,
+  "marginTier": "high",
+  "auctionHeat": "cold",
+  "dealTag": "good",
+  "bullets": [
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.deal",
+      "textKey": "bullet.priceCheaper",
+      "textArgs": {
+        "pct": 100,
+        "n": 12,
+        "kind": "detail.cohort.refSize.kind.model"
+      }
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.value",
+      "textKey": "bullet.ppkmBetter",
+      "textArgs": {
+        "pct": 92,
+        "ppkm": 4
+      }
+    },
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.highKm",
+      "textKey": "bullet.kmLower",
+      "textArgs": {
+        "pct": 17
+      }
+    },
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.marginPct",
+      "pipArgs": {
+        "pct": "36"
+      },
+      "textKey": "bullet.marginHigh"
+    },
+    {
+      "tone": "neutral",
+      "pipKey": "bullet.pip.cold",
+      "textKey": "bullet.auctionCold"
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.fresh",
+      "textKey": "bullet.listedFresh"
+    }
+  ],
+  "summary": {
+    "verdictKey": "summary.verdict.good",
+    "cohortLineKey": "summary.cohortLine.yes",
+    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "ageSuffixKey": "summary.suffix.ageFresh",
+    "heatSuffixKey": null,
+    "marginSuffixKey": "summary.suffix.marginHigh",
+    "args": {
+      "refSize": 12,
+      "year": "2012",
+      "title": "Jeep Grand Cherokee"
+    }
+  }
+}
