@@ -1,0 +1,79 @@
+{
+  "vehicleId": "1b4f54c3-2eb0-49e1-8f75-e24d4bc97a91",
+  "computedAt": "2026-06-14T13:13:14.468Z",
+  "cohort": {
+    "sameModelCount": 18,
+    "sameYearCount": 3,
+    "refCohort": "model",
+    "refSize": 18
+  },
+  "pricePercentile": 22,
+  "pricePerKm": 2.074990899162723,
+  "pricePerKmPercentile": 0,
+  "kmPercentile": 94,
+  "daysListed": 0,
+  "marginPct": 29.82456140350877,
+  "marginTier": "mid",
+  "auctionHeat": "cold",
+  "dealTag": "good",
+  "bullets": [
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.deal",
+      "textKey": "bullet.priceCheaper",
+      "textArgs": {
+        "pct": 78,
+        "n": 18,
+        "kind": "detail.cohort.refSize.kind.model"
+      }
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.value",
+      "textKey": "bullet.ppkmBetter",
+      "textArgs": {
+        "pct": 100,
+        "ppkm": 2
+      }
+    },
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.highKm",
+      "textKey": "bullet.kmLower",
+      "textArgs": {
+        "pct": 6
+      }
+    },
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.marginPct",
+      "pipArgs": {
+        "pct": "30"
+      },
+      "textKey": "bullet.marginMid"
+    },
+    {
+      "tone": "neutral",
+      "pipKey": "bullet.pip.cold",
+      "textKey": "bullet.auctionCold"
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.fresh",
+      "textKey": "bullet.listedFresh"
+    }
+  ],
+  "summary": {
+    "verdictKey": "summary.verdict.good",
+    "cohortLineKey": "summary.cohortLine.yes",
+    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "ageSuffixKey": "summary.suffix.ageFresh",
+    "heatSuffixKey": null,
+    "marginSuffixKey": null,
+    "args": {
+      "refSize": 18,
+      "year": "2014",
+      "title": "Ford Focus"
+    }
+  }
+}

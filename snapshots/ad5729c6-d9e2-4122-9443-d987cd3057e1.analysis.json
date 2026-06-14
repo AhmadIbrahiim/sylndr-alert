@@ -1,17 +1,17 @@
 {
   "vehicleId": "ad5729c6-d9e2-4122-9443-d987cd3057e1",
-  "computedAt": "2026-06-14T11:17:06.561Z",
+  "computedAt": "2026-06-14T13:13:13.734Z",
   "cohort": {
-    "sameModelCount": 4,
+    "sameModelCount": 5,
     "sameYearCount": 1,
     "refCohort": "model",
-    "refSize": 4
+    "refSize": 5
   },
-  "pricePercentile": 75,
+  "pricePercentile": 80,
   "pricePerKm": 4.801477377654663,
-  "pricePerKmPercentile": 50,
-  "kmPercentile": 25,
-  "daysListed": 121,
+  "pricePerKmPercentile": 60,
+  "kmPercentile": 20,
+  "daysListed": 122,
   "marginPct": 2.1153846153846154,
   "marginTier": "low",
   "auctionHeat": "hot",
@@ -22,8 +22,8 @@
       "pipKey": "bullet.pip.high",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 25,
-        "n": 4,
+        "pct": 20,
+        "n": 5,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 50,
+        "pct": 40,
         "ppkm": 5
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.lowKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 75
+        "pct": 80
       }
     },
     {
@@ -61,11 +61,11 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 121
+        "n": 122
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 121
+        "n": 122
       }
     }
   ],
@@ -77,7 +77,7 @@
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": "summary.suffix.marginLow",
     "args": {
-      "refSize": 4,
+      "refSize": 5,
       "year": "2021",
       "title": "Renault Sandero"
     }

@@ -1,15 +1,15 @@
 {
   "vehicleId": "d88d4055-c8b2-4e4c-a8fa-c4fb65827097",
-  "computedAt": "2026-06-14T11:17:06.757Z",
+  "computedAt": "2026-06-14T13:13:13.979Z",
   "cohort": {
-    "sameModelCount": 10,
-    "sameYearCount": 4,
+    "sameModelCount": 11,
+    "sameYearCount": 5,
     "refCohort": "model+year",
-    "refSize": 4
+    "refSize": 5
   },
-  "pricePercentile": 0,
+  "pricePercentile": 20,
   "pricePerKm": 7.929515418502203,
-  "pricePerKmPercentile": 50,
+  "pricePerKmPercentile": 60,
   "kmPercentile": 0,
   "daysListed": 9,
   "marginPct": 14.444444444444443,
@@ -22,8 +22,8 @@
       "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 100,
-        "n": 4,
+        "pct": 80,
+        "n": 5,
         "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 50,
+        "pct": 40,
         "ppkm": 8
       }
     },
@@ -66,7 +66,7 @@
     "heatSuffixKey": null,
     "marginSuffixKey": "summary.suffix.marginLow",
     "args": {
-      "refSize": 4,
+      "refSize": 5,
       "year": "2021",
       "title": "Chery Tiggo 7"
     }
