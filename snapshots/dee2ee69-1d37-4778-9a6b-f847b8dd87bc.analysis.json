@@ -1,0 +1,52 @@
+{
+  "vehicleId": "dee2ee69-1d37-4778-9a6b-f847b8dd87bc",
+  "computedAt": "2026-06-14T16:54:45.368Z",
+  "cohort": {
+    "sameModelCount": 1,
+    "sameYearCount": 1,
+    "refCohort": "model",
+    "refSize": 1
+  },
+  "pricePercentile": null,
+  "pricePerKm": 10.215249908792412,
+  "pricePerKmPercentile": null,
+  "kmPercentile": null,
+  "daysListed": 0,
+  "marginPct": 30.28571428571429,
+  "marginTier": "high",
+  "auctionHeat": "cold",
+  "dealTag": "fair",
+  "bullets": [
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.marginPct",
+      "pipArgs": {
+        "pct": "30"
+      },
+      "textKey": "bullet.marginHigh"
+    },
+    {
+      "tone": "neutral",
+      "pipKey": "bullet.pip.cold",
+      "textKey": "bullet.auctionCold"
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.fresh",
+      "textKey": "bullet.listedFresh"
+    }
+  ],
+  "summary": {
+    "verdictKey": "summary.verdict.fair",
+    "cohortLineKey": "summary.cohortLine.yes",
+    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "ageSuffixKey": "summary.suffix.ageFresh",
+    "heatSuffixKey": null,
+    "marginSuffixKey": "summary.suffix.marginHigh",
+    "args": {
+      "refSize": 1,
+      "year": "2020",
+      "title": "Alfa Romeo Giulia"
+    }
+  }
+}
