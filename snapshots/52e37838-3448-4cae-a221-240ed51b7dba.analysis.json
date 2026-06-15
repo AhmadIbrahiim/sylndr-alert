@@ -1,17 +1,17 @@
 {
   "vehicleId": "52e37838-3448-4cae-a221-240ed51b7dba",
-  "computedAt": "2026-06-15T10:53:07.171Z",
+  "computedAt": "2026-06-15T16:15:44.724Z",
   "cohort": {
-    "sameModelCount": 5,
+    "sameModelCount": 6,
     "sameYearCount": 1,
     "refCohort": "model",
-    "refSize": 5
+    "refSize": 6
   },
-  "pricePercentile": 20,
+  "pricePercentile": 17,
   "pricePerKm": 3.5244608100999475,
-  "pricePerKmPercentile": 40,
-  "kmPercentile": 20,
-  "daysListed": 47,
+  "pricePerKmPercentile": 33,
+  "kmPercentile": 33,
+  "daysListed": 48,
   "marginPct": 38.656716417910445,
   "marginTier": "high",
   "auctionHeat": "hot",
@@ -22,17 +22,17 @@
       "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 80,
-        "n": 5,
+        "pct": 83,
+        "n": 6,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
     {
-      "tone": "mid",
+      "tone": "good",
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 60,
+        "pct": 67,
         "ppkm": 4
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.lowKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 80
+        "pct": 67
       }
     },
     {
@@ -61,11 +61,11 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 47
+        "n": 48
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 47
+        "n": 48
       }
     }
   ],
@@ -77,7 +77,7 @@
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": "summary.suffix.marginHigh",
     "args": {
-      "refSize": 5,
+      "refSize": 6,
       "year": "2008",
       "title": "Jeep Cherokee"
     }

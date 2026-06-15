@@ -1,16 +1,16 @@
 {
   "vehicleId": "55da4941-fe06-45c4-b33d-a0b1c9dc946c",
-  "computedAt": "2026-06-15T10:53:07.908Z",
+  "computedAt": "2026-06-15T16:15:45.350Z",
   "cohort": {
-    "sameModelCount": 5,
+    "sameModelCount": 6,
     "sameYearCount": 1,
     "refCohort": "model",
-    "refSize": 5
+    "refSize": 6
   },
-  "pricePercentile": 40,
+  "pricePercentile": 33,
   "pricePerKm": 3.371868978805395,
-  "pricePerKmPercentile": 20,
-  "kmPercentile": 40,
+  "pricePerKmPercentile": 17,
+  "kmPercentile": 50,
   "daysListed": 38,
   "marginPct": 32.142857142857146,
   "marginTier": "high",
@@ -18,12 +18,12 @@
   "dealTag": "good",
   "bullets": [
     {
-      "tone": "mid",
-      "pipKey": "bullet.pip.mid",
+      "tone": "good",
+      "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 60,
-        "n": 5,
+        "pct": 67,
+        "n": 6,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 80,
+        "pct": 83,
         "ppkm": 3
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 60
+        "pct": 50
       }
     },
     {
@@ -77,7 +77,7 @@
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": "summary.suffix.marginHigh",
     "args": {
-      "refSize": 5,
+      "refSize": 6,
       "year": "2011",
       "title": "Jeep Cherokee"
     }

@@ -1,16 +1,16 @@
 {
   "vehicleId": "1b2c4e46-cfa2-4e84-9c71-599529cbafcc",
-  "computedAt": "2026-06-15T10:53:07.039Z",
+  "computedAt": "2026-06-15T16:15:44.607Z",
   "cohort": {
-    "sameModelCount": 11,
+    "sameModelCount": 12,
     "sameYearCount": 3,
     "refCohort": "model",
-    "refSize": 11
+    "refSize": 12
   },
-  "pricePercentile": 45,
+  "pricePercentile": 42,
   "pricePerKm": 6.340057636887608,
-  "pricePerKmPercentile": 73,
-  "kmPercentile": 9,
+  "pricePerKmPercentile": 67,
+  "kmPercentile": 17,
   "daysListed": 30,
   "marginPct": 20.18181818181818,
   "marginTier": "mid",
@@ -22,17 +22,17 @@
       "pipKey": "bullet.pip.mid",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 55,
-        "n": 11,
+        "pct": 58,
+        "n": 12,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
     {
-      "tone": "hot",
-      "pipKey": "bullet.pip.pricey",
+      "tone": "mid",
+      "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 27,
+        "pct": 33,
         "ppkm": 6
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.lowKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 91
+        "pct": 83
       }
     },
     {
@@ -77,7 +77,7 @@
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": null,
     "args": {
-      "refSize": 11,
+      "refSize": 12,
       "year": "2019",
       "title": "Renault Sandero Stepway"
     }

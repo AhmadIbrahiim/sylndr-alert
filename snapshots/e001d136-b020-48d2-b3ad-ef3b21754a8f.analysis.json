@@ -1,17 +1,17 @@
 {
   "vehicleId": "e001d136-b020-48d2-b3ad-ef3b21754a8f",
-  "computedAt": "2026-06-15T10:53:07.050Z",
+  "computedAt": "2026-06-15T16:15:44.617Z",
   "cohort": {
-    "sameModelCount": 11,
+    "sameModelCount": 12,
     "sameYearCount": 1,
     "refCohort": "model",
-    "refSize": 11
+    "refSize": 12
   },
   "pricePercentile": 0,
   "pricePerKm": 3.932199787460149,
-  "pricePerKmPercentile": 36,
-  "kmPercentile": 36,
-  "daysListed": 93,
+  "pricePerKmPercentile": 33,
+  "kmPercentile": 42,
+  "daysListed": 94,
   "marginPct": -7.832009080590238,
   "marginTier": "low",
   "auctionHeat": "hot",
@@ -23,16 +23,16 @@
       "textKey": "bullet.priceCheaper",
       "textArgs": {
         "pct": 100,
-        "n": 11,
+        "n": 12,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
     {
-      "tone": "mid",
+      "tone": "good",
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 64,
+        "pct": 67,
         "ppkm": 4
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 64
+        "pct": 58
       }
     },
     {
@@ -61,11 +61,11 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 93
+        "n": 94
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 93
+        "n": 94
       }
     }
   ],
@@ -77,7 +77,7 @@
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": "summary.suffix.marginLow",
     "args": {
-      "refSize": 11,
+      "refSize": 12,
       "year": "2014",
       "title": "Renault Sandero Stepway"
     }

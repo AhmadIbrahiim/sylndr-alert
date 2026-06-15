@@ -1,29 +1,29 @@
 {
   "vehicleId": "26fce506-2874-453e-aea0-36e553e39bd5",
-  "computedAt": "2026-06-15T10:53:06.792Z",
+  "computedAt": "2026-06-15T16:15:44.390Z",
   "cohort": {
-    "sameModelCount": 8,
-    "sameYearCount": 2,
+    "sameModelCount": 9,
+    "sameYearCount": 3,
     "refCohort": "model",
-    "refSize": 8
+    "refSize": 9
   },
-  "pricePercentile": 38,
+  "pricePercentile": 33,
   "pricePerKm": 7.441679626749611,
-  "pricePerKmPercentile": 38,
-  "kmPercentile": 38,
-  "daysListed": 13,
+  "pricePerKmPercentile": 44,
+  "kmPercentile": 33,
+  "daysListed": 14,
   "marginPct": 33.5423197492163,
   "marginTier": "high",
   "auctionHeat": "warm",
   "dealTag": "good",
   "bullets": [
     {
-      "tone": "mid",
-      "pipKey": "bullet.pip.mid",
+      "tone": "good",
+      "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 62,
-        "n": 8,
+        "pct": 67,
+        "n": 9,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -32,16 +32,16 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 62,
+        "pct": 56,
         "ppkm": 7
       }
     },
     {
-      "tone": "mid",
-      "pipKey": "bullet.pip.km",
+      "tone": "good",
+      "pipKey": "bullet.pip.lowKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 62
+        "pct": 67
       }
     },
     {
@@ -56,6 +56,17 @@
       "tone": "mid",
       "pipKey": "bullet.pip.warm",
       "textKey": "bullet.auctionWarm"
+    },
+    {
+      "tone": "neutral",
+      "pipKey": "bullet.pip.daysListed",
+      "pipArgs": {
+        "n": 14
+      },
+      "textKey": "bullet.listedOld",
+      "textArgs": {
+        "n": 14
+      }
     }
   ],
   "summary": {
@@ -66,7 +77,7 @@
     "heatSuffixKey": null,
     "marginSuffixKey": "summary.suffix.marginHigh",
     "args": {
-      "refSize": 8,
+      "refSize": 9,
       "year": "2018",
       "title": "Opel Grand Land"
     }
