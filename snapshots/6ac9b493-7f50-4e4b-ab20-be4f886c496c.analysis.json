@@ -1,17 +1,17 @@
 {
   "vehicleId": "6ac9b493-7f50-4e4b-ab20-be4f886c496c",
-  "computedAt": "2026-06-14T17:27:15.431Z",
+  "computedAt": "2026-06-15T10:53:07.430Z",
   "cohort": {
-    "sameModelCount": 11,
+    "sameModelCount": 12,
     "sameYearCount": 1,
     "refCohort": "model",
-    "refSize": 11
+    "refSize": 12
   },
   "pricePercentile": 0,
   "pricePerKm": 1.5258439824527943,
   "pricePerKmPercentile": 0,
-  "kmPercentile": 91,
-  "daysListed": 29,
+  "kmPercentile": 92,
+  "daysListed": 30,
   "marginPct": 30.25,
   "marginTier": "high",
   "auctionHeat": "hot",
@@ -23,7 +23,7 @@
       "textKey": "bullet.priceCheaper",
       "textArgs": {
         "pct": 100,
-        "n": 11,
+        "n": 12,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.highKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 9
+        "pct": 8
       }
     },
     {
@@ -61,11 +61,11 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 29
+        "n": 30
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 29
+        "n": 30
       }
     }
   ],
@@ -73,11 +73,11 @@
     "verdictKey": "summary.verdict.good",
     "cohortLineKey": "summary.cohortLine.yes",
     "cohortKindKey": "detail.cohort.refSize.kind.model",
-    "ageSuffixKey": null,
+    "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": "summary.suffix.marginHigh",
     "args": {
-      "refSize": 11,
+      "refSize": 12,
       "year": "2014",
       "title": "Citroen C-Elysee"
     }
