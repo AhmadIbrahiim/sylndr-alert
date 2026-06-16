@@ -1,0 +1,52 @@
+{
+  "vehicleId": "79520af4-b0a7-44d8-8098-28acabf2f1c7",
+  "computedAt": "2026-06-16T15:22:54.602Z",
+  "cohort": {
+    "sameModelCount": 1,
+    "sameYearCount": 1,
+    "refCohort": "model",
+    "refSize": 1
+  },
+  "pricePercentile": null,
+  "pricePerKm": 56.56565656565657,
+  "pricePerKmPercentile": null,
+  "kmPercentile": null,
+  "daysListed": 0,
+  "marginPct": 16.714285714285715,
+  "marginTier": "mid",
+  "auctionHeat": "cold",
+  "dealTag": "fair",
+  "bullets": [
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.marginPct",
+      "pipArgs": {
+        "pct": "17"
+      },
+      "textKey": "bullet.marginMid"
+    },
+    {
+      "tone": "neutral",
+      "pipKey": "bullet.pip.cold",
+      "textKey": "bullet.auctionCold"
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.fresh",
+      "textKey": "bullet.listedFresh"
+    }
+  ],
+  "summary": {
+    "verdictKey": "summary.verdict.fair",
+    "cohortLineKey": "summary.cohortLine.yes",
+    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "ageSuffixKey": "summary.suffix.ageFresh",
+    "heatSuffixKey": null,
+    "marginSuffixKey": null,
+    "args": {
+      "refSize": 1,
+      "year": "2023",
+      "title": "Hyundai Avante"
+    }
+  }
+}

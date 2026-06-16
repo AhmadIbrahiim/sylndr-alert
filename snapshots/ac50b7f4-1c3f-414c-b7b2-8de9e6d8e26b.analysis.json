@@ -1,0 +1,52 @@
+{
+  "vehicleId": "ac50b7f4-1c3f-414c-b7b2-8de9e6d8e26b",
+  "computedAt": "2026-06-16T15:22:54.625Z",
+  "cohort": {
+    "sameModelCount": 2,
+    "sameYearCount": 2,
+    "refCohort": "model",
+    "refSize": 2
+  },
+  "pricePercentile": null,
+  "pricePerKm": 89.24949290060852,
+  "pricePerKmPercentile": null,
+  "kmPercentile": null,
+  "daysListed": 0,
+  "marginPct": 16.318181818181817,
+  "marginTier": "mid",
+  "auctionHeat": "cold",
+  "dealTag": "fair",
+  "bullets": [
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.marginPct",
+      "pipArgs": {
+        "pct": "16"
+      },
+      "textKey": "bullet.marginMid"
+    },
+    {
+      "tone": "neutral",
+      "pipKey": "bullet.pip.cold",
+      "textKey": "bullet.auctionCold"
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.fresh",
+      "textKey": "bullet.listedFresh"
+    }
+  ],
+  "summary": {
+    "verdictKey": "summary.verdict.fair",
+    "cohortLineKey": "summary.cohortLine.yes",
+    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "ageSuffixKey": "summary.suffix.ageFresh",
+    "heatSuffixKey": null,
+    "marginSuffixKey": null,
+    "args": {
+      "refSize": 2,
+      "year": "2024",
+      "title": "Alfa Romeo Tonale"
+    }
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "vehicleId": "9eaf5053-554a-487c-bc15-192b26a75a5a",
+  "computedAt": "2026-06-16T15:22:54.715Z",
+  "cohort": {
+    "sameModelCount": 13,
+    "sameYearCount": 2,
+    "refCohort": "model",
+    "refSize": 13
+  },
+  "pricePercentile": 31,
+  "pricePerKm": 2.3980815347721824,
+  "pricePerKmPercentile": 23,
+  "kmPercentile": 85,
+  "daysListed": 0,
+  "marginPct": 35.333333333333336,
+  "marginTier": "high",
+  "auctionHeat": "warm",
+  "dealTag": "good",
+  "bullets": [
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.deal",
+      "textKey": "bullet.priceCheaper",
+      "textArgs": {
+        "pct": 69,
+        "n": 13,
+        "kind": "detail.cohort.refSize.kind.model"
+      }
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.value",
+      "textKey": "bullet.ppkmBetter",
+      "textArgs": {
+        "pct": 77,
+        "ppkm": 2
+      }
+    },
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.highKm",
+      "textKey": "bullet.kmLower",
+      "textArgs": {
+        "pct": 15
+      }
+    },
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.marginPct",
+      "pipArgs": {
+        "pct": "35"
+      },
+      "textKey": "bullet.marginHigh"
+    },
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.warm",
+      "textKey": "bullet.auctionWarm"
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.fresh",
+      "textKey": "bullet.listedFresh"
+    }
+  ],
+  "summary": {
+    "verdictKey": "summary.verdict.good",
+    "cohortLineKey": "summary.cohortLine.yes",
+    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "ageSuffixKey": "summary.suffix.ageFresh",
+    "heatSuffixKey": null,
+    "marginSuffixKey": "summary.suffix.marginHigh",
+    "args": {
+      "refSize": 13,
+      "year": "2018",
+      "title": "Citroen C-Elysee"
+    }
+  }
+}

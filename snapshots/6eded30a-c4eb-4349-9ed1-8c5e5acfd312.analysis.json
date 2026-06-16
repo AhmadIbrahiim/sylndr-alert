@@ -1,22 +1,49 @@
 {
   "vehicleId": "6eded30a-c4eb-4349-9ed1-8c5e5acfd312",
-  "computedAt": "2026-06-16T10:05:11.938Z",
+  "computedAt": "2026-06-16T15:22:54.713Z",
   "cohort": {
-    "sameModelCount": 2,
+    "sameModelCount": 3,
     "sameYearCount": 1,
     "refCohort": "model",
-    "refSize": 2
+    "refSize": 3
   },
-  "pricePercentile": null,
+  "pricePercentile": 0,
   "pricePerKm": 8.98034398034398,
-  "pricePerKmPercentile": null,
-  "kmPercentile": null,
-  "daysListed": 62,
+  "pricePerKmPercentile": 0,
+  "kmPercentile": 67,
+  "daysListed": 63,
   "marginPct": 30.323757409940722,
   "marginTier": "high",
   "auctionHeat": "warm",
-  "dealTag": "fair",
+  "dealTag": "good",
   "bullets": [
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.deal",
+      "textKey": "bullet.priceCheaper",
+      "textArgs": {
+        "pct": 100,
+        "n": 3,
+        "kind": "detail.cohort.refSize.kind.model"
+      }
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.value",
+      "textKey": "bullet.ppkmBetter",
+      "textArgs": {
+        "pct": 100,
+        "ppkm": 9
+      }
+    },
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.km",
+      "textKey": "bullet.kmLower",
+      "textArgs": {
+        "pct": 33
+      }
+    },
     {
       "tone": "hot",
       "pipKey": "bullet.pip.marginPct",
@@ -34,23 +61,23 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 62
+        "n": 63
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 62
+        "n": 63
       }
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.fair",
+    "verdictKey": "summary.verdict.good",
     "cohortLineKey": "summary.cohortLine.yes",
     "cohortKindKey": "detail.cohort.refSize.kind.model",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": null,
     "marginSuffixKey": "summary.suffix.marginHigh",
     "args": {
-      "refSize": 2,
+      "refSize": 3,
       "year": "2017",
       "title": "Mercedes-Benz E 180"
     }

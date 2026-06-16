@@ -1,0 +1,79 @@
+{
+  "vehicleId": "518d8995-28e9-4f22-ab50-e8837f34f442",
+  "computedAt": "2026-06-16T15:22:54.157Z",
+  "cohort": {
+    "sameModelCount": 40,
+    "sameYearCount": 1,
+    "refCohort": "model",
+    "refSize": 40
+  },
+  "pricePercentile": 18,
+  "pricePerKm": 6.040106305870983,
+  "pricePerKmPercentile": 21,
+  "kmPercentile": 77,
+  "daysListed": 0,
+  "marginPct": 19.52,
+  "marginTier": "mid",
+  "auctionHeat": "cold",
+  "dealTag": "good",
+  "bullets": [
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.deal",
+      "textKey": "bullet.priceCheaper",
+      "textArgs": {
+        "pct": 82,
+        "n": 40,
+        "kind": "detail.cohort.refSize.kind.model"
+      }
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.value",
+      "textKey": "bullet.ppkmBetter",
+      "textArgs": {
+        "pct": 79,
+        "ppkm": 6
+      }
+    },
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.highKm",
+      "textKey": "bullet.kmLower",
+      "textArgs": {
+        "pct": 23
+      }
+    },
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.marginPct",
+      "pipArgs": {
+        "pct": "20"
+      },
+      "textKey": "bullet.marginMid"
+    },
+    {
+      "tone": "neutral",
+      "pipKey": "bullet.pip.cold",
+      "textKey": "bullet.auctionCold"
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.fresh",
+      "textKey": "bullet.listedFresh"
+    }
+  ],
+  "summary": {
+    "verdictKey": "summary.verdict.good",
+    "cohortLineKey": "summary.cohortLine.yes",
+    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "ageSuffixKey": "summary.suffix.ageFresh",
+    "heatSuffixKey": null,
+    "marginSuffixKey": null,
+    "args": {
+      "refSize": 40,
+      "year": "2013",
+      "title": "Mercedes-Benz C180"
+    }
+  }
+}

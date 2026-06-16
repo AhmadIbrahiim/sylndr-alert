@@ -1,17 +1,17 @@
 {
   "vehicleId": "f8575f2b-79f7-439d-b167-9d1df31c4b7d",
-  "computedAt": "2026-06-16T10:05:11.751Z",
+  "computedAt": "2026-06-16T15:22:54.494Z",
   "cohort": {
-    "sameModelCount": 3,
+    "sameModelCount": 4,
     "sameYearCount": 1,
     "refCohort": "model",
-    "refSize": 3
+    "refSize": 4
   },
   "pricePercentile": 0,
   "pricePerKm": 1.680672268907563,
   "pricePerKmPercentile": 0,
-  "kmPercentile": 67,
-  "daysListed": 0,
+  "kmPercentile": 75,
+  "daysListed": 1,
   "marginPct": 28.333333333333332,
   "marginTier": "mid",
   "auctionHeat": "cold",
@@ -23,7 +23,7 @@
       "textKey": "bullet.priceCheaper",
       "textArgs": {
         "pct": 100,
-        "n": 3,
+        "n": 4,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -37,11 +37,11 @@
       }
     },
     {
-      "tone": "mid",
-      "pipKey": "bullet.pip.km",
+      "tone": "hot",
+      "pipKey": "bullet.pip.highKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 33
+        "pct": 25
       }
     },
     {
@@ -71,7 +71,7 @@
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 3,
+      "refSize": 4,
       "year": "2009",
       "title": "Citroen C4 Grand Picasso"
     }

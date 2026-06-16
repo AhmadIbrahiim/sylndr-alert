@@ -1,13 +1,13 @@
 {
   "vehicleId": "88498658-0fbb-4510-b88c-1222be236cd7",
-  "computedAt": "2026-06-16T10:05:11.270Z",
+  "computedAt": "2026-06-16T15:22:53.976Z",
   "cohort": {
-    "sameModelCount": 17,
+    "sameModelCount": 18,
     "sameYearCount": 3,
     "refCohort": "model",
-    "refSize": 17
+    "refSize": 18
   },
-  "pricePercentile": 65,
+  "pricePercentile": 67,
   "pricePerKm": 16.843265756109513,
   "pricePerKmPercentile": 94,
   "kmPercentile": 0,
@@ -15,15 +15,15 @@
   "marginPct": 11.454545454545455,
   "marginTier": "low",
   "auctionHeat": "hot",
-  "dealTag": "fair",
+  "dealTag": "high",
   "bullets": [
     {
       "tone": "mid",
       "pipKey": "bullet.pip.mid",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 35,
-        "n": 17,
+        "pct": 33,
+        "n": 18,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -70,14 +70,14 @@
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.fair",
+    "verdictKey": "summary.verdict.high",
     "cohortLineKey": "summary.cohortLine.yes",
     "cohortKindKey": "detail.cohort.refSize.kind.model",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": "summary.suffix.marginLow",
     "args": {
-      "refSize": 17,
+      "refSize": 18,
       "year": "2019",
       "title": "Peugeot 301"
     }

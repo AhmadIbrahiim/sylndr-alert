@@ -1,22 +1,49 @@
 {
   "vehicleId": "a82ada0c-af90-4365-96ee-17246187d681",
-  "computedAt": "2026-06-16T10:05:11.395Z",
+  "computedAt": "2026-06-16T15:22:54.109Z",
   "cohort": {
-    "sameModelCount": 2,
+    "sameModelCount": 3,
     "sameYearCount": 1,
     "refCohort": "model",
-    "refSize": 2
+    "refSize": 3
   },
-  "pricePercentile": null,
+  "pricePercentile": 67,
   "pricePerKm": 40.59328649492584,
-  "pricePerKmPercentile": null,
-  "kmPercentile": null,
-  "daysListed": 32,
+  "pricePerKmPercentile": 67,
+  "kmPercentile": 0,
+  "daysListed": 33,
   "marginPct": 3.7307692307692304,
   "marginTier": "low",
   "auctionHeat": "hot",
   "dealTag": "fair",
   "bullets": [
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.mid",
+      "textKey": "bullet.priceCheaper",
+      "textArgs": {
+        "pct": 33,
+        "n": 3,
+        "kind": "detail.cohort.refSize.kind.model"
+      }
+    },
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.value",
+      "textKey": "bullet.ppkmBetter",
+      "textArgs": {
+        "pct": 33,
+        "ppkm": 41
+      }
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.lowKm",
+      "textKey": "bullet.kmLower",
+      "textArgs": {
+        "pct": 100
+      }
+    },
     {
       "tone": "good",
       "pipKey": "bullet.pip.marginPct",
@@ -34,11 +61,11 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 32
+        "n": 33
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 32
+        "n": 33
       }
     }
   ],
@@ -50,7 +77,7 @@
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": "summary.suffix.marginLow",
     "args": {
-      "refSize": 2,
+      "refSize": 3,
       "year": "2019",
       "title": "Mercedes-Benz E 180"
     }

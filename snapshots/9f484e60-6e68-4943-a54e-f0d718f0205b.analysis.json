@@ -1,22 +1,49 @@
 {
   "vehicleId": "9f484e60-6e68-4943-a54e-f0d718f0205b",
-  "computedAt": "2026-06-16T10:05:11.628Z",
+  "computedAt": "2026-06-16T15:22:54.363Z",
   "cohort": {
-    "sameModelCount": 2,
+    "sameModelCount": 3,
     "sameYearCount": 1,
     "refCohort": "model",
-    "refSize": 2
+    "refSize": 3
   },
-  "pricePercentile": null,
+  "pricePercentile": 67,
   "pricePerKm": 57.12166172106825,
-  "pricePerKmPercentile": null,
-  "kmPercentile": null,
-  "daysListed": 4,
+  "pricePerKmPercentile": 67,
+  "kmPercentile": 33,
+  "daysListed": 5,
   "marginPct": 22.649350649350648,
   "marginTier": "mid",
   "auctionHeat": "cold",
   "dealTag": "fair",
   "bullets": [
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.mid",
+      "textKey": "bullet.priceCheaper",
+      "textArgs": {
+        "pct": 33,
+        "n": 3,
+        "kind": "detail.cohort.refSize.kind.model"
+      }
+    },
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.value",
+      "textKey": "bullet.ppkmBetter",
+      "textArgs": {
+        "pct": 33,
+        "ppkm": 57
+      }
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.lowKm",
+      "textKey": "bullet.kmLower",
+      "textArgs": {
+        "pct": 67
+      }
+    },
     {
       "tone": "mid",
       "pipKey": "bullet.pip.marginPct",
@@ -39,7 +66,7 @@
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 2,
+      "refSize": 3,
       "year": "2020",
       "title": "Mercedes-Benz E350"
     }
