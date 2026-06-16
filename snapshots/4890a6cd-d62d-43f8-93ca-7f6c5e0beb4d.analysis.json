@@ -1,17 +1,17 @@
 {
   "vehicleId": "4890a6cd-d62d-43f8-93ca-7f6c5e0beb4d",
-  "computedAt": "2026-06-15T19:53:18.229Z",
+  "computedAt": "2026-06-16T10:05:11.782Z",
   "cohort": {
-    "sameModelCount": 3,
+    "sameModelCount": 4,
     "sameYearCount": 2,
     "refCohort": "model",
-    "refSize": 3
+    "refSize": 4
   },
   "pricePercentile": 0,
   "pricePerKm": 4.914529914529915,
   "pricePerKmPercentile": 0,
-  "kmPercentile": 67,
-  "daysListed": 0,
+  "kmPercentile": 75,
+  "daysListed": 1,
   "marginPct": 20.08695652173913,
   "marginTier": "mid",
   "auctionHeat": "cold",
@@ -23,7 +23,7 @@
       "textKey": "bullet.priceCheaper",
       "textArgs": {
         "pct": 100,
-        "n": 3,
+        "n": 4,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -37,11 +37,11 @@
       }
     },
     {
-      "tone": "mid",
-      "pipKey": "bullet.pip.km",
+      "tone": "hot",
+      "pipKey": "bullet.pip.highKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 33
+        "pct": 25
       }
     },
     {
@@ -71,7 +71,7 @@
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 3,
+      "refSize": 4,
       "year": "2019",
       "title": "Kia Sorento"
     }
