@@ -1,16 +1,16 @@
 {
   "vehicleId": "1b460f2f-3f32-4d1c-81ba-3cff982930e8",
-  "computedAt": "2026-06-17T13:02:00.484Z",
+  "computedAt": "2026-06-17T16:44:12.242Z",
   "cohort": {
-    "sameModelCount": 6,
+    "sameModelCount": 7,
     "sameYearCount": 3,
     "refCohort": "model",
-    "refSize": 6
+    "refSize": 7
   },
-  "pricePercentile": 83,
+  "pricePercentile": 86,
   "pricePerKm": 5.936920222634508,
-  "pricePerKmPercentile": 67,
-  "kmPercentile": 17,
+  "pricePerKmPercentile": 71,
+  "kmPercentile": 29,
   "daysListed": 30,
   "marginPct": 11,
   "marginTier": "low",
@@ -22,17 +22,17 @@
       "pipKey": "bullet.pip.high",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 17,
-        "n": 6,
+        "pct": 14,
+        "n": 7,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
     {
-      "tone": "mid",
-      "pipKey": "bullet.pip.value",
+      "tone": "hot",
+      "pipKey": "bullet.pip.pricey",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 33,
+        "pct": 29,
         "ppkm": 6
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.lowKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 83
+        "pct": 71
       }
     },
     {
@@ -77,7 +77,7 @@
     "heatSuffixKey": null,
     "marginSuffixKey": "summary.suffix.marginLow",
     "args": {
-      "refSize": 6,
+      "refSize": 7,
       "year": "2019",
       "title": "Seat Toledo"
     }

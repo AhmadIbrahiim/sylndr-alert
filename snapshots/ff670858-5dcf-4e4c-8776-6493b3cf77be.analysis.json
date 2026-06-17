@@ -1,0 +1,79 @@
+{
+  "vehicleId": "ff670858-5dcf-4e4c-8776-6493b3cf77be",
+  "computedAt": "2026-06-17T16:44:12.318Z",
+  "cohort": {
+    "sameModelCount": 7,
+    "sameYearCount": 1,
+    "refCohort": "model",
+    "refSize": 7
+  },
+  "pricePercentile": 57,
+  "pricePerKm": 10.557184750733137,
+  "pricePerKmPercentile": 71,
+  "kmPercentile": 14,
+  "daysListed": 0,
+  "marginPct": 19.305555555555557,
+  "marginTier": "mid",
+  "auctionHeat": "cold",
+  "dealTag": "fair",
+  "bullets": [
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.mid",
+      "textKey": "bullet.priceCheaper",
+      "textArgs": {
+        "pct": 43,
+        "n": 7,
+        "kind": "detail.cohort.refSize.kind.model"
+      }
+    },
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.pricey",
+      "textKey": "bullet.ppkmBetter",
+      "textArgs": {
+        "pct": 29,
+        "ppkm": 11
+      }
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.lowKm",
+      "textKey": "bullet.kmLower",
+      "textArgs": {
+        "pct": 86
+      }
+    },
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.marginPct",
+      "pipArgs": {
+        "pct": "19"
+      },
+      "textKey": "bullet.marginMid"
+    },
+    {
+      "tone": "neutral",
+      "pipKey": "bullet.pip.cold",
+      "textKey": "bullet.auctionCold"
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.fresh",
+      "textKey": "bullet.listedFresh"
+    }
+  ],
+  "summary": {
+    "verdictKey": "summary.verdict.fair",
+    "cohortLineKey": "summary.cohortLine.yes",
+    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "ageSuffixKey": "summary.suffix.ageFresh",
+    "heatSuffixKey": null,
+    "marginSuffixKey": null,
+    "args": {
+      "refSize": 7,
+      "year": "2020",
+      "title": "Ford Ecosport"
+    }
+  }
+}

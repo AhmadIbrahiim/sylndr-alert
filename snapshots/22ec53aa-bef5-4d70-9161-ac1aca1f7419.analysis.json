@@ -1,17 +1,17 @@
 {
   "vehicleId": "22ec53aa-bef5-4d70-9161-ac1aca1f7419",
-  "computedAt": "2026-06-17T13:02:00.610Z",
+  "computedAt": "2026-06-17T16:44:12.384Z",
   "cohort": {
-    "sameModelCount": 4,
+    "sameModelCount": 5,
     "sameYearCount": 1,
     "refCohort": "model",
-    "refSize": 4
+    "refSize": 5
   },
   "pricePercentile": 0,
   "pricePerKm": 0.876361913784936,
   "pricePerKmPercentile": 0,
-  "kmPercentile": 75,
-  "daysListed": 62,
+  "kmPercentile": 80,
+  "daysListed": 63,
   "marginPct": 64.86486486486487,
   "marginTier": "high",
   "auctionHeat": "hot",
@@ -23,7 +23,7 @@
       "textKey": "bullet.priceCheaper",
       "textArgs": {
         "pct": 100,
-        "n": 4,
+        "n": 5,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.highKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 25
+        "pct": 20
       }
     },
     {
@@ -61,11 +61,11 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 62
+        "n": 63
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 62
+        "n": 63
       }
     }
   ],
@@ -77,7 +77,7 @@
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": "summary.suffix.marginHigh",
     "args": {
-      "refSize": 4,
+      "refSize": 5,
       "year": "2018",
       "title": "BYD F3"
     }

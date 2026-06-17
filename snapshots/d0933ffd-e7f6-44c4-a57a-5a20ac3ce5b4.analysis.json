@@ -1,16 +1,16 @@
 {
   "vehicleId": "d0933ffd-e7f6-44c4-a57a-5a20ac3ce5b4",
-  "computedAt": "2026-06-17T13:02:01.173Z",
+  "computedAt": "2026-06-17T16:44:12.974Z",
   "cohort": {
-    "sameModelCount": 4,
+    "sameModelCount": 5,
     "sameYearCount": 1,
     "refCohort": "model",
-    "refSize": 4
+    "refSize": 5
   },
-  "pricePercentile": 75,
+  "pricePercentile": 80,
   "pricePerKm": 10.442477876106194,
-  "pricePerKmPercentile": 50,
-  "kmPercentile": 25,
+  "pricePerKmPercentile": 40,
+  "kmPercentile": 40,
   "daysListed": 4,
   "marginPct": 16.779661016949152,
   "marginTier": "mid",
@@ -22,8 +22,8 @@
       "pipKey": "bullet.pip.high",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 25,
-        "n": 4,
+        "pct": 20,
+        "n": 5,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -32,16 +32,16 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 50,
+        "pct": 60,
         "ppkm": 10
       }
     },
     {
-      "tone": "good",
-      "pipKey": "bullet.pip.lowKm",
+      "tone": "mid",
+      "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 75
+        "pct": 60
       }
     },
     {
@@ -66,7 +66,7 @@
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 4,
+      "refSize": 5,
       "year": "2024",
       "title": "BYD F3"
     }

@@ -1,22 +1,49 @@
 {
   "vehicleId": "f131fe89-ac30-491a-bde5-8c96d19defe6",
-  "computedAt": "2026-06-17T13:02:01.259Z",
+  "computedAt": "2026-06-17T16:44:13.064Z",
   "cohort": {
-    "sameModelCount": 2,
-    "sameYearCount": 1,
+    "sameModelCount": 3,
+    "sameYearCount": 2,
     "refCohort": "model",
-    "refSize": 2
+    "refSize": 3
   },
-  "pricePercentile": null,
+  "pricePercentile": 33,
   "pricePerKm": 3.4408602150537635,
-  "pricePerKmPercentile": null,
-  "kmPercentile": null,
-  "daysListed": 90,
+  "pricePerKmPercentile": 33,
+  "kmPercentile": 33,
+  "daysListed": 91,
   "marginPct": 42,
   "marginTier": "high",
   "auctionHeat": "hot",
-  "dealTag": "fair",
+  "dealTag": "good",
   "bullets": [
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.deal",
+      "textKey": "bullet.priceCheaper",
+      "textArgs": {
+        "pct": 67,
+        "n": 3,
+        "kind": "detail.cohort.refSize.kind.model"
+      }
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.value",
+      "textKey": "bullet.ppkmBetter",
+      "textArgs": {
+        "pct": 67,
+        "ppkm": 3
+      }
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.lowKm",
+      "textKey": "bullet.kmLower",
+      "textArgs": {
+        "pct": 67
+      }
+    },
     {
       "tone": "hot",
       "pipKey": "bullet.pip.marginPct",
@@ -34,23 +61,23 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 90
+        "n": 91
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 90
+        "n": 91
       }
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.fair",
+    "verdictKey": "summary.verdict.good",
     "cohortLineKey": "summary.cohortLine.yes",
     "cohortKindKey": "detail.cohort.refSize.kind.model",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": "summary.suffix.marginHigh",
     "args": {
-      "refSize": 2,
+      "refSize": 3,
       "year": "2010",
       "title": "Kia Picanto"
     }

@@ -1,15 +1,15 @@
 {
   "vehicleId": "22f6e18c-5322-4701-922d-f4162ba94e6d",
-  "computedAt": "2026-06-17T13:02:01.046Z",
+  "computedAt": "2026-06-17T16:44:12.841Z",
   "cohort": {
-    "sameModelCount": 4,
+    "sameModelCount": 5,
     "sameYearCount": 1,
     "refCohort": "model",
-    "refSize": 4
+    "refSize": 5
   },
-  "pricePercentile": 50,
+  "pricePercentile": 40,
   "pricePerKm": 13.687150837988828,
-  "pricePerKmPercentile": 75,
+  "pricePerKmPercentile": 60,
   "kmPercentile": 0,
   "daysListed": 38,
   "marginPct": 7.959183673469387,
@@ -22,17 +22,17 @@
       "pipKey": "bullet.pip.mid",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 50,
-        "n": 4,
+        "pct": 60,
+        "n": 5,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
     {
-      "tone": "hot",
-      "pipKey": "bullet.pip.pricey",
+      "tone": "mid",
+      "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 25,
+        "pct": 40,
         "ppkm": 14
       }
     },
@@ -77,7 +77,7 @@
     "heatSuffixKey": null,
     "marginSuffixKey": "summary.suffix.marginLow",
     "args": {
-      "refSize": 4,
+      "refSize": 5,
       "year": "2022",
       "title": "BYD F3"
     }
