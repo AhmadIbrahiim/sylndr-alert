@@ -1,29 +1,29 @@
 {
   "vehicleId": "d92b089d-f6da-4201-a77a-ea9d4f1382a8",
-  "computedAt": "2026-06-16T19:43:59.089Z",
+  "computedAt": "2026-06-17T13:02:00.963Z",
   "cohort": {
-    "sameModelCount": 12,
+    "sameModelCount": 13,
     "sameYearCount": 3,
     "refCohort": "model",
-    "refSize": 12
+    "refSize": 13
   },
-  "pricePercentile": 83,
+  "pricePercentile": 85,
   "pricePerKm": 37.714285714285715,
-  "pricePerKmPercentile": 75,
-  "kmPercentile": 17,
-  "daysListed": 119,
+  "pricePerKmPercentile": 77,
+  "kmPercentile": 15,
+  "daysListed": 120,
   "marginPct": 20.23172905525847,
   "marginTier": "mid",
   "auctionHeat": "hot",
-  "dealTag": "fair",
+  "dealTag": "high",
   "bullets": [
     {
       "tone": "hot",
       "pipKey": "bullet.pip.high",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 17,
-        "n": 12,
+        "pct": 15,
+        "n": 13,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.pricey",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 25,
+        "pct": 23,
         "ppkm": 38
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.lowKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 83
+        "pct": 85
       }
     },
     {
@@ -61,23 +61,23 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 119
+        "n": 120
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 119
+        "n": 120
       }
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.fair",
+    "verdictKey": "summary.verdict.high",
     "cohortLineKey": "summary.cohortLine.yes",
     "cohortKindKey": "detail.cohort.refSize.kind.model",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": null,
     "args": {
-      "refSize": 12,
+      "refSize": 13,
       "year": "2024",
       "title": "Skoda KODIAQ"
     }

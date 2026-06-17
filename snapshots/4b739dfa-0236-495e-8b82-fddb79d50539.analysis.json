@@ -1,0 +1,79 @@
+{
+  "vehicleId": "4b739dfa-0236-495e-8b82-fddb79d50539",
+  "computedAt": "2026-06-17T13:02:00.618Z",
+  "cohort": {
+    "sameModelCount": 42,
+    "sameYearCount": 3,
+    "refCohort": "model",
+    "refSize": 42
+  },
+  "pricePercentile": 10,
+  "pricePerKm": 3.4313725490196076,
+  "pricePerKmPercentile": 5,
+  "kmPercentile": 90,
+  "daysListed": 0,
+  "marginPct": 25.612244897959187,
+  "marginTier": "mid",
+  "auctionHeat": "cold",
+  "dealTag": "good",
+  "bullets": [
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.deal",
+      "textKey": "bullet.priceCheaper",
+      "textArgs": {
+        "pct": 90,
+        "n": 42,
+        "kind": "detail.cohort.refSize.kind.model"
+      }
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.value",
+      "textKey": "bullet.ppkmBetter",
+      "textArgs": {
+        "pct": 95,
+        "ppkm": 3
+      }
+    },
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.highKm",
+      "textKey": "bullet.kmLower",
+      "textArgs": {
+        "pct": 10
+      }
+    },
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.marginPct",
+      "pipArgs": {
+        "pct": "26"
+      },
+      "textKey": "bullet.marginMid"
+    },
+    {
+      "tone": "neutral",
+      "pipKey": "bullet.pip.cold",
+      "textKey": "bullet.auctionCold"
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.fresh",
+      "textKey": "bullet.listedFresh"
+    }
+  ],
+  "summary": {
+    "verdictKey": "summary.verdict.good",
+    "cohortLineKey": "summary.cohortLine.yes",
+    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "ageSuffixKey": "summary.suffix.ageFresh",
+    "heatSuffixKey": null,
+    "marginSuffixKey": null,
+    "args": {
+      "refSize": 42,
+      "year": "2011",
+      "title": "Mercedes-Benz C180"
+    }
+  }
+}

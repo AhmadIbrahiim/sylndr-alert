@@ -1,38 +1,38 @@
 {
   "vehicleId": "a309f134-0f99-4aed-a7e9-2e8fc28a9044",
-  "computedAt": "2026-06-16T19:43:59.247Z",
+  "computedAt": "2026-06-17T13:02:01.120Z",
   "cohort": {
-    "sameModelCount": 13,
-    "sameYearCount": 4,
+    "sameModelCount": 14,
+    "sameYearCount": 5,
     "refCohort": "model+year",
-    "refSize": 4
+    "refSize": 5
   },
-  "pricePercentile": 25,
+  "pricePercentile": 20,
   "pricePerKm": 6.143045195261079,
-  "pricePerKmPercentile": 75,
-  "kmPercentile": 0,
-  "daysListed": 24,
+  "pricePerKmPercentile": 60,
+  "kmPercentile": 20,
+  "daysListed": 25,
   "marginPct": 14.428571428571429,
   "marginTier": "low",
   "auctionHeat": "cold",
-  "dealTag": "fair",
+  "dealTag": "good",
   "bullets": [
     {
       "tone": "good",
       "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 75,
-        "n": 4,
+        "pct": 80,
+        "n": 5,
         "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
-      "tone": "hot",
-      "pipKey": "bullet.pip.pricey",
+      "tone": "mid",
+      "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 25,
+        "pct": 40,
         "ppkm": 6
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.lowKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 100
+        "pct": 80
       }
     },
     {
@@ -61,23 +61,23 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 24
+        "n": 25
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 24
+        "n": 25
       }
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.fair",
+    "verdictKey": "summary.verdict.good",
     "cohortLineKey": "summary.cohortLine.yes",
     "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": null,
     "heatSuffixKey": null,
     "marginSuffixKey": "summary.suffix.marginLow",
     "args": {
-      "refSize": 4,
+      "refSize": 5,
       "year": "2021",
       "title": "Citroen C-Elysee"
     }

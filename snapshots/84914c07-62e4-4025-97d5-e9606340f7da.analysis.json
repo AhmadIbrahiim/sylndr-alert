@@ -1,17 +1,17 @@
 {
   "vehicleId": "84914c07-62e4-4025-97d5-e9606340f7da",
-  "computedAt": "2026-06-16T19:43:59.425Z",
+  "computedAt": "2026-06-17T13:02:01.299Z",
   "cohort": {
-    "sameModelCount": 43,
-    "sameYearCount": 3,
-    "refCohort": "model",
-    "refSize": 43
+    "sameModelCount": 44,
+    "sameYearCount": 4,
+    "refCohort": "model+year",
+    "refSize": 4
   },
-  "pricePercentile": 16,
+  "pricePercentile": 25,
   "pricePerKm": 2.693266832917706,
-  "pricePerKmPercentile": 12,
-  "kmPercentile": 74,
-  "daysListed": 76,
+  "pricePerKmPercentile": 25,
+  "kmPercentile": 50,
+  "daysListed": 77,
   "marginPct": 21.666666666666668,
   "marginTier": "mid",
   "auctionHeat": "hot",
@@ -22,9 +22,9 @@
       "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 84,
-        "n": 43,
-        "kind": "detail.cohort.refSize.kind.model"
+        "pct": 75,
+        "n": 4,
+        "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
@@ -32,16 +32,16 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 88,
+        "pct": 75,
         "ppkm": 3
       }
     },
     {
-      "tone": "hot",
-      "pipKey": "bullet.pip.highKm",
+      "tone": "mid",
+      "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 26
+        "pct": 50
       }
     },
     {
@@ -61,23 +61,23 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 76
+        "n": 77
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 76
+        "n": 77
       }
     }
   ],
   "summary": {
     "verdictKey": "summary.verdict.good",
     "cohortLineKey": "summary.cohortLine.yes",
-    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": null,
     "args": {
-      "refSize": 43,
+      "refSize": 4,
       "year": "2013",
       "title": "Opel Astra"
     }

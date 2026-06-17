@@ -1,29 +1,29 @@
 {
   "vehicleId": "d37a283a-6a0a-4949-950e-0c4628ff1b15",
-  "computedAt": "2026-06-16T19:43:58.965Z",
+  "computedAt": "2026-06-17T13:02:00.841Z",
   "cohort": {
-    "sameModelCount": 13,
+    "sameModelCount": 14,
     "sameYearCount": 3,
     "refCohort": "model",
-    "refSize": 13
+    "refSize": 14
   },
-  "pricePercentile": 69,
+  "pricePercentile": 64,
   "pricePerKm": 21.176470588235293,
-  "pricePerKmPercentile": 92,
+  "pricePerKmPercentile": 93,
   "kmPercentile": 0,
-  "daysListed": 169,
+  "daysListed": 170,
   "marginPct": 15.138888888888888,
   "marginTier": "mid",
   "auctionHeat": "hot",
-  "dealTag": "high",
+  "dealTag": "fair",
   "bullets": [
     {
       "tone": "mid",
       "pipKey": "bullet.pip.mid",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 31,
-        "n": 13,
+        "pct": 36,
+        "n": 14,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.pricey",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 8,
+        "pct": 7,
         "ppkm": 21
       }
     },
@@ -61,23 +61,23 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 169
+        "n": 170
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 169
+        "n": 170
       }
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.high",
+    "verdictKey": "summary.verdict.fair",
     "cohortLineKey": "summary.cohortLine.yes",
     "cohortKindKey": "detail.cohort.refSize.kind.model",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": null,
     "args": {
-      "refSize": 13,
+      "refSize": 14,
       "year": "2023",
       "title": "Citroen C-Elysee"
     }
