@@ -1,29 +1,29 @@
 {
   "vehicleId": "9334645a-ef83-479a-8e30-16800ec41187",
-  "computedAt": "2026-06-18T12:32:19.724Z",
+  "computedAt": "2026-06-18T16:16:25.442Z",
   "cohort": {
-    "sameModelCount": 16,
+    "sameModelCount": 17,
     "sameYearCount": 1,
     "refCohort": "model",
-    "refSize": 16
+    "refSize": 17
   },
-  "pricePercentile": 31,
+  "pricePercentile": 29,
   "pricePerKm": 17.65142150803461,
-  "pricePerKmPercentile": 38,
-  "kmPercentile": 50,
-  "daysListed": 78,
+  "pricePerKmPercentile": 41,
+  "kmPercentile": 47,
+  "daysListed": 79,
   "marginPct": 49.50980392156863,
   "marginTier": "high",
   "auctionHeat": "hot",
-  "dealTag": "good",
+  "dealTag": "fair",
   "bullets": [
     {
       "tone": "good",
       "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 69,
-        "n": 16,
+        "pct": 71,
+        "n": 17,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 62,
+        "pct": 59,
         "ppkm": 18
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 50
+        "pct": 53
       }
     },
     {
@@ -61,23 +61,23 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 78
+        "n": 79
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 78
+        "n": 79
       }
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.good",
+    "verdictKey": "summary.verdict.fair",
     "cohortLineKey": "summary.cohortLine.yes",
     "cohortKindKey": "detail.cohort.refSize.kind.model",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": "summary.suffix.marginHigh",
     "args": {
-      "refSize": 16,
+      "refSize": 17,
       "year": "2021",
       "title": "Hyundai Tucson"
     }

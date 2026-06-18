@@ -1,29 +1,29 @@
 {
   "vehicleId": "d859a144-f7fe-424d-8472-9f18920b0ec7",
-  "computedAt": "2026-06-18T12:32:19.849Z",
+  "computedAt": "2026-06-18T16:16:25.570Z",
   "cohort": {
-    "sameModelCount": 16,
-    "sameYearCount": 2,
+    "sameModelCount": 17,
+    "sameYearCount": 3,
     "refCohort": "model",
-    "refSize": 16
+    "refSize": 17
   },
-  "pricePercentile": 44,
+  "pricePercentile": 47,
   "pricePerKm": 9.654313298037994,
-  "pricePerKmPercentile": 19,
-  "kmPercentile": 81,
-  "daysListed": 30,
+  "pricePerKmPercentile": 24,
+  "kmPercentile": 76,
+  "daysListed": 31,
   "marginPct": 30.838709677419356,
   "marginTier": "high",
   "auctionHeat": "cold",
-  "dealTag": "good",
+  "dealTag": "fair",
   "bullets": [
     {
       "tone": "mid",
       "pipKey": "bullet.pip.mid",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 56,
-        "n": 16,
+        "pct": 53,
+        "n": 17,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 81,
+        "pct": 76,
         "ppkm": 10
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.highKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 19
+        "pct": 24
       }
     },
     {
@@ -61,23 +61,23 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 30
+        "n": 31
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 30
+        "n": 31
       }
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.good",
+    "verdictKey": "summary.verdict.fair",
     "cohortLineKey": "summary.cohortLine.yes",
     "cohortKindKey": "detail.cohort.refSize.kind.model",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": null,
     "marginSuffixKey": "summary.suffix.marginHigh",
     "args": {
-      "refSize": 16,
+      "refSize": 17,
       "year": "2020",
       "title": "Hyundai Tucson"
     }
