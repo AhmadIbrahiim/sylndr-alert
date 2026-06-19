@@ -1,22 +1,49 @@
 {
   "vehicleId": "c6aa320e-1195-45ec-b5c1-d3bc1f1f088e",
-  "computedAt": "2026-06-19T09:27:05.404Z",
+  "computedAt": "2026-06-19T12:59:29.719Z",
   "cohort": {
-    "sameModelCount": 2,
+    "sameModelCount": 3,
     "sameYearCount": 1,
     "refCohort": "model",
-    "refSize": 2
+    "refSize": 3
   },
-  "pricePercentile": null,
+  "pricePercentile": 67,
   "pricePerKm": 460.16055198036224,
-  "pricePerKmPercentile": null,
-  "kmPercentile": null,
-  "daysListed": 70,
+  "pricePerKmPercentile": 33,
+  "kmPercentile": 33,
+  "daysListed": 71,
   "marginPct": 8.809111880046135,
   "marginTier": "low",
   "auctionHeat": "hot",
   "dealTag": "fair",
   "bullets": [
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.mid",
+      "textKey": "bullet.priceCheaper",
+      "textArgs": {
+        "pct": 33,
+        "n": 3,
+        "kind": "detail.cohort.refSize.kind.model"
+      }
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.value",
+      "textKey": "bullet.ppkmBetter",
+      "textArgs": {
+        "pct": 67,
+        "ppkm": 460
+      }
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.lowKm",
+      "textKey": "bullet.kmLower",
+      "textArgs": {
+        "pct": 67
+      }
+    },
     {
       "tone": "good",
       "pipKey": "bullet.pip.marginPct",
@@ -34,11 +61,11 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 70
+        "n": 71
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 70
+        "n": 71
       }
     }
   ],
@@ -50,7 +77,7 @@
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": "summary.suffix.marginLow",
     "args": {
-      "refSize": 2,
+      "refSize": 3,
       "year": "2022",
       "title": "Toyota Land cruiser"
     }

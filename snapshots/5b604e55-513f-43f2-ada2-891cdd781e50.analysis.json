@@ -1,29 +1,29 @@
 {
   "vehicleId": "5b604e55-513f-43f2-ada2-891cdd781e50",
-  "computedAt": "2026-06-19T09:27:04.938Z",
+  "computedAt": "2026-06-19T12:59:29.442Z",
   "cohort": {
-    "sameModelCount": 12,
-    "sameYearCount": 6,
+    "sameModelCount": 13,
+    "sameYearCount": 7,
     "refCohort": "model+year",
-    "refSize": 6
+    "refSize": 7
   },
-  "pricePercentile": 83,
+  "pricePercentile": 86,
   "pricePerKm": 15.748031496062993,
-  "pricePerKmPercentile": 60,
-  "kmPercentile": 40,
-  "daysListed": 38,
+  "pricePerKmPercentile": 67,
+  "kmPercentile": 33,
+  "daysListed": 39,
   "marginPct": 22.384615384615383,
   "marginTier": "mid",
   "auctionHeat": "hot",
-  "dealTag": "high",
+  "dealTag": "fair",
   "bullets": [
     {
       "tone": "hot",
       "pipKey": "bullet.pip.high",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 17,
-        "n": 6,
+        "pct": 14,
+        "n": 7,
         "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
@@ -32,16 +32,16 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 40,
+        "pct": 33,
         "ppkm": 16
       }
     },
     {
-      "tone": "mid",
-      "pipKey": "bullet.pip.km",
+      "tone": "good",
+      "pipKey": "bullet.pip.lowKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 60
+        "pct": 67
       }
     },
     {
@@ -61,23 +61,23 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 38
+        "n": 39
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 38
+        "n": 39
       }
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.high",
+    "verdictKey": "summary.verdict.fair",
     "cohortLineKey": "summary.cohortLine.yes",
     "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": null,
     "args": {
-      "refSize": 6,
+      "refSize": 7,
       "year": "2022",
       "title": "MG HS"
     }
