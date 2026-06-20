@@ -1,38 +1,38 @@
 {
   "vehicleId": "bdc45cf4-f9dd-482e-812a-433ba951a614",
-  "computedAt": "2026-06-20T16:06:20.104Z",
+  "computedAt": "2026-06-20T17:41:54.221Z",
   "cohort": {
-    "sameModelCount": 25,
-    "sameYearCount": 3,
-    "refCohort": "model",
-    "refSize": 25
+    "sameModelCount": 26,
+    "sameYearCount": 4,
+    "refCohort": "model+year",
+    "refSize": 4
   },
-  "pricePercentile": 84,
+  "pricePercentile": 25,
   "pricePerKm": 4.334121355397951,
-  "pricePerKmPercentile": 60,
-  "kmPercentile": 48,
+  "pricePerKmPercentile": 25,
+  "kmPercentile": 50,
   "daysListed": 1,
   "marginPct": 17.272727272727273,
   "marginTier": "mid",
   "auctionHeat": "cold",
-  "dealTag": "high",
+  "dealTag": "good",
   "bullets": [
     {
-      "tone": "hot",
-      "pipKey": "bullet.pip.high",
+      "tone": "good",
+      "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 16,
-        "n": 25,
-        "kind": "detail.cohort.refSize.kind.model"
+        "pct": 75,
+        "n": 4,
+        "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
-      "tone": "mid",
+      "tone": "good",
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 40,
+        "pct": 75,
         "ppkm": 4
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 52
+        "pct": 50
       }
     },
     {
@@ -64,14 +64,14 @@
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.high",
+    "verdictKey": "summary.verdict.good",
     "cohortLineKey": "summary.cohortLine.yes",
-    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageFresh",
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 25,
+      "refSize": 4,
       "year": "2020",
       "title": "Renault Logan"
     }

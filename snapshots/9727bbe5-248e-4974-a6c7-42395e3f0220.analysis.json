@@ -1,38 +1,38 @@
 {
   "vehicleId": "9727bbe5-248e-4974-a6c7-42395e3f0220",
-  "computedAt": "2026-06-20T16:06:20.667Z",
+  "computedAt": "2026-06-20T17:41:54.682Z",
   "cohort": {
-    "sameModelCount": 25,
-    "sameYearCount": 3,
-    "refCohort": "model",
-    "refSize": 25
+    "sameModelCount": 26,
+    "sameYearCount": 4,
+    "refCohort": "model+year",
+    "refSize": 4
   },
-  "pricePercentile": 76,
+  "pricePercentile": 0,
   "pricePerKm": 8.000476923076922,
-  "pricePerKmPercentile": 88,
-  "kmPercentile": 8,
+  "pricePerKmPercentile": 50,
+  "kmPercentile": 0,
   "daysListed": 80,
   "marginPct": 17.889510433031877,
   "marginTier": "mid",
   "auctionHeat": "hot",
-  "dealTag": "high",
+  "dealTag": "good",
   "bullets": [
     {
-      "tone": "hot",
-      "pipKey": "bullet.pip.high",
+      "tone": "good",
+      "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 24,
-        "n": 25,
-        "kind": "detail.cohort.refSize.kind.model"
+        "pct": 100,
+        "n": 4,
+        "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
-      "tone": "hot",
-      "pipKey": "bullet.pip.pricey",
+      "tone": "mid",
+      "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 12,
+        "pct": 50,
         "ppkm": 8
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.lowKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 92
+        "pct": 100
       }
     },
     {
@@ -70,14 +70,14 @@
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.high",
+    "verdictKey": "summary.verdict.good",
     "cohortLineKey": "summary.cohortLine.yes",
-    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": null,
     "args": {
-      "refSize": 25,
+      "refSize": 4,
       "year": "2020",
       "title": "Renault Logan"
     }
