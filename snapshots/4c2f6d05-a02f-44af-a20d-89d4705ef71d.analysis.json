@@ -1,38 +1,38 @@
 {
   "vehicleId": "4c2f6d05-a02f-44af-a20d-89d4705ef71d",
-  "computedAt": "2026-06-20T12:26:40.911Z",
+  "computedAt": "2026-06-20T14:41:02.544Z",
   "cohort": {
-    "sameModelCount": 5,
+    "sameModelCount": 7,
     "sameYearCount": 2,
     "refCohort": "model",
-    "refSize": 5
+    "refSize": 7
   },
-  "pricePercentile": 20,
+  "pricePercentile": 14,
   "pricePerKm": 2.6284348864994027,
-  "pricePerKmPercentile": 80,
-  "kmPercentile": 0,
-  "daysListed": 46,
+  "pricePerKmPercentile": 57,
+  "kmPercentile": 29,
+  "daysListed": 47,
   "marginPct": 15.909090909090908,
   "marginTier": "mid",
   "auctionHeat": "hot",
-  "dealTag": "fair",
+  "dealTag": "good",
   "bullets": [
     {
       "tone": "good",
       "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 80,
-        "n": 5,
+        "pct": 86,
+        "n": 7,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
     {
-      "tone": "hot",
-      "pipKey": "bullet.pip.pricey",
+      "tone": "mid",
+      "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 20,
+        "pct": 43,
         "ppkm": 3
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.lowKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 100
+        "pct": 71
       }
     },
     {
@@ -61,23 +61,23 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 46
+        "n": 47
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 46
+        "n": 47
       }
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.fair",
+    "verdictKey": "summary.verdict.good",
     "cohortLineKey": "summary.cohortLine.yes",
     "cohortKindKey": "detail.cohort.refSize.kind.model",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": null,
     "args": {
-      "refSize": 5,
+      "refSize": 7,
       "year": "2015",
       "title": "Chevrolet Cruze"
     }
