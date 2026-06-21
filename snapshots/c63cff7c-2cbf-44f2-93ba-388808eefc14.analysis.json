@@ -1,16 +1,16 @@
 {
   "vehicleId": "c63cff7c-2cbf-44f2-93ba-388808eefc14",
-  "computedAt": "2026-06-21T08:56:04.743Z",
+  "computedAt": "2026-06-21T11:44:37.740Z",
   "cohort": {
-    "sameModelCount": 5,
+    "sameModelCount": 6,
     "sameYearCount": 3,
     "refCohort": "model",
-    "refSize": 5
+    "refSize": 6
   },
   "pricePercentile": 0,
   "pricePerKm": 3.0538749639873237,
-  "pricePerKmPercentile": 20,
-  "kmPercentile": 60,
+  "pricePerKmPercentile": 33,
+  "kmPercentile": 50,
   "daysListed": 10,
   "marginPct": 16.79245283018868,
   "marginTier": "mid",
@@ -23,7 +23,7 @@
       "textKey": "bullet.priceCheaper",
       "textArgs": {
         "pct": 100,
-        "n": 5,
+        "n": 6,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 80,
+        "pct": 67,
         "ppkm": 3
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 40
+        "pct": 50
       }
     },
     {
@@ -66,7 +66,7 @@
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 5,
+      "refSize": 6,
       "year": "2015",
       "title": "Renault Fluence"
     }

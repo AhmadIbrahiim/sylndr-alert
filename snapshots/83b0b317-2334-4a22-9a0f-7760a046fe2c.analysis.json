@@ -1,16 +1,16 @@
 {
   "vehicleId": "83b0b317-2334-4a22-9a0f-7760a046fe2c",
-  "computedAt": "2026-06-21T08:56:05.099Z",
+  "computedAt": "2026-06-21T11:44:38.122Z",
   "cohort": {
-    "sameModelCount": 3,
+    "sameModelCount": 4,
     "sameYearCount": 1,
     "refCohort": "model",
-    "refSize": 3
+    "refSize": 4
   },
   "pricePercentile": 0,
   "pricePerKm": 4.157495720224994,
-  "pricePerKmPercentile": 0,
-  "kmPercentile": 67,
+  "pricePerKmPercentile": 25,
+  "kmPercentile": 50,
   "daysListed": 96,
   "marginPct": 29.176470588235293,
   "marginTier": "mid",
@@ -23,7 +23,7 @@
       "textKey": "bullet.priceCheaper",
       "textArgs": {
         "pct": 100,
-        "n": 3,
+        "n": 4,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 100,
+        "pct": 75,
         "ppkm": 4
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 33
+        "pct": 50
       }
     },
     {
@@ -77,7 +77,7 @@
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": null,
     "args": {
-      "refSize": 3,
+      "refSize": 4,
       "year": "2015",
       "title": "Mercedes-Benz B180"
     }
