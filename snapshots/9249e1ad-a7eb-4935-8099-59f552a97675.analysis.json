@@ -1,13 +1,13 @@
 {
   "vehicleId": "9249e1ad-a7eb-4935-8099-59f552a97675",
-  "computedAt": "2026-06-21T15:25:59.394Z",
+  "computedAt": "2026-06-21T17:03:47.626Z",
   "cohort": {
-    "sameModelCount": 12,
+    "sameModelCount": 13,
     "sameYearCount": 1,
     "refCohort": "model",
-    "refSize": 12
+    "refSize": 13
   },
-  "pricePercentile": 67,
+  "pricePercentile": 69,
   "pricePerKm": 110.72319201995012,
   "pricePerKmPercentile": 92,
   "kmPercentile": 0,
@@ -15,15 +15,15 @@
   "marginPct": 5.27027027027027,
   "marginTier": "low",
   "auctionHeat": "warm",
-  "dealTag": "fair",
+  "dealTag": "high",
   "bullets": [
     {
       "tone": "mid",
       "pipKey": "bullet.pip.mid",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 33,
-        "n": 12,
+        "pct": 31,
+        "n": 13,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -64,14 +64,14 @@
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.fair",
+    "verdictKey": "summary.verdict.high",
     "cohortLineKey": "summary.cohortLine.yes",
     "cohortKindKey": "detail.cohort.refSize.kind.model",
     "ageSuffixKey": "summary.suffix.ageFresh",
     "heatSuffixKey": null,
     "marginSuffixKey": "summary.suffix.marginLow",
     "args": {
-      "refSize": 12,
+      "refSize": 13,
       "year": "2025",
       "title": "Audi Q3"
     }
