@@ -1,22 +1,49 @@
 {
   "vehicleId": "fb1c4d58-8dd7-41c5-8840-7efa2e86e20e",
-  "computedAt": "2026-06-21T13:26:56.536Z",
+  "computedAt": "2026-06-21T15:25:58.995Z",
   "cohort": {
-    "sameModelCount": 2,
+    "sameModelCount": 3,
     "sameYearCount": 1,
     "refCohort": "model",
-    "refSize": 2
+    "refSize": 3
   },
-  "pricePercentile": null,
+  "pricePercentile": 67,
   "pricePerKm": 132.6259946949602,
-  "pricePerKmPercentile": null,
-  "kmPercentile": null,
-  "daysListed": 32,
+  "pricePerKmPercentile": 67,
+  "kmPercentile": 0,
+  "daysListed": 33,
   "marginPct": 31,
   "marginTier": "high",
   "auctionHeat": "cold",
   "dealTag": "fair",
   "bullets": [
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.mid",
+      "textKey": "bullet.priceCheaper",
+      "textArgs": {
+        "pct": 33,
+        "n": 3,
+        "kind": "detail.cohort.refSize.kind.model"
+      }
+    },
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.value",
+      "textKey": "bullet.ppkmBetter",
+      "textArgs": {
+        "pct": 33,
+        "ppkm": 133
+      }
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.lowKm",
+      "textKey": "bullet.kmLower",
+      "textArgs": {
+        "pct": 100
+      }
+    },
     {
       "tone": "hot",
       "pipKey": "bullet.pip.marginPct",
@@ -34,11 +61,11 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 32
+        "n": 33
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 32
+        "n": 33
       }
     }
   ],
@@ -50,7 +77,7 @@
     "heatSuffixKey": null,
     "marginSuffixKey": "summary.suffix.marginHigh",
     "args": {
-      "refSize": 2,
+      "refSize": 3,
       "year": "2025",
       "title": "Peugeot 408"
     }

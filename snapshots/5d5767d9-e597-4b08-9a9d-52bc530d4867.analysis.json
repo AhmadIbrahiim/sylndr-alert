@@ -1,22 +1,49 @@
 {
   "vehicleId": "5d5767d9-e597-4b08-9a9d-52bc530d4867",
-  "computedAt": "2026-06-21T13:26:56.359Z",
+  "computedAt": "2026-06-21T15:25:58.821Z",
   "cohort": {
-    "sameModelCount": 2,
+    "sameModelCount": 3,
     "sameYearCount": 1,
     "refCohort": "model",
-    "refSize": 2
+    "refSize": 3
   },
-  "pricePercentile": null,
+  "pricePercentile": 0,
   "pricePerKm": 4.893722194760257,
-  "pricePerKmPercentile": null,
-  "kmPercentile": null,
+  "pricePerKmPercentile": 0,
+  "kmPercentile": 33,
   "daysListed": 80,
   "marginPct": 18.383838383838384,
   "marginTier": "mid",
   "auctionHeat": "hot",
-  "dealTag": "fair",
+  "dealTag": "good",
   "bullets": [
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.deal",
+      "textKey": "bullet.priceCheaper",
+      "textArgs": {
+        "pct": 100,
+        "n": 3,
+        "kind": "detail.cohort.refSize.kind.model"
+      }
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.value",
+      "textKey": "bullet.ppkmBetter",
+      "textArgs": {
+        "pct": 100,
+        "ppkm": 5
+      }
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.lowKm",
+      "textKey": "bullet.kmLower",
+      "textArgs": {
+        "pct": 67
+      }
+    },
     {
       "tone": "mid",
       "pipKey": "bullet.pip.marginPct",
@@ -43,14 +70,14 @@
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.fair",
+    "verdictKey": "summary.verdict.good",
     "cohortLineKey": "summary.cohortLine.yes",
     "cohortKindKey": "detail.cohort.refSize.kind.model",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": null,
     "args": {
-      "refSize": 2,
+      "refSize": 3,
       "year": "2012",
       "title": "Peugeot 408"
     }

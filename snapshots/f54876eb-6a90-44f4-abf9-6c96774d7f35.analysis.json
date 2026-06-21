@@ -1,38 +1,38 @@
 {
   "vehicleId": "f54876eb-6a90-44f4-abf9-6c96774d7f35",
-  "computedAt": "2026-06-21T13:26:56.477Z",
+  "computedAt": "2026-06-21T15:25:58.938Z",
   "cohort": {
-    "sameModelCount": 26,
-    "sameYearCount": 3,
-    "refCohort": "model",
-    "refSize": 26
+    "sameModelCount": 27,
+    "sameYearCount": 4,
+    "refCohort": "model+year",
+    "refSize": 4
   },
-  "pricePercentile": 58,
+  "pricePercentile": 75,
   "pricePerKm": 5.305039787798409,
-  "pricePerKmPercentile": 69,
-  "kmPercentile": 27,
-  "daysListed": 38,
+  "pricePerKmPercentile": 75,
+  "kmPercentile": 0,
+  "daysListed": 39,
   "marginPct": 23.400000000000002,
   "marginTier": "mid",
   "auctionHeat": "hot",
   "dealTag": "fair",
   "bullets": [
     {
-      "tone": "mid",
-      "pipKey": "bullet.pip.mid",
+      "tone": "hot",
+      "pipKey": "bullet.pip.high",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 42,
-        "n": 26,
-        "kind": "detail.cohort.refSize.kind.model"
+        "pct": 25,
+        "n": 4,
+        "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
-      "tone": "mid",
-      "pipKey": "bullet.pip.value",
+      "tone": "hot",
+      "pipKey": "bullet.pip.pricey",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 31,
+        "pct": 25,
         "ppkm": 5
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.lowKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 73
+        "pct": 100
       }
     },
     {
@@ -61,23 +61,23 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 38
+        "n": 39
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 38
+        "n": 39
       }
     }
   ],
   "summary": {
     "verdictKey": "summary.verdict.fair",
     "cohortLineKey": "summary.cohortLine.yes",
-    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": null,
     "args": {
-      "refSize": 26,
+      "refSize": 4,
       "year": "2018",
       "title": "Renault Logan"
     }

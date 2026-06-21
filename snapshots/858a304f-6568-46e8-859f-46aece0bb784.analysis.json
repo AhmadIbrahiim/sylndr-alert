@@ -1,16 +1,16 @@
 {
   "vehicleId": "858a304f-6568-46e8-859f-46aece0bb784",
-  "computedAt": "2026-06-21T13:26:57.422Z",
+  "computedAt": "2026-06-21T15:25:59.874Z",
   "cohort": {
-    "sameModelCount": 4,
-    "sameYearCount": 2,
+    "sameModelCount": 5,
+    "sameYearCount": 3,
     "refCohort": "model",
-    "refSize": 4
+    "refSize": 5
   },
-  "pricePercentile": 50,
+  "pricePercentile": 40,
   "pricePerKm": 6.285714285714286,
-  "pricePerKmPercentile": 50,
-  "kmPercentile": 25,
+  "pricePerKmPercentile": 40,
+  "kmPercentile": 40,
   "daysListed": 145,
   "marginPct": null,
   "marginTier": null,
@@ -22,8 +22,8 @@
       "pipKey": "bullet.pip.mid",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 50,
-        "n": 4,
+        "pct": 60,
+        "n": 5,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -32,16 +32,16 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 50,
+        "pct": 60,
         "ppkm": 6
       }
     },
     {
-      "tone": "good",
-      "pipKey": "bullet.pip.lowKm",
+      "tone": "mid",
+      "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 75
+        "pct": 60
       }
     },
     {
@@ -69,7 +69,7 @@
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": null,
     "args": {
-      "refSize": 4,
+      "refSize": 5,
       "year": "2022",
       "title": "Suzuki Ciaz"
     }

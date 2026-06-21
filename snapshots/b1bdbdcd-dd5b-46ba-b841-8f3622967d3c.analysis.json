@@ -1,38 +1,38 @@
 {
   "vehicleId": "b1bdbdcd-dd5b-46ba-b841-8f3622967d3c",
-  "computedAt": "2026-06-21T13:26:57.144Z",
+  "computedAt": "2026-06-21T15:25:59.584Z",
   "cohort": {
-    "sameModelCount": 26,
-    "sameYearCount": 3,
-    "refCohort": "model",
-    "refSize": 26
+    "sameModelCount": 27,
+    "sameYearCount": 4,
+    "refCohort": "model+year",
+    "refSize": 4
   },
-  "pricePercentile": 42,
+  "pricePercentile": 25,
   "pricePerKm": 3.697617091207888,
-  "pricePerKmPercentile": 50,
-  "kmPercentile": 38,
+  "pricePerKmPercentile": 25,
+  "kmPercentile": 50,
   "daysListed": 44,
   "marginPct": 11.333333333333332,
   "marginTier": "low",
   "auctionHeat": "hot",
-  "dealTag": "fair",
+  "dealTag": "good",
   "bullets": [
     {
-      "tone": "mid",
-      "pipKey": "bullet.pip.mid",
+      "tone": "good",
+      "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 58,
-        "n": 26,
-        "kind": "detail.cohort.refSize.kind.model"
+        "pct": 75,
+        "n": 4,
+        "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
-      "tone": "mid",
+      "tone": "good",
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 50,
+        "pct": 75,
         "ppkm": 4
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 62
+        "pct": 50
       }
     },
     {
@@ -70,14 +70,14 @@
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.fair",
+    "verdictKey": "summary.verdict.good",
     "cohortLineKey": "summary.cohortLine.yes",
-    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": "summary.suffix.marginLow",
     "args": {
-      "refSize": 26,
+      "refSize": 4,
       "year": "2018",
       "title": "Renault Logan"
     }
