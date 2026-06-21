@@ -1,29 +1,29 @@
 {
   "vehicleId": "9754829e-2440-47cb-afa1-089195fa68bd",
-  "computedAt": "2026-06-21T11:44:37.824Z",
+  "computedAt": "2026-06-21T13:26:57.063Z",
   "cohort": {
-    "sameModelCount": 11,
+    "sameModelCount": 12,
     "sameYearCount": 2,
     "refCohort": "model",
-    "refSize": 11
+    "refSize": 12
   },
-  "pricePercentile": 27,
+  "pricePercentile": 25,
   "pricePerKm": 18.426592797783933,
-  "pricePerKmPercentile": 55,
-  "kmPercentile": 36,
-  "daysListed": 72,
+  "pricePerKmPercentile": 50,
+  "kmPercentile": 42,
+  "daysListed": 73,
   "marginPct": 24.714371617558626,
   "marginTier": "mid",
   "auctionHeat": "hot",
-  "dealTag": "good",
+  "dealTag": "fair",
   "bullets": [
     {
       "tone": "good",
       "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 73,
-        "n": 11,
+        "pct": 75,
+        "n": 12,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 45,
+        "pct": 50,
         "ppkm": 18
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 64
+        "pct": 58
       }
     },
     {
@@ -61,23 +61,23 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 72
+        "n": 73
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 72
+        "n": 73
       }
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.good",
+    "verdictKey": "summary.verdict.fair",
     "cohortLineKey": "summary.cohortLine.yes",
     "cohortKindKey": "detail.cohort.refSize.kind.model",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": null,
     "args": {
-      "refSize": 11,
+      "refSize": 12,
       "year": "2021",
       "title": "Audi Q3"
     }

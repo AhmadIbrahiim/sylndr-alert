@@ -1,16 +1,16 @@
 {
   "vehicleId": "0986895c-b2b8-4a30-a783-528395e35920",
-  "computedAt": "2026-06-21T11:44:37.488Z",
+  "computedAt": "2026-06-21T13:26:56.727Z",
   "cohort": {
-    "sameModelCount": 11,
+    "sameModelCount": 12,
     "sameYearCount": 1,
     "refCohort": "model",
-    "refSize": 11
+    "refSize": 12
   },
-  "pricePercentile": 73,
+  "pricePercentile": 75,
   "pricePerKm": 39.31203931203931,
-  "pricePerKmPercentile": 73,
-  "kmPercentile": 18,
+  "pricePerKmPercentile": 67,
+  "kmPercentile": 25,
   "daysListed": 10,
   "marginPct": 15.041666666666668,
   "marginTier": "mid",
@@ -22,17 +22,17 @@
       "pipKey": "bullet.pip.high",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 27,
-        "n": 11,
+        "pct": 25,
+        "n": 12,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
     {
-      "tone": "hot",
-      "pipKey": "bullet.pip.pricey",
+      "tone": "mid",
+      "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 27,
+        "pct": 33,
         "ppkm": 39
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.lowKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 82
+        "pct": 75
       }
     },
     {
@@ -66,7 +66,7 @@
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 11,
+      "refSize": 12,
       "year": "2023",
       "title": "Audi Q3"
     }

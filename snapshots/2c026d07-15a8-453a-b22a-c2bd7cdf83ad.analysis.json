@@ -1,17 +1,17 @@
 {
   "vehicleId": "2c026d07-15a8-453a-b22a-c2bd7cdf83ad",
-  "computedAt": "2026-06-21T11:44:37.370Z",
+  "computedAt": "2026-06-21T13:26:56.609Z",
   "cohort": {
-    "sameModelCount": 11,
-    "sameYearCount": 4,
+    "sameModelCount": 12,
+    "sameYearCount": 5,
     "refCohort": "model+year",
-    "refSize": 4
+    "refSize": 5
   },
-  "pricePercentile": 75,
+  "pricePercentile": 80,
   "pricePerKm": 12.553495007132668,
-  "pricePerKmPercentile": 75,
+  "pricePerKmPercentile": 80,
   "kmPercentile": 0,
-  "daysListed": 40,
+  "daysListed": 41,
   "marginPct": 17.84090909090909,
   "marginTier": "mid",
   "auctionHeat": "hot",
@@ -22,8 +22,8 @@
       "pipKey": "bullet.pip.high",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 25,
-        "n": 4,
+        "pct": 20,
+        "n": 5,
         "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.pricey",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 25,
+        "pct": 20,
         "ppkm": 13
       }
     },
@@ -61,11 +61,11 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 40
+        "n": 41
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 40
+        "n": 41
       }
     }
   ],
@@ -77,7 +77,7 @@
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": null,
     "args": {
-      "refSize": 4,
+      "refSize": 5,
       "year": "2021",
       "title": "MG 6"
     }
