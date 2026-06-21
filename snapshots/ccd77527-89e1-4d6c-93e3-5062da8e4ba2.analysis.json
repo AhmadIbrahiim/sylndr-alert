@@ -1,16 +1,16 @@
 {
   "vehicleId": "ccd77527-89e1-4d6c-93e3-5062da8e4ba2",
-  "computedAt": "2026-06-20T17:41:54.784Z",
+  "computedAt": "2026-06-21T08:56:05.190Z",
   "cohort": {
-    "sameModelCount": 3,
+    "sameModelCount": 4,
     "sameYearCount": 1,
     "refCohort": "model",
-    "refSize": 3
+    "refSize": 4
   },
   "pricePercentile": 0,
   "pricePerKm": 8.928571428571429,
   "pricePerKmPercentile": 0,
-  "kmPercentile": 67,
+  "kmPercentile": 75,
   "daysListed": 7,
   "marginPct": 17.21212121212121,
   "marginTier": "mid",
@@ -23,7 +23,7 @@
       "textKey": "bullet.priceCheaper",
       "textArgs": {
         "pct": 100,
-        "n": 3,
+        "n": 4,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -37,11 +37,11 @@
       }
     },
     {
-      "tone": "mid",
-      "pipKey": "bullet.pip.km",
+      "tone": "hot",
+      "pipKey": "bullet.pip.highKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 33
+        "pct": 25
       }
     },
     {
@@ -66,7 +66,7 @@
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 3,
+      "refSize": 4,
       "year": "2018",
       "title": "Audi A5"
     }
