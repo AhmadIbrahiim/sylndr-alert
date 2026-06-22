@@ -1,38 +1,38 @@
 {
   "vehicleId": "ab3e99bc-7f4d-4f4b-87d0-3f5acc53c4bd",
-  "computedAt": "2026-06-22T10:35:50.766Z",
+  "computedAt": "2026-06-22T15:48:37.952Z",
   "cohort": {
-    "sameModelCount": 9,
+    "sameModelCount": 10,
     "sameYearCount": 1,
     "refCohort": "model",
-    "refSize": 9
+    "refSize": 10
   },
-  "pricePercentile": 78,
+  "pricePercentile": 70,
   "pricePerKm": 23.261694058154234,
-  "pricePerKmPercentile": 78,
-  "kmPercentile": 11,
-  "daysListed": 84,
+  "pricePerKmPercentile": 70,
+  "kmPercentile": 20,
+  "daysListed": 85,
   "marginPct": 26.6304347826087,
   "marginTier": "mid",
   "auctionHeat": "hot",
   "dealTag": "fair",
   "bullets": [
     {
-      "tone": "hot",
-      "pipKey": "bullet.pip.high",
+      "tone": "mid",
+      "pipKey": "bullet.pip.mid",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 22,
-        "n": 9,
+        "pct": 30,
+        "n": 10,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
     {
-      "tone": "hot",
-      "pipKey": "bullet.pip.pricey",
+      "tone": "mid",
+      "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 22,
+        "pct": 30,
         "ppkm": 23
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.lowKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 89
+        "pct": 80
       }
     },
     {
@@ -61,11 +61,11 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 84
+        "n": 85
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 84
+        "n": 85
       }
     }
   ],
@@ -77,7 +77,7 @@
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": null,
     "args": {
-      "refSize": 9,
+      "refSize": 10,
       "year": "2022",
       "title": "MG ZS"
     }

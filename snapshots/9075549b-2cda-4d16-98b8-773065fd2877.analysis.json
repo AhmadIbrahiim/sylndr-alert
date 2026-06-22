@@ -1,17 +1,17 @@
 {
   "vehicleId": "9075549b-2cda-4d16-98b8-773065fd2877",
-  "computedAt": "2026-06-22T10:35:51.774Z",
+  "computedAt": "2026-06-22T15:48:38.933Z",
   "cohort": {
-    "sameModelCount": 19,
-    "sameYearCount": 3,
-    "refCohort": "model",
-    "refSize": 19
+    "sameModelCount": 20,
+    "sameYearCount": 4,
+    "refCohort": "model+year",
+    "refSize": 4
   },
-  "pricePercentile": 26,
+  "pricePercentile": 0,
   "pricePerKm": 3.477285473920359,
-  "pricePerKmPercentile": 32,
-  "kmPercentile": 74,
-  "daysListed": 15,
+  "pricePerKmPercentile": 25,
+  "kmPercentile": 50,
+  "daysListed": 16,
   "marginPct": 26.29032258064516,
   "marginTier": "mid",
   "auctionHeat": "cold",
@@ -22,9 +22,9 @@
       "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 74,
-        "n": 19,
-        "kind": "detail.cohort.refSize.kind.model"
+        "pct": 100,
+        "n": 4,
+        "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
@@ -32,16 +32,16 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 68,
+        "pct": 75,
         "ppkm": 3
       }
     },
     {
-      "tone": "hot",
-      "pipKey": "bullet.pip.highKm",
+      "tone": "mid",
+      "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 26
+        "pct": 50
       }
     },
     {
@@ -61,23 +61,23 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 15
+        "n": 16
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 15
+        "n": 16
       }
     }
   ],
   "summary": {
     "verdictKey": "summary.verdict.good",
     "cohortLineKey": "summary.cohortLine.yes",
-    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": null,
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 19,
+      "refSize": 4,
       "year": "2018",
       "title": "Ford Focus"
     }
