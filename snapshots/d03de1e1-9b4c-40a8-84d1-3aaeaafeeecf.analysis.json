@@ -1,29 +1,29 @@
 {
   "vehicleId": "d03de1e1-9b4c-40a8-84d1-3aaeaafeeecf",
-  "computedAt": "2026-06-21T17:45:59.756Z",
+  "computedAt": "2026-06-22T10:35:51.719Z",
   "cohort": {
-    "sameModelCount": 3,
+    "sameModelCount": 6,
     "sameYearCount": 1,
     "refCohort": "model",
-    "refSize": 3
+    "refSize": 6
   },
-  "pricePercentile": 67,
+  "pricePercentile": 33,
   "pricePerKm": 10.242587601078167,
   "pricePerKmPercentile": 67,
-  "kmPercentile": 0,
-  "daysListed": 109,
+  "kmPercentile": 17,
+  "daysListed": 110,
   "marginPct": 30.701754385964914,
   "marginTier": "high",
   "auctionHeat": "hot",
   "dealTag": "fair",
   "bullets": [
     {
-      "tone": "mid",
-      "pipKey": "bullet.pip.mid",
+      "tone": "good",
+      "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 33,
-        "n": 3,
+        "pct": 67,
+        "n": 6,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.lowKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 100
+        "pct": 83
       }
     },
     {
@@ -61,11 +61,11 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 109
+        "n": 110
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 109
+        "n": 110
       }
     }
   ],
@@ -77,7 +77,7 @@
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": "summary.suffix.marginHigh",
     "args": {
-      "refSize": 3,
+      "refSize": 6,
       "year": "2015",
       "title": "Kia Picanto"
     }

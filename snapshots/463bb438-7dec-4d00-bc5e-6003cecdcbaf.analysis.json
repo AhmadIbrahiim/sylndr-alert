@@ -1,16 +1,16 @@
 {
   "vehicleId": "463bb438-7dec-4d00-bc5e-6003cecdcbaf",
-  "computedAt": "2026-06-21T17:45:59.819Z",
+  "computedAt": "2026-06-22T10:35:51.780Z",
   "cohort": {
-    "sameModelCount": 9,
+    "sameModelCount": 10,
     "sameYearCount": 1,
     "refCohort": "model",
-    "refSize": 9
+    "refSize": 10
   },
-  "pricePercentile": 89,
+  "pricePercentile": 90,
   "pricePerKm": 61.51057401812689,
-  "pricePerKmPercentile": 89,
-  "kmPercentile": 0,
+  "pricePerKmPercentile": 80,
+  "kmPercentile": 10,
   "daysListed": 12,
   "marginPct": 14.931237721021612,
   "marginTier": "low",
@@ -22,8 +22,8 @@
       "pipKey": "bullet.pip.high",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 11,
-        "n": 9,
+        "pct": 10,
+        "n": 10,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.pricey",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 11,
+        "pct": 20,
         "ppkm": 62
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.lowKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 100
+        "pct": 90
       }
     },
     {
@@ -66,7 +66,7 @@
     "heatSuffixKey": null,
     "marginSuffixKey": "summary.suffix.marginLow",
     "args": {
-      "refSize": 9,
+      "refSize": 10,
       "year": "2025",
       "title": "Nissan Sentra"
     }
