@@ -1,17 +1,17 @@
 {
   "vehicleId": "23863e31-0600-4321-94b5-0508cb3c038b",
-  "computedAt": "2026-06-23T11:39:17.407Z",
+  "computedAt": "2026-06-23T14:04:50.249Z",
   "cohort": {
-    "sameModelCount": 3,
+    "sameModelCount": 4,
     "sameYearCount": 1,
     "refCohort": "model",
-    "refSize": 3
+    "refSize": 4
   },
   "pricePercentile": 0,
   "pricePerKm": 5.254332029066518,
   "pricePerKmPercentile": 0,
-  "kmPercentile": 67,
-  "daysListed": 55,
+  "kmPercentile": 75,
+  "daysListed": 56,
   "marginPct": 8.191489361702127,
   "marginTier": "low",
   "auctionHeat": "hot",
@@ -23,7 +23,7 @@
       "textKey": "bullet.priceCheaper",
       "textArgs": {
         "pct": 100,
-        "n": 3,
+        "n": 4,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -37,11 +37,11 @@
       }
     },
     {
-      "tone": "mid",
-      "pipKey": "bullet.pip.km",
+      "tone": "hot",
+      "pipKey": "bullet.pip.highKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 33
+        "pct": 25
       }
     },
     {
@@ -61,11 +61,11 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 55
+        "n": 56
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 55
+        "n": 56
       }
     }
   ],
@@ -77,7 +77,7 @@
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": "summary.suffix.marginLow",
     "args": {
-      "refSize": 3,
+      "refSize": 4,
       "year": "2016",
       "title": "Volvo XC60"
     }
