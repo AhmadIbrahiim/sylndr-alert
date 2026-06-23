@@ -1,17 +1,17 @@
 {
   "vehicleId": "a23ecca4-7e6b-48a4-8d44-304b6aaa0917",
-  "computedAt": "2026-06-23T08:27:33.944Z",
+  "computedAt": "2026-06-23T11:39:17.530Z",
   "cohort": {
-    "sameModelCount": 20,
-    "sameYearCount": 4,
+    "sameModelCount": 21,
+    "sameYearCount": 5,
     "refCohort": "model+year",
-    "refSize": 4
+    "refSize": 5
   },
-  "pricePercentile": 75,
+  "pricePercentile": 80,
   "pricePerKm": 5.869469995619799,
-  "pricePerKmPercentile": 75,
+  "pricePerKmPercentile": 80,
   "kmPercentile": 0,
-  "daysListed": 0,
+  "daysListed": 1,
   "marginPct": 11.343283582089553,
   "marginTier": "low",
   "auctionHeat": "cold",
@@ -22,8 +22,8 @@
       "pipKey": "bullet.pip.high",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 25,
-        "n": 4,
+        "pct": 20,
+        "n": 5,
         "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.pricey",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 25,
+        "pct": 20,
         "ppkm": 6
       }
     },
@@ -71,7 +71,7 @@
     "heatSuffixKey": null,
     "marginSuffixKey": "summary.suffix.marginLow",
     "args": {
-      "refSize": 4,
+      "refSize": 5,
       "year": "2018",
       "title": "Ford Focus"
     }
