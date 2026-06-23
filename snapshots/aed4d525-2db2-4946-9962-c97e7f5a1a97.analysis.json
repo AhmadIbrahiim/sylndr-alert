@@ -1,0 +1,79 @@
+{
+  "vehicleId": "aed4d525-2db2-4946-9962-c97e7f5a1a97",
+  "computedAt": "2026-06-23T08:27:33.362Z",
+  "cohort": {
+    "sameModelCount": 19,
+    "sameYearCount": 2,
+    "refCohort": "model",
+    "refSize": 19
+  },
+  "pricePercentile": 74,
+  "pricePerKm": 17.207472959685347,
+  "pricePerKmPercentile": 37,
+  "kmPercentile": 63,
+  "daysListed": 0,
+  "marginPct": 23.485714285714284,
+  "marginTier": "mid",
+  "auctionHeat": "cold",
+  "dealTag": "fair",
+  "bullets": [
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.high",
+      "textKey": "bullet.priceCheaper",
+      "textArgs": {
+        "pct": 26,
+        "n": 19,
+        "kind": "detail.cohort.refSize.kind.model"
+      }
+    },
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.value",
+      "textKey": "bullet.ppkmBetter",
+      "textArgs": {
+        "pct": 63,
+        "ppkm": 17
+      }
+    },
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.km",
+      "textKey": "bullet.kmLower",
+      "textArgs": {
+        "pct": 37
+      }
+    },
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.marginPct",
+      "pipArgs": {
+        "pct": "23"
+      },
+      "textKey": "bullet.marginMid"
+    },
+    {
+      "tone": "neutral",
+      "pipKey": "bullet.pip.cold",
+      "textKey": "bullet.auctionCold"
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.fresh",
+      "textKey": "bullet.listedFresh"
+    }
+  ],
+  "summary": {
+    "verdictKey": "summary.verdict.fair",
+    "cohortLineKey": "summary.cohortLine.yes",
+    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "ageSuffixKey": "summary.suffix.ageFresh",
+    "heatSuffixKey": null,
+    "marginSuffixKey": null,
+    "args": {
+      "refSize": 19,
+      "year": "2021",
+      "title": "Hyundai Tucson"
+    }
+  }
+}
