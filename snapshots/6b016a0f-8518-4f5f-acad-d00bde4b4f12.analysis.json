@@ -1,47 +1,47 @@
 {
   "vehicleId": "6b016a0f-8518-4f5f-acad-d00bde4b4f12",
-  "computedAt": "2026-06-25T08:20:58.050Z",
+  "computedAt": "2026-06-25T11:14:24.324Z",
   "cohort": {
-    "sameModelCount": 17,
-    "sameYearCount": 3,
-    "refCohort": "model",
-    "refSize": 17
+    "sameModelCount": 18,
+    "sameYearCount": 4,
+    "refCohort": "model+year",
+    "refSize": 4
   },
-  "pricePercentile": 65,
+  "pricePercentile": 0,
   "pricePerKm": 15.764006791171477,
-  "pricePerKmPercentile": 59,
-  "kmPercentile": 41,
+  "pricePerKmPercentile": 0,
+  "kmPercentile": 75,
   "daysListed": 49,
   "marginPct": 15.77813677975229,
   "marginTier": "mid",
   "auctionHeat": "hot",
-  "dealTag": "fair",
+  "dealTag": "good",
   "bullets": [
     {
-      "tone": "mid",
-      "pipKey": "bullet.pip.mid",
+      "tone": "good",
+      "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 35,
-        "n": 17,
-        "kind": "detail.cohort.refSize.kind.model"
+        "pct": 100,
+        "n": 4,
+        "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
-      "tone": "mid",
+      "tone": "good",
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 41,
+        "pct": 100,
         "ppkm": 16
       }
     },
     {
-      "tone": "mid",
-      "pipKey": "bullet.pip.km",
+      "tone": "hot",
+      "pipKey": "bullet.pip.highKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 59
+        "pct": 25
       }
     },
     {
@@ -70,14 +70,14 @@
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.fair",
+    "verdictKey": "summary.verdict.good",
     "cohortLineKey": "summary.cohortLine.yes",
-    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": null,
     "args": {
-      "refSize": 17,
+      "refSize": 4,
       "year": "2020",
       "title": "BMW 320i"
     }

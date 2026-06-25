@@ -1,17 +1,17 @@
 {
   "vehicleId": "852c1ffc-b2c4-418d-a252-66137d6b038f",
-  "computedAt": "2026-06-25T08:20:58.561Z",
+  "computedAt": "2026-06-25T11:14:24.834Z",
   "cohort": {
-    "sameModelCount": 6,
-    "sameYearCount": 3,
-    "refCohort": "model",
-    "refSize": 6
+    "sameModelCount": 7,
+    "sameYearCount": 4,
+    "refCohort": "model+year",
+    "refSize": 4
   },
-  "pricePercentile": 17,
+  "pricePercentile": 25,
   "pricePerKm": 10.441385856668248,
-  "pricePerKmPercentile": 0,
-  "kmPercentile": 83,
-  "daysListed": 31,
+  "pricePerKmPercentile": 25,
+  "kmPercentile": 50,
+  "daysListed": 32,
   "marginPct": 13.727272727272727,
   "marginTier": "low",
   "auctionHeat": "cold",
@@ -22,9 +22,9 @@
       "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 83,
-        "n": 6,
-        "kind": "detail.cohort.refSize.kind.model"
+        "pct": 75,
+        "n": 4,
+        "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
@@ -32,16 +32,16 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 100,
+        "pct": 75,
         "ppkm": 10
       }
     },
     {
-      "tone": "hot",
-      "pipKey": "bullet.pip.highKm",
+      "tone": "mid",
+      "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 17
+        "pct": 50
       }
     },
     {
@@ -61,23 +61,23 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 31
+        "n": 32
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 31
+        "n": 32
       }
     }
   ],
   "summary": {
     "verdictKey": "summary.verdict.good",
     "cohortLineKey": "summary.cohortLine.yes",
-    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": null,
     "marginSuffixKey": "summary.suffix.marginLow",
     "args": {
-      "refSize": 6,
+      "refSize": 4,
       "year": "2022",
       "title": "Kia XCeed"
     }

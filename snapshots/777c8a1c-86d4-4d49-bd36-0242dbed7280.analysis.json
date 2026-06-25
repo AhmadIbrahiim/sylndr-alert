@@ -1,0 +1,52 @@
+{
+  "vehicleId": "777c8a1c-86d4-4d49-bd36-0242dbed7280",
+  "computedAt": "2026-06-25T11:14:24.673Z",
+  "cohort": {
+    "sameModelCount": 2,
+    "sameYearCount": 2,
+    "refCohort": "model",
+    "refSize": 2
+  },
+  "pricePercentile": null,
+  "pricePerKm": 3.038936372269706,
+  "pricePerKmPercentile": null,
+  "kmPercentile": null,
+  "daysListed": 0,
+  "marginPct": 23.541666666666668,
+  "marginTier": "mid",
+  "auctionHeat": "warm",
+  "dealTag": "fair",
+  "bullets": [
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.marginPct",
+      "pipArgs": {
+        "pct": "24"
+      },
+      "textKey": "bullet.marginMid"
+    },
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.warm",
+      "textKey": "bullet.auctionWarm"
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.fresh",
+      "textKey": "bullet.listedFresh"
+    }
+  ],
+  "summary": {
+    "verdictKey": "summary.verdict.fair",
+    "cohortLineKey": "summary.cohortLine.yes",
+    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "ageSuffixKey": "summary.suffix.ageFresh",
+    "heatSuffixKey": null,
+    "marginSuffixKey": null,
+    "args": {
+      "refSize": 2,
+      "year": "2017",
+      "title": "Hyundai I10"
+    }
+  }
+}

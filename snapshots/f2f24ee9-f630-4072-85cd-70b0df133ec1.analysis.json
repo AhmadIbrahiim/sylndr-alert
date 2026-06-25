@@ -1,0 +1,52 @@
+{
+  "vehicleId": "f2f24ee9-f630-4072-85cd-70b0df133ec1",
+  "computedAt": "2026-06-25T11:14:24.379Z",
+  "cohort": {
+    "sameModelCount": 2,
+    "sameYearCount": 1,
+    "refCohort": "model",
+    "refSize": 2
+  },
+  "pricePercentile": null,
+  "pricePerKm": 22.31614539306847,
+  "pricePerKmPercentile": null,
+  "kmPercentile": null,
+  "daysListed": 0,
+  "marginPct": 16.590909090909093,
+  "marginTier": "mid",
+  "auctionHeat": "cold",
+  "dealTag": "fair",
+  "bullets": [
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.marginPct",
+      "pipArgs": {
+        "pct": "17"
+      },
+      "textKey": "bullet.marginMid"
+    },
+    {
+      "tone": "neutral",
+      "pipKey": "bullet.pip.cold",
+      "textKey": "bullet.auctionCold"
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.fresh",
+      "textKey": "bullet.listedFresh"
+    }
+  ],
+  "summary": {
+    "verdictKey": "summary.verdict.fair",
+    "cohortLineKey": "summary.cohortLine.yes",
+    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "ageSuffixKey": "summary.suffix.ageFresh",
+    "heatSuffixKey": null,
+    "marginSuffixKey": null,
+    "args": {
+      "refSize": 2,
+      "year": "2024",
+      "title": "Citroen C4X"
+    }
+  }
+}
