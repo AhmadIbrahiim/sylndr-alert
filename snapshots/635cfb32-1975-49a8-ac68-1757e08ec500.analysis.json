@@ -1,0 +1,79 @@
+{
+  "vehicleId": "635cfb32-1975-49a8-ac68-1757e08ec500",
+  "computedAt": "2026-06-25T13:27:56.699Z",
+  "cohort": {
+    "sameModelCount": 13,
+    "sameYearCount": 5,
+    "refCohort": "model+year",
+    "refSize": 5
+  },
+  "pricePercentile": 40,
+  "pricePerKm": 9.70873786407767,
+  "pricePerKmPercentile": 20,
+  "kmPercentile": 40,
+  "daysListed": 0,
+  "marginPct": 15.80952380952381,
+  "marginTier": "mid",
+  "auctionHeat": "cold",
+  "dealTag": "good",
+  "bullets": [
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.mid",
+      "textKey": "bullet.priceCheaper",
+      "textArgs": {
+        "pct": 60,
+        "n": 5,
+        "kind": "detail.cohort.refSize.kind.modelYear"
+      }
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.value",
+      "textKey": "bullet.ppkmBetter",
+      "textArgs": {
+        "pct": 80,
+        "ppkm": 10
+      }
+    },
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.km",
+      "textKey": "bullet.kmLower",
+      "textArgs": {
+        "pct": 60
+      }
+    },
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.marginPct",
+      "pipArgs": {
+        "pct": "16"
+      },
+      "textKey": "bullet.marginMid"
+    },
+    {
+      "tone": "neutral",
+      "pipKey": "bullet.pip.cold",
+      "textKey": "bullet.auctionCold"
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.fresh",
+      "textKey": "bullet.listedFresh"
+    }
+  ],
+  "summary": {
+    "verdictKey": "summary.verdict.good",
+    "cohortLineKey": "summary.cohortLine.yes",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
+    "ageSuffixKey": "summary.suffix.ageFresh",
+    "heatSuffixKey": null,
+    "marginSuffixKey": null,
+    "args": {
+      "refSize": 5,
+      "year": "2020",
+      "title": "Jeep Renegade"
+    }
+  }
+}

@@ -1,17 +1,17 @@
 {
   "vehicleId": "57fb705f-5364-4f65-a289-3a1f21b403af",
-  "computedAt": "2026-06-25T11:14:24.042Z",
+  "computedAt": "2026-06-25T13:27:56.159Z",
   "cohort": {
-    "sameModelCount": 12,
-    "sameYearCount": 4,
+    "sameModelCount": 13,
+    "sameYearCount": 5,
     "refCohort": "model+year",
-    "refSize": 4
+    "refSize": 5
   },
-  "pricePercentile": 50,
+  "pricePercentile": 60,
   "pricePerKm": 15.096525096525097,
-  "pricePerKmPercentile": 75,
-  "kmPercentile": 25,
-  "daysListed": 90,
+  "pricePerKmPercentile": 80,
+  "kmPercentile": 20,
+  "daysListed": 91,
   "marginPct": 34.185848252344414,
   "marginTier": "high",
   "auctionHeat": "hot",
@@ -22,8 +22,8 @@
       "pipKey": "bullet.pip.mid",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 50,
-        "n": 4,
+        "pct": 40,
+        "n": 5,
         "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.pricey",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 25,
+        "pct": 20,
         "ppkm": 15
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.lowKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 75
+        "pct": 80
       }
     },
     {
@@ -61,11 +61,11 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 90
+        "n": 91
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 90
+        "n": 91
       }
     }
   ],
@@ -77,7 +77,7 @@
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": "summary.suffix.marginHigh",
     "args": {
-      "refSize": 4,
+      "refSize": 5,
       "year": "2020",
       "title": "Jeep Renegade"
     }

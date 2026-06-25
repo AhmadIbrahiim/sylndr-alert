@@ -1,29 +1,29 @@
 {
   "vehicleId": "de2cb95f-88e3-4450-af25-b86c23bf7e44",
-  "computedAt": "2026-06-25T11:14:23.879Z",
+  "computedAt": "2026-06-25T13:27:56.014Z",
   "cohort": {
-    "sameModelCount": 11,
-    "sameYearCount": 5,
+    "sameModelCount": 12,
+    "sameYearCount": 6,
     "refCohort": "model+year",
-    "refSize": 5
+    "refSize": 6
   },
-  "pricePercentile": 80,
+  "pricePercentile": 83,
   "pricePerKm": 8.403361344537815,
-  "pricePerKmPercentile": 80,
-  "kmPercentile": 20,
-  "daysListed": 32,
+  "pricePerKmPercentile": 83,
+  "kmPercentile": 17,
+  "daysListed": 33,
   "marginPct": 30.5,
   "marginTier": "high",
   "auctionHeat": "cold",
-  "dealTag": "fair",
+  "dealTag": "high",
   "bullets": [
     {
       "tone": "hot",
       "pipKey": "bullet.pip.high",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 20,
-        "n": 5,
+        "pct": 17,
+        "n": 6,
         "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.pricey",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 20,
+        "pct": 17,
         "ppkm": 8
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.lowKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 80
+        "pct": 83
       }
     },
     {
@@ -61,23 +61,23 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 32
+        "n": 33
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 32
+        "n": 33
       }
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.fair",
+    "verdictKey": "summary.verdict.high",
     "cohortLineKey": "summary.cohortLine.yes",
     "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": null,
     "marginSuffixKey": "summary.suffix.marginHigh",
     "args": {
-      "refSize": 5,
+      "refSize": 6,
       "year": "2021",
       "title": "Chery Tiggo 7"
     }
