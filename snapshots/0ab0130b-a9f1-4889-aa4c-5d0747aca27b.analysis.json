@@ -1,16 +1,16 @@
 {
   "vehicleId": "0ab0130b-a9f1-4889-aa4c-5d0747aca27b",
-  "computedAt": "2026-06-26T08:28:25.220Z",
+  "computedAt": "2026-06-26T11:25:11.373Z",
   "cohort": {
-    "sameModelCount": 14,
-    "sameYearCount": 3,
-    "refCohort": "model",
-    "refSize": 14
+    "sameModelCount": 15,
+    "sameYearCount": 4,
+    "refCohort": "model+year",
+    "refSize": 4
   },
-  "pricePercentile": 64,
+  "pricePercentile": 75,
   "pricePerKm": 65.3409090909091,
-  "pricePerKmPercentile": 64,
-  "kmPercentile": 21,
+  "pricePerKmPercentile": 75,
+  "kmPercentile": 25,
   "daysListed": 23,
   "marginPct": 13.130434782608697,
   "marginTier": "low",
@@ -18,21 +18,21 @@
   "dealTag": "fair",
   "bullets": [
     {
-      "tone": "mid",
-      "pipKey": "bullet.pip.mid",
+      "tone": "hot",
+      "pipKey": "bullet.pip.high",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 36,
-        "n": 14,
-        "kind": "detail.cohort.refSize.kind.model"
+        "pct": 25,
+        "n": 4,
+        "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
-      "tone": "mid",
-      "pipKey": "bullet.pip.value",
+      "tone": "hot",
+      "pipKey": "bullet.pip.pricey",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 36,
+        "pct": 25,
         "ppkm": 65
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.lowKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 79
+        "pct": 75
       }
     },
     {
@@ -72,12 +72,12 @@
   "summary": {
     "verdictKey": "summary.verdict.fair",
     "cohortLineKey": "summary.cohortLine.yes",
-    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": null,
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": "summary.suffix.marginLow",
     "args": {
-      "refSize": 14,
+      "refSize": 4,
       "year": "2024",
       "title": "Volkswagen Tiguan"
     }
