@@ -1,0 +1,52 @@
+{
+  "vehicleId": "4e6665e5-2eb3-406c-8a86-52b69213d0ba",
+  "computedAt": "2026-06-27T15:00:52.500Z",
+  "cohort": {
+    "sameModelCount": 1,
+    "sameYearCount": 1,
+    "refCohort": "model",
+    "refSize": 1
+  },
+  "pricePercentile": null,
+  "pricePerKm": 1.9710378117457763,
+  "pricePerKmPercentile": null,
+  "kmPercentile": null,
+  "daysListed": 0,
+  "marginPct": 25.918367346938776,
+  "marginTier": "mid",
+  "auctionHeat": "warm",
+  "dealTag": "fair",
+  "bullets": [
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.marginPct",
+      "pipArgs": {
+        "pct": "26"
+      },
+      "textKey": "bullet.marginMid"
+    },
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.warm",
+      "textKey": "bullet.auctionWarm"
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.fresh",
+      "textKey": "bullet.listedFresh"
+    }
+  ],
+  "summary": {
+    "verdictKey": "summary.verdict.fair",
+    "cohortLineKey": "summary.cohortLine.yes",
+    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "ageSuffixKey": "summary.suffix.ageFresh",
+    "heatSuffixKey": null,
+    "marginSuffixKey": null,
+    "args": {
+      "refSize": 1,
+      "year": "2008",
+      "title": "Nissan X-Trail"
+    }
+  }
+}

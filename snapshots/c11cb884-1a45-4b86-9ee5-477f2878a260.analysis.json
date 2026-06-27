@@ -1,16 +1,16 @@
 {
   "vehicleId": "c11cb884-1a45-4b86-9ee5-477f2878a260",
-  "computedAt": "2026-06-27T13:25:56.136Z",
+  "computedAt": "2026-06-27T15:00:52.257Z",
   "cohort": {
-    "sameModelCount": 8,
+    "sameModelCount": 9,
     "sameYearCount": 1,
     "refCohort": "model",
-    "refSize": 8
+    "refSize": 9
   },
-  "pricePercentile": 25,
+  "pricePercentile": 33,
   "pricePerKm": 1.669449081803005,
-  "pricePerKmPercentile": 13,
-  "kmPercentile": 75,
+  "pricePerKmPercentile": 22,
+  "kmPercentile": 67,
   "daysListed": 3,
   "marginPct": 25.77777777777778,
   "marginTier": "mid",
@@ -22,8 +22,8 @@
       "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 75,
-        "n": 8,
+        "pct": 67,
+        "n": 9,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -32,16 +32,16 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 87,
+        "pct": 78,
         "ppkm": 2
       }
     },
     {
-      "tone": "hot",
-      "pipKey": "bullet.pip.highKm",
+      "tone": "mid",
+      "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 25
+        "pct": 33
       }
     },
     {
@@ -66,7 +66,7 @@
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 8,
+      "refSize": 9,
       "year": "2012",
       "title": "Chevrolet Cruze"
     }
