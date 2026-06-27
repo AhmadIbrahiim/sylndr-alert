@@ -1,29 +1,29 @@
 {
   "vehicleId": "6cc9390a-d57e-4185-a2dc-800c45280bad",
-  "computedAt": "2026-06-27T10:04:10.380Z",
+  "computedAt": "2026-06-27T11:45:57.156Z",
   "cohort": {
-    "sameModelCount": 8,
-    "sameYearCount": 2,
+    "sameModelCount": 9,
+    "sameYearCount": 3,
     "refCohort": "model",
-    "refSize": 8
+    "refSize": 9
   },
-  "pricePercentile": 88,
+  "pricePercentile": 89,
   "pricePerKm": 6.518518518518518,
-  "pricePerKmPercentile": 50,
-  "kmPercentile": 63,
-  "daysListed": 35,
+  "pricePerKmPercentile": 56,
+  "kmPercentile": 56,
+  "daysListed": 36,
   "marginPct": 42.36363636363637,
   "marginTier": "high",
   "auctionHeat": "cold",
-  "dealTag": "fair",
+  "dealTag": "high",
   "bullets": [
     {
       "tone": "hot",
       "pipKey": "bullet.pip.high",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 12,
-        "n": 8,
+        "pct": 11,
+        "n": 9,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 50,
+        "pct": 44,
         "ppkm": 7
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 37
+        "pct": 44
       }
     },
     {
@@ -61,23 +61,23 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 35
+        "n": 36
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 35
+        "n": 36
       }
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.fair",
+    "verdictKey": "summary.verdict.high",
     "cohortLineKey": "summary.cohortLine.yes",
     "cohortKindKey": "detail.cohort.refSize.kind.model",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": null,
     "marginSuffixKey": "summary.suffix.marginHigh",
     "args": {
-      "refSize": 8,
+      "refSize": 9,
       "year": "2021",
       "title": "Chevrolet Captiva"
     }
