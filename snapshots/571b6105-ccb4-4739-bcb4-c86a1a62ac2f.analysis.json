@@ -1,30 +1,30 @@
 {
   "vehicleId": "571b6105-ccb4-4739-bcb4-c86a1a62ac2f",
-  "computedAt": "2026-06-28T10:39:40.070Z",
+  "computedAt": "2026-06-28T12:08:51.653Z",
   "cohort": {
-    "sameModelCount": 19,
-    "sameYearCount": 3,
-    "refCohort": "model",
-    "refSize": 19
+    "sameModelCount": 20,
+    "sameYearCount": 4,
+    "refCohort": "model+year",
+    "refSize": 4
   },
-  "pricePercentile": 32,
+  "pricePercentile": 0,
   "pricePerKm": 13.266633316658329,
-  "pricePerKmPercentile": 42,
-  "kmPercentile": 42,
+  "pricePerKmPercentile": 50,
+  "kmPercentile": 25,
   "daysListed": 130,
   "marginPct": 31.825037707390646,
   "marginTier": "high",
   "auctionHeat": "hot",
-  "dealTag": "fair",
+  "dealTag": "good",
   "bullets": [
     {
       "tone": "good",
       "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 68,
-        "n": 19,
-        "kind": "detail.cohort.refSize.kind.model"
+        "pct": 100,
+        "n": 4,
+        "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
@@ -32,16 +32,16 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 58,
+        "pct": 50,
         "ppkm": 13
       }
     },
     {
-      "tone": "mid",
-      "pipKey": "bullet.pip.km",
+      "tone": "good",
+      "pipKey": "bullet.pip.lowKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 58
+        "pct": 75
       }
     },
     {
@@ -70,14 +70,14 @@
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.fair",
+    "verdictKey": "summary.verdict.good",
     "cohortLineKey": "summary.cohortLine.yes",
-    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": "summary.suffix.marginHigh",
     "args": {
-      "refSize": 19,
+      "refSize": 4,
       "year": "2017",
       "title": "BMW X1"
     }

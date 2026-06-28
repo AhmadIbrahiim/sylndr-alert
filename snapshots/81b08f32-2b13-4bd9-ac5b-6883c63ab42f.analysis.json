@@ -1,16 +1,16 @@
 {
   "vehicleId": "81b08f32-2b13-4bd9-ac5b-6883c63ab42f",
-  "computedAt": "2026-06-28T10:39:40.398Z",
+  "computedAt": "2026-06-28T12:08:51.960Z",
   "cohort": {
-    "sameModelCount": 19,
-    "sameYearCount": 3,
-    "refCohort": "model",
-    "refSize": 19
+    "sameModelCount": 20,
+    "sameYearCount": 4,
+    "refCohort": "model+year",
+    "refSize": 4
   },
-  "pricePercentile": 58,
+  "pricePercentile": 50,
   "pricePerKm": 29.296875,
-  "pricePerKmPercentile": 84,
-  "kmPercentile": 16,
+  "pricePerKmPercentile": 75,
+  "kmPercentile": 0,
   "daysListed": 43,
   "marginPct": 28.26666666666667,
   "marginTier": "mid",
@@ -22,9 +22,9 @@
       "pipKey": "bullet.pip.mid",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 42,
-        "n": 19,
-        "kind": "detail.cohort.refSize.kind.model"
+        "pct": 50,
+        "n": 4,
+        "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.pricey",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 16,
+        "pct": 25,
         "ppkm": 29
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.lowKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 84
+        "pct": 100
       }
     },
     {
@@ -72,12 +72,12 @@
   "summary": {
     "verdictKey": "summary.verdict.fair",
     "cohortLineKey": "summary.cohortLine.yes",
-    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": null,
     "args": {
-      "refSize": 19,
+      "refSize": 4,
       "year": "2017",
       "title": "BMW X1"
     }

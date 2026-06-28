@@ -1,17 +1,17 @@
 {
   "vehicleId": "6c4f2606-d73b-444c-b4db-8da0a7ec8c7e",
-  "computedAt": "2026-06-28T10:39:40.381Z",
+  "computedAt": "2026-06-28T12:08:51.944Z",
   "cohort": {
-    "sameModelCount": 4,
+    "sameModelCount": 5,
     "sameYearCount": 1,
     "refCohort": "model",
-    "refSize": 4
+    "refSize": 5
   },
-  "pricePercentile": 25,
+  "pricePercentile": 20,
   "pricePerKm": 13.21762349799733,
-  "pricePerKmPercentile": 25,
-  "kmPercentile": 50,
-  "daysListed": 125,
+  "pricePerKmPercentile": 40,
+  "kmPercentile": 40,
+  "daysListed": 126,
   "marginPct": 21.818181818181817,
   "marginTier": "mid",
   "auctionHeat": "hot",
@@ -22,17 +22,17 @@
       "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 75,
-        "n": 4,
+        "pct": 80,
+        "n": 5,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
     {
-      "tone": "good",
+      "tone": "mid",
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 75,
+        "pct": 60,
         "ppkm": 13
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 50
+        "pct": 60
       }
     },
     {
@@ -61,11 +61,11 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 125
+        "n": 126
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 125
+        "n": 126
       }
     }
   ],
@@ -77,7 +77,7 @@
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": null,
     "args": {
-      "refSize": 4,
+      "refSize": 5,
       "year": "2022",
       "title": "Hyundai Elantra CN7"
     }
