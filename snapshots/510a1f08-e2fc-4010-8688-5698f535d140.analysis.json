@@ -1,0 +1,79 @@
+{
+  "vehicleId": "510a1f08-e2fc-4010-8688-5698f535d140",
+  "computedAt": "2026-06-29T16:55:22.314Z",
+  "cohort": {
+    "sameModelCount": 28,
+    "sameYearCount": 1,
+    "refCohort": "model",
+    "refSize": 28
+  },
+  "pricePercentile": 4,
+  "pricePerKm": 5.369127516778524,
+  "pricePerKmPercentile": 11,
+  "kmPercentile": 43,
+  "daysListed": 0,
+  "marginPct": 15.394736842105264,
+  "marginTier": "mid",
+  "auctionHeat": "cold",
+  "dealTag": "good",
+  "bullets": [
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.deal",
+      "textKey": "bullet.priceCheaper",
+      "textArgs": {
+        "pct": 96,
+        "n": 28,
+        "kind": "detail.cohort.refSize.kind.model"
+      }
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.value",
+      "textKey": "bullet.ppkmBetter",
+      "textArgs": {
+        "pct": 89,
+        "ppkm": 5
+      }
+    },
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.km",
+      "textKey": "bullet.kmLower",
+      "textArgs": {
+        "pct": 57
+      }
+    },
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.marginPct",
+      "pipArgs": {
+        "pct": "15"
+      },
+      "textKey": "bullet.marginMid"
+    },
+    {
+      "tone": "neutral",
+      "pipKey": "bullet.pip.cold",
+      "textKey": "bullet.auctionCold"
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.fresh",
+      "textKey": "bullet.listedFresh"
+    }
+  ],
+  "summary": {
+    "verdictKey": "summary.verdict.good",
+    "cohortLineKey": "summary.cohortLine.yes",
+    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "ageSuffixKey": "summary.suffix.ageFresh",
+    "heatSuffixKey": null,
+    "marginSuffixKey": null,
+    "args": {
+      "refSize": 28,
+      "year": "2010",
+      "title": "BMW 318i"
+    }
+  }
+}

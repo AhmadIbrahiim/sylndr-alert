@@ -1,29 +1,29 @@
 {
   "vehicleId": "f0157302-e4d3-4b22-9360-b70c07f9ce5a",
-  "computedAt": "2026-06-29T13:50:56.741Z",
+  "computedAt": "2026-06-29T16:55:22.309Z",
   "cohort": {
-    "sameModelCount": 17,
+    "sameModelCount": 18,
     "sameYearCount": 1,
     "refCohort": "model",
-    "refSize": 17
+    "refSize": 18
   },
-  "pricePercentile": 71,
+  "pricePercentile": 72,
   "pricePerKm": 116.26943005181347,
-  "pricePerKmPercentile": 88,
+  "pricePerKmPercentile": 89,
   "kmPercentile": 6,
   "daysListed": 116,
   "marginPct": 9.803921568627452,
   "marginTier": "low",
   "auctionHeat": "hot",
-  "dealTag": "fair",
+  "dealTag": "high",
   "bullets": [
     {
       "tone": "hot",
       "pipKey": "bullet.pip.high",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 29,
-        "n": 17,
+        "pct": 28,
+        "n": 18,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.pricey",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 12,
+        "pct": 11,
         "ppkm": 116
       }
     },
@@ -70,14 +70,14 @@
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.fair",
+    "verdictKey": "summary.verdict.high",
     "cohortLineKey": "summary.cohortLine.yes",
     "cohortKindKey": "detail.cohort.refSize.kind.model",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": "summary.suffix.marginLow",
     "args": {
-      "refSize": 17,
+      "refSize": 18,
       "year": "2023",
       "title": "MG RX5"
     }

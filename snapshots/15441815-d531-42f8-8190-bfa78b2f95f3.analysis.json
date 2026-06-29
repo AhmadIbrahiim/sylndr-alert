@@ -1,0 +1,79 @@
+{
+  "vehicleId": "15441815-d531-42f8-8190-bfa78b2f95f3",
+  "computedAt": "2026-06-29T16:55:22.083Z",
+  "cohort": {
+    "sameModelCount": 5,
+    "sameYearCount": 1,
+    "refCohort": "model",
+    "refSize": 5
+  },
+  "pricePercentile": 20,
+  "pricePerKm": 46.68989547038328,
+  "pricePerKmPercentile": 20,
+  "kmPercentile": 60,
+  "daysListed": 0,
+  "marginPct": 11.641791044776118,
+  "marginTier": "low",
+  "auctionHeat": "cold",
+  "dealTag": "good",
+  "bullets": [
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.deal",
+      "textKey": "bullet.priceCheaper",
+      "textArgs": {
+        "pct": 80,
+        "n": 5,
+        "kind": "detail.cohort.refSize.kind.model"
+      }
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.value",
+      "textKey": "bullet.ppkmBetter",
+      "textArgs": {
+        "pct": 80,
+        "ppkm": 47
+      }
+    },
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.km",
+      "textKey": "bullet.kmLower",
+      "textArgs": {
+        "pct": 40
+      }
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.marginPct",
+      "pipArgs": {
+        "pct": "12"
+      },
+      "textKey": "bullet.marginLow"
+    },
+    {
+      "tone": "neutral",
+      "pipKey": "bullet.pip.cold",
+      "textKey": "bullet.auctionCold"
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.fresh",
+      "textKey": "bullet.listedFresh"
+    }
+  ],
+  "summary": {
+    "verdictKey": "summary.verdict.good",
+    "cohortLineKey": "summary.cohortLine.yes",
+    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "ageSuffixKey": "summary.suffix.ageFresh",
+    "heatSuffixKey": null,
+    "marginSuffixKey": "summary.suffix.marginLow",
+    "args": {
+      "refSize": 5,
+      "year": "2019",
+      "title": "Mercedes-Benz E300"
+    }
+  }
+}
