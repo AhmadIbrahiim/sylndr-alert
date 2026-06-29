@@ -1,29 +1,29 @@
 {
   "vehicleId": "c70ed615-91e7-462c-84ed-445c271cc14b",
-  "computedAt": "2026-06-29T09:24:53.800Z",
+  "computedAt": "2026-06-29T13:50:57.496Z",
   "cohort": {
-    "sameModelCount": 17,
+    "sameModelCount": 18,
     "sameYearCount": 3,
     "refCohort": "model",
-    "refSize": 17
+    "refSize": 18
   },
-  "pricePercentile": 35,
+  "pricePercentile": 39,
   "pricePerKm": 13.846153846153847,
-  "pricePerKmPercentile": 29,
-  "kmPercentile": 65,
-  "daysListed": 43,
+  "pricePerKmPercentile": 33,
+  "kmPercentile": 67,
+  "daysListed": 44,
   "marginPct": 32.111111111111114,
   "marginTier": "high",
   "auctionHeat": "cold",
-  "dealTag": "good",
+  "dealTag": "fair",
   "bullets": [
     {
       "tone": "mid",
       "pipKey": "bullet.pip.mid",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 65,
-        "n": 17,
+        "pct": 61,
+        "n": 18,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 71,
+        "pct": 67,
         "ppkm": 14
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 35
+        "pct": 33
       }
     },
     {
@@ -61,23 +61,23 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 43
+        "n": 44
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 43
+        "n": 44
       }
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.good",
+    "verdictKey": "summary.verdict.fair",
     "cohortLineKey": "summary.cohortLine.yes",
     "cohortKindKey": "detail.cohort.refSize.kind.model",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": null,
     "marginSuffixKey": "summary.suffix.marginHigh",
     "args": {
-      "refSize": 17,
+      "refSize": 18,
       "year": "2019",
       "title": "Mercedes-Benz GLA 200"
     }

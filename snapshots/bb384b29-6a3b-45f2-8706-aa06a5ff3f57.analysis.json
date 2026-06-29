@@ -1,38 +1,38 @@
 {
   "vehicleId": "bb384b29-6a3b-45f2-8706-aa06a5ff3f57",
-  "computedAt": "2026-06-29T09:24:53.180Z",
+  "computedAt": "2026-06-29T13:50:56.977Z",
   "cohort": {
-    "sameModelCount": 19,
+    "sameModelCount": 20,
     "sameYearCount": 1,
     "refCohort": "model",
-    "refSize": 19
+    "refSize": 20
   },
-  "pricePercentile": 37,
+  "pricePercentile": 40,
   "pricePerKm": 4.433448436770882,
-  "pricePerKmPercentile": 32,
-  "kmPercentile": 74,
-  "daysListed": 96,
+  "pricePerKmPercentile": 35,
+  "kmPercentile": 75,
+  "daysListed": 97,
   "marginPct": 22.00722459393235,
   "marginTier": "mid",
   "auctionHeat": "warm",
-  "dealTag": "good",
+  "dealTag": "fair",
   "bullets": [
     {
       "tone": "mid",
       "pipKey": "bullet.pip.mid",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 63,
-        "n": 19,
+        "pct": 60,
+        "n": 20,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
     {
-      "tone": "good",
+      "tone": "mid",
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 68,
+        "pct": 65,
         "ppkm": 4
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.highKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 26
+        "pct": 25
       }
     },
     {
@@ -61,23 +61,23 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 96
+        "n": 97
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 96
+        "n": 97
       }
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.good",
+    "verdictKey": "summary.verdict.fair",
     "cohortLineKey": "summary.cohortLine.yes",
     "cohortKindKey": "detail.cohort.refSize.kind.model",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 19,
+      "refSize": 20,
       "year": "2018",
       "title": "Volkswagen Passat"
     }

@@ -1,17 +1,17 @@
 {
   "vehicleId": "85bbe283-6bc1-4721-8011-b6391e764a46",
-  "computedAt": "2026-06-29T09:24:52.708Z",
+  "computedAt": "2026-06-29T13:50:56.578Z",
   "cohort": {
-    "sameModelCount": 13,
-    "sameYearCount": 3,
-    "refCohort": "model",
-    "refSize": 13
+    "sameModelCount": 14,
+    "sameYearCount": 4,
+    "refCohort": "model+year",
+    "refSize": 4
   },
-  "pricePercentile": 8,
+  "pricePercentile": 0,
   "pricePerKm": 3.8526912181303117,
-  "pricePerKmPercentile": 8,
-  "kmPercentile": 69,
-  "daysListed": 142,
+  "pricePerKmPercentile": 25,
+  "kmPercentile": 0,
+  "daysListed": 143,
   "marginPct": 17.647058823529413,
   "marginTier": "mid",
   "auctionHeat": "hot",
@@ -22,9 +22,9 @@
       "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 92,
-        "n": 13,
-        "kind": "detail.cohort.refSize.kind.model"
+        "pct": 100,
+        "n": 4,
+        "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
@@ -32,16 +32,16 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 92,
+        "pct": 75,
         "ppkm": 4
       }
     },
     {
-      "tone": "mid",
-      "pipKey": "bullet.pip.km",
+      "tone": "good",
+      "pipKey": "bullet.pip.lowKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 31
+        "pct": 100
       }
     },
     {
@@ -61,23 +61,23 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 142
+        "n": 143
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 142
+        "n": 143
       }
     }
   ],
   "summary": {
     "verdictKey": "summary.verdict.good",
     "cohortLineKey": "summary.cohortLine.yes",
-    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": null,
     "args": {
-      "refSize": 13,
+      "refSize": 4,
       "year": "2016",
       "title": "Jeep Renegade"
     }

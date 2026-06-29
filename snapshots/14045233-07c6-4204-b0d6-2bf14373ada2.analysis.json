@@ -1,29 +1,29 @@
 {
   "vehicleId": "14045233-07c6-4204-b0d6-2bf14373ada2",
-  "computedAt": "2026-06-29T09:24:53.038Z",
+  "computedAt": "2026-06-29T13:50:56.857Z",
   "cohort": {
-    "sameModelCount": 17,
+    "sameModelCount": 18,
     "sameYearCount": 3,
     "refCohort": "model",
-    "refSize": 17
+    "refSize": 18
   },
-  "pricePercentile": 24,
+  "pricePercentile": 28,
   "pricePerKm": 18.46965699208443,
-  "pricePerKmPercentile": 47,
-  "kmPercentile": 41,
-  "daysListed": 49,
+  "pricePerKmPercentile": 50,
+  "kmPercentile": 39,
+  "daysListed": 50,
   "marginPct": 29.65714285714286,
   "marginTier": "mid",
   "auctionHeat": "warm",
-  "dealTag": "fair",
+  "dealTag": "good",
   "bullets": [
     {
       "tone": "good",
       "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 76,
-        "n": 17,
+        "pct": 72,
+        "n": 18,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 53,
+        "pct": 50,
         "ppkm": 18
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 59
+        "pct": 61
       }
     },
     {
@@ -61,23 +61,23 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 49
+        "n": 50
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 49
+        "n": 50
       }
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.fair",
+    "verdictKey": "summary.verdict.good",
     "cohortLineKey": "summary.cohortLine.yes",
     "cohortKindKey": "detail.cohort.refSize.kind.model",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 17,
+      "refSize": 18,
       "year": "2019",
       "title": "Mercedes-Benz GLA 200"
     }
