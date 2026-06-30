@@ -1,47 +1,47 @@
 {
   "vehicleId": "1b2c4e46-cfa2-4e84-9c71-599529cbafcc",
-  "computedAt": "2026-06-30T08:28:01.760Z",
+  "computedAt": "2026-06-30T11:28:15.366Z",
   "cohort": {
-    "sameModelCount": 13,
-    "sameYearCount": 3,
-    "refCohort": "model",
-    "refSize": 13
+    "sameModelCount": 14,
+    "sameYearCount": 4,
+    "refCohort": "model+year",
+    "refSize": 4
   },
-  "pricePercentile": 38,
+  "pricePercentile": 25,
   "pricePerKm": 6.340057636887608,
-  "pricePerKmPercentile": 62,
-  "kmPercentile": 23,
-  "daysListed": 44,
+  "pricePerKmPercentile": 25,
+  "kmPercentile": 50,
+  "daysListed": 45,
   "marginPct": 20.18181818181818,
   "marginTier": "mid",
   "auctionHeat": "hot",
-  "dealTag": "fair",
+  "dealTag": "good",
   "bullets": [
     {
-      "tone": "mid",
-      "pipKey": "bullet.pip.mid",
+      "tone": "good",
+      "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 62,
-        "n": 13,
-        "kind": "detail.cohort.refSize.kind.model"
-      }
-    },
-    {
-      "tone": "mid",
-      "pipKey": "bullet.pip.value",
-      "textKey": "bullet.ppkmBetter",
-      "textArgs": {
-        "pct": 38,
-        "ppkm": 6
+        "pct": 75,
+        "n": 4,
+        "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
       "tone": "good",
-      "pipKey": "bullet.pip.lowKm",
+      "pipKey": "bullet.pip.value",
+      "textKey": "bullet.ppkmBetter",
+      "textArgs": {
+        "pct": 75,
+        "ppkm": 6
+      }
+    },
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 77
+        "pct": 50
       }
     },
     {
@@ -61,23 +61,23 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 44
+        "n": 45
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 44
+        "n": 45
       }
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.fair",
+    "verdictKey": "summary.verdict.good",
     "cohortLineKey": "summary.cohortLine.yes",
-    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": null,
     "args": {
-      "refSize": 13,
+      "refSize": 4,
       "year": "2019",
       "title": "Renault Sandero Stepway"
     }

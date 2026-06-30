@@ -1,0 +1,79 @@
+{
+  "vehicleId": "ecbb02b1-2228-43da-b419-fe6feb10a02e",
+  "computedAt": "2026-06-30T11:28:15.771Z",
+  "cohort": {
+    "sameModelCount": 5,
+    "sameYearCount": 1,
+    "refCohort": "model",
+    "refSize": 5
+  },
+  "pricePercentile": 60,
+  "pricePerKm": 3.8071065989847717,
+  "pricePerKmPercentile": 60,
+  "kmPercentile": 40,
+  "daysListed": 0,
+  "marginPct": 26.666666666666668,
+  "marginTier": "mid",
+  "auctionHeat": "cold",
+  "dealTag": "fair",
+  "bullets": [
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.mid",
+      "textKey": "bullet.priceCheaper",
+      "textArgs": {
+        "pct": 40,
+        "n": 5,
+        "kind": "detail.cohort.refSize.kind.model"
+      }
+    },
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.value",
+      "textKey": "bullet.ppkmBetter",
+      "textArgs": {
+        "pct": 40,
+        "ppkm": 4
+      }
+    },
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.km",
+      "textKey": "bullet.kmLower",
+      "textArgs": {
+        "pct": 60
+      }
+    },
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.marginPct",
+      "pipArgs": {
+        "pct": "27"
+      },
+      "textKey": "bullet.marginMid"
+    },
+    {
+      "tone": "neutral",
+      "pipKey": "bullet.pip.cold",
+      "textKey": "bullet.auctionCold"
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.fresh",
+      "textKey": "bullet.listedFresh"
+    }
+  ],
+  "summary": {
+    "verdictKey": "summary.verdict.fair",
+    "cohortLineKey": "summary.cohortLine.yes",
+    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "ageSuffixKey": "summary.suffix.ageFresh",
+    "heatSuffixKey": null,
+    "marginSuffixKey": null,
+    "args": {
+      "refSize": 5,
+      "year": "2015",
+      "title": "Citroen C4 Grand Picasso"
+    }
+  }
+}

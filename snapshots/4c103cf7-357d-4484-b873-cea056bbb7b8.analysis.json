@@ -1,29 +1,29 @@
 {
   "vehicleId": "4c103cf7-357d-4484-b873-cea056bbb7b8",
-  "computedAt": "2026-06-30T08:28:01.989Z",
+  "computedAt": "2026-06-30T11:28:15.632Z",
   "cohort": {
-    "sameModelCount": 7,
+    "sameModelCount": 8,
     "sameYearCount": 1,
     "refCohort": "model",
-    "refSize": 7
+    "refSize": 8
   },
-  "pricePercentile": 43,
+  "pricePercentile": 50,
   "pricePerKm": 4.948805460750854,
-  "pricePerKmPercentile": 14,
-  "kmPercentile": 71,
+  "pricePerKmPercentile": 25,
+  "kmPercentile": 63,
   "daysListed": 10,
   "marginPct": 11.724137931034482,
   "marginTier": "low",
   "auctionHeat": "hot",
-  "dealTag": "good",
+  "dealTag": "fair",
   "bullets": [
     {
       "tone": "mid",
       "pipKey": "bullet.pip.mid",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 57,
-        "n": 7,
+        "pct": 50,
+        "n": 8,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -32,16 +32,16 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 86,
+        "pct": 75,
         "ppkm": 5
       }
     },
     {
-      "tone": "hot",
-      "pipKey": "bullet.pip.highKm",
+      "tone": "mid",
+      "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 29
+        "pct": 37
       }
     },
     {
@@ -59,14 +59,14 @@
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.good",
+    "verdictKey": "summary.verdict.fair",
     "cohortLineKey": "summary.cohortLine.yes",
     "cohortKindKey": "detail.cohort.refSize.kind.model",
     "ageSuffixKey": null,
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": "summary.suffix.marginLow",
     "args": {
-      "refSize": 7,
+      "refSize": 8,
       "year": "2019",
       "title": "Honda Civic"
     }
