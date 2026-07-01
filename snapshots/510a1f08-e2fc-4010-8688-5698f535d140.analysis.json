@@ -1,17 +1,17 @@
 {
   "vehicleId": "510a1f08-e2fc-4010-8688-5698f535d140",
-  "computedAt": "2026-07-01T11:58:37.583Z",
+  "computedAt": "2026-07-01T14:45:49.929Z",
   "cohort": {
-    "sameModelCount": 29,
+    "sameModelCount": 30,
     "sameYearCount": 1,
     "refCohort": "model",
-    "refSize": 29
+    "refSize": 30
   },
   "pricePercentile": 3,
   "pricePerKm": 5.369127516778524,
   "pricePerKmPercentile": 10,
-  "kmPercentile": 41,
-  "daysListed": 1,
+  "kmPercentile": 40,
+  "daysListed": 2,
   "marginPct": 15.394736842105264,
   "marginTier": "mid",
   "auctionHeat": "cold",
@@ -23,7 +23,7 @@
       "textKey": "bullet.priceCheaper",
       "textArgs": {
         "pct": 97,
-        "n": 29,
+        "n": 30,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 59
+        "pct": 60
       }
     },
     {
@@ -56,22 +56,17 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.cold",
       "textKey": "bullet.auctionCold"
-    },
-    {
-      "tone": "good",
-      "pipKey": "bullet.pip.fresh",
-      "textKey": "bullet.listedFresh"
     }
   ],
   "summary": {
     "verdictKey": "summary.verdict.good",
     "cohortLineKey": "summary.cohortLine.yes",
     "cohortKindKey": "detail.cohort.refSize.kind.model",
-    "ageSuffixKey": "summary.suffix.ageFresh",
+    "ageSuffixKey": null,
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 29,
+      "refSize": 30,
       "year": "2010",
       "title": "BMW 318i"
     }
