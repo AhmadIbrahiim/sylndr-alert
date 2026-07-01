@@ -1,22 +1,49 @@
 {
   "vehicleId": "41467119-9f73-4d63-aa6a-bd8475a257bb",
-  "computedAt": "2026-07-01T14:45:50.018Z",
+  "computedAt": "2026-07-01T17:02:01.313Z",
   "cohort": {
-    "sameModelCount": 2,
-    "sameYearCount": 2,
+    "sameModelCount": 3,
+    "sameYearCount": 3,
     "refCohort": "model",
-    "refSize": 2
+    "refSize": 3
   },
-  "pricePercentile": null,
+  "pricePercentile": 67,
   "pricePerKm": 8.459869848156183,
-  "pricePerKmPercentile": null,
-  "kmPercentile": null,
-  "daysListed": 191,
+  "pricePerKmPercentile": 67,
+  "kmPercentile": 0,
+  "daysListed": 192,
   "marginPct": 22.435897435897438,
   "marginTier": "mid",
   "auctionHeat": "hot",
   "dealTag": "fair",
   "bullets": [
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.mid",
+      "textKey": "bullet.priceCheaper",
+      "textArgs": {
+        "pct": 33,
+        "n": 3,
+        "kind": "detail.cohort.refSize.kind.model"
+      }
+    },
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.value",
+      "textKey": "bullet.ppkmBetter",
+      "textArgs": {
+        "pct": 33,
+        "ppkm": 8
+      }
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.lowKm",
+      "textKey": "bullet.kmLower",
+      "textArgs": {
+        "pct": 100
+      }
+    },
     {
       "tone": "mid",
       "pipKey": "bullet.pip.marginPct",
@@ -34,11 +61,11 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 191
+        "n": 192
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 191
+        "n": 192
       }
     }
   ],
@@ -50,7 +77,7 @@
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": null,
     "args": {
-      "refSize": 2,
+      "refSize": 3,
       "year": "2020",
       "title": "Fiat Tipo Hatchback"
     }
