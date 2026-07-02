@@ -1,29 +1,29 @@
 {
   "vehicleId": "6976ba58-aa0a-4768-bf5c-75e48612d854",
-  "computedAt": "2026-07-01T18:05:43.886Z",
+  "computedAt": "2026-07-02T08:10:50.192Z",
   "cohort": {
-    "sameModelCount": 13,
+    "sameModelCount": 14,
     "sameYearCount": 1,
     "refCohort": "model",
-    "refSize": 13
+    "refSize": 14
   },
-  "pricePercentile": 85,
+  "pricePercentile": 79,
   "pricePerKm": 6.727534839019702,
-  "pricePerKmPercentile": 77,
-  "kmPercentile": 23,
+  "pricePerKmPercentile": 71,
+  "kmPercentile": 29,
   "daysListed": 45,
   "marginPct": 37.142857142857146,
   "marginTier": "high",
   "auctionHeat": "warm",
-  "dealTag": "high",
+  "dealTag": "fair",
   "bullets": [
     {
       "tone": "hot",
       "pipKey": "bullet.pip.high",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 15,
-        "n": 13,
+        "pct": 21,
+        "n": 14,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.pricey",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 23,
+        "pct": 29,
         "ppkm": 7
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.lowKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 77
+        "pct": 71
       }
     },
     {
@@ -70,14 +70,14 @@
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.high",
+    "verdictKey": "summary.verdict.fair",
     "cohortLineKey": "summary.cohortLine.yes",
     "cohortKindKey": "detail.cohort.refSize.kind.model",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": null,
     "marginSuffixKey": "summary.suffix.marginHigh",
     "args": {
-      "refSize": 13,
+      "refSize": 14,
       "year": "2009",
       "title": "Mitsubishi Lancer"
     }
