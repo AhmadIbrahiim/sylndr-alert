@@ -1,0 +1,52 @@
+{
+  "vehicleId": "e0a55266-5bdc-44dd-b605-9bcefe30c097",
+  "computedAt": "2026-07-02T12:55:03.422Z",
+  "cohort": {
+    "sameModelCount": 1,
+    "sameYearCount": 1,
+    "refCohort": "model",
+    "refSize": 1
+  },
+  "pricePercentile": null,
+  "pricePerKm": 43.25699745547074,
+  "pricePerKmPercentile": null,
+  "kmPercentile": null,
+  "daysListed": 0,
+  "marginPct": 15.411764705882353,
+  "marginTier": "mid",
+  "auctionHeat": "warm",
+  "dealTag": "fair",
+  "bullets": [
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.marginPct",
+      "pipArgs": {
+        "pct": "15"
+      },
+      "textKey": "bullet.marginMid"
+    },
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.warm",
+      "textKey": "bullet.auctionWarm"
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.fresh",
+      "textKey": "bullet.listedFresh"
+    }
+  ],
+  "summary": {
+    "verdictKey": "summary.verdict.fair",
+    "cohortLineKey": "summary.cohortLine.yes",
+    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "ageSuffixKey": "summary.suffix.ageFresh",
+    "heatSuffixKey": null,
+    "marginSuffixKey": null,
+    "args": {
+      "refSize": 1,
+      "year": "2023",
+      "title": "BMW 520"
+    }
+  }
+}
