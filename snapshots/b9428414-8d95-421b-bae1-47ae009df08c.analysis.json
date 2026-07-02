@@ -1,29 +1,29 @@
 {
   "vehicleId": "b9428414-8d95-421b-bae1-47ae009df08c",
-  "computedAt": "2026-07-02T12:55:02.656Z",
+  "computedAt": "2026-07-02T15:12:51.272Z",
   "cohort": {
-    "sameModelCount": 47,
-    "sameYearCount": 9,
+    "sameModelCount": 48,
+    "sameYearCount": 10,
     "refCohort": "model+year",
-    "refSize": 9
+    "refSize": 10
   },
-  "pricePercentile": 33,
+  "pricePercentile": 40,
   "pricePerKm": 2.9273392577104027,
-  "pricePerKmPercentile": 56,
-  "kmPercentile": 33,
-  "daysListed": 41,
+  "pricePerKmPercentile": 60,
+  "kmPercentile": 30,
+  "daysListed": 42,
   "marginPct": 23.75,
   "marginTier": "mid",
   "auctionHeat": "cold",
-  "dealTag": "good",
+  "dealTag": "fair",
   "bullets": [
     {
-      "tone": "good",
-      "pipKey": "bullet.pip.deal",
+      "tone": "mid",
+      "pipKey": "bullet.pip.mid",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 67,
-        "n": 9,
+        "pct": 60,
+        "n": 10,
         "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 44,
+        "pct": 40,
         "ppkm": 3
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.lowKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 67
+        "pct": 70
       }
     },
     {
@@ -61,23 +61,23 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 41
+        "n": 42
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 41
+        "n": 42
       }
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.good",
+    "verdictKey": "summary.verdict.fair",
     "cohortLineKey": "summary.cohortLine.yes",
     "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 9,
+      "refSize": 10,
       "year": "2016",
       "title": "Opel Astra"
     }
