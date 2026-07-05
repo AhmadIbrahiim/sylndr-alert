@@ -1,0 +1,79 @@
+{
+  "vehicleId": "231afa8e-f4ee-45bd-b28d-a44af04844e6",
+  "computedAt": "2026-07-05T13:24:06.789Z",
+  "cohort": {
+    "sameModelCount": 6,
+    "sameYearCount": 1,
+    "refCohort": "model",
+    "refSize": 6
+  },
+  "pricePercentile": 67,
+  "pricePerKm": 6.195693237627503,
+  "pricePerKmPercentile": 67,
+  "kmPercentile": 17,
+  "daysListed": 0,
+  "marginPct": 9.146341463414634,
+  "marginTier": "low",
+  "auctionHeat": "warm",
+  "dealTag": "fair",
+  "bullets": [
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.mid",
+      "textKey": "bullet.priceCheaper",
+      "textArgs": {
+        "pct": 33,
+        "n": 6,
+        "kind": "detail.cohort.refSize.kind.model"
+      }
+    },
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.value",
+      "textKey": "bullet.ppkmBetter",
+      "textArgs": {
+        "pct": 33,
+        "ppkm": 6
+      }
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.lowKm",
+      "textKey": "bullet.kmLower",
+      "textArgs": {
+        "pct": 83
+      }
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.marginPct",
+      "pipArgs": {
+        "pct": "9"
+      },
+      "textKey": "bullet.marginLow"
+    },
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.warm",
+      "textKey": "bullet.auctionWarm"
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.fresh",
+      "textKey": "bullet.listedFresh"
+    }
+  ],
+  "summary": {
+    "verdictKey": "summary.verdict.fair",
+    "cohortLineKey": "summary.cohortLine.yes",
+    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "ageSuffixKey": "summary.suffix.ageFresh",
+    "heatSuffixKey": null,
+    "marginSuffixKey": "summary.suffix.marginLow",
+    "args": {
+      "refSize": 6,
+      "year": "2015",
+      "title": "Skoda Octavia"
+    }
+  }
+}
