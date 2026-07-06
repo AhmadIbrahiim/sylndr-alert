@@ -1,29 +1,29 @@
 {
   "vehicleId": "3f2018ef-d229-47d9-9f03-f18cdbebdc24",
-  "computedAt": "2026-07-06T08:59:04.844Z",
+  "computedAt": "2026-07-06T12:53:56.369Z",
   "cohort": {
-    "sameModelCount": 9,
+    "sameModelCount": 10,
     "sameYearCount": 2,
     "refCohort": "model",
-    "refSize": 9
+    "refSize": 10
   },
-  "pricePercentile": 89,
+  "pricePercentile": 90,
   "pricePerKm": 7.869690194825934,
-  "pricePerKmPercentile": 56,
-  "kmPercentile": 78,
-  "daysListed": 33,
+  "pricePerKmPercentile": 50,
+  "kmPercentile": 80,
+  "daysListed": 34,
   "marginPct": 32.061688311688314,
   "marginTier": "high",
   "auctionHeat": "cold",
-  "dealTag": "high",
+  "dealTag": "fair",
   "bullets": [
     {
       "tone": "hot",
       "pipKey": "bullet.pip.high",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 11,
-        "n": 9,
+        "pct": 10,
+        "n": 10,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 44,
+        "pct": 50,
         "ppkm": 8
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.highKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 22
+        "pct": 20
       }
     },
     {
@@ -61,23 +61,23 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 33
+        "n": 34
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 33
+        "n": 34
       }
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.high",
+    "verdictKey": "summary.verdict.fair",
     "cohortLineKey": "summary.cohortLine.yes",
     "cohortKindKey": "detail.cohort.refSize.kind.model",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": null,
     "marginSuffixKey": "summary.suffix.marginHigh",
     "args": {
-      "refSize": 9,
+      "refSize": 10,
       "year": "2020",
       "title": "Opel Grand Land"
     }

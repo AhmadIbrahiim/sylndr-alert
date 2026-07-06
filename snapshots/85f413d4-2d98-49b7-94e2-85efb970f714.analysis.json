@@ -1,15 +1,15 @@
 {
   "vehicleId": "85f413d4-2d98-49b7-94e2-85efb970f714",
-  "computedAt": "2026-07-06T08:59:04.885Z",
+  "computedAt": "2026-07-06T12:53:56.409Z",
   "cohort": {
-    "sameModelCount": 10,
-    "sameYearCount": 3,
-    "refCohort": "model",
-    "refSize": 10
+    "sameModelCount": 11,
+    "sameYearCount": 4,
+    "refCohort": "model+year",
+    "refSize": 4
   },
-  "pricePercentile": 40,
+  "pricePercentile": 50,
   "pricePerKm": 19.975932611311674,
-  "pricePerKmPercentile": 90,
+  "pricePerKmPercentile": 75,
   "kmPercentile": 0,
   "daysListed": 55,
   "marginPct": 20.240963855421686,
@@ -22,9 +22,9 @@
       "pipKey": "bullet.pip.mid",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 60,
-        "n": 10,
-        "kind": "detail.cohort.refSize.kind.model"
+        "pct": 50,
+        "n": 4,
+        "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.pricey",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 10,
+        "pct": 25,
         "ppkm": 20
       }
     },
@@ -72,12 +72,12 @@
   "summary": {
     "verdictKey": "summary.verdict.fair",
     "cohortLineKey": "summary.cohortLine.yes",
-    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": null,
     "args": {
-      "refSize": 10,
+      "refSize": 4,
       "year": "2021",
       "title": "Opel Cross Land"
     }

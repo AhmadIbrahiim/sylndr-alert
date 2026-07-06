@@ -1,29 +1,29 @@
 {
   "vehicleId": "0be0207a-cc6b-4412-9891-1475627c9edf",
-  "computedAt": "2026-07-06T08:59:06.097Z",
+  "computedAt": "2026-07-06T12:53:57.592Z",
   "cohort": {
-    "sameModelCount": 34,
-    "sameYearCount": 10,
+    "sameModelCount": 35,
+    "sameYearCount": 11,
     "refCohort": "model+year",
-    "refSize": 10
+    "refSize": 11
   },
-  "pricePercentile": 40,
+  "pricePercentile": 45,
   "pricePerKm": 18.008474576271187,
-  "pricePerKmPercentile": 40,
-  "kmPercentile": 30,
-  "daysListed": 81,
+  "pricePerKmPercentile": 45,
+  "kmPercentile": 27,
+  "daysListed": 82,
   "marginPct": 11.294117647058824,
   "marginTier": "low",
   "auctionHeat": "hot",
-  "dealTag": "good",
+  "dealTag": "fair",
   "bullets": [
     {
       "tone": "mid",
       "pipKey": "bullet.pip.mid",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 60,
-        "n": 10,
+        "pct": 55,
+        "n": 11,
         "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 60,
+        "pct": 55,
         "ppkm": 18
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.lowKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 70
+        "pct": 73
       }
     },
     {
@@ -61,23 +61,23 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 81
+        "n": 82
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 81
+        "n": 82
       }
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.good",
+    "verdictKey": "summary.verdict.fair",
     "cohortLineKey": "summary.cohortLine.yes",
     "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": "summary.suffix.marginLow",
     "args": {
-      "refSize": 10,
+      "refSize": 11,
       "year": "2021",
       "title": "Peugeot 3008"
     }

@@ -1,38 +1,38 @@
 {
   "vehicleId": "4447d9fe-df0f-4a9b-b741-b534c344906a",
-  "computedAt": "2026-07-06T08:59:06.107Z",
+  "computedAt": "2026-07-06T12:53:57.601Z",
   "cohort": {
-    "sameModelCount": 26,
+    "sameModelCount": 27,
     "sameYearCount": 1,
     "refCohort": "model",
-    "refSize": 26
+    "refSize": 27
   },
-  "pricePercentile": 35,
+  "pricePercentile": 33,
   "pricePerKm": 2.6450255485422303,
-  "pricePerKmPercentile": 35,
-  "kmPercentile": 62,
+  "pricePerKmPercentile": 33,
+  "kmPercentile": 63,
   "daysListed": 43,
   "marginPct": 29.09090909090909,
   "marginTier": "mid",
   "auctionHeat": "warm",
-  "dealTag": "fair",
+  "dealTag": "good",
   "bullets": [
     {
-      "tone": "mid",
-      "pipKey": "bullet.pip.mid",
+      "tone": "good",
+      "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 65,
-        "n": 26,
+        "pct": 67,
+        "n": 27,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
     {
-      "tone": "mid",
+      "tone": "good",
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 65,
+        "pct": 67,
         "ppkm": 3
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 38
+        "pct": 37
       }
     },
     {
@@ -70,14 +70,14 @@
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.fair",
+    "verdictKey": "summary.verdict.good",
     "cohortLineKey": "summary.cohortLine.yes",
     "cohortKindKey": "detail.cohort.refSize.kind.model",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 26,
+      "refSize": 27,
       "year": "2019",
       "title": "Nissan Sunny"
     }

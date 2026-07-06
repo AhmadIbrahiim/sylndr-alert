@@ -1,17 +1,17 @@
 {
   "vehicleId": "fcabace4-af1c-4237-b5ac-42af244a9b16",
-  "computedAt": "2026-07-06T08:59:05.354Z",
+  "computedAt": "2026-07-06T12:53:56.863Z",
   "cohort": {
-    "sameModelCount": 51,
-    "sameYearCount": 4,
+    "sameModelCount": 52,
+    "sameYearCount": 5,
     "refCohort": "model+year",
-    "refSize": 4
+    "refSize": 5
   },
-  "pricePercentile": 50,
+  "pricePercentile": 60,
   "pricePerKm": 8.113590263691684,
-  "pricePerKmPercentile": 75,
+  "pricePerKmPercentile": 80,
   "kmPercentile": 0,
-  "daysListed": 51,
+  "daysListed": 52,
   "marginPct": 16.333333333333332,
   "marginTier": "mid",
   "auctionHeat": "hot",
@@ -22,8 +22,8 @@
       "pipKey": "bullet.pip.mid",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 50,
-        "n": 4,
+        "pct": 40,
+        "n": 5,
         "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.pricey",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 25,
+        "pct": 20,
         "ppkm": 8
       }
     },
@@ -61,11 +61,11 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 51
+        "n": 52
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 51
+        "n": 52
       }
     }
   ],
@@ -77,7 +77,7 @@
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": null,
     "args": {
-      "refSize": 4,
+      "refSize": 5,
       "year": "2013",
       "title": "Opel Astra"
     }
