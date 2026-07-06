@@ -1,16 +1,16 @@
 {
   "vehicleId": "45064205-e7bd-4b7e-836f-f90843374b0b",
-  "computedAt": "2026-07-05T17:21:07.227Z",
+  "computedAt": "2026-07-06T08:59:05.939Z",
   "cohort": {
-    "sameModelCount": 5,
+    "sameModelCount": 6,
     "sameYearCount": 1,
     "refCohort": "model",
-    "refSize": 5
+    "refSize": 6
   },
-  "pricePercentile": 0,
+  "pricePercentile": 17,
   "pricePerKm": 16.020506247997435,
-  "pricePerKmPercentile": 0,
-  "kmPercentile": 80,
+  "pricePerKmPercentile": 17,
+  "kmPercentile": 67,
   "daysListed": 42,
   "marginPct": 24.88,
   "marginTier": "mid",
@@ -22,8 +22,8 @@
       "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 100,
-        "n": 5,
+        "pct": 83,
+        "n": 6,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -32,16 +32,16 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 100,
+        "pct": 83,
         "ppkm": 16
       }
     },
     {
-      "tone": "hot",
-      "pipKey": "bullet.pip.highKm",
+      "tone": "mid",
+      "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 20
+        "pct": 33
       }
     },
     {
@@ -77,7 +77,7 @@
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 5,
+      "refSize": 6,
       "year": "2017",
       "title": "Mercedes-Benz E300"
     }
