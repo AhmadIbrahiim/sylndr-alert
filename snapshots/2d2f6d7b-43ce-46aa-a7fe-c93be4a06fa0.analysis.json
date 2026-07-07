@@ -1,16 +1,16 @@
 {
   "vehicleId": "2d2f6d7b-43ce-46aa-a7fe-c93be4a06fa0",
-  "computedAt": "2026-07-06T18:16:44.116Z",
+  "computedAt": "2026-07-07T08:20:22.893Z",
   "cohort": {
-    "sameModelCount": 5,
+    "sameModelCount": 6,
     "sameYearCount": 1,
     "refCohort": "model",
-    "refSize": 5
+    "refSize": 6
   },
-  "pricePercentile": 80,
+  "pricePercentile": 67,
   "pricePerKm": 282.7722772277228,
-  "pricePerKmPercentile": 80,
-  "kmPercentile": 0,
+  "pricePerKmPercentile": 67,
+  "kmPercentile": 17,
   "daysListed": 61,
   "marginPct": 16.736694677871146,
   "marginTier": "mid",
@@ -18,21 +18,21 @@
   "dealTag": "fair",
   "bullets": [
     {
-      "tone": "hot",
-      "pipKey": "bullet.pip.high",
+      "tone": "mid",
+      "pipKey": "bullet.pip.mid",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 20,
-        "n": 5,
+        "pct": 33,
+        "n": 6,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
     {
-      "tone": "hot",
-      "pipKey": "bullet.pip.pricey",
+      "tone": "mid",
+      "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 20,
+        "pct": 33,
         "ppkm": 283
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.lowKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 100
+        "pct": 83
       }
     },
     {
@@ -77,7 +77,7 @@
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": null,
     "args": {
-      "refSize": 5,
+      "refSize": 6,
       "year": "2024",
       "title": "Hyundai Elantra CN7"
     }

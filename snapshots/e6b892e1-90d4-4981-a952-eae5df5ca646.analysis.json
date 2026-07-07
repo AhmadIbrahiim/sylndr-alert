@@ -1,15 +1,15 @@
 {
   "vehicleId": "e6b892e1-90d4-4981-a952-eae5df5ca646",
-  "computedAt": "2026-07-06T18:16:44.776Z",
+  "computedAt": "2026-07-07T08:20:23.449Z",
   "cohort": {
-    "sameModelCount": 15,
-    "sameYearCount": 6,
+    "sameModelCount": 16,
+    "sameYearCount": 7,
     "refCohort": "model+year",
-    "refSize": 6
+    "refSize": 7
   },
-  "pricePercentile": 33,
+  "pricePercentile": 29,
   "pricePerKm": 8.76736111111111,
-  "pricePerKmPercentile": 67,
+  "pricePerKmPercentile": 71,
   "kmPercentile": 0,
   "daysListed": 118,
   "marginPct": 29.108910891089106,
@@ -22,17 +22,17 @@
       "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 67,
-        "n": 6,
+        "pct": 71,
+        "n": 7,
         "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
-      "tone": "mid",
-      "pipKey": "bullet.pip.value",
+      "tone": "hot",
+      "pipKey": "bullet.pip.pricey",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 33,
+        "pct": 29,
         "ppkm": 9
       }
     },
@@ -77,7 +77,7 @@
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": null,
     "args": {
-      "refSize": 6,
+      "refSize": 7,
       "year": "2020",
       "title": "Citroen C5 Aircross"
     }
