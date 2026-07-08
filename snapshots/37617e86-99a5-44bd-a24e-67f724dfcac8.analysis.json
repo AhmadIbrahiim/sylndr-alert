@@ -1,0 +1,79 @@
+{
+  "vehicleId": "37617e86-99a5-44bd-a24e-67f724dfcac8",
+  "computedAt": "2026-07-08T13:17:41.760Z",
+  "cohort": {
+    "sameModelCount": 12,
+    "sameYearCount": 2,
+    "refCohort": "model",
+    "refSize": 12
+  },
+  "pricePercentile": 0,
+  "pricePerKm": 4.619907601847963,
+  "pricePerKmPercentile": 17,
+  "kmPercentile": 50,
+  "daysListed": 0,
+  "marginPct": 12.727272727272727,
+  "marginTier": "low",
+  "auctionHeat": "warm",
+  "dealTag": "good",
+  "bullets": [
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.deal",
+      "textKey": "bullet.priceCheaper",
+      "textArgs": {
+        "pct": 100,
+        "n": 12,
+        "kind": "detail.cohort.refSize.kind.model"
+      }
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.value",
+      "textKey": "bullet.ppkmBetter",
+      "textArgs": {
+        "pct": 83,
+        "ppkm": 5
+      }
+    },
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.km",
+      "textKey": "bullet.kmLower",
+      "textArgs": {
+        "pct": 50
+      }
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.marginPct",
+      "pipArgs": {
+        "pct": "13"
+      },
+      "textKey": "bullet.marginLow"
+    },
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.warm",
+      "textKey": "bullet.auctionWarm"
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.fresh",
+      "textKey": "bullet.listedFresh"
+    }
+  ],
+  "summary": {
+    "verdictKey": "summary.verdict.good",
+    "cohortLineKey": "summary.cohortLine.yes",
+    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "ageSuffixKey": "summary.suffix.ageFresh",
+    "heatSuffixKey": null,
+    "marginSuffixKey": "summary.suffix.marginLow",
+    "args": {
+      "refSize": 12,
+      "year": "2018",
+      "title": "Opel Cross Land"
+    }
+  }
+}
