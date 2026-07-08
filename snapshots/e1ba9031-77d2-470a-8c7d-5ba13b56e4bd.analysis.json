@@ -1,16 +1,16 @@
 {
   "vehicleId": "e1ba9031-77d2-470a-8c7d-5ba13b56e4bd",
-  "computedAt": "2026-07-07T13:33:04.490Z",
+  "computedAt": "2026-07-08T07:26:22.795Z",
   "cohort": {
-    "sameModelCount": 7,
-    "sameYearCount": 3,
-    "refCohort": "model",
-    "refSize": 7
+    "sameModelCount": 8,
+    "sameYearCount": 4,
+    "refCohort": "model+year",
+    "refSize": 4
   },
   "pricePercentile": 0,
   "pricePerKm": 6.402293358815098,
-  "pricePerKmPercentile": 43,
-  "kmPercentile": 43,
+  "pricePerKmPercentile": 0,
+  "kmPercentile": 75,
   "daysListed": 20,
   "marginPct": 17.611940298507463,
   "marginTier": "mid",
@@ -23,25 +23,25 @@
       "textKey": "bullet.priceCheaper",
       "textArgs": {
         "pct": 100,
-        "n": 7,
-        "kind": "detail.cohort.refSize.kind.model"
+        "n": 4,
+        "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
-      "tone": "mid",
+      "tone": "good",
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 57,
+        "pct": 100,
         "ppkm": 6
       }
     },
     {
-      "tone": "mid",
-      "pipKey": "bullet.pip.km",
+      "tone": "hot",
+      "pipKey": "bullet.pip.highKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 57
+        "pct": 25
       }
     },
     {
@@ -72,12 +72,12 @@
   "summary": {
     "verdictKey": "summary.verdict.good",
     "cohortLineKey": "summary.cohortLine.yes",
-    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": null,
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 7,
+      "refSize": 4,
       "year": "2020",
       "title": "Citroen C3 Aircross"
     }
