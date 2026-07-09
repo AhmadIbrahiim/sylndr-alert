@@ -1,16 +1,16 @@
 {
   "vehicleId": "c1a0af26-f6bd-4478-9e2f-e410c43d3594",
-  "computedAt": "2026-07-08T17:47:05.967Z",
+  "computedAt": "2026-07-09T11:25:35.283Z",
   "cohort": {
-    "sameModelCount": 4,
+    "sameModelCount": 5,
     "sameYearCount": 1,
     "refCohort": "model",
-    "refSize": 4
+    "refSize": 5
   },
   "pricePercentile": 0,
   "pricePerKm": 2.5226765799256508,
   "pricePerKmPercentile": 0,
-  "kmPercentile": 75,
+  "kmPercentile": 60,
   "daysListed": 70,
   "marginPct": 22.319060250094733,
   "marginTier": "mid",
@@ -23,7 +23,7 @@
       "textKey": "bullet.priceCheaper",
       "textArgs": {
         "pct": 100,
-        "n": 4,
+        "n": 5,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -37,11 +37,11 @@
       }
     },
     {
-      "tone": "hot",
-      "pipKey": "bullet.pip.highKm",
+      "tone": "mid",
+      "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 25
+        "pct": 40
       }
     },
     {
@@ -77,7 +77,7 @@
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": null,
     "args": {
-      "refSize": 4,
+      "refSize": 5,
       "year": "2015",
       "title": "Ford Fiesta"
     }
