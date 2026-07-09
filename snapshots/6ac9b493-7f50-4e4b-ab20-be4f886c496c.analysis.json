@@ -1,16 +1,16 @@
 {
   "vehicleId": "6ac9b493-7f50-4e4b-ab20-be4f886c496c",
-  "computedAt": "2026-07-09T11:25:35.538Z",
+  "computedAt": "2026-07-09T14:04:36.028Z",
   "cohort": {
-    "sameModelCount": 19,
+    "sameModelCount": 20,
     "sameYearCount": 1,
     "refCohort": "model",
-    "refSize": 19
+    "refSize": 20
   },
   "pricePercentile": 0,
   "pricePerKm": 1.5258439824527943,
-  "pricePerKmPercentile": 0,
-  "kmPercentile": 89,
+  "pricePerKmPercentile": 5,
+  "kmPercentile": 85,
   "daysListed": 54,
   "marginPct": 30.25,
   "marginTier": "high",
@@ -23,7 +23,7 @@
       "textKey": "bullet.priceCheaper",
       "textArgs": {
         "pct": 100,
-        "n": 19,
+        "n": 20,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 100,
+        "pct": 95,
         "ppkm": 2
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.highKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 11
+        "pct": 15
       }
     },
     {
@@ -77,7 +77,7 @@
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": "summary.suffix.marginHigh",
     "args": {
-      "refSize": 19,
+      "refSize": 20,
       "year": "2014",
       "title": "Citroen C-Elysee"
     }
