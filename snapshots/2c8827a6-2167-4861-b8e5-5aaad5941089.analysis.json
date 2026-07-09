@@ -1,16 +1,16 @@
 {
   "vehicleId": "2c8827a6-2167-4861-b8e5-5aaad5941089",
-  "computedAt": "2026-07-09T14:04:36.178Z",
+  "computedAt": "2026-07-09T16:40:40.264Z",
   "cohort": {
-    "sameModelCount": 6,
+    "sameModelCount": 7,
     "sameYearCount": 2,
     "refCohort": "model",
-    "refSize": 6
+    "refSize": 7
   },
   "pricePercentile": 0,
   "pricePerKm": 3.3012016373960122,
-  "pricePerKmPercentile": 33,
-  "kmPercentile": 50,
+  "pricePerKmPercentile": 43,
+  "kmPercentile": 43,
   "daysListed": 192,
   "marginPct": -2.8000000000000003,
   "marginTier": "low",
@@ -23,16 +23,16 @@
       "textKey": "bullet.priceCheaper",
       "textArgs": {
         "pct": 100,
-        "n": 6,
+        "n": 7,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
     {
-      "tone": "good",
+      "tone": "mid",
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 67,
+        "pct": 57,
         "ppkm": 3
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 50
+        "pct": 57
       }
     },
     {
@@ -77,7 +77,7 @@
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": "summary.suffix.marginLow",
     "args": {
-      "refSize": 6,
+      "refSize": 7,
       "year": "2016",
       "title": "Lada Granta"
     }
