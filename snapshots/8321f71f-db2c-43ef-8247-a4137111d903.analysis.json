@@ -1,15 +1,15 @@
 {
   "vehicleId": "8321f71f-db2c-43ef-8247-a4137111d903",
-  "computedAt": "2026-07-10T17:53:33.767Z",
+  "computedAt": "2026-07-11T07:10:02.224Z",
   "cohort": {
-    "sameModelCount": 5,
-    "sameYearCount": 3,
-    "refCohort": "model",
-    "refSize": 5
+    "sameModelCount": 6,
+    "sameYearCount": 4,
+    "refCohort": "model+year",
+    "refSize": 4
   },
-  "pricePercentile": 80,
+  "pricePercentile": 75,
   "pricePerKm": 14.092526690391459,
-  "pricePerKmPercentile": 80,
+  "pricePerKmPercentile": 75,
   "kmPercentile": 0,
   "daysListed": 53,
   "marginPct": 16.666666666666664,
@@ -22,9 +22,9 @@
       "pipKey": "bullet.pip.high",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 20,
-        "n": 5,
-        "kind": "detail.cohort.refSize.kind.model"
+        "pct": 25,
+        "n": 4,
+        "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.pricey",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 20,
+        "pct": 25,
         "ppkm": 14
       }
     },
@@ -72,12 +72,12 @@
   "summary": {
     "verdictKey": "summary.verdict.fair",
     "cohortLineKey": "summary.cohortLine.yes",
-    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 5,
+      "refSize": 4,
       "year": "2022",
       "title": "Suzuki Ciaz"
     }
