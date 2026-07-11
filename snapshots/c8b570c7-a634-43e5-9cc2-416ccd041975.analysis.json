@@ -1,29 +1,29 @@
 {
   "vehicleId": "c8b570c7-a634-43e5-9cc2-416ccd041975",
-  "computedAt": "2026-07-11T10:19:19.511Z",
+  "computedAt": "2026-07-11T11:29:30.609Z",
   "cohort": {
-    "sameModelCount": 19,
+    "sameModelCount": 20,
     "sameYearCount": 2,
     "refCohort": "model",
-    "refSize": 19
+    "refSize": 20
   },
-  "pricePercentile": 32,
+  "pricePercentile": 35,
   "pricePerKm": 5.1148375451263535,
-  "pricePerKmPercentile": 37,
-  "kmPercentile": 53,
+  "pricePerKmPercentile": 40,
+  "kmPercentile": 50,
   "daysListed": 137,
   "marginPct": 7.538766665960855,
   "marginTier": "low",
   "auctionHeat": "hot",
-  "dealTag": "good",
+  "dealTag": "fair",
   "bullets": [
     {
-      "tone": "good",
-      "pipKey": "bullet.pip.deal",
+      "tone": "mid",
+      "pipKey": "bullet.pip.mid",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 68,
-        "n": 19,
+        "pct": 65,
+        "n": 20,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 63,
+        "pct": 60,
         "ppkm": 5
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 47
+        "pct": 50
       }
     },
     {
@@ -70,14 +70,14 @@
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.good",
+    "verdictKey": "summary.verdict.fair",
     "cohortLineKey": "summary.cohortLine.yes",
     "cohortKindKey": "detail.cohort.refSize.kind.model",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": "summary.suffix.marginLow",
     "args": {
-      "refSize": 19,
+      "refSize": 20,
       "year": "2020",
       "title": "Opel Insignia"
     }
