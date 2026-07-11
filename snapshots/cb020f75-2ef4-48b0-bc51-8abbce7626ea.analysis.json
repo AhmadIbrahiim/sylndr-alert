@@ -1,16 +1,16 @@
 {
   "vehicleId": "cb020f75-2ef4-48b0-bc51-8abbce7626ea",
-  "computedAt": "2026-07-11T12:31:42.147Z",
+  "computedAt": "2026-07-11T14:10:33.526Z",
   "cohort": {
-    "sameModelCount": 22,
-    "sameYearCount": 7,
+    "sameModelCount": 23,
+    "sameYearCount": 8,
     "refCohort": "model+year",
-    "refSize": 7
+    "refSize": 8
   },
-  "pricePercentile": 86,
+  "pricePercentile": 88,
   "pricePerKm": 9.928295642581357,
-  "pricePerKmPercentile": 71,
-  "kmPercentile": 57,
+  "pricePerKmPercentile": 63,
+  "kmPercentile": 63,
   "daysListed": 143,
   "marginPct": 22.22222222222222,
   "marginTier": "mid",
@@ -22,17 +22,17 @@
       "pipKey": "bullet.pip.high",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 14,
-        "n": 7,
+        "pct": 12,
+        "n": 8,
         "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
-      "tone": "hot",
-      "pipKey": "bullet.pip.pricey",
+      "tone": "mid",
+      "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 29,
+        "pct": 37,
         "ppkm": 10
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 43
+        "pct": 37
       }
     },
     {
@@ -77,7 +77,7 @@
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": null,
     "args": {
-      "refSize": 7,
+      "refSize": 8,
       "year": "2021",
       "title": "Ford Focus"
     }
