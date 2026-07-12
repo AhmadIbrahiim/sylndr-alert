@@ -1,16 +1,16 @@
 {
   "vehicleId": "af4dfc82-ad7e-4253-82eb-803294661bcd",
-  "computedAt": "2026-07-12T07:27:25.229Z",
+  "computedAt": "2026-07-12T09:27:23.811Z",
   "cohort": {
-    "sameModelCount": 5,
+    "sameModelCount": 6,
     "sameYearCount": 2,
     "refCohort": "model",
-    "refSize": 5
+    "refSize": 6
   },
-  "pricePercentile": 0,
+  "pricePercentile": 17,
   "pricePerKm": 5.717552887364208,
-  "pricePerKmPercentile": 20,
-  "kmPercentile": 40,
+  "pricePerKmPercentile": 33,
+  "kmPercentile": 33,
   "daysListed": 26,
   "marginPct": 15.4,
   "marginTier": "mid",
@@ -22,8 +22,8 @@
       "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 100,
-        "n": 5,
+        "pct": 83,
+        "n": 6,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -32,16 +32,16 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 80,
+        "pct": 67,
         "ppkm": 6
       }
     },
     {
-      "tone": "mid",
-      "pipKey": "bullet.pip.km",
+      "tone": "good",
+      "pipKey": "bullet.pip.lowKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 60
+        "pct": 67
       }
     },
     {
@@ -77,7 +77,7 @@
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 5,
+      "refSize": 6,
       "year": "2016",
       "title": "BMW 318"
     }

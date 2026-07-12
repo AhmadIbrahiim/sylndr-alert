@@ -1,16 +1,16 @@
 {
   "vehicleId": "00044f29-f1ea-4859-850a-55bedbb76429",
-  "computedAt": "2026-07-12T07:27:26.413Z",
+  "computedAt": "2026-07-12T09:27:24.943Z",
   "cohort": {
-    "sameModelCount": 9,
+    "sameModelCount": 10,
     "sameYearCount": 1,
     "refCohort": "model",
-    "refSize": 9
+    "refSize": 10
   },
-  "pricePercentile": 78,
+  "pricePercentile": 80,
   "pricePerKm": 102.17113665389527,
-  "pricePerKmPercentile": 78,
-  "kmPercentile": 11,
+  "pricePerKmPercentile": 80,
+  "kmPercentile": 20,
   "daysListed": 19,
   "marginPct": 10.925,
   "marginTier": "low",
@@ -22,8 +22,8 @@
       "pipKey": "bullet.pip.high",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 22,
-        "n": 9,
+        "pct": 20,
+        "n": 10,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.pricey",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 22,
+        "pct": 20,
         "ppkm": 102
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.lowKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 89
+        "pct": 80
       }
     },
     {
@@ -77,7 +77,7 @@
     "heatSuffixKey": null,
     "marginSuffixKey": "summary.suffix.marginLow",
     "args": {
-      "refSize": 9,
+      "refSize": 10,
       "year": "2023",
       "title": "Mercedes-Benz E200"
     }

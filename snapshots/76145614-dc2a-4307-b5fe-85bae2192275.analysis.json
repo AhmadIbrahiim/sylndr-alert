@@ -1,0 +1,79 @@
+{
+  "vehicleId": "76145614-dc2a-4307-b5fe-85bae2192275",
+  "computedAt": "2026-07-12T09:27:24.609Z",
+  "cohort": {
+    "sameModelCount": 10,
+    "sameYearCount": 2,
+    "refCohort": "model",
+    "refSize": 10
+  },
+  "pricePercentile": 50,
+  "pricePerKm": 90.12875536480686,
+  "pricePerKmPercentile": 70,
+  "kmPercentile": 10,
+  "daysListed": 0,
+  "marginPct": 11.11111111111111,
+  "marginTier": "low",
+  "auctionHeat": "cold",
+  "dealTag": "fair",
+  "bullets": [
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.mid",
+      "textKey": "bullet.priceCheaper",
+      "textArgs": {
+        "pct": 50,
+        "n": 10,
+        "kind": "detail.cohort.refSize.kind.model"
+      }
+    },
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.value",
+      "textKey": "bullet.ppkmBetter",
+      "textArgs": {
+        "pct": 30,
+        "ppkm": 90
+      }
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.lowKm",
+      "textKey": "bullet.kmLower",
+      "textArgs": {
+        "pct": 90
+      }
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.marginPct",
+      "pipArgs": {
+        "pct": "11"
+      },
+      "textKey": "bullet.marginLow"
+    },
+    {
+      "tone": "neutral",
+      "pipKey": "bullet.pip.cold",
+      "textKey": "bullet.auctionCold"
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.fresh",
+      "textKey": "bullet.listedFresh"
+    }
+  ],
+  "summary": {
+    "verdictKey": "summary.verdict.fair",
+    "cohortLineKey": "summary.cohortLine.yes",
+    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "ageSuffixKey": "summary.suffix.ageFresh",
+    "heatSuffixKey": null,
+    "marginSuffixKey": "summary.suffix.marginLow",
+    "args": {
+      "refSize": 10,
+      "year": "2020",
+      "title": "Mercedes-Benz E200"
+    }
+  }
+}
