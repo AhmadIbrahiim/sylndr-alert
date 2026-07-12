@@ -1,6 +1,6 @@
 {
   "vehicleId": "ca189dd4-ac14-4ed6-bea0-31ed0e2b5742",
-  "computedAt": "2026-07-12T09:27:23.542Z",
+  "computedAt": "2026-07-12T10:53:39.886Z",
   "cohort": {
     "sameModelCount": 9,
     "sameYearCount": 1,
@@ -11,7 +11,7 @@
   "pricePerKm": 7.465007776049767,
   "pricePerKmPercentile": 67,
   "kmPercentile": 33,
-  "daysListed": 13,
+  "daysListed": 14,
   "marginPct": 16.38888888888889,
   "marginTier": "mid",
   "auctionHeat": "warm",
@@ -56,6 +56,17 @@
       "tone": "mid",
       "pipKey": "bullet.pip.warm",
       "textKey": "bullet.auctionWarm"
+    },
+    {
+      "tone": "neutral",
+      "pipKey": "bullet.pip.daysListed",
+      "pipArgs": {
+        "n": 14
+      },
+      "textKey": "bullet.listedOld",
+      "textArgs": {
+        "n": 14
+      }
     }
   ],
   "summary": {
