@@ -1,0 +1,79 @@
+{
+  "vehicleId": "62f06997-cd0c-48e8-9a81-496aaeb75e4c",
+  "computedAt": "2026-07-13T13:40:59.427Z",
+  "cohort": {
+    "sameModelCount": 18,
+    "sameYearCount": 6,
+    "refCohort": "model+year",
+    "refSize": 6
+  },
+  "pricePercentile": 83,
+  "pricePerKm": 38.95705521472393,
+  "pricePerKmPercentile": 83,
+  "kmPercentile": 0,
+  "daysListed": 0,
+  "marginPct": 13.858267716535433,
+  "marginTier": "low",
+  "auctionHeat": "warm",
+  "dealTag": "high",
+  "bullets": [
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.high",
+      "textKey": "bullet.priceCheaper",
+      "textArgs": {
+        "pct": 17,
+        "n": 6,
+        "kind": "detail.cohort.refSize.kind.modelYear"
+      }
+    },
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.pricey",
+      "textKey": "bullet.ppkmBetter",
+      "textArgs": {
+        "pct": 17,
+        "ppkm": 39
+      }
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.lowKm",
+      "textKey": "bullet.kmLower",
+      "textArgs": {
+        "pct": 100
+      }
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.marginPct",
+      "pipArgs": {
+        "pct": "14"
+      },
+      "textKey": "bullet.marginLow"
+    },
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.warm",
+      "textKey": "bullet.auctionWarm"
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.fresh",
+      "textKey": "bullet.listedFresh"
+    }
+  ],
+  "summary": {
+    "verdictKey": "summary.verdict.high",
+    "cohortLineKey": "summary.cohortLine.yes",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
+    "ageSuffixKey": "summary.suffix.ageFresh",
+    "heatSuffixKey": null,
+    "marginSuffixKey": "summary.suffix.marginLow",
+    "args": {
+      "refSize": 6,
+      "year": "2021",
+      "title": "MG HS"
+    }
+  }
+}
