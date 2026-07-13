@@ -1,16 +1,16 @@
 {
   "vehicleId": "1e62943f-d145-47a3-bf17-bb881d431799",
-  "computedAt": "2026-07-13T08:14:34.975Z",
+  "computedAt": "2026-07-13T11:30:47.688Z",
   "cohort": {
-    "sameModelCount": 15,
-    "sameYearCount": 2,
+    "sameModelCount": 16,
+    "sameYearCount": 3,
     "refCohort": "model",
-    "refSize": 15
+    "refSize": 16
   },
-  "pricePercentile": 73,
+  "pricePercentile": 69,
   "pricePerKm": 6.311207834602829,
-  "pricePerKmPercentile": 80,
-  "kmPercentile": 20,
+  "pricePerKmPercentile": 75,
+  "kmPercentile": 25,
   "daysListed": 25,
   "marginPct": 18.448275862068968,
   "marginTier": "mid",
@@ -18,12 +18,12 @@
   "dealTag": "fair",
   "bullets": [
     {
-      "tone": "hot",
-      "pipKey": "bullet.pip.high",
+      "tone": "mid",
+      "pipKey": "bullet.pip.mid",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 27,
-        "n": 15,
+        "pct": 31,
+        "n": 16,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.pricey",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 20,
+        "pct": 25,
         "ppkm": 6
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.lowKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 80
+        "pct": 75
       }
     },
     {
@@ -77,7 +77,7 @@
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 15,
+      "refSize": 16,
       "year": "2021",
       "title": "Chevrolet Optra"
     }

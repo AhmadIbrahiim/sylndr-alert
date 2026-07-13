@@ -1,17 +1,17 @@
 {
   "vehicleId": "eb3e6d5f-7508-43ef-9c74-5d41e95bd934",
-  "computedAt": "2026-07-13T08:14:34.372Z",
+  "computedAt": "2026-07-13T11:30:47.041Z",
   "cohort": {
-    "sameModelCount": 4,
+    "sameModelCount": 5,
     "sameYearCount": 3,
     "refCohort": "model",
-    "refSize": 4
+    "refSize": 5
   },
-  "pricePercentile": 75,
+  "pricePercentile": 80,
   "pricePerKm": 19.551020408163264,
-  "pricePerKmPercentile": 50,
-  "kmPercentile": 25,
-  "daysListed": 35,
+  "pricePerKmPercentile": 60,
+  "kmPercentile": 20,
+  "daysListed": 36,
   "marginPct": 14.613778705636744,
   "marginTier": "low",
   "auctionHeat": "cold",
@@ -22,8 +22,8 @@
       "pipKey": "bullet.pip.high",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 25,
-        "n": 4,
+        "pct": 20,
+        "n": 5,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 50,
+        "pct": 40,
         "ppkm": 20
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.lowKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 75
+        "pct": 80
       }
     },
     {
@@ -61,11 +61,11 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 35
+        "n": 36
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 35
+        "n": 36
       }
     }
   ],
@@ -77,7 +77,7 @@
     "heatSuffixKey": null,
     "marginSuffixKey": "summary.suffix.marginLow",
     "args": {
-      "refSize": 4,
+      "refSize": 5,
       "year": "2022",
       "title": "JETOUR X70"
     }
