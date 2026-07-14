@@ -1,16 +1,16 @@
 {
   "vehicleId": "14e118d4-db8d-45b4-ab71-d337608600a9",
-  "computedAt": "2026-07-14T14:29:03.624Z",
+  "computedAt": "2026-07-14T16:00:00.625Z",
   "cohort": {
-    "sameModelCount": 27,
+    "sameModelCount": 28,
     "sameYearCount": 3,
     "refCohort": "model",
-    "refSize": 27
+    "refSize": 28
   },
-  "pricePercentile": 78,
+  "pricePercentile": 79,
   "pricePerKm": 9.24503488372093,
-  "pricePerKmPercentile": 70,
-  "kmPercentile": 30,
+  "pricePerKmPercentile": 71,
+  "kmPercentile": 29,
   "daysListed": 100,
   "marginPct": 7.555658411240226,
   "marginTier": "low",
@@ -22,17 +22,17 @@
       "pipKey": "bullet.pip.high",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 22,
-        "n": 27,
+        "pct": 21,
+        "n": 28,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
     {
-      "tone": "mid",
-      "pipKey": "bullet.pip.value",
+      "tone": "hot",
+      "pipKey": "bullet.pip.pricey",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 30,
+        "pct": 29,
         "ppkm": 9
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.lowKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 70
+        "pct": 71
       }
     },
     {
@@ -77,7 +77,7 @@
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": "summary.suffix.marginLow",
     "args": {
-      "refSize": 27,
+      "refSize": 28,
       "year": "2023",
       "title": "Renault Duster"
     }
