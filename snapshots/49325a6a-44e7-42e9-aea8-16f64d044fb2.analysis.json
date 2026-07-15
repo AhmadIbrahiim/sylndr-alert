@@ -1,16 +1,16 @@
 {
   "vehicleId": "49325a6a-44e7-42e9-aea8-16f64d044fb2",
-  "computedAt": "2026-07-15T07:13:13.864Z",
+  "computedAt": "2026-07-15T09:22:48.762Z",
   "cohort": {
-    "sameModelCount": 19,
+    "sameModelCount": 20,
     "sameYearCount": 1,
     "refCohort": "model",
-    "refSize": 19
+    "refSize": 20
   },
-  "pricePercentile": 0,
+  "pricePercentile": 5,
   "pricePerKm": 7.302310445818419,
-  "pricePerKmPercentile": 0,
-  "kmPercentile": 68,
+  "pricePerKmPercentile": 5,
+  "kmPercentile": 65,
   "daysListed": 86,
   "marginPct": 17.290552584670234,
   "marginTier": "mid",
@@ -22,8 +22,8 @@
       "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 100,
-        "n": 19,
+        "pct": 95,
+        "n": 20,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 100,
+        "pct": 95,
         "ppkm": 7
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 32
+        "pct": 35
       }
     },
     {
@@ -77,7 +77,7 @@
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": null,
     "args": {
-      "refSize": 19,
+      "refSize": 20,
       "year": "2015",
       "title": "BMW 320i"
     }

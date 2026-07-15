@@ -1,0 +1,79 @@
+{
+  "vehicleId": "a388461e-2fd0-407d-bc19-116c668044a0",
+  "computedAt": "2026-07-15T09:22:48.841Z",
+  "cohort": {
+    "sameModelCount": 16,
+    "sameYearCount": 2,
+    "refCohort": "model",
+    "refSize": 16
+  },
+  "pricePercentile": 81,
+  "pricePerKm": 14.15270018621974,
+  "pricePerKmPercentile": 81,
+  "kmPercentile": 19,
+  "daysListed": 0,
+  "marginPct": 14.605263157894738,
+  "marginTier": "low",
+  "auctionHeat": "cold",
+  "dealTag": "high",
+  "bullets": [
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.high",
+      "textKey": "bullet.priceCheaper",
+      "textArgs": {
+        "pct": 19,
+        "n": 16,
+        "kind": "detail.cohort.refSize.kind.model"
+      }
+    },
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.pricey",
+      "textKey": "bullet.ppkmBetter",
+      "textArgs": {
+        "pct": 19,
+        "ppkm": 14
+      }
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.lowKm",
+      "textKey": "bullet.kmLower",
+      "textArgs": {
+        "pct": 81
+      }
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.marginPct",
+      "pipArgs": {
+        "pct": "15"
+      },
+      "textKey": "bullet.marginLow"
+    },
+    {
+      "tone": "neutral",
+      "pipKey": "bullet.pip.cold",
+      "textKey": "bullet.auctionCold"
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.fresh",
+      "textKey": "bullet.listedFresh"
+    }
+  ],
+  "summary": {
+    "verdictKey": "summary.verdict.high",
+    "cohortLineKey": "summary.cohortLine.yes",
+    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "ageSuffixKey": "summary.suffix.ageFresh",
+    "heatSuffixKey": null,
+    "marginSuffixKey": "summary.suffix.marginLow",
+    "args": {
+      "refSize": 16,
+      "year": "2023",
+      "title": "Chery Tiggo 3"
+    }
+  }
+}
