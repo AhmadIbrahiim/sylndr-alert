@@ -1,47 +1,47 @@
 {
   "vehicleId": "2508bce2-70ca-43cc-9ddd-1a48dd44e123",
-  "computedAt": "2026-07-16T12:59:07.159Z",
+  "computedAt": "2026-07-16T15:06:29.566Z",
   "cohort": {
-    "sameModelCount": 21,
-    "sameYearCount": 3,
-    "refCohort": "model",
-    "refSize": 21
+    "sameModelCount": 22,
+    "sameYearCount": 4,
+    "refCohort": "model+year",
+    "refSize": 4
   },
-  "pricePercentile": 76,
+  "pricePercentile": 25,
   "pricePerKm": 8.458035133376708,
-  "pricePerKmPercentile": 67,
-  "kmPercentile": 57,
+  "pricePerKmPercentile": 25,
+  "kmPercentile": 75,
   "daysListed": 44,
   "marginPct": 20.23076923076923,
   "marginTier": "mid",
   "auctionHeat": "cold",
-  "dealTag": "high",
+  "dealTag": "good",
   "bullets": [
     {
-      "tone": "hot",
-      "pipKey": "bullet.pip.high",
+      "tone": "good",
+      "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 24,
-        "n": 21,
-        "kind": "detail.cohort.refSize.kind.model"
+        "pct": 75,
+        "n": 4,
+        "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
-      "tone": "mid",
+      "tone": "good",
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 33,
+        "pct": 75,
         "ppkm": 8
       }
     },
     {
-      "tone": "mid",
-      "pipKey": "bullet.pip.km",
+      "tone": "hot",
+      "pipKey": "bullet.pip.highKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 43
+        "pct": 25
       }
     },
     {
@@ -70,14 +70,14 @@
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.high",
+    "verdictKey": "summary.verdict.good",
     "cohortLineKey": "summary.cohortLine.yes",
-    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 21,
+      "refSize": 4,
       "year": "2022",
       "title": "Peugeot 508"
     }

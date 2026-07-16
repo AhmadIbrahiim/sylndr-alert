@@ -1,29 +1,29 @@
 {
   "vehicleId": "4447d9fe-df0f-4a9b-b741-b534c344906a",
-  "computedAt": "2026-07-16T12:59:07.408Z",
+  "computedAt": "2026-07-16T15:06:29.796Z",
   "cohort": {
-    "sameModelCount": 29,
+    "sameModelCount": 30,
     "sameYearCount": 1,
     "refCohort": "model",
-    "refSize": 29
+    "refSize": 30
   },
-  "pricePercentile": 31,
+  "pricePercentile": 33,
   "pricePerKm": 2.6450255485422303,
-  "pricePerKmPercentile": 38,
-  "kmPercentile": 59,
-  "daysListed": 53,
+  "pricePerKmPercentile": 40,
+  "kmPercentile": 57,
+  "daysListed": 54,
   "marginPct": 29.09090909090909,
   "marginTier": "mid",
   "auctionHeat": "warm",
-  "dealTag": "good",
+  "dealTag": "fair",
   "bullets": [
     {
       "tone": "good",
       "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 69,
-        "n": 29,
+        "pct": 67,
+        "n": 30,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 62,
+        "pct": 60,
         "ppkm": 3
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 41
+        "pct": 43
       }
     },
     {
@@ -61,23 +61,23 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 53
+        "n": 54
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 53
+        "n": 54
       }
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.good",
+    "verdictKey": "summary.verdict.fair",
     "cohortLineKey": "summary.cohortLine.yes",
     "cohortKindKey": "detail.cohort.refSize.kind.model",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 29,
+      "refSize": 30,
       "year": "2019",
       "title": "Nissan Sunny"
     }

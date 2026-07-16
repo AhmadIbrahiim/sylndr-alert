@@ -1,17 +1,17 @@
 {
   "vehicleId": "2184b621-8e94-4ebf-a755-b77e1ffdd60d",
-  "computedAt": "2026-07-16T12:59:06.449Z",
+  "computedAt": "2026-07-16T15:06:28.941Z",
   "cohort": {
-    "sameModelCount": 4,
-    "sameYearCount": 4,
+    "sameModelCount": 5,
+    "sameYearCount": 5,
     "refCohort": "model+year",
-    "refSize": 4
+    "refSize": 5
   },
   "pricePercentile": 0,
   "pricePerKm": 18.75,
-  "pricePerKmPercentile": 75,
-  "kmPercentile": 0,
-  "daysListed": 52,
+  "pricePerKmPercentile": 60,
+  "kmPercentile": 20,
+  "daysListed": 53,
   "marginPct": 8.275862068965518,
   "marginTier": "low",
   "auctionHeat": "warm",
@@ -23,16 +23,16 @@
       "textKey": "bullet.priceCheaper",
       "textArgs": {
         "pct": 100,
-        "n": 4,
+        "n": 5,
         "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
-      "tone": "hot",
-      "pipKey": "bullet.pip.pricey",
+      "tone": "mid",
+      "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 25,
+        "pct": 40,
         "ppkm": 19
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.lowKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 100
+        "pct": 80
       }
     },
     {
@@ -61,11 +61,11 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 52
+        "n": 53
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 52
+        "n": 53
       }
     }
   ],
@@ -77,7 +77,7 @@
     "heatSuffixKey": null,
     "marginSuffixKey": "summary.suffix.marginLow",
     "args": {
-      "refSize": 4,
+      "refSize": 5,
       "year": "2025",
       "title": "Chery Tiggo 4 pro"
     }
