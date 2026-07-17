@@ -1,30 +1,30 @@
 {
   "vehicleId": "20e69ea9-26f7-49da-b342-cc4771d66920",
-  "computedAt": "2026-07-17T12:20:55.150Z",
+  "computedAt": "2026-07-17T14:12:00.574Z",
   "cohort": {
-    "sameModelCount": 59,
-    "sameYearCount": 3,
-    "refCohort": "model",
-    "refSize": 59
+    "sameModelCount": 61,
+    "sameYearCount": 4,
+    "refCohort": "model+year",
+    "refSize": 4
   },
-  "pricePercentile": 95,
+  "pricePercentile": 75,
   "pricePerKm": 10.75268817204301,
-  "pricePerKmPercentile": 95,
-  "kmPercentile": 5,
+  "pricePerKmPercentile": 75,
+  "kmPercentile": 0,
   "daysListed": 74,
   "marginPct": 33.625,
   "marginTier": "high",
   "auctionHeat": "hot",
-  "dealTag": "high",
+  "dealTag": "fair",
   "bullets": [
     {
       "tone": "hot",
       "pipKey": "bullet.pip.high",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 5,
-        "n": 59,
-        "kind": "detail.cohort.refSize.kind.model"
+        "pct": 25,
+        "n": 4,
+        "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.pricey",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 5,
+        "pct": 25,
         "ppkm": 11
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.lowKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 95
+        "pct": 100
       }
     },
     {
@@ -70,14 +70,14 @@
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.high",
+    "verdictKey": "summary.verdict.fair",
     "cohortLineKey": "summary.cohortLine.yes",
-    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": "summary.suffix.marginHigh",
     "args": {
-      "refSize": 59,
+      "refSize": 4,
       "year": "2018",
       "title": "Opel Astra"
     }
