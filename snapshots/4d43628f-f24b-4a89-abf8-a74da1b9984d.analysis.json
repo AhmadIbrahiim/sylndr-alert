@@ -1,16 +1,16 @@
 {
   "vehicleId": "4d43628f-f24b-4a89-abf8-a74da1b9984d",
-  "computedAt": "2026-07-18T11:29:41.926Z",
+  "computedAt": "2026-07-18T12:29:59.967Z",
   "cohort": {
-    "sameModelCount": 13,
+    "sameModelCount": 14,
     "sameYearCount": 2,
     "refCohort": "model",
-    "refSize": 13
+    "refSize": 14
   },
   "pricePercentile": 0,
   "pricePerKm": 1.8950774208458516,
-  "pricePerKmPercentile": 31,
-  "kmPercentile": 31,
+  "pricePerKmPercentile": 29,
+  "kmPercentile": 36,
   "daysListed": 63,
   "marginPct": 21.951219512195124,
   "marginTier": "mid",
@@ -23,7 +23,7 @@
       "textKey": "bullet.priceCheaper",
       "textArgs": {
         "pct": 100,
-        "n": 13,
+        "n": 14,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -32,16 +32,16 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 69,
+        "pct": 71,
         "ppkm": 2
       }
     },
     {
-      "tone": "good",
-      "pipKey": "bullet.pip.lowKm",
+      "tone": "mid",
+      "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 69
+        "pct": 64
       }
     },
     {
@@ -77,7 +77,7 @@
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 13,
+      "refSize": 14,
       "year": "2006",
       "title": "Kia Cerato"
     }
