@@ -1,22 +1,49 @@
 {
   "vehicleId": "29b2c275-3ef2-415c-ae19-6b64895ce20a",
-  "computedAt": "2026-07-19T11:54:58.256Z",
+  "computedAt": "2026-07-19T13:10:00.942Z",
   "cohort": {
-    "sameModelCount": 2,
+    "sameModelCount": 3,
     "sameYearCount": 1,
     "refCohort": "model",
-    "refSize": 2
+    "refSize": 3
   },
-  "pricePercentile": null,
+  "pricePercentile": 67,
   "pricePerKm": 6.705776173285199,
-  "pricePerKmPercentile": null,
-  "kmPercentile": null,
-  "daysListed": 47,
+  "pricePerKmPercentile": 67,
+  "kmPercentile": 0,
+  "daysListed": 48,
   "marginPct": 24.89905787348587,
   "marginTier": "mid",
   "auctionHeat": "warm",
   "dealTag": "fair",
   "bullets": [
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.mid",
+      "textKey": "bullet.priceCheaper",
+      "textArgs": {
+        "pct": 33,
+        "n": 3,
+        "kind": "detail.cohort.refSize.kind.model"
+      }
+    },
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.value",
+      "textKey": "bullet.ppkmBetter",
+      "textArgs": {
+        "pct": 33,
+        "ppkm": 7
+      }
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.lowKm",
+      "textKey": "bullet.kmLower",
+      "textArgs": {
+        "pct": 100
+      }
+    },
     {
       "tone": "mid",
       "pipKey": "bullet.pip.marginPct",
@@ -34,11 +61,11 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 47
+        "n": 48
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 47
+        "n": 48
       }
     }
   ],
@@ -50,7 +77,7 @@
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 2,
+      "refSize": 3,
       "year": "2016",
       "title": "Peugeot 308"
     }
