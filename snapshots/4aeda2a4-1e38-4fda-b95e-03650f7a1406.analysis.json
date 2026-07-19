@@ -1,0 +1,79 @@
+{
+  "vehicleId": "4aeda2a4-1e38-4fda-b95e-03650f7a1406",
+  "computedAt": "2026-07-19T11:54:59.532Z",
+  "cohort": {
+    "sameModelCount": 3,
+    "sameYearCount": 2,
+    "refCohort": "model",
+    "refSize": 3
+  },
+  "pricePercentile": 67,
+  "pricePerKm": 3.9867109634551494,
+  "pricePerKmPercentile": 33,
+  "kmPercentile": 33,
+  "daysListed": 0,
+  "marginPct": 16.41025641025641,
+  "marginTier": "mid",
+  "auctionHeat": "cold",
+  "dealTag": "fair",
+  "bullets": [
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.mid",
+      "textKey": "bullet.priceCheaper",
+      "textArgs": {
+        "pct": 33,
+        "n": 3,
+        "kind": "detail.cohort.refSize.kind.model"
+      }
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.value",
+      "textKey": "bullet.ppkmBetter",
+      "textArgs": {
+        "pct": 67,
+        "ppkm": 4
+      }
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.lowKm",
+      "textKey": "bullet.kmLower",
+      "textArgs": {
+        "pct": 67
+      }
+    },
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.marginPct",
+      "pipArgs": {
+        "pct": "16"
+      },
+      "textKey": "bullet.marginMid"
+    },
+    {
+      "tone": "neutral",
+      "pipKey": "bullet.pip.cold",
+      "textKey": "bullet.auctionCold"
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.fresh",
+      "textKey": "bullet.listedFresh"
+    }
+  ],
+  "summary": {
+    "verdictKey": "summary.verdict.fair",
+    "cohortLineKey": "summary.cohortLine.yes",
+    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "ageSuffixKey": "summary.suffix.ageFresh",
+    "heatSuffixKey": null,
+    "marginSuffixKey": null,
+    "args": {
+      "refSize": 3,
+      "year": "2013",
+      "title": "Mercedes-Benz B200"
+    }
+  }
+}
