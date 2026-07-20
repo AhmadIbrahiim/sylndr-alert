@@ -1,0 +1,79 @@
+{
+  "vehicleId": "3cd187e9-335d-4da4-90b6-e45f312e8284",
+  "computedAt": "2026-07-20T10:50:19.787Z",
+  "cohort": {
+    "sameModelCount": 39,
+    "sameYearCount": 1,
+    "refCohort": "model",
+    "refSize": 39
+  },
+  "pricePercentile": 5,
+  "pricePerKm": 3.642384105960265,
+  "pricePerKmPercentile": 56,
+  "kmPercentile": 21,
+  "daysListed": 0,
+  "marginPct": 40,
+  "marginTier": "high",
+  "auctionHeat": "cold",
+  "dealTag": "good",
+  "bullets": [
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.deal",
+      "textKey": "bullet.priceCheaper",
+      "textArgs": {
+        "pct": 95,
+        "n": 39,
+        "kind": "detail.cohort.refSize.kind.model"
+      }
+    },
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.value",
+      "textKey": "bullet.ppkmBetter",
+      "textArgs": {
+        "pct": 44,
+        "ppkm": 4
+      }
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.lowKm",
+      "textKey": "bullet.kmLower",
+      "textArgs": {
+        "pct": 79
+      }
+    },
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.marginPct",
+      "pipArgs": {
+        "pct": "40"
+      },
+      "textKey": "bullet.marginHigh"
+    },
+    {
+      "tone": "neutral",
+      "pipKey": "bullet.pip.cold",
+      "textKey": "bullet.auctionCold"
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.fresh",
+      "textKey": "bullet.listedFresh"
+    }
+  ],
+  "summary": {
+    "verdictKey": "summary.verdict.good",
+    "cohortLineKey": "summary.cohortLine.yes",
+    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "ageSuffixKey": "summary.suffix.ageFresh",
+    "heatSuffixKey": null,
+    "marginSuffixKey": "summary.suffix.marginHigh",
+    "args": {
+      "refSize": 39,
+      "year": "2010",
+      "title": "Renault Logan"
+    }
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "vehicleId": "342fad85-6dc8-4d62-9bb2-f0c9adf5cd82",
+  "computedAt": "2026-07-20T10:50:19.934Z",
+  "cohort": {
+    "sameModelCount": 9,
+    "sameYearCount": 1,
+    "refCohort": "model",
+    "refSize": 9
+  },
+  "pricePercentile": 89,
+  "pricePerKm": 7.661437431594309,
+  "pricePerKmPercentile": 56,
+  "kmPercentile": 44,
+  "daysListed": 0,
+  "marginPct": 22.285714285714285,
+  "marginTier": "mid",
+  "auctionHeat": "warm",
+  "dealTag": "high",
+  "bullets": [
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.high",
+      "textKey": "bullet.priceCheaper",
+      "textArgs": {
+        "pct": 11,
+        "n": 9,
+        "kind": "detail.cohort.refSize.kind.model"
+      }
+    },
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.value",
+      "textKey": "bullet.ppkmBetter",
+      "textArgs": {
+        "pct": 44,
+        "ppkm": 8
+      }
+    },
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.km",
+      "textKey": "bullet.kmLower",
+      "textArgs": {
+        "pct": 56
+      }
+    },
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.marginPct",
+      "pipArgs": {
+        "pct": "22"
+      },
+      "textKey": "bullet.marginMid"
+    },
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.warm",
+      "textKey": "bullet.auctionWarm"
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.fresh",
+      "textKey": "bullet.listedFresh"
+    }
+  ],
+  "summary": {
+    "verdictKey": "summary.verdict.high",
+    "cohortLineKey": "summary.cohortLine.yes",
+    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "ageSuffixKey": "summary.suffix.ageFresh",
+    "heatSuffixKey": null,
+    "marginSuffixKey": null,
+    "args": {
+      "refSize": 9,
+      "year": "2019",
+      "title": "Volkswagen Golf"
+    }
+  }
+}
