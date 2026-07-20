@@ -1,0 +1,79 @@
+{
+  "vehicleId": "5735558e-24a0-4c99-b12b-321b74e43221",
+  "computedAt": "2026-07-20T16:54:19.776Z",
+  "cohort": {
+    "sameModelCount": 18,
+    "sameYearCount": 1,
+    "refCohort": "model",
+    "refSize": 18
+  },
+  "pricePercentile": 89,
+  "pricePerKm": 7.688172043010753,
+  "pricePerKmPercentile": 78,
+  "kmPercentile": 28,
+  "daysListed": 0,
+  "marginPct": 17.762237762237763,
+  "marginTier": "mid",
+  "auctionHeat": "warm",
+  "dealTag": "high",
+  "bullets": [
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.high",
+      "textKey": "bullet.priceCheaper",
+      "textArgs": {
+        "pct": 11,
+        "n": 18,
+        "kind": "detail.cohort.refSize.kind.model"
+      }
+    },
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.pricey",
+      "textKey": "bullet.ppkmBetter",
+      "textArgs": {
+        "pct": 22,
+        "ppkm": 8
+      }
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.lowKm",
+      "textKey": "bullet.kmLower",
+      "textArgs": {
+        "pct": 72
+      }
+    },
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.marginPct",
+      "pipArgs": {
+        "pct": "18"
+      },
+      "textKey": "bullet.marginMid"
+    },
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.warm",
+      "textKey": "bullet.auctionWarm"
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.fresh",
+      "textKey": "bullet.listedFresh"
+    }
+  ],
+  "summary": {
+    "verdictKey": "summary.verdict.high",
+    "cohortLineKey": "summary.cohortLine.yes",
+    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "ageSuffixKey": "summary.suffix.ageFresh",
+    "heatSuffixKey": null,
+    "marginSuffixKey": null,
+    "args": {
+      "refSize": 18,
+      "year": "2026",
+      "title": "Chevrolet Optra"
+    }
+  }
+}
