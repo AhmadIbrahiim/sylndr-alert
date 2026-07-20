@@ -1,0 +1,79 @@
+{
+  "vehicleId": "40e04220-0ca6-4a4c-9c0a-7d417972f697",
+  "computedAt": "2026-07-20T15:20:50.516Z",
+  "cohort": {
+    "sameModelCount": 6,
+    "sameYearCount": 1,
+    "refCohort": "model",
+    "refSize": 6
+  },
+  "pricePercentile": 0,
+  "pricePerKm": 3.0009557183816504,
+  "pricePerKmPercentile": 33,
+  "kmPercentile": 50,
+  "daysListed": 0,
+  "marginPct": 19.957537154989385,
+  "marginTier": "mid",
+  "auctionHeat": "cold",
+  "dealTag": "good",
+  "bullets": [
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.deal",
+      "textKey": "bullet.priceCheaper",
+      "textArgs": {
+        "pct": 100,
+        "n": 6,
+        "kind": "detail.cohort.refSize.kind.model"
+      }
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.value",
+      "textKey": "bullet.ppkmBetter",
+      "textArgs": {
+        "pct": 67,
+        "ppkm": 3
+      }
+    },
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.km",
+      "textKey": "bullet.kmLower",
+      "textArgs": {
+        "pct": 50
+      }
+    },
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.marginPct",
+      "pipArgs": {
+        "pct": "20"
+      },
+      "textKey": "bullet.marginMid"
+    },
+    {
+      "tone": "neutral",
+      "pipKey": "bullet.pip.cold",
+      "textKey": "bullet.auctionCold"
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.fresh",
+      "textKey": "bullet.listedFresh"
+    }
+  ],
+  "summary": {
+    "verdictKey": "summary.verdict.good",
+    "cohortLineKey": "summary.cohortLine.yes",
+    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "ageSuffixKey": "summary.suffix.ageFresh",
+    "heatSuffixKey": null,
+    "marginSuffixKey": null,
+    "args": {
+      "refSize": 6,
+      "year": "2012",
+      "title": "Ford Fiesta"
+    }
+  }
+}

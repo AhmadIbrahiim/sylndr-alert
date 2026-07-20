@@ -1,29 +1,29 @@
 {
   "vehicleId": "c257318b-2ff6-43b3-8ace-c002e87e0236",
-  "computedAt": "2026-07-20T13:03:44.681Z",
+  "computedAt": "2026-07-20T15:20:48.826Z",
   "cohort": {
-    "sameModelCount": 16,
+    "sameModelCount": 17,
     "sameYearCount": 2,
     "refCohort": "model",
-    "refSize": 16
+    "refSize": 17
   },
-  "pricePercentile": 19,
+  "pricePercentile": 24,
   "pricePerKm": 4.170212765957447,
-  "pricePerKmPercentile": 44,
-  "kmPercentile": 63,
-  "daysListed": 79,
+  "pricePerKmPercentile": 47,
+  "kmPercentile": 59,
+  "daysListed": 80,
   "marginPct": 20.20408163265306,
   "marginTier": "mid",
   "auctionHeat": "hot",
-  "dealTag": "good",
+  "dealTag": "fair",
   "bullets": [
     {
       "tone": "good",
       "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 81,
-        "n": 16,
+        "pct": 76,
+        "n": 17,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 56,
+        "pct": 53,
         "ppkm": 4
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 37
+        "pct": 41
       }
     },
     {
@@ -61,23 +61,23 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 79
+        "n": 80
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 79
+        "n": 80
       }
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.good",
+    "verdictKey": "summary.verdict.fair",
     "cohortLineKey": "summary.cohortLine.yes",
     "cohortKindKey": "detail.cohort.refSize.kind.model",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": null,
     "args": {
-      "refSize": 16,
+      "refSize": 17,
       "year": "2017",
       "title": "Renault Sandero Stepway"
     }

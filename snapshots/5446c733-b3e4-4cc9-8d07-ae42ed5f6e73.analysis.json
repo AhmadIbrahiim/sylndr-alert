@@ -1,17 +1,17 @@
 {
   "vehicleId": "5446c733-b3e4-4cc9-8d07-ae42ed5f6e73",
-  "computedAt": "2026-07-20T13:03:45.900Z",
+  "computedAt": "2026-07-20T15:20:50.147Z",
   "cohort": {
-    "sameModelCount": 31,
+    "sameModelCount": 32,
     "sameYearCount": 2,
     "refCohort": "model",
-    "refSize": 31
+    "refSize": 32
   },
-  "pricePercentile": 74,
+  "pricePercentile": 72,
   "pricePerKm": 7.73286467486819,
-  "pricePerKmPercentile": 58,
-  "kmPercentile": 42,
-  "daysListed": 13,
+  "pricePerKmPercentile": 56,
+  "kmPercentile": 44,
+  "daysListed": 14,
   "marginPct": 14.545454545454545,
   "marginTier": "low",
   "auctionHeat": "hot",
@@ -22,8 +22,8 @@
       "pipKey": "bullet.pip.high",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 26,
-        "n": 31,
+        "pct": 28,
+        "n": 32,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 42,
+        "pct": 44,
         "ppkm": 8
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 58
+        "pct": 56
       }
     },
     {
@@ -56,6 +56,17 @@
       "tone": "hot",
       "pipKey": "bullet.pip.hot",
       "textKey": "bullet.auctionHot"
+    },
+    {
+      "tone": "neutral",
+      "pipKey": "bullet.pip.daysListed",
+      "pipArgs": {
+        "n": 14
+      },
+      "textKey": "bullet.listedOld",
+      "textArgs": {
+        "n": 14
+      }
     }
   ],
   "summary": {
@@ -66,7 +77,7 @@
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": "summary.suffix.marginLow",
     "args": {
-      "refSize": 31,
+      "refSize": 32,
       "year": "2020",
       "title": "Toyota Corolla"
     }

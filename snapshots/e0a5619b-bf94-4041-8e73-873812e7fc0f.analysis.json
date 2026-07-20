@@ -1,0 +1,79 @@
+{
+  "vehicleId": "e0a5619b-bf94-4041-8e73-873812e7fc0f",
+  "computedAt": "2026-07-20T15:20:50.269Z",
+  "cohort": {
+    "sameModelCount": 17,
+    "sameYearCount": 1,
+    "refCohort": "model",
+    "refSize": 17
+  },
+  "pricePercentile": 12,
+  "pricePerKm": 1.6083486801718845,
+  "pricePerKmPercentile": 6,
+  "kmPercentile": 88,
+  "daysListed": 0,
+  "marginPct": 19.083969465648856,
+  "marginTier": "mid",
+  "auctionHeat": "cold",
+  "dealTag": "good",
+  "bullets": [
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.deal",
+      "textKey": "bullet.priceCheaper",
+      "textArgs": {
+        "pct": 88,
+        "n": 17,
+        "kind": "detail.cohort.refSize.kind.model"
+      }
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.value",
+      "textKey": "bullet.ppkmBetter",
+      "textArgs": {
+        "pct": 94,
+        "ppkm": 2
+      }
+    },
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.highKm",
+      "textKey": "bullet.kmLower",
+      "textArgs": {
+        "pct": 12
+      }
+    },
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.marginPct",
+      "pipArgs": {
+        "pct": "19"
+      },
+      "textKey": "bullet.marginMid"
+    },
+    {
+      "tone": "neutral",
+      "pipKey": "bullet.pip.cold",
+      "textKey": "bullet.auctionCold"
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.fresh",
+      "textKey": "bullet.listedFresh"
+    }
+  ],
+  "summary": {
+    "verdictKey": "summary.verdict.good",
+    "cohortLineKey": "summary.cohortLine.yes",
+    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "ageSuffixKey": "summary.suffix.ageFresh",
+    "heatSuffixKey": null,
+    "marginSuffixKey": null,
+    "args": {
+      "refSize": 17,
+      "year": "2015",
+      "title": "Renault Sandero Stepway"
+    }
+  }
+}
