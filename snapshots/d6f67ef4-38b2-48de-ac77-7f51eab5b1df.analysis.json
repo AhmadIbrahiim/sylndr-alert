@@ -1,16 +1,16 @@
 {
   "vehicleId": "d6f67ef4-38b2-48de-ac77-7f51eab5b1df",
-  "computedAt": "2026-07-21T14:08:03.144Z",
+  "computedAt": "2026-07-21T15:53:14.766Z",
   "cohort": {
-    "sameModelCount": 17,
-    "sameYearCount": 5,
+    "sameModelCount": 18,
+    "sameYearCount": 6,
     "refCohort": "model+year",
-    "refSize": 5
+    "refSize": 6
   },
-  "pricePercentile": 60,
+  "pricePercentile": 50,
   "pricePerKm": 4.169965690155714,
-  "pricePerKmPercentile": 40,
-  "kmPercentile": 60,
+  "pricePerKmPercentile": 33,
+  "kmPercentile": 67,
   "daysListed": 127,
   "marginPct": 23.924050632911392,
   "marginTier": "mid",
@@ -22,17 +22,17 @@
       "pipKey": "bullet.pip.mid",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 40,
-        "n": 5,
+        "pct": 50,
+        "n": 6,
         "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
-      "tone": "mid",
+      "tone": "good",
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 60,
+        "pct": 67,
         "ppkm": 4
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 40
+        "pct": 33
       }
     },
     {
@@ -77,7 +77,7 @@
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": null,
     "args": {
-      "refSize": 5,
+      "refSize": 6,
       "year": "2016",
       "title": "Jeep Renegade"
     }

@@ -1,29 +1,29 @@
 {
   "vehicleId": "649a00d2-309d-484e-ad87-c6e216b2f842",
-  "computedAt": "2026-07-21T14:08:03.655Z",
+  "computedAt": "2026-07-21T15:53:15.288Z",
   "cohort": {
-    "sameModelCount": 33,
-    "sameYearCount": 8,
+    "sameModelCount": 34,
+    "sameYearCount": 9,
     "refCohort": "model+year",
-    "refSize": 8
+    "refSize": 9
   },
-  "pricePercentile": 38,
+  "pricePercentile": 33,
   "pricePerKm": 13.822699040090344,
-  "pricePerKmPercentile": 63,
-  "kmPercentile": 25,
+  "pricePerKmPercentile": 56,
+  "kmPercentile": 33,
   "daysListed": 194,
   "marginPct": 20.50653594771242,
   "marginTier": "mid",
   "auctionHeat": "hot",
-  "dealTag": "fair",
+  "dealTag": "good",
   "bullets": [
     {
-      "tone": "mid",
-      "pipKey": "bullet.pip.mid",
+      "tone": "good",
+      "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 62,
-        "n": 8,
+        "pct": 67,
+        "n": 9,
         "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 37,
+        "pct": 44,
         "ppkm": 14
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.lowKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 75
+        "pct": 67
       }
     },
     {
@@ -70,14 +70,14 @@
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.fair",
+    "verdictKey": "summary.verdict.good",
     "cohortLineKey": "summary.cohortLine.yes",
     "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": null,
     "args": {
-      "refSize": 8,
+      "refSize": 9,
       "year": "2022",
       "title": "Toyota Corolla"
     }
