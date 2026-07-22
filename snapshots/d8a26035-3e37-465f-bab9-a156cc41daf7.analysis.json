@@ -1,29 +1,29 @@
 {
   "vehicleId": "d8a26035-3e37-465f-bab9-a156cc41daf7",
-  "computedAt": "2026-07-22T14:21:17.647Z",
+  "computedAt": "2026-07-22T15:58:34.487Z",
   "cohort": {
-    "sameModelCount": 21,
+    "sameModelCount": 22,
     "sameYearCount": 3,
     "refCohort": "model",
-    "refSize": 21
+    "refSize": 22
   },
-  "pricePercentile": 24,
+  "pricePercentile": 23,
   "pricePerKm": 11.210196406184705,
-  "pricePerKmPercentile": 48,
-  "kmPercentile": 48,
-  "daysListed": 155,
+  "pricePerKmPercentile": 45,
+  "kmPercentile": 50,
+  "daysListed": 156,
   "marginPct": 9.043465294863193,
   "marginTier": "low",
   "auctionHeat": "hot",
-  "dealTag": "fair",
+  "dealTag": "good",
   "bullets": [
     {
       "tone": "good",
       "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 76,
-        "n": 21,
+        "pct": 77,
+        "n": 22,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 52,
+        "pct": 55,
         "ppkm": 11
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 52
+        "pct": 50
       }
     },
     {
@@ -61,23 +61,23 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 155
+        "n": 156
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 155
+        "n": 156
       }
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.fair",
+    "verdictKey": "summary.verdict.good",
     "cohortLineKey": "summary.cohortLine.yes",
     "cohortKindKey": "detail.cohort.refSize.kind.model",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": "summary.suffix.marginLow",
     "args": {
-      "refSize": 21,
+      "refSize": 22,
       "year": "2016",
       "title": "BMW 320i"
     }

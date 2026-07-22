@@ -1,30 +1,30 @@
 {
   "vehicleId": "43aaedff-3772-4ee3-82a1-1cfe93bdb689",
-  "computedAt": "2026-07-22T14:21:17.663Z",
+  "computedAt": "2026-07-22T15:58:34.504Z",
   "cohort": {
-    "sameModelCount": 31,
-    "sameYearCount": 3,
-    "refCohort": "model",
-    "refSize": 31
+    "sameModelCount": 32,
+    "sameYearCount": 4,
+    "refCohort": "model+year",
+    "refSize": 4
   },
-  "pricePercentile": 23,
+  "pricePercentile": 50,
   "pricePerKm": 5.847324826505485,
-  "pricePerKmPercentile": 16,
-  "kmPercentile": 90,
+  "pricePerKmPercentile": 25,
+  "kmPercentile": 75,
   "daysListed": 94,
   "marginPct": 43.18529862174579,
   "marginTier": "high",
   "auctionHeat": "cold",
-  "dealTag": "good",
+  "dealTag": "fair",
   "bullets": [
     {
-      "tone": "good",
-      "pipKey": "bullet.pip.deal",
+      "tone": "mid",
+      "pipKey": "bullet.pip.mid",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 77,
-        "n": 31,
-        "kind": "detail.cohort.refSize.kind.model"
+        "pct": 50,
+        "n": 4,
+        "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 84,
+        "pct": 75,
         "ppkm": 6
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.highKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 10
+        "pct": 25
       }
     },
     {
@@ -70,14 +70,14 @@
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.good",
+    "verdictKey": "summary.verdict.fair",
     "cohortLineKey": "summary.cohortLine.yes",
-    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": null,
     "marginSuffixKey": "summary.suffix.marginHigh",
     "args": {
-      "refSize": 31,
+      "refSize": 4,
       "year": "2017",
       "title": "Kia Sportage"
     }
