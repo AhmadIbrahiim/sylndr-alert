@@ -1,17 +1,17 @@
 {
   "vehicleId": "7d15e09e-1ccc-4c6b-8f27-d6ca8d245958",
-  "computedAt": "2026-07-22T10:06:59.300Z",
+  "computedAt": "2026-07-22T12:03:29.288Z",
   "cohort": {
-    "sameModelCount": 39,
+    "sameModelCount": 40,
     "sameYearCount": 1,
     "refCohort": "model",
-    "refSize": 39
+    "refSize": 40
   },
   "pricePercentile": 0,
   "pricePerKm": 2.725470763131814,
   "pricePerKmPercentile": 5,
-  "kmPercentile": 92,
-  "daysListed": 13,
+  "kmPercentile": 93,
+  "daysListed": 14,
   "marginPct": 14.727272727272728,
   "marginTier": "low",
   "auctionHeat": "cold",
@@ -23,7 +23,7 @@
       "textKey": "bullet.priceCheaper",
       "textArgs": {
         "pct": 100,
-        "n": 39,
+        "n": 40,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.highKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 8
+        "pct": 7
       }
     },
     {
@@ -56,6 +56,17 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.cold",
       "textKey": "bullet.auctionCold"
+    },
+    {
+      "tone": "neutral",
+      "pipKey": "bullet.pip.daysListed",
+      "pipArgs": {
+        "n": 14
+      },
+      "textKey": "bullet.listedOld",
+      "textArgs": {
+        "n": 14
+      }
     }
   ],
   "summary": {
@@ -66,7 +77,7 @@
     "heatSuffixKey": null,
     "marginSuffixKey": "summary.suffix.marginLow",
     "args": {
-      "refSize": 39,
+      "refSize": 40,
       "year": "2014",
       "title": "Peugeot 3008"
     }

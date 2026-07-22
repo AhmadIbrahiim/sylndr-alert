@@ -1,0 +1,71 @@
+{
+  "vehicleId": "cdbc363a-2650-466c-8eed-612cb1f6c5e0",
+  "computedAt": "2026-07-22T12:03:30.752Z",
+  "cohort": {
+    "sameModelCount": 16,
+    "sameYearCount": 5,
+    "refCohort": "model+year",
+    "refSize": 5
+  },
+  "pricePercentile": 80,
+  "pricePerKm": 3.067484662576687,
+  "pricePerKmPercentile": 40,
+  "kmPercentile": 60,
+  "daysListed": 0,
+  "marginPct": null,
+  "marginTier": null,
+  "auctionHeat": "cold",
+  "dealTag": "fair",
+  "bullets": [
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.high",
+      "textKey": "bullet.priceCheaper",
+      "textArgs": {
+        "pct": 20,
+        "n": 5,
+        "kind": "detail.cohort.refSize.kind.modelYear"
+      }
+    },
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.value",
+      "textKey": "bullet.ppkmBetter",
+      "textArgs": {
+        "pct": 60,
+        "ppkm": 3
+      }
+    },
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.km",
+      "textKey": "bullet.kmLower",
+      "textArgs": {
+        "pct": 40
+      }
+    },
+    {
+      "tone": "neutral",
+      "pipKey": "bullet.pip.cold",
+      "textKey": "bullet.auctionCold"
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.fresh",
+      "textKey": "bullet.listedFresh"
+    }
+  ],
+  "summary": {
+    "verdictKey": "summary.verdict.fair",
+    "cohortLineKey": "summary.cohortLine.yes",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
+    "ageSuffixKey": "summary.suffix.ageFresh",
+    "heatSuffixKey": null,
+    "marginSuffixKey": null,
+    "args": {
+      "refSize": 5,
+      "year": "2016",
+      "title": "Mitsubishi Lancer"
+    }
+  }
+}
