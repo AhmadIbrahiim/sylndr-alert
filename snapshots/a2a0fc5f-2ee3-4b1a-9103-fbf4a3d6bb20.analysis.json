@@ -1,16 +1,16 @@
 {
   "vehicleId": "a2a0fc5f-2ee3-4b1a-9103-fbf4a3d6bb20",
-  "computedAt": "2026-07-23T14:30:19.511Z",
+  "computedAt": "2026-07-23T16:09:50.690Z",
   "cohort": {
-    "sameModelCount": 7,
-    "sameYearCount": 3,
-    "refCohort": "model",
-    "refSize": 7
+    "sameModelCount": 8,
+    "sameYearCount": 4,
+    "refCohort": "model+year",
+    "refSize": 4
   },
-  "pricePercentile": 29,
+  "pricePercentile": 25,
   "pricePerKm": 12.991128010139416,
-  "pricePerKmPercentile": 14,
-  "kmPercentile": 71,
+  "pricePerKmPercentile": 25,
+  "kmPercentile": 50,
   "daysListed": 25,
   "marginPct": 15.121951219512194,
   "marginTier": "mid",
@@ -22,9 +22,9 @@
       "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 71,
-        "n": 7,
-        "kind": "detail.cohort.refSize.kind.model"
+        "pct": 75,
+        "n": 4,
+        "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
@@ -32,16 +32,16 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 86,
+        "pct": 75,
         "ppkm": 13
       }
     },
     {
-      "tone": "hot",
-      "pipKey": "bullet.pip.highKm",
+      "tone": "mid",
+      "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 29
+        "pct": 50
       }
     },
     {
@@ -72,12 +72,12 @@
   "summary": {
     "verdictKey": "summary.verdict.good",
     "cohortLineKey": "summary.cohortLine.yes",
-    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": null,
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 7,
+      "refSize": 4,
       "year": "2021",
       "title": "Hyundai Elantra CN7"
     }
