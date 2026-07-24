@@ -1,17 +1,17 @@
 {
   "vehicleId": "520f1585-8fac-4cb7-bdc5-070bd69e0739",
-  "computedAt": "2026-07-24T13:07:01.500Z",
+  "computedAt": "2026-07-24T15:05:48.056Z",
   "cohort": {
-    "sameModelCount": 39,
-    "sameYearCount": 3,
-    "refCohort": "model",
-    "refSize": 39
+    "sameModelCount": 40,
+    "sameYearCount": 4,
+    "refCohort": "model+year",
+    "refSize": 4
   },
-  "pricePercentile": 33,
+  "pricePercentile": 25,
   "pricePerKm": 3.7704918032786887,
-  "pricePerKmPercentile": 11,
-  "kmPercentile": 92,
-  "daysListed": 71,
+  "pricePerKmPercentile": 25,
+  "kmPercentile": 75,
+  "daysListed": 72,
   "marginPct": 32.31884057971015,
   "marginTier": "high",
   "auctionHeat": "warm",
@@ -22,9 +22,9 @@
       "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 67,
-        "n": 39,
-        "kind": "detail.cohort.refSize.kind.model"
+        "pct": 75,
+        "n": 4,
+        "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 89,
+        "pct": 75,
         "ppkm": 4
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.highKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 8
+        "pct": 25
       }
     },
     {
@@ -61,23 +61,23 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 71
+        "n": 72
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 71
+        "n": 72
       }
     }
   ],
   "summary": {
     "verdictKey": "summary.verdict.good",
     "cohortLineKey": "summary.cohortLine.yes",
-    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": null,
     "marginSuffixKey": "summary.suffix.marginHigh",
     "args": {
-      "refSize": 39,
+      "refSize": 4,
       "year": "2018",
       "title": "Fiat Tipo"
     }

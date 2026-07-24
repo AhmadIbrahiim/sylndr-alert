@@ -1,8 +1,8 @@
 {
   "vehicleId": "25cf9759-ee3e-4967-8c7a-234b76850388",
-  "computedAt": "2026-07-24T13:07:01.486Z",
+  "computedAt": "2026-07-24T15:05:48.040Z",
   "cohort": {
-    "sameModelCount": 39,
+    "sameModelCount": 40,
     "sameYearCount": 13,
     "refCohort": "model+year",
     "refSize": 13
@@ -11,7 +11,7 @@
   "pricePerKm": 2.3090244371752933,
   "pricePerKmPercentile": 0,
   "kmPercentile": 92,
-  "daysListed": 29,
+  "daysListed": 30,
   "marginPct": 21.833333333333332,
   "marginTier": "mid",
   "auctionHeat": "warm",
@@ -61,11 +61,11 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 29
+        "n": 30
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 29
+        "n": 30
       }
     }
   ],
@@ -73,7 +73,7 @@
     "verdictKey": "summary.verdict.good",
     "cohortLineKey": "summary.cohortLine.yes",
     "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
-    "ageSuffixKey": null,
+    "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {

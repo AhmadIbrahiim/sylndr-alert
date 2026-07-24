@@ -1,30 +1,30 @@
 {
   "vehicleId": "e7550c60-43cf-47c4-ab56-6882e82eeca3",
-  "computedAt": "2026-07-24T13:07:01.681Z",
+  "computedAt": "2026-07-24T15:05:48.252Z",
   "cohort": {
-    "sameModelCount": 10,
-    "sameYearCount": 3,
-    "refCohort": "model",
-    "refSize": 10
+    "sameModelCount": 11,
+    "sameYearCount": 4,
+    "refCohort": "model+year",
+    "refSize": 4
   },
-  "pricePercentile": 40,
+  "pricePercentile": 25,
   "pricePerKm": 15.170556552962298,
-  "pricePerKmPercentile": 60,
-  "kmPercentile": 20,
+  "pricePerKmPercentile": 50,
+  "kmPercentile": 0,
   "daysListed": 25,
   "marginPct": 16.80473372781065,
   "marginTier": "mid",
   "auctionHeat": "warm",
-  "dealTag": "fair",
+  "dealTag": "good",
   "bullets": [
     {
-      "tone": "mid",
-      "pipKey": "bullet.pip.mid",
+      "tone": "good",
+      "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 60,
-        "n": 10,
-        "kind": "detail.cohort.refSize.kind.model"
+        "pct": 75,
+        "n": 4,
+        "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 40,
+        "pct": 50,
         "ppkm": 15
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.lowKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 80
+        "pct": 100
       }
     },
     {
@@ -70,14 +70,14 @@
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.fair",
+    "verdictKey": "summary.verdict.good",
     "cohortLineKey": "summary.cohortLine.yes",
-    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": null,
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 10,
+      "refSize": 4,
       "year": "2021",
       "title": "Nissan Juke"
     }
