@@ -1,15 +1,15 @@
 {
   "vehicleId": "25d482a9-1025-45e7-b266-21553df02c73",
-  "computedAt": "2026-07-24T16:57:10.049Z",
+  "computedAt": "2026-07-24T17:45:03.958Z",
   "cohort": {
-    "sameModelCount": 9,
-    "sameYearCount": 3,
-    "refCohort": "model",
-    "refSize": 9
+    "sameModelCount": 10,
+    "sameYearCount": 4,
+    "refCohort": "model+year",
+    "refSize": 4
   },
-  "pricePercentile": 67,
+  "pricePercentile": 50,
   "pricePerKm": 38.46153846153846,
-  "pricePerKmPercentile": 89,
+  "pricePerKmPercentile": 75,
   "kmPercentile": 0,
   "daysListed": 63,
   "marginPct": 12.642857142857142,
@@ -22,9 +22,9 @@
       "pipKey": "bullet.pip.mid",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 33,
-        "n": 9,
-        "kind": "detail.cohort.refSize.kind.model"
+        "pct": 50,
+        "n": 4,
+        "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.pricey",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 11,
+        "pct": 25,
         "ppkm": 38
       }
     },
@@ -72,12 +72,12 @@
   "summary": {
     "verdictKey": "summary.verdict.fair",
     "cohortLineKey": "summary.cohortLine.yes",
-    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": null,
     "marginSuffixKey": "summary.suffix.marginLow",
     "args": {
-      "refSize": 9,
+      "refSize": 4,
       "year": "2022",
       "title": "Skoda Octavia A8"
     }
