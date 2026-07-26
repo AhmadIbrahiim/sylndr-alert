@@ -1,38 +1,38 @@
 {
   "vehicleId": "5dad599a-348e-4aa8-9a1c-d1720b2a3f74",
-  "computedAt": "2026-07-26T14:14:29.808Z",
+  "computedAt": "2026-07-26T15:32:13.658Z",
   "cohort": {
-    "sameModelCount": 36,
-    "sameYearCount": 3,
-    "refCohort": "model",
-    "refSize": 36
+    "sameModelCount": 38,
+    "sameYearCount": 4,
+    "refCohort": "model+year",
+    "refSize": 4
   },
-  "pricePercentile": 89,
+  "pricePercentile": 0,
   "pricePerKm": 114.28571428571429,
-  "pricePerKmPercentile": 94,
-  "kmPercentile": 3,
+  "pricePerKmPercentile": 50,
+  "kmPercentile": 25,
   "daysListed": 2,
   "marginPct": null,
   "marginTier": null,
   "auctionHeat": "cold",
-  "dealTag": "high",
+  "dealTag": "good",
   "bullets": [
     {
-      "tone": "hot",
-      "pipKey": "bullet.pip.high",
+      "tone": "good",
+      "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 11,
-        "n": 36,
-        "kind": "detail.cohort.refSize.kind.model"
+        "pct": 100,
+        "n": 4,
+        "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
-      "tone": "hot",
-      "pipKey": "bullet.pip.pricey",
+      "tone": "mid",
+      "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 6,
+        "pct": 50,
         "ppkm": 114
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.lowKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 97
+        "pct": 75
       }
     },
     {
@@ -51,14 +51,14 @@
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.high",
+    "verdictKey": "summary.verdict.good",
     "cohortLineKey": "summary.cohortLine.yes",
-    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": null,
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 36,
+      "refSize": 4,
       "year": "2026",
       "title": "Nissan Sunny"
     }

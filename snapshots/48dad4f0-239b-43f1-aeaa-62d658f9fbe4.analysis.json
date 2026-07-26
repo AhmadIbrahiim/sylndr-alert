@@ -1,29 +1,29 @@
 {
   "vehicleId": "48dad4f0-239b-43f1-aeaa-62d658f9fbe4",
-  "computedAt": "2026-07-26T14:14:29.527Z",
+  "computedAt": "2026-07-26T15:32:13.415Z",
   "cohort": {
-    "sameModelCount": 6,
+    "sameModelCount": 7,
     "sameYearCount": 1,
     "refCohort": "model",
-    "refSize": 6
+    "refSize": 7
   },
-  "pricePercentile": 50,
+  "pricePercentile": 57,
   "pricePerKm": 6.437125748502994,
-  "pricePerKmPercentile": 17,
-  "kmPercentile": 67,
+  "pricePerKmPercentile": 29,
+  "kmPercentile": 57,
   "daysListed": 107,
   "marginPct": 23.72093023255814,
   "marginTier": "mid",
   "auctionHeat": "hot",
-  "dealTag": "good",
+  "dealTag": "fair",
   "bullets": [
     {
       "tone": "mid",
       "pipKey": "bullet.pip.mid",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 50,
-        "n": 6,
+        "pct": 43,
+        "n": 7,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 83,
+        "pct": 71,
         "ppkm": 6
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 33
+        "pct": 43
       }
     },
     {
@@ -70,14 +70,14 @@
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.good",
+    "verdictKey": "summary.verdict.fair",
     "cohortLineKey": "summary.cohortLine.yes",
     "cohortKindKey": "detail.cohort.refSize.kind.model",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": null,
     "args": {
-      "refSize": 6,
+      "refSize": 7,
       "year": "2017",
       "title": "Volvo S60"
     }
