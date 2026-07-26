@@ -1,0 +1,71 @@
+{
+  "vehicleId": "449e22f1-109b-42b9-8f6e-c61266ab4e15",
+  "computedAt": "2026-07-26T12:37:10.460Z",
+  "cohort": {
+    "sameModelCount": 21,
+    "sameYearCount": 3,
+    "refCohort": "model",
+    "refSize": 21
+  },
+  "pricePercentile": 29,
+  "pricePerKm": 17.158047365877234,
+  "pricePerKmPercentile": 24,
+  "kmPercentile": 71,
+  "daysListed": 0,
+  "marginPct": null,
+  "marginTier": null,
+  "auctionHeat": "cold",
+  "dealTag": "good",
+  "bullets": [
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.deal",
+      "textKey": "bullet.priceCheaper",
+      "textArgs": {
+        "pct": 71,
+        "n": 21,
+        "kind": "detail.cohort.refSize.kind.model"
+      }
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.value",
+      "textKey": "bullet.ppkmBetter",
+      "textArgs": {
+        "pct": 76,
+        "ppkm": 17
+      }
+    },
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.highKm",
+      "textKey": "bullet.kmLower",
+      "textArgs": {
+        "pct": 29
+      }
+    },
+    {
+      "tone": "neutral",
+      "pipKey": "bullet.pip.cold",
+      "textKey": "bullet.auctionCold"
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.fresh",
+      "textKey": "bullet.listedFresh"
+    }
+  ],
+  "summary": {
+    "verdictKey": "summary.verdict.good",
+    "cohortLineKey": "summary.cohortLine.yes",
+    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "ageSuffixKey": "summary.suffix.ageFresh",
+    "heatSuffixKey": null,
+    "marginSuffixKey": null,
+    "args": {
+      "refSize": 21,
+      "year": "2023",
+      "title": "Volkswagen Tiguan"
+    }
+  }
+}

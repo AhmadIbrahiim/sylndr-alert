@@ -1,16 +1,16 @@
 {
   "vehicleId": "03e6dad8-b6b3-43a0-a4ef-47ceac4b32fa",
-  "computedAt": "2026-07-26T11:16:53.073Z",
+  "computedAt": "2026-07-26T12:37:10.773Z",
   "cohort": {
-    "sameModelCount": 10,
+    "sameModelCount": 11,
     "sameYearCount": 1,
     "refCohort": "model",
-    "refSize": 10
+    "refSize": 11
   },
-  "pricePercentile": 10,
+  "pricePercentile": 9,
   "pricePerKm": 9.340659340659341,
-  "pricePerKmPercentile": 20,
-  "kmPercentile": 70,
+  "pricePerKmPercentile": 18,
+  "kmPercentile": 73,
   "daysListed": 87,
   "marginPct": 35.74229691876751,
   "marginTier": "high",
@@ -22,8 +22,8 @@
       "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 90,
-        "n": 10,
+        "pct": 91,
+        "n": 11,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -32,16 +32,16 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 80,
+        "pct": 82,
         "ppkm": 9
       }
     },
     {
-      "tone": "mid",
-      "pipKey": "bullet.pip.km",
+      "tone": "hot",
+      "pipKey": "bullet.pip.highKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 30
+        "pct": 27
       }
     },
     {
@@ -77,7 +77,7 @@
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": "summary.suffix.marginHigh",
     "args": {
-      "refSize": 10,
+      "refSize": 11,
       "year": "2016",
       "title": "BMW X5"
     }

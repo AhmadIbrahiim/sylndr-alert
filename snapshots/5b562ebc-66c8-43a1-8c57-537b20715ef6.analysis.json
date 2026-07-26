@@ -1,17 +1,17 @@
 {
   "vehicleId": "5b562ebc-66c8-43a1-8c57-537b20715ef6",
-  "computedAt": "2026-07-26T11:16:53.430Z",
+  "computedAt": "2026-07-26T12:37:11.144Z",
   "cohort": {
-    "sameModelCount": 23,
-    "sameYearCount": 3,
-    "refCohort": "model",
-    "refSize": 23
+    "sameModelCount": 24,
+    "sameYearCount": 4,
+    "refCohort": "model+year",
+    "refSize": 4
   },
   "pricePercentile": 0,
   "pricePerKm": 8.735868448098664,
-  "pricePerKmPercentile": 13,
-  "kmPercentile": 83,
-  "daysListed": 153,
+  "pricePerKmPercentile": 50,
+  "kmPercentile": 25,
+  "daysListed": 154,
   "marginPct": 9.88235294117647,
   "marginTier": "low",
   "auctionHeat": "hot",
@@ -23,25 +23,25 @@
       "textKey": "bullet.priceCheaper",
       "textArgs": {
         "pct": 100,
-        "n": 23,
-        "kind": "detail.cohort.refSize.kind.model"
+        "n": 4,
+        "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
-      "tone": "good",
+      "tone": "mid",
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 87,
+        "pct": 50,
         "ppkm": 9
       }
     },
     {
-      "tone": "hot",
-      "pipKey": "bullet.pip.highKm",
+      "tone": "good",
+      "pipKey": "bullet.pip.lowKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 17
+        "pct": 75
       }
     },
     {
@@ -61,23 +61,23 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 153
+        "n": 154
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 153
+        "n": 154
       }
     }
   ],
   "summary": {
     "verdictKey": "summary.verdict.good",
     "cohortLineKey": "summary.cohortLine.yes",
-    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": "summary.suffix.marginLow",
     "args": {
-      "refSize": 23,
+      "refSize": 4,
       "year": "2019",
       "title": "Skoda KODIAQ"
     }
