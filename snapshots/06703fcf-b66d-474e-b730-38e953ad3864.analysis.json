@@ -1,38 +1,38 @@
 {
   "vehicleId": "06703fcf-b66d-474e-b730-38e953ad3864",
-  "computedAt": "2026-07-27T11:51:23.695Z",
+  "computedAt": "2026-07-27T14:25:10.210Z",
   "cohort": {
-    "sameModelCount": 15,
-    "sameYearCount": 3,
-    "refCohort": "model",
-    "refSize": 15
+    "sameModelCount": 16,
+    "sameYearCount": 4,
+    "refCohort": "model+year",
+    "refSize": 4
   },
-  "pricePercentile": 33,
+  "pricePercentile": 75,
   "pricePerKm": 9.382716049382717,
-  "pricePerKmPercentile": 60,
-  "kmPercentile": 27,
-  "daysListed": 79,
+  "pricePerKmPercentile": 75,
+  "kmPercentile": 0,
+  "daysListed": 80,
   "marginPct": 34.73684210526316,
   "marginTier": "high",
   "auctionHeat": "warm",
   "dealTag": "fair",
   "bullets": [
     {
-      "tone": "good",
-      "pipKey": "bullet.pip.deal",
+      "tone": "hot",
+      "pipKey": "bullet.pip.high",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 67,
-        "n": 15,
-        "kind": "detail.cohort.refSize.kind.model"
+        "pct": 25,
+        "n": 4,
+        "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
-      "tone": "mid",
-      "pipKey": "bullet.pip.value",
+      "tone": "hot",
+      "pipKey": "bullet.pip.pricey",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 40,
+        "pct": 25,
         "ppkm": 9
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.lowKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 73
+        "pct": 100
       }
     },
     {
@@ -61,23 +61,23 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 79
+        "n": 80
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 79
+        "n": 80
       }
     }
   ],
   "summary": {
     "verdictKey": "summary.verdict.fair",
     "cohortLineKey": "summary.cohortLine.yes",
-    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": null,
     "marginSuffixKey": "summary.suffix.marginHigh",
     "args": {
-      "refSize": 15,
+      "refSize": 4,
       "year": "2017",
       "title": "Subaru XV"
     }

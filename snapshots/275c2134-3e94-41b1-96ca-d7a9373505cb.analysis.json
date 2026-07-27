@@ -1,17 +1,17 @@
 {
   "vehicleId": "275c2134-3e94-41b1-96ca-d7a9373505cb",
-  "computedAt": "2026-07-27T11:51:25.130Z",
+  "computedAt": "2026-07-27T14:25:11.782Z",
   "cohort": {
-    "sameModelCount": 14,
+    "sameModelCount": 15,
     "sameYearCount": 3,
     "refCohort": "model",
-    "refSize": 14
+    "refSize": 15
   },
-  "pricePercentile": 43,
+  "pricePercentile": 40,
   "pricePerKm": 90.64327485380117,
-  "pricePerKmPercentile": 71,
-  "kmPercentile": 7,
-  "daysListed": 7,
+  "pricePerKmPercentile": 67,
+  "kmPercentile": 13,
+  "daysListed": 8,
   "marginPct": 12.67741935483871,
   "marginTier": "low",
   "auctionHeat": "cold",
@@ -22,17 +22,17 @@
       "pipKey": "bullet.pip.mid",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 57,
-        "n": 14,
+        "pct": 60,
+        "n": 15,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
     {
-      "tone": "hot",
-      "pipKey": "bullet.pip.pricey",
+      "tone": "mid",
+      "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 29,
+        "pct": 33,
         "ppkm": 91
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.lowKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 93
+        "pct": 87
       }
     },
     {
@@ -66,7 +66,7 @@
     "heatSuffixKey": null,
     "marginSuffixKey": "summary.suffix.marginLow",
     "args": {
-      "refSize": 14,
+      "refSize": 15,
       "year": "2020",
       "title": "Mercedes-Benz E200"
     }

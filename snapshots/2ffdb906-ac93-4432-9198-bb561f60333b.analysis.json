@@ -1,16 +1,16 @@
 {
   "vehicleId": "2ffdb906-ac93-4432-9198-bb561f60333b",
-  "computedAt": "2026-07-27T11:51:24.330Z",
+  "computedAt": "2026-07-27T14:25:10.915Z",
   "cohort": {
-    "sameModelCount": 55,
-    "sameYearCount": 3,
-    "refCohort": "model",
-    "refSize": 55
+    "sameModelCount": 57,
+    "sameYearCount": 5,
+    "refCohort": "model+year",
+    "refSize": 5
   },
-  "pricePercentile": 64,
+  "pricePercentile": 60,
   "pricePerKm": 5.179669796050502,
-  "pricePerKmPercentile": 49,
-  "kmPercentile": 60,
+  "pricePerKmPercentile": 40,
+  "kmPercentile": 20,
   "daysListed": 46,
   "marginPct": 15.75,
   "marginTier": "mid",
@@ -22,9 +22,9 @@
       "pipKey": "bullet.pip.mid",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 36,
-        "n": 55,
-        "kind": "detail.cohort.refSize.kind.model"
+        "pct": 40,
+        "n": 5,
+        "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
@@ -32,16 +32,16 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 51,
+        "pct": 60,
         "ppkm": 5
       }
     },
     {
-      "tone": "mid",
-      "pipKey": "bullet.pip.km",
+      "tone": "good",
+      "pipKey": "bullet.pip.lowKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 40
+        "pct": 80
       }
     },
     {
@@ -72,12 +72,12 @@
   "summary": {
     "verdictKey": "summary.verdict.fair",
     "cohortLineKey": "summary.cohortLine.yes",
-    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 55,
+      "refSize": 5,
       "year": "2021",
       "title": "Renault Megane"
     }

@@ -1,16 +1,16 @@
 {
   "vehicleId": "e95ad9c7-41cb-42d0-b4b5-483c0e8de3df",
-  "computedAt": "2026-07-27T11:51:23.759Z",
+  "computedAt": "2026-07-27T14:25:10.289Z",
   "cohort": {
-    "sameModelCount": 15,
-    "sameYearCount": 3,
-    "refCohort": "model",
-    "refSize": 15
+    "sameModelCount": 16,
+    "sameYearCount": 4,
+    "refCohort": "model+year",
+    "refSize": 4
   },
-  "pricePercentile": 27,
+  "pricePercentile": 25,
   "pricePerKm": 4.098360655737705,
-  "pricePerKmPercentile": 20,
-  "kmPercentile": 73,
+  "pricePerKmPercentile": 0,
+  "kmPercentile": 75,
   "daysListed": 22,
   "marginPct": 31.058823529411768,
   "marginTier": "high",
@@ -22,9 +22,9 @@
       "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 73,
-        "n": 15,
-        "kind": "detail.cohort.refSize.kind.model"
+        "pct": 75,
+        "n": 4,
+        "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 80,
+        "pct": 100,
         "ppkm": 4
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.highKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 27
+        "pct": 25
       }
     },
     {
@@ -72,12 +72,12 @@
   "summary": {
     "verdictKey": "summary.verdict.good",
     "cohortLineKey": "summary.cohortLine.yes",
-    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": null,
     "heatSuffixKey": null,
     "marginSuffixKey": "summary.suffix.marginHigh",
     "args": {
-      "refSize": 15,
+      "refSize": 4,
       "year": "2017",
       "title": "Subaru XV"
     }
