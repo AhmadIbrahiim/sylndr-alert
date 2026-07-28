@@ -1,29 +1,29 @@
 {
   "vehicleId": "b456de6f-b9cc-46ec-9010-ad64942d09b1",
-  "computedAt": "2026-07-28T14:58:32.758Z",
+  "computedAt": "2026-07-28T16:42:55.854Z",
   "cohort": {
-    "sameModelCount": 8,
+    "sameModelCount": 9,
     "sameYearCount": 1,
     "refCohort": "model",
-    "refSize": 8
+    "refSize": 9
   },
-  "pricePercentile": 88,
+  "pricePercentile": 78,
   "pricePerKm": 84.63022508038586,
-  "pricePerKmPercentile": 88,
-  "kmPercentile": 0,
+  "pricePerKmPercentile": 78,
+  "kmPercentile": 11,
   "daysListed": 89,
   "marginPct": 46.58054711246201,
   "marginTier": "high",
   "auctionHeat": "hot",
-  "dealTag": "high",
+  "dealTag": "fair",
   "bullets": [
     {
       "tone": "hot",
       "pipKey": "bullet.pip.high",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 12,
-        "n": 8,
+        "pct": 22,
+        "n": 9,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.pricey",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 12,
+        "pct": 22,
         "ppkm": 85
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.lowKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 100
+        "pct": 89
       }
     },
     {
@@ -70,14 +70,14 @@
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.high",
+    "verdictKey": "summary.verdict.fair",
     "cohortLineKey": "summary.cohortLine.yes",
     "cohortKindKey": "detail.cohort.refSize.kind.model",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": "summary.suffix.marginHigh",
     "args": {
-      "refSize": 8,
+      "refSize": 9,
       "year": "2019",
       "title": "Mitsubishi Eclipse"
     }

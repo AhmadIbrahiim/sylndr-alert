@@ -1,17 +1,17 @@
 {
   "vehicleId": "718617a1-d396-4f77-b617-d749c8aa6d9e",
-  "computedAt": "2026-07-28T14:58:33.462Z",
+  "computedAt": "2026-07-28T16:42:56.565Z",
   "cohort": {
-    "sameModelCount": 8,
-    "sameYearCount": 3,
-    "refCohort": "model",
-    "refSize": 8
+    "sameModelCount": 9,
+    "sameYearCount": 4,
+    "refCohort": "model+year",
+    "refSize": 4
   },
-  "pricePercentile": 13,
+  "pricePercentile": 0,
   "pricePerKm": 17.909857832783686,
-  "pricePerKmPercentile": 38,
-  "kmPercentile": 50,
-  "daysListed": 232,
+  "pricePerKmPercentile": 50,
+  "kmPercentile": 25,
+  "daysListed": 233,
   "marginPct": 6.413793103448276,
   "marginTier": "low",
   "auctionHeat": "hot",
@@ -22,9 +22,9 @@
       "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 87,
-        "n": 8,
-        "kind": "detail.cohort.refSize.kind.model"
+        "pct": 100,
+        "n": 4,
+        "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
@@ -32,16 +32,16 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 62,
+        "pct": 50,
         "ppkm": 18
       }
     },
     {
-      "tone": "mid",
-      "pipKey": "bullet.pip.km",
+      "tone": "good",
+      "pipKey": "bullet.pip.lowKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 50
+        "pct": 75
       }
     },
     {
@@ -61,23 +61,23 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 232
+        "n": 233
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 232
+        "n": 233
       }
     }
   ],
   "summary": {
     "verdictKey": "summary.verdict.good",
     "cohortLineKey": "summary.cohortLine.yes",
-    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": "summary.suffix.marginLow",
     "args": {
-      "refSize": 8,
+      "refSize": 4,
       "year": "2022",
       "title": "Hyundai Tucson NX4e"
     }

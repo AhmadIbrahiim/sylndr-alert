@@ -1,30 +1,30 @@
 {
   "vehicleId": "73f4b7e3-efa1-4d35-95aa-2072456c64ee",
-  "computedAt": "2026-07-28T14:58:34.902Z",
+  "computedAt": "2026-07-28T16:42:58.029Z",
   "cohort": {
-    "sameModelCount": 8,
-    "sameYearCount": 3,
-    "refCohort": "model",
-    "refSize": 8
+    "sameModelCount": 9,
+    "sameYearCount": 4,
+    "refCohort": "model+year",
+    "refSize": 4
   },
-  "pricePercentile": 88,
+  "pricePercentile": 75,
   "pricePerKm": 170.76923076923077,
-  "pricePerKmPercentile": 88,
+  "pricePerKmPercentile": 75,
   "kmPercentile": 0,
   "daysListed": 102,
   "marginPct": 17.594064652888182,
   "marginTier": "mid",
   "auctionHeat": "hot",
-  "dealTag": "high",
+  "dealTag": "fair",
   "bullets": [
     {
       "tone": "hot",
       "pipKey": "bullet.pip.high",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 12,
-        "n": 8,
-        "kind": "detail.cohort.refSize.kind.model"
+        "pct": 25,
+        "n": 4,
+        "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.pricey",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 12,
+        "pct": 25,
         "ppkm": 171
       }
     },
@@ -70,14 +70,14 @@
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.high",
+    "verdictKey": "summary.verdict.fair",
     "cohortLineKey": "summary.cohortLine.yes",
-    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": null,
     "args": {
-      "refSize": 8,
+      "refSize": 4,
       "year": "2022",
       "title": "Hyundai Tucson NX4e"
     }

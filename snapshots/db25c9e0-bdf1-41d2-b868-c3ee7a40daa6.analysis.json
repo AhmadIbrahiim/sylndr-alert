@@ -1,16 +1,16 @@
 {
   "vehicleId": "db25c9e0-bdf1-41d2-b868-c3ee7a40daa6",
-  "computedAt": "2026-07-28T14:58:34.405Z",
+  "computedAt": "2026-07-28T16:42:57.560Z",
   "cohort": {
-    "sameModelCount": 12,
-    "sameYearCount": 3,
-    "refCohort": "model",
-    "refSize": 12
+    "sameModelCount": 13,
+    "sameYearCount": 4,
+    "refCohort": "model+year",
+    "refSize": 4
   },
-  "pricePercentile": 42,
+  "pricePercentile": 50,
   "pricePerKm": 10.851808634772462,
-  "pricePerKmPercentile": 67,
-  "kmPercentile": 25,
+  "pricePerKmPercentile": 75,
+  "kmPercentile": 0,
   "daysListed": 23,
   "marginPct": 15.806451612903224,
   "marginTier": "mid",
@@ -22,17 +22,17 @@
       "pipKey": "bullet.pip.mid",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 58,
-        "n": 12,
-        "kind": "detail.cohort.refSize.kind.model"
+        "pct": 50,
+        "n": 4,
+        "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
-      "tone": "mid",
-      "pipKey": "bullet.pip.value",
+      "tone": "hot",
+      "pipKey": "bullet.pip.pricey",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 33,
+        "pct": 25,
         "ppkm": 11
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.lowKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 75
+        "pct": 100
       }
     },
     {
@@ -72,12 +72,12 @@
   "summary": {
     "verdictKey": "summary.verdict.fair",
     "cohortLineKey": "summary.cohortLine.yes",
-    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": null,
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 12,
+      "refSize": 4,
       "year": "2019",
       "title": "Seat Ibiza"
     }
