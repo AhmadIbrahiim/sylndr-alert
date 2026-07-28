@@ -1,29 +1,29 @@
 {
   "vehicleId": "f1a3a73f-7e94-4f1b-af90-b59f09a6e393",
-  "computedAt": "2026-07-28T10:14:52.100Z",
+  "computedAt": "2026-07-28T12:16:13.476Z",
   "cohort": {
-    "sameModelCount": 35,
-    "sameYearCount": 10,
+    "sameModelCount": 36,
+    "sameYearCount": 11,
     "refCohort": "model+year",
-    "refSize": 10
+    "refSize": 11
   },
-  "pricePercentile": 80,
+  "pricePercentile": 82,
   "pricePerKm": 10.526315789473685,
-  "pricePerKmPercentile": 80,
-  "kmPercentile": 10,
-  "daysListed": 100,
+  "pricePerKmPercentile": 82,
+  "kmPercentile": 9,
+  "daysListed": 101,
   "marginPct": 42.25806451612903,
   "marginTier": "high",
   "auctionHeat": "hot",
-  "dealTag": "fair",
+  "dealTag": "high",
   "bullets": [
     {
       "tone": "hot",
       "pipKey": "bullet.pip.high",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 20,
-        "n": 10,
+        "pct": 18,
+        "n": 11,
         "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.pricey",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 20,
+        "pct": 18,
         "ppkm": 11
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.lowKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 90
+        "pct": 91
       }
     },
     {
@@ -61,23 +61,23 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 100
+        "n": 101
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 100
+        "n": 101
       }
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.fair",
+    "verdictKey": "summary.verdict.high",
     "cohortLineKey": "summary.cohortLine.yes",
     "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": "summary.suffix.marginHigh",
     "args": {
-      "refSize": 10,
+      "refSize": 11,
       "year": "2019",
       "title": "Renault Kadjar"
     }
