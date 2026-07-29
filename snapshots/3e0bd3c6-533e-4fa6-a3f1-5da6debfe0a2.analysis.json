@@ -1,16 +1,16 @@
 {
   "vehicleId": "3e0bd3c6-533e-4fa6-a3f1-5da6debfe0a2",
-  "computedAt": "2026-07-29T12:28:14.744Z",
+  "computedAt": "2026-07-29T14:43:30.585Z",
   "cohort": {
-    "sameModelCount": 9,
-    "sameYearCount": 3,
-    "refCohort": "model",
-    "refSize": 9
+    "sameModelCount": 10,
+    "sameYearCount": 4,
+    "refCohort": "model+year",
+    "refSize": 4
   },
-  "pricePercentile": 0,
+  "pricePercentile": 25,
   "pricePerKm": 12.888070013818517,
-  "pricePerKmPercentile": 11,
-  "kmPercentile": 67,
+  "pricePerKmPercentile": 25,
+  "kmPercentile": 25,
   "daysListed": 48,
   "marginPct": 17.29807005003574,
   "marginTier": "mid",
@@ -22,9 +22,9 @@
       "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 100,
-        "n": 9,
-        "kind": "detail.cohort.refSize.kind.model"
+        "pct": 75,
+        "n": 4,
+        "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
@@ -32,16 +32,16 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 89,
+        "pct": 75,
         "ppkm": 13
       }
     },
     {
-      "tone": "mid",
-      "pipKey": "bullet.pip.km",
+      "tone": "good",
+      "pipKey": "bullet.pip.lowKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 33
+        "pct": 75
       }
     },
     {
@@ -72,12 +72,12 @@
   "summary": {
     "verdictKey": "summary.verdict.good",
     "cohortLineKey": "summary.cohortLine.yes",
-    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 9,
+      "refSize": 4,
       "year": "2021",
       "title": "Hyundai Tucson NX4e"
     }

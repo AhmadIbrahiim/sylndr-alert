@@ -1,47 +1,47 @@
 {
   "vehicleId": "78f830ae-8194-49f5-8501-ca85aaa967a5",
-  "computedAt": "2026-07-29T12:28:16.186Z",
+  "computedAt": "2026-07-29T14:43:32.013Z",
   "cohort": {
-    "sameModelCount": 9,
-    "sameYearCount": 3,
-    "refCohort": "model",
-    "refSize": 9
+    "sameModelCount": 10,
+    "sameYearCount": 4,
+    "refCohort": "model+year",
+    "refSize": 4
   },
-  "pricePercentile": 56,
+  "pricePercentile": 75,
   "pricePerKm": 14.516129032258064,
-  "pricePerKmPercentile": 22,
-  "kmPercentile": 78,
-  "daysListed": 33,
+  "pricePerKmPercentile": 50,
+  "kmPercentile": 50,
+  "daysListed": 34,
   "marginPct": 16.97530864197531,
   "marginTier": "mid",
   "auctionHeat": "cold",
   "dealTag": "fair",
   "bullets": [
     {
-      "tone": "mid",
-      "pipKey": "bullet.pip.mid",
+      "tone": "hot",
+      "pipKey": "bullet.pip.high",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 44,
-        "n": 9,
-        "kind": "detail.cohort.refSize.kind.model"
+        "pct": 25,
+        "n": 4,
+        "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
-      "tone": "good",
+      "tone": "mid",
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 78,
+        "pct": 50,
         "ppkm": 15
       }
     },
     {
-      "tone": "hot",
-      "pipKey": "bullet.pip.highKm",
+      "tone": "mid",
+      "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 22
+        "pct": 50
       }
     },
     {
@@ -61,23 +61,23 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 33
+        "n": 34
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 33
+        "n": 34
       }
     }
   ],
   "summary": {
     "verdictKey": "summary.verdict.fair",
     "cohortLineKey": "summary.cohortLine.yes",
-    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 9,
+      "refSize": 4,
       "year": "2021",
       "title": "Hyundai Tucson NX4e"
     }

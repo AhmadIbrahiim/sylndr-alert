@@ -1,22 +1,49 @@
 {
   "vehicleId": "a340ee1b-5003-4662-97fc-3dd348501a6b",
-  "computedAt": "2026-07-29T12:28:15.371Z",
+  "computedAt": "2026-07-29T14:43:31.202Z",
   "cohort": {
-    "sameModelCount": 2,
+    "sameModelCount": 3,
     "sameYearCount": 1,
     "refCohort": "model",
-    "refSize": 2
+    "refSize": 3
   },
-  "pricePercentile": null,
+  "pricePercentile": 67,
   "pricePerKm": 20.48780487804878,
-  "pricePerKmPercentile": null,
-  "kmPercentile": null,
-  "daysListed": 182,
+  "pricePerKmPercentile": 67,
+  "kmPercentile": 0,
+  "daysListed": 183,
   "marginPct": 22.380952380952383,
   "marginTier": "mid",
   "auctionHeat": "hot",
   "dealTag": "fair",
   "bullets": [
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.mid",
+      "textKey": "bullet.priceCheaper",
+      "textArgs": {
+        "pct": 33,
+        "n": 3,
+        "kind": "detail.cohort.refSize.kind.model"
+      }
+    },
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.value",
+      "textKey": "bullet.ppkmBetter",
+      "textArgs": {
+        "pct": 33,
+        "ppkm": 20
+      }
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.lowKm",
+      "textKey": "bullet.kmLower",
+      "textArgs": {
+        "pct": 100
+      }
+    },
     {
       "tone": "mid",
       "pipKey": "bullet.pip.marginPct",
@@ -34,11 +61,11 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 182
+        "n": 183
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 182
+        "n": 183
       }
     }
   ],
@@ -50,7 +77,7 @@
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": null,
     "args": {
-      "refSize": 2,
+      "refSize": 3,
       "year": "2023",
       "title": "BYD L3"
     }

@@ -1,17 +1,17 @@
 {
   "vehicleId": "35cbaea6-1913-4faf-b19c-375ac16e6480",
-  "computedAt": "2026-07-29T12:28:15.293Z",
+  "computedAt": "2026-07-29T14:43:31.125Z",
   "cohort": {
-    "sameModelCount": 24,
-    "sameYearCount": 3,
-    "refCohort": "model",
-    "refSize": 24
+    "sameModelCount": 25,
+    "sameYearCount": 4,
+    "refCohort": "model+year",
+    "refSize": 4
   },
-  "pricePercentile": 58,
+  "pricePercentile": 50,
   "pricePerKm": 21.56469408224674,
-  "pricePerKmPercentile": 54,
-  "kmPercentile": 46,
-  "daysListed": 57,
+  "pricePerKmPercentile": 25,
+  "kmPercentile": 50,
+  "daysListed": 58,
   "marginPct": 19.209302325581394,
   "marginTier": "mid",
   "auctionHeat": "cold",
@@ -22,17 +22,17 @@
       "pipKey": "bullet.pip.mid",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 42,
-        "n": 24,
-        "kind": "detail.cohort.refSize.kind.model"
+        "pct": 50,
+        "n": 4,
+        "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
-      "tone": "mid",
+      "tone": "good",
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 46,
+        "pct": 75,
         "ppkm": 22
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 54
+        "pct": 50
       }
     },
     {
@@ -61,23 +61,23 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 57
+        "n": 58
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 57
+        "n": 58
       }
     }
   ],
   "summary": {
     "verdictKey": "summary.verdict.fair",
     "cohortLineKey": "summary.cohortLine.yes",
-    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 24,
+      "refSize": 4,
       "year": "2021",
       "title": "Mercedes-Benz GLA 200"
     }
