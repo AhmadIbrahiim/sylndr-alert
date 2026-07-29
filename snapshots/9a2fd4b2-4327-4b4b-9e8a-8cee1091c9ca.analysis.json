@@ -1,16 +1,16 @@
 {
   "vehicleId": "9a2fd4b2-4327-4b4b-9e8a-8cee1091c9ca",
-  "computedAt": "2026-07-29T14:43:30.805Z",
+  "computedAt": "2026-07-29T16:11:14.968Z",
   "cohort": {
-    "sameModelCount": 38,
-    "sameYearCount": 6,
+    "sameModelCount": 39,
+    "sameYearCount": 7,
     "refCohort": "model+year",
-    "refSize": 6
+    "refSize": 7
   },
-  "pricePercentile": 67,
+  "pricePercentile": 71,
   "pricePerKm": 1.992302467738284,
-  "pricePerKmPercentile": 33,
-  "kmPercentile": 50,
+  "pricePerKmPercentile": 29,
+  "kmPercentile": 57,
   "daysListed": 103,
   "marginPct": 22.045454545454547,
   "marginTier": "mid",
@@ -18,12 +18,12 @@
   "dealTag": "fair",
   "bullets": [
     {
-      "tone": "mid",
-      "pipKey": "bullet.pip.mid",
+      "tone": "hot",
+      "pipKey": "bullet.pip.high",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 33,
-        "n": 6,
+        "pct": 29,
+        "n": 7,
         "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 67,
+        "pct": 71,
         "ppkm": 2
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 50
+        "pct": 43
       }
     },
     {
@@ -77,7 +77,7 @@
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": null,
     "args": {
-      "refSize": 6,
+      "refSize": 7,
       "year": "2013",
       "title": "Nissan Sunny"
     }
