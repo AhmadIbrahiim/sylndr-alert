@@ -1,16 +1,16 @@
 {
   "vehicleId": "aae0eff4-e18e-489c-ad19-c9145710b239",
-  "computedAt": "2026-07-30T16:14:42.272Z",
+  "computedAt": "2026-07-30T17:43:18.675Z",
   "cohort": {
-    "sameModelCount": 36,
-    "sameYearCount": 3,
-    "refCohort": "model",
-    "refSize": 36
+    "sameModelCount": 37,
+    "sameYearCount": 4,
+    "refCohort": "model+year",
+    "refSize": 4
   },
-  "pricePercentile": 81,
+  "pricePercentile": 75,
   "pricePerKm": 13.609145345672292,
-  "pricePerKmPercentile": 78,
-  "kmPercentile": 19,
+  "pricePerKmPercentile": 50,
+  "kmPercentile": 25,
   "daysListed": 37,
   "marginPct": 13.04,
   "marginTier": "low",
@@ -22,17 +22,17 @@
       "pipKey": "bullet.pip.high",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 19,
-        "n": 36,
-        "kind": "detail.cohort.refSize.kind.model"
+        "pct": 25,
+        "n": 4,
+        "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
-      "tone": "hot",
-      "pipKey": "bullet.pip.pricey",
+      "tone": "mid",
+      "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 22,
+        "pct": 50,
         "ppkm": 14
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.lowKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 81
+        "pct": 75
       }
     },
     {
@@ -72,12 +72,12 @@
   "summary": {
     "verdictKey": "summary.verdict.fair",
     "cohortLineKey": "summary.cohortLine.yes",
-    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": null,
     "marginSuffixKey": "summary.suffix.marginLow",
     "args": {
-      "refSize": 36,
+      "refSize": 4,
       "year": "2021",
       "title": "Toyota Corolla"
     }
