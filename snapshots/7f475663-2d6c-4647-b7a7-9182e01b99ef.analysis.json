@@ -1,47 +1,47 @@
 {
   "vehicleId": "7f475663-2d6c-4647-b7a7-9182e01b99ef",
-  "computedAt": "2026-07-31T12:31:47.094Z",
+  "computedAt": "2026-07-31T15:09:18.529Z",
   "cohort": {
-    "sameModelCount": 21,
-    "sameYearCount": 3,
-    "refCohort": "model",
-    "refSize": 21
+    "sameModelCount": 22,
+    "sameYearCount": 4,
+    "refCohort": "model+year",
+    "refSize": 4
   },
-  "pricePercentile": 81,
+  "pricePercentile": 0,
   "pricePerKm": 66.3923182441701,
-  "pricePerKmPercentile": 81,
-  "kmPercentile": 24,
-  "daysListed": 39,
+  "pricePerKmPercentile": 0,
+  "kmPercentile": 75,
+  "daysListed": 40,
   "marginPct": 16.363636363636363,
   "marginTier": "mid",
   "auctionHeat": "warm",
-  "dealTag": "high",
+  "dealTag": "good",
   "bullets": [
     {
-      "tone": "hot",
-      "pipKey": "bullet.pip.high",
+      "tone": "good",
+      "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 19,
-        "n": 21,
-        "kind": "detail.cohort.refSize.kind.model"
-      }
-    },
-    {
-      "tone": "hot",
-      "pipKey": "bullet.pip.pricey",
-      "textKey": "bullet.ppkmBetter",
-      "textArgs": {
-        "pct": 19,
-        "ppkm": 66
+        "pct": 100,
+        "n": 4,
+        "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
       "tone": "good",
-      "pipKey": "bullet.pip.lowKm",
+      "pipKey": "bullet.pip.value",
+      "textKey": "bullet.ppkmBetter",
+      "textArgs": {
+        "pct": 100,
+        "ppkm": 66
+      }
+    },
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.highKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 76
+        "pct": 25
       }
     },
     {
@@ -61,23 +61,23 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 39
+        "n": 40
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 39
+        "n": 40
       }
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.high",
+    "verdictKey": "summary.verdict.good",
     "cohortLineKey": "summary.cohortLine.yes",
-    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 21,
+      "refSize": 4,
       "year": "2025",
       "title": "Volkswagen Tiguan"
     }

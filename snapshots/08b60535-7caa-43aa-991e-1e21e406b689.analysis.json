@@ -1,29 +1,29 @@
 {
   "vehicleId": "08b60535-7caa-43aa-991e-1e21e406b689",
-  "computedAt": "2026-07-31T12:31:47.345Z",
+  "computedAt": "2026-07-31T15:09:18.783Z",
   "cohort": {
-    "sameModelCount": 21,
+    "sameModelCount": 22,
     "sameYearCount": 3,
     "refCohort": "model",
-    "refSize": 21
+    "refSize": 22
   },
-  "pricePercentile": 38,
+  "pricePercentile": 36,
   "pricePerKm": 28.838659392049884,
-  "pricePerKmPercentile": 48,
-  "kmPercentile": 38,
+  "pricePerKmPercentile": 45,
+  "kmPercentile": 41,
   "daysListed": 32,
   "marginPct": 17.783783783783782,
   "marginTier": "mid",
   "auctionHeat": "warm",
-  "dealTag": "good",
+  "dealTag": "fair",
   "bullets": [
     {
       "tone": "mid",
       "pipKey": "bullet.pip.mid",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 62,
-        "n": 21,
+        "pct": 64,
+        "n": 22,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 52,
+        "pct": 55,
         "ppkm": 29
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 62
+        "pct": 59
       }
     },
     {
@@ -70,14 +70,14 @@
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.good",
+    "verdictKey": "summary.verdict.fair",
     "cohortLineKey": "summary.cohortLine.yes",
     "cohortKindKey": "detail.cohort.refSize.kind.model",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 21,
+      "refSize": 22,
       "year": "2023",
       "title": "Volkswagen Tiguan"
     }
