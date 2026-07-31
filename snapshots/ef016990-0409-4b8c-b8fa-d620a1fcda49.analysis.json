@@ -1,17 +1,17 @@
 {
   "vehicleId": "ef016990-0409-4b8c-b8fa-d620a1fcda49",
-  "computedAt": "2026-07-30T17:43:18.432Z",
+  "computedAt": "2026-07-31T07:48:38.998Z",
   "cohort": {
-    "sameModelCount": 10,
+    "sameModelCount": 11,
     "sameYearCount": 1,
     "refCohort": "model",
-    "refSize": 10
+    "refSize": 11
   },
-  "pricePercentile": 60,
+  "pricePercentile": 64,
   "pricePerKm": 8.307315580042852,
-  "pricePerKmPercentile": 30,
-  "kmPercentile": 70,
-  "daysListed": 179,
+  "pricePerKmPercentile": 36,
+  "kmPercentile": 64,
+  "daysListed": 180,
   "marginPct": 37.28813559322034,
   "marginTier": "high",
   "auctionHeat": "hot",
@@ -22,17 +22,17 @@
       "pipKey": "bullet.pip.mid",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 40,
-        "n": 10,
+        "pct": 36,
+        "n": 11,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
     {
-      "tone": "good",
+      "tone": "mid",
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 70,
+        "pct": 64,
         "ppkm": 8
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 30
+        "pct": 36
       }
     },
     {
@@ -61,11 +61,11 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 179
+        "n": 180
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 179
+        "n": 180
       }
     }
   ],
@@ -77,7 +77,7 @@
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": "summary.suffix.marginHigh",
     "args": {
-      "refSize": 10,
+      "refSize": 11,
       "year": "2019",
       "title": "Mercedes-Benz CLA 180"
     }
