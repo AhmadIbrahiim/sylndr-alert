@@ -1,16 +1,16 @@
 {
   "vehicleId": "0a55bbe4-0b89-4e5b-9b56-c75d20389286",
-  "computedAt": "2026-08-02T15:09:47.680Z",
+  "computedAt": "2026-08-02T16:12:07.916Z",
   "cohort": {
-    "sameModelCount": 8,
-    "sameYearCount": 3,
-    "refCohort": "model",
-    "refSize": 8
+    "sameModelCount": 9,
+    "sameYearCount": 4,
+    "refCohort": "model+year",
+    "refSize": 4
   },
   "pricePercentile": 50,
   "pricePerKm": 4.760746382330541,
   "pricePerKmPercentile": 75,
-  "kmPercentile": 13,
+  "kmPercentile": 0,
   "daysListed": 131,
   "marginPct": 20.49094044659455,
   "marginTier": "mid",
@@ -23,8 +23,8 @@
       "textKey": "bullet.priceCheaper",
       "textArgs": {
         "pct": 50,
-        "n": 8,
-        "kind": "detail.cohort.refSize.kind.model"
+        "n": 4,
+        "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.lowKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 87
+        "pct": 100
       }
     },
     {
@@ -72,12 +72,12 @@
   "summary": {
     "verdictKey": "summary.verdict.fair",
     "cohortLineKey": "summary.cohortLine.yes",
-    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": null,
     "args": {
-      "refSize": 8,
+      "refSize": 4,
       "year": "2014",
       "title": "Toyota Yaris"
     }

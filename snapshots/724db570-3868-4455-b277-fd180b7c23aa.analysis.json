@@ -1,16 +1,16 @@
 {
   "vehicleId": "724db570-3868-4455-b277-fd180b7c23aa",
-  "computedAt": "2026-08-02T15:09:48.022Z",
+  "computedAt": "2026-08-02T16:12:08.258Z",
   "cohort": {
-    "sameModelCount": 3,
+    "sameModelCount": 4,
     "sameYearCount": 1,
     "refCohort": "model",
-    "refSize": 3
+    "refSize": 4
   },
   "pricePercentile": 0,
   "pricePerKm": 1.7736359537050954,
   "pricePerKmPercentile": 0,
-  "kmPercentile": 67,
+  "kmPercentile": 75,
   "daysListed": 0,
   "marginPct": null,
   "marginTier": null,
@@ -23,7 +23,7 @@
       "textKey": "bullet.priceCheaper",
       "textArgs": {
         "pct": 100,
-        "n": 3,
+        "n": 4,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -37,11 +37,11 @@
       }
     },
     {
-      "tone": "mid",
-      "pipKey": "bullet.pip.km",
+      "tone": "hot",
+      "pipKey": "bullet.pip.highKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 33
+        "pct": 25
       }
     },
     {
@@ -63,7 +63,7 @@
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 3,
+      "refSize": 4,
       "year": "2005",
       "title": "Mitsubishi Pajero"
     }
