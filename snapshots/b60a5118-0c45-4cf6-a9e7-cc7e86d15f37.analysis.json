@@ -1,16 +1,16 @@
 {
   "vehicleId": "b60a5118-0c45-4cf6-a9e7-cc7e86d15f37",
-  "computedAt": "2026-08-02T12:15:58.666Z",
+  "computedAt": "2026-08-02T14:00:27.879Z",
   "cohort": {
-    "sameModelCount": 22,
-    "sameYearCount": 3,
-    "refCohort": "model",
-    "refSize": 22
+    "sameModelCount": 23,
+    "sameYearCount": 4,
+    "refCohort": "model+year",
+    "refSize": 4
   },
-  "pricePercentile": 36,
+  "pricePercentile": 75,
   "pricePerKm": 20.487264673311184,
-  "pricePerKmPercentile": 36,
-  "kmPercentile": 64,
+  "pricePerKmPercentile": 75,
+  "kmPercentile": 25,
   "daysListed": 25,
   "marginPct": 38.86486486486487,
   "marginTier": "high",
@@ -18,30 +18,30 @@
   "dealTag": "fair",
   "bullets": [
     {
-      "tone": "mid",
-      "pipKey": "bullet.pip.mid",
+      "tone": "hot",
+      "pipKey": "bullet.pip.high",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 64,
-        "n": 22,
-        "kind": "detail.cohort.refSize.kind.model"
+        "pct": 25,
+        "n": 4,
+        "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
-      "tone": "mid",
-      "pipKey": "bullet.pip.value",
+      "tone": "hot",
+      "pipKey": "bullet.pip.pricey",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 64,
+        "pct": 25,
         "ppkm": 20
       }
     },
     {
-      "tone": "mid",
-      "pipKey": "bullet.pip.km",
+      "tone": "good",
+      "pipKey": "bullet.pip.lowKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 36
+        "pct": 75
       }
     },
     {
@@ -72,12 +72,12 @@
   "summary": {
     "verdictKey": "summary.verdict.fair",
     "cohortLineKey": "summary.cohortLine.yes",
-    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": null,
     "heatSuffixKey": null,
     "marginSuffixKey": "summary.suffix.marginHigh",
     "args": {
-      "refSize": 22,
+      "refSize": 4,
       "year": "2018",
       "title": "Volkswagen Tiguan"
     }

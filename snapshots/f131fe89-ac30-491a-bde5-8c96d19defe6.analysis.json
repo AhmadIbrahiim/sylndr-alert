@@ -1,17 +1,17 @@
 {
   "vehicleId": "f131fe89-ac30-491a-bde5-8c96d19defe6",
-  "computedAt": "2026-08-02T12:15:57.799Z",
+  "computedAt": "2026-08-02T14:00:27.041Z",
   "cohort": {
-    "sameModelCount": 11,
+    "sameModelCount": 12,
     "sameYearCount": 2,
     "refCohort": "model",
-    "refSize": 11
+    "refSize": 12
   },
-  "pricePercentile": 18,
+  "pricePercentile": 17,
   "pricePerKm": 3.4408602150537635,
-  "pricePerKmPercentile": 36,
-  "kmPercentile": 45,
-  "daysListed": 136,
+  "pricePerKmPercentile": 33,
+  "kmPercentile": 50,
+  "daysListed": 137,
   "marginPct": 42,
   "marginTier": "high",
   "auctionHeat": "hot",
@@ -22,17 +22,17 @@
       "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 82,
-        "n": 11,
+        "pct": 83,
+        "n": 12,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
     {
-      "tone": "mid",
+      "tone": "good",
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 64,
+        "pct": 67,
         "ppkm": 3
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 55
+        "pct": 50
       }
     },
     {
@@ -61,11 +61,11 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 136
+        "n": 137
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 136
+        "n": 137
       }
     }
   ],
@@ -77,7 +77,7 @@
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": "summary.suffix.marginHigh",
     "args": {
-      "refSize": 11,
+      "refSize": 12,
       "year": "2010",
       "title": "Kia Picanto"
     }

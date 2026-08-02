@@ -1,16 +1,16 @@
 {
   "vehicleId": "ae0f3033-df64-4e2d-beea-b523a486c877",
-  "computedAt": "2026-08-02T12:15:59.651Z",
+  "computedAt": "2026-08-02T14:00:28.859Z",
   "cohort": {
-    "sameModelCount": 38,
-    "sameYearCount": 3,
-    "refCohort": "model",
-    "refSize": 38
+    "sameModelCount": 39,
+    "sameYearCount": 4,
+    "refCohort": "model+year",
+    "refSize": 4
   },
-  "pricePercentile": 18,
+  "pricePercentile": 25,
   "pricePerKm": 4.3240126837705395,
-  "pricePerKmPercentile": 26,
-  "kmPercentile": 71,
+  "pricePerKmPercentile": 25,
+  "kmPercentile": 75,
   "daysListed": 86,
   "marginPct": -1.3333333333333335,
   "marginTier": "low",
@@ -22,9 +22,9 @@
       "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 82,
-        "n": 38,
-        "kind": "detail.cohort.refSize.kind.model"
+        "pct": 75,
+        "n": 4,
+        "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 74,
+        "pct": 75,
         "ppkm": 4
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.highKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 29
+        "pct": 25
       }
     },
     {
@@ -72,12 +72,12 @@
   "summary": {
     "verdictKey": "summary.verdict.good",
     "cohortLineKey": "summary.cohortLine.yes",
-    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": "summary.suffix.marginLow",
     "args": {
-      "refSize": 38,
+      "refSize": 4,
       "year": "2016",
       "title": "Toyota Corolla"
     }
