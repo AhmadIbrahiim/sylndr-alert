@@ -1,17 +1,17 @@
 {
   "vehicleId": "f9ccfea3-60f8-46cd-98a6-9c09e0e9578e",
-  "computedAt": "2026-08-03T11:56:03.331Z",
+  "computedAt": "2026-08-03T14:32:21.637Z",
   "cohort": {
-    "sameModelCount": 22,
-    "sameYearCount": 1,
+    "sameModelCount": 23,
+    "sameYearCount": 2,
     "refCohort": "model",
-    "refSize": 22
+    "refSize": 23
   },
-  "pricePercentile": 9,
+  "pricePercentile": 13,
   "pricePerKm": 3.6090225563909772,
-  "pricePerKmPercentile": 14,
-  "kmPercentile": 73,
-  "daysListed": 107,
+  "pricePerKmPercentile": 17,
+  "kmPercentile": 70,
+  "daysListed": 108,
   "marginPct": 33.33333333333333,
   "marginTier": "high",
   "auctionHeat": "hot",
@@ -22,8 +22,8 @@
       "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 91,
-        "n": 22,
+        "pct": 87,
+        "n": 23,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -32,16 +32,16 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 86,
+        "pct": 83,
         "ppkm": 4
       }
     },
     {
-      "tone": "hot",
-      "pipKey": "bullet.pip.highKm",
+      "tone": "mid",
+      "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 27
+        "pct": 30
       }
     },
     {
@@ -61,11 +61,11 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 107
+        "n": 108
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 107
+        "n": 108
       }
     }
   ],
@@ -77,7 +77,7 @@
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": "summary.suffix.marginHigh",
     "args": {
-      "refSize": 22,
+      "refSize": 23,
       "year": "2014",
       "title": "Opel Insignia"
     }
