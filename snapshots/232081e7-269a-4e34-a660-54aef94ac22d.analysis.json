@@ -1,16 +1,16 @@
 {
   "vehicleId": "232081e7-269a-4e34-a660-54aef94ac22d",
-  "computedAt": "2026-08-04T10:18:42.605Z",
+  "computedAt": "2026-08-04T12:25:27.188Z",
   "cohort": {
-    "sameModelCount": 3,
+    "sameModelCount": 4,
     "sameYearCount": 1,
     "refCohort": "model",
-    "refSize": 3
+    "refSize": 4
   },
   "pricePercentile": 0,
   "pricePerKm": 6.513973523849549,
   "pricePerKmPercentile": 0,
-  "kmPercentile": 67,
+  "kmPercentile": 75,
   "daysListed": 44,
   "marginPct": 19.419354838709676,
   "marginTier": "mid",
@@ -23,7 +23,7 @@
       "textKey": "bullet.priceCheaper",
       "textArgs": {
         "pct": 100,
-        "n": 3,
+        "n": 4,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -37,11 +37,11 @@
       }
     },
     {
-      "tone": "mid",
-      "pipKey": "bullet.pip.km",
+      "tone": "hot",
+      "pipKey": "bullet.pip.highKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 33
+        "pct": 25
       }
     },
     {
@@ -77,7 +77,7 @@
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 3,
+      "refSize": 4,
       "year": "2016",
       "title": "Volvo XC 90"
     }

@@ -1,16 +1,16 @@
 {
   "vehicleId": "6914c7a9-6eb3-4438-9c39-49c06fa71d1d",
-  "computedAt": "2026-08-04T10:18:42.966Z",
+  "computedAt": "2026-08-04T12:25:27.550Z",
   "cohort": {
-    "sameModelCount": 60,
-    "sameYearCount": 7,
+    "sameModelCount": 61,
+    "sameYearCount": 8,
     "refCohort": "model+year",
-    "refSize": 7
+    "refSize": 8
   },
-  "pricePercentile": 71,
+  "pricePercentile": 63,
   "pricePerKm": 82.3529411764706,
-  "pricePerKmPercentile": 71,
-  "kmPercentile": 29,
+  "pricePerKmPercentile": 63,
+  "kmPercentile": 38,
   "daysListed": 54,
   "marginPct": 12.444444444444445,
   "marginTier": "low",
@@ -18,30 +18,30 @@
   "dealTag": "fair",
   "bullets": [
     {
-      "tone": "hot",
-      "pipKey": "bullet.pip.high",
+      "tone": "mid",
+      "pipKey": "bullet.pip.mid",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 29,
-        "n": 7,
+        "pct": 37,
+        "n": 8,
         "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
-      "tone": "hot",
-      "pipKey": "bullet.pip.pricey",
+      "tone": "mid",
+      "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 29,
+        "pct": 37,
         "ppkm": 82
       }
     },
     {
-      "tone": "good",
-      "pipKey": "bullet.pip.lowKm",
+      "tone": "mid",
+      "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 71
+        "pct": 62
       }
     },
     {
@@ -77,7 +77,7 @@
     "heatSuffixKey": null,
     "marginSuffixKey": "summary.suffix.marginLow",
     "args": {
-      "refSize": 7,
+      "refSize": 8,
       "year": "2023",
       "title": "Mercedes-Benz C180"
     }
