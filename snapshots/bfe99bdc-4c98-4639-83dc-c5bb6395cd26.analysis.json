@@ -1,38 +1,38 @@
 {
   "vehicleId": "bfe99bdc-4c98-4639-83dc-c5bb6395cd26",
-  "computedAt": "2026-08-05T12:23:05.727Z",
+  "computedAt": "2026-08-05T14:53:36.123Z",
   "cohort": {
-    "sameModelCount": 61,
-    "sameYearCount": 10,
+    "sameModelCount": 62,
+    "sameYearCount": 11,
     "refCohort": "model+year",
-    "refSize": 10
+    "refSize": 11
   },
-  "pricePercentile": 90,
+  "pricePercentile": 91,
   "pricePerKm": 24.237623762376238,
-  "pricePerKmPercentile": 70,
-  "kmPercentile": 20,
-  "daysListed": 102,
+  "pricePerKmPercentile": 73,
+  "kmPercentile": 18,
+  "daysListed": 103,
   "marginPct": 34.967320261437905,
   "marginTier": "high",
   "auctionHeat": "hot",
-  "dealTag": "fair",
+  "dealTag": "high",
   "bullets": [
     {
       "tone": "hot",
       "pipKey": "bullet.pip.high",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 10,
-        "n": 10,
+        "pct": 9,
+        "n": 11,
         "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
-      "tone": "mid",
-      "pipKey": "bullet.pip.value",
+      "tone": "hot",
+      "pipKey": "bullet.pip.pricey",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 30,
+        "pct": 27,
         "ppkm": 24
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.lowKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 80
+        "pct": 82
       }
     },
     {
@@ -61,23 +61,23 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 102
+        "n": 103
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 102
+        "n": 103
       }
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.fair",
+    "verdictKey": "summary.verdict.high",
     "cohortLineKey": "summary.cohortLine.yes",
     "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": "summary.suffix.marginHigh",
     "args": {
-      "refSize": 10,
+      "refSize": 11,
       "year": "2022",
       "title": "Renault Megane"
     }

@@ -1,16 +1,16 @@
 {
   "vehicleId": "8228ab89-33af-4d21-bfa9-4e2f14cc681e",
-  "computedAt": "2026-08-05T12:23:04.696Z",
+  "computedAt": "2026-08-05T14:53:35.083Z",
   "cohort": {
-    "sameModelCount": 24,
-    "sameYearCount": 3,
-    "refCohort": "model",
-    "refSize": 24
+    "sameModelCount": 26,
+    "sameYearCount": 4,
+    "refCohort": "model+year",
+    "refSize": 4
   },
-  "pricePercentile": 38,
+  "pricePercentile": 0,
   "pricePerKm": 2.427577277876679,
   "pricePerKmPercentile": 0,
-  "kmPercentile": 96,
+  "kmPercentile": 75,
   "daysListed": 22,
   "marginPct": 19.466666666666665,
   "marginTier": "mid",
@@ -18,13 +18,13 @@
   "dealTag": "good",
   "bullets": [
     {
-      "tone": "mid",
-      "pipKey": "bullet.pip.mid",
+      "tone": "good",
+      "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 62,
-        "n": 24,
-        "kind": "detail.cohort.refSize.kind.model"
+        "pct": 100,
+        "n": 4,
+        "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.highKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 4
+        "pct": 25
       }
     },
     {
@@ -72,12 +72,12 @@
   "summary": {
     "verdictKey": "summary.verdict.good",
     "cohortLineKey": "summary.cohortLine.yes",
-    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": null,
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 24,
+      "refSize": 4,
       "year": "2021",
       "title": "Peugeot 508"
     }

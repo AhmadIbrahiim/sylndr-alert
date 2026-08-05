@@ -1,15 +1,15 @@
 {
   "vehicleId": "14992277-c9e9-4ad0-88b4-d801a955f024",
-  "computedAt": "2026-08-05T12:23:04.061Z",
+  "computedAt": "2026-08-05T14:53:34.441Z",
   "cohort": {
-    "sameModelCount": 4,
+    "sameModelCount": 5,
     "sameYearCount": 1,
     "refCohort": "model",
-    "refSize": 4
+    "refSize": 5
   },
-  "pricePercentile": 50,
+  "pricePercentile": 60,
   "pricePerKm": 20.725806451612904,
-  "pricePerKmPercentile": 75,
+  "pricePerKmPercentile": 80,
   "kmPercentile": 0,
   "daysListed": 230,
   "marginPct": 6.536964980544748,
@@ -22,8 +22,8 @@
       "pipKey": "bullet.pip.mid",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 50,
-        "n": 4,
+        "pct": 40,
+        "n": 5,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.pricey",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 25,
+        "pct": 20,
         "ppkm": 21
       }
     },
@@ -77,7 +77,7 @@
     "heatSuffixKey": null,
     "marginSuffixKey": "summary.suffix.marginLow",
     "args": {
-      "refSize": 4,
+      "refSize": 5,
       "year": "2022",
       "title": "Seat ATECA"
     }

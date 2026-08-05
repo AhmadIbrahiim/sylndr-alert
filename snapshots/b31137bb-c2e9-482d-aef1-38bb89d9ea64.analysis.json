@@ -1,0 +1,71 @@
+{
+  "vehicleId": "b31137bb-c2e9-482d-aef1-38bb89d9ea64",
+  "computedAt": "2026-08-05T14:53:34.257Z",
+  "cohort": {
+    "sameModelCount": 5,
+    "sameYearCount": 2,
+    "refCohort": "model",
+    "refSize": 5
+  },
+  "pricePercentile": 40,
+  "pricePerKm": 6.177606177606178,
+  "pricePerKmPercentile": 20,
+  "kmPercentile": 60,
+  "daysListed": 0,
+  "marginPct": null,
+  "marginTier": null,
+  "auctionHeat": "cold",
+  "dealTag": "good",
+  "bullets": [
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.mid",
+      "textKey": "bullet.priceCheaper",
+      "textArgs": {
+        "pct": 60,
+        "n": 5,
+        "kind": "detail.cohort.refSize.kind.model"
+      }
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.value",
+      "textKey": "bullet.ppkmBetter",
+      "textArgs": {
+        "pct": 80,
+        "ppkm": 6
+      }
+    },
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.km",
+      "textKey": "bullet.kmLower",
+      "textArgs": {
+        "pct": 40
+      }
+    },
+    {
+      "tone": "neutral",
+      "pipKey": "bullet.pip.cold",
+      "textKey": "bullet.auctionCold"
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.fresh",
+      "textKey": "bullet.listedFresh"
+    }
+  ],
+  "summary": {
+    "verdictKey": "summary.verdict.good",
+    "cohortLineKey": "summary.cohortLine.yes",
+    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "ageSuffixKey": "summary.suffix.ageFresh",
+    "heatSuffixKey": null,
+    "marginSuffixKey": null,
+    "args": {
+      "refSize": 5,
+      "year": "2020",
+      "title": "Seat ATECA"
+    }
+  }
+}
