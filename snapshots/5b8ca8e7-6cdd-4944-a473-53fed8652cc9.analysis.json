@@ -1,29 +1,29 @@
 {
   "vehicleId": "5b8ca8e7-6cdd-4944-a473-53fed8652cc9",
-  "computedAt": "2026-08-05T14:53:35.777Z",
+  "computedAt": "2026-08-05T16:30:07.685Z",
   "cohort": {
-    "sameModelCount": 25,
-    "sameYearCount": 5,
+    "sameModelCount": 26,
+    "sameYearCount": 6,
     "refCohort": "model+year",
-    "refSize": 5
+    "refSize": 6
   },
-  "pricePercentile": 40,
+  "pricePercentile": 50,
   "pricePerKm": 16.231647634584014,
-  "pricePerKmPercentile": 20,
-  "kmPercentile": 80,
-  "daysListed": 0,
+  "pricePerKmPercentile": 33,
+  "kmPercentile": 67,
+  "daysListed": 1,
   "marginPct": null,
   "marginTier": null,
   "auctionHeat": "cold",
-  "dealTag": "good",
+  "dealTag": "fair",
   "bullets": [
     {
       "tone": "mid",
       "pipKey": "bullet.pip.mid",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 60,
-        "n": 5,
+        "pct": 50,
+        "n": 6,
         "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
@@ -32,16 +32,16 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 80,
+        "pct": 67,
         "ppkm": 16
       }
     },
     {
-      "tone": "hot",
-      "pipKey": "bullet.pip.highKm",
+      "tone": "mid",
+      "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 20
+        "pct": 33
       }
     },
     {
@@ -56,14 +56,14 @@
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.good",
+    "verdictKey": "summary.verdict.fair",
     "cohortLineKey": "summary.cohortLine.yes",
     "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageFresh",
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 5,
+      "refSize": 6,
       "year": "2020",
       "title": "BMW 320i"
     }

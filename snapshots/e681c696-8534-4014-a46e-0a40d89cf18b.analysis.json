@@ -1,17 +1,17 @@
 {
   "vehicleId": "e681c696-8534-4014-a46e-0a40d89cf18b",
-  "computedAt": "2026-08-05T14:53:34.656Z",
+  "computedAt": "2026-08-05T16:30:06.500Z",
   "cohort": {
-    "sameModelCount": 40,
-    "sameYearCount": 3,
-    "refCohort": "model",
-    "refSize": 40
+    "sameModelCount": 41,
+    "sameYearCount": 4,
+    "refCohort": "model+year",
+    "refSize": 4
   },
-  "pricePercentile": 23,
+  "pricePercentile": 0,
   "pricePerKm": 4.992462360749457,
-  "pricePerKmPercentile": 35,
-  "kmPercentile": 53,
-  "daysListed": 233,
+  "pricePerKmPercentile": 25,
+  "kmPercentile": 50,
+  "daysListed": 234,
   "marginPct": 18.169934640522875,
   "marginTier": "mid",
   "auctionHeat": "warm",
@@ -22,17 +22,17 @@
       "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 77,
-        "n": 40,
-        "kind": "detail.cohort.refSize.kind.model"
+        "pct": 100,
+        "n": 4,
+        "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
-      "tone": "mid",
+      "tone": "good",
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 65,
+        "pct": 75,
         "ppkm": 5
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 47
+        "pct": 50
       }
     },
     {
@@ -61,23 +61,23 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 233
+        "n": 234
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 233
+        "n": 234
       }
     }
   ],
   "summary": {
     "verdictKey": "summary.verdict.good",
     "cohortLineKey": "summary.cohortLine.yes",
-    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 40,
+      "refSize": 4,
       "year": "2015",
       "title": "Toyota Corolla"
     }
