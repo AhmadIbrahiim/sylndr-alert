@@ -1,17 +1,17 @@
 {
   "vehicleId": "0eccbf90-a85d-41ae-9923-c217878f9607",
-  "computedAt": "2026-08-06T12:25:11.965Z",
+  "computedAt": "2026-08-06T14:53:13.354Z",
   "cohort": {
-    "sameModelCount": 26,
-    "sameYearCount": 3,
-    "refCohort": "model",
-    "refSize": 26
+    "sameModelCount": 27,
+    "sameYearCount": 4,
+    "refCohort": "model+year",
+    "refSize": 4
   },
-  "pricePercentile": 23,
+  "pricePercentile": 0,
   "pricePerKm": 10.795620437956204,
-  "pricePerKmPercentile": 23,
-  "kmPercentile": 65,
-  "daysListed": 98,
+  "pricePerKmPercentile": 0,
+  "kmPercentile": 75,
+  "daysListed": 99,
   "marginPct": 5.8147396889790395,
   "marginTier": "low",
   "auctionHeat": "hot",
@@ -22,9 +22,9 @@
       "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 77,
-        "n": 26,
-        "kind": "detail.cohort.refSize.kind.model"
+        "pct": 100,
+        "n": 4,
+        "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
@@ -32,16 +32,16 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 77,
+        "pct": 100,
         "ppkm": 11
       }
     },
     {
-      "tone": "mid",
-      "pipKey": "bullet.pip.km",
+      "tone": "hot",
+      "pipKey": "bullet.pip.highKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 35
+        "pct": 25
       }
     },
     {
@@ -61,23 +61,23 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 98
+        "n": 99
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 98
+        "n": 99
       }
     }
   ],
   "summary": {
     "verdictKey": "summary.verdict.good",
     "cohortLineKey": "summary.cohortLine.yes",
-    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": "summary.suffix.marginLow",
     "args": {
-      "refSize": 26,
+      "refSize": 4,
       "year": "2021",
       "title": "Skoda KODIAQ"
     }

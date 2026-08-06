@@ -1,16 +1,16 @@
 {
   "vehicleId": "1284951f-e346-4ca3-bc99-48e67ec98563",
-  "computedAt": "2026-08-06T12:25:10.343Z",
+  "computedAt": "2026-08-06T14:53:11.745Z",
   "cohort": {
-    "sameModelCount": 12,
-    "sameYearCount": 6,
+    "sameModelCount": 14,
+    "sameYearCount": 8,
     "refCohort": "model+year",
-    "refSize": 6
+    "refSize": 8
   },
   "pricePercentile": 50,
   "pricePerKm": 8.307372793354102,
-  "pricePerKmPercentile": 50,
-  "kmPercentile": 33,
+  "pricePerKmPercentile": 63,
+  "kmPercentile": 25,
   "daysListed": 200,
   "marginPct": 11.125,
   "marginTier": "low",
@@ -23,7 +23,7 @@
       "textKey": "bullet.priceCheaper",
       "textArgs": {
         "pct": 50,
-        "n": 6,
+        "n": 8,
         "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 50,
+        "pct": 37,
         "ppkm": 8
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.lowKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 67
+        "pct": 75
       }
     },
     {
@@ -77,7 +77,7 @@
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": "summary.suffix.marginLow",
     "args": {
-      "refSize": 6,
+      "refSize": 8,
       "year": "2021",
       "title": "MG ZS"
     }
