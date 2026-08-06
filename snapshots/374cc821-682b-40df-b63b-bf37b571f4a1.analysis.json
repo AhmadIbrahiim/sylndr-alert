@@ -1,17 +1,17 @@
 {
   "vehicleId": "374cc821-682b-40df-b63b-bf37b571f4a1",
-  "computedAt": "2026-08-06T07:36:34.381Z",
+  "computedAt": "2026-08-06T10:17:34.880Z",
   "cohort": {
-    "sameModelCount": 8,
-    "sameYearCount": 3,
-    "refCohort": "model",
-    "refSize": 8
+    "sameModelCount": 9,
+    "sameYearCount": 4,
+    "refCohort": "model+year",
+    "refSize": 4
   },
-  "pricePercentile": 25,
+  "pricePercentile": 0,
   "pricePerKm": 9.85497692814766,
-  "pricePerKmPercentile": 25,
+  "pricePerKmPercentile": 0,
   "kmPercentile": 75,
-  "daysListed": 23,
+  "daysListed": 24,
   "marginPct": 17.190635451505017,
   "marginTier": "mid",
   "auctionHeat": "warm",
@@ -22,9 +22,9 @@
       "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 75,
-        "n": 8,
-        "kind": "detail.cohort.refSize.kind.model"
+        "pct": 100,
+        "n": 4,
+        "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 75,
+        "pct": 100,
         "ppkm": 10
       }
     },
@@ -61,23 +61,23 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 23
+        "n": 24
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 23
+        "n": 24
       }
     }
   ],
   "summary": {
     "verdictKey": "summary.verdict.good",
     "cohortLineKey": "summary.cohortLine.yes",
-    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": null,
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 8,
+      "refSize": 4,
       "year": "2020",
       "title": "Mercedes-Benz A200"
     }

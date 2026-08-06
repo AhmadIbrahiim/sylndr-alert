@@ -1,16 +1,16 @@
 {
   "vehicleId": "f924aedd-8db1-43d6-bc77-d8aad8939fc1",
-  "computedAt": "2026-08-06T07:36:32.921Z",
+  "computedAt": "2026-08-06T10:17:33.245Z",
   "cohort": {
-    "sameModelCount": 11,
+    "sameModelCount": 12,
     "sameYearCount": 1,
     "refCohort": "model",
-    "refSize": 11
+    "refSize": 12
   },
-  "pricePercentile": 55,
+  "pricePercentile": 50,
   "pricePerKm": 3.858435337945716,
-  "pricePerKmPercentile": 36,
-  "kmPercentile": 36,
+  "pricePerKmPercentile": 33,
+  "kmPercentile": 42,
   "daysListed": 75,
   "marginPct": 27.448275862068964,
   "marginTier": "mid",
@@ -22,17 +22,17 @@
       "pipKey": "bullet.pip.mid",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 45,
-        "n": 11,
+        "pct": 50,
+        "n": 12,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
     {
-      "tone": "mid",
+      "tone": "good",
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 64,
+        "pct": 67,
         "ppkm": 4
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 64
+        "pct": 58
       }
     },
     {
@@ -77,7 +77,7 @@
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 11,
+      "refSize": 12,
       "year": "2017",
       "title": "Ford Kuga"
     }
