@@ -1,0 +1,71 @@
+{
+  "vehicleId": "cd74f0ca-3652-4292-bd02-89fa0c2808d5",
+  "computedAt": "2026-08-08T11:24:33.258Z",
+  "cohort": {
+    "sameModelCount": 50,
+    "sameYearCount": 2,
+    "refCohort": "model",
+    "refSize": 50
+  },
+  "pricePercentile": 98,
+  "pricePerKm": 27.027027027027028,
+  "pricePerKmPercentile": 94,
+  "kmPercentile": 14,
+  "daysListed": 0,
+  "marginPct": null,
+  "marginTier": null,
+  "auctionHeat": "cold",
+  "dealTag": "high",
+  "bullets": [
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.high",
+      "textKey": "bullet.priceCheaper",
+      "textArgs": {
+        "pct": 2,
+        "n": 50,
+        "kind": "detail.cohort.refSize.kind.model"
+      }
+    },
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.pricey",
+      "textKey": "bullet.ppkmBetter",
+      "textArgs": {
+        "pct": 6,
+        "ppkm": 27
+      }
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.lowKm",
+      "textKey": "bullet.kmLower",
+      "textArgs": {
+        "pct": 86
+      }
+    },
+    {
+      "tone": "neutral",
+      "pipKey": "bullet.pip.cold",
+      "textKey": "bullet.auctionCold"
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.fresh",
+      "textKey": "bullet.listedFresh"
+    }
+  ],
+  "summary": {
+    "verdictKey": "summary.verdict.high",
+    "cohortLineKey": "summary.cohortLine.yes",
+    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "ageSuffixKey": "summary.suffix.ageFresh",
+    "heatSuffixKey": null,
+    "marginSuffixKey": null,
+    "args": {
+      "refSize": 50,
+      "year": "2025",
+      "title": "Nissan Qashqai"
+    }
+  }
+}
