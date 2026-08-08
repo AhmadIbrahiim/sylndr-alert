@@ -1,47 +1,47 @@
 {
   "vehicleId": "851d81fc-6bae-421a-b7f1-efc4628de09e",
-  "computedAt": "2026-08-08T16:02:53.276Z",
+  "computedAt": "2026-08-08T16:42:48.938Z",
   "cohort": {
-    "sameModelCount": 27,
-    "sameYearCount": 3,
-    "refCohort": "model",
-    "refSize": 27
+    "sameModelCount": 28,
+    "sameYearCount": 4,
+    "refCohort": "model+year",
+    "refSize": 4
   },
-  "pricePercentile": 19,
+  "pricePercentile": 25,
   "pricePerKm": 3.134796238244514,
-  "pricePerKmPercentile": 26,
-  "kmPercentile": 67,
+  "pricePerKmPercentile": 75,
+  "kmPercentile": 0,
   "daysListed": 27,
   "marginPct": 27.090909090909093,
   "marginTier": "mid",
   "auctionHeat": "cold",
-  "dealTag": "good",
+  "dealTag": "fair",
   "bullets": [
     {
       "tone": "good",
       "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 81,
-        "n": 27,
-        "kind": "detail.cohort.refSize.kind.model"
+        "pct": 75,
+        "n": 4,
+        "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
-      "tone": "good",
-      "pipKey": "bullet.pip.value",
+      "tone": "hot",
+      "pipKey": "bullet.pip.pricey",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 74,
+        "pct": 25,
         "ppkm": 3
       }
     },
     {
-      "tone": "mid",
-      "pipKey": "bullet.pip.km",
+      "tone": "good",
+      "pipKey": "bullet.pip.lowKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 33
+        "pct": 100
       }
     },
     {
@@ -70,14 +70,14 @@
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.good",
+    "verdictKey": "summary.verdict.fair",
     "cohortLineKey": "summary.cohortLine.yes",
-    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": null,
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 27,
+      "refSize": 4,
       "year": "2017",
       "title": "Ford Focus"
     }
