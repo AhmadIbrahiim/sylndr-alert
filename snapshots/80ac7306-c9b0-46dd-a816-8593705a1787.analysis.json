@@ -1,47 +1,47 @@
 {
   "vehicleId": "80ac7306-c9b0-46dd-a816-8593705a1787",
-  "computedAt": "2026-08-09T06:29:39.758Z",
+  "computedAt": "2026-08-09T07:35:50.791Z",
   "cohort": {
-    "sameModelCount": 22,
-    "sameYearCount": 3,
-    "refCohort": "model",
-    "refSize": 22
+    "sameModelCount": 23,
+    "sameYearCount": 4,
+    "refCohort": "model+year",
+    "refSize": 4
   },
-  "pricePercentile": 64,
+  "pricePercentile": 0,
   "pricePerKm": 14.775016789791806,
-  "pricePerKmPercentile": 73,
-  "kmPercentile": 23,
+  "pricePerKmPercentile": 25,
+  "kmPercentile": 50,
   "daysListed": 22,
   "marginPct": 16.18181818181818,
   "marginTier": "mid",
   "auctionHeat": "warm",
-  "dealTag": "fair",
+  "dealTag": "good",
   "bullets": [
     {
-      "tone": "mid",
-      "pipKey": "bullet.pip.mid",
+      "tone": "good",
+      "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 36,
-        "n": 22,
-        "kind": "detail.cohort.refSize.kind.model"
-      }
-    },
-    {
-      "tone": "hot",
-      "pipKey": "bullet.pip.pricey",
-      "textKey": "bullet.ppkmBetter",
-      "textArgs": {
-        "pct": 27,
-        "ppkm": 15
+        "pct": 100,
+        "n": 4,
+        "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
       "tone": "good",
-      "pipKey": "bullet.pip.lowKm",
+      "pipKey": "bullet.pip.value",
+      "textKey": "bullet.ppkmBetter",
+      "textArgs": {
+        "pct": 75,
+        "ppkm": 15
+      }
+    },
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 77
+        "pct": 50
       }
     },
     {
@@ -70,14 +70,14 @@
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.fair",
+    "verdictKey": "summary.verdict.good",
     "cohortLineKey": "summary.cohortLine.yes",
-    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": null,
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 22,
+      "refSize": 4,
       "year": "2023",
       "title": "MG RX5"
     }
