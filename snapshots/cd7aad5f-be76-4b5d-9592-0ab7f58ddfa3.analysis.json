@@ -1,0 +1,71 @@
+{
+  "vehicleId": "cd7aad5f-be76-4b5d-9592-0ab7f58ddfa3",
+  "computedAt": "2026-08-09T14:01:20.786Z",
+  "cohort": {
+    "sameModelCount": 10,
+    "sameYearCount": 1,
+    "refCohort": "model",
+    "refSize": 10
+  },
+  "pricePercentile": 70,
+  "pricePerKm": 4.616240266963293,
+  "pricePerKmPercentile": 20,
+  "kmPercentile": 70,
+  "daysListed": 0,
+  "marginPct": null,
+  "marginTier": null,
+  "auctionHeat": "cold",
+  "dealTag": "fair",
+  "bullets": [
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.mid",
+      "textKey": "bullet.priceCheaper",
+      "textArgs": {
+        "pct": 30,
+        "n": 10,
+        "kind": "detail.cohort.refSize.kind.model"
+      }
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.value",
+      "textKey": "bullet.ppkmBetter",
+      "textArgs": {
+        "pct": 80,
+        "ppkm": 5
+      }
+    },
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.km",
+      "textKey": "bullet.kmLower",
+      "textArgs": {
+        "pct": 30
+      }
+    },
+    {
+      "tone": "neutral",
+      "pipKey": "bullet.pip.cold",
+      "textKey": "bullet.auctionCold"
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.fresh",
+      "textKey": "bullet.listedFresh"
+    }
+  ],
+  "summary": {
+    "verdictKey": "summary.verdict.fair",
+    "cohortLineKey": "summary.cohortLine.yes",
+    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "ageSuffixKey": "summary.suffix.ageFresh",
+    "heatSuffixKey": null,
+    "marginSuffixKey": null,
+    "args": {
+      "refSize": 10,
+      "year": "2014",
+      "title": "Volkswagen Golf"
+    }
+  }
+}
