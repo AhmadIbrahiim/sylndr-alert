@@ -1,29 +1,29 @@
 {
   "vehicleId": "82a0cde0-23f5-4de2-b9e8-a191f9b68792",
-  "computedAt": "2026-08-09T11:04:12.061Z",
+  "computedAt": "2026-08-09T11:44:10.763Z",
   "cohort": {
-    "sameModelCount": 12,
+    "sameModelCount": 13,
     "sameYearCount": 3,
     "refCohort": "model",
-    "refSize": 12
+    "refSize": 13
   },
-  "pricePercentile": 75,
+  "pricePercentile": 77,
   "pricePerKm": 4.013631200302916,
-  "pricePerKmPercentile": 83,
+  "pricePerKmPercentile": 85,
   "kmPercentile": 8,
   "daysListed": 39,
   "marginPct": 16.60377358490566,
   "marginTier": "mid",
   "auctionHeat": "cold",
-  "dealTag": "fair",
+  "dealTag": "high",
   "bullets": [
     {
       "tone": "hot",
       "pipKey": "bullet.pip.high",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 25,
-        "n": 12,
+        "pct": 23,
+        "n": 13,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.pricey",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 17,
+        "pct": 15,
         "ppkm": 4
       }
     },
@@ -70,14 +70,14 @@
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.fair",
+    "verdictKey": "summary.verdict.high",
     "cohortLineKey": "summary.cohortLine.yes",
     "cohortKindKey": "detail.cohort.refSize.kind.model",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 12,
+      "refSize": 13,
       "year": "2016",
       "title": "Chevrolet Cruze"
     }

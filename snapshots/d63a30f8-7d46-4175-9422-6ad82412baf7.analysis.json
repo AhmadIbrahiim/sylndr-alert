@@ -1,16 +1,16 @@
 {
   "vehicleId": "d63a30f8-7d46-4175-9422-6ad82412baf7",
-  "computedAt": "2026-08-09T11:04:14.048Z",
+  "computedAt": "2026-08-09T11:44:12.826Z",
   "cohort": {
-    "sameModelCount": 12,
+    "sameModelCount": 13,
     "sameYearCount": 2,
     "refCohort": "model",
-    "refSize": 12
+    "refSize": 13
   },
   "pricePercentile": 0,
   "pricePerKm": 1.4643968515467691,
   "pricePerKmPercentile": 8,
-  "kmPercentile": 75,
+  "kmPercentile": 69,
   "daysListed": 42,
   "marginPct": 9.25,
   "marginTier": "low",
@@ -23,7 +23,7 @@
       "textKey": "bullet.priceCheaper",
       "textArgs": {
         "pct": 100,
-        "n": 12,
+        "n": 13,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -37,11 +37,11 @@
       }
     },
     {
-      "tone": "hot",
-      "pipKey": "bullet.pip.highKm",
+      "tone": "mid",
+      "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 25
+        "pct": 31
       }
     },
     {
@@ -77,7 +77,7 @@
     "heatSuffixKey": null,
     "marginSuffixKey": "summary.suffix.marginLow",
     "args": {
-      "refSize": 12,
+      "refSize": 13,
       "year": "2011",
       "title": "Chevrolet Cruze"
     }

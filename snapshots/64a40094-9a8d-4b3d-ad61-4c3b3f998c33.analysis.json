@@ -1,16 +1,16 @@
 {
   "vehicleId": "64a40094-9a8d-4b3d-ad61-4c3b3f998c33",
-  "computedAt": "2026-08-09T11:04:13.986Z",
+  "computedAt": "2026-08-09T11:44:12.762Z",
   "cohort": {
-    "sameModelCount": 20,
+    "sameModelCount": 21,
     "sameYearCount": 3,
     "refCohort": "model",
-    "refSize": 20
+    "refSize": 21
   },
-  "pricePercentile": 65,
+  "pricePercentile": 67,
   "pricePerKm": 13.866231647634583,
-  "pricePerKmPercentile": 70,
-  "kmPercentile": 30,
+  "pricePerKmPercentile": 71,
+  "kmPercentile": 29,
   "daysListed": 13,
   "marginPct": null,
   "marginTier": null,
@@ -22,17 +22,17 @@
       "pipKey": "bullet.pip.mid",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 35,
-        "n": 20,
+        "pct": 33,
+        "n": 21,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
     {
-      "tone": "mid",
-      "pipKey": "bullet.pip.value",
+      "tone": "hot",
+      "pipKey": "bullet.pip.pricey",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 30,
+        "pct": 29,
         "ppkm": 14
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.lowKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 70
+        "pct": 71
       }
     },
     {
@@ -58,7 +58,7 @@
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 20,
+      "refSize": 21,
       "year": "2022",
       "title": "Citroen C5 Aircross"
     }

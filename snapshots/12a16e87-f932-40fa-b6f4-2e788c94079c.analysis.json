@@ -1,0 +1,71 @@
+{
+  "vehicleId": "12a16e87-f932-40fa-b6f4-2e788c94079c",
+  "computedAt": "2026-08-09T11:44:10.296Z",
+  "cohort": {
+    "sameModelCount": 42,
+    "sameYearCount": 2,
+    "refCohort": "model",
+    "refSize": 42
+  },
+  "pricePercentile": 57,
+  "pricePerKm": 6.426735218508997,
+  "pricePerKmPercentile": 71,
+  "kmPercentile": 19,
+  "daysListed": 0,
+  "marginPct": null,
+  "marginTier": null,
+  "auctionHeat": "cold",
+  "dealTag": "fair",
+  "bullets": [
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.mid",
+      "textKey": "bullet.priceCheaper",
+      "textArgs": {
+        "pct": 43,
+        "n": 42,
+        "kind": "detail.cohort.refSize.kind.model"
+      }
+    },
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.pricey",
+      "textKey": "bullet.ppkmBetter",
+      "textArgs": {
+        "pct": 29,
+        "ppkm": 6
+      }
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.lowKm",
+      "textKey": "bullet.kmLower",
+      "textArgs": {
+        "pct": 81
+      }
+    },
+    {
+      "tone": "neutral",
+      "pipKey": "bullet.pip.cold",
+      "textKey": "bullet.auctionCold"
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.fresh",
+      "textKey": "bullet.listedFresh"
+    }
+  ],
+  "summary": {
+    "verdictKey": "summary.verdict.fair",
+    "cohortLineKey": "summary.cohortLine.yes",
+    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "ageSuffixKey": "summary.suffix.ageFresh",
+    "heatSuffixKey": null,
+    "marginSuffixKey": null,
+    "args": {
+      "refSize": 42,
+      "year": "2012",
+      "title": "Nissan Sunny"
+    }
+  }
+}

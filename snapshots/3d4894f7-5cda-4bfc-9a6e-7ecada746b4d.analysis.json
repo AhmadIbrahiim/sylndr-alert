@@ -1,16 +1,16 @@
 {
   "vehicleId": "3d4894f7-5cda-4bfc-9a6e-7ecada746b4d",
-  "computedAt": "2026-08-09T11:04:12.820Z",
+  "computedAt": "2026-08-09T11:44:11.550Z",
   "cohort": {
-    "sameModelCount": 40,
+    "sameModelCount": 41,
     "sameYearCount": 3,
     "refCohort": "model",
-    "refSize": 40
+    "refSize": 41
   },
-  "pricePercentile": 0,
+  "pricePercentile": 2,
   "pricePerKm": 0.9951956074124915,
-  "pricePerKmPercentile": 3,
-  "kmPercentile": 95,
+  "pricePerKmPercentile": 5,
+  "kmPercentile": 93,
   "daysListed": 93,
   "marginPct": 53.103448275862064,
   "marginTier": "high",
@@ -22,8 +22,8 @@
       "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 100,
-        "n": 40,
+        "pct": 98,
+        "n": 41,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 97,
+        "pct": 95,
         "ppkm": 1
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.highKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 5
+        "pct": 7
       }
     },
     {
@@ -77,7 +77,7 @@
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": "summary.suffix.marginHigh",
     "args": {
-      "refSize": 40,
+      "refSize": 41,
       "year": "2013",
       "title": "Renault Logan"
     }
