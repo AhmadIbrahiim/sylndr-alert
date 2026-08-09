@@ -1,47 +1,47 @@
 {
   "vehicleId": "4447d9fe-df0f-4a9b-b741-b534c344906a",
-  "computedAt": "2026-08-09T11:44:13.174Z",
+  "computedAt": "2026-08-09T12:05:02.686Z",
   "cohort": {
-    "sameModelCount": 42,
-    "sameYearCount": 3,
-    "refCohort": "model",
-    "refSize": 42
+    "sameModelCount": 43,
+    "sameYearCount": 4,
+    "refCohort": "model+year",
+    "refSize": 4
   },
-  "pricePercentile": 33,
+  "pricePercentile": 0,
   "pricePerKm": 2.6450255485422303,
-  "pricePerKmPercentile": 38,
-  "kmPercentile": 60,
+  "pricePerKmPercentile": 0,
+  "kmPercentile": 75,
   "daysListed": 77,
   "marginPct": 29.09090909090909,
   "marginTier": "mid",
   "auctionHeat": "warm",
-  "dealTag": "fair",
+  "dealTag": "good",
   "bullets": [
     {
       "tone": "good",
       "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 67,
-        "n": 42,
-        "kind": "detail.cohort.refSize.kind.model"
+        "pct": 100,
+        "n": 4,
+        "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
-      "tone": "mid",
+      "tone": "good",
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 62,
+        "pct": 100,
         "ppkm": 3
       }
     },
     {
-      "tone": "mid",
-      "pipKey": "bullet.pip.km",
+      "tone": "hot",
+      "pipKey": "bullet.pip.highKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 40
+        "pct": 25
       }
     },
     {
@@ -70,14 +70,14 @@
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.fair",
+    "verdictKey": "summary.verdict.good",
     "cohortLineKey": "summary.cohortLine.yes",
-    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 42,
+      "refSize": 4,
       "year": "2019",
       "title": "Nissan Sunny"
     }
