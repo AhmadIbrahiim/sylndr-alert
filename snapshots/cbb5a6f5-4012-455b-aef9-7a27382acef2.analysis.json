@@ -1,16 +1,16 @@
 {
   "vehicleId": "cbb5a6f5-4012-455b-aef9-7a27382acef2",
-  "computedAt": "2026-08-10T13:14:59.423Z",
+  "computedAt": "2026-08-10T14:33:48.112Z",
   "cohort": {
-    "sameModelCount": 12,
-    "sameYearCount": 3,
-    "refCohort": "model",
-    "refSize": 12
+    "sameModelCount": 13,
+    "sameYearCount": 4,
+    "refCohort": "model+year",
+    "refSize": 4
   },
-  "pricePercentile": 8,
+  "pricePercentile": 0,
   "pricePerKm": 3.3434650455927053,
-  "pricePerKmPercentile": 8,
-  "kmPercentile": 92,
+  "pricePerKmPercentile": 0,
+  "kmPercentile": 75,
   "daysListed": 25,
   "marginPct": 23.757575757575758,
   "marginTier": "mid",
@@ -22,9 +22,9 @@
       "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 92,
-        "n": 12,
-        "kind": "detail.cohort.refSize.kind.model"
+        "pct": 100,
+        "n": 4,
+        "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 92,
+        "pct": 100,
         "ppkm": 3
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.highKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 8
+        "pct": 25
       }
     },
     {
@@ -72,12 +72,12 @@
   "summary": {
     "verdictKey": "summary.verdict.good",
     "cohortLineKey": "summary.cohortLine.yes",
-    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": null,
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 12,
+      "refSize": 4,
       "year": "2018",
       "title": "Mitsubishi Eclipse"
     }

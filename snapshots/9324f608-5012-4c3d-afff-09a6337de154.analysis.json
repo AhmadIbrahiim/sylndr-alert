@@ -1,17 +1,17 @@
 {
   "vehicleId": "9324f608-5012-4c3d-afff-09a6337de154",
-  "computedAt": "2026-08-10T13:14:58.745Z",
+  "computedAt": "2026-08-10T14:33:47.423Z",
   "cohort": {
-    "sameModelCount": 12,
-    "sameYearCount": 3,
-    "refCohort": "model",
-    "refSize": 12
+    "sameModelCount": 13,
+    "sameYearCount": 4,
+    "refCohort": "model+year",
+    "refSize": 4
   },
-  "pricePercentile": 17,
+  "pricePercentile": 25,
   "pricePerKm": 5.710401087695446,
-  "pricePerKmPercentile": 25,
-  "kmPercentile": 67,
-  "daysListed": 114,
+  "pricePerKmPercentile": 50,
+  "kmPercentile": 25,
+  "daysListed": 115,
   "marginPct": 20.595238095238095,
   "marginTier": "mid",
   "auctionHeat": "hot",
@@ -22,26 +22,26 @@
       "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 83,
-        "n": 12,
-        "kind": "detail.cohort.refSize.kind.model"
-      }
-    },
-    {
-      "tone": "good",
-      "pipKey": "bullet.pip.value",
-      "textKey": "bullet.ppkmBetter",
-      "textArgs": {
         "pct": 75,
-        "ppkm": 6
+        "n": 4,
+        "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
       "tone": "mid",
-      "pipKey": "bullet.pip.km",
+      "pipKey": "bullet.pip.value",
+      "textKey": "bullet.ppkmBetter",
+      "textArgs": {
+        "pct": 50,
+        "ppkm": 6
+      }
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.lowKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 33
+        "pct": 75
       }
     },
     {
@@ -61,23 +61,23 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 114
+        "n": 115
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 114
+        "n": 115
       }
     }
   ],
   "summary": {
     "verdictKey": "summary.verdict.good",
     "cohortLineKey": "summary.cohortLine.yes",
-    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": null,
     "args": {
-      "refSize": 12,
+      "refSize": 4,
       "year": "2018",
       "title": "Mitsubishi Eclipse"
     }
