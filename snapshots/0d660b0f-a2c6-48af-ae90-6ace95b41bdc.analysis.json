@@ -1,29 +1,29 @@
 {
   "vehicleId": "0d660b0f-a2c6-48af-ae90-6ace95b41bdc",
-  "computedAt": "2026-08-10T11:58:18.640Z",
+  "computedAt": "2026-08-10T13:14:58.733Z",
   "cohort": {
-    "sameModelCount": 15,
+    "sameModelCount": 16,
     "sameYearCount": 3,
     "refCohort": "model",
-    "refSize": 15
+    "refSize": 16
   },
-  "pricePercentile": 47,
+  "pricePercentile": 44,
   "pricePerKm": 13.910969793322735,
-  "pricePerKmPercentile": 27,
-  "kmPercentile": 87,
-  "daysListed": 84,
+  "pricePerKmPercentile": 25,
+  "kmPercentile": 88,
+  "daysListed": 85,
   "marginPct": 13.085714285714287,
   "marginTier": "low",
   "auctionHeat": "warm",
-  "dealTag": "fair",
+  "dealTag": "good",
   "bullets": [
     {
       "tone": "mid",
       "pipKey": "bullet.pip.mid",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 53,
-        "n": 15,
+        "pct": 56,
+        "n": 16,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 73,
+        "pct": 75,
         "ppkm": 14
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.highKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 13
+        "pct": 12
       }
     },
     {
@@ -61,23 +61,23 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 84
+        "n": 85
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 84
+        "n": 85
       }
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.fair",
+    "verdictKey": "summary.verdict.good",
     "cohortLineKey": "summary.cohortLine.yes",
     "cohortKindKey": "detail.cohort.refSize.kind.model",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": null,
     "marginSuffixKey": "summary.suffix.marginLow",
     "args": {
-      "refSize": 15,
+      "refSize": 16,
       "year": "2021",
       "title": "Audi Q3"
     }

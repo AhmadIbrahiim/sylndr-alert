@@ -1,16 +1,16 @@
 {
   "vehicleId": "a5e3a1e7-f246-419b-bcd4-77bc544efaf7",
-  "computedAt": "2026-08-10T11:58:18.122Z",
+  "computedAt": "2026-08-10T13:14:58.182Z",
   "cohort": {
-    "sameModelCount": 3,
+    "sameModelCount": 4,
     "sameYearCount": 1,
     "refCohort": "model",
-    "refSize": 3
+    "refSize": 4
   },
   "pricePercentile": 0,
   "pricePerKm": 1.297107800175285,
   "pricePerKmPercentile": 0,
-  "kmPercentile": 33,
+  "kmPercentile": 50,
   "daysListed": 34,
   "marginPct": 17.83783783783784,
   "marginTier": "mid",
@@ -23,7 +23,7 @@
       "textKey": "bullet.priceCheaper",
       "textArgs": {
         "pct": 100,
-        "n": 3,
+        "n": 4,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -37,11 +37,11 @@
       }
     },
     {
-      "tone": "good",
-      "pipKey": "bullet.pip.lowKm",
+      "tone": "mid",
+      "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 67
+        "pct": 50
       }
     },
     {
@@ -77,7 +77,7 @@
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 3,
+      "refSize": 4,
       "year": "2015",
       "title": "JAC S3"
     }
