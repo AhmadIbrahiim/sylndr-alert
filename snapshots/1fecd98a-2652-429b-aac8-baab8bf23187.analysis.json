@@ -1,17 +1,17 @@
 {
   "vehicleId": "1fecd98a-2652-429b-aac8-baab8bf23187",
-  "computedAt": "2026-08-11T12:55:38.330Z",
+  "computedAt": "2026-08-11T14:18:04.697Z",
   "cohort": {
-    "sameModelCount": 51,
+    "sameModelCount": 52,
     "sameYearCount": 1,
     "refCohort": "model",
-    "refSize": 51
+    "refSize": 52
   },
   "pricePercentile": 4,
   "pricePerKm": 2.9731689630166787,
   "pricePerKmPercentile": 10,
-  "kmPercentile": 84,
-  "daysListed": 13,
+  "kmPercentile": 85,
+  "daysListed": 14,
   "marginPct": null,
   "marginTier": null,
   "auctionHeat": "cold",
@@ -23,7 +23,7 @@
       "textKey": "bullet.priceCheaper",
       "textArgs": {
         "pct": 96,
-        "n": 51,
+        "n": 52,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -41,13 +41,24 @@
       "pipKey": "bullet.pip.highKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 16
+        "pct": 15
       }
     },
     {
       "tone": "neutral",
       "pipKey": "bullet.pip.cold",
       "textKey": "bullet.auctionCold"
+    },
+    {
+      "tone": "neutral",
+      "pipKey": "bullet.pip.daysListed",
+      "pipArgs": {
+        "n": 14
+      },
+      "textKey": "bullet.listedOld",
+      "textArgs": {
+        "n": 14
+      }
     }
   ],
   "summary": {
@@ -58,7 +69,7 @@
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 51,
+      "refSize": 52,
       "year": "2013",
       "title": "Nissan Qashqai"
     }
