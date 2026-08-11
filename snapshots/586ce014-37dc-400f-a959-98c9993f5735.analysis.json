@@ -1,16 +1,16 @@
 {
   "vehicleId": "586ce014-37dc-400f-a959-98c9993f5735",
-  "computedAt": "2026-08-11T11:05:51.938Z",
+  "computedAt": "2026-08-11T11:55:50.582Z",
   "cohort": {
-    "sameModelCount": 16,
-    "sameYearCount": 4,
+    "sameModelCount": 17,
+    "sameYearCount": 5,
     "refCohort": "model+year",
-    "refSize": 4
+    "refSize": 5
   },
-  "pricePercentile": 75,
+  "pricePercentile": 80,
   "pricePerKm": 15.686274509803921,
-  "pricePerKmPercentile": 75,
-  "kmPercentile": 0,
+  "pricePerKmPercentile": 60,
+  "kmPercentile": 20,
   "daysListed": 9,
   "marginPct": null,
   "marginTier": null,
@@ -22,17 +22,17 @@
       "pipKey": "bullet.pip.high",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 25,
-        "n": 4,
+        "pct": 20,
+        "n": 5,
         "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
-      "tone": "hot",
-      "pipKey": "bullet.pip.pricey",
+      "tone": "mid",
+      "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 25,
+        "pct": 40,
         "ppkm": 16
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.lowKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 100
+        "pct": 80
       }
     },
     {
@@ -58,7 +58,7 @@
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 4,
+      "refSize": 5,
       "year": "2021",
       "title": "Seat Ibiza"
     }

@@ -1,29 +1,29 @@
 {
   "vehicleId": "400394f7-1855-41f3-9b4e-5064ec6e2abd",
-  "computedAt": "2026-08-11T11:05:52.852Z",
+  "computedAt": "2026-08-11T11:55:51.465Z",
   "cohort": {
-    "sameModelCount": 21,
-    "sameYearCount": 6,
+    "sameModelCount": 22,
+    "sameYearCount": 7,
     "refCohort": "model+year",
-    "refSize": 6
+    "refSize": 7
   },
-  "pricePercentile": 83,
+  "pricePercentile": 86,
   "pricePerKm": 10.552975939214859,
-  "pricePerKmPercentile": 50,
-  "kmPercentile": 67,
-  "daysListed": 85,
+  "pricePerKmPercentile": 57,
+  "kmPercentile": 71,
+  "daysListed": 86,
   "marginPct": 22.96,
   "marginTier": "mid",
   "auctionHeat": "warm",
-  "dealTag": "fair",
+  "dealTag": "high",
   "bullets": [
     {
       "tone": "hot",
       "pipKey": "bullet.pip.high",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 17,
-        "n": 6,
+        "pct": 14,
+        "n": 7,
         "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
@@ -32,16 +32,16 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 50,
+        "pct": 43,
         "ppkm": 11
       }
     },
     {
-      "tone": "mid",
-      "pipKey": "bullet.pip.km",
+      "tone": "hot",
+      "pipKey": "bullet.pip.highKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 33
+        "pct": 29
       }
     },
     {
@@ -61,23 +61,23 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 85
+        "n": 86
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 85
+        "n": 86
       }
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.fair",
+    "verdictKey": "summary.verdict.high",
     "cohortLineKey": "summary.cohortLine.yes",
     "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 6,
+      "refSize": 7,
       "year": "2020",
       "title": "Jeep Renegade"
     }
