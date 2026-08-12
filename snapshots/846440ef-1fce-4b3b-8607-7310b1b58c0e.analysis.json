@@ -1,17 +1,17 @@
 {
   "vehicleId": "846440ef-1fce-4b3b-8607-7310b1b58c0e",
-  "computedAt": "2026-08-12T11:21:32.552Z",
+  "computedAt": "2026-08-12T12:07:43.937Z",
   "cohort": {
-    "sameModelCount": 14,
+    "sameModelCount": 15,
     "sameYearCount": 2,
     "refCohort": "model",
-    "refSize": 14
+    "refSize": 15
   },
-  "pricePercentile": 71,
+  "pricePercentile": 73,
   "pricePerKm": 11.198945981554678,
-  "pricePerKmPercentile": 57,
-  "kmPercentile": 36,
-  "daysListed": 111,
+  "pricePerKmPercentile": 60,
+  "kmPercentile": 33,
+  "daysListed": 112,
   "marginPct": 23.294117647058822,
   "marginTier": "mid",
   "auctionHeat": "hot",
@@ -22,8 +22,8 @@
       "pipKey": "bullet.pip.high",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 29,
-        "n": 14,
+        "pct": 27,
+        "n": 15,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -32,16 +32,16 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 43,
+        "pct": 40,
         "ppkm": 11
       }
     },
     {
-      "tone": "mid",
-      "pipKey": "bullet.pip.km",
+      "tone": "good",
+      "pipKey": "bullet.pip.lowKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 64
+        "pct": 67
       }
     },
     {
@@ -61,11 +61,11 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 111
+        "n": 112
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 111
+        "n": 112
       }
     }
   ],
@@ -77,7 +77,7 @@
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": null,
     "args": {
-      "refSize": 14,
+      "refSize": 15,
       "year": "2022",
       "title": "Chery Tiggo 7"
     }
