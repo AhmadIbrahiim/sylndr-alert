@@ -1,16 +1,16 @@
 {
   "vehicleId": "7247b735-9e5d-431d-9896-f2a3169e0292",
-  "computedAt": "2026-08-13T15:56:29.743Z",
+  "computedAt": "2026-08-13T17:03:29.911Z",
   "cohort": {
-    "sameModelCount": 10,
+    "sameModelCount": 11,
     "sameYearCount": 3,
     "refCohort": "model",
-    "refSize": 10
+    "refSize": 11
   },
-  "pricePercentile": 60,
+  "pricePercentile": 64,
   "pricePerKm": 56.349809885931556,
-  "pricePerKmPercentile": 70,
-  "kmPercentile": 20,
+  "pricePerKmPercentile": 73,
+  "kmPercentile": 18,
   "daysListed": 199,
   "marginPct": 14.709851551956815,
   "marginTier": "low",
@@ -22,17 +22,17 @@
       "pipKey": "bullet.pip.mid",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 40,
-        "n": 10,
+        "pct": 36,
+        "n": 11,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
     {
-      "tone": "mid",
-      "pipKey": "bullet.pip.value",
+      "tone": "hot",
+      "pipKey": "bullet.pip.pricey",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 30,
+        "pct": 27,
         "ppkm": 56
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.lowKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 80
+        "pct": 82
       }
     },
     {
@@ -77,7 +77,7 @@
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": "summary.suffix.marginLow",
     "args": {
-      "refSize": 10,
+      "refSize": 11,
       "year": "2024",
       "title": "Suzuki Swift"
     }

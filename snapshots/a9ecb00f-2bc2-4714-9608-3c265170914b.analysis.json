@@ -1,16 +1,16 @@
 {
   "vehicleId": "a9ecb00f-2bc2-4714-9608-3c265170914b",
-  "computedAt": "2026-08-13T15:56:30.294Z",
+  "computedAt": "2026-08-13T17:03:30.501Z",
   "cohort": {
-    "sameModelCount": 16,
-    "sameYearCount": 3,
-    "refCohort": "model",
-    "refSize": 16
+    "sameModelCount": 17,
+    "sameYearCount": 4,
+    "refCohort": "model+year",
+    "refSize": 4
   },
-  "pricePercentile": 56,
+  "pricePercentile": 75,
   "pricePerKm": 3.7602820211515864,
-  "pricePerKmPercentile": 81,
-  "kmPercentile": 13,
+  "pricePerKmPercentile": 75,
+  "kmPercentile": 0,
   "daysListed": 136,
   "marginPct": 42.65625,
   "marginTier": "high",
@@ -18,13 +18,13 @@
   "dealTag": "fair",
   "bullets": [
     {
-      "tone": "mid",
-      "pipKey": "bullet.pip.mid",
+      "tone": "hot",
+      "pipKey": "bullet.pip.high",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 44,
-        "n": 16,
-        "kind": "detail.cohort.refSize.kind.model"
+        "pct": 25,
+        "n": 4,
+        "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.pricey",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 19,
+        "pct": 25,
         "ppkm": 4
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.lowKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 87
+        "pct": 100
       }
     },
     {
@@ -72,12 +72,12 @@
   "summary": {
     "verdictKey": "summary.verdict.fair",
     "cohortLineKey": "summary.cohortLine.yes",
-    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": "summary.suffix.marginHigh",
     "args": {
-      "refSize": 16,
+      "refSize": 4,
       "year": "2010",
       "title": "Kia Cerato"
     }
