@@ -1,47 +1,47 @@
 {
   "vehicleId": "929f45bb-f9b8-47d2-a0c5-8a386e727a75",
-  "computedAt": "2026-08-14T11:13:41.044Z",
+  "computedAt": "2026-08-14T11:58:36.679Z",
   "cohort": {
-    "sameModelCount": 27,
-    "sameYearCount": 3,
-    "refCohort": "model",
-    "refSize": 27
+    "sameModelCount": 28,
+    "sameYearCount": 4,
+    "refCohort": "model+year",
+    "refSize": 4
   },
-  "pricePercentile": 78,
+  "pricePercentile": 0,
   "pricePerKm": 27.598355842630653,
-  "pricePerKmPercentile": 70,
-  "kmPercentile": 26,
+  "pricePerKmPercentile": 0,
+  "kmPercentile": 75,
   "daysListed": 1,
   "marginPct": null,
   "marginTier": null,
   "auctionHeat": "cold",
-  "dealTag": "fair",
+  "dealTag": "good",
   "bullets": [
     {
-      "tone": "hot",
-      "pipKey": "bullet.pip.high",
+      "tone": "good",
+      "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 22,
-        "n": 27,
-        "kind": "detail.cohort.refSize.kind.model"
-      }
-    },
-    {
-      "tone": "mid",
-      "pipKey": "bullet.pip.value",
-      "textKey": "bullet.ppkmBetter",
-      "textArgs": {
-        "pct": 30,
-        "ppkm": 28
+        "pct": 100,
+        "n": 4,
+        "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
       "tone": "good",
-      "pipKey": "bullet.pip.lowKm",
+      "pipKey": "bullet.pip.value",
+      "textKey": "bullet.ppkmBetter",
+      "textArgs": {
+        "pct": 100,
+        "ppkm": 28
+      }
+    },
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.highKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 74
+        "pct": 25
       }
     },
     {
@@ -56,14 +56,14 @@
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.fair",
+    "verdictKey": "summary.verdict.good",
     "cohortLineKey": "summary.cohortLine.yes",
-    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageFresh",
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 27,
+      "refSize": 4,
       "year": "2024",
       "title": "BMW 320i"
     }
