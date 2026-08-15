@@ -1,29 +1,29 @@
 {
   "vehicleId": "7d98e5ad-98c4-4f65-9f54-75125b8386bf",
-  "computedAt": "2026-08-15T11:43:54.396Z",
+  "computedAt": "2026-08-15T11:57:43.473Z",
   "cohort": {
-    "sameModelCount": 22,
-    "sameYearCount": 4,
+    "sameModelCount": 23,
+    "sameYearCount": 5,
     "refCohort": "model+year",
-    "refSize": 4
+    "refSize": 5
   },
-  "pricePercentile": 25,
+  "pricePercentile": 40,
   "pricePerKm": 17.693515117148657,
-  "pricePerKmPercentile": 0,
-  "kmPercentile": 75,
-  "daysListed": 113,
+  "pricePerKmPercentile": 20,
+  "kmPercentile": 60,
+  "daysListed": 114,
   "marginPct": null,
   "marginTier": null,
   "auctionHeat": "hot",
   "dealTag": "good",
   "bullets": [
     {
-      "tone": "good",
-      "pipKey": "bullet.pip.deal",
+      "tone": "mid",
+      "pipKey": "bullet.pip.mid",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 75,
-        "n": 4,
+        "pct": 60,
+        "n": 5,
         "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
@@ -32,16 +32,16 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 100,
+        "pct": 80,
         "ppkm": 18
       }
     },
     {
-      "tone": "hot",
-      "pipKey": "bullet.pip.highKm",
+      "tone": "mid",
+      "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 25
+        "pct": 40
       }
     },
     {
@@ -53,11 +53,11 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 113
+        "n": 114
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 113
+        "n": 114
       }
     }
   ],
@@ -69,7 +69,7 @@
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": null,
     "args": {
-      "refSize": 4,
+      "refSize": 5,
       "year": "2019",
       "title": "BMW X3"
     }
