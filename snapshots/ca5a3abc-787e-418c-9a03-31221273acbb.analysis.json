@@ -1,16 +1,16 @@
 {
   "vehicleId": "ca5a3abc-787e-418c-9a03-31221273acbb",
-  "computedAt": "2026-08-15T15:16:38.799Z",
+  "computedAt": "2026-08-15T15:44:31.126Z",
   "cohort": {
-    "sameModelCount": 26,
-    "sameYearCount": 10,
+    "sameModelCount": 27,
+    "sameYearCount": 11,
     "refCohort": "model+year",
-    "refSize": 10
+    "refSize": 11
   },
-  "pricePercentile": 30,
+  "pricePercentile": 27,
   "pricePerKm": 6.558981889378365,
-  "pricePerKmPercentile": 70,
-  "kmPercentile": 20,
+  "pricePerKmPercentile": 73,
+  "kmPercentile": 18,
   "daysListed": 119,
   "marginPct": 29.253731343283583,
   "marginTier": "mid",
@@ -22,17 +22,17 @@
       "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 70,
-        "n": 10,
+        "pct": 73,
+        "n": 11,
         "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
-      "tone": "mid",
-      "pipKey": "bullet.pip.value",
+      "tone": "hot",
+      "pipKey": "bullet.pip.pricey",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 30,
+        "pct": 27,
         "ppkm": 7
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.lowKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 80
+        "pct": 82
       }
     },
     {
@@ -77,7 +77,7 @@
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": null,
     "args": {
-      "refSize": 10,
+      "refSize": 11,
       "year": "2016",
       "title": "Mitsubishi Lancer"
     }
