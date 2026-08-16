@@ -1,30 +1,30 @@
 {
   "vehicleId": "abc389c5-a32d-4b8b-bac7-73bbdfe04705",
-  "computedAt": "2026-08-16T05:24:17.069Z",
+  "computedAt": "2026-08-16T05:52:54.407Z",
   "cohort": {
-    "sameModelCount": 29,
-    "sameYearCount": 3,
-    "refCohort": "model",
-    "refSize": 29
+    "sameModelCount": 30,
+    "sameYearCount": 4,
+    "refCohort": "model+year",
+    "refSize": 4
   },
-  "pricePercentile": 97,
+  "pricePercentile": 75,
   "pricePerKm": 57.46478873239437,
-  "pricePerKmPercentile": 97,
+  "pricePerKmPercentile": 75,
   "kmPercentile": 0,
   "daysListed": 195,
   "marginPct": 26.862745098039216,
   "marginTier": "mid",
   "auctionHeat": "hot",
-  "dealTag": "high",
+  "dealTag": "fair",
   "bullets": [
     {
       "tone": "hot",
       "pipKey": "bullet.pip.high",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 3,
-        "n": 29,
-        "kind": "detail.cohort.refSize.kind.model"
+        "pct": 25,
+        "n": 4,
+        "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.pricey",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 3,
+        "pct": 25,
         "ppkm": 57
       }
     },
@@ -70,14 +70,14 @@
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.high",
+    "verdictKey": "summary.verdict.fair",
     "cohortLineKey": "summary.cohortLine.yes",
-    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": null,
     "args": {
-      "refSize": 29,
+      "refSize": 4,
       "year": "2023",
       "title": "Ford Focus"
     }
