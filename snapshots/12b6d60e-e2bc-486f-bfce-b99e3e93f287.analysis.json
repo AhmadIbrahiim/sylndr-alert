@@ -1,29 +1,29 @@
 {
   "vehicleId": "12b6d60e-e2bc-486f-bfce-b99e3e93f287",
-  "computedAt": "2026-08-16T16:00:15.541Z",
+  "computedAt": "2026-08-16T16:33:50.218Z",
   "cohort": {
-    "sameModelCount": 29,
-    "sameYearCount": 11,
+    "sameModelCount": 30,
+    "sameYearCount": 12,
     "refCohort": "model+year",
-    "refSize": 11
+    "refSize": 12
   },
-  "pricePercentile": 55,
+  "pricePercentile": 50,
   "pricePerKm": 4.777486910994765,
-  "pricePerKmPercentile": 18,
-  "kmPercentile": 73,
+  "pricePerKmPercentile": 17,
+  "kmPercentile": 75,
   "daysListed": 13,
   "marginPct": null,
   "marginTier": null,
   "auctionHeat": "cold",
-  "dealTag": "fair",
+  "dealTag": "good",
   "bullets": [
     {
       "tone": "mid",
       "pipKey": "bullet.pip.mid",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 45,
-        "n": 11,
+        "pct": 50,
+        "n": 12,
         "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 82,
+        "pct": 83,
         "ppkm": 5
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.highKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 27
+        "pct": 25
       }
     },
     {
@@ -51,14 +51,14 @@
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.fair",
+    "verdictKey": "summary.verdict.good",
     "cohortLineKey": "summary.cohortLine.yes",
     "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": null,
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 11,
+      "refSize": 12,
       "year": "2021",
       "title": "MG 5"
     }

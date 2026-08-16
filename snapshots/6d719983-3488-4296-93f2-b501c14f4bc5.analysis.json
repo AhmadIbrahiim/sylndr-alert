@@ -1,16 +1,16 @@
 {
   "vehicleId": "6d719983-3488-4296-93f2-b501c14f4bc5",
-  "computedAt": "2026-08-16T16:00:14.768Z",
+  "computedAt": "2026-08-16T16:33:49.283Z",
   "cohort": {
-    "sameModelCount": 29,
-    "sameYearCount": 11,
+    "sameModelCount": 30,
+    "sameYearCount": 12,
     "refCohort": "model+year",
-    "refSize": 11
+    "refSize": 12
   },
-  "pricePercentile": 91,
+  "pricePercentile": 92,
   "pricePerKm": 21.144278606965173,
-  "pricePerKmPercentile": 91,
-  "kmPercentile": 9,
+  "pricePerKmPercentile": 83,
+  "kmPercentile": 17,
   "daysListed": 75,
   "marginPct": 20.823529411764703,
   "marginTier": "mid",
@@ -22,8 +22,8 @@
       "pipKey": "bullet.pip.high",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 9,
-        "n": 11,
+        "pct": 8,
+        "n": 12,
         "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.pricey",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 9,
+        "pct": 17,
         "ppkm": 21
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.lowKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 91
+        "pct": 83
       }
     },
     {
@@ -77,7 +77,7 @@
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 11,
+      "refSize": 12,
       "year": "2021",
       "title": "MG 5"
     }
