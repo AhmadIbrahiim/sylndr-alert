@@ -1,17 +1,17 @@
 {
   "vehicleId": "024c6365-8501-4c0a-9784-2bfc3441670a",
-  "computedAt": "2026-08-17T15:38:25.419Z",
+  "computedAt": "2026-08-17T15:58:59.063Z",
   "cohort": {
-    "sameModelCount": 3,
-    "sameYearCount": 2,
+    "sameModelCount": 4,
+    "sameYearCount": 3,
     "refCohort": "model",
-    "refSize": 3
+    "refSize": 4
   },
-  "pricePercentile": 67,
+  "pricePercentile": 50,
   "pricePerKm": 458.8235294117647,
-  "pricePerKmPercentile": 67,
+  "pricePerKmPercentile": 75,
   "kmPercentile": 0,
-  "daysListed": 25,
+  "daysListed": 26,
   "marginPct": null,
   "marginTier": null,
   "auctionHeat": "cold",
@@ -22,17 +22,17 @@
       "pipKey": "bullet.pip.mid",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 33,
-        "n": 3,
+        "pct": 50,
+        "n": 4,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
     {
-      "tone": "mid",
-      "pipKey": "bullet.pip.value",
+      "tone": "hot",
+      "pipKey": "bullet.pip.pricey",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 33,
+        "pct": 25,
         "ppkm": 459
       }
     },
@@ -53,11 +53,11 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 25
+        "n": 26
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 25
+        "n": 26
       }
     }
   ],
@@ -69,7 +69,7 @@
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 3,
+      "refSize": 4,
       "year": "2026",
       "title": "JETOUR T2"
     }

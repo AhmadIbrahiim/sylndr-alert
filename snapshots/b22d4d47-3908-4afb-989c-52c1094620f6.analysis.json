@@ -1,29 +1,29 @@
 {
   "vehicleId": "b22d4d47-3908-4afb-989c-52c1094620f6",
-  "computedAt": "2026-08-17T15:38:23.960Z",
+  "computedAt": "2026-08-17T15:58:56.602Z",
   "cohort": {
-    "sameModelCount": 31,
-    "sameYearCount": 7,
+    "sameModelCount": 32,
+    "sameYearCount": 8,
     "refCohort": "model+year",
-    "refSize": 7
+    "refSize": 8
   },
-  "pricePercentile": 71,
+  "pricePercentile": 75,
   "pricePerKm": 6.0306030603060305,
-  "pricePerKmPercentile": 86,
+  "pricePerKmPercentile": 88,
   "kmPercentile": 0,
   "daysListed": 0,
   "marginPct": null,
   "marginTier": null,
   "auctionHeat": "cold",
-  "dealTag": "fair",
+  "dealTag": "high",
   "bullets": [
     {
       "tone": "hot",
       "pipKey": "bullet.pip.high",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 29,
-        "n": 7,
+        "pct": 25,
+        "n": 8,
         "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.pricey",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 14,
+        "pct": 12,
         "ppkm": 6
       }
     },
@@ -56,14 +56,14 @@
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.fair",
+    "verdictKey": "summary.verdict.high",
     "cohortLineKey": "summary.cohortLine.yes",
     "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageFresh",
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 7,
+      "refSize": 8,
       "year": "2018",
       "title": "Ford Focus"
     }
