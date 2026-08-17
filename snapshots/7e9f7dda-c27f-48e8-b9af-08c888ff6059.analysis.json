@@ -1,16 +1,16 @@
 {
   "vehicleId": "7e9f7dda-c27f-48e8-b9af-08c888ff6059",
-  "computedAt": "2026-08-17T15:04:06.550Z",
+  "computedAt": "2026-08-17T15:38:25.420Z",
   "cohort": {
-    "sameModelCount": 8,
-    "sameYearCount": 1,
+    "sameModelCount": 9,
+    "sameYearCount": 2,
     "refCohort": "model",
-    "refSize": 8
+    "refSize": 9
   },
-  "pricePercentile": 75,
+  "pricePercentile": 78,
   "pricePerKm": 4.4390637610976595,
-  "pricePerKmPercentile": 50,
-  "kmPercentile": 75,
+  "pricePerKmPercentile": 56,
+  "kmPercentile": 67,
   "daysListed": 12,
   "marginPct": null,
   "marginTier": null,
@@ -22,8 +22,8 @@
       "pipKey": "bullet.pip.high",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 25,
-        "n": 8,
+        "pct": 22,
+        "n": 9,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -32,16 +32,16 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 50,
+        "pct": 44,
         "ppkm": 4
       }
     },
     {
-      "tone": "hot",
-      "pipKey": "bullet.pip.highKm",
+      "tone": "mid",
+      "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 25
+        "pct": 33
       }
     },
     {
@@ -58,7 +58,7 @@
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 8,
+      "refSize": 9,
       "year": "2012",
       "title": "Jeep Cherokee"
     }
