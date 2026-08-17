@@ -1,16 +1,16 @@
 {
   "vehicleId": "1c9a6abe-4caa-4ddc-bb8b-82d5ee6e44fa",
-  "computedAt": "2026-08-17T09:52:12.583Z",
+  "computedAt": "2026-08-17T10:28:14.259Z",
   "cohort": {
-    "sameModelCount": 43,
-    "sameYearCount": 3,
-    "refCohort": "model",
-    "refSize": 43
+    "sameModelCount": 44,
+    "sameYearCount": 4,
+    "refCohort": "model+year",
+    "refSize": 4
   },
-  "pricePercentile": 9,
+  "pricePercentile": 25,
   "pricePerKm": 4.972375690607735,
-  "pricePerKmPercentile": 33,
-  "kmPercentile": 49,
+  "pricePerKmPercentile": 50,
+  "kmPercentile": 25,
   "daysListed": 132,
   "marginPct": 29.86111111111111,
   "marginTier": "mid",
@@ -22,26 +22,26 @@
       "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 91,
-        "n": 43,
-        "kind": "detail.cohort.refSize.kind.model"
-      }
-    },
-    {
-      "tone": "good",
-      "pipKey": "bullet.pip.value",
-      "textKey": "bullet.ppkmBetter",
-      "textArgs": {
-        "pct": 67,
-        "ppkm": 5
+        "pct": 75,
+        "n": 4,
+        "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
       "tone": "mid",
-      "pipKey": "bullet.pip.km",
+      "pipKey": "bullet.pip.value",
+      "textKey": "bullet.ppkmBetter",
+      "textArgs": {
+        "pct": 50,
+        "ppkm": 5
+      }
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.lowKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 51
+        "pct": 75
       }
     },
     {
@@ -72,12 +72,12 @@
   "summary": {
     "verdictKey": "summary.verdict.good",
     "cohortLineKey": "summary.cohortLine.yes",
-    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": null,
     "args": {
-      "refSize": 43,
+      "refSize": 4,
       "year": "2012",
       "title": "Toyota Corolla"
     }
