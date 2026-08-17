@@ -1,16 +1,16 @@
 {
   "vehicleId": "e11352fd-bc27-4be8-9716-d9de7657b71e",
-  "computedAt": "2026-08-17T11:50:55.742Z",
+  "computedAt": "2026-08-17T12:36:23.494Z",
   "cohort": {
-    "sameModelCount": 15,
-    "sameYearCount": 3,
-    "refCohort": "model",
-    "refSize": 15
+    "sameModelCount": 16,
+    "sameYearCount": 4,
+    "refCohort": "model+year",
+    "refSize": 4
   },
-  "pricePercentile": 47,
+  "pricePercentile": 25,
   "pricePerKm": 9.153884215734784,
-  "pricePerKmPercentile": 40,
-  "kmPercentile": 33,
+  "pricePerKmPercentile": 25,
+  "kmPercentile": 50,
   "daysListed": 97,
   "marginPct": 19.027027027027028,
   "marginTier": "mid",
@@ -18,30 +18,30 @@
   "dealTag": "good",
   "bullets": [
     {
-      "tone": "mid",
-      "pipKey": "bullet.pip.mid",
+      "tone": "good",
+      "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 53,
-        "n": 15,
-        "kind": "detail.cohort.refSize.kind.model"
-      }
-    },
-    {
-      "tone": "mid",
-      "pipKey": "bullet.pip.value",
-      "textKey": "bullet.ppkmBetter",
-      "textArgs": {
-        "pct": 60,
-        "ppkm": 9
+        "pct": 75,
+        "n": 4,
+        "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
       "tone": "good",
-      "pipKey": "bullet.pip.lowKm",
+      "pipKey": "bullet.pip.value",
+      "textKey": "bullet.ppkmBetter",
+      "textArgs": {
+        "pct": 75,
+        "ppkm": 9
+      }
+    },
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 67
+        "pct": 50
       }
     },
     {
@@ -72,12 +72,12 @@
   "summary": {
     "verdictKey": "summary.verdict.good",
     "cohortLineKey": "summary.cohortLine.yes",
-    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": null,
     "args": {
-      "refSize": 15,
+      "refSize": 4,
       "year": "2020",
       "title": "Mitsubishi Eclipse"
     }

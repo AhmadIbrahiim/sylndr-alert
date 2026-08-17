@@ -1,16 +1,16 @@
 {
   "vehicleId": "3f33f9de-dff7-4146-83e0-cbafff9249b3",
-  "computedAt": "2026-08-17T11:50:55.378Z",
+  "computedAt": "2026-08-17T12:36:23.095Z",
   "cohort": {
-    "sameModelCount": 15,
+    "sameModelCount": 16,
     "sameYearCount": 3,
     "refCohort": "model",
-    "refSize": 15
+    "refSize": 16
   },
-  "pricePercentile": 80,
+  "pricePercentile": 81,
   "pricePerKm": 11.353711790393014,
-  "pricePerKmPercentile": 73,
-  "kmPercentile": 47,
+  "pricePerKmPercentile": 69,
+  "kmPercentile": 50,
   "daysListed": 13,
   "marginPct": null,
   "marginTier": null,
@@ -22,17 +22,17 @@
       "pipKey": "bullet.pip.high",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 20,
-        "n": 15,
+        "pct": 19,
+        "n": 16,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
     {
-      "tone": "hot",
-      "pipKey": "bullet.pip.pricey",
+      "tone": "mid",
+      "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 27,
+        "pct": 31,
         "ppkm": 11
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 53
+        "pct": 50
       }
     },
     {
@@ -58,7 +58,7 @@
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 15,
+      "refSize": 16,
       "year": "2022",
       "title": "Mitsubishi Eclipse"
     }
