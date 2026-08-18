@@ -1,29 +1,29 @@
 {
   "vehicleId": "501807f9-8e0f-44e8-95c2-b5a9c39431a0",
-  "computedAt": "2026-08-18T13:56:17.731Z",
+  "computedAt": "2026-08-18T14:30:21.331Z",
   "cohort": {
-    "sameModelCount": 31,
+    "sameModelCount": 32,
     "sameYearCount": 2,
     "refCohort": "model",
-    "refSize": 31
+    "refSize": 32
   },
-  "pricePercentile": 35,
+  "pricePercentile": 38,
   "pricePerKm": 3.830183988065639,
-  "pricePerKmPercentile": 32,
-  "kmPercentile": 61,
+  "pricePerKmPercentile": 34,
+  "kmPercentile": 59,
   "daysListed": 134,
   "marginPct": 21.194417396949042,
   "marginTier": "mid",
   "auctionHeat": "hot",
-  "dealTag": "good",
+  "dealTag": "fair",
   "bullets": [
     {
       "tone": "mid",
       "pipKey": "bullet.pip.mid",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 65,
-        "n": 31,
+        "pct": 62,
+        "n": 32,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 68,
+        "pct": 66,
         "ppkm": 4
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 39
+        "pct": 41
       }
     },
     {
@@ -70,14 +70,14 @@
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.good",
+    "verdictKey": "summary.verdict.fair",
     "cohortLineKey": "summary.cohortLine.yes",
     "cohortKindKey": "detail.cohort.refSize.kind.model",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": null,
     "args": {
-      "refSize": 31,
+      "refSize": 32,
       "year": "2016",
       "title": "Volkswagen Passat"
     }
