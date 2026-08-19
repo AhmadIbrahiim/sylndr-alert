@@ -1,38 +1,38 @@
 {
   "vehicleId": "8fcc543b-c17a-41d2-a689-db5a9637e320",
-  "computedAt": "2026-08-19T16:12:14.248Z",
+  "computedAt": "2026-08-19T16:38:53.749Z",
   "cohort": {
-    "sameModelCount": 29,
-    "sameYearCount": 3,
-    "refCohort": "model",
-    "refSize": 29
+    "sameModelCount": 30,
+    "sameYearCount": 4,
+    "refCohort": "model+year",
+    "refSize": 4
   },
-  "pricePercentile": 93,
+  "pricePercentile": 50,
   "pricePerKm": 888.8888888888889,
-  "pricePerKmPercentile": 86,
-  "kmPercentile": 10,
+  "pricePerKmPercentile": 50,
+  "kmPercentile": 25,
   "daysListed": 56,
   "marginPct": 10.714285714285714,
   "marginTier": "low",
   "auctionHeat": "cold",
-  "dealTag": "high",
+  "dealTag": "fair",
   "bullets": [
     {
-      "tone": "hot",
-      "pipKey": "bullet.pip.high",
+      "tone": "mid",
+      "pipKey": "bullet.pip.mid",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 7,
-        "n": 29,
-        "kind": "detail.cohort.refSize.kind.model"
+        "pct": 50,
+        "n": 4,
+        "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
-      "tone": "hot",
-      "pipKey": "bullet.pip.pricey",
+      "tone": "mid",
+      "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 14,
+        "pct": 50,
         "ppkm": 889
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.lowKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 90
+        "pct": 75
       }
     },
     {
@@ -70,14 +70,14 @@
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.high",
+    "verdictKey": "summary.verdict.fair",
     "cohortLineKey": "summary.cohortLine.yes",
-    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": null,
     "marginSuffixKey": "summary.suffix.marginLow",
     "args": {
-      "refSize": 29,
+      "refSize": 4,
       "year": "2025",
       "title": "Skoda KODIAQ"
     }
