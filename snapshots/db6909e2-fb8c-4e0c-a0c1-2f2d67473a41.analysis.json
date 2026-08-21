@@ -1,16 +1,16 @@
 {
   "vehicleId": "db6909e2-fb8c-4e0c-a0c1-2f2d67473a41",
-  "computedAt": "2026-08-21T14:18:48.243Z",
+  "computedAt": "2026-08-21T15:03:23.438Z",
   "cohort": {
-    "sameModelCount": 8,
+    "sameModelCount": 9,
     "sameYearCount": 1,
     "refCohort": "model",
-    "refSize": 8
+    "refSize": 9
   },
-  "pricePercentile": 25,
+  "pricePercentile": 33,
   "pricePerKm": 4.871447902571042,
-  "pricePerKmPercentile": 50,
-  "kmPercentile": 38,
+  "pricePerKmPercentile": 56,
+  "kmPercentile": 33,
   "daysListed": 12,
   "marginPct": null,
   "marginTier": null,
@@ -22,8 +22,8 @@
       "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 75,
-        "n": 8,
+        "pct": 67,
+        "n": 9,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -32,16 +32,16 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 50,
+        "pct": 44,
         "ppkm": 5
       }
     },
     {
-      "tone": "mid",
-      "pipKey": "bullet.pip.km",
+      "tone": "good",
+      "pipKey": "bullet.pip.lowKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 62
+        "pct": 67
       }
     },
     {
@@ -58,7 +58,7 @@
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 8,
+      "refSize": 9,
       "year": "2015",
       "title": "Seat Leon"
     }
