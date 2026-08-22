@@ -1,29 +1,29 @@
 {
   "vehicleId": "db75cb4c-53ad-4d55-a4f0-d29f2ab51fb8",
-  "computedAt": "2026-08-22T10:19:04.564Z",
+  "computedAt": "2026-08-22T10:48:50.696Z",
   "cohort": {
-    "sameModelCount": 9,
+    "sameModelCount": 10,
     "sameYearCount": 2,
     "refCohort": "model",
-    "refSize": 9
+    "refSize": 10
   },
-  "pricePercentile": 44,
+  "pricePercentile": 50,
   "pricePerKm": 1.173096976016684,
-  "pricePerKmPercentile": 22,
-  "kmPercentile": 78,
+  "pricePerKmPercentile": 20,
+  "kmPercentile": 80,
   "daysListed": 3,
   "marginPct": null,
   "marginTier": null,
   "auctionHeat": "cold",
-  "dealTag": "good",
+  "dealTag": "fair",
   "bullets": [
     {
       "tone": "mid",
       "pipKey": "bullet.pip.mid",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 56,
-        "n": 9,
+        "pct": 50,
+        "n": 10,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 78,
+        "pct": 80,
         "ppkm": 1
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.highKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 22
+        "pct": 20
       }
     },
     {
@@ -51,14 +51,14 @@
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.good",
+    "verdictKey": "summary.verdict.fair",
     "cohortLineKey": "summary.cohortLine.yes",
     "cohortKindKey": "detail.cohort.refSize.kind.model",
     "ageSuffixKey": null,
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 9,
+      "refSize": 10,
       "year": "2021",
       "title": "BYD F3"
     }
