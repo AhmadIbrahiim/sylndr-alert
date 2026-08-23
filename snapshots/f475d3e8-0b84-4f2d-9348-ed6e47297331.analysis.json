@@ -1,0 +1,71 @@
+{
+  "vehicleId": "f475d3e8-0b84-4f2d-9348-ed6e47297331",
+  "computedAt": "2026-08-23T10:19:53.342Z",
+  "cohort": {
+    "sameModelCount": 28,
+    "sameYearCount": 1,
+    "refCohort": "model",
+    "refSize": 28
+  },
+  "pricePercentile": 96,
+  "pricePerKm": 34.07142857142857,
+  "pricePerKmPercentile": 93,
+  "kmPercentile": 4,
+  "daysListed": 0,
+  "marginPct": null,
+  "marginTier": null,
+  "auctionHeat": "cold",
+  "dealTag": "high",
+  "bullets": [
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.high",
+      "textKey": "bullet.priceCheaper",
+      "textArgs": {
+        "pct": 4,
+        "n": 28,
+        "kind": "detail.cohort.refSize.kind.model"
+      }
+    },
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.pricey",
+      "textKey": "bullet.ppkmBetter",
+      "textArgs": {
+        "pct": 7,
+        "ppkm": 34
+      }
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.lowKm",
+      "textKey": "bullet.kmLower",
+      "textArgs": {
+        "pct": 96
+      }
+    },
+    {
+      "tone": "neutral",
+      "pipKey": "bullet.pip.cold",
+      "textKey": "bullet.auctionCold"
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.fresh",
+      "textKey": "bullet.listedFresh"
+    }
+  ],
+  "summary": {
+    "verdictKey": "summary.verdict.high",
+    "cohortLineKey": "summary.cohortLine.yes",
+    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "ageSuffixKey": "summary.suffix.ageFresh",
+    "heatSuffixKey": null,
+    "marginSuffixKey": null,
+    "args": {
+      "refSize": 28,
+      "year": "2018",
+      "title": "Mitsubishi Lancer"
+    }
+  }
+}
