@@ -1,29 +1,29 @@
 {
   "vehicleId": "331b0a92-e8ee-484f-ad84-94b7dcd05a58",
-  "computedAt": "2026-08-24T10:05:08.989Z",
+  "computedAt": "2026-08-24T10:53:04.313Z",
   "cohort": {
-    "sameModelCount": 7,
-    "sameYearCount": 1,
+    "sameModelCount": 8,
+    "sameYearCount": 2,
     "refCohort": "model",
-    "refSize": 7
+    "refSize": 8
   },
-  "pricePercentile": 29,
+  "pricePercentile": 38,
   "pricePerKm": 12.112815437902029,
-  "pricePerKmPercentile": 43,
-  "kmPercentile": 43,
-  "daysListed": 137,
+  "pricePerKmPercentile": 50,
+  "kmPercentile": 38,
+  "daysListed": 138,
   "marginPct": 26.38888888888889,
   "marginTier": "mid",
   "auctionHeat": "hot",
-  "dealTag": "fair",
+  "dealTag": "good",
   "bullets": [
     {
-      "tone": "good",
-      "pipKey": "bullet.pip.deal",
+      "tone": "mid",
+      "pipKey": "bullet.pip.mid",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 71,
-        "n": 7,
+        "pct": 62,
+        "n": 8,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 57,
+        "pct": 50,
         "ppkm": 12
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 57
+        "pct": 62
       }
     },
     {
@@ -61,23 +61,23 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 137
+        "n": 138
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 137
+        "n": 138
       }
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.fair",
+    "verdictKey": "summary.verdict.good",
     "cohortLineKey": "summary.cohortLine.yes",
     "cohortKindKey": "detail.cohort.refSize.kind.model",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": null,
     "args": {
-      "refSize": 7,
+      "refSize": 8,
       "year": "2020",
       "title": "Mini Cooper Countryman"
     }
