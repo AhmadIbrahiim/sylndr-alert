@@ -1,16 +1,16 @@
 {
   "vehicleId": "a23ecca4-7e6b-48a4-8d44-304b6aaa0917",
-  "computedAt": "2026-08-25T15:59:15.568Z",
+  "computedAt": "2026-08-25T16:47:20.083Z",
   "cohort": {
-    "sameModelCount": 32,
-    "sameYearCount": 8,
+    "sameModelCount": 33,
+    "sameYearCount": 9,
     "refCohort": "model+year",
-    "refSize": 8
+    "refSize": 9
   },
-  "pricePercentile": 75,
+  "pricePercentile": 67,
   "pricePerKm": 5.869469995619799,
-  "pricePerKmPercentile": 75,
-  "kmPercentile": 13,
+  "pricePerKmPercentile": 67,
+  "kmPercentile": 22,
   "daysListed": 64,
   "marginPct": 11.343283582089553,
   "marginTier": "low",
@@ -18,21 +18,21 @@
   "dealTag": "fair",
   "bullets": [
     {
-      "tone": "hot",
-      "pipKey": "bullet.pip.high",
+      "tone": "mid",
+      "pipKey": "bullet.pip.mid",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 25,
-        "n": 8,
+        "pct": 33,
+        "n": 9,
         "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
-      "tone": "hot",
-      "pipKey": "bullet.pip.pricey",
+      "tone": "mid",
+      "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 25,
+        "pct": 33,
         "ppkm": 6
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.lowKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 87
+        "pct": 78
       }
     },
     {
@@ -77,7 +77,7 @@
     "heatSuffixKey": null,
     "marginSuffixKey": "summary.suffix.marginLow",
     "args": {
-      "refSize": 8,
+      "refSize": 9,
       "year": "2018",
       "title": "Ford Focus"
     }
