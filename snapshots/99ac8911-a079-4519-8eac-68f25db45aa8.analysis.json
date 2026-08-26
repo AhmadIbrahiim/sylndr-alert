@@ -1,29 +1,29 @@
 {
   "vehicleId": "99ac8911-a079-4519-8eac-68f25db45aa8",
-  "computedAt": "2026-08-26T10:17:51.045Z",
+  "computedAt": "2026-08-26T11:01:05.368Z",
   "cohort": {
-    "sameModelCount": 26,
+    "sameModelCount": 27,
     "sameYearCount": 3,
     "refCohort": "model",
-    "refSize": 26
+    "refSize": 27
   },
-  "pricePercentile": 85,
+  "pricePercentile": 81,
   "pricePerKm": 23.254926891290527,
-  "pricePerKmPercentile": 65,
-  "kmPercentile": 38,
-  "daysListed": 0,
+  "pricePerKmPercentile": 63,
+  "kmPercentile": 41,
+  "daysListed": 1,
   "marginPct": null,
   "marginTier": null,
   "auctionHeat": "cold",
-  "dealTag": "fair",
+  "dealTag": "high",
   "bullets": [
     {
       "tone": "hot",
       "pipKey": "bullet.pip.high",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 15,
-        "n": 26,
+        "pct": 19,
+        "n": 27,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 35,
+        "pct": 37,
         "ppkm": 23
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 62
+        "pct": 59
       }
     },
     {
@@ -56,14 +56,14 @@
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.fair",
+    "verdictKey": "summary.verdict.high",
     "cohortLineKey": "summary.cohortLine.yes",
     "cohortKindKey": "detail.cohort.refSize.kind.model",
     "ageSuffixKey": "summary.suffix.ageFresh",
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 26,
+      "refSize": 27,
       "year": "2023",
       "title": "Hyundai Tucson"
     }
