@@ -1,29 +1,29 @@
 {
   "vehicleId": "98df9a0f-a16f-4e14-a9c9-4c3d58ce0ff6",
-  "computedAt": "2026-08-26T14:25:25.537Z",
+  "computedAt": "2026-08-26T15:58:50.960Z",
   "cohort": {
-    "sameModelCount": 17,
+    "sameModelCount": 18,
     "sameYearCount": 3,
     "refCohort": "model",
-    "refSize": 17
+    "refSize": 18
   },
-  "pricePercentile": 18,
+  "pricePercentile": 17,
   "pricePerKm": 12.961296129612961,
-  "pricePerKmPercentile": 76,
-  "kmPercentile": 12,
-  "daysListed": 13,
+  "pricePerKmPercentile": 72,
+  "kmPercentile": 11,
+  "daysListed": 14,
   "marginPct": null,
   "marginTier": null,
   "auctionHeat": "cold",
-  "dealTag": "fair",
+  "dealTag": "good",
   "bullets": [
     {
       "tone": "good",
       "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 82,
-        "n": 17,
+        "pct": 83,
+        "n": 18,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.pricey",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 24,
+        "pct": 28,
         "ppkm": 13
       }
     },
@@ -41,24 +41,35 @@
       "pipKey": "bullet.pip.lowKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 88
+        "pct": 89
       }
     },
     {
       "tone": "neutral",
       "pipKey": "bullet.pip.cold",
       "textKey": "bullet.auctionCold"
+    },
+    {
+      "tone": "neutral",
+      "pipKey": "bullet.pip.daysListed",
+      "pipArgs": {
+        "n": 14
+      },
+      "textKey": "bullet.listedOld",
+      "textArgs": {
+        "n": 14
+      }
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.fair",
+    "verdictKey": "summary.verdict.good",
     "cohortLineKey": "summary.cohortLine.yes",
     "cohortKindKey": "detail.cohort.refSize.kind.model",
     "ageSuffixKey": null,
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 17,
+      "refSize": 18,
       "year": "2020",
       "title": "Opel Cross Land"
     }

@@ -1,17 +1,17 @@
 {
   "vehicleId": "e5b2072c-045c-4216-af77-32968bd94fc8",
-  "computedAt": "2026-08-26T14:25:23.631Z",
+  "computedAt": "2026-08-26T15:58:48.832Z",
   "cohort": {
-    "sameModelCount": 6,
-    "sameYearCount": 3,
-    "refCohort": "model",
-    "refSize": 6
+    "sameModelCount": 7,
+    "sameYearCount": 4,
+    "refCohort": "model+year",
+    "refSize": 4
   },
-  "pricePercentile": 17,
+  "pricePercentile": 0,
   "pricePerKm": 7.7285579641847315,
-  "pricePerKmPercentile": 17,
-  "kmPercentile": 50,
-  "daysListed": 201,
+  "pricePerKmPercentile": 0,
+  "kmPercentile": 25,
+  "daysListed": 202,
   "marginPct": 26.585365853658537,
   "marginTier": "mid",
   "auctionHeat": "hot",
@@ -22,9 +22,9 @@
       "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 83,
-        "n": 6,
-        "kind": "detail.cohort.refSize.kind.model"
+        "pct": 100,
+        "n": 4,
+        "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
@@ -32,16 +32,16 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 83,
+        "pct": 100,
         "ppkm": 8
       }
     },
     {
-      "tone": "mid",
-      "pipKey": "bullet.pip.km",
+      "tone": "good",
+      "pipKey": "bullet.pip.lowKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 50
+        "pct": 75
       }
     },
     {
@@ -61,23 +61,23 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 201
+        "n": 202
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 201
+        "n": 202
       }
     }
   ],
   "summary": {
     "verdictKey": "summary.verdict.good",
     "cohortLineKey": "summary.cohortLine.yes",
-    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": null,
     "args": {
-      "refSize": 6,
+      "refSize": 4,
       "year": "2021",
       "title": "Fiat 500X"
     }
