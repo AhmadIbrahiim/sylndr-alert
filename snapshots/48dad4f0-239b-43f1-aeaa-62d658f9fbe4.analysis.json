@@ -1,16 +1,16 @@
 {
   "vehicleId": "48dad4f0-239b-43f1-aeaa-62d658f9fbe4",
-  "computedAt": "2026-08-26T15:58:51.999Z",
+  "computedAt": "2026-08-26T16:52:48.417Z",
   "cohort": {
-    "sameModelCount": 9,
+    "sameModelCount": 10,
     "sameYearCount": 2,
     "refCohort": "model",
-    "refSize": 9
+    "refSize": 10
   },
-  "pricePercentile": 56,
+  "pricePercentile": 60,
   "pricePerKm": 6.437125748502994,
-  "pricePerKmPercentile": 33,
-  "kmPercentile": 44,
+  "pricePerKmPercentile": 40,
+  "kmPercentile": 40,
   "daysListed": 138,
   "marginPct": 23.72093023255814,
   "marginTier": "mid",
@@ -22,17 +22,17 @@
       "pipKey": "bullet.pip.mid",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 44,
-        "n": 9,
+        "pct": 40,
+        "n": 10,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
     {
-      "tone": "good",
+      "tone": "mid",
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 67,
+        "pct": 60,
         "ppkm": 6
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 56
+        "pct": 60
       }
     },
     {
@@ -77,7 +77,7 @@
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": null,
     "args": {
-      "refSize": 9,
+      "refSize": 10,
       "year": "2017",
       "title": "Volvo S60"
     }
