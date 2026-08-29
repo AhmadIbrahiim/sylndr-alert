@@ -1,29 +1,29 @@
 {
   "vehicleId": "36aa9f02-55d0-408f-8f87-4c43a1b80eb2",
-  "computedAt": "2026-08-28T17:09:09.674Z",
+  "computedAt": "2026-08-29T00:31:21.291Z",
   "cohort": {
-    "sameModelCount": 28,
-    "sameYearCount": 6,
+    "sameModelCount": 29,
+    "sameYearCount": 7,
     "refCohort": "model+year",
-    "refSize": 6
+    "refSize": 7
   },
-  "pricePercentile": 33,
+  "pricePercentile": 29,
   "pricePerKm": 14.37962202136401,
-  "pricePerKmPercentile": 50,
-  "kmPercentile": 33,
+  "pricePerKmPercentile": 43,
+  "kmPercentile": 43,
   "daysListed": 57,
   "marginPct": 13.885714285714284,
   "marginTier": "low",
   "auctionHeat": "cold",
-  "dealTag": "good",
+  "dealTag": "fair",
   "bullets": [
     {
       "tone": "good",
       "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 67,
-        "n": 6,
+        "pct": 71,
+        "n": 7,
         "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
@@ -32,16 +32,16 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 50,
+        "pct": 57,
         "ppkm": 14
       }
     },
     {
-      "tone": "good",
-      "pipKey": "bullet.pip.lowKm",
+      "tone": "mid",
+      "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 67
+        "pct": 57
       }
     },
     {
@@ -70,14 +70,14 @@
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.good",
+    "verdictKey": "summary.verdict.fair",
     "cohortLineKey": "summary.cohortLine.yes",
     "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": null,
     "marginSuffixKey": "summary.suffix.marginLow",
     "args": {
-      "refSize": 6,
+      "refSize": 7,
       "year": "2019",
       "title": "Mercedes-Benz GLA 200"
     }
