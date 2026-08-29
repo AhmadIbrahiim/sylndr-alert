@@ -1,17 +1,17 @@
 {
   "vehicleId": "4e6a2a0d-1a11-495c-af24-1b1183a3f506",
-  "computedAt": "2026-08-29T11:28:10.483Z",
+  "computedAt": "2026-08-29T15:44:49.154Z",
   "cohort": {
-    "sameModelCount": 38,
+    "sameModelCount": 39,
     "sameYearCount": 2,
     "refCohort": "model",
-    "refSize": 38
+    "refSize": 39
   },
-  "pricePercentile": 39,
+  "pricePercentile": 41,
   "pricePerKm": 10.15406162464986,
-  "pricePerKmPercentile": 45,
-  "kmPercentile": 55,
-  "daysListed": 29,
+  "pricePerKmPercentile": 46,
+  "kmPercentile": 54,
+  "daysListed": 30,
   "marginPct": null,
   "marginTier": null,
   "auctionHeat": "cold",
@@ -22,8 +22,8 @@
       "pipKey": "bullet.pip.mid",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 61,
-        "n": 38,
+        "pct": 59,
+        "n": 39,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 55,
+        "pct": 54,
         "ppkm": 10
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 45
+        "pct": 46
       }
     },
     {
@@ -53,11 +53,11 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 29
+        "n": 30
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 29
+        "n": 30
       }
     }
   ],
@@ -65,11 +65,11 @@
     "verdictKey": "summary.verdict.fair",
     "cohortLineKey": "summary.cohortLine.yes",
     "cohortKindKey": "detail.cohort.refSize.kind.model",
-    "ageSuffixKey": null,
+    "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 38,
+      "refSize": 39,
       "year": "2019",
       "title": "Kia Sportage"
     }

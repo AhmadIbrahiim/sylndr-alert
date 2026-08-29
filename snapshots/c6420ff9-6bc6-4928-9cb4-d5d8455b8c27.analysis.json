@@ -1,29 +1,29 @@
 {
   "vehicleId": "c6420ff9-6bc6-4928-9cb4-d5d8455b8c27",
-  "computedAt": "2026-08-29T11:28:09.604Z",
+  "computedAt": "2026-08-29T15:44:47.910Z",
   "cohort": {
-    "sameModelCount": 19,
-    "sameYearCount": 5,
+    "sameModelCount": 20,
+    "sameYearCount": 6,
     "refCohort": "model+year",
-    "refSize": 5
+    "refSize": 6
   },
-  "pricePercentile": 20,
+  "pricePercentile": 33,
   "pricePerKm": 2.266067591326431,
-  "pricePerKmPercentile": 60,
-  "kmPercentile": 20,
-  "daysListed": 108,
+  "pricePerKmPercentile": 67,
+  "kmPercentile": 17,
+  "daysListed": 109,
   "marginPct": 34.13793103448276,
   "marginTier": "high",
   "auctionHeat": "warm",
-  "dealTag": "good",
+  "dealTag": "fair",
   "bullets": [
     {
       "tone": "good",
       "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 80,
-        "n": 5,
+        "pct": 67,
+        "n": 6,
         "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 40,
+        "pct": 33,
         "ppkm": 2
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.lowKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 80
+        "pct": 83
       }
     },
     {
@@ -61,23 +61,23 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 108
+        "n": 109
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 108
+        "n": 109
       }
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.good",
+    "verdictKey": "summary.verdict.fair",
     "cohortLineKey": "summary.cohortLine.yes",
     "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": null,
     "marginSuffixKey": "summary.suffix.marginHigh",
     "args": {
-      "refSize": 5,
+      "refSize": 6,
       "year": "2010",
       "title": "Kia Cerato"
     }

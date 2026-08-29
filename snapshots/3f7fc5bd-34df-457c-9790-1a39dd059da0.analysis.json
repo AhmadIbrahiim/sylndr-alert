@@ -1,29 +1,29 @@
 {
   "vehicleId": "3f7fc5bd-34df-457c-9790-1a39dd059da0",
-  "computedAt": "2026-08-29T11:28:09.988Z",
+  "computedAt": "2026-08-29T15:44:48.456Z",
   "cohort": {
-    "sameModelCount": 24,
+    "sameModelCount": 25,
     "sameYearCount": 1,
     "refCohort": "model",
-    "refSize": 24
+    "refSize": 25
   },
-  "pricePercentile": 38,
+  "pricePercentile": 36,
   "pricePerKm": 17.582417582417584,
-  "pricePerKmPercentile": 33,
-  "kmPercentile": 71,
-  "daysListed": 64,
+  "pricePerKmPercentile": 32,
+  "kmPercentile": 72,
+  "daysListed": 65,
   "marginPct": 14.184782608695654,
   "marginTier": "low",
   "auctionHeat": "warm",
-  "dealTag": "fair",
+  "dealTag": "good",
   "bullets": [
     {
       "tone": "mid",
       "pipKey": "bullet.pip.mid",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 62,
-        "n": 24,
+        "pct": 64,
+        "n": 25,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 67,
+        "pct": 68,
         "ppkm": 18
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.highKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 29
+        "pct": 28
       }
     },
     {
@@ -61,23 +61,23 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 64
+        "n": 65
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 64
+        "n": 65
       }
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.fair",
+    "verdictKey": "summary.verdict.good",
     "cohortLineKey": "summary.cohortLine.yes",
     "cohortKindKey": "detail.cohort.refSize.kind.model",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": null,
     "marginSuffixKey": "summary.suffix.marginLow",
     "args": {
-      "refSize": 24,
+      "refSize": 25,
       "year": "2022",
       "title": "Volkswagen Tiguan"
     }
