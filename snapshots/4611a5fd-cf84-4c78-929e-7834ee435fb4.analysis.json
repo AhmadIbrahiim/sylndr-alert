@@ -1,47 +1,47 @@
 {
   "vehicleId": "4611a5fd-cf84-4c78-929e-7834ee435fb4",
-  "computedAt": "2026-08-29T18:54:31.000Z",
+  "computedAt": "2026-08-29T19:21:47.019Z",
   "cohort": {
-    "sameModelCount": 46,
-    "sameYearCount": 3,
-    "refCohort": "model",
-    "refSize": 46
+    "sameModelCount": 47,
+    "sameYearCount": 4,
+    "refCohort": "model+year",
+    "refSize": 4
   },
-  "pricePercentile": 46,
+  "pricePercentile": 0,
   "pricePerKm": 5.421331761932823,
-  "pricePerKmPercentile": 43,
-  "kmPercentile": 65,
+  "pricePerKmPercentile": 0,
+  "kmPercentile": 75,
   "daysListed": 46,
   "marginPct": 15.543478260869565,
   "marginTier": "mid",
   "auctionHeat": "cold",
-  "dealTag": "fair",
+  "dealTag": "good",
   "bullets": [
     {
-      "tone": "mid",
-      "pipKey": "bullet.pip.mid",
+      "tone": "good",
+      "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 54,
-        "n": 46,
-        "kind": "detail.cohort.refSize.kind.model"
+        "pct": 100,
+        "n": 4,
+        "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
-      "tone": "mid",
+      "tone": "good",
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 57,
+        "pct": 100,
         "ppkm": 5
       }
     },
     {
-      "tone": "mid",
-      "pipKey": "bullet.pip.km",
+      "tone": "hot",
+      "pipKey": "bullet.pip.highKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 35
+        "pct": 25
       }
     },
     {
@@ -70,14 +70,14 @@
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.fair",
+    "verdictKey": "summary.verdict.good",
     "cohortLineKey": "summary.cohortLine.yes",
-    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 46,
+      "refSize": 4,
       "year": "2020",
       "title": "Toyota Corolla"
     }

@@ -1,16 +1,16 @@
 {
   "vehicleId": "0b7f815a-fe68-4ae2-b4d0-6b999aeefa0f",
-  "computedAt": "2026-08-29T18:54:29.990Z",
+  "computedAt": "2026-08-29T19:21:45.988Z",
   "cohort": {
-    "sameModelCount": 10,
-    "sameYearCount": 1,
+    "sameModelCount": 11,
+    "sameYearCount": 2,
     "refCohort": "model",
-    "refSize": 10
+    "refSize": 11
   },
-  "pricePercentile": 20,
+  "pricePercentile": 18,
   "pricePerKm": 2.1385402138540215,
-  "pricePerKmPercentile": 10,
-  "kmPercentile": 70,
+  "pricePerKmPercentile": 9,
+  "kmPercentile": 73,
   "daysListed": 20,
   "marginPct": null,
   "marginTier": null,
@@ -22,8 +22,8 @@
       "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 80,
-        "n": 10,
+        "pct": 82,
+        "n": 11,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -32,16 +32,16 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 90,
+        "pct": 91,
         "ppkm": 2
       }
     },
     {
-      "tone": "mid",
-      "pipKey": "bullet.pip.km",
+      "tone": "hot",
+      "pipKey": "bullet.pip.highKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 30
+        "pct": 27
       }
     },
     {
@@ -69,7 +69,7 @@
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 10,
+      "refSize": 11,
       "year": "2008",
       "title": "Toyota Yaris"
     }

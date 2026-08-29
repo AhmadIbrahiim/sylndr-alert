@@ -1,16 +1,16 @@
 {
   "vehicleId": "d7e267dd-c899-4346-80ae-8490479fb57e",
-  "computedAt": "2026-08-29T18:54:30.821Z",
+  "computedAt": "2026-08-29T19:21:46.833Z",
   "cohort": {
-    "sameModelCount": 10,
+    "sameModelCount": 11,
     "sameYearCount": 1,
     "refCohort": "model",
-    "refSize": 10
+    "refSize": 11
   },
   "pricePercentile": 0,
   "pricePerKm": 2.7461486939048894,
-  "pricePerKmPercentile": 30,
-  "kmPercentile": 20,
+  "pricePerKmPercentile": 36,
+  "kmPercentile": 18,
   "daysListed": 89,
   "marginPct": 11.707317073170733,
   "marginTier": "low",
@@ -23,16 +23,16 @@
       "textKey": "bullet.priceCheaper",
       "textArgs": {
         "pct": 100,
-        "n": 10,
+        "n": 11,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
     {
-      "tone": "good",
+      "tone": "mid",
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 70,
+        "pct": 64,
         "ppkm": 3
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.lowKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 80
+        "pct": 82
       }
     },
     {
@@ -77,7 +77,7 @@
     "heatSuffixKey": null,
     "marginSuffixKey": "summary.suffix.marginLow",
     "args": {
-      "refSize": 10,
+      "refSize": 11,
       "year": "2009",
       "title": "Toyota Yaris"
     }
