@@ -1,17 +1,17 @@
 {
   "vehicleId": "d8a26035-3e37-465f-bab9-a156cc41daf7",
-  "computedAt": "2026-08-31T11:19:44.637Z",
+  "computedAt": "2026-08-31T18:04:25.191Z",
   "cohort": {
-    "sameModelCount": 30,
+    "sameModelCount": 31,
     "sameYearCount": 3,
     "refCohort": "model",
-    "refSize": 30
+    "refSize": 31
   },
-  "pricePercentile": 20,
+  "pricePercentile": 19,
   "pricePerKm": 11.210196406184705,
-  "pricePerKmPercentile": 40,
-  "kmPercentile": 53,
-  "daysListed": 195,
+  "pricePerKmPercentile": 39,
+  "kmPercentile": 55,
+  "daysListed": 196,
   "marginPct": 9.043465294863193,
   "marginTier": "low",
   "auctionHeat": "hot",
@@ -22,8 +22,8 @@
       "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 80,
-        "n": 30,
+        "pct": 81,
+        "n": 31,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 60,
+        "pct": 61,
         "ppkm": 11
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 47
+        "pct": 45
       }
     },
     {
@@ -61,11 +61,11 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 195
+        "n": 196
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 195
+        "n": 196
       }
     }
   ],
@@ -77,7 +77,7 @@
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": "summary.suffix.marginLow",
     "args": {
-      "refSize": 30,
+      "refSize": 31,
       "year": "2016",
       "title": "BMW 320i"
     }

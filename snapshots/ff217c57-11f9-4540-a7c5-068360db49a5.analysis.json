@@ -1,17 +1,17 @@
 {
   "vehicleId": "ff217c57-11f9-4540-a7c5-068360db49a5",
-  "computedAt": "2026-08-31T11:19:44.003Z",
+  "computedAt": "2026-08-31T18:04:24.570Z",
   "cohort": {
-    "sameModelCount": 30,
-    "sameYearCount": 4,
+    "sameModelCount": 31,
+    "sameYearCount": 5,
     "refCohort": "model+year",
-    "refSize": 4
+    "refSize": 5
   },
-  "pricePercentile": 25,
+  "pricePercentile": 20,
   "pricePerKm": 109.375,
-  "pricePerKmPercentile": 25,
-  "kmPercentile": 50,
-  "daysListed": 54,
+  "pricePerKmPercentile": 40,
+  "kmPercentile": 40,
+  "daysListed": 55,
   "marginPct": 0,
   "marginTier": "low",
   "auctionHeat": "warm",
@@ -22,17 +22,17 @@
       "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 75,
-        "n": 4,
+        "pct": 80,
+        "n": 5,
         "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
-      "tone": "good",
+      "tone": "mid",
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 75,
+        "pct": 60,
         "ppkm": 109
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 50
+        "pct": 60
       }
     },
     {
@@ -61,11 +61,11 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 54
+        "n": 55
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 54
+        "n": 55
       }
     }
   ],
@@ -77,7 +77,7 @@
     "heatSuffixKey": null,
     "marginSuffixKey": "summary.suffix.marginLow",
     "args": {
-      "refSize": 4,
+      "refSize": 5,
       "year": "2024",
       "title": "BMW 320i"
     }
