@@ -1,38 +1,38 @@
 {
   "vehicleId": "4961a6b3-08a3-4da4-b8a3-21fcf84ff143",
-  "computedAt": "2026-08-31T21:25:19.201Z",
+  "computedAt": "2026-09-01T09:44:19.036Z",
   "cohort": {
-    "sameModelCount": 10,
-    "sameYearCount": 2,
+    "sameModelCount": 11,
+    "sameYearCount": 3,
     "refCohort": "model",
-    "refSize": 10
+    "refSize": 11
   },
-  "pricePercentile": 30,
+  "pricePercentile": 36,
   "pricePerKm": 22.49899558055444,
-  "pricePerKmPercentile": 30,
-  "kmPercentile": 60,
+  "pricePerKmPercentile": 36,
+  "kmPercentile": 55,
   "daysListed": 23,
   "marginPct": null,
   "marginTier": null,
   "auctionHeat": "cold",
-  "dealTag": "good",
+  "dealTag": "fair",
   "bullets": [
     {
-      "tone": "good",
-      "pipKey": "bullet.pip.deal",
+      "tone": "mid",
+      "pipKey": "bullet.pip.mid",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 70,
-        "n": 10,
+        "pct": 64,
+        "n": 11,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
     {
-      "tone": "good",
+      "tone": "mid",
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 70,
+        "pct": 64,
         "ppkm": 22
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 40
+        "pct": 45
       }
     },
     {
@@ -62,14 +62,14 @@
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.good",
+    "verdictKey": "summary.verdict.fair",
     "cohortLineKey": "summary.cohortLine.yes",
     "cohortKindKey": "detail.cohort.refSize.kind.model",
     "ageSuffixKey": null,
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 10,
+      "refSize": 11,
       "year": "2021",
       "title": "Toyota Fortuner"
     }

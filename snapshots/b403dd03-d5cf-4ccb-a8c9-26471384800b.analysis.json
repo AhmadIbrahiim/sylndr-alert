@@ -1,15 +1,15 @@
 {
   "vehicleId": "b403dd03-d5cf-4ccb-a8c9-26471384800b",
-  "computedAt": "2026-08-31T21:25:19.278Z",
+  "computedAt": "2026-09-01T09:44:19.116Z",
   "cohort": {
-    "sameModelCount": 75,
-    "sameYearCount": 5,
+    "sameModelCount": 76,
+    "sameYearCount": 6,
     "refCohort": "model+year",
-    "refSize": 5
+    "refSize": 6
   },
-  "pricePercentile": 40,
+  "pricePercentile": 33,
   "pricePerKm": 7.5297752808988765,
-  "pricePerKmPercentile": 80,
+  "pricePerKmPercentile": 83,
   "kmPercentile": 0,
   "daysListed": 170,
   "marginPct": 5.0958740580467055,
@@ -18,12 +18,12 @@
   "dealTag": "fair",
   "bullets": [
     {
-      "tone": "mid",
-      "pipKey": "bullet.pip.mid",
+      "tone": "good",
+      "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 60,
-        "n": 5,
+        "pct": 67,
+        "n": 6,
         "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.pricey",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 20,
+        "pct": 17,
         "ppkm": 8
       }
     },
@@ -77,7 +77,7 @@
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": "summary.suffix.marginLow",
     "args": {
-      "refSize": 5,
+      "refSize": 6,
       "year": "2020",
       "title": "Opel Astra"
     }

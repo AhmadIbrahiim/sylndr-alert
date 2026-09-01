@@ -1,38 +1,38 @@
 {
   "vehicleId": "75484240-b62e-4735-a223-0f93c0a53737",
-  "computedAt": "2026-08-31T21:25:20.689Z",
+  "computedAt": "2026-09-01T09:44:20.594Z",
   "cohort": {
-    "sameModelCount": 47,
-    "sameYearCount": 3,
-    "refCohort": "model",
-    "refSize": 47
+    "sameModelCount": 48,
+    "sameYearCount": 4,
+    "refCohort": "model+year",
+    "refSize": 4
   },
-  "pricePercentile": 43,
+  "pricePercentile": 0,
   "pricePerKm": 5.220295737895042,
-  "pricePerKmPercentile": 36,
-  "kmPercentile": 68,
+  "pricePerKmPercentile": 0,
+  "kmPercentile": 50,
   "daysListed": 138,
   "marginPct": 18.46618679463254,
   "marginTier": "mid",
   "auctionHeat": "hot",
-  "dealTag": "fair",
+  "dealTag": "good",
   "bullets": [
     {
-      "tone": "mid",
-      "pipKey": "bullet.pip.mid",
+      "tone": "good",
+      "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 57,
-        "n": 47,
-        "kind": "detail.cohort.refSize.kind.model"
+        "pct": 100,
+        "n": 4,
+        "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
-      "tone": "mid",
+      "tone": "good",
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 64,
+        "pct": 100,
         "ppkm": 5
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 32
+        "pct": 50
       }
     },
     {
@@ -70,14 +70,14 @@
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.fair",
+    "verdictKey": "summary.verdict.good",
     "cohortLineKey": "summary.cohortLine.yes",
-    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": null,
     "args": {
-      "refSize": 47,
+      "refSize": 4,
       "year": "2019",
       "title": "Toyota Corolla"
     }

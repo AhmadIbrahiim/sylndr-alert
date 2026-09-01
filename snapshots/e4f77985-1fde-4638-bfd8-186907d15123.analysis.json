@@ -1,38 +1,38 @@
 {
   "vehicleId": "e4f77985-1fde-4638-bfd8-186907d15123",
-  "computedAt": "2026-08-31T21:25:19.126Z",
+  "computedAt": "2026-09-01T09:44:18.958Z",
   "cohort": {
-    "sameModelCount": 47,
-    "sameYearCount": 3,
-    "refCohort": "model",
-    "refSize": 47
+    "sameModelCount": 48,
+    "sameYearCount": 4,
+    "refCohort": "model+year",
+    "refSize": 4
   },
-  "pricePercentile": 49,
+  "pricePercentile": 25,
   "pricePerKm": 5.379113018597997,
-  "pricePerKmPercentile": 38,
-  "kmPercentile": 72,
+  "pricePerKmPercentile": 25,
+  "kmPercentile": 75,
   "daysListed": 27,
   "marginPct": null,
   "marginTier": null,
   "auctionHeat": "cold",
-  "dealTag": "fair",
+  "dealTag": "good",
   "bullets": [
     {
-      "tone": "mid",
-      "pipKey": "bullet.pip.mid",
+      "tone": "good",
+      "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 51,
-        "n": 47,
-        "kind": "detail.cohort.refSize.kind.model"
+        "pct": 75,
+        "n": 4,
+        "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
-      "tone": "mid",
+      "tone": "good",
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 62,
+        "pct": 75,
         "ppkm": 5
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.highKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 28
+        "pct": 25
       }
     },
     {
@@ -62,14 +62,14 @@
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.fair",
+    "verdictKey": "summary.verdict.good",
     "cohortLineKey": "summary.cohortLine.yes",
-    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": null,
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 47,
+      "refSize": 4,
       "year": "2019",
       "title": "Toyota Corolla"
     }
