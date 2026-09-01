@@ -1,16 +1,16 @@
 {
   "vehicleId": "6b262568-7c45-4a4b-b8b3-2b64113284e9",
-  "computedAt": "2026-09-01T17:54:52.216Z",
+  "computedAt": "2026-09-01T19:20:39.809Z",
   "cohort": {
-    "sameModelCount": 33,
-    "sameYearCount": 3,
-    "refCohort": "model",
-    "refSize": 33
+    "sameModelCount": 34,
+    "sameYearCount": 4,
+    "refCohort": "model+year",
+    "refSize": 4
   },
-  "pricePercentile": 42,
+  "pricePercentile": 50,
   "pricePerKm": 2.331681725444477,
-  "pricePerKmPercentile": 12,
-  "kmPercentile": 91,
+  "pricePerKmPercentile": 0,
+  "kmPercentile": 75,
   "daysListed": 70,
   "marginPct": 33.875,
   "marginTier": "high",
@@ -22,9 +22,9 @@
       "pipKey": "bullet.pip.mid",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 58,
-        "n": 33,
-        "kind": "detail.cohort.refSize.kind.model"
+        "pct": 50,
+        "n": 4,
+        "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 88,
+        "pct": 100,
         "ppkm": 2
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.highKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 9
+        "pct": 25
       }
     },
     {
@@ -72,12 +72,12 @@
   "summary": {
     "verdictKey": "summary.verdict.good",
     "cohortLineKey": "summary.cohortLine.yes",
-    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": null,
     "marginSuffixKey": "summary.suffix.marginHigh",
     "args": {
-      "refSize": 33,
+      "refSize": 4,
       "year": "2011",
       "title": "Volkswagen Passat"
     }
