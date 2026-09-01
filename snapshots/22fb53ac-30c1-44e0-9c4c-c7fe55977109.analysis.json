@@ -1,0 +1,71 @@
+{
+  "vehicleId": "22fb53ac-30c1-44e0-9c4c-c7fe55977109",
+  "computedAt": "2026-09-01T17:54:53.314Z",
+  "cohort": {
+    "sameModelCount": 11,
+    "sameYearCount": 2,
+    "refCohort": "model",
+    "refSize": 11
+  },
+  "pricePercentile": 82,
+  "pricePerKm": 10.8003300330033,
+  "pricePerKmPercentile": 82,
+  "kmPercentile": 9,
+  "daysListed": 0,
+  "marginPct": null,
+  "marginTier": null,
+  "auctionHeat": "cold",
+  "dealTag": "high",
+  "bullets": [
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.high",
+      "textKey": "bullet.priceCheaper",
+      "textArgs": {
+        "pct": 18,
+        "n": 11,
+        "kind": "detail.cohort.refSize.kind.model"
+      }
+    },
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.pricey",
+      "textKey": "bullet.ppkmBetter",
+      "textArgs": {
+        "pct": 18,
+        "ppkm": 11
+      }
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.lowKm",
+      "textKey": "bullet.kmLower",
+      "textArgs": {
+        "pct": 91
+      }
+    },
+    {
+      "tone": "neutral",
+      "pipKey": "bullet.pip.cold",
+      "textKey": "bullet.auctionCold"
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.fresh",
+      "textKey": "bullet.listedFresh"
+    }
+  ],
+  "summary": {
+    "verdictKey": "summary.verdict.high",
+    "cohortLineKey": "summary.cohortLine.yes",
+    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "ageSuffixKey": "summary.suffix.ageFresh",
+    "heatSuffixKey": null,
+    "marginSuffixKey": null,
+    "args": {
+      "refSize": 11,
+      "year": "2013",
+      "title": "Jeep Cherokee"
+    }
+  }
+}
