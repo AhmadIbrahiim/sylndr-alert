@@ -1,29 +1,29 @@
 {
   "vehicleId": "6bcacc20-aa9b-4c42-9367-439dd792b741",
-  "computedAt": "2026-09-02T09:17:01.073Z",
+  "computedAt": "2026-09-02T13:46:48.722Z",
   "cohort": {
-    "sameModelCount": 8,
+    "sameModelCount": 9,
     "sameYearCount": 1,
     "refCohort": "model",
-    "refSize": 8
+    "refSize": 9
   },
-  "pricePercentile": 38,
+  "pricePercentile": 33,
   "pricePerKm": 9.703779366700715,
-  "pricePerKmPercentile": 63,
-  "kmPercentile": 13,
+  "pricePerKmPercentile": 56,
+  "kmPercentile": 22,
   "daysListed": 90,
   "marginPct": 22.63157894736842,
   "marginTier": "mid",
   "auctionHeat": "cold",
-  "dealTag": "fair",
+  "dealTag": "good",
   "bullets": [
     {
-      "tone": "mid",
-      "pipKey": "bullet.pip.mid",
+      "tone": "good",
+      "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 62,
-        "n": 8,
+        "pct": 67,
+        "n": 9,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 37,
+        "pct": 44,
         "ppkm": 10
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.lowKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 87
+        "pct": 78
       }
     },
     {
@@ -70,14 +70,14 @@
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.fair",
+    "verdictKey": "summary.verdict.good",
     "cohortLineKey": "summary.cohortLine.yes",
     "cohortKindKey": "detail.cohort.refSize.kind.model",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 8,
+      "refSize": 9,
       "year": "2018",
       "title": "Mini Cooper"
     }
