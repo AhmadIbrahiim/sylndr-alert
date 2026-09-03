@@ -1,17 +1,17 @@
 {
   "vehicleId": "994de285-9877-4eab-83c0-4e6e433434af",
-  "computedAt": "2026-09-03T09:26:01.970Z",
+  "computedAt": "2026-09-03T13:45:37.483Z",
   "cohort": {
-    "sameModelCount": 21,
+    "sameModelCount": 22,
     "sameYearCount": 2,
     "refCohort": "model",
-    "refSize": 21
+    "refSize": 22
   },
-  "pricePercentile": 10,
+  "pricePercentile": 14,
   "pricePerKm": 18.79824561403509,
-  "pricePerKmPercentile": 33,
-  "kmPercentile": 62,
-  "daysListed": 116,
+  "pricePerKmPercentile": 36,
+  "kmPercentile": 59,
+  "daysListed": 117,
   "marginPct": 15.912272515165657,
   "marginTier": "mid",
   "auctionHeat": "hot",
@@ -22,17 +22,17 @@
       "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 90,
-        "n": 21,
+        "pct": 86,
+        "n": 22,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
     {
-      "tone": "good",
+      "tone": "mid",
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 67,
+        "pct": 64,
         "ppkm": 19
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 38
+        "pct": 41
       }
     },
     {
@@ -61,11 +61,11 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 116
+        "n": 117
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 116
+        "n": 117
       }
     }
   ],
@@ -77,7 +77,7 @@
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": null,
     "args": {
-      "refSize": 21,
+      "refSize": 22,
       "year": "2015",
       "title": "Mercedes-Benz E200"
     }
