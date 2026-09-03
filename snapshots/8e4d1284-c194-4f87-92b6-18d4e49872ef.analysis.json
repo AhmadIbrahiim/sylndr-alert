@@ -1,47 +1,47 @@
 {
   "vehicleId": "8e4d1284-c194-4f87-92b6-18d4e49872ef",
-  "computedAt": "2026-09-03T13:45:38.437Z",
+  "computedAt": "2026-09-03T17:17:48.135Z",
   "cohort": {
-    "sameModelCount": 32,
-    "sameYearCount": 3,
-    "refCohort": "model",
-    "refSize": 32
+    "sameModelCount": 33,
+    "sameYearCount": 4,
+    "refCohort": "model+year",
+    "refSize": 4
   },
-  "pricePercentile": 25,
+  "pricePercentile": 75,
   "pricePerKm": 10.275229357798166,
-  "pricePerKmPercentile": 31,
-  "kmPercentile": 63,
-  "daysListed": 114,
+  "pricePerKmPercentile": 50,
+  "kmPercentile": 25,
+  "daysListed": 115,
   "marginPct": 26.92857142857143,
   "marginTier": "mid",
   "auctionHeat": "hot",
-  "dealTag": "good",
+  "dealTag": "fair",
   "bullets": [
     {
-      "tone": "good",
-      "pipKey": "bullet.pip.deal",
+      "tone": "hot",
+      "pipKey": "bullet.pip.high",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 75,
-        "n": 32,
-        "kind": "detail.cohort.refSize.kind.model"
-      }
-    },
-    {
-      "tone": "good",
-      "pipKey": "bullet.pip.value",
-      "textKey": "bullet.ppkmBetter",
-      "textArgs": {
-        "pct": 69,
-        "ppkm": 10
+        "pct": 25,
+        "n": 4,
+        "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
       "tone": "mid",
-      "pipKey": "bullet.pip.km",
+      "pipKey": "bullet.pip.value",
+      "textKey": "bullet.ppkmBetter",
+      "textArgs": {
+        "pct": 50,
+        "ppkm": 10
+      }
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.lowKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 37
+        "pct": 75
       }
     },
     {
@@ -61,23 +61,23 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 114
+        "n": 115
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 114
+        "n": 115
       }
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.good",
+    "verdictKey": "summary.verdict.fair",
     "cohortLineKey": "summary.cohortLine.yes",
-    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": null,
     "args": {
-      "refSize": 32,
+      "refSize": 4,
       "year": "2016",
       "title": "BMW 320i"
     }

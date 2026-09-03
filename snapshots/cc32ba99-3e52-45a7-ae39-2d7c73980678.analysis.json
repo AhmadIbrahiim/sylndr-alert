@@ -1,29 +1,29 @@
 {
   "vehicleId": "cc32ba99-3e52-45a7-ae39-2d7c73980678",
-  "computedAt": "2026-09-03T13:45:40.373Z",
+  "computedAt": "2026-09-03T17:17:49.593Z",
   "cohort": {
-    "sameModelCount": 20,
+    "sameModelCount": 21,
     "sameYearCount": 1,
     "refCohort": "model",
-    "refSize": 20
+    "refSize": 21
   },
-  "pricePercentile": 75,
+  "pricePercentile": 76,
   "pricePerKm": 59.786476868327405,
-  "pricePerKmPercentile": 85,
+  "pricePerKmPercentile": 86,
   "kmPercentile": 5,
   "daysListed": 51,
   "marginPct": 16.547619047619047,
   "marginTier": "mid",
   "auctionHeat": "cold",
-  "dealTag": "fair",
+  "dealTag": "high",
   "bullets": [
     {
       "tone": "hot",
       "pipKey": "bullet.pip.high",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 25,
-        "n": 20,
+        "pct": 24,
+        "n": 21,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.pricey",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 15,
+        "pct": 14,
         "ppkm": 60
       }
     },
@@ -70,14 +70,14 @@
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.fair",
+    "verdictKey": "summary.verdict.high",
     "cohortLineKey": "summary.cohortLine.yes",
     "cohortKindKey": "detail.cohort.refSize.kind.model",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 20,
+      "refSize": 21,
       "year": "2023",
       "title": "Nissan Sentra"
     }
