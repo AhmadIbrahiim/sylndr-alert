@@ -1,16 +1,16 @@
 {
   "vehicleId": "94ba25ba-173b-49bc-8128-60156473b0e3",
-  "computedAt": "2026-09-03T19:15:00.761Z",
+  "computedAt": "2026-09-04T09:18:36.414Z",
   "cohort": {
-    "sameModelCount": 31,
-    "sameYearCount": 9,
+    "sameModelCount": 32,
+    "sameYearCount": 10,
     "refCohort": "model+year",
-    "refSize": 9
+    "refSize": 10
   },
-  "pricePercentile": 22,
+  "pricePercentile": 20,
   "pricePerKm": 2.0533880903490758,
   "pricePerKmPercentile": 0,
-  "kmPercentile": 78,
+  "kmPercentile": 70,
   "daysListed": 118,
   "marginPct": 31.333333333333336,
   "marginTier": "high",
@@ -22,8 +22,8 @@
       "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 78,
-        "n": 9,
+        "pct": 80,
+        "n": 10,
         "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
@@ -37,11 +37,11 @@
       }
     },
     {
-      "tone": "hot",
-      "pipKey": "bullet.pip.highKm",
+      "tone": "mid",
+      "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 22
+        "pct": 30
       }
     },
     {
@@ -77,7 +77,7 @@
     "heatSuffixKey": null,
     "marginSuffixKey": "summary.suffix.marginHigh",
     "args": {
-      "refSize": 9,
+      "refSize": 10,
       "year": "2016",
       "title": "Peugeot 301"
     }
