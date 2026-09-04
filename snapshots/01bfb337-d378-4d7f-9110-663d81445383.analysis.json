@@ -1,17 +1,17 @@
 {
   "vehicleId": "01bfb337-d378-4d7f-9110-663d81445383",
-  "computedAt": "2026-09-04T13:40:39.127Z",
+  "computedAt": "2026-09-04T17:06:07.435Z",
   "cohort": {
-    "sameModelCount": 8,
+    "sameModelCount": 10,
     "sameYearCount": 3,
     "refCohort": "model",
-    "refSize": 8
+    "refSize": 10
   },
-  "pricePercentile": 63,
+  "pricePercentile": 50,
   "pricePerKm": 45.277127244340356,
-  "pricePerKmPercentile": 50,
-  "kmPercentile": 25,
-  "daysListed": 39,
+  "pricePerKmPercentile": 40,
+  "kmPercentile": 40,
+  "daysListed": 40,
   "marginPct": null,
   "marginTier": null,
   "auctionHeat": "cold",
@@ -22,8 +22,8 @@
       "pipKey": "bullet.pip.mid",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 37,
-        "n": 8,
+        "pct": 50,
+        "n": 10,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -32,16 +32,16 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 50,
+        "pct": 60,
         "ppkm": 45
       }
     },
     {
-      "tone": "good",
-      "pipKey": "bullet.pip.lowKm",
+      "tone": "mid",
+      "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 75
+        "pct": 60
       }
     },
     {
@@ -53,11 +53,11 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 39
+        "n": 40
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 39
+        "n": 40
       }
     }
   ],
@@ -69,7 +69,7 @@
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 8,
+      "refSize": 10,
       "year": "2019",
       "title": "Audi Q7"
     }
