@@ -1,29 +1,29 @@
 {
   "vehicleId": "3f1e7c8a-7918-4bd8-b8ae-2d5d2889772b",
-  "computedAt": "2026-09-05T12:20:19.498Z",
+  "computedAt": "2026-09-05T15:25:39.501Z",
   "cohort": {
-    "sameModelCount": 21,
+    "sameModelCount": 23,
     "sameYearCount": 1,
     "refCohort": "model",
-    "refSize": 21
+    "refSize": 23
   },
-  "pricePercentile": 86,
+  "pricePercentile": 83,
   "pricePerKm": 38.5395537525355,
-  "pricePerKmPercentile": 76,
-  "kmPercentile": 19,
+  "pricePerKmPercentile": 74,
+  "kmPercentile": 22,
   "daysListed": 30,
   "marginPct": null,
   "marginTier": null,
   "auctionHeat": "cold",
-  "dealTag": "high",
+  "dealTag": "fair",
   "bullets": [
     {
       "tone": "hot",
       "pipKey": "bullet.pip.high",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 14,
-        "n": 21,
+        "pct": 17,
+        "n": 23,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.pricey",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 24,
+        "pct": 26,
         "ppkm": 39
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.lowKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 81
+        "pct": 78
       }
     },
     {
@@ -62,14 +62,14 @@
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.high",
+    "verdictKey": "summary.verdict.fair",
     "cohortLineKey": "summary.cohortLine.yes",
     "cohortKindKey": "detail.cohort.refSize.kind.model",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 21,
+      "refSize": 23,
       "year": "2024",
       "title": "Nissan Sentra"
     }
