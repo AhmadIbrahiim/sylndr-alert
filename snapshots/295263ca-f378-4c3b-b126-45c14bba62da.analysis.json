@@ -1,29 +1,29 @@
 {
   "vehicleId": "295263ca-f378-4c3b-b126-45c14bba62da",
-  "computedAt": "2026-09-05T15:25:40.909Z",
+  "computedAt": "2026-09-05T17:27:44.986Z",
   "cohort": {
-    "sameModelCount": 13,
+    "sameModelCount": 14,
     "sameYearCount": 3,
     "refCohort": "model",
-    "refSize": 13
+    "refSize": 14
   },
-  "pricePercentile": 38,
+  "pricePercentile": 43,
   "pricePerKm": 2.72654370489174,
-  "pricePerKmPercentile": 23,
-  "kmPercentile": 77,
-  "daysListed": 64,
+  "pricePerKmPercentile": 29,
+  "kmPercentile": 71,
+  "daysListed": 65,
   "marginPct": 18.235294117647058,
   "marginTier": "mid",
   "auctionHeat": "warm",
-  "dealTag": "good",
+  "dealTag": "fair",
   "bullets": [
     {
       "tone": "mid",
       "pipKey": "bullet.pip.mid",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 62,
-        "n": 13,
+        "pct": 57,
+        "n": 14,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 77,
+        "pct": 71,
         "ppkm": 3
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.highKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 23
+        "pct": 29
       }
     },
     {
@@ -61,23 +61,23 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 64
+        "n": 65
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 64
+        "n": 65
       }
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.good",
+    "verdictKey": "summary.verdict.fair",
     "cohortLineKey": "summary.cohortLine.yes",
     "cohortKindKey": "detail.cohort.refSize.kind.model",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 13,
+      "refSize": 14,
       "year": "2012",
       "title": "Kia Carens"
     }
