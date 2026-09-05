@@ -1,29 +1,29 @@
 {
   "vehicleId": "00044f29-f1ea-4859-850a-55bedbb76429",
-  "computedAt": "2026-09-05T17:27:47.002Z",
+  "computedAt": "2026-09-05T18:06:03.229Z",
   "cohort": {
-    "sameModelCount": 22,
+    "sameModelCount": 23,
     "sameYearCount": 1,
     "refCohort": "model",
-    "refSize": 22
+    "refSize": 23
   },
-  "pricePercentile": 82,
+  "pricePercentile": 83,
   "pricePerKm": 102.17113665389527,
-  "pricePerKmPercentile": 77,
-  "kmPercentile": 32,
+  "pricePerKmPercentile": 78,
+  "kmPercentile": 30,
   "daysListed": 75,
   "marginPct": 10.925,
   "marginTier": "low",
   "auctionHeat": "cold",
-  "dealTag": "fair",
+  "dealTag": "high",
   "bullets": [
     {
       "tone": "hot",
       "pipKey": "bullet.pip.high",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 18,
-        "n": 22,
+        "pct": 17,
+        "n": 23,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.pricey",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 23,
+        "pct": 22,
         "ppkm": 102
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.lowKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 68
+        "pct": 70
       }
     },
     {
@@ -70,14 +70,14 @@
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.fair",
+    "verdictKey": "summary.verdict.high",
     "cohortLineKey": "summary.cohortLine.yes",
     "cohortKindKey": "detail.cohort.refSize.kind.model",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": null,
     "marginSuffixKey": "summary.suffix.marginLow",
     "args": {
-      "refSize": 22,
+      "refSize": 23,
       "year": "2023",
       "title": "Mercedes-Benz E200"
     }

@@ -1,16 +1,16 @@
 {
   "vehicleId": "447ca077-fd68-4ed4-a7f9-e158cfacd128",
-  "computedAt": "2026-09-05T17:27:47.142Z",
+  "computedAt": "2026-09-05T18:06:03.437Z",
   "cohort": {
-    "sameModelCount": 76,
-    "sameYearCount": 16,
+    "sameModelCount": 77,
+    "sameYearCount": 17,
     "refCohort": "model+year",
-    "refSize": 16
+    "refSize": 17
   },
-  "pricePercentile": 56,
+  "pricePercentile": 59,
   "pricePerKm": 6.0154649782350615,
-  "pricePerKmPercentile": 69,
-  "kmPercentile": 44,
+  "pricePerKmPercentile": 71,
+  "kmPercentile": 41,
   "daysListed": 137,
   "marginPct": 11.058951074528915,
   "marginTier": "low",
@@ -22,17 +22,17 @@
       "pipKey": "bullet.pip.mid",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 44,
-        "n": 16,
+        "pct": 41,
+        "n": 17,
         "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
-      "tone": "mid",
-      "pipKey": "bullet.pip.value",
+      "tone": "hot",
+      "pipKey": "bullet.pip.pricey",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 31,
+        "pct": 29,
         "ppkm": 6
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 56
+        "pct": 59
       }
     },
     {
@@ -77,7 +77,7 @@
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": "summary.suffix.marginLow",
     "args": {
-      "refSize": 16,
+      "refSize": 17,
       "year": "2020",
       "title": "Renault Megane"
     }
