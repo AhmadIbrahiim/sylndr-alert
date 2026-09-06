@@ -1,17 +1,17 @@
 {
   "vehicleId": "5fe3729d-7bbb-4241-be14-a956c1c85603",
-  "computedAt": "2026-09-06T12:53:50.555Z",
+  "computedAt": "2026-09-06T15:58:30.720Z",
   "cohort": {
-    "sameModelCount": 35,
+    "sameModelCount": 36,
     "sameYearCount": 2,
     "refCohort": "model",
-    "refSize": 35
+    "refSize": 36
   },
-  "pricePercentile": 91,
+  "pricePercentile": 92,
   "pricePerKm": 34.38260869565217,
   "pricePerKmPercentile": 86,
   "kmPercentile": 11,
-  "daysListed": 1,
+  "daysListed": 2,
   "marginPct": null,
   "marginTier": null,
   "auctionHeat": "cold",
@@ -22,8 +22,8 @@
       "pipKey": "bullet.pip.high",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 9,
-        "n": 35,
+        "pct": 8,
+        "n": 36,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -48,22 +48,17 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.cold",
       "textKey": "bullet.auctionCold"
-    },
-    {
-      "tone": "good",
-      "pipKey": "bullet.pip.fresh",
-      "textKey": "bullet.listedFresh"
     }
   ],
   "summary": {
     "verdictKey": "summary.verdict.high",
     "cohortLineKey": "summary.cohortLine.yes",
     "cohortKindKey": "detail.cohort.refSize.kind.model",
-    "ageSuffixKey": "summary.suffix.ageFresh",
+    "ageSuffixKey": null,
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 35,
+      "refSize": 36,
       "year": "2022",
       "title": "Volkswagen Passat"
     }

@@ -1,16 +1,16 @@
 {
   "vehicleId": "98e4349a-839d-4f73-9cff-f386eb710bfb",
-  "computedAt": "2026-09-06T12:53:47.667Z",
+  "computedAt": "2026-09-06T15:58:27.128Z",
   "cohort": {
-    "sameModelCount": 19,
-    "sameYearCount": 1,
+    "sameModelCount": 20,
+    "sameYearCount": 2,
     "refCohort": "model",
-    "refSize": 19
+    "refSize": 20
   },
-  "pricePercentile": 21,
+  "pricePercentile": 25,
   "pricePerKm": 4.20353982300885,
-  "pricePerKmPercentile": 26,
-  "kmPercentile": 74,
+  "pricePerKmPercentile": 30,
+  "kmPercentile": 70,
   "daysListed": 148,
   "marginPct": 22.45614035087719,
   "marginTier": "mid",
@@ -22,8 +22,8 @@
       "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 79,
-        "n": 19,
+        "pct": 75,
+        "n": 20,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -32,16 +32,16 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 74,
+        "pct": 70,
         "ppkm": 4
       }
     },
     {
-      "tone": "hot",
-      "pipKey": "bullet.pip.highKm",
+      "tone": "mid",
+      "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 26
+        "pct": 30
       }
     },
     {
@@ -77,7 +77,7 @@
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": null,
     "args": {
-      "refSize": 19,
+      "refSize": 20,
       "year": "2018",
       "title": "Chery Tiggo 3"
     }
