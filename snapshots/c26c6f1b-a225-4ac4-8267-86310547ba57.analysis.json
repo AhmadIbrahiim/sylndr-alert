@@ -1,29 +1,29 @@
 {
   "vehicleId": "c26c6f1b-a225-4ac4-8267-86310547ba57",
-  "computedAt": "2026-09-08T13:46:00.171Z",
+  "computedAt": "2026-09-08T17:34:01.293Z",
   "cohort": {
-    "sameModelCount": 79,
-    "sameYearCount": 18,
+    "sameModelCount": 81,
+    "sameYearCount": 19,
     "refCohort": "model+year",
-    "refSize": 18
+    "refSize": 19
   },
-  "pricePercentile": 28,
+  "pricePercentile": 26,
   "pricePerKm": 5.359877488514548,
-  "pricePerKmPercentile": 44,
-  "kmPercentile": 50,
-  "daysListed": 28,
+  "pricePerKmPercentile": 42,
+  "kmPercentile": 53,
+  "daysListed": 29,
   "marginPct": null,
   "marginTier": null,
   "auctionHeat": "cold",
-  "dealTag": "fair",
+  "dealTag": "good",
   "bullets": [
     {
       "tone": "good",
       "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 72,
-        "n": 18,
+        "pct": 74,
+        "n": 19,
         "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 56,
+        "pct": 58,
         "ppkm": 5
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 50
+        "pct": 47
       }
     },
     {
@@ -53,23 +53,23 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 28
+        "n": 29
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 28
+        "n": 29
       }
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.fair",
+    "verdictKey": "summary.verdict.good",
     "cohortLineKey": "summary.cohortLine.yes",
     "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": null,
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 18,
+      "refSize": 19,
       "year": "2020",
       "title": "Renault Megane"
     }
