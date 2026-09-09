@@ -1,16 +1,16 @@
 {
   "vehicleId": "41c86cb3-f454-4736-8e99-87822e087a16",
-  "computedAt": "2026-09-09T17:31:04.265Z",
+  "computedAt": "2026-09-09T19:13:00.060Z",
   "cohort": {
-    "sameModelCount": 7,
-    "sameYearCount": 1,
+    "sameModelCount": 8,
+    "sameYearCount": 2,
     "refCohort": "model",
-    "refSize": 7
+    "refSize": 8
   },
-  "pricePercentile": 86,
+  "pricePercentile": 88,
   "pricePerKm": 8.99947061937533,
-  "pricePerKmPercentile": 71,
-  "kmPercentile": 57,
+  "pricePerKmPercentile": 63,
+  "kmPercentile": 63,
   "daysListed": 87,
   "marginPct": 38.88235294117647,
   "marginTier": "high",
@@ -22,17 +22,17 @@
       "pipKey": "bullet.pip.high",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 14,
-        "n": 7,
+        "pct": 12,
+        "n": 8,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
     {
-      "tone": "hot",
-      "pipKey": "bullet.pip.pricey",
+      "tone": "mid",
+      "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 29,
+        "pct": 37,
         "ppkm": 9
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 43
+        "pct": 37
       }
     },
     {
@@ -77,7 +77,7 @@
     "heatSuffixKey": null,
     "marginSuffixKey": "summary.suffix.marginHigh",
     "args": {
-      "refSize": 7,
+      "refSize": 8,
       "year": "2021",
       "title": "Mercedes-Benz B180"
     }
