@@ -1,16 +1,16 @@
 {
   "vehicleId": "ca08da37-d0be-490d-8962-3522e488b18f",
-  "computedAt": "2026-09-08T19:23:01.782Z",
+  "computedAt": "2026-09-09T09:22:59.515Z",
   "cohort": {
-    "sameModelCount": 19,
-    "sameYearCount": 4,
+    "sameModelCount": 20,
+    "sameYearCount": 5,
     "refCohort": "model+year",
-    "refSize": 4
+    "refSize": 5
   },
   "pricePercentile": 0,
   "pricePerKm": 3.577910292973814,
   "pricePerKmPercentile": 0,
-  "kmPercentile": 75,
+  "kmPercentile": 60,
   "daysListed": 42,
   "marginPct": null,
   "marginTier": null,
@@ -23,7 +23,7 @@
       "textKey": "bullet.priceCheaper",
       "textArgs": {
         "pct": 100,
-        "n": 4,
+        "n": 5,
         "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
@@ -37,11 +37,11 @@
       }
     },
     {
-      "tone": "hot",
-      "pipKey": "bullet.pip.highKm",
+      "tone": "mid",
+      "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 25
+        "pct": 40
       }
     },
     {
@@ -69,7 +69,7 @@
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 4,
+      "refSize": 5,
       "year": "2019",
       "title": "Seat Ibiza"
     }
