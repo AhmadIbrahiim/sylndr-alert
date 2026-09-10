@@ -1,38 +1,38 @@
 {
   "vehicleId": "800957ba-cff8-46a8-b394-5ce8aedd075e",
-  "computedAt": "2026-09-10T17:16:34.403Z",
+  "computedAt": "2026-09-10T19:04:27.566Z",
   "cohort": {
-    "sameModelCount": 27,
-    "sameYearCount": 3,
-    "refCohort": "model",
-    "refSize": 27
+    "sameModelCount": 28,
+    "sameYearCount": 4,
+    "refCohort": "model+year",
+    "refSize": 4
   },
-  "pricePercentile": 81,
+  "pricePercentile": 50,
   "pricePerKm": 98.64864864864865,
-  "pricePerKmPercentile": 88,
-  "kmPercentile": 8,
+  "pricePerKmPercentile": 50,
+  "kmPercentile": 25,
   "daysListed": 17,
   "marginPct": null,
   "marginTier": null,
   "auctionHeat": "cold",
-  "dealTag": "high",
+  "dealTag": "fair",
   "bullets": [
     {
-      "tone": "hot",
-      "pipKey": "bullet.pip.high",
+      "tone": "mid",
+      "pipKey": "bullet.pip.mid",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 19,
-        "n": 27,
-        "kind": "detail.cohort.refSize.kind.model"
+        "pct": 50,
+        "n": 4,
+        "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
-      "tone": "hot",
-      "pipKey": "bullet.pip.pricey",
+      "tone": "mid",
+      "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 12,
+        "pct": 50,
         "ppkm": 99
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.lowKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 92
+        "pct": 75
       }
     },
     {
@@ -62,14 +62,14 @@
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.high",
+    "verdictKey": "summary.verdict.fair",
     "cohortLineKey": "summary.cohortLine.yes",
-    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": null,
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 27,
+      "refSize": 4,
       "year": "2025",
       "title": "MG HS"
     }

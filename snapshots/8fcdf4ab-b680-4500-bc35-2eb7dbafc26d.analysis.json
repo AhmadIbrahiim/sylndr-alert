@@ -1,29 +1,29 @@
 {
   "vehicleId": "8fcdf4ab-b680-4500-bc35-2eb7dbafc26d",
-  "computedAt": "2026-09-10T17:16:32.198Z",
+  "computedAt": "2026-09-10T19:04:25.141Z",
   "cohort": {
-    "sameModelCount": 39,
-    "sameYearCount": 13,
+    "sameModelCount": 40,
+    "sameYearCount": 14,
     "refCohort": "model+year",
-    "refSize": 13
+    "refSize": 14
   },
-  "pricePercentile": 31,
+  "pricePercentile": 29,
   "pricePerKm": 5.6973293768546,
-  "pricePerKmPercentile": 62,
-  "kmPercentile": 31,
+  "pricePerKmPercentile": 57,
+  "kmPercentile": 36,
   "daysListed": 53,
   "marginPct": 16.815476190476193,
   "marginTier": "mid",
   "auctionHeat": "cold",
-  "dealTag": "fair",
+  "dealTag": "good",
   "bullets": [
     {
       "tone": "good",
       "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 69,
-        "n": 13,
+        "pct": 71,
+        "n": 14,
         "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
@@ -32,16 +32,16 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 38,
+        "pct": 43,
         "ppkm": 6
       }
     },
     {
-      "tone": "good",
-      "pipKey": "bullet.pip.lowKm",
+      "tone": "mid",
+      "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 69
+        "pct": 64
       }
     },
     {
@@ -70,14 +70,14 @@
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.fair",
+    "verdictKey": "summary.verdict.good",
     "cohortLineKey": "summary.cohortLine.yes",
     "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 13,
+      "refSize": 14,
       "year": "2019",
       "title": "Renault Duster"
     }

@@ -1,29 +1,29 @@
 {
   "vehicleId": "f924aedd-8db1-43d6-bc77-d8aad8939fc1",
-  "computedAt": "2026-09-10T17:16:35.238Z",
+  "computedAt": "2026-09-10T19:04:28.479Z",
   "cohort": {
-    "sameModelCount": 15,
+    "sameModelCount": 16,
     "sameYearCount": 2,
     "refCohort": "model",
-    "refSize": 15
+    "refSize": 16
   },
-  "pricePercentile": 47,
+  "pricePercentile": 50,
   "pricePerKm": 3.858435337945716,
-  "pricePerKmPercentile": 27,
-  "kmPercentile": 40,
+  "pricePerKmPercentile": 31,
+  "kmPercentile": 38,
   "daysListed": 111,
   "marginPct": 27.448275862068964,
   "marginTier": "mid",
   "auctionHeat": "cold",
-  "dealTag": "fair",
+  "dealTag": "good",
   "bullets": [
     {
       "tone": "mid",
       "pipKey": "bullet.pip.mid",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 53,
-        "n": 15,
+        "pct": 50,
+        "n": 16,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 73,
+        "pct": 69,
         "ppkm": 4
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 60
+        "pct": 62
       }
     },
     {
@@ -70,14 +70,14 @@
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.fair",
+    "verdictKey": "summary.verdict.good",
     "cohortLineKey": "summary.cohortLine.yes",
     "cohortKindKey": "detail.cohort.refSize.kind.model",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 15,
+      "refSize": 16,
       "year": "2017",
       "title": "Ford Kuga"
     }

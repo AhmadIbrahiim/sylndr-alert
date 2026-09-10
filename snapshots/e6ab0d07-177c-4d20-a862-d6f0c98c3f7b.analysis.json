@@ -1,16 +1,16 @@
 {
   "vehicleId": "e6ab0d07-177c-4d20-a862-d6f0c98c3f7b",
-  "computedAt": "2026-09-10T17:16:33.050Z",
+  "computedAt": "2026-09-10T19:04:26.094Z",
   "cohort": {
-    "sameModelCount": 88,
-    "sameYearCount": 9,
+    "sameModelCount": 90,
+    "sameYearCount": 10,
     "refCohort": "model+year",
-    "refSize": 9
+    "refSize": 10
   },
-  "pricePercentile": 33,
+  "pricePercentile": 40,
   "pricePerKm": 67.46987951807229,
-  "pricePerKmPercentile": 44,
-  "kmPercentile": 44,
+  "pricePerKmPercentile": 40,
+  "kmPercentile": 50,
   "daysListed": 1,
   "marginPct": null,
   "marginTier": null,
@@ -18,12 +18,12 @@
   "dealTag": "fair",
   "bullets": [
     {
-      "tone": "good",
-      "pipKey": "bullet.pip.deal",
+      "tone": "mid",
+      "pipKey": "bullet.pip.mid",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 67,
-        "n": 9,
+        "pct": 60,
+        "n": 10,
         "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 56,
+        "pct": 60,
         "ppkm": 67
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 56
+        "pct": 50
       }
     },
     {
@@ -63,7 +63,7 @@
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 9,
+      "refSize": 10,
       "year": "2022",
       "title": "Mercedes-Benz C180"
     }

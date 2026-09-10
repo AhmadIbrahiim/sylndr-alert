@@ -1,16 +1,16 @@
 {
   "vehicleId": "2066f241-0119-4499-ad26-48ccf3059fc6",
-  "computedAt": "2026-09-10T17:16:34.473Z",
+  "computedAt": "2026-09-10T19:04:27.649Z",
   "cohort": {
-    "sameModelCount": 8,
+    "sameModelCount": 9,
     "sameYearCount": 2,
     "refCohort": "model",
-    "refSize": 8
+    "refSize": 9
   },
-  "pricePercentile": 75,
+  "pricePercentile": 78,
   "pricePerKm": 9.670920080591001,
-  "pricePerKmPercentile": 63,
-  "kmPercentile": 38,
+  "pricePerKmPercentile": 67,
+  "kmPercentile": 33,
   "daysListed": 13,
   "marginPct": null,
   "marginTier": null,
@@ -22,8 +22,8 @@
       "pipKey": "bullet.pip.high",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 25,
-        "n": 8,
+        "pct": 22,
+        "n": 9,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -32,16 +32,16 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 37,
+        "pct": 33,
         "ppkm": 10
       }
     },
     {
-      "tone": "mid",
-      "pipKey": "bullet.pip.km",
+      "tone": "good",
+      "pipKey": "bullet.pip.lowKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 62
+        "pct": 67
       }
     },
     {
@@ -58,7 +58,7 @@
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 8,
+      "refSize": 9,
       "year": "2016",
       "title": "Hyundai I10"
     }

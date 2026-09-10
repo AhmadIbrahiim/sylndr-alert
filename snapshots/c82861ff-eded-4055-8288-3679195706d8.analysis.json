@@ -1,16 +1,16 @@
 {
   "vehicleId": "c82861ff-eded-4055-8288-3679195706d8",
-  "computedAt": "2026-09-10T17:16:34.823Z",
+  "computedAt": "2026-09-10T19:04:28.037Z",
   "cohort": {
-    "sameModelCount": 29,
-    "sameYearCount": 3,
-    "refCohort": "model",
-    "refSize": 29
+    "sameModelCount": 30,
+    "sameYearCount": 4,
+    "refCohort": "model+year",
+    "refSize": 4
   },
-  "pricePercentile": 10,
+  "pricePercentile": 0,
   "pricePerKm": 6.64584050039093,
-  "pricePerKmPercentile": 21,
-  "kmPercentile": 72,
+  "pricePerKmPercentile": 25,
+  "kmPercentile": 25,
   "daysListed": 136,
   "marginPct": 15.882649825941792,
   "marginTier": "mid",
@@ -22,9 +22,9 @@
       "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 90,
-        "n": 29,
-        "kind": "detail.cohort.refSize.kind.model"
+        "pct": 100,
+        "n": 4,
+        "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
@@ -32,16 +32,16 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 79,
+        "pct": 75,
         "ppkm": 7
       }
     },
     {
-      "tone": "hot",
-      "pipKey": "bullet.pip.highKm",
+      "tone": "good",
+      "pipKey": "bullet.pip.lowKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 28
+        "pct": 75
       }
     },
     {
@@ -72,12 +72,12 @@
   "summary": {
     "verdictKey": "summary.verdict.good",
     "cohortLineKey": "summary.cohortLine.yes",
-    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": null,
     "args": {
-      "refSize": 29,
+      "refSize": 4,
       "year": "2020",
       "title": "MG RX5"
     }

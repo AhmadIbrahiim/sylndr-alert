@@ -1,16 +1,16 @@
 {
   "vehicleId": "0100f693-387e-4599-a419-0133ca9cfec9",
-  "computedAt": "2026-09-10T17:16:32.448Z",
+  "computedAt": "2026-09-10T19:04:25.415Z",
   "cohort": {
-    "sameModelCount": 13,
-    "sameYearCount": 4,
+    "sameModelCount": 14,
+    "sameYearCount": 5,
     "refCohort": "model+year",
-    "refSize": 4
+    "refSize": 5
   },
-  "pricePercentile": 25,
+  "pricePercentile": 20,
   "pricePerKm": 21.446895844022574,
-  "pricePerKmPercentile": 25,
-  "kmPercentile": 50,
+  "pricePerKmPercentile": 20,
+  "kmPercentile": 60,
   "daysListed": 22,
   "marginPct": null,
   "marginTier": null,
@@ -22,8 +22,8 @@
       "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 75,
-        "n": 4,
+        "pct": 80,
+        "n": 5,
         "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 75,
+        "pct": 80,
         "ppkm": 21
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 50
+        "pct": 40
       }
     },
     {
@@ -69,7 +69,7 @@
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 4,
+      "refSize": 5,
       "year": "2022",
       "title": "Mercedes-Benz CLA 200"
     }

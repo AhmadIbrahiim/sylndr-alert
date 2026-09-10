@@ -1,16 +1,16 @@
 {
   "vehicleId": "b295aaf3-6cd5-47c6-8a40-cd0ed3c5a577",
-  "computedAt": "2026-09-10T17:16:34.746Z",
+  "computedAt": "2026-09-10T19:04:27.949Z",
   "cohort": {
-    "sameModelCount": 3,
+    "sameModelCount": 4,
     "sameYearCount": 2,
     "refCohort": "model",
-    "refSize": 3
+    "refSize": 4
   },
-  "pricePercentile": 33,
+  "pricePercentile": 25,
   "pricePerKm": 31.864406779661017,
-  "pricePerKmPercentile": 33,
-  "kmPercentile": 33,
+  "pricePerKmPercentile": 25,
+  "kmPercentile": 50,
   "daysListed": 45,
   "marginPct": null,
   "marginTier": null,
@@ -22,8 +22,8 @@
       "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 67,
-        "n": 3,
+        "pct": 75,
+        "n": 4,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -32,16 +32,16 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 67,
+        "pct": 75,
         "ppkm": 32
       }
     },
     {
-      "tone": "good",
-      "pipKey": "bullet.pip.lowKm",
+      "tone": "mid",
+      "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 67
+        "pct": 50
       }
     },
     {
@@ -69,7 +69,7 @@
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 3,
+      "refSize": 4,
       "year": "2023",
       "title": "Cupra Formentor"
     }

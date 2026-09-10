@@ -1,16 +1,16 @@
 {
   "vehicleId": "3fe59b39-df62-4e3a-9e56-29f1236e4b01",
-  "computedAt": "2026-09-10T17:16:33.686Z",
+  "computedAt": "2026-09-10T19:04:26.796Z",
   "cohort": {
-    "sameModelCount": 24,
+    "sameModelCount": 25,
     "sameYearCount": 2,
     "refCohort": "model",
-    "refSize": 24
+    "refSize": 25
   },
   "pricePercentile": 92,
   "pricePerKm": 459.4594594594595,
-  "pricePerKmPercentile": 92,
-  "kmPercentile": 4,
+  "pricePerKmPercentile": 88,
+  "kmPercentile": 8,
   "daysListed": 33,
   "marginPct": null,
   "marginTier": null,
@@ -23,7 +23,7 @@
       "textKey": "bullet.priceCheaper",
       "textArgs": {
         "pct": 8,
-        "n": 24,
+        "n": 25,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.pricey",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 8,
+        "pct": 12,
         "ppkm": 459
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.lowKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 96
+        "pct": 92
       }
     },
     {
@@ -69,7 +69,7 @@
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 24,
+      "refSize": 25,
       "year": "2025",
       "title": "Mercedes-Benz E200"
     }
