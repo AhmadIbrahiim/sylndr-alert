@@ -1,47 +1,47 @@
 {
   "vehicleId": "c3ce6ac5-6db9-4d07-ad0d-1d0869a9f04e",
-  "computedAt": "2026-09-10T19:04:26.132Z",
+  "computedAt": "2026-09-11T09:20:53.664Z",
   "cohort": {
-    "sameModelCount": 90,
-    "sameYearCount": 3,
-    "refCohort": "model",
-    "refSize": 90
+    "sameModelCount": 92,
+    "sameYearCount": 4,
+    "refCohort": "model+year",
+    "refSize": 4
   },
-  "pricePercentile": 8,
+  "pricePercentile": 75,
   "pricePerKm": 3.466993521274733,
-  "pricePerKmPercentile": 4,
-  "kmPercentile": 93,
+  "pricePerKmPercentile": 50,
+  "kmPercentile": 50,
   "daysListed": 118,
   "marginPct": 34.54545454545455,
   "marginTier": "high",
   "auctionHeat": "hot",
-  "dealTag": "good",
+  "dealTag": "fair",
   "bullets": [
     {
-      "tone": "good",
-      "pipKey": "bullet.pip.deal",
+      "tone": "hot",
+      "pipKey": "bullet.pip.high",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 92,
-        "n": 90,
-        "kind": "detail.cohort.refSize.kind.model"
+        "pct": 25,
+        "n": 4,
+        "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
-      "tone": "good",
+      "tone": "mid",
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 96,
+        "pct": 50,
         "ppkm": 3
       }
     },
     {
-      "tone": "hot",
-      "pipKey": "bullet.pip.highKm",
+      "tone": "mid",
+      "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 7
+        "pct": 50
       }
     },
     {
@@ -70,14 +70,14 @@
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.good",
+    "verdictKey": "summary.verdict.fair",
     "cohortLineKey": "summary.cohortLine.yes",
-    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": "summary.suffix.marginHigh",
     "args": {
-      "refSize": 90,
+      "refSize": 4,
       "year": "2010",
       "title": "Mercedes-Benz C180"
     }

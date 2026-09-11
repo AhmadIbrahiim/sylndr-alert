@@ -1,17 +1,17 @@
 {
   "vehicleId": "2f4541a4-cd2e-4c99-9ce6-e5fc34701ade",
-  "computedAt": "2026-09-10T19:04:25.903Z",
+  "computedAt": "2026-09-11T09:20:53.435Z",
   "cohort": {
-    "sameModelCount": 30,
+    "sameModelCount": 31,
     "sameYearCount": 1,
     "refCohort": "model",
-    "refSize": 30
+    "refSize": 31
   },
   "pricePercentile": 3,
   "pricePerKm": 2.1014289717007566,
   "pricePerKmPercentile": 0,
   "kmPercentile": 97,
-  "daysListed": 1,
+  "daysListed": 2,
   "marginPct": null,
   "marginTier": null,
   "auctionHeat": "cold",
@@ -23,7 +23,7 @@
       "textKey": "bullet.priceCheaper",
       "textArgs": {
         "pct": 97,
-        "n": 30,
+        "n": 31,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -48,22 +48,17 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.cold",
       "textKey": "bullet.auctionCold"
-    },
-    {
-      "tone": "good",
-      "pipKey": "bullet.pip.fresh",
-      "textKey": "bullet.listedFresh"
     }
   ],
   "summary": {
     "verdictKey": "summary.verdict.good",
     "cohortLineKey": "summary.cohortLine.yes",
     "cohortKindKey": "detail.cohort.refSize.kind.model",
-    "ageSuffixKey": "summary.suffix.ageFresh",
+    "ageSuffixKey": null,
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 30,
+      "refSize": 31,
       "year": "2008",
       "title": "BMW X3"
     }

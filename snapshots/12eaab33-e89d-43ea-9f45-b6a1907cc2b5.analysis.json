@@ -1,17 +1,17 @@
 {
   "vehicleId": "12eaab33-e89d-43ea-9f45-b6a1907cc2b5",
-  "computedAt": "2026-09-10T19:04:24.749Z",
+  "computedAt": "2026-09-11T09:20:52.285Z",
   "cohort": {
-    "sameModelCount": 30,
+    "sameModelCount": 31,
     "sameYearCount": 1,
     "refCohort": "model",
-    "refSize": 30
+    "refSize": 31
   },
-  "pricePercentile": 60,
+  "pricePercentile": 58,
   "pricePerKm": 12.048192771084338,
-  "pricePerKmPercentile": 57,
-  "kmPercentile": 40,
-  "daysListed": 1,
+  "pricePerKmPercentile": 55,
+  "kmPercentile": 42,
+  "daysListed": 2,
   "marginPct": null,
   "marginTier": null,
   "auctionHeat": "cold",
@@ -22,8 +22,8 @@
       "pipKey": "bullet.pip.mid",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 40,
-        "n": 30,
+        "pct": 42,
+        "n": 31,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 43,
+        "pct": 45,
         "ppkm": 12
       }
     },
@@ -41,29 +41,24 @@
       "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 60
+        "pct": 58
       }
     },
     {
       "tone": "neutral",
       "pipKey": "bullet.pip.cold",
       "textKey": "bullet.auctionCold"
-    },
-    {
-      "tone": "good",
-      "pipKey": "bullet.pip.fresh",
-      "textKey": "bullet.listedFresh"
     }
   ],
   "summary": {
     "verdictKey": "summary.verdict.fair",
     "cohortLineKey": "summary.cohortLine.yes",
     "cohortKindKey": "detail.cohort.refSize.kind.model",
-    "ageSuffixKey": "summary.suffix.ageFresh",
+    "ageSuffixKey": null,
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 30,
+      "refSize": 31,
       "year": "2017",
       "title": "BMW X3"
     }

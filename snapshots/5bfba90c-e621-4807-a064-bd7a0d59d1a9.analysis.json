@@ -1,16 +1,16 @@
 {
   "vehicleId": "5bfba90c-e621-4807-a064-bd7a0d59d1a9",
-  "computedAt": "2026-09-10T19:04:28.301Z",
+  "computedAt": "2026-09-11T09:20:55.854Z",
   "cohort": {
-    "sameModelCount": 90,
-    "sameYearCount": 3,
-    "refCohort": "model",
-    "refSize": 90
+    "sameModelCount": 92,
+    "sameYearCount": 4,
+    "refCohort": "model+year",
+    "refSize": 4
   },
-  "pricePercentile": 6,
+  "pricePercentile": 50,
   "pricePerKm": 2.8447024673439767,
   "pricePerKmPercentile": 0,
-  "kmPercentile": 97,
+  "kmPercentile": 75,
   "daysListed": 21,
   "marginPct": null,
   "marginTier": null,
@@ -18,13 +18,13 @@
   "dealTag": "good",
   "bullets": [
     {
-      "tone": "good",
-      "pipKey": "bullet.pip.deal",
+      "tone": "mid",
+      "pipKey": "bullet.pip.mid",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 94,
-        "n": 90,
-        "kind": "detail.cohort.refSize.kind.model"
+        "pct": 50,
+        "n": 4,
+        "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.highKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 3
+        "pct": 25
       }
     },
     {
@@ -64,12 +64,12 @@
   "summary": {
     "verdictKey": "summary.verdict.good",
     "cohortLineKey": "summary.cohortLine.yes",
-    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": null,
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 90,
+      "refSize": 4,
       "year": "2010",
       "title": "Mercedes-Benz C180"
     }
