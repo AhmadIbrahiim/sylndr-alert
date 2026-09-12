@@ -1,47 +1,47 @@
 {
   "vehicleId": "4e6a2a0d-1a11-495c-af24-1b1183a3f506",
-  "computedAt": "2026-09-12T15:59:18.592Z",
+  "computedAt": "2026-09-12T18:17:14.348Z",
   "cohort": {
-    "sameModelCount": 40,
-    "sameYearCount": 3,
-    "refCohort": "model",
-    "refSize": 40
+    "sameModelCount": 41,
+    "sameYearCount": 4,
+    "refCohort": "model+year",
+    "refSize": 4
   },
-  "pricePercentile": 43,
+  "pricePercentile": 50,
   "pricePerKm": 10.15406162464986,
-  "pricePerKmPercentile": 48,
-  "kmPercentile": 53,
+  "pricePerKmPercentile": 25,
+  "kmPercentile": 25,
   "daysListed": 44,
   "marginPct": null,
   "marginTier": null,
   "auctionHeat": "cold",
-  "dealTag": "fair",
+  "dealTag": "good",
   "bullets": [
     {
       "tone": "mid",
       "pipKey": "bullet.pip.mid",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 57,
-        "n": 40,
-        "kind": "detail.cohort.refSize.kind.model"
+        "pct": 50,
+        "n": 4,
+        "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
-      "tone": "mid",
+      "tone": "good",
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 52,
+        "pct": 75,
         "ppkm": 10
       }
     },
     {
-      "tone": "mid",
-      "pipKey": "bullet.pip.km",
+      "tone": "good",
+      "pipKey": "bullet.pip.lowKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 47
+        "pct": 75
       }
     },
     {
@@ -62,14 +62,14 @@
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.fair",
+    "verdictKey": "summary.verdict.good",
     "cohortLineKey": "summary.cohortLine.yes",
-    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 40,
+      "refSize": 4,
       "year": "2019",
       "title": "Kia Sportage"
     }

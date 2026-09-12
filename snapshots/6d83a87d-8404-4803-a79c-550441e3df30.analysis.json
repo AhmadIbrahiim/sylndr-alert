@@ -1,16 +1,16 @@
 {
   "vehicleId": "6d83a87d-8404-4803-a79c-550441e3df30",
-  "computedAt": "2026-09-12T15:59:21.402Z",
+  "computedAt": "2026-09-12T18:17:18.226Z",
   "cohort": {
-    "sameModelCount": 8,
-    "sameYearCount": 5,
+    "sameModelCount": 9,
+    "sameYearCount": 6,
     "refCohort": "model+year",
-    "refSize": 5
+    "refSize": 6
   },
-  "pricePercentile": 40,
+  "pricePercentile": 33,
   "pricePerKm": 3.7963241940343475,
-  "pricePerKmPercentile": 20,
-  "kmPercentile": 60,
+  "pricePerKmPercentile": 17,
+  "kmPercentile": 67,
   "daysListed": 93,
   "marginPct": 18.88888888888889,
   "marginTier": "mid",
@@ -18,12 +18,12 @@
   "dealTag": "good",
   "bullets": [
     {
-      "tone": "mid",
-      "pipKey": "bullet.pip.mid",
+      "tone": "good",
+      "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 60,
-        "n": 5,
+        "pct": 67,
+        "n": 6,
         "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 80,
+        "pct": 83,
         "ppkm": 4
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 40
+        "pct": 33
       }
     },
     {
@@ -77,7 +77,7 @@
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 5,
+      "refSize": 6,
       "year": "2019",
       "title": "Ford Ecosport"
     }
