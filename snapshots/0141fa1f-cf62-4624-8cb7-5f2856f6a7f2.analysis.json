@@ -1,22 +1,49 @@
 {
   "vehicleId": "0141fa1f-cf62-4624-8cb7-5f2856f6a7f2",
-  "computedAt": "2026-09-11T19:06:43.032Z",
+  "computedAt": "2026-09-12T09:00:08.839Z",
   "cohort": {
-    "sameModelCount": 2,
+    "sameModelCount": 3,
     "sameYearCount": 2,
     "refCohort": "model",
-    "refSize": 2
+    "refSize": 3
   },
-  "pricePercentile": null,
+  "pricePercentile": 33,
   "pricePerKm": 11.30524152106886,
-  "pricePerKmPercentile": null,
-  "kmPercentile": null,
-  "daysListed": 66,
+  "pricePerKmPercentile": 67,
+  "kmPercentile": 0,
+  "daysListed": 67,
   "marginPct": 35.515151515151516,
   "marginTier": "high",
   "auctionHeat": "cold",
   "dealTag": "fair",
   "bullets": [
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.deal",
+      "textKey": "bullet.priceCheaper",
+      "textArgs": {
+        "pct": 67,
+        "n": 3,
+        "kind": "detail.cohort.refSize.kind.model"
+      }
+    },
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.value",
+      "textKey": "bullet.ppkmBetter",
+      "textArgs": {
+        "pct": 33,
+        "ppkm": 11
+      }
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.lowKm",
+      "textKey": "bullet.kmLower",
+      "textArgs": {
+        "pct": 100
+      }
+    },
     {
       "tone": "hot",
       "pipKey": "bullet.pip.marginPct",
@@ -34,11 +61,11 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 66
+        "n": 67
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 66
+        "n": 67
       }
     }
   ],
@@ -50,7 +77,7 @@
     "heatSuffixKey": null,
     "marginSuffixKey": "summary.suffix.marginHigh",
     "args": {
-      "refSize": 2,
+      "refSize": 3,
       "year": "2021",
       "title": "Volvo XC40"
     }
