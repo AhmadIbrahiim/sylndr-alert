@@ -1,17 +1,17 @@
 {
   "vehicleId": "3080381c-310f-4871-873c-0a9a993c1768",
-  "computedAt": "2026-09-13T09:57:03.122Z",
+  "computedAt": "2026-09-13T14:04:51.143Z",
   "cohort": {
-    "sameModelCount": 33,
-    "sameYearCount": 4,
+    "sameModelCount": 34,
+    "sameYearCount": 5,
     "refCohort": "model+year",
-    "refSize": 4
+    "refSize": 5
   },
-  "pricePercentile": 25,
+  "pricePercentile": 20,
   "pricePerKm": 9.967845659163988,
-  "pricePerKmPercentile": 25,
-  "kmPercentile": 50,
-  "daysListed": 52,
+  "pricePerKmPercentile": 40,
+  "kmPercentile": 40,
+  "daysListed": 53,
   "marginPct": null,
   "marginTier": null,
   "auctionHeat": "cold",
@@ -22,17 +22,17 @@
       "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 75,
-        "n": 4,
+        "pct": 80,
+        "n": 5,
         "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
-      "tone": "good",
+      "tone": "mid",
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 75,
+        "pct": 60,
         "ppkm": 10
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 50
+        "pct": 60
       }
     },
     {
@@ -53,11 +53,11 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 52
+        "n": 53
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 52
+        "n": 53
       }
     }
   ],
@@ -69,7 +69,7 @@
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 4,
+      "refSize": 5,
       "year": "2021",
       "title": "Peugeot 301"
     }
