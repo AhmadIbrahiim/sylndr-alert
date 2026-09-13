@@ -1,29 +1,29 @@
 {
   "vehicleId": "2b91c4fe-c854-456b-bc66-0b48ca390f2f",
-  "computedAt": "2026-09-12T18:17:14.444Z",
+  "computedAt": "2026-09-13T09:57:00.886Z",
   "cohort": {
-    "sameModelCount": 9,
+    "sameModelCount": 10,
     "sameYearCount": 1,
     "refCohort": "model",
-    "refSize": 9
+    "refSize": 10
   },
-  "pricePercentile": 89,
+  "pricePercentile": 80,
   "pricePerKm": 22.967101179391683,
-  "pricePerKmPercentile": 78,
-  "kmPercentile": 22,
-  "daysListed": 48,
+  "pricePerKmPercentile": 80,
+  "kmPercentile": 20,
+  "daysListed": 49,
   "marginPct": null,
   "marginTier": null,
   "auctionHeat": "cold",
-  "dealTag": "high",
+  "dealTag": "fair",
   "bullets": [
     {
       "tone": "hot",
       "pipKey": "bullet.pip.high",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 11,
-        "n": 9,
+        "pct": 20,
+        "n": 10,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.pricey",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 22,
+        "pct": 20,
         "ppkm": 23
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.lowKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 78
+        "pct": 80
       }
     },
     {
@@ -53,23 +53,23 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 48
+        "n": 49
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 48
+        "n": 49
       }
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.high",
+    "verdictKey": "summary.verdict.fair",
     "cohortLineKey": "summary.cohortLine.yes",
     "cohortKindKey": "detail.cohort.refSize.kind.model",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 9,
+      "refSize": 10,
       "year": "2021",
       "title": "Kia Sorento"
     }

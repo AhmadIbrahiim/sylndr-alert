@@ -1,17 +1,17 @@
 {
   "vehicleId": "4e19c909-665c-48bf-af17-a227d5b1d1ce",
-  "computedAt": "2026-09-12T18:17:16.777Z",
+  "computedAt": "2026-09-13T09:57:02.627Z",
   "cohort": {
-    "sameModelCount": 80,
-    "sameYearCount": 16,
+    "sameModelCount": 81,
+    "sameYearCount": 17,
     "refCohort": "model+year",
-    "refSize": 16
+    "refSize": 17
   },
-  "pricePercentile": 75,
+  "pricePercentile": 71,
   "pricePerKm": 5.326460481099656,
-  "pricePerKmPercentile": 25,
-  "kmPercentile": 69,
-  "daysListed": 69,
+  "pricePerKmPercentile": 24,
+  "kmPercentile": 71,
+  "daysListed": 70,
   "marginPct": 27.225806451612904,
   "marginTier": "mid",
   "auctionHeat": "warm",
@@ -22,8 +22,8 @@
       "pipKey": "bullet.pip.high",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 25,
-        "n": 16,
+        "pct": 29,
+        "n": 17,
         "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
@@ -32,16 +32,16 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 75,
+        "pct": 76,
         "ppkm": 5
       }
     },
     {
-      "tone": "mid",
-      "pipKey": "bullet.pip.km",
+      "tone": "hot",
+      "pipKey": "bullet.pip.highKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 31
+        "pct": 29
       }
     },
     {
@@ -61,11 +61,11 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 69
+        "n": 70
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 69
+        "n": 70
       }
     }
   ],
@@ -77,7 +77,7 @@
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 16,
+      "refSize": 17,
       "year": "2021",
       "title": "Opel Astra"
     }

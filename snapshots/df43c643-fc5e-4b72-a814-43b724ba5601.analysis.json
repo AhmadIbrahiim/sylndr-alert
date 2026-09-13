@@ -1,17 +1,17 @@
 {
   "vehicleId": "df43c643-fc5e-4b72-a814-43b724ba5601",
-  "computedAt": "2026-09-12T18:17:14.551Z",
+  "computedAt": "2026-09-13T09:57:00.965Z",
   "cohort": {
-    "sameModelCount": 7,
+    "sameModelCount": 8,
     "sameYearCount": 2,
     "refCohort": "model",
-    "refSize": 7
+    "refSize": 8
   },
-  "pricePercentile": 29,
+  "pricePercentile": 25,
   "pricePerKm": 1.5271008309005165,
   "pricePerKmPercentile": 0,
-  "kmPercentile": 71,
-  "daysListed": 160,
+  "kmPercentile": 75,
+  "daysListed": 161,
   "marginPct": 42.06035722583814,
   "marginTier": "high",
   "auctionHeat": "hot",
@@ -22,8 +22,8 @@
       "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 71,
-        "n": 7,
+        "pct": 75,
+        "n": 8,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.highKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 29
+        "pct": 25
       }
     },
     {
@@ -61,11 +61,11 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 160
+        "n": 161
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 160
+        "n": 161
       }
     }
   ],
@@ -77,7 +77,7 @@
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": "summary.suffix.marginHigh",
     "args": {
-      "refSize": 7,
+      "refSize": 8,
       "year": "2013",
       "title": "Proton Saga"
     }

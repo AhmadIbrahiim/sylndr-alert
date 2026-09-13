@@ -1,17 +1,17 @@
 {
   "vehicleId": "447d2478-b6f9-4000-ab40-e3ef5cd1ad45",
-  "computedAt": "2026-09-12T18:17:15.797Z",
+  "computedAt": "2026-09-13T09:57:01.893Z",
   "cohort": {
-    "sameModelCount": 53,
+    "sameModelCount": 54,
     "sameYearCount": 2,
     "refCohort": "model",
-    "refSize": 53
+    "refSize": 54
   },
   "pricePercentile": 19,
   "pricePerKm": 1.9966722129783694,
-  "pricePerKmPercentile": 23,
+  "pricePerKmPercentile": 22,
   "kmPercentile": 70,
-  "daysListed": 13,
+  "daysListed": 14,
   "marginPct": null,
   "marginTier": null,
   "auctionHeat": "cold",
@@ -23,7 +23,7 @@
       "textKey": "bullet.priceCheaper",
       "textArgs": {
         "pct": 81,
-        "n": 53,
+        "n": 54,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 77,
+        "pct": 78,
         "ppkm": 2
       }
     },
@@ -48,6 +48,17 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.cold",
       "textKey": "bullet.auctionCold"
+    },
+    {
+      "tone": "neutral",
+      "pipKey": "bullet.pip.daysListed",
+      "pipArgs": {
+        "n": 14
+      },
+      "textKey": "bullet.listedOld",
+      "textArgs": {
+        "n": 14
+      }
     }
   ],
   "summary": {
@@ -58,7 +69,7 @@
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 53,
+      "refSize": 54,
       "year": "2012",
       "title": "Renault Logan"
     }

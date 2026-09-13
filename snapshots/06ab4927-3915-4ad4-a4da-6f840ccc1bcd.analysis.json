@@ -1,29 +1,29 @@
 {
   "vehicleId": "06ab4927-3915-4ad4-a4da-6f840ccc1bcd",
-  "computedAt": "2026-09-12T18:17:18.222Z",
+  "computedAt": "2026-09-13T09:57:03.718Z",
   "cohort": {
-    "sameModelCount": 15,
-    "sameYearCount": 12,
+    "sameModelCount": 16,
+    "sameYearCount": 13,
     "refCohort": "model+year",
-    "refSize": 12
+    "refSize": 13
   },
-  "pricePercentile": 42,
+  "pricePercentile": 38,
   "pricePerKm": 10.205940594059406,
-  "pricePerKmPercentile": 33,
-  "kmPercentile": 58,
-  "daysListed": 153,
+  "pricePerKmPercentile": 31,
+  "kmPercentile": 54,
+  "daysListed": 154,
   "marginPct": 28.658846004596878,
   "marginTier": "mid",
   "auctionHeat": "hot",
-  "dealTag": "fair",
+  "dealTag": "good",
   "bullets": [
     {
       "tone": "mid",
       "pipKey": "bullet.pip.mid",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 58,
-        "n": 12,
+        "pct": 62,
+        "n": 13,
         "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 67,
+        "pct": 69,
         "ppkm": 10
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 42
+        "pct": 46
       }
     },
     {
@@ -61,23 +61,23 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 153
+        "n": 154
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 153
+        "n": 154
       }
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.fair",
+    "verdictKey": "summary.verdict.good",
     "cohortLineKey": "summary.cohortLine.yes",
     "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": null,
     "args": {
-      "refSize": 12,
+      "refSize": 13,
       "year": "2022",
       "title": "Suzuki Dzire"
     }
