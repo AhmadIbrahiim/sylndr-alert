@@ -1,29 +1,29 @@
 {
   "vehicleId": "b5b9e0fa-9bb4-4a09-819c-9b6337de25c9",
-  "computedAt": "2026-09-13T14:04:48.222Z",
+  "computedAt": "2026-09-13T17:25:04.424Z",
   "cohort": {
-    "sameModelCount": 42,
-    "sameYearCount": 4,
+    "sameModelCount": 43,
+    "sameYearCount": 5,
     "refCohort": "model+year",
-    "refSize": 4
+    "refSize": 5
   },
-  "pricePercentile": 75,
+  "pricePercentile": 80,
   "pricePerKm": 10.480821177741761,
-  "pricePerKmPercentile": 75,
-  "kmPercentile": 25,
-  "daysListed": 52,
+  "pricePerKmPercentile": 80,
+  "kmPercentile": 40,
+  "daysListed": 53,
   "marginPct": null,
   "marginTier": null,
   "auctionHeat": "cold",
-  "dealTag": "fair",
+  "dealTag": "high",
   "bullets": [
     {
       "tone": "hot",
       "pipKey": "bullet.pip.high",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 25,
-        "n": 4,
+        "pct": 20,
+        "n": 5,
         "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
@@ -32,16 +32,16 @@
       "pipKey": "bullet.pip.pricey",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 25,
+        "pct": 20,
         "ppkm": 10
       }
     },
     {
-      "tone": "good",
-      "pipKey": "bullet.pip.lowKm",
+      "tone": "mid",
+      "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 75
+        "pct": 60
       }
     },
     {
@@ -53,23 +53,23 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 52
+        "n": 53
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 52
+        "n": 53
       }
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.fair",
+    "verdictKey": "summary.verdict.high",
     "cohortLineKey": "summary.cohortLine.yes",
     "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 4,
+      "refSize": 5,
       "year": "2017",
       "title": "Kia Sportage"
     }

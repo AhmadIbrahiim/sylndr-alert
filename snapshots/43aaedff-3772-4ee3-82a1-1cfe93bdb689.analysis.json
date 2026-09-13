@@ -1,16 +1,16 @@
 {
   "vehicleId": "43aaedff-3772-4ee3-82a1-1cfe93bdb689",
-  "computedAt": "2026-09-13T14:04:51.080Z",
+  "computedAt": "2026-09-13T17:25:07.272Z",
   "cohort": {
-    "sameModelCount": 42,
-    "sameYearCount": 4,
+    "sameModelCount": 43,
+    "sameYearCount": 5,
     "refCohort": "model+year",
-    "refSize": 4
+    "refSize": 5
   },
-  "pricePercentile": 50,
+  "pricePercentile": 60,
   "pricePerKm": 5.847324826505485,
-  "pricePerKmPercentile": 25,
-  "kmPercentile": 75,
+  "pricePerKmPercentile": 20,
+  "kmPercentile": 80,
   "daysListed": 147,
   "marginPct": 43.18529862174579,
   "marginTier": "high",
@@ -22,8 +22,8 @@
       "pipKey": "bullet.pip.mid",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 50,
-        "n": 4,
+        "pct": 40,
+        "n": 5,
         "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 75,
+        "pct": 80,
         "ppkm": 6
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.highKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 25
+        "pct": 20
       }
     },
     {
@@ -77,7 +77,7 @@
     "heatSuffixKey": null,
     "marginSuffixKey": "summary.suffix.marginHigh",
     "args": {
-      "refSize": 4,
+      "refSize": 5,
       "year": "2017",
       "title": "Kia Sportage"
     }
