@@ -1,29 +1,29 @@
 {
   "vehicleId": "336bb91a-4e28-4c3f-8a27-d73557080882",
-  "computedAt": "2026-09-14T10:18:40.831Z",
+  "computedAt": "2026-09-14T16:27:00.860Z",
   "cohort": {
-    "sameModelCount": 15,
-    "sameYearCount": 2,
+    "sameModelCount": 17,
+    "sameYearCount": 3,
     "refCohort": "model",
-    "refSize": 15
+    "refSize": 17
   },
-  "pricePercentile": 27,
+  "pricePercentile": 29,
   "pricePerKm": 19.34984520123839,
-  "pricePerKmPercentile": 40,
+  "pricePerKmPercentile": 41,
   "kmPercentile": 53,
-  "daysListed": 123,
+  "daysListed": 124,
   "marginPct": 19.64,
   "marginTier": "mid",
   "auctionHeat": "warm",
-  "dealTag": "good",
+  "dealTag": "fair",
   "bullets": [
     {
       "tone": "good",
       "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 73,
-        "n": 15,
+        "pct": 71,
+        "n": 17,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 60,
+        "pct": 59,
         "ppkm": 19
       }
     },
@@ -61,23 +61,23 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 123
+        "n": 124
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 123
+        "n": 124
       }
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.good",
+    "verdictKey": "summary.verdict.fair",
     "cohortLineKey": "summary.cohortLine.yes",
     "cohortKindKey": "detail.cohort.refSize.kind.model",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 15,
+      "refSize": 17,
       "year": "2017",
       "title": "BMW X5"
     }

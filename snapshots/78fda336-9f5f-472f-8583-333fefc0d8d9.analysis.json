@@ -1,15 +1,15 @@
 {
   "vehicleId": "78fda336-9f5f-472f-8583-333fefc0d8d9",
-  "computedAt": "2026-09-14T10:18:42.198Z",
+  "computedAt": "2026-09-14T16:27:02.274Z",
   "cohort": {
-    "sameModelCount": 3,
+    "sameModelCount": 5,
     "sameYearCount": 1,
     "refCohort": "model",
-    "refSize": 3
+    "refSize": 5
   },
-  "pricePercentile": 67,
+  "pricePercentile": 80,
   "pricePerKm": 16.473572938689216,
-  "pricePerKmPercentile": 67,
+  "pricePerKmPercentile": 80,
   "kmPercentile": 0,
   "daysListed": 1,
   "marginPct": null,
@@ -18,21 +18,21 @@
   "dealTag": "fair",
   "bullets": [
     {
-      "tone": "mid",
-      "pipKey": "bullet.pip.mid",
+      "tone": "hot",
+      "pipKey": "bullet.pip.high",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 33,
-        "n": 3,
+        "pct": 20,
+        "n": 5,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
     {
-      "tone": "mid",
-      "pipKey": "bullet.pip.value",
+      "tone": "hot",
+      "pipKey": "bullet.pip.pricey",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 33,
+        "pct": 20,
         "ppkm": 16
       }
     },
@@ -63,7 +63,7 @@
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 3,
+      "refSize": 5,
       "year": "2022",
       "title": "Audi A4"
     }

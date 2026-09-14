@@ -1,17 +1,17 @@
 {
   "vehicleId": "bc172347-3a35-4d83-b695-25b1a790ea47",
-  "computedAt": "2026-09-14T10:18:42.480Z",
+  "computedAt": "2026-09-14T16:27:02.571Z",
   "cohort": {
-    "sameModelCount": 6,
+    "sameModelCount": 7,
     "sameYearCount": 1,
     "refCohort": "model",
-    "refSize": 6
+    "refSize": 7
   },
-  "pricePercentile": 83,
+  "pricePercentile": 86,
   "pricePerKm": 5.947625388371061,
-  "pricePerKmPercentile": 67,
-  "kmPercentile": 33,
-  "daysListed": 161,
+  "pricePerKmPercentile": 71,
+  "kmPercentile": 29,
+  "daysListed": 162,
   "marginPct": 29.402985074626862,
   "marginTier": "mid",
   "auctionHeat": "warm",
@@ -22,17 +22,17 @@
       "pipKey": "bullet.pip.high",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 17,
-        "n": 6,
+        "pct": 14,
+        "n": 7,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
     {
-      "tone": "mid",
-      "pipKey": "bullet.pip.value",
+      "tone": "hot",
+      "pipKey": "bullet.pip.pricey",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 33,
+        "pct": 29,
         "ppkm": 6
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.lowKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 67
+        "pct": 71
       }
     },
     {
@@ -61,11 +61,11 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 161
+        "n": 162
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 161
+        "n": 162
       }
     }
   ],
@@ -77,7 +77,7 @@
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 6,
+      "refSize": 7,
       "year": "2016",
       "title": "Ford Fiesta"
     }

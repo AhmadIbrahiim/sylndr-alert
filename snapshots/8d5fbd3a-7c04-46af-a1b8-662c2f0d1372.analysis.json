@@ -1,16 +1,16 @@
 {
   "vehicleId": "8d5fbd3a-7c04-46af-a1b8-662c2f0d1372",
-  "computedAt": "2026-09-14T10:18:39.916Z",
+  "computedAt": "2026-09-14T16:26:59.920Z",
   "cohort": {
-    "sameModelCount": 54,
-    "sameYearCount": 3,
-    "refCohort": "model",
-    "refSize": 54
+    "sameModelCount": 55,
+    "sameYearCount": 4,
+    "refCohort": "model+year",
+    "refSize": 4
   },
-  "pricePercentile": 11,
+  "pricePercentile": 0,
   "pricePerKm": 1.6381594796434593,
-  "pricePerKmPercentile": 15,
-  "kmPercentile": 85,
+  "pricePerKmPercentile": 0,
+  "kmPercentile": 75,
   "daysListed": 135,
   "marginPct": 36.17647058823529,
   "marginTier": "high",
@@ -22,9 +22,9 @@
       "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 89,
-        "n": 54,
-        "kind": "detail.cohort.refSize.kind.model"
+        "pct": 100,
+        "n": 4,
+        "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 85,
+        "pct": 100,
         "ppkm": 2
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.highKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 15
+        "pct": 25
       }
     },
     {
@@ -72,12 +72,12 @@
   "summary": {
     "verdictKey": "summary.verdict.good",
     "cohortLineKey": "summary.cohortLine.yes",
-    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": "summary.suffix.marginHigh",
     "args": {
-      "refSize": 54,
+      "refSize": 4,
       "year": "2015",
       "title": "Renault Logan"
     }

@@ -1,38 +1,38 @@
 {
   "vehicleId": "4059ed3d-25a3-4e07-b9bb-64244c13c5b4",
-  "computedAt": "2026-09-14T10:18:40.200Z",
+  "computedAt": "2026-09-14T16:27:00.211Z",
   "cohort": {
-    "sameModelCount": 3,
+    "sameModelCount": 5,
     "sameYearCount": 1,
     "refCohort": "model",
-    "refSize": 3
+    "refSize": 5
   },
-  "pricePercentile": 0,
+  "pricePercentile": 40,
   "pricePerKm": 8.526885141584474,
-  "pricePerKmPercentile": 0,
-  "kmPercentile": 67,
-  "daysListed": 61,
+  "pricePerKmPercentile": 40,
+  "kmPercentile": 40,
+  "daysListed": 62,
   "marginPct": 17.238805970149254,
   "marginTier": "mid",
   "auctionHeat": "cold",
-  "dealTag": "good",
+  "dealTag": "fair",
   "bullets": [
     {
-      "tone": "good",
-      "pipKey": "bullet.pip.deal",
+      "tone": "mid",
+      "pipKey": "bullet.pip.mid",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 100,
-        "n": 3,
+        "pct": 60,
+        "n": 5,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
     {
-      "tone": "good",
+      "tone": "mid",
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 100,
+        "pct": 60,
         "ppkm": 9
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 33
+        "pct": 60
       }
     },
     {
@@ -61,23 +61,23 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 61
+        "n": 62
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 61
+        "n": 62
       }
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.good",
+    "verdictKey": "summary.verdict.fair",
     "cohortLineKey": "summary.cohortLine.yes",
     "cohortKindKey": "detail.cohort.refSize.kind.model",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 3,
+      "refSize": 5,
       "year": "2019",
       "title": "Audi A4"
     }

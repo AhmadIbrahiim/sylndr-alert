@@ -1,17 +1,17 @@
 {
   "vehicleId": "edc7d935-5b59-4181-a14e-951b7ef5cb55",
-  "computedAt": "2026-09-14T10:18:41.125Z",
+  "computedAt": "2026-09-14T16:27:01.164Z",
   "cohort": {
-    "sameModelCount": 17,
-    "sameYearCount": 2,
+    "sameModelCount": 18,
+    "sameYearCount": 3,
     "refCohort": "model",
-    "refSize": 17
+    "refSize": 18
   },
   "pricePercentile": 6,
   "pricePerKm": 2.2610483042137717,
   "pricePerKmPercentile": 0,
-  "kmPercentile": 88,
-  "daysListed": 29,
+  "kmPercentile": 89,
+  "daysListed": 30,
   "marginPct": null,
   "marginTier": null,
   "auctionHeat": "cold",
@@ -23,7 +23,7 @@
       "textKey": "bullet.priceCheaper",
       "textArgs": {
         "pct": 94,
-        "n": 17,
+        "n": 18,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.highKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 12
+        "pct": 11
       }
     },
     {
@@ -53,11 +53,11 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 29
+        "n": 30
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 29
+        "n": 30
       }
     }
   ],
@@ -65,11 +65,11 @@
     "verdictKey": "summary.verdict.good",
     "cohortLineKey": "summary.cohortLine.yes",
     "cohortKindKey": "detail.cohort.refSize.kind.model",
-    "ageSuffixKey": null,
+    "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 17,
+      "refSize": 18,
       "year": "2014",
       "title": "Nissan Juke"
     }

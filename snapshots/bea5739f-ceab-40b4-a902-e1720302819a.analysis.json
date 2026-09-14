@@ -1,8 +1,8 @@
 {
   "vehicleId": "bea5739f-ceab-40b4-a902-e1720302819a",
-  "computedAt": "2026-09-14T10:18:38.774Z",
+  "computedAt": "2026-09-14T16:26:58.748Z",
   "cohort": {
-    "sameModelCount": 32,
+    "sameModelCount": 33,
     "sameYearCount": 6,
     "refCohort": "model+year",
     "refSize": 6
@@ -11,7 +11,7 @@
   "pricePerKm": 34.10852713178294,
   "pricePerKmPercentile": 50,
   "kmPercentile": 33,
-  "daysListed": 29,
+  "daysListed": 30,
   "marginPct": null,
   "marginTier": null,
   "auctionHeat": "cold",
@@ -53,11 +53,11 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 29
+        "n": 30
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 29
+        "n": 30
       }
     }
   ],
@@ -65,7 +65,7 @@
     "verdictKey": "summary.verdict.good",
     "cohortLineKey": "summary.cohortLine.yes",
     "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
-    "ageSuffixKey": null,
+    "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {

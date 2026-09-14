@@ -1,17 +1,17 @@
 {
   "vehicleId": "85cf941b-394a-47fb-a61e-ed7a1a2b141f",
-  "computedAt": "2026-09-14T10:18:42.258Z",
+  "computedAt": "2026-09-14T16:27:02.337Z",
   "cohort": {
-    "sameModelCount": 32,
+    "sameModelCount": 33,
     "sameYearCount": 2,
     "refCohort": "model",
-    "refSize": 32
+    "refSize": 33
   },
   "pricePercentile": 97,
   "pricePerKm": 36.248415716096325,
-  "pricePerKmPercentile": 84,
-  "kmPercentile": 19,
-  "daysListed": 13,
+  "pricePerKmPercentile": 85,
+  "kmPercentile": 18,
+  "daysListed": 14,
   "marginPct": null,
   "marginTier": null,
   "auctionHeat": "cold",
@@ -23,7 +23,7 @@
       "textKey": "bullet.priceCheaper",
       "textArgs": {
         "pct": 3,
-        "n": 32,
+        "n": 33,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.pricey",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 16,
+        "pct": 15,
         "ppkm": 36
       }
     },
@@ -41,13 +41,24 @@
       "pipKey": "bullet.pip.lowKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 81
+        "pct": 82
       }
     },
     {
       "tone": "neutral",
       "pipKey": "bullet.pip.cold",
       "textKey": "bullet.auctionCold"
+    },
+    {
+      "tone": "neutral",
+      "pipKey": "bullet.pip.daysListed",
+      "pipArgs": {
+        "n": 14
+      },
+      "textKey": "bullet.listedOld",
+      "textArgs": {
+        "n": 14
+      }
     }
   ],
   "summary": {
@@ -58,7 +69,7 @@
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 32,
+      "refSize": 33,
       "year": "2025",
       "title": "MG RX5"
     }
