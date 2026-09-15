@@ -1,17 +1,17 @@
 {
   "vehicleId": "1edda71f-7572-434b-b821-3f76f788f3a9",
-  "computedAt": "2026-09-15T09:45:51.767Z",
+  "computedAt": "2026-09-15T14:30:03.196Z",
   "cohort": {
-    "sameModelCount": 66,
+    "sameModelCount": 67,
     "sameYearCount": 1,
     "refCohort": "model",
-    "refSize": 66
+    "refSize": 67
   },
-  "pricePercentile": 5,
+  "pricePercentile": 4,
   "pricePerKm": 4.221995233231188,
-  "pricePerKmPercentile": 26,
-  "kmPercentile": 47,
-  "daysListed": 29,
+  "pricePerKmPercentile": 25,
+  "kmPercentile": 48,
+  "daysListed": 30,
   "marginPct": null,
   "marginTier": null,
   "auctionHeat": "cold",
@@ -22,8 +22,8 @@
       "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 95,
-        "n": 66,
+        "pct": 96,
+        "n": 67,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 74,
+        "pct": 75,
         "ppkm": 4
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 53
+        "pct": 52
       }
     },
     {
@@ -53,11 +53,11 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 29
+        "n": 30
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 29
+        "n": 30
       }
     }
   ],
@@ -65,11 +65,11 @@
     "verdictKey": "summary.verdict.good",
     "cohortLineKey": "summary.cohortLine.yes",
     "cohortKindKey": "detail.cohort.refSize.kind.model",
-    "ageSuffixKey": null,
+    "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 66,
+      "refSize": 67,
       "year": "2012",
       "title": "Nissan Qashqai"
     }

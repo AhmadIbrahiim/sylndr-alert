@@ -1,16 +1,16 @@
 {
   "vehicleId": "f2da4d73-f716-413b-8cea-851c80719da9",
-  "computedAt": "2026-09-15T09:45:53.527Z",
+  "computedAt": "2026-09-15T14:30:05.162Z",
   "cohort": {
-    "sameModelCount": 3,
-    "sameYearCount": 1,
+    "sameModelCount": 4,
+    "sameYearCount": 2,
     "refCohort": "model",
-    "refSize": 3
+    "refSize": 4
   },
-  "pricePercentile": 67,
+  "pricePercentile": 50,
   "pricePerKm": 81.70515097690941,
-  "pricePerKmPercentile": 67,
-  "kmPercentile": 0,
+  "pricePerKmPercentile": 50,
+  "kmPercentile": 25,
   "daysListed": 41,
   "marginPct": null,
   "marginTier": null,
@@ -22,8 +22,8 @@
       "pipKey": "bullet.pip.mid",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 33,
-        "n": 3,
+        "pct": 50,
+        "n": 4,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 33,
+        "pct": 50,
         "ppkm": 82
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.lowKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 100
+        "pct": 75
       }
     },
     {
@@ -69,7 +69,7 @@
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 3,
+      "refSize": 4,
       "year": "2025",
       "title": "Nissan X-Trail"
     }

@@ -1,17 +1,17 @@
 {
   "vehicleId": "8cd3ecc7-e5a4-4b07-b13d-a4f7312237aa",
-  "computedAt": "2026-09-15T09:45:53.570Z",
+  "computedAt": "2026-09-15T14:30:05.211Z",
   "cohort": {
-    "sameModelCount": 3,
+    "sameModelCount": 4,
     "sameYearCount": 1,
     "refCohort": "model",
-    "refSize": 3
+    "refSize": 4
   },
-  "pricePercentile": 33,
+  "pricePercentile": 25,
   "pricePerKm": 5.842696629213483,
-  "pricePerKmPercentile": 33,
-  "kmPercentile": 33,
-  "daysListed": 46,
+  "pricePerKmPercentile": 25,
+  "kmPercentile": 50,
+  "daysListed": 47,
   "marginPct": null,
   "marginTier": null,
   "auctionHeat": "cold",
@@ -22,8 +22,8 @@
       "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 67,
-        "n": 3,
+        "pct": 75,
+        "n": 4,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -32,16 +32,16 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 67,
+        "pct": 75,
         "ppkm": 6
       }
     },
     {
-      "tone": "good",
-      "pipKey": "bullet.pip.lowKm",
+      "tone": "mid",
+      "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 67
+        "pct": 50
       }
     },
     {
@@ -53,11 +53,11 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 46
+        "n": 47
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 46
+        "n": 47
       }
     }
   ],
@@ -69,7 +69,7 @@
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 3,
+      "refSize": 4,
       "year": "2010",
       "title": "Nissan X-Trail"
     }

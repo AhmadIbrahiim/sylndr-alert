@@ -1,17 +1,17 @@
 {
   "vehicleId": "9d8c1e27-21d6-4a26-a54a-58de368570c3",
-  "computedAt": "2026-09-15T09:45:54.275Z",
+  "computedAt": "2026-09-15T14:30:05.970Z",
   "cohort": {
-    "sameModelCount": 10,
+    "sameModelCount": 11,
     "sameYearCount": 1,
     "refCohort": "model",
-    "refSize": 10
+    "refSize": 11
   },
-  "pricePercentile": 50,
+  "pricePercentile": 55,
   "pricePerKm": 20.712510356255176,
-  "pricePerKmPercentile": 70,
-  "kmPercentile": 20,
-  "daysListed": 0,
+  "pricePerKmPercentile": 73,
+  "kmPercentile": 18,
+  "daysListed": 1,
   "marginPct": null,
   "marginTier": null,
   "auctionHeat": "cold",
@@ -22,17 +22,17 @@
       "pipKey": "bullet.pip.mid",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 50,
-        "n": 10,
+        "pct": 45,
+        "n": 11,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
     {
-      "tone": "mid",
-      "pipKey": "bullet.pip.value",
+      "tone": "hot",
+      "pipKey": "bullet.pip.pricey",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 30,
+        "pct": 27,
         "ppkm": 21
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.lowKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 80
+        "pct": 82
       }
     },
     {
@@ -63,7 +63,7 @@
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 10,
+      "refSize": 11,
       "year": "2024",
       "title": "Kia XCeed"
     }
