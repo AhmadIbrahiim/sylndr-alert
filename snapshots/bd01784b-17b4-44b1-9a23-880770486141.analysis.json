@@ -1,17 +1,17 @@
 {
   "vehicleId": "bd01784b-17b4-44b1-9a23-880770486141",
-  "computedAt": "2026-09-15T14:30:03.799Z",
+  "computedAt": "2026-09-15T18:26:06.928Z",
   "cohort": {
-    "sameModelCount": 4,
+    "sameModelCount": 5,
     "sameYearCount": 1,
     "refCohort": "model",
-    "refSize": 4
+    "refSize": 5
   },
   "pricePercentile": 0,
   "pricePerKm": 9.5,
-  "pricePerKmPercentile": 0,
-  "kmPercentile": 75,
-  "daysListed": 39,
+  "pricePerKmPercentile": 20,
+  "kmPercentile": 60,
+  "daysListed": 40,
   "marginPct": null,
   "marginTier": null,
   "auctionHeat": "cold",
@@ -23,7 +23,7 @@
       "textKey": "bullet.priceCheaper",
       "textArgs": {
         "pct": 100,
-        "n": 4,
+        "n": 5,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -32,16 +32,16 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 100,
+        "pct": 80,
         "ppkm": 10
       }
     },
     {
-      "tone": "hot",
-      "pipKey": "bullet.pip.highKm",
+      "tone": "mid",
+      "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 25
+        "pct": 40
       }
     },
     {
@@ -53,11 +53,11 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 39
+        "n": 40
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 39
+        "n": 40
       }
     }
   ],
@@ -69,7 +69,7 @@
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 4,
+      "refSize": 5,
       "year": "2021",
       "title": "Suzuki Baleno"
     }

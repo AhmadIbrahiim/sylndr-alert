@@ -1,38 +1,38 @@
 {
   "vehicleId": "66319145-d4d0-42af-84fd-eb77e5a21874",
-  "computedAt": "2026-09-15T14:30:05.798Z",
+  "computedAt": "2026-09-15T18:26:09.206Z",
   "cohort": {
-    "sameModelCount": 25,
-    "sameYearCount": 3,
-    "refCohort": "model",
-    "refSize": 25
+    "sameModelCount": 26,
+    "sameYearCount": 4,
+    "refCohort": "model+year",
+    "refSize": 4
   },
-  "pricePercentile": 52,
+  "pricePercentile": 25,
   "pricePerKm": 33.05785123966942,
-  "pricePerKmPercentile": 40,
-  "kmPercentile": 60,
-  "daysListed": 9,
+  "pricePerKmPercentile": 25,
+  "kmPercentile": 50,
+  "daysListed": 10,
   "marginPct": null,
   "marginTier": null,
   "auctionHeat": "cold",
-  "dealTag": "fair",
+  "dealTag": "good",
   "bullets": [
     {
-      "tone": "mid",
-      "pipKey": "bullet.pip.mid",
+      "tone": "good",
+      "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 48,
-        "n": 25,
-        "kind": "detail.cohort.refSize.kind.model"
+        "pct": 75,
+        "n": 4,
+        "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
-      "tone": "mid",
+      "tone": "good",
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 60,
+        "pct": 75,
         "ppkm": 33
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 40
+        "pct": 50
       }
     },
     {
@@ -51,14 +51,14 @@
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.fair",
+    "verdictKey": "summary.verdict.good",
     "cohortLineKey": "summary.cohortLine.yes",
-    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": null,
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 25,
+      "refSize": 4,
       "year": "2022",
       "title": "Mercedes-Benz E200"
     }

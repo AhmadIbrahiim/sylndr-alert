@@ -1,17 +1,17 @@
 {
   "vehicleId": "3b6f475c-f4e8-4daf-9d44-8e970d534500",
-  "computedAt": "2026-09-15T14:30:06.771Z",
+  "computedAt": "2026-09-15T18:26:10.339Z",
   "cohort": {
-    "sameModelCount": 35,
+    "sameModelCount": 36,
     "sameYearCount": 3,
     "refCohort": "model",
-    "refSize": 35
+    "refSize": 36
   },
   "pricePercentile": 89,
   "pricePerKm": 71.16751269035532,
   "pricePerKmPercentile": 89,
-  "kmPercentile": 9,
-  "daysListed": 29,
+  "kmPercentile": 8,
+  "daysListed": 30,
   "marginPct": null,
   "marginTier": null,
   "auctionHeat": "cold",
@@ -23,7 +23,7 @@
       "textKey": "bullet.priceCheaper",
       "textArgs": {
         "pct": 11,
-        "n": 35,
+        "n": 36,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.lowKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 91
+        "pct": 92
       }
     },
     {
@@ -53,11 +53,11 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 29
+        "n": 30
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 29
+        "n": 30
       }
     }
   ],
@@ -65,11 +65,11 @@
     "verdictKey": "summary.verdict.high",
     "cohortLineKey": "summary.cohortLine.yes",
     "cohortKindKey": "detail.cohort.refSize.kind.model",
-    "ageSuffixKey": null,
+    "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 35,
+      "refSize": 36,
       "year": "2025",
       "title": "BMW X1"
     }

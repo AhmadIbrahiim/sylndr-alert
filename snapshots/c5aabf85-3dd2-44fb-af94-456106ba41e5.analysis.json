@@ -1,16 +1,16 @@
 {
   "vehicleId": "c5aabf85-3dd2-44fb-af94-456106ba41e5",
-  "computedAt": "2026-09-15T14:30:02.996Z",
+  "computedAt": "2026-09-15T18:26:06.028Z",
   "cohort": {
-    "sameModelCount": 12,
+    "sameModelCount": 13,
     "sameYearCount": 2,
     "refCohort": "model",
-    "refSize": 12
+    "refSize": 13
   },
-  "pricePercentile": 75,
+  "pricePercentile": 69,
   "pricePerKm": 14.64035646085296,
-  "pricePerKmPercentile": 83,
-  "kmPercentile": 17,
+  "pricePerKmPercentile": 77,
+  "kmPercentile": 23,
   "daysListed": 113,
   "marginPct": 14.000000000000002,
   "marginTier": "low",
@@ -18,12 +18,12 @@
   "dealTag": "fair",
   "bullets": [
     {
-      "tone": "hot",
-      "pipKey": "bullet.pip.high",
+      "tone": "mid",
+      "pipKey": "bullet.pip.mid",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 25,
-        "n": 12,
+        "pct": 31,
+        "n": 13,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.pricey",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 17,
+        "pct": 23,
         "ppkm": 15
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.lowKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 83
+        "pct": 77
       }
     },
     {
@@ -77,7 +77,7 @@
     "heatSuffixKey": null,
     "marginSuffixKey": "summary.suffix.marginLow",
     "args": {
-      "refSize": 12,
+      "refSize": 13,
       "year": "2023",
       "title": "Citroen C4"
     }
