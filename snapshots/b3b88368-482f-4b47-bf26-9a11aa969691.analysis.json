@@ -1,22 +1,49 @@
 {
   "vehicleId": "b3b88368-482f-4b47-bf26-9a11aa969691",
-  "computedAt": "2026-09-16T09:39:50.998Z",
+  "computedAt": "2026-09-16T14:22:27.384Z",
   "cohort": {
-    "sameModelCount": 2,
-    "sameYearCount": 1,
+    "sameModelCount": 3,
+    "sameYearCount": 2,
     "refCohort": "model",
-    "refSize": 2
+    "refSize": 3
   },
-  "pricePercentile": null,
+  "pricePercentile": 33,
   "pricePerKm": 19.68503937007874,
-  "pricePerKmPercentile": null,
-  "kmPercentile": null,
-  "daysListed": 105,
+  "pricePerKmPercentile": 67,
+  "kmPercentile": 0,
+  "daysListed": 106,
   "marginPct": 11.200000000000001,
   "marginTier": "low",
   "auctionHeat": "warm",
   "dealTag": "fair",
   "bullets": [
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.deal",
+      "textKey": "bullet.priceCheaper",
+      "textArgs": {
+        "pct": 67,
+        "n": 3,
+        "kind": "detail.cohort.refSize.kind.model"
+      }
+    },
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.value",
+      "textKey": "bullet.ppkmBetter",
+      "textArgs": {
+        "pct": 33,
+        "ppkm": 20
+      }
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.lowKm",
+      "textKey": "bullet.kmLower",
+      "textArgs": {
+        "pct": 100
+      }
+    },
     {
       "tone": "good",
       "pipKey": "bullet.pip.marginPct",
@@ -34,11 +61,11 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 105
+        "n": 106
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 105
+        "n": 106
       }
     }
   ],
@@ -50,7 +77,7 @@
     "heatSuffixKey": null,
     "marginSuffixKey": "summary.suffix.marginLow",
     "args": {
-      "refSize": 2,
+      "refSize": 3,
       "year": "2024",
       "title": "Dongfeng Aeolus A30"
     }

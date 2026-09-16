@@ -1,16 +1,16 @@
 {
   "vehicleId": "0b6e12c3-c9b3-4d78-86dc-40d1d19ec26d",
-  "computedAt": "2026-09-16T09:39:46.573Z",
+  "computedAt": "2026-09-16T14:22:23.917Z",
   "cohort": {
-    "sameModelCount": 21,
+    "sameModelCount": 22,
     "sameYearCount": 2,
     "refCohort": "model",
-    "refSize": 21
+    "refSize": 22
   },
   "pricePercentile": 86,
   "pricePerKm": 11.467116357504215,
-  "pricePerKmPercentile": 67,
-  "kmPercentile": 33,
+  "pricePerKmPercentile": 68,
+  "kmPercentile": 36,
   "daysListed": 67,
   "marginPct": 14.117647058823529,
   "marginTier": "low",
@@ -23,7 +23,7 @@
       "textKey": "bullet.priceCheaper",
       "textArgs": {
         "pct": 14,
-        "n": 21,
+        "n": 22,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -32,16 +32,16 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 33,
+        "pct": 32,
         "ppkm": 11
       }
     },
     {
-      "tone": "good",
-      "pipKey": "bullet.pip.lowKm",
+      "tone": "mid",
+      "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 67
+        "pct": 64
       }
     },
     {
@@ -77,7 +77,7 @@
     "heatSuffixKey": null,
     "marginSuffixKey": "summary.suffix.marginLow",
     "args": {
-      "refSize": 21,
+      "refSize": 22,
       "year": "2022",
       "title": "Subaru XV"
     }
