@@ -1,17 +1,17 @@
 {
   "vehicleId": "e681c696-8534-4014-a46e-0a40d89cf18b",
-  "computedAt": "2026-09-16T14:22:26.310Z",
+  "computedAt": "2026-09-16T18:18:11.906Z",
   "cohort": {
-    "sameModelCount": 52,
-    "sameYearCount": 4,
+    "sameModelCount": 53,
+    "sameYearCount": 5,
     "refCohort": "model+year",
-    "refSize": 4
+    "refSize": 5
   },
   "pricePercentile": 0,
   "pricePerKm": 4.992462360749457,
-  "pricePerKmPercentile": 25,
-  "kmPercentile": 50,
-  "daysListed": 275,
+  "pricePerKmPercentile": 40,
+  "kmPercentile": 40,
+  "daysListed": 276,
   "marginPct": 18.169934640522875,
   "marginTier": "mid",
   "auctionHeat": "warm",
@@ -23,16 +23,16 @@
       "textKey": "bullet.priceCheaper",
       "textArgs": {
         "pct": 100,
-        "n": 4,
+        "n": 5,
         "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
-      "tone": "good",
+      "tone": "mid",
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 75,
+        "pct": 60,
         "ppkm": 5
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 50
+        "pct": 60
       }
     },
     {
@@ -61,11 +61,11 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 275
+        "n": 276
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 275
+        "n": 276
       }
     }
   ],
@@ -77,7 +77,7 @@
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 4,
+      "refSize": 5,
       "year": "2015",
       "title": "Toyota Corolla"
     }
