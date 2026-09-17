@@ -1,10 +1,10 @@
 {
   "vehicleId": "024c6365-8501-4c0a-9784-2bfc3441670a",
-  "computedAt": "2026-09-17T18:34:02.046Z",
+  "computedAt": "2026-09-17T19:41:01.197Z",
   "cohort": {
-    "sameModelCount": 4,
-    "sameYearCount": 3,
-    "refCohort": "model",
+    "sameModelCount": 5,
+    "sameYearCount": 4,
+    "refCohort": "model+year",
     "refSize": 4
   },
   "pricePercentile": 50,
@@ -24,7 +24,7 @@
       "textArgs": {
         "pct": 50,
         "n": 4,
-        "kind": "detail.cohort.refSize.kind.model"
+        "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
@@ -64,7 +64,7 @@
   "summary": {
     "verdictKey": "summary.verdict.fair",
     "cohortLineKey": "summary.cohortLine.yes",
-    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": null,
     "marginSuffixKey": null,
