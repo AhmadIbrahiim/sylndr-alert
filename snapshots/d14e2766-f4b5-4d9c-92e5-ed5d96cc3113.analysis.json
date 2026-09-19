@@ -1,16 +1,16 @@
 {
   "vehicleId": "d14e2766-f4b5-4d9c-92e5-ed5d96cc3113",
-  "computedAt": "2026-09-19T16:29:22.899Z",
+  "computedAt": "2026-09-19T18:33:19.193Z",
   "cohort": {
-    "sameModelCount": 3,
+    "sameModelCount": 4,
     "sameYearCount": 1,
     "refCohort": "model",
-    "refSize": 3
+    "refSize": 4
   },
   "pricePercentile": 0,
   "pricePerKm": 3.926391670004005,
   "pricePerKmPercentile": 0,
-  "kmPercentile": 33,
+  "kmPercentile": 50,
   "daysListed": 176,
   "marginPct": 19.626282613573775,
   "marginTier": "mid",
@@ -23,7 +23,7 @@
       "textKey": "bullet.priceCheaper",
       "textArgs": {
         "pct": 100,
-        "n": 3,
+        "n": 4,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -37,11 +37,11 @@
       }
     },
     {
-      "tone": "good",
-      "pipKey": "bullet.pip.lowKm",
+      "tone": "mid",
+      "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 67
+        "pct": 50
       }
     },
     {
@@ -77,7 +77,7 @@
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": null,
     "args": {
-      "refSize": 3,
+      "refSize": 4,
       "year": "2016",
       "title": "Changan CS35"
     }
