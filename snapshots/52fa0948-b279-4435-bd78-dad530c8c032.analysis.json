@@ -1,16 +1,16 @@
 {
   "vehicleId": "52fa0948-b279-4435-bd78-dad530c8c032",
-  "computedAt": "2026-09-18T18:59:19.619Z",
+  "computedAt": "2026-09-19T09:10:15.643Z",
   "cohort": {
-    "sameModelCount": 35,
-    "sameYearCount": 3,
-    "refCohort": "model",
-    "refSize": 35
+    "sameModelCount": 36,
+    "sameYearCount": 4,
+    "refCohort": "model+year",
+    "refSize": 4
   },
-  "pricePercentile": 3,
+  "pricePercentile": 0,
   "pricePerKm": 5.960828839057621,
-  "pricePerKmPercentile": 11,
-  "kmPercentile": 77,
+  "pricePerKmPercentile": 75,
+  "kmPercentile": 0,
   "daysListed": 65,
   "marginPct": 26.190476190476193,
   "marginTier": "mid",
@@ -22,26 +22,26 @@
       "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 97,
-        "n": 35,
-        "kind": "detail.cohort.refSize.kind.model"
-      }
-    },
-    {
-      "tone": "good",
-      "pipKey": "bullet.pip.value",
-      "textKey": "bullet.ppkmBetter",
-      "textArgs": {
-        "pct": 89,
-        "ppkm": 6
+        "pct": 100,
+        "n": 4,
+        "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
       "tone": "hot",
-      "pipKey": "bullet.pip.highKm",
+      "pipKey": "bullet.pip.pricey",
+      "textKey": "bullet.ppkmBetter",
+      "textArgs": {
+        "pct": 25,
+        "ppkm": 6
+      }
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.lowKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 23
+        "pct": 100
       }
     },
     {
@@ -72,12 +72,12 @@
   "summary": {
     "verdictKey": "summary.verdict.good",
     "cohortLineKey": "summary.cohortLine.yes",
-    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 35,
+      "refSize": 4,
       "year": "2013",
       "title": "BMW 320i"
     }

@@ -1,17 +1,17 @@
 {
   "vehicleId": "360ee801-f110-4b5f-ae11-61f6ec464599",
-  "computedAt": "2026-09-18T18:59:22.605Z",
+  "computedAt": "2026-09-19T09:10:17.589Z",
   "cohort": {
-    "sameModelCount": 5,
-    "sameYearCount": 2,
+    "sameModelCount": 6,
+    "sameYearCount": 3,
     "refCohort": "model",
-    "refSize": 5
+    "refSize": 6
   },
-  "pricePercentile": 0,
+  "pricePercentile": 17,
   "pricePerKm": 26.541501976284586,
-  "pricePerKmPercentile": 0,
-  "kmPercentile": 80,
-  "daysListed": 25,
+  "pricePerKmPercentile": 17,
+  "kmPercentile": 67,
+  "daysListed": 26,
   "marginPct": null,
   "marginTier": null,
   "auctionHeat": "cold",
@@ -22,8 +22,8 @@
       "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 100,
-        "n": 5,
+        "pct": 83,
+        "n": 6,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -32,16 +32,16 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 100,
+        "pct": 83,
         "ppkm": 27
       }
     },
     {
-      "tone": "hot",
-      "pipKey": "bullet.pip.highKm",
+      "tone": "mid",
+      "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 20
+        "pct": 33
       }
     },
     {
@@ -53,11 +53,11 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 25
+        "n": 26
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 25
+        "n": 26
       }
     }
   ],
@@ -69,7 +69,7 @@
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 5,
+      "refSize": 6,
       "year": "2024",
       "title": "JETOUR X90 Plus"
     }
