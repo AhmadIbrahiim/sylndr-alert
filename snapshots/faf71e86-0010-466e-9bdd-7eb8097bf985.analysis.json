@@ -1,17 +1,17 @@
 {
   "vehicleId": "faf71e86-0010-466e-9bdd-7eb8097bf985",
-  "computedAt": "2026-09-20T09:35:17.668Z",
+  "computedAt": "2026-09-20T13:42:17.589Z",
   "cohort": {
-    "sameModelCount": 33,
-    "sameYearCount": 4,
+    "sameModelCount": 34,
+    "sameYearCount": 5,
     "refCohort": "model+year",
-    "refSize": 4
+    "refSize": 5
   },
   "pricePercentile": 0,
   "pricePerKm": 6.012571740912818,
-  "pricePerKmPercentile": 0,
-  "kmPercentile": 75,
-  "daysListed": 31,
+  "pricePerKmPercentile": 20,
+  "kmPercentile": 60,
+  "daysListed": 32,
   "marginPct": null,
   "marginTier": null,
   "auctionHeat": "cold",
@@ -23,7 +23,7 @@
       "textKey": "bullet.priceCheaper",
       "textArgs": {
         "pct": 100,
-        "n": 4,
+        "n": 5,
         "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
@@ -32,16 +32,16 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 100,
+        "pct": 80,
         "ppkm": 6
       }
     },
     {
-      "tone": "hot",
-      "pipKey": "bullet.pip.highKm",
+      "tone": "mid",
+      "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 25
+        "pct": 40
       }
     },
     {
@@ -53,11 +53,11 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 31
+        "n": 32
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 31
+        "n": 32
       }
     }
   ],
@@ -69,7 +69,7 @@
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 4,
+      "refSize": 5,
       "year": "2019",
       "title": "Hyundai Tucson"
     }

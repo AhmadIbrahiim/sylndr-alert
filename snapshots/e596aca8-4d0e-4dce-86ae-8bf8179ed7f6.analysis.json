@@ -1,38 +1,38 @@
 {
   "vehicleId": "e596aca8-4d0e-4dce-86ae-8bf8179ed7f6",
-  "computedAt": "2026-09-20T09:35:17.243Z",
+  "computedAt": "2026-09-20T13:42:17.160Z",
   "cohort": {
-    "sameModelCount": 14,
+    "sameModelCount": 15,
     "sameYearCount": 2,
     "refCohort": "model",
-    "refSize": 14
+    "refSize": 15
   },
-  "pricePercentile": 21,
+  "pricePercentile": 20,
   "pricePerKm": 3.042155584528466,
-  "pricePerKmPercentile": 71,
-  "kmPercentile": 14,
-  "daysListed": 83,
+  "pricePerKmPercentile": 67,
+  "kmPercentile": 20,
+  "daysListed": 84,
   "marginPct": 26.571428571428573,
   "marginTier": "mid",
   "auctionHeat": "cold",
-  "dealTag": "fair",
+  "dealTag": "good",
   "bullets": [
     {
       "tone": "good",
       "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 79,
-        "n": 14,
+        "pct": 80,
+        "n": 15,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
     {
-      "tone": "hot",
-      "pipKey": "bullet.pip.pricey",
+      "tone": "mid",
+      "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 29,
+        "pct": 33,
         "ppkm": 3
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.lowKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 86
+        "pct": 80
       }
     },
     {
@@ -61,23 +61,23 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 83
+        "n": 84
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 83
+        "n": 84
       }
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.fair",
+    "verdictKey": "summary.verdict.good",
     "cohortLineKey": "summary.cohortLine.yes",
     "cohortKindKey": "detail.cohort.refSize.kind.model",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 14,
+      "refSize": 15,
       "year": "2006",
       "title": "Chevrolet Aveo"
     }
