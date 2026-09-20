@@ -1,16 +1,16 @@
 {
   "vehicleId": "b756d1f1-fa9e-4bac-b7af-a5f472240bd8",
-  "computedAt": "2026-09-20T16:59:57.273Z",
+  "computedAt": "2026-09-20T18:40:27.680Z",
   "cohort": {
-    "sameModelCount": 16,
-    "sameYearCount": 4,
+    "sameModelCount": 17,
+    "sameYearCount": 5,
     "refCohort": "model+year",
-    "refSize": 4
+    "refSize": 5
   },
-  "pricePercentile": 75,
+  "pricePercentile": 80,
   "pricePerKm": 14.426792614856161,
-  "pricePerKmPercentile": 25,
-  "kmPercentile": 75,
+  "pricePerKmPercentile": 40,
+  "kmPercentile": 60,
   "daysListed": 58,
   "marginPct": null,
   "marginTier": null,
@@ -22,26 +22,26 @@
       "pipKey": "bullet.pip.high",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 25,
-        "n": 4,
+        "pct": 20,
+        "n": 5,
         "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
-      "tone": "good",
+      "tone": "mid",
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 75,
+        "pct": 60,
         "ppkm": 14
       }
     },
     {
-      "tone": "hot",
-      "pipKey": "bullet.pip.highKm",
+      "tone": "mid",
+      "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 25
+        "pct": 40
       }
     },
     {
@@ -69,7 +69,7 @@
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 4,
+      "refSize": 5,
       "year": "2022",
       "title": "Skoda Octavia A8"
     }

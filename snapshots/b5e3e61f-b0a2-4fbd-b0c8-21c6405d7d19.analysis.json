@@ -1,16 +1,16 @@
 {
   "vehicleId": "b5e3e61f-b0a2-4fbd-b0c8-21c6405d7d19",
-  "computedAt": "2026-09-20T17:00:00.278Z",
+  "computedAt": "2026-09-20T18:40:30.659Z",
   "cohort": {
-    "sameModelCount": 44,
-    "sameYearCount": 3,
-    "refCohort": "model",
-    "refSize": 44
+    "sameModelCount": 45,
+    "sameYearCount": 4,
+    "refCohort": "model+year",
+    "refSize": 4
   },
   "pricePercentile": 0,
   "pricePerKm": 3.9873417721518987,
-  "pricePerKmPercentile": 5,
-  "kmPercentile": 59,
+  "pricePerKmPercentile": 25,
+  "kmPercentile": 50,
   "daysListed": 70,
   "marginPct": 19.913419913419915,
   "marginTier": "mid",
@@ -23,8 +23,8 @@
       "textKey": "bullet.priceCheaper",
       "textArgs": {
         "pct": 100,
-        "n": 44,
-        "kind": "detail.cohort.refSize.kind.model"
+        "n": 4,
+        "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 95,
+        "pct": 75,
         "ppkm": 4
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 41
+        "pct": 50
       }
     },
     {
@@ -72,12 +72,12 @@
   "summary": {
     "verdictKey": "summary.verdict.good",
     "cohortLineKey": "summary.cohortLine.yes",
-    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 44,
+      "refSize": 4,
       "year": "2010",
       "title": "BMW 318i"
     }
