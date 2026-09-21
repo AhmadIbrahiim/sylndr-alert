@@ -1,15 +1,15 @@
 {
   "vehicleId": "4d1f55e7-0850-42da-a53f-2ca89090551a",
-  "computedAt": "2026-09-21T16:32:41.353Z",
+  "computedAt": "2026-09-21T20:23:01.676Z",
   "cohort": {
-    "sameModelCount": 21,
-    "sameYearCount": 4,
+    "sameModelCount": 22,
+    "sameYearCount": 5,
     "refCohort": "model+year",
-    "refSize": 4
+    "refSize": 5
   },
-  "pricePercentile": 75,
+  "pricePercentile": 60,
   "pricePerKm": 6.784968684759916,
-  "pricePerKmPercentile": 75,
+  "pricePerKmPercentile": 60,
   "kmPercentile": 0,
   "daysListed": 56,
   "marginPct": null,
@@ -18,21 +18,21 @@
   "dealTag": "fair",
   "bullets": [
     {
-      "tone": "hot",
-      "pipKey": "bullet.pip.high",
+      "tone": "mid",
+      "pipKey": "bullet.pip.mid",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 25,
-        "n": 4,
+        "pct": 40,
+        "n": 5,
         "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
-      "tone": "hot",
-      "pipKey": "bullet.pip.pricey",
+      "tone": "mid",
+      "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 25,
+        "pct": 40,
         "ppkm": 7
       }
     },
@@ -69,7 +69,7 @@
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 4,
+      "refSize": 5,
       "year": "2022",
       "title": "Chery ARRIZO 5"
     }

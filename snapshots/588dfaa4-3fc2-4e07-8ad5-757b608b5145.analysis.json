@@ -1,16 +1,16 @@
 {
   "vehicleId": "588dfaa4-3fc2-4e07-8ad5-757b608b5145",
-  "computedAt": "2026-09-21T16:32:41.933Z",
+  "computedAt": "2026-09-21T20:23:02.516Z",
   "cohort": {
-    "sameModelCount": 8,
-    "sameYearCount": 1,
+    "sameModelCount": 9,
+    "sameYearCount": 2,
     "refCohort": "model",
-    "refSize": 8
+    "refSize": 9
   },
   "pricePercentile": 0,
   "pricePerKm": 2.3564064801178204,
-  "pricePerKmPercentile": 13,
-  "kmPercentile": 38,
+  "pricePerKmPercentile": 22,
+  "kmPercentile": 33,
   "daysListed": 84,
   "marginPct": 13.25,
   "marginTier": "low",
@@ -23,7 +23,7 @@
       "textKey": "bullet.priceCheaper",
       "textArgs": {
         "pct": 100,
-        "n": 8,
+        "n": 9,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -32,16 +32,16 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 87,
+        "pct": 78,
         "ppkm": 2
       }
     },
     {
-      "tone": "mid",
-      "pipKey": "bullet.pip.km",
+      "tone": "good",
+      "pipKey": "bullet.pip.lowKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 62
+        "pct": 67
       }
     },
     {
@@ -77,7 +77,7 @@
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": "summary.suffix.marginLow",
     "args": {
-      "refSize": 8,
+      "refSize": 9,
       "year": "2006",
       "title": "Skoda Octavia"
     }

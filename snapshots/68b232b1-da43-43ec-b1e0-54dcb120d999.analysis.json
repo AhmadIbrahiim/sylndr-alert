@@ -1,15 +1,15 @@
 {
   "vehicleId": "68b232b1-da43-43ec-b1e0-54dcb120d999",
-  "computedAt": "2026-09-21T16:32:41.110Z",
+  "computedAt": "2026-09-21T20:23:01.318Z",
   "cohort": {
-    "sameModelCount": 18,
-    "sameYearCount": 4,
+    "sameModelCount": 19,
+    "sameYearCount": 5,
     "refCohort": "model+year",
-    "refSize": 4
+    "refSize": 5
   },
-  "pricePercentile": 75,
+  "pricePercentile": 60,
   "pricePerKm": 214.95867768595042,
-  "pricePerKmPercentile": 75,
+  "pricePerKmPercentile": 60,
   "kmPercentile": 0,
   "daysListed": 136,
   "marginPct": 7.7085736255286434,
@@ -18,21 +18,21 @@
   "dealTag": "fair",
   "bullets": [
     {
-      "tone": "hot",
-      "pipKey": "bullet.pip.high",
+      "tone": "mid",
+      "pipKey": "bullet.pip.mid",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 25,
-        "n": 4,
+        "pct": 40,
+        "n": 5,
         "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
-      "tone": "hot",
-      "pipKey": "bullet.pip.pricey",
+      "tone": "mid",
+      "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 25,
+        "pct": 40,
         "ppkm": 215
       }
     },
@@ -77,7 +77,7 @@
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": "summary.suffix.marginLow",
     "args": {
-      "refSize": 4,
+      "refSize": 5,
       "year": "2024",
       "title": "BMW X5"
     }
