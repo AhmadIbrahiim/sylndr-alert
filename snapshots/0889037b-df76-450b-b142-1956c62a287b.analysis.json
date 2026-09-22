@@ -1,17 +1,17 @@
 {
   "vehicleId": "0889037b-df76-450b-b142-1956c62a287b",
-  "computedAt": "2026-09-21T20:23:03.788Z",
+  "computedAt": "2026-09-22T09:37:26.437Z",
   "cohort": {
-    "sameModelCount": 44,
-    "sameYearCount": 3,
-    "refCohort": "model",
-    "refSize": 44
+    "sameModelCount": 45,
+    "sameYearCount": 4,
+    "refCohort": "model+year",
+    "refSize": 4
   },
-  "pricePercentile": 9,
+  "pricePercentile": 0,
   "pricePerKm": 5.536355647454123,
-  "pricePerKmPercentile": 9,
-  "kmPercentile": 77,
-  "daysListed": 210,
+  "pricePerKmPercentile": 25,
+  "kmPercentile": 25,
+  "daysListed": 211,
   "marginPct": 29.13218201918193,
   "marginTier": "mid",
   "auctionHeat": "hot",
@@ -22,9 +22,9 @@
       "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 91,
-        "n": 44,
-        "kind": "detail.cohort.refSize.kind.model"
+        "pct": 100,
+        "n": 4,
+        "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
@@ -32,16 +32,16 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 91,
+        "pct": 75,
         "ppkm": 6
       }
     },
     {
-      "tone": "hot",
-      "pipKey": "bullet.pip.highKm",
+      "tone": "good",
+      "pipKey": "bullet.pip.lowKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 23
+        "pct": 75
       }
     },
     {
@@ -61,23 +61,23 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 210
+        "n": 211
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 210
+        "n": 211
       }
     }
   ],
   "summary": {
     "verdictKey": "summary.verdict.good",
     "cohortLineKey": "summary.cohortLine.yes",
-    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": null,
     "args": {
-      "refSize": 44,
+      "refSize": 4,
       "year": "2018",
       "title": "Kia Sportage"
     }

@@ -1,47 +1,47 @@
 {
   "vehicleId": "83df994b-ea9a-4f7e-b876-5956ec2c9020",
-  "computedAt": "2026-09-21T20:23:03.724Z",
+  "computedAt": "2026-09-22T09:37:26.390Z",
   "cohort": {
-    "sameModelCount": 44,
-    "sameYearCount": 3,
-    "refCohort": "model",
-    "refSize": 44
+    "sameModelCount": 45,
+    "sameYearCount": 4,
+    "refCohort": "model+year",
+    "refSize": 4
   },
-  "pricePercentile": 11,
+  "pricePercentile": 25,
   "pricePerKm": 5.609382967873534,
-  "pricePerKmPercentile": 11,
-  "kmPercentile": 80,
+  "pricePerKmPercentile": 50,
+  "kmPercentile": 50,
   "daysListed": 74,
   "marginPct": 38.09090909090909,
   "marginTier": "high",
   "auctionHeat": "warm",
-  "dealTag": "good",
+  "dealTag": "fair",
   "bullets": [
     {
       "tone": "good",
       "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 89,
-        "n": 44,
-        "kind": "detail.cohort.refSize.kind.model"
+        "pct": 75,
+        "n": 4,
+        "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
-      "tone": "good",
+      "tone": "mid",
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 89,
+        "pct": 50,
         "ppkm": 6
       }
     },
     {
-      "tone": "hot",
-      "pipKey": "bullet.pip.highKm",
+      "tone": "mid",
+      "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 20
+        "pct": 50
       }
     },
     {
@@ -70,14 +70,14 @@
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.good",
+    "verdictKey": "summary.verdict.fair",
     "cohortLineKey": "summary.cohortLine.yes",
-    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": null,
     "marginSuffixKey": "summary.suffix.marginHigh",
     "args": {
-      "refSize": 44,
+      "refSize": 4,
       "year": "2018",
       "title": "Kia Sportage"
     }

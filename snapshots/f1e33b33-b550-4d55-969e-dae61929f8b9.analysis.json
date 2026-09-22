@@ -1,16 +1,16 @@
 {
   "vehicleId": "f1e33b33-b550-4d55-969e-dae61929f8b9",
-  "computedAt": "2026-09-21T20:23:02.990Z",
+  "computedAt": "2026-09-22T09:37:25.858Z",
   "cohort": {
-    "sameModelCount": 44,
-    "sameYearCount": 3,
-    "refCohort": "model",
-    "refSize": 44
+    "sameModelCount": 45,
+    "sameYearCount": 4,
+    "refCohort": "model+year",
+    "refSize": 4
   },
-  "pricePercentile": 11,
+  "pricePercentile": 25,
   "pricePerKm": 4.873726185201595,
-  "pricePerKmPercentile": 7,
-  "kmPercentile": 93,
+  "pricePerKmPercentile": 0,
+  "kmPercentile": 75,
   "daysListed": 23,
   "marginPct": null,
   "marginTier": null,
@@ -22,9 +22,9 @@
       "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 89,
-        "n": 44,
-        "kind": "detail.cohort.refSize.kind.model"
+        "pct": 75,
+        "n": 4,
+        "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 93,
+        "pct": 100,
         "ppkm": 5
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.highKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 7
+        "pct": 25
       }
     },
     {
@@ -64,12 +64,12 @@
   "summary": {
     "verdictKey": "summary.verdict.good",
     "cohortLineKey": "summary.cohortLine.yes",
-    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": null,
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 44,
+      "refSize": 4,
       "year": "2018",
       "title": "Kia Sportage"
     }
