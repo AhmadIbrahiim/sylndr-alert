@@ -1,16 +1,16 @@
 {
   "vehicleId": "4adeda19-705e-46cf-988d-d96be2989804",
-  "computedAt": "2026-09-22T09:37:24.705Z",
+  "computedAt": "2026-09-22T14:11:38.184Z",
   "cohort": {
-    "sameModelCount": 8,
-    "sameYearCount": 3,
-    "refCohort": "model",
-    "refSize": 8
+    "sameModelCount": 9,
+    "sameYearCount": 4,
+    "refCohort": "model+year",
+    "refSize": 4
   },
-  "pricePercentile": 63,
+  "pricePercentile": 75,
   "pricePerKm": 164.91228070175438,
-  "pricePerKmPercentile": 75,
-  "kmPercentile": 13,
+  "pricePerKmPercentile": 50,
+  "kmPercentile": 25,
   "daysListed": 126,
   "marginPct": 8.936170212765958,
   "marginTier": "low",
@@ -18,21 +18,21 @@
   "dealTag": "fair",
   "bullets": [
     {
-      "tone": "mid",
-      "pipKey": "bullet.pip.mid",
+      "tone": "hot",
+      "pipKey": "bullet.pip.high",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 37,
-        "n": 8,
-        "kind": "detail.cohort.refSize.kind.model"
+        "pct": 25,
+        "n": 4,
+        "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
-      "tone": "hot",
-      "pipKey": "bullet.pip.pricey",
+      "tone": "mid",
+      "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 25,
+        "pct": 50,
         "ppkm": 165
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.lowKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 87
+        "pct": 75
       }
     },
     {
@@ -72,12 +72,12 @@
   "summary": {
     "verdictKey": "summary.verdict.fair",
     "cohortLineKey": "summary.cohortLine.yes",
-    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": null,
     "marginSuffixKey": "summary.suffix.marginLow",
     "args": {
-      "refSize": 8,
+      "refSize": 4,
       "year": "2026",
       "title": "BAIC U5 Plus"
     }

@@ -1,30 +1,30 @@
 {
   "vehicleId": "7d3904ba-29b6-4883-8963-5361fd0a4ed9",
-  "computedAt": "2026-09-22T09:37:27.767Z",
+  "computedAt": "2026-09-22T14:11:41.488Z",
   "cohort": {
-    "sameModelCount": 8,
-    "sameYearCount": 3,
-    "refCohort": "model",
-    "refSize": 8
+    "sameModelCount": 9,
+    "sameYearCount": 4,
+    "refCohort": "model+year",
+    "refSize": 4
   },
-  "pricePercentile": 50,
+  "pricePercentile": 25,
   "pricePerKm": 44.987775061124694,
-  "pricePerKmPercentile": 25,
-  "kmPercentile": 63,
-  "daysListed": 123,
+  "pricePerKmPercentile": 0,
+  "kmPercentile": 75,
+  "daysListed": 124,
   "marginPct": 13.478260869565217,
   "marginTier": "low",
   "auctionHeat": "cold",
-  "dealTag": "fair",
+  "dealTag": "good",
   "bullets": [
     {
-      "tone": "mid",
-      "pipKey": "bullet.pip.mid",
+      "tone": "good",
+      "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 50,
-        "n": 8,
-        "kind": "detail.cohort.refSize.kind.model"
+        "pct": 75,
+        "n": 4,
+        "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
@@ -32,16 +32,16 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 75,
+        "pct": 100,
         "ppkm": 45
       }
     },
     {
-      "tone": "mid",
-      "pipKey": "bullet.pip.km",
+      "tone": "hot",
+      "pipKey": "bullet.pip.highKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 37
+        "pct": 25
       }
     },
     {
@@ -61,23 +61,23 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 123
+        "n": 124
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 123
+        "n": 124
       }
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.fair",
+    "verdictKey": "summary.verdict.good",
     "cohortLineKey": "summary.cohortLine.yes",
-    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": null,
     "marginSuffixKey": "summary.suffix.marginLow",
     "args": {
-      "refSize": 8,
+      "refSize": 4,
       "year": "2026",
       "title": "BAIC U5 Plus"
     }

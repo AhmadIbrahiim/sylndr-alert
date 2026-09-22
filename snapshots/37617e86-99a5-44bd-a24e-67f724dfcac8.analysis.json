@@ -1,17 +1,17 @@
 {
   "vehicleId": "37617e86-99a5-44bd-a24e-67f724dfcac8",
-  "computedAt": "2026-09-22T09:37:24.731Z",
+  "computedAt": "2026-09-22T14:11:38.212Z",
   "cohort": {
-    "sameModelCount": 20,
-    "sameYearCount": 3,
-    "refCohort": "model",
-    "refSize": 20
+    "sameModelCount": 21,
+    "sameYearCount": 4,
+    "refCohort": "model+year",
+    "refSize": 4
   },
   "pricePercentile": 0,
   "pricePerKm": 4.619907601847963,
-  "pricePerKmPercentile": 20,
-  "kmPercentile": 60,
-  "daysListed": 75,
+  "pricePerKmPercentile": 50,
+  "kmPercentile": 25,
+  "daysListed": 76,
   "marginPct": 12.727272727272727,
   "marginTier": "low",
   "auctionHeat": "warm",
@@ -23,25 +23,25 @@
       "textKey": "bullet.priceCheaper",
       "textArgs": {
         "pct": 100,
-        "n": 20,
-        "kind": "detail.cohort.refSize.kind.model"
-      }
-    },
-    {
-      "tone": "good",
-      "pipKey": "bullet.pip.value",
-      "textKey": "bullet.ppkmBetter",
-      "textArgs": {
-        "pct": 80,
-        "ppkm": 5
+        "n": 4,
+        "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
       "tone": "mid",
-      "pipKey": "bullet.pip.km",
+      "pipKey": "bullet.pip.value",
+      "textKey": "bullet.ppkmBetter",
+      "textArgs": {
+        "pct": 50,
+        "ppkm": 5
+      }
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.lowKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 40
+        "pct": 75
       }
     },
     {
@@ -61,23 +61,23 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 75
+        "n": 76
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 75
+        "n": 76
       }
     }
   ],
   "summary": {
     "verdictKey": "summary.verdict.good",
     "cohortLineKey": "summary.cohortLine.yes",
-    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": null,
     "marginSuffixKey": "summary.suffix.marginLow",
     "args": {
-      "refSize": 20,
+      "refSize": 4,
       "year": "2018",
       "title": "Opel Cross Land"
     }

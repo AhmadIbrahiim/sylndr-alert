@@ -1,0 +1,71 @@
+{
+  "vehicleId": "c32b788e-ba7c-4742-823e-09c4a7cd3a48",
+  "computedAt": "2026-09-22T14:11:37.731Z",
+  "cohort": {
+    "sameModelCount": 17,
+    "sameYearCount": 2,
+    "refCohort": "model",
+    "refSize": 17
+  },
+  "pricePercentile": 94,
+  "pricePerKm": 145.88054019758906,
+  "pricePerKmPercentile": 76,
+  "kmPercentile": 18,
+  "daysListed": 0,
+  "marginPct": null,
+  "marginTier": null,
+  "auctionHeat": "cold",
+  "dealTag": "high",
+  "bullets": [
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.high",
+      "textKey": "bullet.priceCheaper",
+      "textArgs": {
+        "pct": 6,
+        "n": 17,
+        "kind": "detail.cohort.refSize.kind.model"
+      }
+    },
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.pricey",
+      "textKey": "bullet.ppkmBetter",
+      "textArgs": {
+        "pct": 24,
+        "ppkm": 146
+      }
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.lowKm",
+      "textKey": "bullet.kmLower",
+      "textArgs": {
+        "pct": 82
+      }
+    },
+    {
+      "tone": "neutral",
+      "pipKey": "bullet.pip.cold",
+      "textKey": "bullet.auctionCold"
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.fresh",
+      "textKey": "bullet.listedFresh"
+    }
+  ],
+  "summary": {
+    "verdictKey": "summary.verdict.high",
+    "cohortLineKey": "summary.cohortLine.yes",
+    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "ageSuffixKey": "summary.suffix.ageFresh",
+    "heatSuffixKey": null,
+    "marginSuffixKey": null,
+    "args": {
+      "refSize": 17,
+      "year": "2024",
+      "title": "Mercedes-Benz CLA 200"
+    }
+  }
+}

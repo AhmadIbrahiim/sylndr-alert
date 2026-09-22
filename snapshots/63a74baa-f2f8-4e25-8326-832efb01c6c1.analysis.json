@@ -1,30 +1,30 @@
 {
   "vehicleId": "63a74baa-f2f8-4e25-8326-832efb01c6c1",
-  "computedAt": "2026-09-22T09:37:26.214Z",
+  "computedAt": "2026-09-22T14:11:39.834Z",
   "cohort": {
-    "sameModelCount": 8,
-    "sameYearCount": 3,
-    "refCohort": "model",
-    "refSize": 8
+    "sameModelCount": 9,
+    "sameYearCount": 4,
+    "refCohort": "model+year",
+    "refSize": 4
   },
-  "pricePercentile": 25,
+  "pricePercentile": 0,
   "pricePerKm": 523.5294117647059,
-  "pricePerKmPercentile": 88,
+  "pricePerKmPercentile": 75,
   "kmPercentile": 0,
-  "daysListed": 151,
+  "daysListed": 152,
   "marginPct": 15.505617977528091,
   "marginTier": "mid",
   "auctionHeat": "hot",
-  "dealTag": "fair",
+  "dealTag": "good",
   "bullets": [
     {
       "tone": "good",
       "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 75,
-        "n": 8,
-        "kind": "detail.cohort.refSize.kind.model"
+        "pct": 100,
+        "n": 4,
+        "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.pricey",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 12,
+        "pct": 25,
         "ppkm": 524
       }
     },
@@ -61,23 +61,23 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 151
+        "n": 152
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 151
+        "n": 152
       }
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.fair",
+    "verdictKey": "summary.verdict.good",
     "cohortLineKey": "summary.cohortLine.yes",
-    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": null,
     "args": {
-      "refSize": 8,
+      "refSize": 4,
       "year": "2026",
       "title": "BAIC U5 Plus"
     }

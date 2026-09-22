@@ -1,29 +1,29 @@
 {
   "vehicleId": "eb5e79bd-7aff-4e03-a6c6-c360eead0650",
-  "computedAt": "2026-09-22T09:37:23.349Z",
+  "computedAt": "2026-09-22T14:11:36.623Z",
   "cohort": {
-    "sameModelCount": 20,
+    "sameModelCount": 21,
     "sameYearCount": 3,
     "refCohort": "model",
-    "refSize": 20
+    "refSize": 21
   },
-  "pricePercentile": 40,
+  "pricePercentile": 38,
   "pricePerKm": 7.004066877541798,
-  "pricePerKmPercentile": 30,
-  "kmPercentile": 80,
-  "daysListed": 21,
+  "pricePerKmPercentile": 29,
+  "kmPercentile": 81,
+  "daysListed": 22,
   "marginPct": null,
   "marginTier": null,
   "auctionHeat": "cold",
-  "dealTag": "fair",
+  "dealTag": "good",
   "bullets": [
     {
       "tone": "mid",
       "pipKey": "bullet.pip.mid",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 60,
-        "n": 20,
+        "pct": 62,
+        "n": 21,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 70,
+        "pct": 71,
         "ppkm": 7
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.highKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 20
+        "pct": 19
       }
     },
     {
@@ -53,23 +53,23 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 21
+        "n": 22
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 21
+        "n": 22
       }
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.fair",
+    "verdictKey": "summary.verdict.good",
     "cohortLineKey": "summary.cohortLine.yes",
     "cohortKindKey": "detail.cohort.refSize.kind.model",
     "ageSuffixKey": null,
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 20,
+      "refSize": 21,
       "year": "2016",
       "title": "Jeep Grand Cherokee"
     }
