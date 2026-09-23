@@ -1,29 +1,29 @@
 {
   "vehicleId": "c0748c2f-9c67-48dd-9aa6-12fc49806546",
-  "computedAt": "2026-09-23T09:43:13.394Z",
+  "computedAt": "2026-09-23T14:27:27.796Z",
   "cohort": {
-    "sameModelCount": 7,
-    "sameYearCount": 2,
+    "sameModelCount": 8,
+    "sameYearCount": 3,
     "refCohort": "model",
-    "refSize": 7
+    "refSize": 8
   },
-  "pricePercentile": 71,
+  "pricePercentile": 75,
   "pricePerKm": 10.069444444444445,
-  "pricePerKmPercentile": 86,
+  "pricePerKmPercentile": 88,
   "kmPercentile": 0,
-  "daysListed": 76,
+  "daysListed": 77,
   "marginPct": 14.827586206896552,
   "marginTier": "low",
   "auctionHeat": "cold",
-  "dealTag": "fair",
+  "dealTag": "high",
   "bullets": [
     {
       "tone": "hot",
       "pipKey": "bullet.pip.high",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 29,
-        "n": 7,
+        "pct": 25,
+        "n": 8,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.pricey",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 14,
+        "pct": 12,
         "ppkm": 10
       }
     },
@@ -61,23 +61,23 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 76
+        "n": 77
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 76
+        "n": 77
       }
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.fair",
+    "verdictKey": "summary.verdict.high",
     "cohortLineKey": "summary.cohortLine.yes",
     "cohortKindKey": "detail.cohort.refSize.kind.model",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": null,
     "marginSuffixKey": "summary.suffix.marginLow",
     "args": {
-      "refSize": 7,
+      "refSize": 8,
       "year": "2019",
       "title": "Ford Fiesta"
     }
