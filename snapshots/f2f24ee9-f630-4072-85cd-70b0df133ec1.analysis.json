@@ -1,38 +1,38 @@
 {
   "vehicleId": "f2f24ee9-f630-4072-85cd-70b0df133ec1",
-  "computedAt": "2026-09-22T19:41:41.596Z",
+  "computedAt": "2026-09-23T09:43:08.938Z",
   "cohort": {
-    "sameModelCount": 3,
-    "sameYearCount": 1,
+    "sameModelCount": 5,
+    "sameYearCount": 3,
     "refCohort": "model",
-    "refSize": 3
+    "refSize": 5
   },
-  "pricePercentile": 67,
+  "pricePercentile": 80,
   "pricePerKm": 22.31614539306847,
-  "pricePerKmPercentile": 33,
-  "kmPercentile": 33,
-  "daysListed": 89,
+  "pricePerKmPercentile": 60,
+  "kmPercentile": 20,
+  "daysListed": 90,
   "marginPct": 16.590909090909093,
   "marginTier": "mid",
   "auctionHeat": "cold",
   "dealTag": "fair",
   "bullets": [
     {
-      "tone": "mid",
-      "pipKey": "bullet.pip.mid",
+      "tone": "hot",
+      "pipKey": "bullet.pip.high",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 33,
-        "n": 3,
+        "pct": 20,
+        "n": 5,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
     {
-      "tone": "good",
+      "tone": "mid",
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 67,
+        "pct": 40,
         "ppkm": 22
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.lowKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 67
+        "pct": 80
       }
     },
     {
@@ -61,11 +61,11 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 89
+        "n": 90
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 89
+        "n": 90
       }
     }
   ],
@@ -77,7 +77,7 @@
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 3,
+      "refSize": 5,
       "year": "2024",
       "title": "Citroen C4X"
     }

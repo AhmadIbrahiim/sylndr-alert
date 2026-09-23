@@ -1,16 +1,16 @@
 {
   "vehicleId": "a47d9296-2b2e-48af-b40b-4d522cd4c5bb",
-  "computedAt": "2026-09-22T19:41:42.981Z",
+  "computedAt": "2026-09-23T09:43:11.142Z",
   "cohort": {
-    "sameModelCount": 3,
+    "sameModelCount": 5,
     "sameYearCount": 1,
     "refCohort": "model",
-    "refSize": 3
+    "refSize": 5
   },
   "pricePercentile": 0,
   "pricePerKm": 19.838709677419356,
-  "pricePerKmPercentile": 0,
-  "kmPercentile": 67,
+  "pricePerKmPercentile": 40,
+  "kmPercentile": 40,
   "daysListed": 13,
   "marginPct": null,
   "marginTier": null,
@@ -23,16 +23,16 @@
       "textKey": "bullet.priceCheaper",
       "textArgs": {
         "pct": 100,
-        "n": 3,
+        "n": 5,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
     {
-      "tone": "good",
+      "tone": "mid",
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 100,
+        "pct": 60,
         "ppkm": 20
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 33
+        "pct": 60
       }
     },
     {
@@ -58,7 +58,7 @@
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 3,
+      "refSize": 5,
       "year": "2025",
       "title": "Citroen C4X"
     }
