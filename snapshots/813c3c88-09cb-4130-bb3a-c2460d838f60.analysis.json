@@ -1,29 +1,29 @@
 {
   "vehicleId": "813c3c88-09cb-4130-bb3a-c2460d838f60",
-  "computedAt": "2026-09-24T14:28:00.726Z",
+  "computedAt": "2026-09-24T18:35:32.050Z",
   "cohort": {
-    "sameModelCount": 39,
-    "sameYearCount": 4,
+    "sameModelCount": 41,
+    "sameYearCount": 5,
     "refCohort": "model+year",
-    "refSize": 4
+    "refSize": 5
   },
-  "pricePercentile": 25,
+  "pricePercentile": 40,
   "pricePerKm": 62.421972534332085,
-  "pricePerKmPercentile": 25,
-  "kmPercentile": 50,
-  "daysListed": 5,
+  "pricePerKmPercentile": 20,
+  "kmPercentile": 60,
+  "daysListed": 6,
   "marginPct": null,
   "marginTier": null,
   "auctionHeat": "cold",
   "dealTag": "good",
   "bullets": [
     {
-      "tone": "good",
-      "pipKey": "bullet.pip.deal",
+      "tone": "mid",
+      "pipKey": "bullet.pip.mid",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 75,
-        "n": 4,
+        "pct": 60,
+        "n": 5,
         "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 75,
+        "pct": 80,
         "ppkm": 62
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 50
+        "pct": 40
       }
     },
     {
@@ -58,7 +58,7 @@
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 4,
+      "refSize": 5,
       "year": "2024",
       "title": "BMW X1"
     }

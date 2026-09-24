@@ -1,0 +1,71 @@
+{
+  "vehicleId": "b9455816-0f77-48c4-8e12-651d51bba236",
+  "computedAt": "2026-09-24T18:35:29.536Z",
+  "cohort": {
+    "sameModelCount": 24,
+    "sameYearCount": 5,
+    "refCohort": "model+year",
+    "refSize": 5
+  },
+  "pricePercentile": 40,
+  "pricePerKm": 12.502259444477918,
+  "pricePerKmPercentile": 40,
+  "kmPercentile": 60,
+  "daysListed": 0,
+  "marginPct": null,
+  "marginTier": null,
+  "auctionHeat": "cold",
+  "dealTag": "fair",
+  "bullets": [
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.mid",
+      "textKey": "bullet.priceCheaper",
+      "textArgs": {
+        "pct": 60,
+        "n": 5,
+        "kind": "detail.cohort.refSize.kind.modelYear"
+      }
+    },
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.value",
+      "textKey": "bullet.ppkmBetter",
+      "textArgs": {
+        "pct": 60,
+        "ppkm": 13
+      }
+    },
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.km",
+      "textKey": "bullet.kmLower",
+      "textArgs": {
+        "pct": 40
+      }
+    },
+    {
+      "tone": "neutral",
+      "pipKey": "bullet.pip.cold",
+      "textKey": "bullet.auctionCold"
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.fresh",
+      "textKey": "bullet.listedFresh"
+    }
+  ],
+  "summary": {
+    "verdictKey": "summary.verdict.fair",
+    "cohortLineKey": "summary.cohortLine.yes",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
+    "ageSuffixKey": "summary.suffix.ageFresh",
+    "heatSuffixKey": null,
+    "marginSuffixKey": null,
+    "args": {
+      "refSize": 5,
+      "year": "2022",
+      "title": "Peugeot 5008"
+    }
+  }
+}

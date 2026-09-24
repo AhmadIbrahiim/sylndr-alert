@@ -1,0 +1,71 @@
+{
+  "vehicleId": "fde01249-7375-4a51-9040-224983c58e60",
+  "computedAt": "2026-09-24T18:35:30.137Z",
+  "cohort": {
+    "sameModelCount": 10,
+    "sameYearCount": 2,
+    "refCohort": "model",
+    "refSize": 10
+  },
+  "pricePercentile": 50,
+  "pricePerKm": 20.140572978749642,
+  "pricePerKmPercentile": 50,
+  "kmPercentile": 40,
+  "daysListed": 0,
+  "marginPct": null,
+  "marginTier": null,
+  "auctionHeat": "cold",
+  "dealTag": "fair",
+  "bullets": [
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.mid",
+      "textKey": "bullet.priceCheaper",
+      "textArgs": {
+        "pct": 50,
+        "n": 10,
+        "kind": "detail.cohort.refSize.kind.model"
+      }
+    },
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.value",
+      "textKey": "bullet.ppkmBetter",
+      "textArgs": {
+        "pct": 50,
+        "ppkm": 20
+      }
+    },
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.km",
+      "textKey": "bullet.kmLower",
+      "textArgs": {
+        "pct": 60
+      }
+    },
+    {
+      "tone": "neutral",
+      "pipKey": "bullet.pip.cold",
+      "textKey": "bullet.auctionCold"
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.fresh",
+      "textKey": "bullet.listedFresh"
+    }
+  ],
+  "summary": {
+    "verdictKey": "summary.verdict.fair",
+    "cohortLineKey": "summary.cohortLine.yes",
+    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "ageSuffixKey": "summary.suffix.ageFresh",
+    "heatSuffixKey": null,
+    "marginSuffixKey": null,
+    "args": {
+      "refSize": 10,
+      "year": "2022",
+      "title": "Opel Mokka"
+    }
+  }
+}

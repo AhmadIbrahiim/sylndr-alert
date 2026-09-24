@@ -1,17 +1,17 @@
 {
   "vehicleId": "3d4b0698-dd36-44a4-88fa-cadf03ee5a24",
-  "computedAt": "2026-09-24T14:27:59.194Z",
+  "computedAt": "2026-09-24T18:35:31.225Z",
   "cohort": {
-    "sameModelCount": 23,
+    "sameModelCount": 24,
     "sameYearCount": 3,
     "refCohort": "model",
-    "refSize": 23
+    "refSize": 24
   },
-  "pricePercentile": 74,
+  "pricePercentile": 71,
   "pricePerKm": 14.724409448818898,
-  "pricePerKmPercentile": 70,
-  "kmPercentile": 30,
-  "daysListed": 114,
+  "pricePerKmPercentile": 71,
+  "kmPercentile": 29,
+  "daysListed": 115,
   "marginPct": 11.096256684491978,
   "marginTier": "low",
   "auctionHeat": "cold",
@@ -22,17 +22,17 @@
       "pipKey": "bullet.pip.high",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 26,
-        "n": 23,
+        "pct": 29,
+        "n": 24,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
     {
-      "tone": "mid",
-      "pipKey": "bullet.pip.value",
+      "tone": "hot",
+      "pipKey": "bullet.pip.pricey",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 30,
+        "pct": 29,
         "ppkm": 15
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.lowKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 70
+        "pct": 71
       }
     },
     {
@@ -61,11 +61,11 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 114
+        "n": 115
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 114
+        "n": 115
       }
     }
   ],
@@ -77,7 +77,7 @@
     "heatSuffixKey": null,
     "marginSuffixKey": "summary.suffix.marginLow",
     "args": {
-      "refSize": 23,
+      "refSize": 24,
       "year": "2021",
       "title": "Peugeot 5008"
     }

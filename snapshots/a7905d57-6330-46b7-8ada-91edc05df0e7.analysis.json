@@ -1,29 +1,29 @@
 {
   "vehicleId": "a7905d57-6330-46b7-8ada-91edc05df0e7",
-  "computedAt": "2026-09-24T14:27:57.666Z",
+  "computedAt": "2026-09-24T18:35:30.433Z",
   "cohort": {
-    "sameModelCount": 15,
-    "sameYearCount": 1,
+    "sameModelCount": 16,
+    "sameYearCount": 2,
     "refCohort": "model",
-    "refSize": 15
+    "refSize": 16
   },
-  "pricePercentile": 87,
+  "pricePercentile": 81,
   "pricePerKm": 19.98001998001998,
-  "pricePerKmPercentile": 80,
-  "kmPercentile": 27,
+  "pricePerKmPercentile": 75,
+  "kmPercentile": 31,
   "daysListed": 38,
   "marginPct": null,
   "marginTier": null,
   "auctionHeat": "cold",
-  "dealTag": "high",
+  "dealTag": "fair",
   "bullets": [
     {
       "tone": "hot",
       "pipKey": "bullet.pip.high",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 13,
-        "n": 15,
+        "pct": 19,
+        "n": 16,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.pricey",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 20,
+        "pct": 25,
         "ppkm": 20
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.lowKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 73
+        "pct": 69
       }
     },
     {
@@ -62,14 +62,14 @@
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.high",
+    "verdictKey": "summary.verdict.fair",
     "cohortLineKey": "summary.cohortLine.yes",
     "cohortKindKey": "detail.cohort.refSize.kind.model",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 15,
+      "refSize": 16,
       "year": "2021",
       "title": "Mercedes-Benz CLA 180"
     }
