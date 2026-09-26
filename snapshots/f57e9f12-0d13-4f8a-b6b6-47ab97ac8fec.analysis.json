@@ -1,17 +1,17 @@
 {
   "vehicleId": "f57e9f12-0d13-4f8a-b6b6-47ab97ac8fec",
-  "computedAt": "2026-09-25T19:58:03.102Z",
+  "computedAt": "2026-09-26T09:41:36.766Z",
   "cohort": {
-    "sameModelCount": 6,
+    "sameModelCount": 7,
     "sameYearCount": 2,
     "refCohort": "model",
-    "refSize": 6
+    "refSize": 7
   },
-  "pricePercentile": 17,
+  "pricePercentile": 14,
   "pricePerKm": 3.0816640986132513,
-  "pricePerKmPercentile": 0,
-  "kmPercentile": 83,
-  "daysListed": 140,
+  "pricePerKmPercentile": 14,
+  "kmPercentile": 71,
+  "daysListed": 141,
   "marginPct": 36.142857142857146,
   "marginTier": "high",
   "auctionHeat": "warm",
@@ -22,8 +22,8 @@
       "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 83,
-        "n": 6,
+        "pct": 86,
+        "n": 7,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 100,
+        "pct": 86,
         "ppkm": 3
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.highKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 17
+        "pct": 29
       }
     },
     {
@@ -61,11 +61,11 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 140
+        "n": 141
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 140
+        "n": 141
       }
     }
   ],
@@ -77,7 +77,7 @@
     "heatSuffixKey": null,
     "marginSuffixKey": "summary.suffix.marginHigh",
     "args": {
-      "refSize": 6,
+      "refSize": 7,
       "year": "2017",
       "title": "SsangYong XLV"
     }

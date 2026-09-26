@@ -1,47 +1,47 @@
 {
   "vehicleId": "d14547ef-9352-468e-b7ef-4a8fb07a9e84",
-  "computedAt": "2026-09-25T19:57:59.918Z",
+  "computedAt": "2026-09-26T09:41:34.542Z",
   "cohort": {
-    "sameModelCount": 32,
-    "sameYearCount": 3,
-    "refCohort": "model",
-    "refSize": 32
+    "sameModelCount": 33,
+    "sameYearCount": 4,
+    "refCohort": "model+year",
+    "refSize": 4
   },
-  "pricePercentile": 22,
+  "pricePercentile": 75,
   "pricePerKm": 6.578947368421052,
-  "pricePerKmPercentile": 31,
-  "kmPercentile": 53,
-  "daysListed": 134,
+  "pricePerKmPercentile": 75,
+  "kmPercentile": 0,
+  "daysListed": 135,
   "marginPct": 25.916666666666664,
   "marginTier": "mid",
   "auctionHeat": "cold",
-  "dealTag": "good",
+  "dealTag": "fair",
   "bullets": [
     {
-      "tone": "good",
-      "pipKey": "bullet.pip.deal",
+      "tone": "hot",
+      "pipKey": "bullet.pip.high",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 78,
-        "n": 32,
-        "kind": "detail.cohort.refSize.kind.model"
+        "pct": 25,
+        "n": 4,
+        "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
-      "tone": "good",
-      "pipKey": "bullet.pip.value",
+      "tone": "hot",
+      "pipKey": "bullet.pip.pricey",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 69,
+        "pct": 25,
         "ppkm": 7
       }
     },
     {
-      "tone": "mid",
-      "pipKey": "bullet.pip.km",
+      "tone": "good",
+      "pipKey": "bullet.pip.lowKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 47
+        "pct": 100
       }
     },
     {
@@ -61,23 +61,23 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 134
+        "n": 135
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 134
+        "n": 135
       }
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.good",
+    "verdictKey": "summary.verdict.fair",
     "cohortLineKey": "summary.cohortLine.yes",
-    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 32,
+      "refSize": 4,
       "year": "2012",
       "title": "BMW X3"
     }

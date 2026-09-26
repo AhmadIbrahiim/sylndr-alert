@@ -1,17 +1,17 @@
 {
   "vehicleId": "b4ccf085-55d8-4fe3-bdb3-043a994c8a6e",
-  "computedAt": "2026-09-25T19:58:00.032Z",
+  "computedAt": "2026-09-26T09:41:34.632Z",
   "cohort": {
-    "sameModelCount": 4,
+    "sameModelCount": 5,
     "sameYearCount": 1,
     "refCohort": "model",
-    "refSize": 4
+    "refSize": 5
   },
   "pricePercentile": 0,
   "pricePerKm": 26.997840172786177,
-  "pricePerKmPercentile": 0,
-  "kmPercentile": 75,
-  "daysListed": 25,
+  "pricePerKmPercentile": 20,
+  "kmPercentile": 60,
+  "daysListed": 26,
   "marginPct": null,
   "marginTier": null,
   "auctionHeat": "cold",
@@ -23,7 +23,7 @@
       "textKey": "bullet.priceCheaper",
       "textArgs": {
         "pct": 100,
-        "n": 4,
+        "n": 5,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -32,16 +32,16 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 100,
+        "pct": 80,
         "ppkm": 27
       }
     },
     {
-      "tone": "hot",
-      "pipKey": "bullet.pip.highKm",
+      "tone": "mid",
+      "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 25
+        "pct": 40
       }
     },
     {
@@ -53,11 +53,11 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 25
+        "n": 26
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 25
+        "n": 26
       }
     }
   ],
@@ -69,7 +69,7 @@
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 4,
+      "refSize": 5,
       "year": "2024",
       "title": "JETOUR Dashing"
     }
