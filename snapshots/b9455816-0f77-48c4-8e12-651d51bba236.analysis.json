@@ -1,16 +1,16 @@
 {
   "vehicleId": "b9455816-0f77-48c4-8e12-651d51bba236",
-  "computedAt": "2026-09-26T09:41:34.407Z",
+  "computedAt": "2026-09-26T13:54:17.482Z",
   "cohort": {
-    "sameModelCount": 24,
-    "sameYearCount": 5,
+    "sameModelCount": 25,
+    "sameYearCount": 6,
     "refCohort": "model+year",
-    "refSize": 5
+    "refSize": 6
   },
-  "pricePercentile": 40,
+  "pricePercentile": 50,
   "pricePerKm": 12.502259444477918,
-  "pricePerKmPercentile": 40,
-  "kmPercentile": 60,
+  "pricePerKmPercentile": 33,
+  "kmPercentile": 67,
   "daysListed": 1,
   "marginPct": null,
   "marginTier": null,
@@ -22,17 +22,17 @@
       "pipKey": "bullet.pip.mid",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 60,
-        "n": 5,
+        "pct": 50,
+        "n": 6,
         "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
-      "tone": "mid",
+      "tone": "good",
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 60,
+        "pct": 67,
         "ppkm": 13
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 40
+        "pct": 33
       }
     },
     {
@@ -63,7 +63,7 @@
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 5,
+      "refSize": 6,
       "year": "2022",
       "title": "Peugeot 5008"
     }

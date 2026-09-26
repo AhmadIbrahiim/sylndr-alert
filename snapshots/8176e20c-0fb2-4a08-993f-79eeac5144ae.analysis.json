@@ -1,17 +1,17 @@
 {
   "vehicleId": "8176e20c-0fb2-4a08-993f-79eeac5144ae",
-  "computedAt": "2026-09-26T09:41:36.389Z",
+  "computedAt": "2026-09-26T13:54:20.712Z",
   "cohort": {
-    "sameModelCount": 10,
+    "sameModelCount": 11,
     "sameYearCount": 1,
     "refCohort": "model",
-    "refSize": 10
+    "refSize": 11
   },
-  "pricePercentile": 50,
+  "pricePercentile": 45,
   "pricePerKm": 5.384938998737905,
-  "pricePerKmPercentile": 30,
-  "kmPercentile": 60,
-  "daysListed": 68,
+  "pricePerKmPercentile": 27,
+  "kmPercentile": 64,
+  "daysListed": 69,
   "marginPct": 14.6875,
   "marginTier": "low",
   "auctionHeat": "cold",
@@ -22,8 +22,8 @@
       "pipKey": "bullet.pip.mid",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 50,
-        "n": 10,
+        "pct": 55,
+        "n": 11,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 70,
+        "pct": 73,
         "ppkm": 5
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 40
+        "pct": 36
       }
     },
     {
@@ -61,11 +61,11 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 68
+        "n": 69
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 68
+        "n": 69
       }
     }
   ],
@@ -77,7 +77,7 @@
     "heatSuffixKey": null,
     "marginSuffixKey": "summary.suffix.marginLow",
     "args": {
-      "refSize": 10,
+      "refSize": 11,
       "year": "2017",
       "title": "Hyundai Accent RB"
     }

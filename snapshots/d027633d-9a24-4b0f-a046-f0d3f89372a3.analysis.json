@@ -1,16 +1,16 @@
 {
   "vehicleId": "d027633d-9a24-4b0f-a046-f0d3f89372a3",
-  "computedAt": "2026-09-26T09:41:35.899Z",
+  "computedAt": "2026-09-26T13:54:19.930Z",
   "cohort": {
-    "sameModelCount": 12,
-    "sameYearCount": 3,
-    "refCohort": "model",
-    "refSize": 12
+    "sameModelCount": 13,
+    "sameYearCount": 4,
+    "refCohort": "model+year",
+    "refSize": 4
   },
   "pricePercentile": 25,
   "pricePerKm": 4.857782038990092,
   "pricePerKmPercentile": 25,
-  "kmPercentile": 67,
+  "kmPercentile": 50,
   "daysListed": 134,
   "marginPct": 42.23684210526316,
   "marginTier": "high",
@@ -23,8 +23,8 @@
       "textKey": "bullet.priceCheaper",
       "textArgs": {
         "pct": 75,
-        "n": 12,
-        "kind": "detail.cohort.refSize.kind.model"
+        "n": 4,
+        "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 33
+        "pct": 50
       }
     },
     {
@@ -72,12 +72,12 @@
   "summary": {
     "verdictKey": "summary.verdict.good",
     "cohortLineKey": "summary.cohortLine.yes",
-    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": null,
     "marginSuffixKey": "summary.suffix.marginHigh",
     "args": {
-      "refSize": 12,
+      "refSize": 4,
       "year": "2011",
       "title": "Volkswagen Golf"
     }

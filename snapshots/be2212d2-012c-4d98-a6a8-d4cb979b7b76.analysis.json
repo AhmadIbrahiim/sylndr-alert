@@ -1,0 +1,71 @@
+{
+  "vehicleId": "be2212d2-012c-4d98-a6a8-d4cb979b7b76",
+  "computedAt": "2026-09-26T13:54:18.364Z",
+  "cohort": {
+    "sameModelCount": 17,
+    "sameYearCount": 2,
+    "refCohort": "model",
+    "refSize": 17
+  },
+  "pricePercentile": 6,
+  "pricePerKm": 9.350058718368752,
+  "pricePerKmPercentile": 6,
+  "kmPercentile": 82,
+  "daysListed": 0,
+  "marginPct": null,
+  "marginTier": null,
+  "auctionHeat": "cold",
+  "dealTag": "good",
+  "bullets": [
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.deal",
+      "textKey": "bullet.priceCheaper",
+      "textArgs": {
+        "pct": 94,
+        "n": 17,
+        "kind": "detail.cohort.refSize.kind.model"
+      }
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.value",
+      "textKey": "bullet.ppkmBetter",
+      "textArgs": {
+        "pct": 94,
+        "ppkm": 9
+      }
+    },
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.highKm",
+      "textKey": "bullet.kmLower",
+      "textArgs": {
+        "pct": 18
+      }
+    },
+    {
+      "tone": "neutral",
+      "pipKey": "bullet.pip.cold",
+      "textKey": "bullet.auctionCold"
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.fresh",
+      "textKey": "bullet.listedFresh"
+    }
+  ],
+  "summary": {
+    "verdictKey": "summary.verdict.good",
+    "cohortLineKey": "summary.cohortLine.yes",
+    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "ageSuffixKey": "summary.suffix.ageFresh",
+    "heatSuffixKey": null,
+    "marginSuffixKey": null,
+    "args": {
+      "refSize": 17,
+      "year": "2013",
+      "title": "Mercedes-Benz C200"
+    }
+  }
+}
