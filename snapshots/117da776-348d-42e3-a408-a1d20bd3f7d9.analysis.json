@@ -1,16 +1,16 @@
 {
   "vehicleId": "117da776-348d-42e3-a408-a1d20bd3f7d9",
-  "computedAt": "2026-09-27T18:59:51.395Z",
+  "computedAt": "2026-09-27T19:43:10.927Z",
   "cohort": {
-    "sameModelCount": 10,
+    "sameModelCount": 11,
     "sameYearCount": 1,
     "refCohort": "model",
-    "refSize": 10
+    "refSize": 11
   },
-  "pricePercentile": 20,
+  "pricePercentile": 27,
   "pricePerKm": 5.346027096301721,
-  "pricePerKmPercentile": 30,
-  "kmPercentile": 40,
+  "pricePerKmPercentile": 36,
+  "kmPercentile": 36,
   "daysListed": 140,
   "marginPct": 21.91780821917808,
   "marginTier": "mid",
@@ -22,17 +22,17 @@
       "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 80,
-        "n": 10,
+        "pct": 73,
+        "n": 11,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
     {
-      "tone": "good",
+      "tone": "mid",
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 70,
+        "pct": 64,
         "ppkm": 5
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 60
+        "pct": 64
       }
     },
     {
@@ -77,7 +77,7 @@
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": null,
     "args": {
-      "refSize": 10,
+      "refSize": 11,
       "year": "2012",
       "title": "Honda Civic"
     }
