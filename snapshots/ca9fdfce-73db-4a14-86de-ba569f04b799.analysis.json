@@ -1,22 +1,49 @@
 {
   "vehicleId": "ca9fdfce-73db-4a14-86de-ba569f04b799",
-  "computedAt": "2026-09-27T10:21:05.023Z",
+  "computedAt": "2026-09-27T15:13:54.316Z",
   "cohort": {
-    "sameModelCount": 2,
-    "sameYearCount": 1,
+    "sameModelCount": 3,
+    "sameYearCount": 2,
     "refCohort": "model",
-    "refSize": 2
+    "refSize": 3
   },
-  "pricePercentile": null,
+  "pricePercentile": 67,
   "pricePerKm": 5.512489233419466,
-  "pricePerKmPercentile": null,
-  "kmPercentile": null,
-  "daysListed": 49,
+  "pricePerKmPercentile": 67,
+  "kmPercentile": 0,
+  "daysListed": 50,
   "marginPct": null,
   "marginTier": null,
   "auctionHeat": "cold",
   "dealTag": "fair",
   "bullets": [
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.mid",
+      "textKey": "bullet.priceCheaper",
+      "textArgs": {
+        "pct": 33,
+        "n": 3,
+        "kind": "detail.cohort.refSize.kind.model"
+      }
+    },
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.value",
+      "textKey": "bullet.ppkmBetter",
+      "textArgs": {
+        "pct": 33,
+        "ppkm": 6
+      }
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.lowKm",
+      "textKey": "bullet.kmLower",
+      "textArgs": {
+        "pct": 100
+      }
+    },
     {
       "tone": "neutral",
       "pipKey": "bullet.pip.cold",
@@ -26,11 +53,11 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 49
+        "n": 50
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 49
+        "n": 50
       }
     }
   ],
@@ -42,7 +69,7 @@
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 2,
+      "refSize": 3,
       "year": "2017",
       "title": "Hyundai Solaris"
     }

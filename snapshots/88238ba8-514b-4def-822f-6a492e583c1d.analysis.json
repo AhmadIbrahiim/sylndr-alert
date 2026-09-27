@@ -1,17 +1,17 @@
 {
   "vehicleId": "88238ba8-514b-4def-822f-6a492e583c1d",
-  "computedAt": "2026-09-27T10:21:06.669Z",
+  "computedAt": "2026-09-27T15:13:55.622Z",
   "cohort": {
-    "sameModelCount": 30,
-    "sameYearCount": 3,
-    "refCohort": "model",
-    "refSize": 30
+    "sameModelCount": 31,
+    "sameYearCount": 4,
+    "refCohort": "model+year",
+    "refSize": 4
   },
-  "pricePercentile": 27,
+  "pricePercentile": 25,
   "pricePerKm": 2.0005261311820415,
-  "pricePerKmPercentile": 10,
-  "kmPercentile": 87,
-  "daysListed": 216,
+  "pricePerKmPercentile": 0,
+  "kmPercentile": 75,
+  "daysListed": 217,
   "marginPct": 33.90023669676515,
   "marginTier": "high",
   "auctionHeat": "hot",
@@ -22,9 +22,9 @@
       "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 73,
-        "n": 30,
-        "kind": "detail.cohort.refSize.kind.model"
+        "pct": 75,
+        "n": 4,
+        "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 90,
+        "pct": 100,
         "ppkm": 2
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.highKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 13
+        "pct": 25
       }
     },
     {
@@ -61,23 +61,23 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 216
+        "n": 217
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 216
+        "n": 217
       }
     }
   ],
   "summary": {
     "verdictKey": "summary.verdict.good",
     "cohortLineKey": "summary.cohortLine.yes",
-    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": "summary.suffix.marginHigh",
     "args": {
-      "refSize": 30,
+      "refSize": 4,
       "year": "2014",
       "title": "Mitsubishi Lancer"
     }

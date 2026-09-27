@@ -1,30 +1,30 @@
 {
   "vehicleId": "764c1749-5738-4c0e-b920-aad2e7da773e",
-  "computedAt": "2026-09-27T10:21:05.908Z",
+  "computedAt": "2026-09-27T15:13:55.006Z",
   "cohort": {
-    "sameModelCount": 43,
-    "sameYearCount": 3,
-    "refCohort": "model",
-    "refSize": 43
+    "sameModelCount": 45,
+    "sameYearCount": 4,
+    "refCohort": "model+year",
+    "refSize": 4
   },
-  "pricePercentile": 35,
+  "pricePercentile": 0,
   "pricePerKm": 4.169221336603311,
-  "pricePerKmPercentile": 26,
-  "kmPercentile": 72,
-  "daysListed": 32,
+  "pricePerKmPercentile": 0,
+  "kmPercentile": 75,
+  "daysListed": 33,
   "marginPct": null,
   "marginTier": null,
   "auctionHeat": "cold",
   "dealTag": "good",
   "bullets": [
     {
-      "tone": "mid",
-      "pipKey": "bullet.pip.mid",
+      "tone": "good",
+      "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 65,
-        "n": 43,
-        "kind": "detail.cohort.refSize.kind.model"
+        "pct": 100,
+        "n": 4,
+        "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 74,
+        "pct": 100,
         "ppkm": 4
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.highKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 28
+        "pct": 25
       }
     },
     {
@@ -53,23 +53,23 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 32
+        "n": 33
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 32
+        "n": 33
       }
     }
   ],
   "summary": {
     "verdictKey": "summary.verdict.good",
     "cohortLineKey": "summary.cohortLine.yes",
-    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 43,
+      "refSize": 4,
       "year": "2022",
       "title": "Renault Duster"
     }

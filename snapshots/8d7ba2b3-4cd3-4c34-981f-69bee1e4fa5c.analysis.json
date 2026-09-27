@@ -1,17 +1,17 @@
 {
   "vehicleId": "8d7ba2b3-4cd3-4c34-981f-69bee1e4fa5c",
-  "computedAt": "2026-09-27T10:21:05.768Z",
+  "computedAt": "2026-09-27T15:13:54.901Z",
   "cohort": {
-    "sameModelCount": 23,
+    "sameModelCount": 24,
     "sameYearCount": 2,
     "refCohort": "model",
-    "refSize": 23
+    "refSize": 24
   },
-  "pricePercentile": 74,
+  "pricePercentile": 75,
   "pricePerKm": 2.2911257064304262,
-  "pricePerKmPercentile": 48,
-  "kmPercentile": 83,
-  "daysListed": 13,
+  "pricePerKmPercentile": 50,
+  "kmPercentile": 79,
+  "daysListed": 14,
   "marginPct": null,
   "marginTier": null,
   "auctionHeat": "cold",
@@ -22,8 +22,8 @@
       "pipKey": "bullet.pip.high",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 26,
-        "n": 23,
+        "pct": 25,
+        "n": 24,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 52,
+        "pct": 50,
         "ppkm": 2
       }
     },
@@ -41,13 +41,24 @@
       "pipKey": "bullet.pip.highKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 17
+        "pct": 21
       }
     },
     {
       "tone": "neutral",
       "pipKey": "bullet.pip.cold",
       "textKey": "bullet.auctionCold"
+    },
+    {
+      "tone": "neutral",
+      "pipKey": "bullet.pip.daysListed",
+      "pipArgs": {
+        "n": 14
+      },
+      "textKey": "bullet.listedOld",
+      "textArgs": {
+        "n": 14
+      }
     }
   ],
   "summary": {
@@ -58,7 +69,7 @@
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 23,
+      "refSize": 24,
       "year": "2015",
       "title": "Kia Cerato"
     }

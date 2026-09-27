@@ -1,29 +1,29 @@
 {
   "vehicleId": "caf292ff-0667-458d-866f-bbc197290ff3",
-  "computedAt": "2026-09-27T10:21:06.282Z",
+  "computedAt": "2026-09-27T15:13:55.305Z",
   "cohort": {
-    "sameModelCount": 18,
-    "sameYearCount": 8,
+    "sameModelCount": 19,
+    "sameYearCount": 9,
     "refCohort": "model+year",
-    "refSize": 8
+    "refSize": 9
   },
-  "pricePercentile": 75,
+  "pricePercentile": 67,
   "pricePerKm": 6,
-  "pricePerKmPercentile": 25,
-  "kmPercentile": 50,
-  "daysListed": 179,
+  "pricePerKmPercentile": 22,
+  "kmPercentile": 56,
+  "daysListed": 180,
   "marginPct": 37.333333333333336,
   "marginTier": "high",
   "auctionHeat": "hot",
   "dealTag": "fair",
   "bullets": [
     {
-      "tone": "hot",
-      "pipKey": "bullet.pip.high",
+      "tone": "mid",
+      "pipKey": "bullet.pip.mid",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 25,
-        "n": 8,
+        "pct": 33,
+        "n": 9,
         "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 75,
+        "pct": 78,
         "ppkm": 6
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 50
+        "pct": 44
       }
     },
     {
@@ -61,11 +61,11 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 179
+        "n": 180
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 179
+        "n": 180
       }
     }
   ],
@@ -77,7 +77,7 @@
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": "summary.suffix.marginHigh",
     "args": {
-      "refSize": 8,
+      "refSize": 9,
       "year": "2021",
       "title": "Chevrolet Captiva"
     }

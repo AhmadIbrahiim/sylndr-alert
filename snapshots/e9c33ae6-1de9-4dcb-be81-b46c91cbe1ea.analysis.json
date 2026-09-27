@@ -1,29 +1,29 @@
 {
   "vehicleId": "e9c33ae6-1de9-4dcb-be81-b46c91cbe1ea",
-  "computedAt": "2026-09-27T10:21:07.772Z",
+  "computedAt": "2026-09-27T15:13:56.495Z",
   "cohort": {
-    "sameModelCount": 53,
-    "sameYearCount": 16,
+    "sameModelCount": 55,
+    "sameYearCount": 18,
     "refCohort": "model+year",
-    "refSize": 16
+    "refSize": 18
   },
-  "pricePercentile": 81,
+  "pricePercentile": 83,
   "pricePerKm": 7.5643731532292104,
-  "pricePerKmPercentile": 75,
-  "kmPercentile": 25,
-  "daysListed": 107,
+  "pricePerKmPercentile": 78,
+  "kmPercentile": 22,
+  "daysListed": 108,
   "marginPct": 15.066964285714285,
   "marginTier": "mid",
   "auctionHeat": "warm",
-  "dealTag": "fair",
+  "dealTag": "high",
   "bullets": [
     {
       "tone": "hot",
       "pipKey": "bullet.pip.high",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 19,
-        "n": 16,
+        "pct": 17,
+        "n": 18,
         "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.pricey",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 25,
+        "pct": 22,
         "ppkm": 8
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.lowKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 75
+        "pct": 78
       }
     },
     {
@@ -61,23 +61,23 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 107
+        "n": 108
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 107
+        "n": 108
       }
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.fair",
+    "verdictKey": "summary.verdict.high",
     "cohortLineKey": "summary.cohortLine.yes",
     "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 16,
+      "refSize": 18,
       "year": "2019",
       "title": "Renault Kadjar"
     }
