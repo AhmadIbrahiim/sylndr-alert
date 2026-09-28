@@ -1,17 +1,17 @@
 {
   "vehicleId": "b750bdd1-3b37-45b8-a1f5-b46b46f802bd",
-  "computedAt": "2026-09-28T11:25:23.302Z",
+  "computedAt": "2026-09-28T18:40:58.402Z",
   "cohort": {
-    "sameModelCount": 25,
-    "sameYearCount": 3,
-    "refCohort": "model",
-    "refSize": 25
+    "sameModelCount": 26,
+    "sameYearCount": 4,
+    "refCohort": "model+year",
+    "refSize": 4
   },
-  "pricePercentile": 4,
+  "pricePercentile": 25,
   "pricePerKm": 3.7291462217860647,
-  "pricePerKmPercentile": 4,
-  "kmPercentile": 96,
-  "daysListed": 92,
+  "pricePerKmPercentile": 0,
+  "kmPercentile": 75,
+  "daysListed": 93,
   "marginPct": 38.8421052631579,
   "marginTier": "high",
   "auctionHeat": "warm",
@@ -22,9 +22,9 @@
       "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 96,
-        "n": 25,
-        "kind": "detail.cohort.refSize.kind.model"
+        "pct": 75,
+        "n": 4,
+        "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 96,
+        "pct": 100,
         "ppkm": 4
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.highKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 4
+        "pct": 25
       }
     },
     {
@@ -61,23 +61,23 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 92
+        "n": 93
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 92
+        "n": 93
       }
     }
   ],
   "summary": {
     "verdictKey": "summary.verdict.good",
     "cohortLineKey": "summary.cohortLine.yes",
-    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": null,
     "marginSuffixKey": "summary.suffix.marginHigh",
     "args": {
-      "refSize": 25,
+      "refSize": 4,
       "year": "2019",
       "title": "Peugeot 5008"
     }
