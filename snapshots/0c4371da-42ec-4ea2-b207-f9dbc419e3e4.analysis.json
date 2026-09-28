@@ -1,17 +1,17 @@
 {
   "vehicleId": "0c4371da-42ec-4ea2-b207-f9dbc419e3e4",
-  "computedAt": "2026-09-27T19:43:09.465Z",
+  "computedAt": "2026-09-28T11:25:20.198Z",
   "cohort": {
-    "sameModelCount": 28,
-    "sameYearCount": 8,
+    "sameModelCount": 29,
+    "sameYearCount": 9,
     "refCohort": "model+year",
-    "refSize": 8
+    "refSize": 9
   },
-  "pricePercentile": 75,
+  "pricePercentile": 78,
   "pricePerKm": 8.670520231213873,
-  "pricePerKmPercentile": 50,
-  "kmPercentile": 38,
-  "daysListed": 17,
+  "pricePerKmPercentile": 56,
+  "kmPercentile": 33,
+  "daysListed": 18,
   "marginPct": null,
   "marginTier": null,
   "auctionHeat": "cold",
@@ -22,8 +22,8 @@
       "pipKey": "bullet.pip.high",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 25,
-        "n": 8,
+        "pct": 22,
+        "n": 9,
         "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
@@ -32,16 +32,16 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 50,
+        "pct": 44,
         "ppkm": 9
       }
     },
     {
-      "tone": "mid",
-      "pipKey": "bullet.pip.km",
+      "tone": "good",
+      "pipKey": "bullet.pip.lowKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 62
+        "pct": 67
       }
     },
     {
@@ -53,11 +53,11 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 17
+        "n": 18
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 17
+        "n": 18
       }
     }
   ],
@@ -69,7 +69,7 @@
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 8,
+      "refSize": 9,
       "year": "2021",
       "title": "Peugeot 2008"
     }
