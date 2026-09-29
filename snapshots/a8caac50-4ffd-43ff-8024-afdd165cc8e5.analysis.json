@@ -1,17 +1,17 @@
 {
   "vehicleId": "a8caac50-4ffd-43ff-8024-afdd165cc8e5",
-  "computedAt": "2026-09-29T11:03:08.229Z",
+  "computedAt": "2026-09-29T16:53:48.770Z",
   "cohort": {
-    "sameModelCount": 61,
+    "sameModelCount": 62,
     "sameYearCount": 2,
     "refCohort": "model",
-    "refSize": 61
+    "refSize": 62
   },
   "pricePercentile": 97,
   "pricePerKm": 66.29464285714286,
   "pricePerKmPercentile": 97,
   "kmPercentile": 3,
-  "daysListed": 13,
+  "daysListed": 14,
   "marginPct": null,
   "marginTier": null,
   "auctionHeat": "cold",
@@ -23,7 +23,7 @@
       "textKey": "bullet.priceCheaper",
       "textArgs": {
         "pct": 3,
-        "n": 61,
+        "n": 62,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -48,6 +48,17 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.cold",
       "textKey": "bullet.auctionCold"
+    },
+    {
+      "tone": "neutral",
+      "pipKey": "bullet.pip.daysListed",
+      "pipArgs": {
+        "n": 14
+      },
+      "textKey": "bullet.listedOld",
+      "textArgs": {
+        "n": 14
+      }
     }
   ],
   "summary": {
@@ -58,7 +69,7 @@
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 61,
+      "refSize": 62,
       "year": "2025",
       "title": "Toyota Corolla"
     }

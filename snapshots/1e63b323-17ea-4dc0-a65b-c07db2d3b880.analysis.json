@@ -1,17 +1,17 @@
 {
   "vehicleId": "1e63b323-17ea-4dc0-a65b-c07db2d3b880",
-  "computedAt": "2026-09-29T11:03:10.283Z",
+  "computedAt": "2026-09-29T16:53:51.376Z",
   "cohort": {
-    "sameModelCount": 9,
+    "sameModelCount": 10,
     "sameYearCount": 3,
     "refCohort": "model",
-    "refSize": 9
+    "refSize": 10
   },
-  "pricePercentile": 11,
+  "pricePercentile": 20,
   "pricePerKm": 2.125903431521409,
-  "pricePerKmPercentile": 11,
-  "kmPercentile": 78,
-  "daysListed": 154,
+  "pricePerKmPercentile": 20,
+  "kmPercentile": 80,
+  "daysListed": 155,
   "marginPct": 34.291346456018054,
   "marginTier": "high",
   "auctionHeat": "hot",
@@ -22,8 +22,8 @@
       "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 89,
-        "n": 9,
+        "pct": 80,
+        "n": 10,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 89,
+        "pct": 80,
         "ppkm": 2
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.highKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 22
+        "pct": 20
       }
     },
     {
@@ -61,11 +61,11 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 154
+        "n": 155
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 154
+        "n": 155
       }
     }
   ],
@@ -77,7 +77,7 @@
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": "summary.suffix.marginHigh",
     "args": {
-      "refSize": 9,
+      "refSize": 10,
       "year": "2015",
       "title": "Skoda Octavia A7"
     }
