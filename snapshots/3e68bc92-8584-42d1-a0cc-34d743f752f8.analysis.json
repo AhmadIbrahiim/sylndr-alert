@@ -1,16 +1,16 @@
 {
   "vehicleId": "3e68bc92-8584-42d1-a0cc-34d743f752f8",
-  "computedAt": "2026-09-29T16:53:49.017Z",
+  "computedAt": "2026-09-29T20:39:29.379Z",
   "cohort": {
-    "sameModelCount": 22,
-    "sameYearCount": 10,
+    "sameModelCount": 23,
+    "sameYearCount": 11,
     "refCohort": "model+year",
-    "refSize": 10
+    "refSize": 11
   },
-  "pricePercentile": 30,
+  "pricePercentile": 36,
   "pricePerKm": 3.491729525259082,
-  "pricePerKmPercentile": 40,
-  "kmPercentile": 60,
+  "pricePerKmPercentile": 36,
+  "kmPercentile": 64,
   "daysListed": 2,
   "marginPct": null,
   "marginTier": null,
@@ -18,12 +18,12 @@
   "dealTag": "fair",
   "bullets": [
     {
-      "tone": "good",
-      "pipKey": "bullet.pip.deal",
+      "tone": "mid",
+      "pipKey": "bullet.pip.mid",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 70,
-        "n": 10,
+        "pct": 64,
+        "n": 11,
         "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 60,
+        "pct": 64,
         "ppkm": 3
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 40
+        "pct": 36
       }
     },
     {
@@ -58,7 +58,7 @@
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 10,
+      "refSize": 11,
       "year": "2015",
       "title": "Kia Rio"
     }

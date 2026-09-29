@@ -1,29 +1,29 @@
 {
   "vehicleId": "dfba38d2-317f-4e2d-aa8d-84fe4bfaa7b6",
-  "computedAt": "2026-09-29T16:53:48.867Z",
+  "computedAt": "2026-09-29T20:39:29.247Z",
   "cohort": {
-    "sameModelCount": 8,
-    "sameYearCount": 6,
+    "sameModelCount": 9,
+    "sameYearCount": 7,
     "refCohort": "model+year",
-    "refSize": 6
+    "refSize": 7
   },
-  "pricePercentile": 83,
+  "pricePercentile": 71,
   "pricePerKm": 10.939757615073866,
-  "pricePerKmPercentile": 83,
+  "pricePerKmPercentile": 86,
   "kmPercentile": 0,
   "daysListed": 5,
   "marginPct": null,
   "marginTier": null,
   "auctionHeat": "cold",
-  "dealTag": "high",
+  "dealTag": "fair",
   "bullets": [
     {
       "tone": "hot",
       "pipKey": "bullet.pip.high",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 17,
-        "n": 6,
+        "pct": 29,
+        "n": 7,
         "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.pricey",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 17,
+        "pct": 14,
         "ppkm": 11
       }
     },
@@ -51,14 +51,14 @@
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.high",
+    "verdictKey": "summary.verdict.fair",
     "cohortLineKey": "summary.cohortLine.yes",
     "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": null,
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 6,
+      "refSize": 7,
       "year": "2021",
       "title": "MG MG 5"
     }

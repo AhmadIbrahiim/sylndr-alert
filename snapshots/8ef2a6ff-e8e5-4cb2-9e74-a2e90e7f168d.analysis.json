@@ -1,0 +1,71 @@
+{
+  "vehicleId": "8ef2a6ff-e8e5-4cb2-9e74-a2e90e7f168d",
+  "computedAt": "2026-09-29T20:39:29.486Z",
+  "cohort": {
+    "sameModelCount": 15,
+    "sameYearCount": 2,
+    "refCohort": "model",
+    "refSize": 15
+  },
+  "pricePercentile": 80,
+  "pricePerKm": 5.5233880964709945,
+  "pricePerKmPercentile": 87,
+  "kmPercentile": 7,
+  "daysListed": 0,
+  "marginPct": null,
+  "marginTier": null,
+  "auctionHeat": "cold",
+  "dealTag": "high",
+  "bullets": [
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.high",
+      "textKey": "bullet.priceCheaper",
+      "textArgs": {
+        "pct": 20,
+        "n": 15,
+        "kind": "detail.cohort.refSize.kind.model"
+      }
+    },
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.pricey",
+      "textKey": "bullet.ppkmBetter",
+      "textArgs": {
+        "pct": 13,
+        "ppkm": 6
+      }
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.lowKm",
+      "textKey": "bullet.kmLower",
+      "textArgs": {
+        "pct": 93
+      }
+    },
+    {
+      "tone": "neutral",
+      "pipKey": "bullet.pip.cold",
+      "textKey": "bullet.auctionCold"
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.fresh",
+      "textKey": "bullet.listedFresh"
+    }
+  ],
+  "summary": {
+    "verdictKey": "summary.verdict.high",
+    "cohortLineKey": "summary.cohortLine.yes",
+    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "ageSuffixKey": "summary.suffix.ageFresh",
+    "heatSuffixKey": null,
+    "marginSuffixKey": null,
+    "args": {
+      "refSize": 15,
+      "year": "2014",
+      "title": "Hyundai Elantra MD"
+    }
+  }
+}

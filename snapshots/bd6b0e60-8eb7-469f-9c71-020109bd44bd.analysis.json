@@ -1,15 +1,15 @@
 {
   "vehicleId": "bd6b0e60-8eb7-469f-9c71-020109bd44bd",
-  "computedAt": "2026-09-29T16:53:46.321Z",
+  "computedAt": "2026-09-29T20:39:26.960Z",
   "cohort": {
-    "sameModelCount": 42,
-    "sameYearCount": 4,
+    "sameModelCount": 43,
+    "sameYearCount": 5,
     "refCohort": "model+year",
-    "refSize": 4
+    "refSize": 5
   },
   "pricePercentile": 0,
   "pricePerKm": 13.03956834532374,
-  "pricePerKmPercentile": 75,
+  "pricePerKmPercentile": 60,
   "kmPercentile": 0,
   "daysListed": 70,
   "marginPct": 15.655172413793103,
@@ -23,16 +23,16 @@
       "textKey": "bullet.priceCheaper",
       "textArgs": {
         "pct": 100,
-        "n": 4,
+        "n": 5,
         "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
-      "tone": "hot",
-      "pipKey": "bullet.pip.pricey",
+      "tone": "mid",
+      "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 25,
+        "pct": 40,
         "ppkm": 13
       }
     },
@@ -77,7 +77,7 @@
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 4,
+      "refSize": 5,
       "year": "2020",
       "title": "BMW X1"
     }

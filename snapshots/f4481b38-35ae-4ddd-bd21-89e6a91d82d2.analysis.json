@@ -1,16 +1,16 @@
 {
   "vehicleId": "f4481b38-35ae-4ddd-bd21-89e6a91d82d2",
-  "computedAt": "2026-09-29T16:53:50.180Z",
+  "computedAt": "2026-09-29T20:39:30.423Z",
   "cohort": {
-    "sameModelCount": 11,
+    "sameModelCount": 12,
     "sameYearCount": 3,
     "refCohort": "model",
-    "refSize": 11
+    "refSize": 12
   },
-  "pricePercentile": 64,
+  "pricePercentile": 67,
   "pricePerKm": 19.240256536753822,
-  "pricePerKmPercentile": 64,
-  "kmPercentile": 36,
+  "pricePerKmPercentile": 67,
+  "kmPercentile": 33,
   "daysListed": 32,
   "marginPct": null,
   "marginTier": null,
@@ -22,8 +22,8 @@
       "pipKey": "bullet.pip.mid",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 36,
-        "n": 11,
+        "pct": 33,
+        "n": 12,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -32,16 +32,16 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 36,
+        "pct": 33,
         "ppkm": 19
       }
     },
     {
-      "tone": "mid",
-      "pipKey": "bullet.pip.km",
+      "tone": "good",
+      "pipKey": "bullet.pip.lowKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 64
+        "pct": 67
       }
     },
     {
@@ -69,7 +69,7 @@
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 11,
+      "refSize": 12,
       "year": "2024",
       "title": "DS 7 Crossback"
     }
