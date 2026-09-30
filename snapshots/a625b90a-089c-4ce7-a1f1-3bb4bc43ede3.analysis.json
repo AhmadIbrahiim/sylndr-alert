@@ -1,0 +1,71 @@
+{
+  "vehicleId": "a625b90a-089c-4ce7-a1f1-3bb4bc43ede3",
+  "computedAt": "2026-09-30T20:44:22.201Z",
+  "cohort": {
+    "sameModelCount": 67,
+    "sameYearCount": 13,
+    "refCohort": "model+year",
+    "refSize": 13
+  },
+  "pricePercentile": 62,
+  "pricePerKm": 11.599101898110176,
+  "pricePerKmPercentile": 38,
+  "kmPercentile": 62,
+  "daysListed": 0,
+  "marginPct": null,
+  "marginTier": null,
+  "auctionHeat": "cold",
+  "dealTag": "fair",
+  "bullets": [
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.mid",
+      "textKey": "bullet.priceCheaper",
+      "textArgs": {
+        "pct": 38,
+        "n": 13,
+        "kind": "detail.cohort.refSize.kind.modelYear"
+      }
+    },
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.value",
+      "textKey": "bullet.ppkmBetter",
+      "textArgs": {
+        "pct": 62,
+        "ppkm": 12
+      }
+    },
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.km",
+      "textKey": "bullet.kmLower",
+      "textArgs": {
+        "pct": 38
+      }
+    },
+    {
+      "tone": "neutral",
+      "pipKey": "bullet.pip.cold",
+      "textKey": "bullet.auctionCold"
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.fresh",
+      "textKey": "bullet.listedFresh"
+    }
+  ],
+  "summary": {
+    "verdictKey": "summary.verdict.fair",
+    "cohortLineKey": "summary.cohortLine.yes",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
+    "ageSuffixKey": "summary.suffix.ageFresh",
+    "heatSuffixKey": null,
+    "marginSuffixKey": null,
+    "args": {
+      "refSize": 13,
+      "year": "2022",
+      "title": "Peugeot 3008"
+    }
+  }
+}

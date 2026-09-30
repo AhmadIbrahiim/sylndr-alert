@@ -1,29 +1,29 @@
 {
   "vehicleId": "e7099150-eab8-4478-9ea4-b3a1f75c07f4",
-  "computedAt": "2026-09-30T16:39:19.554Z",
+  "computedAt": "2026-09-30T20:44:25.113Z",
   "cohort": {
-    "sameModelCount": 11,
+    "sameModelCount": 12,
     "sameYearCount": 3,
     "refCohort": "model",
-    "refSize": 11
+    "refSize": 12
   },
-  "pricePercentile": 45,
+  "pricePercentile": 42,
   "pricePerKm": 35.00705218617772,
-  "pricePerKmPercentile": 27,
-  "kmPercentile": 73,
+  "pricePerKmPercentile": 25,
+  "kmPercentile": 75,
   "daysListed": 136,
   "marginPct": 20.682245500940102,
   "marginTier": "mid",
   "auctionHeat": "warm",
-  "dealTag": "fair",
+  "dealTag": "good",
   "bullets": [
     {
       "tone": "mid",
       "pipKey": "bullet.pip.mid",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 55,
-        "n": 11,
+        "pct": 58,
+        "n": 12,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 73,
+        "pct": 75,
         "ppkm": 35
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.highKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 27
+        "pct": 25
       }
     },
     {
@@ -70,14 +70,14 @@
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.fair",
+    "verdictKey": "summary.verdict.good",
     "cohortLineKey": "summary.cohortLine.yes",
     "cohortKindKey": "detail.cohort.refSize.kind.model",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 11,
+      "refSize": 12,
       "year": "2023",
       "title": "Mercedes-Benz GLC 200"
     }
