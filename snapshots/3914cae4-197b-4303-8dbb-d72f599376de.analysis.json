@@ -1,30 +1,30 @@
 {
   "vehicleId": "3914cae4-197b-4303-8dbb-d72f599376de",
-  "computedAt": "2026-09-30T20:44:25.103Z",
+  "computedAt": "2026-10-01T11:20:03.902Z",
   "cohort": {
-    "sameModelCount": 30,
-    "sameYearCount": 3,
-    "refCohort": "model",
-    "refSize": 30
+    "sameModelCount": 31,
+    "sameYearCount": 4,
+    "refCohort": "model+year",
+    "refSize": 4
   },
-  "pricePercentile": 83,
+  "pricePercentile": 0,
   "pricePerKm": 139.2,
-  "pricePerKmPercentile": 97,
+  "pricePerKmPercentile": 75,
   "kmPercentile": 0,
-  "daysListed": 100,
+  "daysListed": 101,
   "marginPct": 19.885057471264368,
   "marginTier": "mid",
   "auctionHeat": "cold",
-  "dealTag": "high",
+  "dealTag": "good",
   "bullets": [
     {
-      "tone": "hot",
-      "pipKey": "bullet.pip.high",
+      "tone": "good",
+      "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 17,
-        "n": 30,
-        "kind": "detail.cohort.refSize.kind.model"
+        "pct": 100,
+        "n": 4,
+        "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.pricey",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 3,
+        "pct": 25,
         "ppkm": 139
       }
     },
@@ -61,23 +61,23 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 100
+        "n": 101
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 100
+        "n": 101
       }
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.high",
+    "verdictKey": "summary.verdict.good",
     "cohortLineKey": "summary.cohortLine.yes",
-    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 30,
+      "refSize": 4,
       "year": "2026",
       "title": "Nissan Sentra"
     }

@@ -1,29 +1,29 @@
 {
   "vehicleId": "9a18daf0-855b-461c-be8a-d5bf345d9eeb",
-  "computedAt": "2026-09-30T20:44:21.994Z",
+  "computedAt": "2026-10-01T11:20:00.756Z",
   "cohort": {
-    "sameModelCount": 30,
+    "sameModelCount": 31,
     "sameYearCount": 2,
     "refCohort": "model",
-    "refSize": 30
+    "refSize": 31
   },
-  "pricePercentile": 30,
+  "pricePercentile": 29,
   "pricePerKm": 4.652908067542214,
-  "pricePerKmPercentile": 40,
-  "kmPercentile": 50,
-  "daysListed": 48,
+  "pricePerKmPercentile": 39,
+  "kmPercentile": 52,
+  "daysListed": 49,
   "marginPct": null,
   "marginTier": null,
   "auctionHeat": "cold",
-  "dealTag": "fair",
+  "dealTag": "good",
   "bullets": [
     {
       "tone": "good",
       "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 70,
-        "n": 30,
+        "pct": 71,
+        "n": 31,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 60,
+        "pct": 61,
         "ppkm": 5
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 50
+        "pct": 48
       }
     },
     {
@@ -53,23 +53,23 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 48
+        "n": 49
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 48
+        "n": 49
       }
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.fair",
+    "verdictKey": "summary.verdict.good",
     "cohortLineKey": "summary.cohortLine.yes",
     "cohortKindKey": "detail.cohort.refSize.kind.model",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 30,
+      "refSize": 31,
       "year": "2015",
       "title": "Nissan Sentra"
     }
