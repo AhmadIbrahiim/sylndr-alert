@@ -1,16 +1,16 @@
 {
   "vehicleId": "6812ff2d-1e84-4ebc-8e38-87f4a998e45e",
-  "computedAt": "2026-10-02T16:28:47.522Z",
+  "computedAt": "2026-10-02T20:36:34.443Z",
   "cohort": {
-    "sameModelCount": 24,
-    "sameYearCount": 3,
-    "refCohort": "model",
-    "refSize": 24
+    "sameModelCount": 25,
+    "sameYearCount": 4,
+    "refCohort": "model+year",
+    "refSize": 4
   },
-  "pricePercentile": 58,
+  "pricePercentile": 75,
   "pricePerKm": 10.745688608209862,
-  "pricePerKmPercentile": 67,
-  "kmPercentile": 29,
+  "pricePerKmPercentile": 75,
+  "kmPercentile": 0,
   "daysListed": 16,
   "marginPct": null,
   "marginTier": null,
@@ -18,21 +18,21 @@
   "dealTag": "fair",
   "bullets": [
     {
-      "tone": "mid",
-      "pipKey": "bullet.pip.mid",
+      "tone": "hot",
+      "pipKey": "bullet.pip.high",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 42,
-        "n": 24,
-        "kind": "detail.cohort.refSize.kind.model"
+        "pct": 25,
+        "n": 4,
+        "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
-      "tone": "mid",
-      "pipKey": "bullet.pip.value",
+      "tone": "hot",
+      "pipKey": "bullet.pip.pricey",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 33,
+        "pct": 25,
         "ppkm": 11
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.lowKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 71
+        "pct": 100
       }
     },
     {
@@ -64,12 +64,12 @@
   "summary": {
     "verdictKey": "summary.verdict.fair",
     "cohortLineKey": "summary.cohortLine.yes",
-    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": null,
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 24,
+      "refSize": 4,
       "year": "2018",
       "title": "Subaru XV"
     }
