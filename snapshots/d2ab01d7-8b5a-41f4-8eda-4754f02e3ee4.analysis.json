@@ -1,17 +1,17 @@
 {
   "vehicleId": "d2ab01d7-8b5a-41f4-8eda-4754f02e3ee4",
-  "computedAt": "2026-10-01T20:58:19.495Z",
+  "computedAt": "2026-10-02T10:52:12.553Z",
   "cohort": {
-    "sameModelCount": 67,
-    "sameYearCount": 10,
+    "sameModelCount": 69,
+    "sameYearCount": 11,
     "refCohort": "model+year",
-    "refSize": 10
+    "refSize": 11
   },
-  "pricePercentile": 60,
+  "pricePercentile": 64,
   "pricePerKm": 8.022705771050141,
-  "pricePerKmPercentile": 30,
-  "kmPercentile": 60,
-  "daysListed": 88,
+  "pricePerKmPercentile": 36,
+  "kmPercentile": 64,
+  "daysListed": 89,
   "marginPct": 16.666666666666664,
   "marginTier": "mid",
   "auctionHeat": "warm",
@@ -22,17 +22,17 @@
       "pipKey": "bullet.pip.mid",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 40,
-        "n": 10,
+        "pct": 36,
+        "n": 11,
         "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
-      "tone": "good",
+      "tone": "mid",
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 70,
+        "pct": 64,
         "ppkm": 8
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 40
+        "pct": 36
       }
     },
     {
@@ -61,11 +61,11 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 88
+        "n": 89
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 88
+        "n": 89
       }
     }
   ],
@@ -77,7 +77,7 @@
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 10,
+      "refSize": 11,
       "year": "2019",
       "title": "Peugeot 3008"
     }
