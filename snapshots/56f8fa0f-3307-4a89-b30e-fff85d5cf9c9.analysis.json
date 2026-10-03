@@ -1,29 +1,29 @@
 {
   "vehicleId": "56f8fa0f-3307-4a89-b30e-fff85d5cf9c9",
-  "computedAt": "2026-10-03T14:44:03.841Z",
+  "computedAt": "2026-10-03T18:18:02.100Z",
   "cohort": {
-    "sameModelCount": 38,
-    "sameYearCount": 6,
+    "sameModelCount": 39,
+    "sameYearCount": 7,
     "refCohort": "model+year",
-    "refSize": 6
+    "refSize": 7
   },
-  "pricePercentile": 17,
+  "pricePercentile": 14,
   "pricePerKm": 29.850746268656717,
-  "pricePerKmPercentile": 83,
-  "kmPercentile": 0,
+  "pricePerKmPercentile": 71,
+  "kmPercentile": 14,
   "daysListed": 96,
   "marginPct": 28.666666666666668,
   "marginTier": "mid",
   "auctionHeat": "warm",
-  "dealTag": "fair",
+  "dealTag": "good",
   "bullets": [
     {
       "tone": "good",
       "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 83,
-        "n": 6,
+        "pct": 86,
+        "n": 7,
         "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.pricey",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 17,
+        "pct": 29,
         "ppkm": 30
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.lowKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 100
+        "pct": 86
       }
     },
     {
@@ -70,14 +70,14 @@
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.fair",
+    "verdictKey": "summary.verdict.good",
     "cohortLineKey": "summary.cohortLine.yes",
     "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 6,
+      "refSize": 7,
       "year": "2021",
       "title": "Skoda KODIAQ"
     }

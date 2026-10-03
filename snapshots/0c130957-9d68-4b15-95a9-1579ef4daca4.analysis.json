@@ -1,16 +1,16 @@
 {
   "vehicleId": "0c130957-9d68-4b15-95a9-1579ef4daca4",
-  "computedAt": "2026-10-03T14:44:05.728Z",
+  "computedAt": "2026-10-03T18:18:04.000Z",
   "cohort": {
-    "sameModelCount": 11,
-    "sameYearCount": 11,
+    "sameModelCount": 12,
+    "sameYearCount": 12,
     "refCohort": "model+year",
-    "refSize": 11
+    "refSize": 12
   },
-  "pricePercentile": 36,
+  "pricePercentile": 33,
   "pricePerKm": 16.446686476401077,
-  "pricePerKmPercentile": 18,
-  "kmPercentile": 73,
+  "pricePerKmPercentile": 25,
+  "kmPercentile": 67,
   "daysListed": 289,
   "marginPct": 7.8431372549019605,
   "marginTier": "low",
@@ -18,12 +18,12 @@
   "dealTag": "good",
   "bullets": [
     {
-      "tone": "mid",
-      "pipKey": "bullet.pip.mid",
+      "tone": "good",
+      "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 64,
-        "n": 11,
+        "pct": 67,
+        "n": 12,
         "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
@@ -32,16 +32,16 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 82,
+        "pct": 75,
         "ppkm": 16
       }
     },
     {
-      "tone": "hot",
-      "pipKey": "bullet.pip.highKm",
+      "tone": "mid",
+      "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 27
+        "pct": 33
       }
     },
     {
@@ -77,7 +77,7 @@
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": "summary.suffix.marginLow",
     "args": {
-      "refSize": 11,
+      "refSize": 12,
       "year": "2024",
       "title": "Geely GX3 Pro"
     }
