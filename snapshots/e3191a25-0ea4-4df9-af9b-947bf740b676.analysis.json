@@ -1,16 +1,16 @@
 {
   "vehicleId": "e3191a25-0ea4-4df9-af9b-947bf740b676",
-  "computedAt": "2026-10-03T18:18:03.981Z",
+  "computedAt": "2026-10-03T19:09:49.244Z",
   "cohort": {
-    "sameModelCount": 23,
-    "sameYearCount": 4,
+    "sameModelCount": 25,
+    "sameYearCount": 5,
     "refCohort": "model+year",
-    "refSize": 4
+    "refSize": 5
   },
-  "pricePercentile": 75,
+  "pricePercentile": 60,
   "pricePerKm": 3.997539975399754,
-  "pricePerKmPercentile": 75,
-  "kmPercentile": 25,
+  "pricePerKmPercentile": 60,
+  "kmPercentile": 40,
   "daysListed": 142,
   "marginPct": 19.538461538461537,
   "marginTier": "mid",
@@ -18,30 +18,30 @@
   "dealTag": "fair",
   "bullets": [
     {
-      "tone": "hot",
-      "pipKey": "bullet.pip.high",
+      "tone": "mid",
+      "pipKey": "bullet.pip.mid",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 25,
-        "n": 4,
+        "pct": 40,
+        "n": 5,
         "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
-      "tone": "hot",
-      "pipKey": "bullet.pip.pricey",
+      "tone": "mid",
+      "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 25,
+        "pct": 40,
         "ppkm": 4
       }
     },
     {
-      "tone": "good",
-      "pipKey": "bullet.pip.lowKm",
+      "tone": "mid",
+      "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 75
+        "pct": 60
       }
     },
     {
@@ -77,7 +77,7 @@
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 4,
+      "refSize": 5,
       "year": "2013",
       "title": "Kia Rio"
     }
