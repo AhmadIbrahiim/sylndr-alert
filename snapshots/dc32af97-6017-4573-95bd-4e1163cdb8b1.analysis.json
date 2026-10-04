@@ -1,17 +1,17 @@
 {
   "vehicleId": "dc32af97-6017-4573-95bd-4e1163cdb8b1",
-  "computedAt": "2026-10-03T19:09:51.839Z",
+  "computedAt": "2026-10-04T10:53:34.067Z",
   "cohort": {
-    "sameModelCount": 36,
-    "sameYearCount": 3,
-    "refCohort": "model",
-    "refSize": 36
+    "sameModelCount": 37,
+    "sameYearCount": 4,
+    "refCohort": "model+year",
+    "refSize": 4
   },
-  "pricePercentile": 3,
+  "pricePercentile": 0,
   "pricePerKm": 1.1390889773466268,
   "pricePerKmPercentile": 0,
-  "kmPercentile": 97,
-  "daysListed": 9,
+  "kmPercentile": 75,
+  "daysListed": 10,
   "marginPct": null,
   "marginTier": null,
   "auctionHeat": "cold",
@@ -22,9 +22,9 @@
       "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 97,
-        "n": 36,
-        "kind": "detail.cohort.refSize.kind.model"
+        "pct": 100,
+        "n": 4,
+        "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.highKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 3
+        "pct": 25
       }
     },
     {
@@ -53,12 +53,12 @@
   "summary": {
     "verdictKey": "summary.verdict.good",
     "cohortLineKey": "summary.cohortLine.yes",
-    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": null,
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 36,
+      "refSize": 4,
       "year": "2015",
       "title": "Peugeot 508"
     }
