@@ -1,16 +1,16 @@
 {
   "vehicleId": "2a2c9dc9-fdd0-41c3-92cb-26eda4117350",
-  "computedAt": "2026-10-04T15:39:18.235Z",
+  "computedAt": "2026-10-04T18:48:31.730Z",
   "cohort": {
-    "sameModelCount": 30,
-    "sameYearCount": 11,
+    "sameModelCount": 31,
+    "sameYearCount": 12,
     "refCohort": "model+year",
-    "refSize": 11
+    "refSize": 12
   },
-  "pricePercentile": 64,
+  "pricePercentile": 67,
   "pricePerKm": 6.185567010309279,
-  "pricePerKmPercentile": 36,
-  "kmPercentile": 73,
+  "pricePerKmPercentile": 42,
+  "kmPercentile": 67,
   "daysListed": 40,
   "marginPct": null,
   "marginTier": null,
@@ -22,8 +22,8 @@
       "pipKey": "bullet.pip.mid",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 36,
-        "n": 11,
+        "pct": 33,
+        "n": 12,
         "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
@@ -32,16 +32,16 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 64,
+        "pct": 58,
         "ppkm": 6
       }
     },
     {
-      "tone": "hot",
-      "pipKey": "bullet.pip.highKm",
+      "tone": "mid",
+      "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 27
+        "pct": 33
       }
     },
     {
@@ -69,7 +69,7 @@
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 11,
+      "refSize": 12,
       "year": "2021",
       "title": "Citroen C-Elysee"
     }

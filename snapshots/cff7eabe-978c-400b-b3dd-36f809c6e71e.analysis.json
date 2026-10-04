@@ -1,16 +1,16 @@
 {
   "vehicleId": "cff7eabe-978c-400b-b3dd-36f809c6e71e",
-  "computedAt": "2026-10-04T15:39:16.079Z",
+  "computedAt": "2026-10-04T18:48:28.785Z",
   "cohort": {
-    "sameModelCount": 15,
-    "sameYearCount": 3,
-    "refCohort": "model",
-    "refSize": 15
+    "sameModelCount": 16,
+    "sameYearCount": 4,
+    "refCohort": "model+year",
+    "refSize": 4
   },
   "pricePercentile": 0,
   "pricePerKm": 1.855501003826043,
   "pricePerKmPercentile": 0,
-  "kmPercentile": 93,
+  "kmPercentile": 75,
   "daysListed": 6,
   "marginPct": null,
   "marginTier": null,
@@ -23,8 +23,8 @@
       "textKey": "bullet.priceCheaper",
       "textArgs": {
         "pct": 100,
-        "n": 15,
-        "kind": "detail.cohort.refSize.kind.model"
+        "n": 4,
+        "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.highKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 7
+        "pct": 25
       }
     },
     {
@@ -53,12 +53,12 @@
   "summary": {
     "verdictKey": "summary.verdict.good",
     "cohortLineKey": "summary.cohortLine.yes",
-    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": null,
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 15,
+      "refSize": 4,
       "year": "2021",
       "title": "Suzuki Swift"
     }
