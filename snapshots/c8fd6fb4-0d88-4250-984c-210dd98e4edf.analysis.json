@@ -1,30 +1,30 @@
 {
   "vehicleId": "c8fd6fb4-0d88-4250-984c-210dd98e4edf",
-  "computedAt": "2026-10-05T20:44:11.328Z",
+  "computedAt": "2026-10-05T22:29:36.080Z",
   "cohort": {
-    "sameModelCount": 60,
-    "sameYearCount": 3,
-    "refCohort": "model",
-    "refSize": 60
+    "sameModelCount": 61,
+    "sameYearCount": 4,
+    "refCohort": "model+year",
+    "refSize": 4
   },
-  "pricePercentile": 62,
+  "pricePercentile": 0,
   "pricePerKm": 2.534264287561417,
-  "pricePerKmPercentile": 33,
-  "kmPercentile": 78,
+  "pricePerKmPercentile": 0,
+  "kmPercentile": 75,
   "daysListed": 152,
   "marginPct": 27.55102040816326,
   "marginTier": "mid",
   "auctionHeat": "hot",
-  "dealTag": "fair",
+  "dealTag": "good",
   "bullets": [
     {
-      "tone": "mid",
-      "pipKey": "bullet.pip.mid",
+      "tone": "good",
+      "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 38,
-        "n": 60,
-        "kind": "detail.cohort.refSize.kind.model"
+        "pct": 100,
+        "n": 4,
+        "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 67,
+        "pct": 100,
         "ppkm": 3
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.highKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 22
+        "pct": 25
       }
     },
     {
@@ -70,14 +70,14 @@
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.fair",
+    "verdictKey": "summary.verdict.good",
     "cohortLineKey": "summary.cohortLine.yes",
-    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": null,
     "args": {
-      "refSize": 60,
+      "refSize": 4,
       "year": "2021",
       "title": "Renault Logan"
     }
