@@ -1,29 +1,29 @@
 {
   "vehicleId": "ed13409d-742c-4b42-998b-9cef01588e9b",
-  "computedAt": "2026-10-05T12:01:16.306Z",
+  "computedAt": "2026-10-05T20:44:10.605Z",
   "cohort": {
-    "sameModelCount": 11,
+    "sameModelCount": 12,
     "sameYearCount": 2,
     "refCohort": "model",
-    "refSize": 11
+    "refSize": 12
   },
-  "pricePercentile": 36,
+  "pricePercentile": 33,
   "pricePerKm": 3.259779338014042,
-  "pricePerKmPercentile": 55,
-  "kmPercentile": 45,
-  "daysListed": 165,
+  "pricePerKmPercentile": 58,
+  "kmPercentile": 42,
+  "daysListed": 166,
   "marginPct": 40.92307692307692,
   "marginTier": "high",
   "auctionHeat": "hot",
   "dealTag": "fair",
   "bullets": [
     {
-      "tone": "mid",
-      "pipKey": "bullet.pip.mid",
+      "tone": "good",
+      "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 64,
-        "n": 11,
+        "pct": 67,
+        "n": 12,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 45,
+        "pct": 42,
         "ppkm": 3
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 55
+        "pct": 58
       }
     },
     {
@@ -61,11 +61,11 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 165
+        "n": 166
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 165
+        "n": 166
       }
     }
   ],
@@ -77,7 +77,7 @@
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": "summary.suffix.marginHigh",
     "args": {
-      "refSize": 11,
+      "refSize": 12,
       "year": "2010",
       "title": "Skoda Octavia"
     }

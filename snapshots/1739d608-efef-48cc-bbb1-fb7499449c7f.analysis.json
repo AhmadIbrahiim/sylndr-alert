@@ -1,47 +1,47 @@
 {
   "vehicleId": "1739d608-efef-48cc-bbb1-fb7499449c7f",
-  "computedAt": "2026-10-05T12:01:15.070Z",
+  "computedAt": "2026-10-05T20:44:09.481Z",
   "cohort": {
-    "sameModelCount": 63,
-    "sameYearCount": 3,
-    "refCohort": "model",
-    "refSize": 63
+    "sameModelCount": 64,
+    "sameYearCount": 4,
+    "refCohort": "model+year",
+    "refSize": 4
   },
-  "pricePercentile": 27,
+  "pricePercentile": 75,
   "pricePerKm": 3.727272727272727,
-  "pricePerKmPercentile": 14,
-  "kmPercentile": 86,
-  "daysListed": 134,
+  "pricePerKmPercentile": 75,
+  "kmPercentile": 0,
+  "daysListed": 135,
   "marginPct": 18.29268292682927,
   "marginTier": "mid",
   "auctionHeat": "warm",
-  "dealTag": "good",
+  "dealTag": "fair",
   "bullets": [
     {
-      "tone": "good",
-      "pipKey": "bullet.pip.deal",
+      "tone": "hot",
+      "pipKey": "bullet.pip.high",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 73,
-        "n": 63,
-        "kind": "detail.cohort.refSize.kind.model"
-      }
-    },
-    {
-      "tone": "good",
-      "pipKey": "bullet.pip.value",
-      "textKey": "bullet.ppkmBetter",
-      "textArgs": {
-        "pct": 86,
-        "ppkm": 4
+        "pct": 25,
+        "n": 4,
+        "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
       "tone": "hot",
-      "pipKey": "bullet.pip.highKm",
+      "pipKey": "bullet.pip.pricey",
+      "textKey": "bullet.ppkmBetter",
+      "textArgs": {
+        "pct": 25,
+        "ppkm": 4
+      }
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.lowKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 14
+        "pct": 100
       }
     },
     {
@@ -61,23 +61,23 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 134
+        "n": 135
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 134
+        "n": 135
       }
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.good",
+    "verdictKey": "summary.verdict.fair",
     "cohortLineKey": "summary.cohortLine.yes",
-    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 63,
+      "refSize": 4,
       "year": "2014",
       "title": "Toyota Corolla"
     }

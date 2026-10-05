@@ -1,29 +1,29 @@
 {
   "vehicleId": "afa80810-2bbd-4978-a794-62bfb301e0a4",
-  "computedAt": "2026-10-05T12:01:17.895Z",
+  "computedAt": "2026-10-05T20:44:12.098Z",
   "cohort": {
-    "sameModelCount": 33,
-    "sameYearCount": 7,
+    "sameModelCount": 34,
+    "sameYearCount": 8,
     "refCohort": "model+year",
-    "refSize": 7
+    "refSize": 8
   },
-  "pricePercentile": 14,
+  "pricePercentile": 25,
   "pricePerKm": 12.840195394277739,
-  "pricePerKmPercentile": 71,
+  "pricePerKmPercentile": 75,
   "kmPercentile": 0,
-  "daysListed": 176,
+  "daysListed": 177,
   "marginPct": 26.73913043478261,
   "marginTier": "mid",
   "auctionHeat": "hot",
-  "dealTag": "good",
+  "dealTag": "fair",
   "bullets": [
     {
       "tone": "good",
       "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 86,
-        "n": 7,
+        "pct": 75,
+        "n": 8,
         "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.pricey",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 29,
+        "pct": 25,
         "ppkm": 13
       }
     },
@@ -61,23 +61,23 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 176
+        "n": 177
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 176
+        "n": 177
       }
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.good",
+    "verdictKey": "summary.verdict.fair",
     "cohortLineKey": "summary.cohortLine.yes",
     "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": null,
     "args": {
-      "refSize": 7,
+      "refSize": 8,
       "year": "2020",
       "title": "Jeep Renegade"
     }

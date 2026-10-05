@@ -1,29 +1,29 @@
 {
   "vehicleId": "07b449e0-365d-4b93-82d7-7260e04f6119",
-  "computedAt": "2026-10-05T12:01:16.546Z",
+  "computedAt": "2026-10-05T20:44:10.825Z",
   "cohort": {
-    "sameModelCount": 33,
-    "sameYearCount": 7,
+    "sameModelCount": 34,
+    "sameYearCount": 8,
     "refCohort": "model+year",
-    "refSize": 7
+    "refSize": 8
   },
-  "pricePercentile": 43,
+  "pricePercentile": 50,
   "pricePerKm": 8.745733788395905,
-  "pricePerKmPercentile": 14,
-  "kmPercentile": 57,
-  "daysListed": 60,
+  "pricePerKmPercentile": 25,
+  "kmPercentile": 50,
+  "daysListed": 61,
   "marginPct": null,
   "marginTier": null,
   "auctionHeat": "cold",
-  "dealTag": "good",
+  "dealTag": "fair",
   "bullets": [
     {
       "tone": "mid",
       "pipKey": "bullet.pip.mid",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 57,
-        "n": 7,
+        "pct": 50,
+        "n": 8,
         "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 86,
+        "pct": 75,
         "ppkm": 9
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 43
+        "pct": 50
       }
     },
     {
@@ -53,23 +53,23 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 60
+        "n": 61
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 60
+        "n": 61
       }
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.good",
+    "verdictKey": "summary.verdict.fair",
     "cohortLineKey": "summary.cohortLine.yes",
     "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 7,
+      "refSize": 8,
       "year": "2020",
       "title": "Jeep Renegade"
     }

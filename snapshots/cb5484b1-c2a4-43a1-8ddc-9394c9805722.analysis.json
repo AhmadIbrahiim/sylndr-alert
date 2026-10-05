@@ -1,29 +1,29 @@
 {
   "vehicleId": "cb5484b1-c2a4-43a1-8ddc-9394c9805722",
-  "computedAt": "2026-10-05T12:01:17.596Z",
+  "computedAt": "2026-10-05T20:44:11.821Z",
   "cohort": {
-    "sameModelCount": 114,
+    "sameModelCount": 115,
     "sameYearCount": 3,
     "refCohort": "model",
-    "refSize": 114
+    "refSize": 115
   },
-  "pricePercentile": 25,
+  "pricePercentile": 26,
   "pricePerKm": 17.705479452054796,
-  "pricePerKmPercentile": 43,
+  "pricePerKmPercentile": 44,
   "kmPercentile": 43,
-  "daysListed": 169,
+  "daysListed": 170,
   "marginPct": 35.07414571244358,
   "marginTier": "high",
   "auctionHeat": "hot",
-  "dealTag": "good",
+  "dealTag": "fair",
   "bullets": [
     {
       "tone": "good",
       "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 75,
-        "n": 114,
+        "pct": 74,
+        "n": 115,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 57,
+        "pct": 56,
         "ppkm": 18
       }
     },
@@ -61,23 +61,23 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 169
+        "n": 170
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 169
+        "n": 170
       }
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.good",
+    "verdictKey": "summary.verdict.fair",
     "cohortLineKey": "summary.cohortLine.yes",
     "cohortKindKey": "detail.cohort.refSize.kind.model",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": "summary.suffix.marginHigh",
     "args": {
-      "refSize": 114,
+      "refSize": 115,
       "year": "2011",
       "title": "Mercedes-Benz C180"
     }

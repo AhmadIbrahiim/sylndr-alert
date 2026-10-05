@@ -1,17 +1,17 @@
 {
   "vehicleId": "d7dfbcc0-88f4-4460-b910-7e52300c17fb",
-  "computedAt": "2026-10-05T12:01:14.190Z",
+  "computedAt": "2026-10-05T20:44:08.679Z",
   "cohort": {
-    "sameModelCount": 63,
-    "sameYearCount": 3,
-    "refCohort": "model",
-    "refSize": 63
+    "sameModelCount": 64,
+    "sameYearCount": 4,
+    "refCohort": "model+year",
+    "refSize": 4
   },
-  "pricePercentile": 3,
+  "pricePercentile": 0,
   "pricePerKm": 2.100840336134454,
-  "pricePerKmPercentile": 5,
-  "kmPercentile": 90,
-  "daysListed": 149,
+  "pricePerKmPercentile": 0,
+  "kmPercentile": 50,
+  "daysListed": 150,
   "marginPct": 14.363636363636365,
   "marginTier": "low",
   "auctionHeat": "hot",
@@ -22,9 +22,9 @@
       "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 97,
-        "n": 63,
-        "kind": "detail.cohort.refSize.kind.model"
+        "pct": 100,
+        "n": 4,
+        "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
@@ -32,16 +32,16 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 95,
+        "pct": 100,
         "ppkm": 2
       }
     },
     {
-      "tone": "hot",
-      "pipKey": "bullet.pip.highKm",
+      "tone": "mid",
+      "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 10
+        "pct": 50
       }
     },
     {
@@ -61,23 +61,23 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 149
+        "n": 150
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 149
+        "n": 150
       }
     }
   ],
   "summary": {
     "verdictKey": "summary.verdict.good",
     "cohortLineKey": "summary.cohortLine.yes",
-    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": "summary.suffix.marginLow",
     "args": {
-      "refSize": 63,
+      "refSize": 4,
       "year": "2014",
       "title": "Toyota Corolla"
     }
