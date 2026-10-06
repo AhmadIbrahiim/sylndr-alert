@@ -1,16 +1,16 @@
 {
   "vehicleId": "f2d6ca2e-fcb8-4e34-87dc-1101b798e77d",
-  "computedAt": "2026-10-06T11:45:10.361Z",
+  "computedAt": "2026-10-06T17:26:27.057Z",
   "cohort": {
-    "sameModelCount": 35,
-    "sameYearCount": 3,
-    "refCohort": "model",
-    "refSize": 35
+    "sameModelCount": 36,
+    "sameYearCount": 4,
+    "refCohort": "model+year",
+    "refSize": 4
   },
-  "pricePercentile": 20,
+  "pricePercentile": 0,
   "pricePerKm": 2.238095238095238,
-  "pricePerKmPercentile": 23,
-  "kmPercentile": 80,
+  "pricePerKmPercentile": 0,
+  "kmPercentile": 75,
   "daysListed": 101,
   "marginPct": 20.212765957446805,
   "marginTier": "mid",
@@ -22,9 +22,9 @@
       "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 80,
-        "n": 35,
-        "kind": "detail.cohort.refSize.kind.model"
+        "pct": 100,
+        "n": 4,
+        "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 77,
+        "pct": 100,
         "ppkm": 2
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.highKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 20
+        "pct": 25
       }
     },
     {
@@ -72,12 +72,12 @@
   "summary": {
     "verdictKey": "summary.verdict.good",
     "cohortLineKey": "summary.cohortLine.yes",
-    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 35,
+      "refSize": 4,
       "year": "2014",
       "title": "Peugeot 301"
     }

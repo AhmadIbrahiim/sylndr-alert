@@ -1,29 +1,29 @@
 {
   "vehicleId": "26acd1be-9040-4dcd-9a3a-1a29641f2f1b",
-  "computedAt": "2026-10-06T11:45:09.670Z",
+  "computedAt": "2026-10-06T17:26:26.036Z",
   "cohort": {
-    "sameModelCount": 25,
-    "sameYearCount": 4,
+    "sameModelCount": 26,
+    "sameYearCount": 5,
     "refCohort": "model+year",
-    "refSize": 4
+    "refSize": 5
   },
-  "pricePercentile": 50,
+  "pricePercentile": 40,
   "pricePerKm": 9.396853146853147,
-  "pricePerKmPercentile": 25,
-  "kmPercentile": 50,
-  "daysListed": 57,
+  "pricePerKmPercentile": 20,
+  "kmPercentile": 60,
+  "daysListed": 58,
   "marginPct": null,
   "marginTier": null,
   "auctionHeat": "cold",
-  "dealTag": "fair",
+  "dealTag": "good",
   "bullets": [
     {
       "tone": "mid",
       "pipKey": "bullet.pip.mid",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 50,
-        "n": 4,
+        "pct": 60,
+        "n": 5,
         "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 75,
+        "pct": 80,
         "ppkm": 9
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 50
+        "pct": 40
       }
     },
     {
@@ -53,23 +53,23 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 57
+        "n": 58
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 57
+        "n": 58
       }
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.fair",
+    "verdictKey": "summary.verdict.good",
     "cohortLineKey": "summary.cohortLine.yes",
     "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 4,
+      "refSize": 5,
       "year": "2019",
       "title": "Opel Grand Land"
     }
