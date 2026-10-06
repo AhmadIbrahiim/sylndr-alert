@@ -1,29 +1,29 @@
 {
   "vehicleId": "b72a46a7-f660-4b2b-a3f3-fe75ae89c909",
-  "computedAt": "2026-10-06T17:26:25.057Z",
+  "computedAt": "2026-10-06T20:53:53.979Z",
   "cohort": {
-    "sameModelCount": 5,
+    "sameModelCount": 6,
     "sameYearCount": 2,
     "refCohort": "model",
-    "refSize": 5
+    "refSize": 6
   },
-  "pricePercentile": 80,
+  "pricePercentile": 83,
   "pricePerKm": 652.1739130434783,
-  "pricePerKmPercentile": 80,
+  "pricePerKmPercentile": 83,
   "kmPercentile": 0,
   "daysListed": 56,
   "marginPct": null,
   "marginTier": null,
   "auctionHeat": "cold",
-  "dealTag": "fair",
+  "dealTag": "high",
   "bullets": [
     {
       "tone": "hot",
       "pipKey": "bullet.pip.high",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 20,
-        "n": 5,
+        "pct": 17,
+        "n": 6,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.pricey",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 20,
+        "pct": 17,
         "ppkm": 652
       }
     },
@@ -62,14 +62,14 @@
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.fair",
+    "verdictKey": "summary.verdict.high",
     "cohortLineKey": "summary.cohortLine.yes",
     "cohortKindKey": "detail.cohort.refSize.kind.model",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 5,
+      "refSize": 6,
       "year": "2024",
       "title": "Audi Q2"
     }
