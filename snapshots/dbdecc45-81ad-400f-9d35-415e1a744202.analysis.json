@@ -1,38 +1,38 @@
 {
   "vehicleId": "dbdecc45-81ad-400f-9d35-415e1a744202",
-  "computedAt": "2026-10-06T20:53:56.370Z",
+  "computedAt": "2026-10-07T11:30:11.853Z",
   "cohort": {
-    "sameModelCount": 91,
-    "sameYearCount": 10,
+    "sameModelCount": 92,
+    "sameYearCount": 11,
     "refCohort": "model+year",
-    "refSize": 10
+    "refSize": 11
   },
-  "pricePercentile": 70,
+  "pricePercentile": 73,
   "pricePerKm": 10.655301012253597,
-  "pricePerKmPercentile": 30,
-  "kmPercentile": 60,
-  "daysListed": 55,
+  "pricePerKmPercentile": 36,
+  "kmPercentile": 55,
+  "daysListed": 56,
   "marginPct": null,
   "marginTier": null,
   "auctionHeat": "cold",
   "dealTag": "fair",
   "bullets": [
     {
-      "tone": "mid",
-      "pipKey": "bullet.pip.mid",
+      "tone": "hot",
+      "pipKey": "bullet.pip.high",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 30,
-        "n": 10,
+        "pct": 27,
+        "n": 11,
         "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
-      "tone": "good",
+      "tone": "mid",
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 70,
+        "pct": 64,
         "ppkm": 11
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 40
+        "pct": 45
       }
     },
     {
@@ -53,11 +53,11 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 55
+        "n": 56
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 55
+        "n": 56
       }
     }
   ],
@@ -69,7 +69,7 @@
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 10,
+      "refSize": 11,
       "year": "2023",
       "title": "Renault Megane"
     }
