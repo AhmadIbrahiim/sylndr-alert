@@ -1,16 +1,16 @@
 {
   "vehicleId": "dcca48c4-9cbd-4a0f-b30a-8a9b7f2d3e1d",
-  "computedAt": "2026-10-09T17:33:41.860Z",
+  "computedAt": "2026-10-09T20:45:10.271Z",
   "cohort": {
-    "sameModelCount": 75,
-    "sameYearCount": 14,
+    "sameModelCount": 76,
+    "sameYearCount": 15,
     "refCohort": "model+year",
-    "refSize": 14
+    "refSize": 15
   },
-  "pricePercentile": 71,
+  "pricePercentile": 73,
   "pricePerKm": 11.01478837327894,
-  "pricePerKmPercentile": 71,
-  "kmPercentile": 21,
+  "pricePerKmPercentile": 67,
+  "kmPercentile": 27,
   "daysListed": 120,
   "marginPct": 20.09259259259259,
   "marginTier": "mid",
@@ -22,17 +22,17 @@
       "pipKey": "bullet.pip.high",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 29,
-        "n": 14,
+        "pct": 27,
+        "n": 15,
         "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
-      "tone": "hot",
-      "pipKey": "bullet.pip.pricey",
+      "tone": "mid",
+      "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 29,
+        "pct": 33,
         "ppkm": 11
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.lowKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 79
+        "pct": 73
       }
     },
     {
@@ -77,7 +77,7 @@
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 14,
+      "refSize": 15,
       "year": "2021",
       "title": "Nissan Qashqai"
     }
