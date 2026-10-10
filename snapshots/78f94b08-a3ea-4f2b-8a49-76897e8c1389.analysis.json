@@ -1,16 +1,16 @@
 {
   "vehicleId": "78f94b08-a3ea-4f2b-8a49-76897e8c1389",
-  "computedAt": "2026-10-10T16:06:40.532Z",
+  "computedAt": "2026-10-10T19:59:17.858Z",
   "cohort": {
-    "sameModelCount": 34,
-    "sameYearCount": 3,
-    "refCohort": "model",
-    "refSize": 34
+    "sameModelCount": 35,
+    "sameYearCount": 4,
+    "refCohort": "model+year",
+    "refSize": 4
   },
-  "pricePercentile": 6,
+  "pricePercentile": 0,
   "pricePerKm": 3.4000482276344344,
-  "pricePerKmPercentile": 6,
-  "kmPercentile": 85,
+  "pricePerKmPercentile": 0,
+  "kmPercentile": 50,
   "daysListed": 59,
   "marginPct": null,
   "marginTier": null,
@@ -22,9 +22,9 @@
       "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 94,
-        "n": 34,
-        "kind": "detail.cohort.refSize.kind.model"
+        "pct": 100,
+        "n": 4,
+        "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
@@ -32,16 +32,16 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 94,
+        "pct": 100,
         "ppkm": 3
       }
     },
     {
-      "tone": "hot",
-      "pipKey": "bullet.pip.highKm",
+      "tone": "mid",
+      "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 15
+        "pct": 50
       }
     },
     {
@@ -64,12 +64,12 @@
   "summary": {
     "verdictKey": "summary.verdict.good",
     "cohortLineKey": "summary.cohortLine.yes",
-    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 34,
+      "refSize": 4,
       "year": "2017",
       "title": "Jeep Renegade"
     }

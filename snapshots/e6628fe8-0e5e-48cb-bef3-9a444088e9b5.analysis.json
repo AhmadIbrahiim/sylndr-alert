@@ -1,38 +1,38 @@
 {
   "vehicleId": "e6628fe8-0e5e-48cb-bef3-9a444088e9b5",
-  "computedAt": "2026-10-10T16:06:40.682Z",
+  "computedAt": "2026-10-10T19:59:17.965Z",
   "cohort": {
-    "sameModelCount": 11,
+    "sameModelCount": 12,
     "sameYearCount": 1,
     "refCohort": "model",
-    "refSize": 11
+    "refSize": 12
   },
-  "pricePercentile": 82,
+  "pricePercentile": 83,
   "pricePerKm": 6.50831618178784,
-  "pricePerKmPercentile": 73,
-  "kmPercentile": 36,
+  "pricePerKmPercentile": 67,
+  "kmPercentile": 42,
   "daysListed": 5,
   "marginPct": null,
   "marginTier": null,
   "auctionHeat": "cold",
-  "dealTag": "fair",
+  "dealTag": "high",
   "bullets": [
     {
       "tone": "hot",
       "pipKey": "bullet.pip.high",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 18,
-        "n": 11,
+        "pct": 17,
+        "n": 12,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
     {
-      "tone": "hot",
-      "pipKey": "bullet.pip.pricey",
+      "tone": "mid",
+      "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 27,
+        "pct": 33,
         "ppkm": 7
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 64
+        "pct": 58
       }
     },
     {
@@ -51,14 +51,14 @@
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.fair",
+    "verdictKey": "summary.verdict.high",
     "cohortLineKey": "summary.cohortLine.yes",
     "cohortKindKey": "detail.cohort.refSize.kind.model",
     "ageSuffixKey": null,
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 11,
+      "refSize": 12,
       "year": "2019",
       "title": "Skoda Octavia A7"
     }

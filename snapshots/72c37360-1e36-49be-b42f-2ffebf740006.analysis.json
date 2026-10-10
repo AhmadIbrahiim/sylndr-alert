@@ -1,16 +1,16 @@
 {
   "vehicleId": "72c37360-1e36-49be-b42f-2ffebf740006",
-  "computedAt": "2026-10-10T16:06:41.934Z",
+  "computedAt": "2026-10-10T19:59:18.908Z",
   "cohort": {
-    "sameModelCount": 4,
+    "sameModelCount": 5,
     "sameYearCount": 2,
     "refCohort": "model",
-    "refSize": 4
+    "refSize": 5
   },
-  "pricePercentile": 50,
+  "pricePercentile": 40,
   "pricePerKm": 15.801354401805868,
-  "pricePerKmPercentile": 50,
-  "kmPercentile": 25,
+  "pricePerKmPercentile": 40,
+  "kmPercentile": 40,
   "daysListed": 151,
   "marginPct": 10.785714285714286,
   "marginTier": "low",
@@ -22,8 +22,8 @@
       "pipKey": "bullet.pip.mid",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 50,
-        "n": 4,
+        "pct": 60,
+        "n": 5,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -32,16 +32,16 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 50,
+        "pct": 60,
         "ppkm": 16
       }
     },
     {
-      "tone": "good",
-      "pipKey": "bullet.pip.lowKm",
+      "tone": "mid",
+      "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 75
+        "pct": 60
       }
     },
     {
@@ -77,7 +77,7 @@
     "heatSuffixKey": null,
     "marginSuffixKey": "summary.suffix.marginLow",
     "args": {
-      "refSize": 4,
+      "refSize": 5,
       "year": "2021",
       "title": "BMW 118i"
     }

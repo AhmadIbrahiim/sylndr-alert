@@ -1,22 +1,49 @@
 {
   "vehicleId": "e64efbbe-7801-457c-b765-a681b2849d28",
-  "computedAt": "2026-10-10T16:06:41.447Z",
+  "computedAt": "2026-10-10T19:59:18.546Z",
   "cohort": {
-    "sameModelCount": 2,
+    "sameModelCount": 3,
     "sameYearCount": 1,
     "refCohort": "model",
-    "refSize": 2
+    "refSize": 3
   },
-  "pricePercentile": null,
+  "pricePercentile": 67,
   "pricePerKm": 11.286992429456298,
-  "pricePerKmPercentile": null,
-  "kmPercentile": null,
+  "pricePerKmPercentile": 67,
+  "kmPercentile": 0,
   "daysListed": 171,
   "marginPct": 33.78048780487805,
   "marginTier": "high",
   "auctionHeat": "warm",
   "dealTag": "fair",
   "bullets": [
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.mid",
+      "textKey": "bullet.priceCheaper",
+      "textArgs": {
+        "pct": 33,
+        "n": 3,
+        "kind": "detail.cohort.refSize.kind.model"
+      }
+    },
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.value",
+      "textKey": "bullet.ppkmBetter",
+      "textArgs": {
+        "pct": 33,
+        "ppkm": 11
+      }
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.lowKm",
+      "textKey": "bullet.kmLower",
+      "textArgs": {
+        "pct": 100
+      }
+    },
     {
       "tone": "hot",
       "pipKey": "bullet.pip.marginPct",
@@ -50,7 +77,7 @@
     "heatSuffixKey": null,
     "marginSuffixKey": "summary.suffix.marginHigh",
     "args": {
-      "refSize": 2,
+      "refSize": 3,
       "year": "2010",
       "title": "Mercedes-Benz B160"
     }

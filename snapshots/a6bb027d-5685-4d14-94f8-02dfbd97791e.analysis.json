@@ -1,47 +1,47 @@
 {
   "vehicleId": "a6bb027d-5685-4d14-94f8-02dfbd97791e",
-  "computedAt": "2026-10-10T16:06:41.837Z",
+  "computedAt": "2026-10-10T19:59:18.835Z",
   "cohort": {
-    "sameModelCount": 11,
-    "sameYearCount": 3,
-    "refCohort": "model",
-    "refSize": 11
+    "sameModelCount": 12,
+    "sameYearCount": 4,
+    "refCohort": "model+year",
+    "refSize": 4
   },
-  "pricePercentile": 64,
+  "pricePercentile": 0,
   "pricePerKm": 4.422253922967189,
-  "pricePerKmPercentile": 45,
-  "kmPercentile": 55,
+  "pricePerKmPercentile": 0,
+  "kmPercentile": 75,
   "daysListed": 69,
   "marginPct": null,
   "marginTier": null,
   "auctionHeat": "cold",
-  "dealTag": "fair",
+  "dealTag": "good",
   "bullets": [
     {
-      "tone": "mid",
-      "pipKey": "bullet.pip.mid",
+      "tone": "good",
+      "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 36,
-        "n": 11,
-        "kind": "detail.cohort.refSize.kind.model"
+        "pct": 100,
+        "n": 4,
+        "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
-      "tone": "mid",
+      "tone": "good",
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 55,
+        "pct": 100,
         "ppkm": 4
       }
     },
     {
-      "tone": "mid",
-      "pipKey": "bullet.pip.km",
+      "tone": "hot",
+      "pipKey": "bullet.pip.highKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 45
+        "pct": 25
       }
     },
     {
@@ -62,14 +62,14 @@
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.fair",
+    "verdictKey": "summary.verdict.good",
     "cohortLineKey": "summary.cohortLine.yes",
-    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 11,
+      "refSize": 4,
       "year": "2020",
       "title": "Skoda Octavia A7"
     }

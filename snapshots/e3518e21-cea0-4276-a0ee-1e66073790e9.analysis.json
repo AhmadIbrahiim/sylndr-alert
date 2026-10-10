@@ -1,38 +1,38 @@
 {
   "vehicleId": "e3518e21-cea0-4276-a0ee-1e66073790e9",
-  "computedAt": "2026-10-10T16:06:37.638Z",
+  "computedAt": "2026-10-10T19:59:15.775Z",
   "cohort": {
-    "sameModelCount": 11,
-    "sameYearCount": 3,
-    "refCohort": "model",
-    "refSize": 11
+    "sameModelCount": 12,
+    "sameYearCount": 4,
+    "refCohort": "model+year",
+    "refSize": 4
   },
-  "pricePercentile": 73,
+  "pricePercentile": 25,
   "pricePerKm": 11.509045063142807,
-  "pricePerKmPercentile": 82,
-  "kmPercentile": 9,
+  "pricePerKmPercentile": 50,
+  "kmPercentile": 25,
   "daysListed": 23,
   "marginPct": null,
   "marginTier": null,
   "auctionHeat": "cold",
-  "dealTag": "fair",
+  "dealTag": "good",
   "bullets": [
     {
-      "tone": "hot",
-      "pipKey": "bullet.pip.high",
+      "tone": "good",
+      "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 27,
-        "n": 11,
-        "kind": "detail.cohort.refSize.kind.model"
+        "pct": 75,
+        "n": 4,
+        "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
-      "tone": "hot",
-      "pipKey": "bullet.pip.pricey",
+      "tone": "mid",
+      "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 18,
+        "pct": 50,
         "ppkm": 12
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.lowKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 91
+        "pct": 75
       }
     },
     {
@@ -62,14 +62,14 @@
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.fair",
+    "verdictKey": "summary.verdict.good",
     "cohortLineKey": "summary.cohortLine.yes",
-    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": null,
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 11,
+      "refSize": 4,
       "year": "2020",
       "title": "Skoda Octavia A7"
     }

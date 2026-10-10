@@ -1,17 +1,17 @@
 {
   "vehicleId": "e18a0b93-d2c6-42a2-b8d0-b2ef8d930929",
-  "computedAt": "2026-10-10T16:06:40.283Z",
+  "computedAt": "2026-10-10T19:59:17.682Z",
   "cohort": {
-    "sameModelCount": 34,
-    "sameYearCount": 3,
-    "refCohort": "model",
-    "refSize": 34
+    "sameModelCount": 35,
+    "sameYearCount": 4,
+    "refCohort": "model+year",
+    "refSize": 4
   },
-  "pricePercentile": 26,
+  "pricePercentile": 25,
   "pricePerKm": 3.9344262295081966,
-  "pricePerKmPercentile": 15,
-  "kmPercentile": 94,
-  "daysListed": 28,
+  "pricePerKmPercentile": 25,
+  "kmPercentile": 75,
+  "daysListed": 29,
   "marginPct": null,
   "marginTier": null,
   "auctionHeat": "cold",
@@ -22,9 +22,9 @@
       "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 74,
-        "n": 34,
-        "kind": "detail.cohort.refSize.kind.model"
+        "pct": 75,
+        "n": 4,
+        "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 85,
+        "pct": 75,
         "ppkm": 4
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.highKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 6
+        "pct": 25
       }
     },
     {
@@ -53,23 +53,23 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 28
+        "n": 29
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 28
+        "n": 29
       }
     }
   ],
   "summary": {
     "verdictKey": "summary.verdict.good",
     "cohortLineKey": "summary.cohortLine.yes",
-    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": null,
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 34,
+      "refSize": 4,
       "year": "2017",
       "title": "Jeep Renegade"
     }

@@ -1,15 +1,15 @@
 {
   "vehicleId": "03470e07-2fbe-4b68-9066-75e719de2332",
-  "computedAt": "2026-10-10T16:06:39.099Z",
+  "computedAt": "2026-10-10T19:59:16.801Z",
   "cohort": {
-    "sameModelCount": 4,
-    "sameYearCount": 1,
+    "sameModelCount": 5,
+    "sameYearCount": 2,
     "refCohort": "model",
-    "refSize": 4
+    "refSize": 5
   },
-  "pricePercentile": 75,
+  "pricePercentile": 60,
   "pricePerKm": 20.069204152249135,
-  "pricePerKmPercentile": 75,
+  "pricePerKmPercentile": 60,
   "kmPercentile": 0,
   "daysListed": 42,
   "marginPct": null,
@@ -18,21 +18,21 @@
   "dealTag": "fair",
   "bullets": [
     {
-      "tone": "hot",
-      "pipKey": "bullet.pip.high",
+      "tone": "mid",
+      "pipKey": "bullet.pip.mid",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 25,
-        "n": 4,
+        "pct": 40,
+        "n": 5,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
     {
-      "tone": "hot",
-      "pipKey": "bullet.pip.pricey",
+      "tone": "mid",
+      "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 25,
+        "pct": 40,
         "ppkm": 20
       }
     },
@@ -69,7 +69,7 @@
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 4,
+      "refSize": 5,
       "year": "2022",
       "title": "Skoda KAROQ"
     }

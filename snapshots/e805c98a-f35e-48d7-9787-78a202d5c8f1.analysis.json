@@ -1,30 +1,30 @@
 {
   "vehicleId": "e805c98a-f35e-48d7-9787-78a202d5c8f1",
-  "computedAt": "2026-10-10T16:06:37.933Z",
+  "computedAt": "2026-10-10T19:59:15.979Z",
   "cohort": {
-    "sameModelCount": 11,
-    "sameYearCount": 3,
-    "refCohort": "model",
-    "refSize": 11
+    "sameModelCount": 12,
+    "sameYearCount": 4,
+    "refCohort": "model+year",
+    "refSize": 4
   },
-  "pricePercentile": 91,
+  "pricePercentile": 75,
   "pricePerKm": 29.67680608365019,
-  "pricePerKmPercentile": 91,
+  "pricePerKmPercentile": 75,
   "kmPercentile": 0,
   "daysListed": 186,
   "marginPct": 28.187059577194105,
   "marginTier": "mid",
   "auctionHeat": "hot",
-  "dealTag": "high",
+  "dealTag": "fair",
   "bullets": [
     {
       "tone": "hot",
       "pipKey": "bullet.pip.high",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 9,
-        "n": 11,
-        "kind": "detail.cohort.refSize.kind.model"
+        "pct": 25,
+        "n": 4,
+        "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.pricey",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 9,
+        "pct": 25,
         "ppkm": 30
       }
     },
@@ -70,14 +70,14 @@
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.high",
+    "verdictKey": "summary.verdict.fair",
     "cohortLineKey": "summary.cohortLine.yes",
-    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": null,
     "args": {
-      "refSize": 11,
+      "refSize": 4,
       "year": "2020",
       "title": "Skoda Octavia A7"
     }

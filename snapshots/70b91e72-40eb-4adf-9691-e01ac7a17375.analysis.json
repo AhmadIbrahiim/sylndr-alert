@@ -1,29 +1,29 @@
 {
   "vehicleId": "70b91e72-40eb-4adf-9691-e01ac7a17375",
-  "computedAt": "2026-10-10T16:06:42.830Z",
+  "computedAt": "2026-10-10T19:59:19.551Z",
   "cohort": {
-    "sameModelCount": 8,
+    "sameModelCount": 9,
     "sameYearCount": 3,
     "refCohort": "model",
-    "refSize": 8
+    "refSize": 9
   },
-  "pricePercentile": 25,
+  "pricePercentile": 33,
   "pricePerKm": 3.5371399696816574,
-  "pricePerKmPercentile": 63,
-  "kmPercentile": 25,
+  "pricePerKmPercentile": 67,
+  "kmPercentile": 22,
   "daysListed": 45,
   "marginPct": null,
   "marginTier": null,
   "auctionHeat": "cold",
-  "dealTag": "good",
+  "dealTag": "fair",
   "bullets": [
     {
       "tone": "good",
       "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 75,
-        "n": 8,
+        "pct": 67,
+        "n": 9,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 37,
+        "pct": 33,
         "ppkm": 4
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.lowKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 75
+        "pct": 78
       }
     },
     {
@@ -62,14 +62,14 @@
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.good",
+    "verdictKey": "summary.verdict.fair",
     "cohortLineKey": "summary.cohortLine.yes",
     "cohortKindKey": "detail.cohort.refSize.kind.model",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 8,
+      "refSize": 9,
       "year": "2008",
       "title": "Volkswagen Jetta"
     }
