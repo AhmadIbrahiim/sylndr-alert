@@ -1,22 +1,49 @@
 {
   "vehicleId": "9da3c35a-10b2-4678-99d7-571c152cbfae",
-  "computedAt": "2026-10-11T11:11:14.480Z",
+  "computedAt": "2026-10-11T16:39:17.051Z",
   "cohort": {
-    "sameModelCount": 2,
+    "sameModelCount": 3,
     "sameYearCount": 1,
     "refCohort": "model",
-    "refSize": 2
+    "refSize": 3
   },
-  "pricePercentile": null,
+  "pricePercentile": 67,
   "pricePerKm": 411.7647058823529,
-  "pricePerKmPercentile": null,
-  "kmPercentile": null,
-  "daysListed": 129,
+  "pricePerKmPercentile": 67,
+  "kmPercentile": 0,
+  "daysListed": 130,
   "marginPct": 26.247619047619047,
   "marginTier": "mid",
   "auctionHeat": "warm",
   "dealTag": "fair",
   "bullets": [
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.mid",
+      "textKey": "bullet.priceCheaper",
+      "textArgs": {
+        "pct": 33,
+        "n": 3,
+        "kind": "detail.cohort.refSize.kind.model"
+      }
+    },
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.value",
+      "textKey": "bullet.ppkmBetter",
+      "textArgs": {
+        "pct": 33,
+        "ppkm": 412
+      }
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.lowKm",
+      "textKey": "bullet.kmLower",
+      "textArgs": {
+        "pct": 100
+      }
+    },
     {
       "tone": "mid",
       "pipKey": "bullet.pip.marginPct",
@@ -34,11 +61,11 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 129
+        "n": 130
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 129
+        "n": 130
       }
     }
   ],
@@ -50,7 +77,7 @@
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 2,
+      "refSize": 3,
       "year": "2024",
       "title": "Porsche Cayenne S"
     }

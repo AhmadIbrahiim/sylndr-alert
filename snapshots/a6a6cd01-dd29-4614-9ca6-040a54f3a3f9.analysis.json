@@ -1,17 +1,17 @@
 {
   "vehicleId": "a6a6cd01-dd29-4614-9ca6-040a54f3a3f9",
-  "computedAt": "2026-10-11T11:11:11.541Z",
+  "computedAt": "2026-10-11T16:39:12.127Z",
   "cohort": {
-    "sameModelCount": 57,
-    "sameYearCount": 7,
+    "sameModelCount": 58,
+    "sameYearCount": 8,
     "refCohort": "model+year",
-    "refSize": 7
+    "refSize": 8
   },
   "pricePercentile": 0,
   "pricePerKm": 6.282626427406199,
   "pricePerKmPercentile": 0,
-  "kmPercentile": 71,
-  "daysListed": 243,
+  "kmPercentile": 63,
+  "daysListed": 244,
   "marginPct": 14.962674456345344,
   "marginTier": "low",
   "auctionHeat": "hot",
@@ -23,7 +23,7 @@
       "textKey": "bullet.priceCheaper",
       "textArgs": {
         "pct": 100,
-        "n": 7,
+        "n": 8,
         "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
@@ -37,11 +37,11 @@
       }
     },
     {
-      "tone": "hot",
-      "pipKey": "bullet.pip.highKm",
+      "tone": "mid",
+      "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 29
+        "pct": 37
       }
     },
     {
@@ -61,11 +61,11 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 243
+        "n": 244
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 243
+        "n": 244
       }
     }
   ],
@@ -77,7 +77,7 @@
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": "summary.suffix.marginLow",
     "args": {
-      "refSize": 7,
+      "refSize": 8,
       "year": "2021",
       "title": "Renault Kadjar"
     }

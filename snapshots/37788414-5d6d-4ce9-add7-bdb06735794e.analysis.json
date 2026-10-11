@@ -1,22 +1,49 @@
 {
   "vehicleId": "37788414-5d6d-4ce9-add7-bdb06735794e",
-  "computedAt": "2026-10-11T11:11:13.153Z",
+  "computedAt": "2026-10-11T16:39:14.795Z",
   "cohort": {
-    "sameModelCount": 2,
-    "sameYearCount": 2,
+    "sameModelCount": 3,
+    "sameYearCount": 3,
     "refCohort": "model",
-    "refSize": 2
+    "refSize": 3
   },
-  "pricePercentile": null,
+  "pricePercentile": 67,
   "pricePerKm": 3.1786447638603694,
-  "pricePerKmPercentile": null,
-  "kmPercentile": null,
-  "daysListed": 28,
+  "pricePerKmPercentile": 67,
+  "kmPercentile": 0,
+  "daysListed": 29,
   "marginPct": null,
   "marginTier": null,
   "auctionHeat": "cold",
   "dealTag": "fair",
   "bullets": [
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.mid",
+      "textKey": "bullet.priceCheaper",
+      "textArgs": {
+        "pct": 33,
+        "n": 3,
+        "kind": "detail.cohort.refSize.kind.model"
+      }
+    },
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.value",
+      "textKey": "bullet.ppkmBetter",
+      "textArgs": {
+        "pct": 33,
+        "ppkm": 3
+      }
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.lowKm",
+      "textKey": "bullet.kmLower",
+      "textArgs": {
+        "pct": 100
+      }
+    },
     {
       "tone": "neutral",
       "pipKey": "bullet.pip.cold",
@@ -26,11 +53,11 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 28
+        "n": 29
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 28
+        "n": 29
       }
     }
   ],
@@ -42,7 +69,7 @@
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 2,
+      "refSize": 3,
       "year": "2008",
       "title": "Hyundai Atos"
     }

@@ -1,22 +1,49 @@
 {
   "vehicleId": "34a70428-3aef-4c47-a8d5-ea391d5fa178",
-  "computedAt": "2026-10-11T11:11:10.984Z",
+  "computedAt": "2026-10-11T16:39:11.215Z",
   "cohort": {
-    "sameModelCount": 2,
-    "sameYearCount": 2,
+    "sameModelCount": 3,
+    "sameYearCount": 3,
     "refCohort": "model",
-    "refSize": 2
+    "refSize": 3
   },
-  "pricePercentile": null,
+  "pricePercentile": 33,
   "pricePerKm": 1.3268465280849182,
-  "pricePerKmPercentile": null,
-  "kmPercentile": null,
-  "daysListed": 115,
+  "pricePerKmPercentile": 33,
+  "kmPercentile": 33,
+  "daysListed": 116,
   "marginPct": 28.000000000000004,
   "marginTier": "mid",
   "auctionHeat": "warm",
-  "dealTag": "fair",
+  "dealTag": "good",
   "bullets": [
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.deal",
+      "textKey": "bullet.priceCheaper",
+      "textArgs": {
+        "pct": 67,
+        "n": 3,
+        "kind": "detail.cohort.refSize.kind.model"
+      }
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.value",
+      "textKey": "bullet.ppkmBetter",
+      "textArgs": {
+        "pct": 67,
+        "ppkm": 1
+      }
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.lowKm",
+      "textKey": "bullet.kmLower",
+      "textArgs": {
+        "pct": 67
+      }
+    },
     {
       "tone": "mid",
       "pipKey": "bullet.pip.marginPct",
@@ -34,23 +61,23 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 115
+        "n": 116
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 115
+        "n": 116
       }
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.fair",
+    "verdictKey": "summary.verdict.good",
     "cohortLineKey": "summary.cohortLine.yes",
     "cohortKindKey": "detail.cohort.refSize.kind.model",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 2,
+      "refSize": 3,
       "year": "2008",
       "title": "Hyundai Atos"
     }
