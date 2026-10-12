@@ -1,17 +1,17 @@
 {
   "vehicleId": "ac50b7f4-1c3f-414c-b7b2-8de9e6d8e26b",
-  "computedAt": "2026-10-11T20:09:01.073Z",
+  "computedAt": "2026-10-12T12:43:03.458Z",
   "cohort": {
-    "sameModelCount": 3,
-    "sameYearCount": 3,
-    "refCohort": "model",
-    "refSize": 3
+    "sameModelCount": 4,
+    "sameYearCount": 4,
+    "refCohort": "model+year",
+    "refSize": 4
   },
-  "pricePercentile": 0,
+  "pricePercentile": 25,
   "pricePerKm": 89.24949290060852,
-  "pricePerKmPercentile": 0,
-  "kmPercentile": 67,
-  "daysListed": 117,
+  "pricePerKmPercentile": 25,
+  "kmPercentile": 50,
+  "daysListed": 118,
   "marginPct": 16.318181818181817,
   "marginTier": "mid",
   "auctionHeat": "cold",
@@ -22,9 +22,9 @@
       "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 100,
-        "n": 3,
-        "kind": "detail.cohort.refSize.kind.model"
+        "pct": 75,
+        "n": 4,
+        "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 100,
+        "pct": 75,
         "ppkm": 89
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 33
+        "pct": 50
       }
     },
     {
@@ -61,23 +61,23 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 117
+        "n": 118
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 117
+        "n": 118
       }
     }
   ],
   "summary": {
     "verdictKey": "summary.verdict.good",
     "cohortLineKey": "summary.cohortLine.yes",
-    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 3,
+      "refSize": 4,
       "year": "2024",
       "title": "Alfa Romeo Tonale"
     }
