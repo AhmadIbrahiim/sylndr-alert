@@ -1,29 +1,29 @@
 {
   "vehicleId": "3ec7ead7-a0b1-48a3-84fa-5890691b6c0a",
-  "computedAt": "2026-10-13T19:27:06.441Z",
+  "computedAt": "2026-10-13T21:08:50.922Z",
   "cohort": {
-    "sameModelCount": 19,
+    "sameModelCount": 20,
     "sameYearCount": 1,
     "refCohort": "model",
-    "refSize": 19
+    "refSize": 20
   },
-  "pricePercentile": 89,
+  "pricePercentile": 85,
   "pricePerKm": 8.603941160144323,
-  "pricePerKmPercentile": 79,
-  "kmPercentile": 32,
+  "pricePerKmPercentile": 75,
+  "kmPercentile": 35,
   "daysListed": 133,
   "marginPct": 23.806451612903228,
   "marginTier": "mid",
   "auctionHeat": "cold",
-  "dealTag": "high",
+  "dealTag": "fair",
   "bullets": [
     {
       "tone": "hot",
       "pipKey": "bullet.pip.high",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 11,
-        "n": 19,
+        "pct": 15,
+        "n": 20,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -32,16 +32,16 @@
       "pipKey": "bullet.pip.pricey",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 21,
+        "pct": 25,
         "ppkm": 9
       }
     },
     {
-      "tone": "good",
-      "pipKey": "bullet.pip.lowKm",
+      "tone": "mid",
+      "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 68
+        "pct": 65
       }
     },
     {
@@ -70,14 +70,14 @@
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.high",
+    "verdictKey": "summary.verdict.fair",
     "cohortLineKey": "summary.cohortLine.yes",
     "cohortKindKey": "detail.cohort.refSize.kind.model",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 19,
+      "refSize": 20,
       "year": "2016",
       "title": "Jeep Wrangler"
     }

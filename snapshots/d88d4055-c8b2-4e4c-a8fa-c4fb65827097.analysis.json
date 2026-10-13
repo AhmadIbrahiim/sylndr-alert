@@ -1,38 +1,38 @@
 {
   "vehicleId": "d88d4055-c8b2-4e4c-a8fa-c4fb65827097",
-  "computedAt": "2026-10-13T19:27:05.463Z",
+  "computedAt": "2026-10-13T21:08:50.198Z",
   "cohort": {
-    "sameModelCount": 22,
-    "sameYearCount": 6,
+    "sameModelCount": 23,
+    "sameYearCount": 7,
     "refCohort": "model+year",
-    "refSize": 6
+    "refSize": 7
   },
-  "pricePercentile": 17,
+  "pricePercentile": 29,
   "pricePerKm": 7.929515418502203,
-  "pricePerKmPercentile": 67,
+  "pricePerKmPercentile": 71,
   "kmPercentile": 0,
   "daysListed": 131,
   "marginPct": 14.444444444444443,
   "marginTier": "low",
   "auctionHeat": "warm",
-  "dealTag": "good",
+  "dealTag": "fair",
   "bullets": [
     {
       "tone": "good",
       "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 83,
-        "n": 6,
+        "pct": 71,
+        "n": 7,
         "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
-      "tone": "mid",
-      "pipKey": "bullet.pip.value",
+      "tone": "hot",
+      "pipKey": "bullet.pip.pricey",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 33,
+        "pct": 29,
         "ppkm": 8
       }
     },
@@ -70,14 +70,14 @@
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.good",
+    "verdictKey": "summary.verdict.fair",
     "cohortLineKey": "summary.cohortLine.yes",
     "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": null,
     "marginSuffixKey": "summary.suffix.marginLow",
     "args": {
-      "refSize": 6,
+      "refSize": 7,
       "year": "2021",
       "title": "Chery Tiggo 7"
     }

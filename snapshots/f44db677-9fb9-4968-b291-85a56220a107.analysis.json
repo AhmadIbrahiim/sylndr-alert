@@ -1,38 +1,38 @@
 {
   "vehicleId": "f44db677-9fb9-4968-b291-85a56220a107",
-  "computedAt": "2026-10-13T19:27:01.633Z",
+  "computedAt": "2026-10-13T21:08:47.505Z",
   "cohort": {
-    "sameModelCount": 19,
-    "sameYearCount": 3,
-    "refCohort": "model",
-    "refSize": 19
+    "sameModelCount": 20,
+    "sameYearCount": 4,
+    "refCohort": "model+year",
+    "refSize": 4
   },
-  "pricePercentile": 79,
+  "pricePercentile": 50,
   "pricePerKm": 7.89975483519477,
-  "pricePerKmPercentile": 68,
-  "kmPercentile": 42,
+  "pricePerKmPercentile": 25,
+  "kmPercentile": 50,
   "daysListed": 83,
   "marginPct": null,
   "marginTier": null,
   "auctionHeat": "cold",
-  "dealTag": "high",
+  "dealTag": "fair",
   "bullets": [
     {
-      "tone": "hot",
-      "pipKey": "bullet.pip.high",
+      "tone": "mid",
+      "pipKey": "bullet.pip.mid",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 21,
-        "n": 19,
-        "kind": "detail.cohort.refSize.kind.model"
+        "pct": 50,
+        "n": 4,
+        "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
-      "tone": "mid",
+      "tone": "good",
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 32,
+        "pct": 75,
         "ppkm": 8
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 58
+        "pct": 50
       }
     },
     {
@@ -62,14 +62,14 @@
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.high",
+    "verdictKey": "summary.verdict.fair",
     "cohortLineKey": "summary.cohortLine.yes",
-    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 19,
+      "refSize": 4,
       "year": "2014",
       "title": "Jeep Wrangler"
     }

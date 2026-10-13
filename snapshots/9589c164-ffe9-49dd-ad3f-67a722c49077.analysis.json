@@ -1,16 +1,16 @@
 {
   "vehicleId": "9589c164-ffe9-49dd-ad3f-67a722c49077",
-  "computedAt": "2026-10-13T19:27:05.168Z",
+  "computedAt": "2026-10-13T21:08:49.992Z",
   "cohort": {
-    "sameModelCount": 33,
-    "sameYearCount": 3,
-    "refCohort": "model",
-    "refSize": 33
+    "sameModelCount": 34,
+    "sameYearCount": 4,
+    "refCohort": "model+year",
+    "refSize": 4
   },
-  "pricePercentile": 12,
+  "pricePercentile": 0,
   "pricePerKm": 2.3371456986573844,
-  "pricePerKmPercentile": 18,
-  "kmPercentile": 76,
+  "pricePerKmPercentile": 0,
+  "kmPercentile": 75,
   "daysListed": 203,
   "marginPct": 28.936170212765955,
   "marginTier": "mid",
@@ -22,9 +22,9 @@
       "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 88,
-        "n": 33,
-        "kind": "detail.cohort.refSize.kind.model"
+        "pct": 100,
+        "n": 4,
+        "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 82,
+        "pct": 100,
         "ppkm": 2
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.highKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 24
+        "pct": 25
       }
     },
     {
@@ -72,12 +72,12 @@
   "summary": {
     "verdictKey": "summary.verdict.good",
     "cohortLineKey": "summary.cohortLine.yes",
-    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": null,
     "args": {
-      "refSize": 33,
+      "refSize": 4,
       "year": "2016",
       "title": "Chevrolet Optra"
     }

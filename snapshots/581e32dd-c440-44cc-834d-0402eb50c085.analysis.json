@@ -1,16 +1,16 @@
 {
   "vehicleId": "581e32dd-c440-44cc-834d-0402eb50c085",
-  "computedAt": "2026-10-13T19:27:02.370Z",
+  "computedAt": "2026-10-13T21:08:48.035Z",
   "cohort": {
-    "sameModelCount": 19,
-    "sameYearCount": 3,
-    "refCohort": "model",
-    "refSize": 19
+    "sameModelCount": 20,
+    "sameYearCount": 4,
+    "refCohort": "model+year",
+    "refSize": 4
   },
-  "pricePercentile": 11,
+  "pricePercentile": 25,
   "pricePerKm": 4.557956777996071,
-  "pricePerKmPercentile": 63,
-  "kmPercentile": 26,
+  "pricePerKmPercentile": 50,
+  "kmPercentile": 25,
   "daysListed": 196,
   "marginPct": 13.96551724137931,
   "marginTier": "low",
@@ -22,9 +22,9 @@
       "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 89,
-        "n": 19,
-        "kind": "detail.cohort.refSize.kind.model"
+        "pct": 75,
+        "n": 4,
+        "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 37,
+        "pct": 50,
         "ppkm": 5
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.lowKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 74
+        "pct": 75
       }
     },
     {
@@ -72,12 +72,12 @@
   "summary": {
     "verdictKey": "summary.verdict.good",
     "cohortLineKey": "summary.cohortLine.yes",
-    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": "summary.suffix.marginLow",
     "args": {
-      "refSize": 19,
+      "refSize": 4,
       "year": "2011",
       "title": "Kia Carens"
     }
