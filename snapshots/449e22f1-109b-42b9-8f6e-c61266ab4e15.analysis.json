@@ -1,38 +1,38 @@
 {
   "vehicleId": "449e22f1-109b-42b9-8f6e-c61266ab4e15",
-  "computedAt": "2026-10-12T22:51:35.306Z",
+  "computedAt": "2026-10-13T12:27:01.283Z",
   "cohort": {
-    "sameModelCount": 36,
+    "sameModelCount": 37,
     "sameYearCount": 3,
     "refCohort": "model",
-    "refSize": 36
+    "refSize": 37
   },
-  "pricePercentile": 36,
+  "pricePercentile": 38,
   "pricePerKm": 17.158047365877234,
-  "pricePerKmPercentile": 33,
-  "kmPercentile": 64,
-  "daysListed": 78,
+  "pricePerKmPercentile": 35,
+  "kmPercentile": 62,
+  "daysListed": 79,
   "marginPct": null,
   "marginTier": null,
   "auctionHeat": "cold",
-  "dealTag": "good",
+  "dealTag": "fair",
   "bullets": [
     {
       "tone": "mid",
       "pipKey": "bullet.pip.mid",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 64,
-        "n": 36,
+        "pct": 62,
+        "n": 37,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
     {
-      "tone": "good",
+      "tone": "mid",
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 67,
+        "pct": 65,
         "ppkm": 17
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 36
+        "pct": 38
       }
     },
     {
@@ -53,23 +53,23 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 78
+        "n": 79
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 78
+        "n": 79
       }
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.good",
+    "verdictKey": "summary.verdict.fair",
     "cohortLineKey": "summary.cohortLine.yes",
     "cohortKindKey": "detail.cohort.refSize.kind.model",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 36,
+      "refSize": 37,
       "year": "2023",
       "title": "Volkswagen Tiguan"
     }

@@ -1,17 +1,17 @@
 {
   "vehicleId": "b07ca752-e13e-4cb4-868b-573eb7ff0e78",
-  "computedAt": "2026-10-12T22:51:34.987Z",
+  "computedAt": "2026-10-13T12:27:01.129Z",
   "cohort": {
-    "sameModelCount": 117,
-    "sameYearCount": 3,
-    "refCohort": "model",
-    "refSize": 117
+    "sameModelCount": 119,
+    "sameYearCount": 4,
+    "refCohort": "model+year",
+    "refSize": 4
   },
-  "pricePercentile": 9,
+  "pricePercentile": 25,
   "pricePerKm": 6.626905235255136,
-  "pricePerKmPercentile": 18,
-  "kmPercentile": 71,
-  "daysListed": 151,
+  "pricePerKmPercentile": 50,
+  "kmPercentile": 25,
+  "daysListed": 152,
   "marginPct": 9.700000000000001,
   "marginTier": "low",
   "auctionHeat": "warm",
@@ -22,26 +22,26 @@
       "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 91,
-        "n": 117,
-        "kind": "detail.cohort.refSize.kind.model"
+        "pct": 75,
+        "n": 4,
+        "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
-      "tone": "good",
+      "tone": "mid",
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 82,
+        "pct": 50,
         "ppkm": 7
       }
     },
     {
-      "tone": "hot",
-      "pipKey": "bullet.pip.highKm",
+      "tone": "good",
+      "pipKey": "bullet.pip.lowKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 29
+        "pct": 75
       }
     },
     {
@@ -61,23 +61,23 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 151
+        "n": 152
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 151
+        "n": 152
       }
     }
   ],
   "summary": {
     "verdictKey": "summary.verdict.good",
     "cohortLineKey": "summary.cohortLine.yes",
-    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": null,
     "marginSuffixKey": "summary.suffix.marginLow",
     "args": {
-      "refSize": 117,
+      "refSize": 4,
       "year": "2011",
       "title": "Mercedes-Benz C180"
     }
