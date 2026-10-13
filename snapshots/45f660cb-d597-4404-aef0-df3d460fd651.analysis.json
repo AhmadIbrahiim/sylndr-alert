@@ -1,29 +1,29 @@
 {
   "vehicleId": "45f660cb-d597-4404-aef0-df3d460fd651",
-  "computedAt": "2026-10-13T12:27:02.784Z",
+  "computedAt": "2026-10-13T19:27:05.645Z",
   "cohort": {
-    "sameModelCount": 3,
+    "sameModelCount": 4,
     "sameYearCount": 1,
     "refCohort": "model",
-    "refSize": 3
+    "refSize": 4
   },
-  "pricePercentile": 67,
+  "pricePercentile": 75,
   "pricePerKm": 1.844946025515211,
   "pricePerKmPercentile": 0,
-  "kmPercentile": 67,
-  "daysListed": 102,
+  "kmPercentile": 75,
+  "daysListed": 103,
   "marginPct": 16.80851063829787,
   "marginTier": "mid",
   "auctionHeat": "warm",
-  "dealTag": "good",
+  "dealTag": "fair",
   "bullets": [
     {
-      "tone": "mid",
-      "pipKey": "bullet.pip.mid",
+      "tone": "hot",
+      "pipKey": "bullet.pip.high",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 33,
-        "n": 3,
+        "pct": 25,
+        "n": 4,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -37,11 +37,11 @@
       }
     },
     {
-      "tone": "mid",
-      "pipKey": "bullet.pip.km",
+      "tone": "hot",
+      "pipKey": "bullet.pip.highKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 33
+        "pct": 25
       }
     },
     {
@@ -61,23 +61,23 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 102
+        "n": 103
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 102
+        "n": 103
       }
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.good",
+    "verdictKey": "summary.verdict.fair",
     "cohortLineKey": "summary.cohortLine.yes",
     "cohortKindKey": "detail.cohort.refSize.kind.model",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 3,
+      "refSize": 4,
       "year": "2013",
       "title": "Nissan Tiida"
     }

@@ -1,29 +1,29 @@
 {
   "vehicleId": "31bb9cae-2d0d-4c70-957d-5c7ba1e56a0c",
-  "computedAt": "2026-10-13T12:27:02.238Z",
+  "computedAt": "2026-10-13T19:27:04.463Z",
   "cohort": {
-    "sameModelCount": 94,
-    "sameYearCount": 8,
+    "sameModelCount": 96,
+    "sameYearCount": 9,
     "refCohort": "model+year",
-    "refSize": 8
+    "refSize": 9
   },
-  "pricePercentile": 75,
+  "pricePercentile": 67,
   "pricePerKm": 7.992815446789403,
-  "pricePerKmPercentile": 88,
-  "kmPercentile": 0,
-  "daysListed": 77,
+  "pricePerKmPercentile": 78,
+  "kmPercentile": 11,
+  "daysListed": 78,
   "marginPct": null,
   "marginTier": null,
   "auctionHeat": "cold",
-  "dealTag": "high",
+  "dealTag": "fair",
   "bullets": [
     {
-      "tone": "hot",
-      "pipKey": "bullet.pip.high",
+      "tone": "mid",
+      "pipKey": "bullet.pip.mid",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 25,
-        "n": 8,
+        "pct": 33,
+        "n": 9,
         "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.pricey",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 12,
+        "pct": 22,
         "ppkm": 8
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.lowKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 100
+        "pct": 89
       }
     },
     {
@@ -53,23 +53,23 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 77
+        "n": 78
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 77
+        "n": 78
       }
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.high",
+    "verdictKey": "summary.verdict.fair",
     "cohortLineKey": "summary.cohortLine.yes",
     "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 8,
+      "refSize": 9,
       "year": "2021",
       "title": "Renault Megane"
     }

@@ -1,29 +1,29 @@
 {
   "vehicleId": "3d57552a-3309-4470-886a-c50e195b254b",
-  "computedAt": "2026-10-13T12:27:02.311Z",
+  "computedAt": "2026-10-13T19:27:04.622Z",
   "cohort": {
-    "sameModelCount": 56,
-    "sameYearCount": 10,
+    "sameModelCount": 57,
+    "sameYearCount": 11,
     "refCohort": "model+year",
-    "refSize": 10
+    "refSize": 11
   },
-  "pricePercentile": 80,
+  "pricePercentile": 82,
   "pricePerKm": 106.57365692970983,
-  "pricePerKmPercentile": 80,
-  "kmPercentile": 10,
-  "daysListed": 24,
+  "pricePerKmPercentile": 82,
+  "kmPercentile": 18,
+  "daysListed": 25,
   "marginPct": null,
   "marginTier": null,
   "auctionHeat": "cold",
-  "dealTag": "fair",
+  "dealTag": "high",
   "bullets": [
     {
       "tone": "hot",
       "pipKey": "bullet.pip.high",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 20,
-        "n": 10,
+        "pct": 18,
+        "n": 11,
         "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.pricey",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 20,
+        "pct": 18,
         "ppkm": 107
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.lowKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 90
+        "pct": 82
       }
     },
     {
@@ -53,23 +53,23 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 24
+        "n": 25
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 24
+        "n": 25
       }
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.fair",
+    "verdictKey": "summary.verdict.high",
     "cohortLineKey": "summary.cohortLine.yes",
     "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": null,
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 10,
+      "refSize": 11,
       "year": "2024",
       "title": "Kia Sportage"
     }

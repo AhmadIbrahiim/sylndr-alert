@@ -1,17 +1,17 @@
 {
   "vehicleId": "e83b867c-79da-4da2-be9d-ba8766f8c742",
-  "computedAt": "2026-10-13T12:27:01.608Z",
+  "computedAt": "2026-10-13T19:27:03.083Z",
   "cohort": {
-    "sameModelCount": 56,
+    "sameModelCount": 57,
     "sameYearCount": 2,
     "refCohort": "model",
-    "refSize": 56
+    "refSize": 57
   },
   "pricePercentile": 14,
   "pricePerKm": 10.245262679626181,
-  "pricePerKmPercentile": 45,
-  "kmPercentile": 43,
-  "daysListed": 13,
+  "pricePerKmPercentile": 44,
+  "kmPercentile": 44,
+  "daysListed": 14,
   "marginPct": null,
   "marginTier": null,
   "auctionHeat": "cold",
@@ -23,7 +23,7 @@
       "textKey": "bullet.priceCheaper",
       "textArgs": {
         "pct": 86,
-        "n": 56,
+        "n": 57,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 55,
+        "pct": 56,
         "ppkm": 10
       }
     },
@@ -41,13 +41,24 @@
       "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 57
+        "pct": 56
       }
     },
     {
       "tone": "neutral",
       "pipKey": "bullet.pip.cold",
       "textKey": "bullet.auctionCold"
+    },
+    {
+      "tone": "neutral",
+      "pipKey": "bullet.pip.daysListed",
+      "pipArgs": {
+        "n": 14
+      },
+      "textKey": "bullet.listedOld",
+      "textArgs": {
+        "n": 14
+      }
     }
   ],
   "summary": {
@@ -58,7 +69,7 @@
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 56,
+      "refSize": 57,
       "year": "2014",
       "title": "Kia Sportage"
     }

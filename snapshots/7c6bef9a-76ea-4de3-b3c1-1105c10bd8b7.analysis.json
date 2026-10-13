@@ -1,29 +1,29 @@
 {
   "vehicleId": "7c6bef9a-76ea-4de3-b3c1-1105c10bd8b7",
-  "computedAt": "2026-10-13T12:27:02.512Z",
+  "computedAt": "2026-10-13T19:27:05.061Z",
   "cohort": {
-    "sameModelCount": 10,
+    "sameModelCount": 11,
     "sameYearCount": 1,
     "refCohort": "model",
-    "refSize": 10
+    "refSize": 11
   },
-  "pricePercentile": 80,
+  "pricePercentile": 82,
   "pricePerKm": 12.5,
-  "pricePerKmPercentile": 80,
-  "kmPercentile": 10,
-  "daysListed": 186,
+  "pricePerKmPercentile": 82,
+  "kmPercentile": 9,
+  "daysListed": 187,
   "marginPct": 13.92156862745098,
   "marginTier": "low",
   "auctionHeat": "hot",
-  "dealTag": "fair",
+  "dealTag": "high",
   "bullets": [
     {
       "tone": "hot",
       "pipKey": "bullet.pip.high",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 20,
-        "n": 10,
+        "pct": 18,
+        "n": 11,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.pricey",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 20,
+        "pct": 18,
         "ppkm": 13
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.lowKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 90
+        "pct": 91
       }
     },
     {
@@ -61,23 +61,23 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 186
+        "n": 187
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 186
+        "n": 187
       }
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.fair",
+    "verdictKey": "summary.verdict.high",
     "cohortLineKey": "summary.cohortLine.yes",
     "cohortKindKey": "detail.cohort.refSize.kind.model",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": "summary.suffix.marginLow",
     "args": {
-      "refSize": 10,
+      "refSize": 11,
       "year": "2020",
       "title": "Seat Leon"
     }

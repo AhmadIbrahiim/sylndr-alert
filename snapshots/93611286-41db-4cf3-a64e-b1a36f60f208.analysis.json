@@ -1,0 +1,71 @@
+{
+  "vehicleId": "93611286-41db-4cf3-a64e-b1a36f60f208",
+  "computedAt": "2026-10-13T19:27:01.643Z",
+  "cohort": {
+    "sameModelCount": 57,
+    "sameYearCount": 11,
+    "refCohort": "model+year",
+    "refSize": 11
+  },
+  "pricePercentile": 27,
+  "pricePerKm": 105.54871909609577,
+  "pricePerKmPercentile": 73,
+  "kmPercentile": 9,
+  "daysListed": 0,
+  "marginPct": null,
+  "marginTier": null,
+  "auctionHeat": "cold",
+  "dealTag": "fair",
+  "bullets": [
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.deal",
+      "textKey": "bullet.priceCheaper",
+      "textArgs": {
+        "pct": 73,
+        "n": 11,
+        "kind": "detail.cohort.refSize.kind.modelYear"
+      }
+    },
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.pricey",
+      "textKey": "bullet.ppkmBetter",
+      "textArgs": {
+        "pct": 27,
+        "ppkm": 106
+      }
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.lowKm",
+      "textKey": "bullet.kmLower",
+      "textArgs": {
+        "pct": 91
+      }
+    },
+    {
+      "tone": "neutral",
+      "pipKey": "bullet.pip.cold",
+      "textKey": "bullet.auctionCold"
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.fresh",
+      "textKey": "bullet.listedFresh"
+    }
+  ],
+  "summary": {
+    "verdictKey": "summary.verdict.fair",
+    "cohortLineKey": "summary.cohortLine.yes",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
+    "ageSuffixKey": "summary.suffix.ageFresh",
+    "heatSuffixKey": null,
+    "marginSuffixKey": null,
+    "args": {
+      "refSize": 11,
+      "year": "2024",
+      "title": "Kia Sportage"
+    }
+  }
+}
