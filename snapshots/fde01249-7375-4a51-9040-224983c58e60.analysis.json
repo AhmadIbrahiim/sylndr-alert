@@ -1,17 +1,17 @@
 {
   "vehicleId": "fde01249-7375-4a51-9040-224983c58e60",
-  "computedAt": "2026-10-16T09:28:37.054Z",
+  "computedAt": "2026-10-16T14:08:43.300Z",
   "cohort": {
-    "sameModelCount": 10,
-    "sameYearCount": 2,
+    "sameModelCount": 11,
+    "sameYearCount": 3,
     "refCohort": "model",
-    "refSize": 10
+    "refSize": 11
   },
-  "pricePercentile": 50,
+  "pricePercentile": 55,
   "pricePerKm": 20.140572978749642,
-  "pricePerKmPercentile": 50,
-  "kmPercentile": 40,
-  "daysListed": 21,
+  "pricePerKmPercentile": 55,
+  "kmPercentile": 36,
+  "daysListed": 22,
   "marginPct": null,
   "marginTier": null,
   "auctionHeat": "cold",
@@ -22,8 +22,8 @@
       "pipKey": "bullet.pip.mid",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 50,
-        "n": 10,
+        "pct": 45,
+        "n": 11,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 50,
+        "pct": 45,
         "ppkm": 20
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 60
+        "pct": 64
       }
     },
     {
@@ -53,11 +53,11 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 21
+        "n": 22
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 21
+        "n": 22
       }
     }
   ],
@@ -69,7 +69,7 @@
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 10,
+      "refSize": 11,
       "year": "2022",
       "title": "Opel Mokka"
     }

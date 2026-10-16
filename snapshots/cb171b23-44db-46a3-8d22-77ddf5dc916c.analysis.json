@@ -1,17 +1,17 @@
 {
   "vehicleId": "cb171b23-44db-46a3-8d22-77ddf5dc916c",
-  "computedAt": "2026-10-16T09:28:38.745Z",
+  "computedAt": "2026-10-16T14:08:44.523Z",
   "cohort": {
-    "sameModelCount": 5,
-    "sameYearCount": 4,
+    "sameModelCount": 6,
+    "sameYearCount": 5,
     "refCohort": "model+year",
-    "refSize": 4
+    "refSize": 5
   },
-  "pricePercentile": 50,
+  "pricePercentile": 60,
   "pricePerKm": 13.246225165562914,
-  "pricePerKmPercentile": 25,
-  "kmPercentile": 50,
-  "daysListed": 242,
+  "pricePerKmPercentile": 40,
+  "kmPercentile": 40,
+  "daysListed": 243,
   "marginPct": 12.807847293743563,
   "marginTier": "low",
   "auctionHeat": "hot",
@@ -22,17 +22,17 @@
       "pipKey": "bullet.pip.mid",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 50,
-        "n": 4,
+        "pct": 40,
+        "n": 5,
         "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
-      "tone": "good",
+      "tone": "mid",
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 75,
+        "pct": 60,
         "ppkm": 13
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 50
+        "pct": 60
       }
     },
     {
@@ -61,11 +61,11 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 242
+        "n": 243
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 242
+        "n": 243
       }
     }
   ],
@@ -77,7 +77,7 @@
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": "summary.suffix.marginLow",
     "args": {
-      "refSize": 4,
+      "refSize": 5,
       "year": "2021",
       "title": "Seat Arona"
     }
