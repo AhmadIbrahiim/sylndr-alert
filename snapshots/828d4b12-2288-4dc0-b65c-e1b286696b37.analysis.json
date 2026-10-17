@@ -1,16 +1,16 @@
 {
   "vehicleId": "828d4b12-2288-4dc0-b65c-e1b286696b37",
-  "computedAt": "2026-10-17T12:53:36.307Z",
+  "computedAt": "2026-10-17T16:07:44.794Z",
   "cohort": {
-    "sameModelCount": 3,
-    "sameYearCount": 3,
-    "refCohort": "model",
-    "refSize": 3
+    "sameModelCount": 4,
+    "sameYearCount": 4,
+    "refCohort": "model+year",
+    "refSize": 4
   },
   "pricePercentile": 0,
   "pricePerKm": 5.847953216374269,
-  "pricePerKmPercentile": 33,
-  "kmPercentile": 33,
+  "pricePerKmPercentile": 25,
+  "kmPercentile": 50,
   "daysListed": 137,
   "marginPct": 12.285714285714286,
   "marginTier": "low",
@@ -23,8 +23,8 @@
       "textKey": "bullet.priceCheaper",
       "textArgs": {
         "pct": 100,
-        "n": 3,
-        "kind": "detail.cohort.refSize.kind.model"
+        "n": 4,
+        "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
@@ -32,16 +32,16 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 67,
+        "pct": 75,
         "ppkm": 6
       }
     },
     {
-      "tone": "good",
-      "pipKey": "bullet.pip.lowKm",
+      "tone": "mid",
+      "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 67
+        "pct": 50
       }
     },
     {
@@ -72,12 +72,12 @@
   "summary": {
     "verdictKey": "summary.verdict.good",
     "cohortLineKey": "summary.cohortLine.yes",
-    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": null,
     "marginSuffixKey": "summary.suffix.marginLow",
     "args": {
-      "refSize": 3,
+      "refSize": 4,
       "year": "2011",
       "title": "Mercedes-Benz C250"
     }

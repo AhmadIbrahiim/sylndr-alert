@@ -1,29 +1,29 @@
 {
   "vehicleId": "41c86cb3-f454-4736-8e99-87822e087a16",
-  "computedAt": "2026-10-17T12:53:43.936Z",
+  "computedAt": "2026-10-17T16:07:50.065Z",
   "cohort": {
-    "sameModelCount": 8,
-    "sameYearCount": 2,
+    "sameModelCount": 9,
+    "sameYearCount": 3,
     "refCohort": "model",
-    "refSize": 8
+    "refSize": 9
   },
-  "pricePercentile": 88,
+  "pricePercentile": 78,
   "pricePerKm": 8.99947061937533,
-  "pricePerKmPercentile": 63,
-  "kmPercentile": 63,
-  "daysListed": 124,
+  "pricePerKmPercentile": 56,
+  "kmPercentile": 67,
+  "daysListed": 125,
   "marginPct": 38.88235294117647,
   "marginTier": "high",
   "auctionHeat": "cold",
-  "dealTag": "high",
+  "dealTag": "fair",
   "bullets": [
     {
       "tone": "hot",
       "pipKey": "bullet.pip.high",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 12,
-        "n": 8,
+        "pct": 22,
+        "n": 9,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 37,
+        "pct": 44,
         "ppkm": 9
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 37
+        "pct": 33
       }
     },
     {
@@ -61,23 +61,23 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 124
+        "n": 125
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 124
+        "n": 125
       }
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.high",
+    "verdictKey": "summary.verdict.fair",
     "cohortLineKey": "summary.cohortLine.yes",
     "cohortKindKey": "detail.cohort.refSize.kind.model",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": null,
     "marginSuffixKey": "summary.suffix.marginHigh",
     "args": {
-      "refSize": 8,
+      "refSize": 9,
       "year": "2021",
       "title": "Mercedes-Benz B180"
     }
