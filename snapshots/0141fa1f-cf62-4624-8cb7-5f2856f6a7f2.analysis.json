@@ -1,16 +1,16 @@
 {
   "vehicleId": "0141fa1f-cf62-4624-8cb7-5f2856f6a7f2",
-  "computedAt": "2026-10-18T13:25:28.705Z",
+  "computedAt": "2026-10-18T16:41:24.659Z",
   "cohort": {
-    "sameModelCount": 4,
-    "sameYearCount": 3,
-    "refCohort": "model",
+    "sameModelCount": 5,
+    "sameYearCount": 4,
+    "refCohort": "model+year",
     "refSize": 4
   },
-  "pricePercentile": 50,
+  "pricePercentile": 75,
   "pricePerKm": 11.30524152106886,
-  "pricePerKmPercentile": 50,
-  "kmPercentile": 25,
+  "pricePerKmPercentile": 25,
+  "kmPercentile": 50,
   "daysListed": 103,
   "marginPct": 35.515151515151516,
   "marginTier": "high",
@@ -18,30 +18,30 @@
   "dealTag": "fair",
   "bullets": [
     {
-      "tone": "mid",
-      "pipKey": "bullet.pip.mid",
+      "tone": "hot",
+      "pipKey": "bullet.pip.high",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 50,
+        "pct": 25,
         "n": 4,
-        "kind": "detail.cohort.refSize.kind.model"
-      }
-    },
-    {
-      "tone": "mid",
-      "pipKey": "bullet.pip.value",
-      "textKey": "bullet.ppkmBetter",
-      "textArgs": {
-        "pct": 50,
-        "ppkm": 11
+        "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
       "tone": "good",
-      "pipKey": "bullet.pip.lowKm",
+      "pipKey": "bullet.pip.value",
+      "textKey": "bullet.ppkmBetter",
+      "textArgs": {
+        "pct": 75,
+        "ppkm": 11
+      }
+    },
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 75
+        "pct": 50
       }
     },
     {
@@ -72,7 +72,7 @@
   "summary": {
     "verdictKey": "summary.verdict.fair",
     "cohortLineKey": "summary.cohortLine.yes",
-    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": null,
     "marginSuffixKey": "summary.suffix.marginHigh",

@@ -1,17 +1,17 @@
 {
   "vehicleId": "918f09b2-7040-426e-92f0-015d98a58b43",
-  "computedAt": "2026-10-18T13:25:32.660Z",
+  "computedAt": "2026-10-18T16:41:28.651Z",
   "cohort": {
-    "sameModelCount": 121,
-    "sameYearCount": 3,
-    "refCohort": "model",
-    "refSize": 121
+    "sameModelCount": 123,
+    "sameYearCount": 4,
+    "refCohort": "model+year",
+    "refSize": 4
   },
-  "pricePercentile": 28,
+  "pricePercentile": 0,
   "pricePerKm": 12.566985890666436,
-  "pricePerKmPercentile": 35,
-  "kmPercentile": 59,
-  "daysListed": 24,
+  "pricePerKmPercentile": 25,
+  "kmPercentile": 50,
+  "daysListed": 25,
   "marginPct": null,
   "marginTier": null,
   "auctionHeat": "cold",
@@ -22,17 +22,17 @@
       "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 72,
-        "n": 121,
-        "kind": "detail.cohort.refSize.kind.model"
+        "pct": 100,
+        "n": 4,
+        "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
-      "tone": "mid",
+      "tone": "good",
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 65,
+        "pct": 75,
         "ppkm": 13
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 41
+        "pct": 50
       }
     },
     {
@@ -53,23 +53,23 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 24
+        "n": 25
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 24
+        "n": 25
       }
     }
   ],
   "summary": {
     "verdictKey": "summary.verdict.good",
     "cohortLineKey": "summary.cohortLine.yes",
-    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": null,
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 121,
+      "refSize": 4,
       "year": "2016",
       "title": "Mercedes-Benz C180"
     }
