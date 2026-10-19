@@ -1,29 +1,29 @@
 {
   "vehicleId": "cb020f75-2ef4-48b0-bc51-8abbce7626ea",
-  "computedAt": "2026-10-19T10:29:09.196Z",
+  "computedAt": "2026-10-19T17:07:27.108Z",
   "cohort": {
-    "sameModelCount": 50,
-    "sameYearCount": 10,
+    "sameModelCount": 51,
+    "sameYearCount": 11,
     "refCohort": "model+year",
-    "refSize": 10
+    "refSize": 11
   },
-  "pricePercentile": 80,
+  "pricePercentile": 82,
   "pricePerKm": 9.928295642581357,
-  "pricePerKmPercentile": 60,
-  "kmPercentile": 60,
-  "daysListed": 243,
+  "pricePerKmPercentile": 64,
+  "kmPercentile": 55,
+  "daysListed": 244,
   "marginPct": 22.22222222222222,
   "marginTier": "mid",
   "auctionHeat": "hot",
-  "dealTag": "fair",
+  "dealTag": "high",
   "bullets": [
     {
       "tone": "hot",
       "pipKey": "bullet.pip.high",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 20,
-        "n": 10,
+        "pct": 18,
+        "n": 11,
         "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 40,
+        "pct": 36,
         "ppkm": 10
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 40
+        "pct": 45
       }
     },
     {
@@ -61,23 +61,23 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 243
+        "n": 244
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 243
+        "n": 244
       }
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.fair",
+    "verdictKey": "summary.verdict.high",
     "cohortLineKey": "summary.cohortLine.yes",
     "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": null,
     "args": {
-      "refSize": 10,
+      "refSize": 11,
       "year": "2021",
       "title": "Ford Focus"
     }

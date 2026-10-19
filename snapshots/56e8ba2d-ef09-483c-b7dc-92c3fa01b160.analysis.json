@@ -1,29 +1,29 @@
 {
   "vehicleId": "56e8ba2d-ef09-483c-b7dc-92c3fa01b160",
-  "computedAt": "2026-10-19T10:29:11.492Z",
+  "computedAt": "2026-10-19T17:07:29.413Z",
   "cohort": {
-    "sameModelCount": 123,
-    "sameYearCount": 16,
+    "sameModelCount": 124,
+    "sameYearCount": 17,
     "refCohort": "model+year",
-    "refSize": 16
+    "refSize": 17
   },
-  "pricePercentile": 13,
+  "pricePercentile": 18,
   "pricePerKm": 20.2322206095791,
-  "pricePerKmPercentile": 50,
-  "kmPercentile": 44,
-  "daysListed": 204,
+  "pricePerKmPercentile": 53,
+  "kmPercentile": 41,
+  "daysListed": 205,
   "marginPct": 8.799617407938785,
   "marginTier": "low",
   "auctionHeat": "hot",
-  "dealTag": "good",
+  "dealTag": "fair",
   "bullets": [
     {
       "tone": "good",
       "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 87,
-        "n": 16,
+        "pct": 82,
+        "n": 17,
         "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 50,
+        "pct": 47,
         "ppkm": 20
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 56
+        "pct": 59
       }
     },
     {
@@ -61,23 +61,23 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 204
+        "n": 205
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 204
+        "n": 205
       }
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.good",
+    "verdictKey": "summary.verdict.fair",
     "cohortLineKey": "summary.cohortLine.yes",
     "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": "summary.suffix.marginLow",
     "args": {
-      "refSize": 16,
+      "refSize": 17,
       "year": "2020",
       "title": "Mercedes-Benz C180"
     }

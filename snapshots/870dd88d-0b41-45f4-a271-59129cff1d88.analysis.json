@@ -1,17 +1,17 @@
 {
   "vehicleId": "870dd88d-0b41-45f4-a271-59129cff1d88",
-  "computedAt": "2026-10-19T10:29:08.026Z",
+  "computedAt": "2026-10-19T17:07:25.911Z",
   "cohort": {
-    "sameModelCount": 71,
-    "sameYearCount": 25,
+    "sameModelCount": 72,
+    "sameYearCount": 26,
     "refCohort": "model+year",
-    "refSize": 25
+    "refSize": 26
   },
-  "pricePercentile": 48,
+  "pricePercentile": 50,
   "pricePerKm": 22.135786187670067,
-  "pricePerKmPercentile": 80,
+  "pricePerKmPercentile": 81,
   "kmPercentile": 12,
-  "daysListed": 29,
+  "daysListed": 30,
   "marginPct": null,
   "marginTier": null,
   "auctionHeat": "cold",
@@ -22,8 +22,8 @@
       "pipKey": "bullet.pip.mid",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 52,
-        "n": 25,
+        "pct": 50,
+        "n": 26,
         "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.pricey",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 20,
+        "pct": 19,
         "ppkm": 22
       }
     },
@@ -53,11 +53,11 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 29
+        "n": 30
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 29
+        "n": 30
       }
     }
   ],
@@ -65,11 +65,11 @@
     "verdictKey": "summary.verdict.fair",
     "cohortLineKey": "summary.cohortLine.yes",
     "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
-    "ageSuffixKey": null,
+    "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 25,
+      "refSize": 26,
       "year": "2021",
       "title": "Peugeot 3008"
     }

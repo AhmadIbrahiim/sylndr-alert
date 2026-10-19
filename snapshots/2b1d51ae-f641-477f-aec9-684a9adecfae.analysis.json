@@ -1,29 +1,29 @@
 {
   "vehicleId": "2b1d51ae-f641-477f-aec9-684a9adecfae",
-  "computedAt": "2026-10-19T10:29:09.357Z",
+  "computedAt": "2026-10-19T17:07:27.269Z",
   "cohort": {
-    "sameModelCount": 123,
-    "sameYearCount": 16,
+    "sameModelCount": 124,
+    "sameYearCount": 17,
     "refCohort": "model+year",
-    "refSize": 16
+    "refSize": 17
   },
-  "pricePercentile": 19,
+  "pricePercentile": 24,
   "pricePerKm": 20.090695138051778,
-  "pricePerKmPercentile": 44,
-  "kmPercentile": 50,
-  "daysListed": 21,
+  "pricePerKmPercentile": 47,
+  "kmPercentile": 47,
+  "daysListed": 22,
   "marginPct": null,
   "marginTier": null,
   "auctionHeat": "cold",
-  "dealTag": "good",
+  "dealTag": "fair",
   "bullets": [
     {
       "tone": "good",
       "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 81,
-        "n": 16,
+        "pct": 76,
+        "n": 17,
         "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 56,
+        "pct": 53,
         "ppkm": 20
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 50
+        "pct": 53
       }
     },
     {
@@ -53,23 +53,23 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 21
+        "n": 22
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 21
+        "n": 22
       }
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.good",
+    "verdictKey": "summary.verdict.fair",
     "cohortLineKey": "summary.cohortLine.yes",
     "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": null,
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 16,
+      "refSize": 17,
       "year": "2020",
       "title": "Mercedes-Benz C180"
     }

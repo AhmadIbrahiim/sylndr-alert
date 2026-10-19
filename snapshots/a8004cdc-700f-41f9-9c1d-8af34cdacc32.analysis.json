@@ -1,29 +1,29 @@
 {
   "vehicleId": "a8004cdc-700f-41f9-9c1d-8af34cdacc32",
-  "computedAt": "2026-10-19T10:29:09.425Z",
+  "computedAt": "2026-10-19T17:07:27.338Z",
   "cohort": {
-    "sameModelCount": 5,
+    "sameModelCount": 6,
     "sameYearCount": 3,
     "refCohort": "model",
-    "refSize": 5
+    "refSize": 6
   },
-  "pricePercentile": 40,
+  "pricePercentile": 33,
   "pricePerKm": 9.846396218983852,
-  "pricePerKmPercentile": 20,
-  "kmPercentile": 60,
-  "daysListed": 94,
+  "pricePerKmPercentile": 33,
+  "kmPercentile": 50,
+  "daysListed": 95,
   "marginPct": 20.16,
   "marginTier": "mid",
   "auctionHeat": "cold",
   "dealTag": "good",
   "bullets": [
     {
-      "tone": "mid",
-      "pipKey": "bullet.pip.mid",
+      "tone": "good",
+      "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 60,
-        "n": 5,
+        "pct": 67,
+        "n": 6,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 80,
+        "pct": 67,
         "ppkm": 10
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 40
+        "pct": 50
       }
     },
     {
@@ -61,11 +61,11 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 94
+        "n": 95
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 94
+        "n": 95
       }
     }
   ],
@@ -77,7 +77,7 @@
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 5,
+      "refSize": 6,
       "year": "2020",
       "title": "Skoda KAROQ"
     }
