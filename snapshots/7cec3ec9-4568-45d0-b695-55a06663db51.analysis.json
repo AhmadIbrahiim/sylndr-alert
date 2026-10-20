@@ -1,29 +1,29 @@
 {
   "vehicleId": "7cec3ec9-4568-45d0-b695-55a06663db51",
-  "computedAt": "2026-10-20T09:47:53.441Z",
+  "computedAt": "2026-10-20T14:38:58.192Z",
   "cohort": {
-    "sameModelCount": 40,
-    "sameYearCount": 9,
+    "sameModelCount": 41,
+    "sameYearCount": 10,
     "refCohort": "model+year",
-    "refSize": 9
+    "refSize": 10
   },
-  "pricePercentile": 33,
+  "pricePercentile": 40,
   "pricePerKm": 7.6482617586912065,
-  "pricePerKmPercentile": 22,
-  "kmPercentile": 67,
-  "daysListed": 185,
+  "pricePerKmPercentile": 30,
+  "kmPercentile": 60,
+  "daysListed": 186,
   "marginPct": 36.096256684491976,
   "marginTier": "high",
   "auctionHeat": "warm",
-  "dealTag": "good",
+  "dealTag": "fair",
   "bullets": [
     {
-      "tone": "good",
-      "pipKey": "bullet.pip.deal",
+      "tone": "mid",
+      "pipKey": "bullet.pip.mid",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 67,
-        "n": 9,
+        "pct": 60,
+        "n": 10,
         "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 78,
+        "pct": 70,
         "ppkm": 8
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 33
+        "pct": 40
       }
     },
     {
@@ -61,23 +61,23 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 185
+        "n": 186
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 185
+        "n": 186
       }
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.good",
+    "verdictKey": "summary.verdict.fair",
     "cohortLineKey": "summary.cohortLine.yes",
     "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": null,
     "marginSuffixKey": "summary.suffix.marginHigh",
     "args": {
-      "refSize": 9,
+      "refSize": 10,
       "year": "2020",
       "title": "Peugeot 508"
     }

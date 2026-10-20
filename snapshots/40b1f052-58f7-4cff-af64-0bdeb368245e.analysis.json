@@ -1,29 +1,29 @@
 {
   "vehicleId": "40b1f052-58f7-4cff-af64-0bdeb368245e",
-  "computedAt": "2026-10-20T09:47:53.102Z",
+  "computedAt": "2026-10-20T14:38:55.433Z",
   "cohort": {
-    "sameModelCount": 60,
-    "sameYearCount": 8,
+    "sameModelCount": 61,
+    "sameYearCount": 9,
     "refCohort": "model+year",
-    "refSize": 8
+    "refSize": 9
   },
-  "pricePercentile": 25,
+  "pricePercentile": 33,
   "pricePerKm": 10.392256749872644,
-  "pricePerKmPercentile": 38,
-  "kmPercentile": 50,
-  "daysListed": 239,
+  "pricePerKmPercentile": 44,
+  "kmPercentile": 44,
+  "daysListed": 240,
   "marginPct": 15.88235294117647,
   "marginTier": "mid",
   "auctionHeat": "hot",
-  "dealTag": "good",
+  "dealTag": "fair",
   "bullets": [
     {
       "tone": "good",
       "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 75,
-        "n": 8,
+        "pct": 67,
+        "n": 9,
         "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 62,
+        "pct": 56,
         "ppkm": 10
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 50
+        "pct": 56
       }
     },
     {
@@ -61,23 +61,23 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 239
+        "n": 240
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 239
+        "n": 240
       }
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.good",
+    "verdictKey": "summary.verdict.fair",
     "cohortLineKey": "summary.cohortLine.yes",
     "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": null,
     "args": {
-      "refSize": 8,
+      "refSize": 9,
       "year": "2021",
       "title": "Renault Kadjar"
     }

@@ -1,17 +1,17 @@
 {
   "vehicleId": "2654bd50-3daa-410b-98f5-bb9d0516989f",
-  "computedAt": "2026-10-20T09:47:53.284Z",
+  "computedAt": "2026-10-20T14:38:55.223Z",
   "cohort": {
-    "sameModelCount": 56,
-    "sameYearCount": 16,
+    "sameModelCount": 57,
+    "sameYearCount": 17,
     "refCohort": "model+year",
-    "refSize": 16
+    "refSize": 17
   },
-  "pricePercentile": 13,
+  "pricePercentile": 12,
   "pricePerKm": 6.196120689655173,
-  "pricePerKmPercentile": 19,
-  "kmPercentile": 69,
-  "daysListed": 111,
+  "pricePerKmPercentile": 18,
+  "kmPercentile": 71,
+  "daysListed": 112,
   "marginPct": 30.695652173913047,
   "marginTier": "high",
   "auctionHeat": "cold",
@@ -22,8 +22,8 @@
       "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 87,
-        "n": 16,
+        "pct": 88,
+        "n": 17,
         "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
@@ -32,16 +32,16 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 81,
+        "pct": 82,
         "ppkm": 6
       }
     },
     {
-      "tone": "mid",
-      "pipKey": "bullet.pip.km",
+      "tone": "hot",
+      "pipKey": "bullet.pip.highKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 31
+        "pct": 29
       }
     },
     {
@@ -61,11 +61,11 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 111
+        "n": 112
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 111
+        "n": 112
       }
     }
   ],
@@ -77,7 +77,7 @@
     "heatSuffixKey": null,
     "marginSuffixKey": "summary.suffix.marginHigh",
     "args": {
-      "refSize": 16,
+      "refSize": 17,
       "year": "2018",
       "title": "BMW 318i"
     }

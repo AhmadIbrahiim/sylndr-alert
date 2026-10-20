@@ -1,29 +1,29 @@
 {
   "vehicleId": "3e4b7169-9b46-4f3a-899f-f27bb91a938e",
-  "computedAt": "2026-10-20T09:47:54.328Z",
+  "computedAt": "2026-10-20T14:38:59.831Z",
   "cohort": {
-    "sameModelCount": 25,
+    "sameModelCount": 26,
     "sameYearCount": 3,
     "refCohort": "model",
-    "refSize": 25
+    "refSize": 26
   },
-  "pricePercentile": 84,
+  "pricePercentile": 81,
   "pricePerKm": 4.475033738191633,
-  "pricePerKmPercentile": 80,
-  "kmPercentile": 24,
-  "daysListed": 47,
+  "pricePerKmPercentile": 77,
+  "kmPercentile": 27,
+  "daysListed": 48,
   "marginPct": null,
   "marginTier": null,
   "auctionHeat": "cold",
-  "dealTag": "high",
+  "dealTag": "fair",
   "bullets": [
     {
       "tone": "hot",
       "pipKey": "bullet.pip.high",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 16,
-        "n": 25,
+        "pct": 19,
+        "n": 26,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.pricey",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 20,
+        "pct": 23,
         "ppkm": 4
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.lowKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 76
+        "pct": 73
       }
     },
     {
@@ -53,23 +53,23 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 47
+        "n": 48
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 47
+        "n": 48
       }
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.high",
+    "verdictKey": "summary.verdict.fair",
     "cohortLineKey": "summary.cohortLine.yes",
     "cohortKindKey": "detail.cohort.refSize.kind.model",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 25,
+      "refSize": 26,
       "year": "2017",
       "title": "Kia Cerato"
     }
