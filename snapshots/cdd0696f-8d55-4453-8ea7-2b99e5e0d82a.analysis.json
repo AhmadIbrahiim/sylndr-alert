@@ -1,16 +1,16 @@
 {
   "vehicleId": "cdd0696f-8d55-4453-8ea7-2b99e5e0d82a",
-  "computedAt": "2026-10-20T14:38:57.405Z",
+  "computedAt": "2026-10-20T18:45:12.226Z",
   "cohort": {
-    "sameModelCount": 10,
+    "sameModelCount": 11,
     "sameYearCount": 2,
     "refCohort": "model",
-    "refSize": 10
+    "refSize": 11
   },
-  "pricePercentile": 40,
+  "pricePercentile": 36,
   "pricePerKm": 4.308681672025723,
-  "pricePerKmPercentile": 20,
-  "kmPercentile": 70,
+  "pricePerKmPercentile": 18,
+  "kmPercentile": 73,
   "daysListed": 70,
   "marginPct": null,
   "marginTier": null,
@@ -22,8 +22,8 @@
       "pipKey": "bullet.pip.mid",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 60,
-        "n": 10,
+        "pct": 64,
+        "n": 11,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -32,16 +32,16 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 80,
+        "pct": 82,
         "ppkm": 4
       }
     },
     {
-      "tone": "mid",
-      "pipKey": "bullet.pip.km",
+      "tone": "hot",
+      "pipKey": "bullet.pip.highKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 30
+        "pct": 27
       }
     },
     {
@@ -69,7 +69,7 @@
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 10,
+      "refSize": 11,
       "year": "2021",
       "title": "Ford Ecosport"
     }

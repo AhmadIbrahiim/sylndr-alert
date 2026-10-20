@@ -1,47 +1,47 @@
 {
   "vehicleId": "c0b8a017-45b3-42aa-86e8-7e009d96bcd6",
-  "computedAt": "2026-10-20T14:38:55.387Z",
+  "computedAt": "2026-10-20T18:45:09.564Z",
   "cohort": {
-    "sameModelCount": 13,
-    "sameYearCount": 3,
-    "refCohort": "model",
-    "refSize": 13
+    "sameModelCount": 14,
+    "sameYearCount": 4,
+    "refCohort": "model+year",
+    "refSize": 4
   },
-  "pricePercentile": 31,
+  "pricePercentile": 75,
   "pricePerKm": 14.884064210591058,
-  "pricePerKmPercentile": 31,
-  "kmPercentile": 62,
+  "pricePerKmPercentile": 75,
+  "kmPercentile": 25,
   "daysListed": 7,
   "marginPct": null,
   "marginTier": null,
   "auctionHeat": "cold",
-  "dealTag": "good",
+  "dealTag": "fair",
   "bullets": [
     {
-      "tone": "good",
-      "pipKey": "bullet.pip.deal",
+      "tone": "hot",
+      "pipKey": "bullet.pip.high",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 69,
-        "n": 13,
-        "kind": "detail.cohort.refSize.kind.model"
+        "pct": 25,
+        "n": 4,
+        "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
-      "tone": "good",
-      "pipKey": "bullet.pip.value",
+      "tone": "hot",
+      "pipKey": "bullet.pip.pricey",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 69,
+        "pct": 25,
         "ppkm": 15
       }
     },
     {
-      "tone": "mid",
-      "pipKey": "bullet.pip.km",
+      "tone": "good",
+      "pipKey": "bullet.pip.lowKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 38
+        "pct": 75
       }
     },
     {
@@ -51,14 +51,14 @@
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.good",
+    "verdictKey": "summary.verdict.fair",
     "cohortLineKey": "summary.cohortLine.yes",
-    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": null,
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 13,
+      "refSize": 4,
       "year": "2019",
       "title": "Toyota Fortuner"
     }
