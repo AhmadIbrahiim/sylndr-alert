@@ -1,29 +1,29 @@
 {
   "vehicleId": "13020997-f9f4-4a8c-9e06-cbc40eeff886",
-  "computedAt": "2026-10-21T14:50:15.896Z",
+  "computedAt": "2026-10-21T19:05:55.299Z",
   "cohort": {
-    "sameModelCount": 20,
+    "sameModelCount": 21,
     "sameYearCount": 3,
     "refCohort": "model",
-    "refSize": 20
+    "refSize": 21
   },
-  "pricePercentile": 20,
+  "pricePercentile": 24,
   "pricePerKm": 8.098231548685556,
-  "pricePerKmPercentile": 55,
-  "kmPercentile": 40,
-  "daysListed": 31,
+  "pricePerKmPercentile": 57,
+  "kmPercentile": 38,
+  "daysListed": 32,
   "marginPct": null,
   "marginTier": null,
   "auctionHeat": "cold",
-  "dealTag": "fair",
+  "dealTag": "good",
   "bullets": [
     {
       "tone": "good",
       "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 80,
-        "n": 20,
+        "pct": 76,
+        "n": 21,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 45,
+        "pct": 43,
         "ppkm": 8
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 60
+        "pct": 62
       }
     },
     {
@@ -53,23 +53,23 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 31
+        "n": 32
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 31
+        "n": 32
       }
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.fair",
+    "verdictKey": "summary.verdict.good",
     "cohortLineKey": "summary.cohortLine.yes",
     "cohortKindKey": "detail.cohort.refSize.kind.model",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 20,
+      "refSize": 21,
       "year": "2020",
       "title": "MG 6"
     }

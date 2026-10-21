@@ -1,38 +1,38 @@
 {
   "vehicleId": "5b8ca8e7-6cdd-4944-a473-53fed8652cc9",
-  "computedAt": "2026-10-21T14:50:14.842Z",
+  "computedAt": "2026-10-21T19:05:58.038Z",
   "cohort": {
-    "sameModelCount": 47,
-    "sameYearCount": 9,
+    "sameModelCount": 48,
+    "sameYearCount": 10,
     "refCohort": "model+year",
-    "refSize": 9
+    "refSize": 10
   },
-  "pricePercentile": 33,
+  "pricePercentile": 40,
   "pricePerKm": 16.231647634584014,
-  "pricePerKmPercentile": 33,
-  "kmPercentile": 67,
-  "daysListed": 77,
+  "pricePerKmPercentile": 40,
+  "kmPercentile": 60,
+  "daysListed": 78,
   "marginPct": null,
   "marginTier": null,
   "auctionHeat": "cold",
-  "dealTag": "good",
+  "dealTag": "fair",
   "bullets": [
     {
-      "tone": "good",
-      "pipKey": "bullet.pip.deal",
+      "tone": "mid",
+      "pipKey": "bullet.pip.mid",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 67,
-        "n": 9,
+        "pct": 60,
+        "n": 10,
         "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
-      "tone": "good",
+      "tone": "mid",
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 67,
+        "pct": 60,
         "ppkm": 16
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 33
+        "pct": 40
       }
     },
     {
@@ -53,23 +53,23 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 77
+        "n": 78
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 77
+        "n": 78
       }
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.good",
+    "verdictKey": "summary.verdict.fair",
     "cohortLineKey": "summary.cohortLine.yes",
     "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 9,
+      "refSize": 10,
       "year": "2020",
       "title": "BMW 320i"
     }

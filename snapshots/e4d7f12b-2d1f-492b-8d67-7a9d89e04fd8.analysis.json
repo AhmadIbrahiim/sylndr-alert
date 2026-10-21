@@ -1,29 +1,29 @@
 {
   "vehicleId": "e4d7f12b-2d1f-492b-8d67-7a9d89e04fd8",
-  "computedAt": "2026-10-21T14:50:17.997Z",
+  "computedAt": "2026-10-21T19:05:54.504Z",
   "cohort": {
-    "sameModelCount": 20,
-    "sameYearCount": 6,
+    "sameModelCount": 21,
+    "sameYearCount": 7,
     "refCohort": "model+year",
-    "refSize": 6
+    "refSize": 7
   },
-  "pricePercentile": 50,
+  "pricePercentile": 57,
   "pricePerKm": 5.029132168046612,
-  "pricePerKmPercentile": 0,
-  "kmPercentile": 83,
-  "daysListed": 188,
+  "pricePerKmPercentile": 14,
+  "kmPercentile": 71,
+  "daysListed": 189,
   "marginPct": 36.951219512195124,
   "marginTier": "high",
   "auctionHeat": "warm",
-  "dealTag": "good",
+  "dealTag": "fair",
   "bullets": [
     {
       "tone": "mid",
       "pipKey": "bullet.pip.mid",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 50,
-        "n": 6,
+        "pct": 43,
+        "n": 7,
         "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 100,
+        "pct": 86,
         "ppkm": 5
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.highKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 17
+        "pct": 29
       }
     },
     {
@@ -61,23 +61,23 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 188
+        "n": 189
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 188
+        "n": 189
       }
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.good",
+    "verdictKey": "summary.verdict.fair",
     "cohortLineKey": "summary.cohortLine.yes",
     "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": null,
     "marginSuffixKey": "summary.suffix.marginHigh",
     "args": {
-      "refSize": 6,
+      "refSize": 7,
       "year": "2021",
       "title": "MG 6"
     }

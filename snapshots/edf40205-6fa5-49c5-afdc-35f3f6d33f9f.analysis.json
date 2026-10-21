@@ -1,16 +1,16 @@
 {
   "vehicleId": "edf40205-6fa5-49c5-afdc-35f3f6d33f9f",
-  "computedAt": "2026-10-21T14:50:16.835Z",
+  "computedAt": "2026-10-21T19:05:57.030Z",
   "cohort": {
-    "sameModelCount": 4,
+    "sameModelCount": 5,
     "sameYearCount": 1,
     "refCohort": "model",
-    "refSize": 4
+    "refSize": 5
   },
-  "pricePercentile": 25,
+  "pricePercentile": 40,
   "pricePerKm": 8.8754549973542,
-  "pricePerKmPercentile": 50,
-  "kmPercentile": 50,
+  "pricePerKmPercentile": 60,
+  "kmPercentile": 40,
   "daysListed": 22,
   "marginPct": null,
   "marginTier": null,
@@ -18,12 +18,12 @@
   "dealTag": "fair",
   "bullets": [
     {
-      "tone": "good",
-      "pipKey": "bullet.pip.deal",
+      "tone": "mid",
+      "pipKey": "bullet.pip.mid",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 75,
-        "n": 4,
+        "pct": 60,
+        "n": 5,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 50,
+        "pct": 40,
         "ppkm": 9
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 50
+        "pct": 60
       }
     },
     {
@@ -69,7 +69,7 @@
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 4,
+      "refSize": 5,
       "year": "2019",
       "title": "Toyota C-HR"
     }
