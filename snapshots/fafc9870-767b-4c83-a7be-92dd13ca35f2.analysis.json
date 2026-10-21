@@ -1,47 +1,47 @@
 {
   "vehicleId": "fafc9870-767b-4c83-a7be-92dd13ca35f2",
-  "computedAt": "2026-10-20T19:57:50.708Z",
+  "computedAt": "2026-10-21T09:48:46.177Z",
   "cohort": {
-    "sameModelCount": 26,
-    "sameYearCount": 3,
-    "refCohort": "model",
-    "refSize": 26
+    "sameModelCount": 27,
+    "sameYearCount": 4,
+    "refCohort": "model+year",
+    "refSize": 4
   },
-  "pricePercentile": 62,
+  "pricePercentile": 75,
   "pricePerKm": 7.518796992481203,
-  "pricePerKmPercentile": 62,
-  "kmPercentile": 35,
-  "daysListed": 46,
+  "pricePerKmPercentile": 75,
+  "kmPercentile": 0,
+  "daysListed": 47,
   "marginPct": null,
   "marginTier": null,
   "auctionHeat": "cold",
   "dealTag": "fair",
   "bullets": [
     {
-      "tone": "mid",
-      "pipKey": "bullet.pip.mid",
+      "tone": "hot",
+      "pipKey": "bullet.pip.high",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 38,
-        "n": 26,
-        "kind": "detail.cohort.refSize.kind.model"
+        "pct": 25,
+        "n": 4,
+        "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
-      "tone": "mid",
-      "pipKey": "bullet.pip.value",
+      "tone": "hot",
+      "pipKey": "bullet.pip.pricey",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 38,
+        "pct": 25,
         "ppkm": 8
       }
     },
     {
-      "tone": "mid",
-      "pipKey": "bullet.pip.km",
+      "tone": "good",
+      "pipKey": "bullet.pip.lowKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 65
+        "pct": 100
       }
     },
     {
@@ -53,23 +53,23 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 46
+        "n": 47
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 46
+        "n": 47
       }
     }
   ],
   "summary": {
     "verdictKey": "summary.verdict.fair",
     "cohortLineKey": "summary.cohortLine.yes",
-    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 26,
+      "refSize": 4,
       "year": "2020",
       "title": "Chery ARRIZO 5"
     }

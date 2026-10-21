@@ -1,38 +1,38 @@
 {
   "vehicleId": "d8ae2594-a7f9-42be-9d04-be7e2dff6ebf",
-  "computedAt": "2026-10-20T19:57:49.720Z",
+  "computedAt": "2026-10-21T09:48:45.538Z",
   "cohort": {
-    "sameModelCount": 26,
-    "sameYearCount": 3,
-    "refCohort": "model",
-    "refSize": 26
+    "sameModelCount": 27,
+    "sameYearCount": 4,
+    "refCohort": "model+year",
+    "refSize": 4
   },
-  "pricePercentile": 27,
+  "pricePercentile": 25,
   "pricePerKm": 5.25532969757065,
-  "pricePerKmPercentile": 46,
+  "pricePerKmPercentile": 25,
   "kmPercentile": 50,
   "daysListed": 106,
   "marginPct": 19.622641509433965,
   "marginTier": "mid",
   "auctionHeat": "cold",
-  "dealTag": "fair",
+  "dealTag": "good",
   "bullets": [
     {
       "tone": "good",
       "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 73,
-        "n": 26,
-        "kind": "detail.cohort.refSize.kind.model"
+        "pct": 75,
+        "n": 4,
+        "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
-      "tone": "mid",
+      "tone": "good",
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 54,
+        "pct": 75,
         "ppkm": 5
       }
     },
@@ -70,14 +70,14 @@
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.fair",
+    "verdictKey": "summary.verdict.good",
     "cohortLineKey": "summary.cohortLine.yes",
-    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 26,
+      "refSize": 4,
       "year": "2020",
       "title": "Chery ARRIZO 5"
     }
