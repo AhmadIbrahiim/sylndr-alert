@@ -1,29 +1,29 @@
 {
   "vehicleId": "fe73f3cc-339f-49f1-9750-67cb9a4d521f",
-  "computedAt": "2026-10-22T09:49:35.929Z",
+  "computedAt": "2026-10-22T14:51:22.669Z",
   "cohort": {
-    "sameModelCount": 29,
-    "sameYearCount": 7,
+    "sameModelCount": 30,
+    "sameYearCount": 8,
     "refCohort": "model+year",
-    "refSize": 7
+    "refSize": 8
   },
-  "pricePercentile": 29,
+  "pricePercentile": 25,
   "pricePerKm": 14.427570093457945,
-  "pricePerKmPercentile": 57,
-  "kmPercentile": 43,
+  "pricePerKmPercentile": 50,
+  "kmPercentile": 38,
   "daysListed": 260,
   "marginPct": 34.41295546558704,
   "marginTier": "high",
   "auctionHeat": "hot",
-  "dealTag": "fair",
+  "dealTag": "good",
   "bullets": [
     {
       "tone": "good",
       "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 71,
-        "n": 7,
+        "pct": 75,
+        "n": 8,
         "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 43,
+        "pct": 50,
         "ppkm": 14
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 57
+        "pct": 62
       }
     },
     {
@@ -70,14 +70,14 @@
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.fair",
+    "verdictKey": "summary.verdict.good",
     "cohortLineKey": "summary.cohortLine.yes",
     "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": "summary.suffix.marginHigh",
     "args": {
-      "refSize": 7,
+      "refSize": 8,
       "year": "2021",
       "title": "Subaru XV"
     }

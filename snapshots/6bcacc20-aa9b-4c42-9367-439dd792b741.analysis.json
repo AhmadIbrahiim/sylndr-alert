@@ -1,29 +1,29 @@
 {
   "vehicleId": "6bcacc20-aa9b-4c42-9367-439dd792b741",
-  "computedAt": "2026-10-22T09:49:33.939Z",
+  "computedAt": "2026-10-22T14:51:20.714Z",
   "cohort": {
-    "sameModelCount": 12,
+    "sameModelCount": 13,
     "sameYearCount": 1,
     "refCohort": "model",
-    "refSize": 12
+    "refSize": 13
   },
-  "pricePercentile": 33,
+  "pricePercentile": 38,
   "pricePerKm": 9.703779366700715,
-  "pricePerKmPercentile": 50,
-  "kmPercentile": 25,
-  "daysListed": 140,
+  "pricePerKmPercentile": 54,
+  "kmPercentile": 23,
+  "daysListed": 141,
   "marginPct": 22.63157894736842,
   "marginTier": "mid",
   "auctionHeat": "cold",
-  "dealTag": "good",
+  "dealTag": "fair",
   "bullets": [
     {
-      "tone": "good",
-      "pipKey": "bullet.pip.deal",
+      "tone": "mid",
+      "pipKey": "bullet.pip.mid",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 67,
-        "n": 12,
+        "pct": 62,
+        "n": 13,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 50,
+        "pct": 46,
         "ppkm": 10
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.lowKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 75
+        "pct": 77
       }
     },
     {
@@ -61,23 +61,23 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 140
+        "n": 141
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 140
+        "n": 141
       }
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.good",
+    "verdictKey": "summary.verdict.fair",
     "cohortLineKey": "summary.cohortLine.yes",
     "cohortKindKey": "detail.cohort.refSize.kind.model",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 12,
+      "refSize": 13,
       "year": "2018",
       "title": "Mini Cooper"
     }

@@ -1,17 +1,17 @@
 {
   "vehicleId": "d8884da5-eac0-4c53-bbd0-25d050ebed96",
-  "computedAt": "2026-10-22T09:49:33.057Z",
+  "computedAt": "2026-10-22T14:51:19.834Z",
   "cohort": {
-    "sameModelCount": 80,
-    "sameYearCount": 10,
+    "sameModelCount": 81,
+    "sameYearCount": 11,
     "refCohort": "model+year",
-    "refSize": 10
+    "refSize": 11
   },
   "pricePercentile": 0,
   "pricePerKm": 3.244432224360737,
-  "pricePerKmPercentile": 30,
-  "kmPercentile": 50,
-  "daysListed": 166,
+  "pricePerKmPercentile": 36,
+  "kmPercentile": 45,
+  "daysListed": 167,
   "marginPct": 27.45762711864407,
   "marginTier": "mid",
   "auctionHeat": "hot",
@@ -23,16 +23,16 @@
       "textKey": "bullet.priceCheaper",
       "textArgs": {
         "pct": 100,
-        "n": 10,
+        "n": 11,
         "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
-      "tone": "good",
+      "tone": "mid",
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 70,
+        "pct": 64,
         "ppkm": 3
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 50
+        "pct": 55
       }
     },
     {
@@ -61,11 +61,11 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 166
+        "n": 167
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 166
+        "n": 167
       }
     }
   ],
@@ -77,7 +77,7 @@
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": null,
     "args": {
-      "refSize": 10,
+      "refSize": 11,
       "year": "2017",
       "title": "Nissan Qashqai"
     }
