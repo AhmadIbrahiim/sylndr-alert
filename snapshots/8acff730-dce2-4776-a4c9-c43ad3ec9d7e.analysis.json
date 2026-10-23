@@ -1,16 +1,16 @@
 {
   "vehicleId": "8acff730-dce2-4776-a4c9-c43ad3ec9d7e",
-  "computedAt": "2026-10-23T18:37:55.763Z",
+  "computedAt": "2026-10-23T19:54:22.510Z",
   "cohort": {
-    "sameModelCount": 125,
-    "sameYearCount": 4,
+    "sameModelCount": 126,
+    "sameYearCount": 5,
     "refCohort": "model+year",
-    "refSize": 4
+    "refSize": 5
   },
   "pricePercentile": 0,
   "pricePerKm": 3.414075910738127,
-  "pricePerKmPercentile": 25,
-  "kmPercentile": 25,
+  "pricePerKmPercentile": 20,
+  "kmPercentile": 40,
   "daysListed": 43,
   "marginPct": null,
   "marginTier": null,
@@ -23,7 +23,7 @@
       "textKey": "bullet.priceCheaper",
       "textArgs": {
         "pct": 100,
-        "n": 4,
+        "n": 5,
         "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
@@ -32,16 +32,16 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 75,
+        "pct": 80,
         "ppkm": 3
       }
     },
     {
-      "tone": "good",
-      "pipKey": "bullet.pip.lowKm",
+      "tone": "mid",
+      "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 75
+        "pct": 60
       }
     },
     {
@@ -69,7 +69,7 @@
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 4,
+      "refSize": 5,
       "year": "2010",
       "title": "Mercedes-Benz C180"
     }
