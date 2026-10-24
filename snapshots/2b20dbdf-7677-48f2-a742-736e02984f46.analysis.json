@@ -1,29 +1,29 @@
 {
   "vehicleId": "2b20dbdf-7677-48f2-a742-736e02984f46",
-  "computedAt": "2026-10-24T09:17:00.121Z",
+  "computedAt": "2026-10-24T13:28:09.039Z",
   "cohort": {
-    "sameModelCount": 100,
-    "sameYearCount": 18,
+    "sameModelCount": 101,
+    "sameYearCount": 19,
     "refCohort": "model+year",
-    "refSize": 18
+    "refSize": 19
   },
-  "pricePercentile": 50,
+  "pricePercentile": 47,
   "pricePerKm": 7.745617611088463,
-  "pricePerKmPercentile": 22,
-  "kmPercentile": 78,
+  "pricePerKmPercentile": 21,
+  "kmPercentile": 79,
   "daysListed": 72,
   "marginPct": null,
   "marginTier": null,
   "auctionHeat": "cold",
-  "dealTag": "fair",
+  "dealTag": "good",
   "bullets": [
     {
       "tone": "mid",
       "pipKey": "bullet.pip.mid",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 50,
-        "n": 18,
+        "pct": 53,
+        "n": 19,
         "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 78,
+        "pct": 79,
         "ppkm": 8
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.highKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 22
+        "pct": 21
       }
     },
     {
@@ -62,14 +62,14 @@
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.fair",
+    "verdictKey": "summary.verdict.good",
     "cohortLineKey": "summary.cohortLine.yes",
     "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 18,
+      "refSize": 19,
       "year": "2022",
       "title": "Renault Megane"
     }
