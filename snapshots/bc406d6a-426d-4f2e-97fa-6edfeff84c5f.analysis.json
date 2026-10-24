@@ -1,22 +1,49 @@
 {
   "vehicleId": "bc406d6a-426d-4f2e-97fa-6edfeff84c5f",
-  "computedAt": "2026-10-24T16:50:02.149Z",
+  "computedAt": "2026-10-24T18:43:37.924Z",
   "cohort": {
-    "sameModelCount": 2,
+    "sameModelCount": 3,
     "sameYearCount": 1,
     "refCohort": "model",
-    "refSize": 2
+    "refSize": 3
   },
-  "pricePercentile": null,
+  "pricePercentile": 0,
   "pricePerKm": 25.28735632183908,
-  "pricePerKmPercentile": null,
-  "kmPercentile": null,
+  "pricePerKmPercentile": 0,
+  "kmPercentile": 67,
   "daysListed": 88,
   "marginPct": null,
   "marginTier": null,
   "auctionHeat": "cold",
-  "dealTag": "fair",
+  "dealTag": "good",
   "bullets": [
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.deal",
+      "textKey": "bullet.priceCheaper",
+      "textArgs": {
+        "pct": 100,
+        "n": 3,
+        "kind": "detail.cohort.refSize.kind.model"
+      }
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.value",
+      "textKey": "bullet.ppkmBetter",
+      "textArgs": {
+        "pct": 100,
+        "ppkm": 25
+      }
+    },
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.km",
+      "textKey": "bullet.kmLower",
+      "textArgs": {
+        "pct": 33
+      }
+    },
     {
       "tone": "neutral",
       "pipKey": "bullet.pip.cold",
@@ -35,14 +62,14 @@
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.fair",
+    "verdictKey": "summary.verdict.good",
     "cohortLineKey": "summary.cohortLine.yes",
     "cohortKindKey": "detail.cohort.refSize.kind.model",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 2,
+      "refSize": 3,
       "year": "2025",
       "title": "GAC Emzoom"
     }

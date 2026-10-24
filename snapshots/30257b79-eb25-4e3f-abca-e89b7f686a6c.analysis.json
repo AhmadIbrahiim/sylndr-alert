@@ -1,16 +1,16 @@
 {
   "vehicleId": "30257b79-eb25-4e3f-abca-e89b7f686a6c",
-  "computedAt": "2026-10-24T16:50:04.023Z",
+  "computedAt": "2026-10-24T18:43:41.335Z",
   "cohort": {
-    "sameModelCount": 16,
-    "sameYearCount": 3,
-    "refCohort": "model",
-    "refSize": 16
+    "sameModelCount": 17,
+    "sameYearCount": 4,
+    "refCohort": "model+year",
+    "refSize": 4
   },
-  "pricePercentile": 0,
+  "pricePercentile": 25,
   "pricePerKm": 3.9990305380513815,
-  "pricePerKmPercentile": 0,
-  "kmPercentile": 94,
+  "pricePerKmPercentile": 25,
+  "kmPercentile": 50,
   "daysListed": 124,
   "marginPct": 15.515151515151516,
   "marginTier": "mid",
@@ -22,9 +22,9 @@
       "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 100,
-        "n": 16,
-        "kind": "detail.cohort.refSize.kind.model"
+        "pct": 75,
+        "n": 4,
+        "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
@@ -32,16 +32,16 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 100,
+        "pct": 75,
         "ppkm": 4
       }
     },
     {
-      "tone": "hot",
-      "pipKey": "bullet.pip.highKm",
+      "tone": "mid",
+      "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 6
+        "pct": 50
       }
     },
     {
@@ -72,12 +72,12 @@
   "summary": {
     "verdictKey": "summary.verdict.good",
     "cohortLineKey": "summary.cohortLine.yes",
-    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 16,
+      "refSize": 4,
       "year": "2013",
       "title": "Mercedes-Benz A200"
     }

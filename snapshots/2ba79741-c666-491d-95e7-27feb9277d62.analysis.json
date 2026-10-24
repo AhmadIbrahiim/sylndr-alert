@@ -1,47 +1,47 @@
 {
   "vehicleId": "2ba79741-c666-491d-95e7-27feb9277d62",
-  "computedAt": "2026-10-24T16:50:02.479Z",
+  "computedAt": "2026-10-24T18:43:38.505Z",
   "cohort": {
-    "sameModelCount": 16,
-    "sameYearCount": 3,
-    "refCohort": "model",
-    "refSize": 16
+    "sameModelCount": 17,
+    "sameYearCount": 4,
+    "refCohort": "model+year",
+    "refSize": 4
   },
-  "pricePercentile": 6,
+  "pricePercentile": 50,
   "pricePerKm": 9.139009139009138,
-  "pricePerKmPercentile": 13,
-  "kmPercentile": 38,
+  "pricePerKmPercentile": 50,
+  "kmPercentile": 0,
   "daysListed": 58,
   "marginPct": null,
   "marginTier": null,
   "auctionHeat": "cold",
-  "dealTag": "good",
+  "dealTag": "fair",
   "bullets": [
     {
-      "tone": "good",
-      "pipKey": "bullet.pip.deal",
+      "tone": "mid",
+      "pipKey": "bullet.pip.mid",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 94,
-        "n": 16,
-        "kind": "detail.cohort.refSize.kind.model"
-      }
-    },
-    {
-      "tone": "good",
-      "pipKey": "bullet.pip.value",
-      "textKey": "bullet.ppkmBetter",
-      "textArgs": {
-        "pct": 87,
-        "ppkm": 9
+        "pct": 50,
+        "n": 4,
+        "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
       "tone": "mid",
-      "pipKey": "bullet.pip.km",
+      "pipKey": "bullet.pip.value",
+      "textKey": "bullet.ppkmBetter",
+      "textArgs": {
+        "pct": 50,
+        "ppkm": 9
+      }
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.lowKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 62
+        "pct": 100
       }
     },
     {
@@ -62,14 +62,14 @@
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.good",
+    "verdictKey": "summary.verdict.fair",
     "cohortLineKey": "summary.cohortLine.yes",
-    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 16,
+      "refSize": 4,
       "year": "2013",
       "title": "Mercedes-Benz A200"
     }

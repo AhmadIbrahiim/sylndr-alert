@@ -1,38 +1,38 @@
 {
   "vehicleId": "b60d9c72-2370-4d96-add7-ba93ed232ed7",
-  "computedAt": "2026-10-24T16:50:04.561Z",
+  "computedAt": "2026-10-24T18:43:42.260Z",
   "cohort": {
-    "sameModelCount": 45,
-    "sameYearCount": 3,
-    "refCohort": "model",
-    "refSize": 45
+    "sameModelCount": 46,
+    "sameYearCount": 4,
+    "refCohort": "model+year",
+    "refSize": 4
   },
-  "pricePercentile": 56,
+  "pricePercentile": 0,
   "pricePerKm": 7.273785277858598,
-  "pricePerKmPercentile": 53,
-  "kmPercentile": 49,
+  "pricePerKmPercentile": 25,
+  "kmPercentile": 50,
   "daysListed": 139,
   "marginPct": 16.48,
   "marginTier": "mid",
   "auctionHeat": "cold",
-  "dealTag": "fair",
+  "dealTag": "good",
   "bullets": [
     {
-      "tone": "mid",
-      "pipKey": "bullet.pip.mid",
+      "tone": "good",
+      "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 44,
-        "n": 45,
-        "kind": "detail.cohort.refSize.kind.model"
+        "pct": 100,
+        "n": 4,
+        "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
-      "tone": "mid",
+      "tone": "good",
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 47,
+        "pct": 75,
         "ppkm": 7
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 51
+        "pct": 50
       }
     },
     {
@@ -70,14 +70,14 @@
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.fair",
+    "verdictKey": "summary.verdict.good",
     "cohortLineKey": "summary.cohortLine.yes",
-    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 45,
+      "refSize": 4,
       "year": "2019",
       "title": "Volkswagen Passat"
     }

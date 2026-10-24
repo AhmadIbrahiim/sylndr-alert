@@ -1,29 +1,29 @@
 {
   "vehicleId": "e2037c57-92b7-41c7-8bcb-77d42ba7fe4e",
-  "computedAt": "2026-10-24T16:50:02.544Z",
+  "computedAt": "2026-10-24T18:43:38.605Z",
   "cohort": {
-    "sameModelCount": 36,
-    "sameYearCount": 7,
+    "sameModelCount": 37,
+    "sameYearCount": 8,
     "refCohort": "model+year",
-    "refSize": 7
+    "refSize": 8
   },
-  "pricePercentile": 86,
+  "pricePercentile": 88,
   "pricePerKm": 15.08838383838384,
-  "pricePerKmPercentile": 71,
-  "kmPercentile": 14,
+  "pricePerKmPercentile": 75,
+  "kmPercentile": 13,
   "daysListed": 59,
   "marginPct": null,
   "marginTier": null,
   "auctionHeat": "cold",
-  "dealTag": "fair",
+  "dealTag": "high",
   "bullets": [
     {
       "tone": "hot",
       "pipKey": "bullet.pip.high",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 14,
-        "n": 7,
+        "pct": 12,
+        "n": 8,
         "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.pricey",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 29,
+        "pct": 25,
         "ppkm": 15
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.lowKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 86
+        "pct": 87
       }
     },
     {
@@ -62,14 +62,14 @@
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.fair",
+    "verdictKey": "summary.verdict.high",
     "cohortLineKey": "summary.cohortLine.yes",
     "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 7,
+      "refSize": 8,
       "year": "2018",
       "title": "Opel Insignia"
     }
