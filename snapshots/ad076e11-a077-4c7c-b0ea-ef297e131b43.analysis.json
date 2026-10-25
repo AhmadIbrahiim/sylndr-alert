@@ -1,17 +1,17 @@
 {
   "vehicleId": "ad076e11-a077-4c7c-b0ea-ef297e131b43",
-  "computedAt": "2026-10-25T13:56:11.972Z",
+  "computedAt": "2026-10-25T17:23:41.491Z",
   "cohort": {
-    "sameModelCount": 13,
+    "sameModelCount": 14,
     "sameYearCount": 1,
     "refCohort": "model",
-    "refSize": 13
+    "refSize": 14
   },
-  "pricePercentile": 23,
+  "pricePercentile": 21,
   "pricePerKm": 3.136776718931552,
-  "pricePerKmPercentile": 23,
-  "kmPercentile": 69,
-  "daysListed": 27,
+  "pricePerKmPercentile": 21,
+  "kmPercentile": 71,
+  "daysListed": 28,
   "marginPct": null,
   "marginTier": null,
   "auctionHeat": "cold",
@@ -22,8 +22,8 @@
       "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 77,
-        "n": 13,
+        "pct": 79,
+        "n": 14,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -32,16 +32,16 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 77,
+        "pct": 79,
         "ppkm": 3
       }
     },
     {
-      "tone": "mid",
-      "pipKey": "bullet.pip.km",
+      "tone": "hot",
+      "pipKey": "bullet.pip.highKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 31
+        "pct": 29
       }
     },
     {
@@ -53,11 +53,11 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 27
+        "n": 28
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 27
+        "n": 28
       }
     }
   ],
@@ -69,7 +69,7 @@
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 13,
+      "refSize": 14,
       "year": "2013",
       "title": "Honda Civic"
     }
