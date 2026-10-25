@@ -1,29 +1,29 @@
 {
   "vehicleId": "cf3962a2-bea7-483f-b3ba-dd2a5c229d8b",
-  "computedAt": "2026-10-25T09:33:39.698Z",
+  "computedAt": "2026-10-25T13:56:11.146Z",
   "cohort": {
-    "sameModelCount": 7,
-    "sameYearCount": 7,
+    "sameModelCount": 8,
+    "sameYearCount": 8,
     "refCohort": "model+year",
-    "refSize": 7
+    "refSize": 8
   },
-  "pricePercentile": 86,
+  "pricePercentile": 88,
   "pricePerKm": 27.051871306631647,
-  "pricePerKmPercentile": 71,
-  "kmPercentile": 14,
-  "daysListed": 45,
+  "pricePerKmPercentile": 75,
+  "kmPercentile": 13,
+  "daysListed": 46,
   "marginPct": null,
   "marginTier": null,
   "auctionHeat": "cold",
-  "dealTag": "fair",
+  "dealTag": "high",
   "bullets": [
     {
       "tone": "hot",
       "pipKey": "bullet.pip.high",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 14,
-        "n": 7,
+        "pct": 12,
+        "n": 8,
         "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.pricey",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 29,
+        "pct": 25,
         "ppkm": 27
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.lowKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 86
+        "pct": 87
       }
     },
     {
@@ -53,23 +53,23 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 45
+        "n": 46
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 45
+        "n": 46
       }
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.fair",
+    "verdictKey": "summary.verdict.high",
     "cohortLineKey": "summary.cohortLine.yes",
     "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 7,
+      "refSize": 8,
       "year": "2021",
       "title": "Mercedes-Benz A180"
     }
