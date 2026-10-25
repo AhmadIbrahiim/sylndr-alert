@@ -1,16 +1,16 @@
 {
   "vehicleId": "30b5b884-7046-479b-8aef-21231f3d9b1e",
-  "computedAt": "2026-10-24T18:43:34.372Z",
+  "computedAt": "2026-10-25T09:33:35.906Z",
   "cohort": {
-    "sameModelCount": 30,
-    "sameYearCount": 3,
-    "refCohort": "model",
-    "refSize": 30
+    "sameModelCount": 31,
+    "sameYearCount": 4,
+    "refCohort": "model+year",
+    "refSize": 4
   },
-  "pricePercentile": 3,
+  "pricePercentile": 0,
   "pricePerKm": 2.2092267706302793,
   "pricePerKmPercentile": 0,
-  "kmPercentile": 97,
+  "kmPercentile": 75,
   "daysListed": 139,
   "marginPct": 30.88235294117647,
   "marginTier": "high",
@@ -22,9 +22,9 @@
       "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 97,
-        "n": 30,
-        "kind": "detail.cohort.refSize.kind.model"
+        "pct": 100,
+        "n": 4,
+        "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.highKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 3
+        "pct": 25
       }
     },
     {
@@ -72,12 +72,12 @@
   "summary": {
     "verdictKey": "summary.verdict.good",
     "cohortLineKey": "summary.cohortLine.yes",
-    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": null,
     "marginSuffixKey": "summary.suffix.marginHigh",
     "args": {
-      "refSize": 30,
+      "refSize": 4,
       "year": "2016",
       "title": "Subaru XV"
     }
