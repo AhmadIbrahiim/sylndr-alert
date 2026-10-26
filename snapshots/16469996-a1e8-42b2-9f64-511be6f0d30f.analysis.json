@@ -1,16 +1,16 @@
 {
   "vehicleId": "16469996-a1e8-42b2-9f64-511be6f0d30f",
-  "computedAt": "2026-10-26T17:01:21.600Z",
+  "computedAt": "2026-10-26T20:59:08.417Z",
   "cohort": {
-    "sameModelCount": 10,
-    "sameYearCount": 5,
+    "sameModelCount": 11,
+    "sameYearCount": 6,
     "refCohort": "model+year",
-    "refSize": 5
+    "refSize": 6
   },
   "pricePercentile": 0,
   "pricePerKm": 7.953216374269005,
-  "pricePerKmPercentile": 0,
-  "kmPercentile": 80,
+  "pricePerKmPercentile": 17,
+  "kmPercentile": 67,
   "daysListed": 51,
   "marginPct": null,
   "marginTier": null,
@@ -23,7 +23,7 @@
       "textKey": "bullet.priceCheaper",
       "textArgs": {
         "pct": 100,
-        "n": 5,
+        "n": 6,
         "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
@@ -32,16 +32,16 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 100,
+        "pct": 83,
         "ppkm": 8
       }
     },
     {
-      "tone": "hot",
-      "pipKey": "bullet.pip.highKm",
+      "tone": "mid",
+      "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 20
+        "pct": 33
       }
     },
     {
@@ -69,7 +69,7 @@
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 5,
+      "refSize": 6,
       "year": "2022",
       "title": "Kia Grand Cerato"
     }

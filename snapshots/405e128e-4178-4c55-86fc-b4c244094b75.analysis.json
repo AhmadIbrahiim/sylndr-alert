@@ -1,29 +1,29 @@
 {
   "vehicleId": "405e128e-4178-4c55-86fc-b4c244094b75",
-  "computedAt": "2026-10-26T17:01:14.791Z",
+  "computedAt": "2026-10-26T20:59:01.335Z",
   "cohort": {
-    "sameModelCount": 30,
+    "sameModelCount": 31,
     "sameYearCount": 2,
     "refCohort": "model",
-    "refSize": 30
+    "refSize": 31
   },
-  "pricePercentile": 80,
+  "pricePercentile": 81,
   "pricePerKm": 104.71204188481676,
-  "pricePerKmPercentile": 80,
+  "pricePerKmPercentile": 81,
   "kmPercentile": 23,
   "daysListed": 64,
   "marginPct": null,
   "marginTier": null,
   "auctionHeat": "cold",
-  "dealTag": "fair",
+  "dealTag": "high",
   "bullets": [
     {
       "tone": "hot",
       "pipKey": "bullet.pip.high",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 20,
-        "n": 30,
+        "pct": 19,
+        "n": 31,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.pricey",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 20,
+        "pct": 19,
         "ppkm": 105
       }
     },
@@ -62,14 +62,14 @@
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.fair",
+    "verdictKey": "summary.verdict.high",
     "cohortLineKey": "summary.cohortLine.yes",
     "cohortKindKey": "detail.cohort.refSize.kind.model",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 30,
+      "refSize": 31,
       "year": "2024",
       "title": "Mercedes-Benz E200"
     }
