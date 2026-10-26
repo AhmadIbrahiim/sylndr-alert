@@ -1,17 +1,17 @@
 {
   "vehicleId": "48a44a08-195b-4859-bb04-84fff4cea0df",
-  "computedAt": "2026-10-26T10:45:00.615Z",
+  "computedAt": "2026-10-26T17:01:22.023Z",
   "cohort": {
-    "sameModelCount": 33,
-    "sameYearCount": 12,
+    "sameModelCount": 34,
+    "sameYearCount": 13,
     "refCohort": "model+year",
-    "refSize": 12
+    "refSize": 13
   },
   "pricePercentile": 8,
   "pricePerKm": 14.277262693156732,
-  "pricePerKmPercentile": 73,
-  "kmPercentile": 9,
-  "daysListed": 253,
+  "pricePerKmPercentile": 67,
+  "kmPercentile": 17,
+  "daysListed": 254,
   "marginPct": 12.693013379512236,
   "marginTier": "low",
   "auctionHeat": "hot",
@@ -23,16 +23,16 @@
       "textKey": "bullet.priceCheaper",
       "textArgs": {
         "pct": 92,
-        "n": 12,
+        "n": 13,
         "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
-      "tone": "hot",
-      "pipKey": "bullet.pip.pricey",
+      "tone": "mid",
+      "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 27,
+        "pct": 33,
         "ppkm": 14
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.lowKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 91
+        "pct": 83
       }
     },
     {
@@ -61,11 +61,11 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 253
+        "n": 254
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 253
+        "n": 254
       }
     }
   ],
@@ -77,7 +77,7 @@
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": "summary.suffix.marginLow",
     "args": {
-      "refSize": 12,
+      "refSize": 13,
       "year": "2022",
       "title": "MG HS"
     }

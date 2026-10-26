@@ -1,17 +1,17 @@
 {
   "vehicleId": "4769b3d1-3a66-4451-9b19-18bb9669cc9c",
-  "computedAt": "2026-10-26T10:44:50.651Z",
+  "computedAt": "2026-10-26T17:01:13.268Z",
   "cohort": {
-    "sameModelCount": 14,
+    "sameModelCount": 15,
     "sameYearCount": 2,
     "refCohort": "model",
-    "refSize": 14
+    "refSize": 15
   },
-  "pricePercentile": 14,
+  "pricePercentile": 13,
   "pricePerKm": 1.679213203001556,
   "pricePerKmPercentile": 0,
   "kmPercentile": 93,
-  "daysListed": 13,
+  "daysListed": 14,
   "marginPct": null,
   "marginTier": null,
   "auctionHeat": "cold",
@@ -22,8 +22,8 @@
       "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 86,
-        "n": 14,
+        "pct": 87,
+        "n": 15,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -48,6 +48,17 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.cold",
       "textKey": "bullet.auctionCold"
+    },
+    {
+      "tone": "neutral",
+      "pipKey": "bullet.pip.daysListed",
+      "pipArgs": {
+        "n": 14
+      },
+      "textKey": "bullet.listedOld",
+      "textArgs": {
+        "n": 14
+      }
     }
   ],
   "summary": {
@@ -58,7 +69,7 @@
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 14,
+      "refSize": 15,
       "year": "2009",
       "title": "Skoda Octavia"
     }
