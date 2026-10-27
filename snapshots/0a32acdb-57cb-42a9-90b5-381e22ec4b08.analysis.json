@@ -1,29 +1,29 @@
 {
   "vehicleId": "0a32acdb-57cb-42a9-90b5-381e22ec4b08",
-  "computedAt": "2026-10-26T20:59:05.680Z",
+  "computedAt": "2026-10-27T10:11:41.335Z",
   "cohort": {
-    "sameModelCount": 8,
-    "sameYearCount": 4,
+    "sameModelCount": 9,
+    "sameYearCount": 5,
     "refCohort": "model+year",
-    "refSize": 4
+    "refSize": 5
   },
-  "pricePercentile": 75,
+  "pricePercentile": 60,
   "pricePerKm": 29.295039164490863,
   "pricePerKmPercentile": 0,
-  "kmPercentile": 75,
-  "daysListed": 160,
+  "kmPercentile": 80,
+  "daysListed": 161,
   "marginPct": 31.63992869875223,
   "marginTier": "high",
   "auctionHeat": "cold",
-  "dealTag": "fair",
+  "dealTag": "good",
   "bullets": [
     {
-      "tone": "hot",
-      "pipKey": "bullet.pip.high",
+      "tone": "mid",
+      "pipKey": "bullet.pip.mid",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 25,
-        "n": 4,
+        "pct": 40,
+        "n": 5,
         "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.highKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 25
+        "pct": 20
       }
     },
     {
@@ -61,23 +61,23 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 160
+        "n": 161
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 160
+        "n": 161
       }
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.fair",
+    "verdictKey": "summary.verdict.good",
     "cohortLineKey": "summary.cohortLine.yes",
     "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": null,
     "marginSuffixKey": "summary.suffix.marginHigh",
     "args": {
-      "refSize": 4,
+      "refSize": 5,
       "year": "2025",
       "title": "Geely Coolray"
     }
