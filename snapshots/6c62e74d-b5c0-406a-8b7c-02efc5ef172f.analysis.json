@@ -1,16 +1,16 @@
 {
   "vehicleId": "6c62e74d-b5c0-406a-8b7c-02efc5ef172f",
-  "computedAt": "2026-10-27T10:11:38.268Z",
+  "computedAt": "2026-10-27T15:53:13.305Z",
   "cohort": {
-    "sameModelCount": 4,
-    "sameYearCount": 4,
+    "sameModelCount": 5,
+    "sameYearCount": 5,
     "refCohort": "model+year",
-    "refSize": 4
+    "refSize": 5
   },
   "pricePercentile": 0,
   "pricePerKm": 37.17057577221871,
   "pricePerKmPercentile": 0,
-  "kmPercentile": 75,
+  "kmPercentile": 60,
   "daysListed": 15,
   "marginPct": null,
   "marginTier": null,
@@ -23,7 +23,7 @@
       "textKey": "bullet.priceCheaper",
       "textArgs": {
         "pct": 100,
-        "n": 4,
+        "n": 5,
         "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
@@ -37,11 +37,11 @@
       }
     },
     {
-      "tone": "hot",
-      "pipKey": "bullet.pip.highKm",
+      "tone": "mid",
+      "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 25
+        "pct": 40
       }
     },
     {
@@ -69,7 +69,7 @@
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 4,
+      "refSize": 5,
       "year": "2024",
       "title": "Alfa Romeo Tonale"
     }
