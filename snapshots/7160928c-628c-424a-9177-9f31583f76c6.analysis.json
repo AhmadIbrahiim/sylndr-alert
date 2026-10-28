@@ -1,13 +1,13 @@
 {
   "vehicleId": "7160928c-628c-424a-9177-9f31583f76c6",
-  "computedAt": "2026-10-27T20:34:48.937Z",
+  "computedAt": "2026-10-28T10:57:42.752Z",
   "cohort": {
-    "sameModelCount": 50,
+    "sameModelCount": 51,
     "sameYearCount": 3,
     "refCohort": "model",
-    "refSize": 50
+    "refSize": 51
   },
-  "pricePercentile": 72,
+  "pricePercentile": 73,
   "pricePerKm": 14.04498127340824,
   "pricePerKmPercentile": 88,
   "kmPercentile": 8,
@@ -15,15 +15,15 @@
   "marginPct": 13.466897421606877,
   "marginTier": "low",
   "auctionHeat": "hot",
-  "dealTag": "fair",
+  "dealTag": "high",
   "bullets": [
     {
       "tone": "hot",
       "pipKey": "bullet.pip.high",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 28,
-        "n": 50,
+        "pct": 27,
+        "n": 51,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -70,14 +70,14 @@
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.fair",
+    "verdictKey": "summary.verdict.high",
     "cohortLineKey": "summary.cohortLine.yes",
     "cohortKindKey": "detail.cohort.refSize.kind.model",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": "summary.suffix.marginLow",
     "args": {
-      "refSize": 50,
+      "refSize": 51,
       "year": "2023",
       "title": "Renault Duster"
     }
