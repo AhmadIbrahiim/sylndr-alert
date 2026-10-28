@@ -1,29 +1,29 @@
 {
   "vehicleId": "b9428414-8d95-421b-bae1-47ae009df08c",
-  "computedAt": "2026-10-28T10:57:42.527Z",
+  "computedAt": "2026-10-28T17:01:15.249Z",
   "cohort": {
-    "sameModelCount": 107,
-    "sameYearCount": 15,
+    "sameModelCount": 108,
+    "sameYearCount": 16,
     "refCohort": "model+year",
-    "refSize": 15
+    "refSize": 16
   },
-  "pricePercentile": 27,
+  "pricePercentile": 25,
   "pricePerKm": 2.9273392577104027,
-  "pricePerKmPercentile": 47,
-  "kmPercentile": 40,
-  "daysListed": 159,
+  "pricePerKmPercentile": 44,
+  "kmPercentile": 44,
+  "daysListed": 160,
   "marginPct": 23.75,
   "marginTier": "mid",
   "auctionHeat": "cold",
-  "dealTag": "fair",
+  "dealTag": "good",
   "bullets": [
     {
       "tone": "good",
       "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 73,
-        "n": 15,
+        "pct": 75,
+        "n": 16,
         "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 53,
+        "pct": 56,
         "ppkm": 3
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 60
+        "pct": 56
       }
     },
     {
@@ -61,23 +61,23 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 159
+        "n": 160
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 159
+        "n": 160
       }
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.fair",
+    "verdictKey": "summary.verdict.good",
     "cohortLineKey": "summary.cohortLine.yes",
     "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 15,
+      "refSize": 16,
       "year": "2016",
       "title": "Opel Astra"
     }

@@ -1,47 +1,47 @@
 {
   "vehicleId": "14e118d4-db8d-45b4-ab71-d337608600a9",
-  "computedAt": "2026-10-28T10:57:41.940Z",
+  "computedAt": "2026-10-28T17:01:13.113Z",
   "cohort": {
-    "sameModelCount": 51,
-    "sameYearCount": 3,
-    "refCohort": "model",
-    "refSize": 51
+    "sameModelCount": 52,
+    "sameYearCount": 4,
+    "refCohort": "model+year",
+    "refSize": 4
   },
-  "pricePercentile": 82,
+  "pricePercentile": 25,
   "pricePerKm": 9.24503488372093,
-  "pricePerKmPercentile": 78,
-  "kmPercentile": 22,
-  "daysListed": 205,
+  "pricePerKmPercentile": 0,
+  "kmPercentile": 75,
+  "daysListed": 206,
   "marginPct": 7.555658411240226,
   "marginTier": "low",
   "auctionHeat": "hot",
-  "dealTag": "fair",
+  "dealTag": "good",
   "bullets": [
     {
-      "tone": "hot",
-      "pipKey": "bullet.pip.high",
+      "tone": "good",
+      "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 18,
-        "n": 51,
-        "kind": "detail.cohort.refSize.kind.model"
-      }
-    },
-    {
-      "tone": "hot",
-      "pipKey": "bullet.pip.pricey",
-      "textKey": "bullet.ppkmBetter",
-      "textArgs": {
-        "pct": 22,
-        "ppkm": 9
+        "pct": 75,
+        "n": 4,
+        "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
       "tone": "good",
-      "pipKey": "bullet.pip.lowKm",
+      "pipKey": "bullet.pip.value",
+      "textKey": "bullet.ppkmBetter",
+      "textArgs": {
+        "pct": 100,
+        "ppkm": 9
+      }
+    },
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.highKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 78
+        "pct": 25
       }
     },
     {
@@ -61,23 +61,23 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 205
+        "n": 206
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 205
+        "n": 206
       }
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.fair",
+    "verdictKey": "summary.verdict.good",
     "cohortLineKey": "summary.cohortLine.yes",
-    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": "summary.suffix.marginLow",
     "args": {
-      "refSize": 51,
+      "refSize": 4,
       "year": "2023",
       "title": "Renault Duster"
     }
