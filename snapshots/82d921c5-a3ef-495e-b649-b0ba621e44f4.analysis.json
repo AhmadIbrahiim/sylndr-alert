@@ -1,17 +1,17 @@
 {
   "vehicleId": "82d921c5-a3ef-495e-b649-b0ba621e44f4",
-  "computedAt": "2026-10-29T11:17:14.551Z",
+  "computedAt": "2026-10-29T17:30:02.145Z",
   "cohort": {
-    "sameModelCount": 8,
-    "sameYearCount": 3,
-    "refCohort": "model",
-    "refSize": 8
+    "sameModelCount": 9,
+    "sameYearCount": 4,
+    "refCohort": "model+year",
+    "refSize": 4
   },
-  "pricePercentile": 38,
+  "pricePercentile": 50,
   "pricePerKm": 136.20126949862515,
-  "pricePerKmPercentile": 63,
+  "pricePerKmPercentile": 50,
   "kmPercentile": 25,
-  "daysListed": 15,
+  "daysListed": 16,
   "marginPct": null,
   "marginTier": null,
   "auctionHeat": "cold",
@@ -22,9 +22,9 @@
       "pipKey": "bullet.pip.mid",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 62,
-        "n": 8,
-        "kind": "detail.cohort.refSize.kind.model"
+        "pct": 50,
+        "n": 4,
+        "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 37,
+        "pct": 50,
         "ppkm": 136
       }
     },
@@ -53,23 +53,23 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 15
+        "n": 16
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 15
+        "n": 16
       }
     }
   ],
   "summary": {
     "verdictKey": "summary.verdict.fair",
     "cohortLineKey": "summary.cohortLine.yes",
-    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": null,
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 8,
+      "refSize": 4,
       "year": "2023",
       "title": "Mercedes-Benz Gle 450"
     }

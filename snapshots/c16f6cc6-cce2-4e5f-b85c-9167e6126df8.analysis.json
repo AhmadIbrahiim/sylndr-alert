@@ -1,17 +1,17 @@
 {
   "vehicleId": "c16f6cc6-cce2-4e5f-b85c-9167e6126df8",
-  "computedAt": "2026-10-29T11:17:12.161Z",
+  "computedAt": "2026-10-29T17:29:56.916Z",
   "cohort": {
-    "sameModelCount": 8,
-    "sameYearCount": 3,
-    "refCohort": "model",
-    "refSize": 8
+    "sameModelCount": 9,
+    "sameYearCount": 4,
+    "refCohort": "model+year",
+    "refSize": 4
   },
   "pricePercentile": 25,
   "pricePerKm": 130.10204081632654,
-  "pricePerKmPercentile": 50,
-  "kmPercentile": 38,
-  "daysListed": 168,
+  "pricePerKmPercentile": 25,
+  "kmPercentile": 50,
+  "daysListed": 169,
   "marginPct": 10.215686274509803,
   "marginTier": "low",
   "auctionHeat": "hot",
@@ -23,16 +23,16 @@
       "textKey": "bullet.priceCheaper",
       "textArgs": {
         "pct": 75,
-        "n": 8,
-        "kind": "detail.cohort.refSize.kind.model"
+        "n": 4,
+        "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
-      "tone": "mid",
+      "tone": "good",
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 50,
+        "pct": 75,
         "ppkm": 130
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 62
+        "pct": 50
       }
     },
     {
@@ -61,23 +61,23 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 168
+        "n": 169
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 168
+        "n": 169
       }
     }
   ],
   "summary": {
     "verdictKey": "summary.verdict.good",
     "cohortLineKey": "summary.cohortLine.yes",
-    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": "summary.suffix.marginLow",
     "args": {
-      "refSize": 8,
+      "refSize": 4,
       "year": "2023",
       "title": "Mercedes-Benz Gle 450"
     }

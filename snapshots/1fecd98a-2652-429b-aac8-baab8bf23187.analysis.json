@@ -1,17 +1,17 @@
 {
   "vehicleId": "1fecd98a-2652-429b-aac8-baab8bf23187",
-  "computedAt": "2026-10-29T11:17:12.994Z",
+  "computedAt": "2026-10-29T17:29:58.794Z",
   "cohort": {
-    "sameModelCount": 82,
-    "sameYearCount": 3,
-    "refCohort": "model",
-    "refSize": 82
+    "sameModelCount": 83,
+    "sameYearCount": 4,
+    "refCohort": "model+year",
+    "refSize": 4
   },
-  "pricePercentile": 2,
+  "pricePercentile": 0,
   "pricePerKm": 2.9731689630166787,
-  "pricePerKmPercentile": 7,
-  "kmPercentile": 88,
-  "daysListed": 92,
+  "pricePerKmPercentile": 25,
+  "kmPercentile": 50,
+  "daysListed": 93,
   "marginPct": null,
   "marginTier": null,
   "auctionHeat": "cold",
@@ -22,9 +22,9 @@
       "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 98,
-        "n": 82,
-        "kind": "detail.cohort.refSize.kind.model"
+        "pct": 100,
+        "n": 4,
+        "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
@@ -32,16 +32,16 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 93,
+        "pct": 75,
         "ppkm": 3
       }
     },
     {
-      "tone": "hot",
-      "pipKey": "bullet.pip.highKm",
+      "tone": "mid",
+      "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 12
+        "pct": 50
       }
     },
     {
@@ -53,23 +53,23 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 92
+        "n": 93
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 92
+        "n": 93
       }
     }
   ],
   "summary": {
     "verdictKey": "summary.verdict.good",
     "cohortLineKey": "summary.cohortLine.yes",
-    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 82,
+      "refSize": 4,
       "year": "2013",
       "title": "Nissan Qashqai"
     }

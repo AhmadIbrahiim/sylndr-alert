@@ -1,17 +1,17 @@
 {
   "vehicleId": "8aa27069-4de7-4ecf-b90c-eb1a0941cb89",
-  "computedAt": "2026-10-29T11:17:13.405Z",
+  "computedAt": "2026-10-29T17:29:59.715Z",
   "cohort": {
-    "sameModelCount": 46,
+    "sameModelCount": 47,
     "sameYearCount": 3,
     "refCohort": "model",
-    "refSize": 46
+    "refSize": 47
   },
-  "pricePercentile": 7,
+  "pricePercentile": 6,
   "pricePerKm": 8.605577689243027,
-  "pricePerKmPercentile": 15,
-  "kmPercentile": 72,
-  "daysListed": 30,
+  "pricePerKmPercentile": 17,
+  "kmPercentile": 70,
+  "daysListed": 31,
   "marginPct": null,
   "marginTier": null,
   "auctionHeat": "cold",
@@ -22,8 +22,8 @@
       "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 93,
-        "n": 46,
+        "pct": 94,
+        "n": 47,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -32,16 +32,16 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 85,
+        "pct": 83,
         "ppkm": 9
       }
     },
     {
-      "tone": "hot",
-      "pipKey": "bullet.pip.highKm",
+      "tone": "mid",
+      "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 28
+        "pct": 30
       }
     },
     {
@@ -53,11 +53,11 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 30
+        "n": 31
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 30
+        "n": 31
       }
     }
   ],
@@ -69,7 +69,7 @@
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 46,
+      "refSize": 47,
       "year": "2017",
       "title": "Hyundai Tucson"
     }

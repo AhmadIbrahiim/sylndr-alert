@@ -1,16 +1,16 @@
 {
   "vehicleId": "1bce7407-3072-4159-90d8-f088e219bbff",
-  "computedAt": "2026-10-29T11:17:16.430Z",
+  "computedAt": "2026-10-29T17:30:06.171Z",
   "cohort": {
-    "sameModelCount": 17,
-    "sameYearCount": 11,
+    "sameModelCount": 18,
+    "sameYearCount": 12,
     "refCohort": "model+year",
-    "refSize": 11
+    "refSize": 12
   },
-  "pricePercentile": 27,
+  "pricePercentile": 33,
   "pricePerKm": 5.432453938911673,
-  "pricePerKmPercentile": 18,
-  "kmPercentile": 73,
+  "pricePerKmPercentile": 25,
+  "kmPercentile": 67,
   "daysListed": 31,
   "marginPct": null,
   "marginTier": null,
@@ -22,8 +22,8 @@
       "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 73,
-        "n": 11,
+        "pct": 67,
+        "n": 12,
         "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
@@ -32,16 +32,16 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 82,
+        "pct": 75,
         "ppkm": 5
       }
     },
     {
-      "tone": "hot",
-      "pipKey": "bullet.pip.highKm",
+      "tone": "mid",
+      "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 27
+        "pct": 33
       }
     },
     {
@@ -69,7 +69,7 @@
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 11,
+      "refSize": 12,
       "year": "2021",
       "title": "MG MG 5"
     }

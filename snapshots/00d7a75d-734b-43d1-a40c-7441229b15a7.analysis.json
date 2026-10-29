@@ -1,29 +1,29 @@
 {
   "vehicleId": "00d7a75d-734b-43d1-a40c-7441229b15a7",
-  "computedAt": "2026-10-29T11:17:12.435Z",
+  "computedAt": "2026-10-29T17:29:57.540Z",
   "cohort": {
-    "sameModelCount": 39,
+    "sameModelCount": 40,
     "sameYearCount": 2,
     "refCohort": "model",
-    "refSize": 39
+    "refSize": 40
   },
-  "pricePercentile": 82,
+  "pricePercentile": 83,
   "pricePerKm": 7.472270869819031,
-  "pricePerKmPercentile": 77,
-  "kmPercentile": 21,
-  "daysListed": 193,
+  "pricePerKmPercentile": 78,
+  "kmPercentile": 23,
+  "daysListed": 194,
   "marginPct": 13.90625,
   "marginTier": "low",
   "auctionHeat": "hot",
-  "dealTag": "fair",
+  "dealTag": "high",
   "bullets": [
     {
       "tone": "hot",
       "pipKey": "bullet.pip.high",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 18,
-        "n": 39,
+        "pct": 17,
+        "n": 40,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.pricey",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 23,
+        "pct": 22,
         "ppkm": 7
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.lowKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 79
+        "pct": 77
       }
     },
     {
@@ -61,23 +61,23 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 193
+        "n": 194
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 193
+        "n": 194
       }
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.fair",
+    "verdictKey": "summary.verdict.high",
     "cohortLineKey": "summary.cohortLine.yes",
     "cohortKindKey": "detail.cohort.refSize.kind.model",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": "summary.suffix.marginLow",
     "args": {
-      "refSize": 39,
+      "refSize": 40,
       "year": "2022",
       "title": "Peugeot 301"
     }
