@@ -1,29 +1,29 @@
 {
   "vehicleId": "e09347bc-c16d-4b34-89e0-933f80670323",
-  "computedAt": "2026-10-30T20:38:57.641Z",
+  "computedAt": "2026-10-31T10:43:17.183Z",
   "cohort": {
-    "sameModelCount": 37,
-    "sameYearCount": 12,
+    "sameModelCount": 38,
+    "sameYearCount": 13,
     "refCohort": "model+year",
-    "refSize": 12
+    "refSize": 13
   },
-  "pricePercentile": 83,
+  "pricePercentile": 85,
   "pricePerKm": 15.05793709686626,
-  "pricePerKmPercentile": 75,
-  "kmPercentile": 17,
-  "daysListed": 36,
+  "pricePerKmPercentile": 77,
+  "kmPercentile": 15,
+  "daysListed": 37,
   "marginPct": null,
   "marginTier": null,
   "auctionHeat": "cold",
-  "dealTag": "fair",
+  "dealTag": "high",
   "bullets": [
     {
       "tone": "hot",
       "pipKey": "bullet.pip.high",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 17,
-        "n": 12,
+        "pct": 15,
+        "n": 13,
         "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.pricey",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 25,
+        "pct": 23,
         "ppkm": 15
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.lowKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 83
+        "pct": 85
       }
     },
     {
@@ -53,23 +53,23 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 36
+        "n": 37
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 36
+        "n": 37
       }
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.fair",
+    "verdictKey": "summary.verdict.high",
     "cohortLineKey": "summary.cohortLine.yes",
     "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 12,
+      "refSize": 13,
       "year": "2021",
       "title": "Citroen C5 Aircross"
     }

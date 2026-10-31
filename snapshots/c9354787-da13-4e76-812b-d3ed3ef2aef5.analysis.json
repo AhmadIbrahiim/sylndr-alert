@@ -1,29 +1,29 @@
 {
   "vehicleId": "c9354787-da13-4e76-812b-d3ed3ef2aef5",
-  "computedAt": "2026-10-30T20:38:57.578Z",
+  "computedAt": "2026-10-31T10:43:17.119Z",
   "cohort": {
-    "sameModelCount": 10,
-    "sameYearCount": 6,
+    "sameModelCount": 11,
+    "sameYearCount": 7,
     "refCohort": "model+year",
-    "refSize": 6
+    "refSize": 7
   },
-  "pricePercentile": 33,
+  "pricePercentile": 29,
   "pricePerKm": 12.112869924294563,
-  "pricePerKmPercentile": 67,
+  "pricePerKmPercentile": 57,
   "kmPercentile": 0,
-  "daysListed": 135,
+  "daysListed": 136,
   "marginPct": 18.977272727272727,
   "marginTier": "mid",
   "auctionHeat": "warm",
-  "dealTag": "fair",
+  "dealTag": "good",
   "bullets": [
     {
       "tone": "good",
       "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 67,
-        "n": 6,
+        "pct": 71,
+        "n": 7,
         "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 33,
+        "pct": 43,
         "ppkm": 12
       }
     },
@@ -61,23 +61,23 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 135
+        "n": 136
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 135
+        "n": 136
       }
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.fair",
+    "verdictKey": "summary.verdict.good",
     "cohortLineKey": "summary.cohortLine.yes",
     "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 6,
+      "refSize": 7,
       "year": "2021",
       "title": "Fiat 500X"
     }

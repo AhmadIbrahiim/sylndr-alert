@@ -1,16 +1,16 @@
 {
   "vehicleId": "b5233d7a-00ec-46dc-8ce7-b124c730160d",
-  "computedAt": "2026-10-30T20:38:59.838Z",
+  "computedAt": "2026-10-31T10:43:19.407Z",
   "cohort": {
-    "sameModelCount": 10,
+    "sameModelCount": 11,
     "sameYearCount": 1,
     "refCohort": "model",
-    "refSize": 10
+    "refSize": 11
   },
-  "pricePercentile": 50,
+  "pricePercentile": 45,
   "pricePerKm": 8.625592417061611,
-  "pricePerKmPercentile": 60,
-  "kmPercentile": 30,
+  "pricePerKmPercentile": 55,
+  "kmPercentile": 36,
   "daysListed": 85,
   "marginPct": null,
   "marginTier": null,
@@ -22,8 +22,8 @@
       "pipKey": "bullet.pip.mid",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 50,
-        "n": 10,
+        "pct": 55,
+        "n": 11,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -32,16 +32,16 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 40,
+        "pct": 45,
         "ppkm": 9
       }
     },
     {
-      "tone": "good",
-      "pipKey": "bullet.pip.lowKm",
+      "tone": "mid",
+      "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 70
+        "pct": 64
       }
     },
     {
@@ -69,7 +69,7 @@
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 10,
+      "refSize": 11,
       "year": "2022",
       "title": "Fiat 500X"
     }
