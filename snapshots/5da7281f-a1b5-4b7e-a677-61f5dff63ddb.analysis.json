@@ -1,29 +1,29 @@
 {
   "vehicleId": "5da7281f-a1b5-4b7e-a677-61f5dff63ddb",
-  "computedAt": "2026-10-31T19:51:55.028Z",
+  "computedAt": "2026-11-01T11:39:19.469Z",
   "cohort": {
-    "sameModelCount": 48,
+    "sameModelCount": 50,
     "sameYearCount": 1,
     "refCohort": "model",
-    "refSize": 48
+    "refSize": 50
   },
-  "pricePercentile": 15,
+  "pricePercentile": 14,
   "pricePerKm": 25.65266742338252,
-  "pricePerKmPercentile": 75,
-  "kmPercentile": 15,
+  "pricePerKmPercentile": 74,
+  "kmPercentile": 14,
   "daysListed": 142,
   "marginPct": 45.84070796460177,
   "marginTier": "high",
   "auctionHeat": "cold",
-  "dealTag": "fair",
+  "dealTag": "good",
   "bullets": [
     {
       "tone": "good",
       "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 85,
-        "n": 48,
+        "pct": 86,
+        "n": 50,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.pricey",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 25,
+        "pct": 26,
         "ppkm": 26
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.lowKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 85
+        "pct": 86
       }
     },
     {
@@ -70,14 +70,14 @@
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.fair",
+    "verdictKey": "summary.verdict.good",
     "cohortLineKey": "summary.cohortLine.yes",
     "cohortKindKey": "detail.cohort.refSize.kind.model",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": null,
     "marginSuffixKey": "summary.suffix.marginHigh",
     "args": {
-      "refSize": 48,
+      "refSize": 50,
       "year": "2012",
       "title": "BMW X1"
     }

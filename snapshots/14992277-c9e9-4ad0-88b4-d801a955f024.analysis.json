@@ -1,29 +1,29 @@
 {
   "vehicleId": "14992277-c9e9-4ad0-88b4-d801a955f024",
-  "computedAt": "2026-10-31T19:51:57.178Z",
+  "computedAt": "2026-11-01T11:39:22.544Z",
   "cohort": {
-    "sameModelCount": 7,
-    "sameYearCount": 1,
+    "sameModelCount": 8,
+    "sameYearCount": 2,
     "refCohort": "model",
-    "refSize": 7
+    "refSize": 8
   },
-  "pricePercentile": 71,
+  "pricePercentile": 75,
   "pricePerKm": 20.725806451612904,
-  "pricePerKmPercentile": 86,
+  "pricePerKmPercentile": 88,
   "kmPercentile": 0,
   "daysListed": 318,
   "marginPct": 6.536964980544748,
   "marginTier": "low",
   "auctionHeat": "warm",
-  "dealTag": "fair",
+  "dealTag": "high",
   "bullets": [
     {
       "tone": "hot",
       "pipKey": "bullet.pip.high",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 29,
-        "n": 7,
+        "pct": 25,
+        "n": 8,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.pricey",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 14,
+        "pct": 12,
         "ppkm": 21
       }
     },
@@ -70,14 +70,14 @@
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.fair",
+    "verdictKey": "summary.verdict.high",
     "cohortLineKey": "summary.cohortLine.yes",
     "cohortKindKey": "detail.cohort.refSize.kind.model",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": null,
     "marginSuffixKey": "summary.suffix.marginLow",
     "args": {
-      "refSize": 7,
+      "refSize": 8,
       "year": "2022",
       "title": "Seat ATECA"
     }

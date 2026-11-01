@@ -1,17 +1,17 @@
 {
   "vehicleId": "846440ef-1fce-4b3b-8607-7310b1b58c0e",
-  "computedAt": "2026-10-31T19:51:57.471Z",
+  "computedAt": "2026-11-01T11:39:22.950Z",
   "cohort": {
-    "sameModelCount": 26,
-    "sameYearCount": 3,
-    "refCohort": "model",
-    "refSize": 26
+    "sameModelCount": 27,
+    "sameYearCount": 4,
+    "refCohort": "model+year",
+    "refSize": 4
   },
-  "pricePercentile": 62,
+  "pricePercentile": 50,
   "pricePerKm": 11.198945981554678,
-  "pricePerKmPercentile": 50,
-  "kmPercentile": 46,
-  "daysListed": 192,
+  "pricePerKmPercentile": 75,
+  "kmPercentile": 0,
+  "daysListed": 193,
   "marginPct": 23.294117647058822,
   "marginTier": "mid",
   "auctionHeat": "hot",
@@ -22,26 +22,26 @@
       "pipKey": "bullet.pip.mid",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 38,
-        "n": 26,
-        "kind": "detail.cohort.refSize.kind.model"
+        "pct": 50,
+        "n": 4,
+        "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
-      "tone": "mid",
-      "pipKey": "bullet.pip.value",
+      "tone": "hot",
+      "pipKey": "bullet.pip.pricey",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 50,
+        "pct": 25,
         "ppkm": 11
       }
     },
     {
-      "tone": "mid",
-      "pipKey": "bullet.pip.km",
+      "tone": "good",
+      "pipKey": "bullet.pip.lowKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 54
+        "pct": 100
       }
     },
     {
@@ -61,23 +61,23 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 192
+        "n": 193
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 192
+        "n": 193
       }
     }
   ],
   "summary": {
     "verdictKey": "summary.verdict.fair",
     "cohortLineKey": "summary.cohortLine.yes",
-    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": null,
     "args": {
-      "refSize": 26,
+      "refSize": 4,
       "year": "2022",
       "title": "Chery Tiggo 7"
     }

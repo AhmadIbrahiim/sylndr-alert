@@ -1,29 +1,29 @@
 {
   "vehicleId": "7027d95f-ba80-4a22-a668-2243990286ac",
-  "computedAt": "2026-10-31T19:51:57.788Z",
+  "computedAt": "2026-11-01T11:39:23.388Z",
   "cohort": {
-    "sameModelCount": 5,
-    "sameYearCount": 5,
+    "sameModelCount": 6,
+    "sameYearCount": 6,
     "refCohort": "model+year",
-    "refSize": 5
+    "refSize": 6
   },
-  "pricePercentile": 40,
+  "pricePercentile": 50,
   "pricePerKm": 20.130932896890343,
-  "pricePerKmPercentile": 20,
-  "kmPercentile": 60,
+  "pricePerKmPercentile": 33,
+  "kmPercentile": 50,
   "daysListed": 86,
   "marginPct": null,
   "marginTier": null,
   "auctionHeat": "cold",
-  "dealTag": "good",
+  "dealTag": "fair",
   "bullets": [
     {
       "tone": "mid",
       "pipKey": "bullet.pip.mid",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 60,
-        "n": 5,
+        "pct": 50,
+        "n": 6,
         "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 80,
+        "pct": 67,
         "ppkm": 20
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 40
+        "pct": 50
       }
     },
     {
@@ -62,14 +62,14 @@
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.good",
+    "verdictKey": "summary.verdict.fair",
     "cohortLineKey": "summary.cohortLine.yes",
     "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 5,
+      "refSize": 6,
       "year": "2024",
       "title": "MG RX5 Plus"
     }

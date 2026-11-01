@@ -1,17 +1,17 @@
 {
   "vehicleId": "b593eb98-0e4d-47ca-afa4-cc667f2d1e7f",
-  "computedAt": "2026-10-31T19:51:59.070Z",
+  "computedAt": "2026-11-01T11:39:25.260Z",
   "cohort": {
-    "sameModelCount": 4,
+    "sameModelCount": 5,
     "sameYearCount": 3,
     "refCohort": "model",
-    "refSize": 4
+    "refSize": 5
   },
   "pricePercentile": 0,
   "pricePerKm": 1.5572105619498984,
-  "pricePerKmPercentile": 25,
-  "kmPercentile": 50,
-  "daysListed": 130,
+  "pricePerKmPercentile": 20,
+  "kmPercentile": 60,
+  "daysListed": 131,
   "marginPct": 13.91304347826087,
   "marginTier": "low",
   "auctionHeat": "cold",
@@ -23,7 +23,7 @@
       "textKey": "bullet.priceCheaper",
       "textArgs": {
         "pct": 100,
-        "n": 4,
+        "n": 5,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 75,
+        "pct": 80,
         "ppkm": 2
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 50
+        "pct": 40
       }
     },
     {
@@ -61,11 +61,11 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 130
+        "n": 131
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 130
+        "n": 131
       }
     }
   ],
@@ -77,7 +77,7 @@
     "heatSuffixKey": null,
     "marginSuffixKey": "summary.suffix.marginLow",
     "args": {
-      "refSize": 4,
+      "refSize": 5,
       "year": "2014",
       "title": "Geely Pandino"
     }

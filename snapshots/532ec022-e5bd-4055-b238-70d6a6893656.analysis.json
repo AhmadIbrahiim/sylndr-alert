@@ -1,29 +1,29 @@
 {
   "vehicleId": "532ec022-e5bd-4055-b238-70d6a6893656",
-  "computedAt": "2026-10-31T19:51:57.445Z",
+  "computedAt": "2026-11-01T11:39:22.912Z",
   "cohort": {
-    "sameModelCount": 7,
+    "sameModelCount": 8,
     "sameYearCount": 3,
     "refCohort": "model",
-    "refSize": 7
+    "refSize": 8
   },
-  "pricePercentile": 86,
+  "pricePercentile": 88,
   "pricePerKm": 8.425071587655106,
-  "pricePerKmPercentile": 71,
-  "kmPercentile": 14,
-  "daysListed": 136,
+  "pricePerKmPercentile": 75,
+  "kmPercentile": 13,
+  "daysListed": 137,
   "marginPct": 14.425981873111782,
   "marginTier": "low",
   "auctionHeat": "warm",
-  "dealTag": "fair",
+  "dealTag": "high",
   "bullets": [
     {
       "tone": "hot",
       "pipKey": "bullet.pip.high",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 14,
-        "n": 7,
+        "pct": 12,
+        "n": 8,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.pricey",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 29,
+        "pct": 25,
         "ppkm": 8
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.lowKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 86
+        "pct": 87
       }
     },
     {
@@ -61,23 +61,23 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 136
+        "n": 137
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 136
+        "n": 137
       }
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.fair",
+    "verdictKey": "summary.verdict.high",
     "cohortLineKey": "summary.cohortLine.yes",
     "cohortKindKey": "detail.cohort.refSize.kind.model",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": null,
     "marginSuffixKey": "summary.suffix.marginLow",
     "args": {
-      "refSize": 7,
+      "refSize": 8,
       "year": "2020",
       "title": "Seat ATECA"
     }
