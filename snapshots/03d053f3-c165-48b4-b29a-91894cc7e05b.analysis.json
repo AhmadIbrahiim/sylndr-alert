@@ -1,16 +1,16 @@
 {
   "vehicleId": "03d053f3-c165-48b4-b29a-91894cc7e05b",
-  "computedAt": "2026-11-01T17:15:18.906Z",
+  "computedAt": "2026-11-01T20:25:32.618Z",
   "cohort": {
-    "sameModelCount": 34,
-    "sameYearCount": 3,
-    "refCohort": "model",
-    "refSize": 34
+    "sameModelCount": 35,
+    "sameYearCount": 4,
+    "refCohort": "model+year",
+    "refSize": 4
   },
-  "pricePercentile": 44,
+  "pricePercentile": 50,
   "pricePerKm": 4.533333333333333,
-  "pricePerKmPercentile": 29,
-  "kmPercentile": 68,
+  "pricePerKmPercentile": 50,
+  "kmPercentile": 0,
   "daysListed": 192,
   "marginPct": 26.47058823529412,
   "marginTier": "mid",
@@ -22,26 +22,26 @@
       "pipKey": "bullet.pip.mid",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 56,
-        "n": 34,
-        "kind": "detail.cohort.refSize.kind.model"
-      }
-    },
-    {
-      "tone": "good",
-      "pipKey": "bullet.pip.value",
-      "textKey": "bullet.ppkmBetter",
-      "textArgs": {
-        "pct": 71,
-        "ppkm": 5
+        "pct": 50,
+        "n": 4,
+        "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
       "tone": "mid",
-      "pipKey": "bullet.pip.km",
+      "pipKey": "bullet.pip.value",
+      "textKey": "bullet.ppkmBetter",
+      "textArgs": {
+        "pct": 50,
+        "ppkm": 5
+      }
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.lowKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 32
+        "pct": 100
       }
     },
     {
@@ -72,12 +72,12 @@
   "summary": {
     "verdictKey": "summary.verdict.fair",
     "cohortLineKey": "summary.cohortLine.yes",
-    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": null,
     "args": {
-      "refSize": 34,
+      "refSize": 4,
       "year": "2018",
       "title": "Nissan Sentra"
     }
