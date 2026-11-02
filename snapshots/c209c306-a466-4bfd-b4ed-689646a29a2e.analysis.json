@@ -1,17 +1,17 @@
 {
   "vehicleId": "c209c306-a466-4bfd-b4ed-689646a29a2e",
-  "computedAt": "2026-11-02T13:02:46.195Z",
+  "computedAt": "2026-11-02T22:19:13.809Z",
   "cohort": {
-    "sameModelCount": 48,
-    "sameYearCount": 3,
-    "refCohort": "model",
-    "refSize": 48
+    "sameModelCount": 49,
+    "sameYearCount": 4,
+    "refCohort": "model+year",
+    "refSize": 4
   },
-  "pricePercentile": 4,
+  "pricePercentile": 0,
   "pricePerKm": 5.986185725249425,
-  "pricePerKmPercentile": 6,
-  "kmPercentile": 92,
-  "daysListed": 143,
+  "pricePerKmPercentile": 25,
+  "kmPercentile": 50,
+  "daysListed": 144,
   "marginPct": 11.965811965811966,
   "marginTier": "low",
   "auctionHeat": "warm",
@@ -22,9 +22,9 @@
       "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 96,
-        "n": 48,
-        "kind": "detail.cohort.refSize.kind.model"
+        "pct": 100,
+        "n": 4,
+        "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
@@ -32,16 +32,16 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 94,
+        "pct": 75,
         "ppkm": 6
       }
     },
     {
-      "tone": "hot",
-      "pipKey": "bullet.pip.highKm",
+      "tone": "mid",
+      "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 8
+        "pct": 50
       }
     },
     {
@@ -61,23 +61,23 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 143
+        "n": 144
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 143
+        "n": 144
       }
     }
   ],
   "summary": {
     "verdictKey": "summary.verdict.good",
     "cohortLineKey": "summary.cohortLine.yes",
-    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": null,
     "marginSuffixKey": "summary.suffix.marginLow",
     "args": {
-      "refSize": 48,
+      "refSize": 4,
       "year": "2018",
       "title": "Hyundai Tucson"
     }

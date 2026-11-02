@@ -1,16 +1,16 @@
 {
   "vehicleId": "74c13f4c-4759-4d9c-a090-9b5fbadab9f6",
-  "computedAt": "2026-11-02T13:02:47.218Z",
+  "computedAt": "2026-11-02T22:19:14.515Z",
   "cohort": {
-    "sameModelCount": 8,
-    "sameYearCount": 2,
-    "refCohort": "model",
-    "refSize": 8
+    "sameModelCount": 10,
+    "sameYearCount": 4,
+    "refCohort": "model+year",
+    "refSize": 4
   },
-  "pricePercentile": 63,
+  "pricePercentile": 75,
   "pricePerKm": 13.425362879661366,
-  "pricePerKmPercentile": 38,
-  "kmPercentile": 50,
+  "pricePerKmPercentile": 0,
+  "kmPercentile": 75,
   "daysListed": 18,
   "marginPct": null,
   "marginTier": null,
@@ -18,30 +18,30 @@
   "dealTag": "fair",
   "bullets": [
     {
-      "tone": "mid",
-      "pipKey": "bullet.pip.mid",
+      "tone": "hot",
+      "pipKey": "bullet.pip.high",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 37,
-        "n": 8,
-        "kind": "detail.cohort.refSize.kind.model"
+        "pct": 25,
+        "n": 4,
+        "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
-      "tone": "mid",
+      "tone": "good",
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 62,
+        "pct": 100,
         "ppkm": 13
       }
     },
     {
-      "tone": "mid",
-      "pipKey": "bullet.pip.km",
+      "tone": "hot",
+      "pipKey": "bullet.pip.highKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 50
+        "pct": 25
       }
     },
     {
@@ -64,12 +64,12 @@
   "summary": {
     "verdictKey": "summary.verdict.fair",
     "cohortLineKey": "summary.cohortLine.yes",
-    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": null,
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 8,
+      "refSize": 4,
       "year": "2022",
       "title": "Audi A3"
     }

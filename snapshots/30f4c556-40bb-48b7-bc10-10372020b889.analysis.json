@@ -1,16 +1,16 @@
 {
   "vehicleId": "30f4c556-40bb-48b7-bc10-10372020b889",
-  "computedAt": "2026-11-02T13:02:46.545Z",
+  "computedAt": "2026-11-02T22:19:14.057Z",
   "cohort": {
-    "sameModelCount": 5,
+    "sameModelCount": 6,
     "sameYearCount": 1,
     "refCohort": "model",
-    "refSize": 5
+    "refSize": 6
   },
   "pricePercentile": 0,
   "pricePerKm": 5.483870967741935,
-  "pricePerKmPercentile": 40,
-  "kmPercentile": 20,
+  "pricePerKmPercentile": 33,
+  "kmPercentile": 33,
   "daysListed": 178,
   "marginPct": 27.294117647058826,
   "marginTier": "mid",
@@ -23,16 +23,16 @@
       "textKey": "bullet.priceCheaper",
       "textArgs": {
         "pct": 100,
-        "n": 5,
+        "n": 6,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
     {
-      "tone": "mid",
+      "tone": "good",
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 60,
+        "pct": 67,
         "ppkm": 5
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.lowKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 80
+        "pct": 67
       }
     },
     {
@@ -77,7 +77,7 @@
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 5,
+      "refSize": 6,
       "year": "2015",
       "title": "Ford Fusion"
     }

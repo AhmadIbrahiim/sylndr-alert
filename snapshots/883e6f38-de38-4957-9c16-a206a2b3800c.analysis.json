@@ -1,17 +1,17 @@
 {
   "vehicleId": "883e6f38-de38-4957-9c16-a206a2b3800c",
-  "computedAt": "2026-11-02T13:02:44.392Z",
+  "computedAt": "2026-11-02T22:19:12.595Z",
   "cohort": {
-    "sameModelCount": 44,
-    "sameYearCount": 7,
+    "sameModelCount": 45,
+    "sameYearCount": 8,
     "refCohort": "model+year",
-    "refSize": 7
+    "refSize": 8
   },
-  "pricePercentile": 14,
+  "pricePercentile": 25,
   "pricePerKm": 71.64528070810255,
-  "pricePerKmPercentile": 14,
-  "kmPercentile": 71,
-  "daysListed": 46,
+  "pricePerKmPercentile": 25,
+  "kmPercentile": 63,
+  "daysListed": 47,
   "marginPct": null,
   "marginTier": null,
   "auctionHeat": "cold",
@@ -22,8 +22,8 @@
       "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 86,
-        "n": 7,
+        "pct": 75,
+        "n": 8,
         "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
@@ -32,16 +32,16 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 86,
+        "pct": 75,
         "ppkm": 72
       }
     },
     {
-      "tone": "hot",
-      "pipKey": "bullet.pip.highKm",
+      "tone": "mid",
+      "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 29
+        "pct": 37
       }
     },
     {
@@ -53,11 +53,11 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 46
+        "n": 47
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 46
+        "n": 47
       }
     }
   ],
@@ -69,7 +69,7 @@
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 7,
+      "refSize": 8,
       "year": "2025",
       "title": "Skoda KODIAQ"
     }
