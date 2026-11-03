@@ -1,29 +1,29 @@
 {
   "vehicleId": "00d7a75d-734b-43d1-a40c-7441229b15a7",
-  "computedAt": "2026-11-03T12:36:08.173Z",
+  "computedAt": "2026-11-03T19:49:58.293Z",
   "cohort": {
-    "sameModelCount": 40,
-    "sameYearCount": 2,
+    "sameModelCount": 42,
+    "sameYearCount": 3,
     "refCohort": "model",
-    "refSize": 40
+    "refSize": 42
   },
-  "pricePercentile": 83,
+  "pricePercentile": 81,
   "pricePerKm": 7.472270869819031,
-  "pricePerKmPercentile": 78,
-  "kmPercentile": 23,
-  "daysListed": 198,
+  "pricePerKmPercentile": 79,
+  "kmPercentile": 21,
+  "daysListed": 199,
   "marginPct": 13.90625,
   "marginTier": "low",
   "auctionHeat": "hot",
-  "dealTag": "high",
+  "dealTag": "fair",
   "bullets": [
     {
       "tone": "hot",
       "pipKey": "bullet.pip.high",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 17,
-        "n": 40,
+        "pct": 19,
+        "n": 42,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.pricey",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 22,
+        "pct": 21,
         "ppkm": 7
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.lowKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 77
+        "pct": 79
       }
     },
     {
@@ -61,23 +61,23 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 198
+        "n": 199
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 198
+        "n": 199
       }
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.high",
+    "verdictKey": "summary.verdict.fair",
     "cohortLineKey": "summary.cohortLine.yes",
     "cohortKindKey": "detail.cohort.refSize.kind.model",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": "summary.suffix.marginLow",
     "args": {
-      "refSize": 40,
+      "refSize": 42,
       "year": "2022",
       "title": "Peugeot 301"
     }
