@@ -1,16 +1,16 @@
 {
   "vehicleId": "a0d3c3a8-2f7c-4284-98f8-d70965acfb6e",
-  "computedAt": "2026-11-03T19:50:05.760Z",
+  "computedAt": "2026-11-03T21:40:44.960Z",
   "cohort": {
-    "sameModelCount": 15,
+    "sameModelCount": 16,
     "sameYearCount": 3,
     "refCohort": "model",
-    "refSize": 15
+    "refSize": 16
   },
-  "pricePercentile": 87,
+  "pricePercentile": 81,
   "pricePerKm": 12.695684443880191,
-  "pricePerKmPercentile": 73,
-  "kmPercentile": 20,
+  "pricePerKmPercentile": 69,
+  "kmPercentile": 25,
   "daysListed": 11,
   "marginPct": null,
   "marginTier": null,
@@ -22,17 +22,17 @@
       "pipKey": "bullet.pip.high",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 13,
-        "n": 15,
+        "pct": 19,
+        "n": 16,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
     {
-      "tone": "hot",
-      "pipKey": "bullet.pip.pricey",
+      "tone": "mid",
+      "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 27,
+        "pct": 31,
         "ppkm": 13
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.lowKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 80
+        "pct": 75
       }
     },
     {
@@ -58,7 +58,7 @@
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 15,
+      "refSize": 16,
       "year": "2017",
       "title": "Honda Civic"
     }

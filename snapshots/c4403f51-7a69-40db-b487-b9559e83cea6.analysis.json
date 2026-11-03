@@ -1,22 +1,49 @@
 {
   "vehicleId": "c4403f51-7a69-40db-b487-b9559e83cea6",
-  "computedAt": "2026-11-03T19:49:58.424Z",
+  "computedAt": "2026-11-03T21:40:38.468Z",
   "cohort": {
-    "sameModelCount": 2,
-    "sameYearCount": 2,
+    "sameModelCount": 3,
+    "sameYearCount": 3,
     "refCohort": "model",
-    "refSize": 2
+    "refSize": 3
   },
-  "pricePercentile": null,
+  "pricePercentile": 33,
   "pricePerKm": 42.99262381454162,
-  "pricePerKmPercentile": null,
-  "kmPercentile": null,
+  "pricePerKmPercentile": 0,
+  "kmPercentile": 67,
   "daysListed": 190,
   "marginPct": 54.65686274509803,
   "marginTier": "high",
   "auctionHeat": "warm",
-  "dealTag": "fair",
+  "dealTag": "good",
   "bullets": [
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.deal",
+      "textKey": "bullet.priceCheaper",
+      "textArgs": {
+        "pct": 67,
+        "n": 3,
+        "kind": "detail.cohort.refSize.kind.model"
+      }
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.value",
+      "textKey": "bullet.ppkmBetter",
+      "textArgs": {
+        "pct": 100,
+        "ppkm": 43
+      }
+    },
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.km",
+      "textKey": "bullet.kmLower",
+      "textArgs": {
+        "pct": 33
+      }
+    },
     {
       "tone": "hot",
       "pipKey": "bullet.pip.marginPct",
@@ -43,14 +70,14 @@
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.fair",
+    "verdictKey": "summary.verdict.good",
     "cohortLineKey": "summary.cohortLine.yes",
     "cohortKindKey": "detail.cohort.refSize.kind.model",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": null,
     "marginSuffixKey": "summary.suffix.marginHigh",
     "args": {
-      "refSize": 2,
+      "refSize": 3,
       "year": "2023",
       "title": "Tesla Model 3"
     }

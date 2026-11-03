@@ -1,16 +1,16 @@
 {
   "vehicleId": "491e7426-8278-49ef-acaa-9efbd8096181",
-  "computedAt": "2026-11-03T19:50:03.324Z",
+  "computedAt": "2026-11-03T21:40:42.722Z",
   "cohort": {
-    "sameModelCount": 24,
-    "sameYearCount": 3,
-    "refCohort": "model",
-    "refSize": 24
+    "sameModelCount": 25,
+    "sameYearCount": 4,
+    "refCohort": "model+year",
+    "refSize": 4
   },
-  "pricePercentile": 54,
+  "pricePercentile": 75,
   "pricePerKm": 15.417558886509635,
-  "pricePerKmPercentile": 58,
-  "kmPercentile": 25,
+  "pricePerKmPercentile": 75,
+  "kmPercentile": 0,
   "daysListed": 173,
   "marginPct": 13,
   "marginTier": "low",
@@ -18,21 +18,21 @@
   "dealTag": "fair",
   "bullets": [
     {
-      "tone": "mid",
-      "pipKey": "bullet.pip.mid",
+      "tone": "hot",
+      "pipKey": "bullet.pip.high",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 46,
-        "n": 24,
-        "kind": "detail.cohort.refSize.kind.model"
+        "pct": 25,
+        "n": 4,
+        "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
-      "tone": "mid",
-      "pipKey": "bullet.pip.value",
+      "tone": "hot",
+      "pipKey": "bullet.pip.pricey",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 42,
+        "pct": 25,
         "ppkm": 15
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.lowKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 75
+        "pct": 100
       }
     },
     {
@@ -72,12 +72,12 @@
   "summary": {
     "verdictKey": "summary.verdict.fair",
     "cohortLineKey": "summary.cohortLine.yes",
-    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": "summary.suffix.marginLow",
     "args": {
-      "refSize": 24,
+      "refSize": 4,
       "year": "2016",
       "title": "Jeep Grand Cherokee"
     }
