@@ -1,17 +1,17 @@
 {
   "vehicleId": "485a96f8-66ac-4a36-b710-f7450d63b266",
-  "computedAt": "2026-11-04T12:45:38.952Z",
+  "computedAt": "2026-11-04T20:04:45.163Z",
   "cohort": {
-    "sameModelCount": 19,
-    "sameYearCount": 10,
+    "sameModelCount": 20,
+    "sameYearCount": 11,
     "refCohort": "model+year",
-    "refSize": 10
+    "refSize": 11
   },
-  "pricePercentile": 80,
+  "pricePercentile": 82,
   "pricePerKm": 17.774498624991615,
-  "pricePerKmPercentile": 80,
-  "kmPercentile": 10,
-  "daysListed": 45,
+  "pricePerKmPercentile": 73,
+  "kmPercentile": 18,
+  "daysListed": 46,
   "marginPct": null,
   "marginTier": null,
   "auctionHeat": "cold",
@@ -22,8 +22,8 @@
       "pipKey": "bullet.pip.high",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 20,
-        "n": 10,
+        "pct": 18,
+        "n": 11,
         "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.pricey",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 20,
+        "pct": 27,
         "ppkm": 18
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.lowKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 90
+        "pct": 82
       }
     },
     {
@@ -53,11 +53,11 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 45
+        "n": 46
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 45
+        "n": 46
       }
     }
   ],
@@ -69,7 +69,7 @@
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 10,
+      "refSize": 11,
       "year": "2022",
       "title": "Suzuki Swift"
     }
