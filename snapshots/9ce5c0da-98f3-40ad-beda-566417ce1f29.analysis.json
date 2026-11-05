@@ -1,17 +1,17 @@
 {
   "vehicleId": "9ce5c0da-98f3-40ad-beda-566417ce1f29",
-  "computedAt": "2026-11-04T21:48:17.253Z",
+  "computedAt": "2026-11-05T12:55:51.886Z",
   "cohort": {
-    "sameModelCount": 19,
+    "sameModelCount": 20,
     "sameYearCount": 1,
     "refCohort": "model",
-    "refSize": 19
+    "refSize": 20
   },
-  "pricePercentile": 68,
+  "pricePercentile": 70,
   "pricePerKm": 6.224489795918367,
-  "pricePerKmPercentile": 63,
-  "kmPercentile": 32,
-  "daysListed": 73,
+  "pricePerKmPercentile": 60,
+  "kmPercentile": 35,
+  "daysListed": 74,
   "marginPct": null,
   "marginTier": null,
   "auctionHeat": "cold",
@@ -22,8 +22,8 @@
       "pipKey": "bullet.pip.mid",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 32,
-        "n": 19,
+        "pct": 30,
+        "n": 20,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -32,16 +32,16 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 37,
+        "pct": 40,
         "ppkm": 6
       }
     },
     {
-      "tone": "good",
-      "pipKey": "bullet.pip.lowKm",
+      "tone": "mid",
+      "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 68
+        "pct": 65
       }
     },
     {
@@ -53,11 +53,11 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 73
+        "n": 74
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 73
+        "n": 74
       }
     }
   ],
@@ -69,7 +69,7 @@
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 19,
+      "refSize": 20,
       "year": "2013",
       "title": "Kia Picanto"
     }
