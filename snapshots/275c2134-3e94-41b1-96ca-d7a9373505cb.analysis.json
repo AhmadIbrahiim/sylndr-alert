@@ -1,38 +1,38 @@
 {
   "vehicleId": "275c2134-3e94-41b1-96ca-d7a9373505cb",
-  "computedAt": "2026-11-06T12:42:09.207Z",
+  "computedAt": "2026-11-06T19:43:04.279Z",
   "cohort": {
-    "sameModelCount": 32,
-    "sameYearCount": 4,
+    "sameModelCount": 33,
+    "sameYearCount": 5,
     "refCohort": "model+year",
-    "refSize": 4
+    "refSize": 5
   },
-  "pricePercentile": 25,
+  "pricePercentile": 20,
   "pricePerKm": 90.64327485380117,
-  "pricePerKmPercentile": 75,
-  "kmPercentile": 0,
-  "daysListed": 109,
+  "pricePerKmPercentile": 60,
+  "kmPercentile": 20,
+  "daysListed": 110,
   "marginPct": 12.67741935483871,
   "marginTier": "low",
   "auctionHeat": "cold",
-  "dealTag": "fair",
+  "dealTag": "good",
   "bullets": [
     {
       "tone": "good",
       "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 75,
-        "n": 4,
+        "pct": 80,
+        "n": 5,
         "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
-      "tone": "hot",
-      "pipKey": "bullet.pip.pricey",
+      "tone": "mid",
+      "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 25,
+        "pct": 40,
         "ppkm": 91
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.lowKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 100
+        "pct": 80
       }
     },
     {
@@ -61,23 +61,23 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 109
+        "n": 110
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 109
+        "n": 110
       }
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.fair",
+    "verdictKey": "summary.verdict.good",
     "cohortLineKey": "summary.cohortLine.yes",
     "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": null,
     "marginSuffixKey": "summary.suffix.marginLow",
     "args": {
-      "refSize": 4,
+      "refSize": 5,
       "year": "2020",
       "title": "Mercedes-Benz E200"
     }

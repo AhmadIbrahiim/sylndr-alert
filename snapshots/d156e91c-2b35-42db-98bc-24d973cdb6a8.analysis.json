@@ -1,17 +1,17 @@
 {
   "vehicleId": "d156e91c-2b35-42db-98bc-24d973cdb6a8",
-  "computedAt": "2026-11-06T12:42:12.368Z",
+  "computedAt": "2026-11-06T19:43:08.250Z",
   "cohort": {
-    "sameModelCount": 26,
-    "sameYearCount": 3,
-    "refCohort": "model",
-    "refSize": 26
+    "sameModelCount": 27,
+    "sameYearCount": 4,
+    "refCohort": "model+year",
+    "refSize": 4
   },
-  "pricePercentile": 4,
+  "pricePercentile": 25,
   "pricePerKm": 1.4094190443451358,
   "pricePerKmPercentile": 0,
-  "kmPercentile": 81,
-  "daysListed": 74,
+  "kmPercentile": 75,
+  "daysListed": 75,
   "marginPct": null,
   "marginTier": null,
   "auctionHeat": "cold",
@@ -22,9 +22,9 @@
       "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 96,
-        "n": 26,
-        "kind": "detail.cohort.refSize.kind.model"
+        "pct": 75,
+        "n": 4,
+        "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.highKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 19
+        "pct": 25
       }
     },
     {
@@ -53,23 +53,23 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 74
+        "n": 75
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 74
+        "n": 75
       }
     }
   ],
   "summary": {
     "verdictKey": "summary.verdict.good",
     "cohortLineKey": "summary.cohortLine.yes",
-    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 26,
+      "refSize": 4,
       "year": "2010",
       "title": "Renault Fluence"
     }
