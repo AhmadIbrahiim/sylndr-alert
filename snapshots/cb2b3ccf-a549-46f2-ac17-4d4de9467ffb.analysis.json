@@ -1,29 +1,29 @@
 {
   "vehicleId": "cb2b3ccf-a549-46f2-ac17-4d4de9467ffb",
-  "computedAt": "2026-11-05T21:54:23.253Z",
+  "computedAt": "2026-11-06T12:42:14.138Z",
   "cohort": {
-    "sameModelCount": 27,
-    "sameYearCount": 8,
+    "sameModelCount": 29,
+    "sameYearCount": 9,
     "refCohort": "model+year",
-    "refSize": 8
+    "refSize": 9
   },
-  "pricePercentile": 63,
+  "pricePercentile": 56,
   "pricePerKm": 6.036069193963931,
-  "pricePerKmPercentile": 13,
-  "kmPercentile": 88,
-  "daysListed": 157,
+  "pricePerKmPercentile": 11,
+  "kmPercentile": 89,
+  "daysListed": 158,
   "marginPct": 22.926829268292686,
   "marginTier": "mid",
   "auctionHeat": "warm",
-  "dealTag": "fair",
+  "dealTag": "good",
   "bullets": [
     {
       "tone": "mid",
       "pipKey": "bullet.pip.mid",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 37,
-        "n": 8,
+        "pct": 44,
+        "n": 9,
         "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 87,
+        "pct": 89,
         "ppkm": 6
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.highKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 12
+        "pct": 11
       }
     },
     {
@@ -61,23 +61,23 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 157
+        "n": 158
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 157
+        "n": 158
       }
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.fair",
+    "verdictKey": "summary.verdict.good",
     "cohortLineKey": "summary.cohortLine.yes",
     "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 8,
+      "refSize": 9,
       "year": "2021",
       "title": "MG ZS"
     }
