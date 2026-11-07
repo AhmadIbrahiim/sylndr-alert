@@ -1,22 +1,49 @@
 {
   "vehicleId": "e5aafce2-2e38-43d2-9318-7ccfa2ccf8a8",
-  "computedAt": "2026-11-06T21:26:18.571Z",
+  "computedAt": "2026-11-07T11:28:47.128Z",
   "cohort": {
-    "sameModelCount": 2,
+    "sameModelCount": 3,
     "sameYearCount": 1,
     "refCohort": "model",
-    "refSize": 2
+    "refSize": 3
   },
-  "pricePercentile": null,
+  "pricePercentile": 67,
   "pricePerKm": 501.9047619047619,
-  "pricePerKmPercentile": null,
-  "kmPercentile": null,
+  "pricePerKmPercentile": 67,
+  "kmPercentile": 0,
   "daysListed": 268,
   "marginPct": 13.851992409867172,
   "marginTier": "low",
   "auctionHeat": "hot",
   "dealTag": "fair",
   "bullets": [
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.mid",
+      "textKey": "bullet.priceCheaper",
+      "textArgs": {
+        "pct": 33,
+        "n": 3,
+        "kind": "detail.cohort.refSize.kind.model"
+      }
+    },
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.value",
+      "textKey": "bullet.ppkmBetter",
+      "textArgs": {
+        "pct": 33,
+        "ppkm": 502
+      }
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.lowKm",
+      "textKey": "bullet.kmLower",
+      "textArgs": {
+        "pct": 100
+      }
+    },
     {
       "tone": "good",
       "pipKey": "bullet.pip.marginPct",
@@ -50,7 +77,7 @@
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": "summary.suffix.marginLow",
     "args": {
-      "refSize": 2,
+      "refSize": 3,
       "year": "2023",
       "title": "Land Rover Range Rover Evoque"
     }

@@ -1,30 +1,30 @@
 {
   "vehicleId": "a8d52423-75d3-4a65-93fd-9657cdf6f171",
-  "computedAt": "2026-11-06T21:26:21.355Z",
+  "computedAt": "2026-11-07T11:28:49.035Z",
   "cohort": {
-    "sameModelCount": 77,
-    "sameYearCount": 3,
-    "refCohort": "model",
-    "refSize": 77
+    "sameModelCount": 78,
+    "sameYearCount": 4,
+    "refCohort": "model+year",
+    "refSize": 4
   },
-  "pricePercentile": 70,
+  "pricePercentile": 25,
   "pricePerKm": 4.830917874396135,
-  "pricePerKmPercentile": 56,
-  "kmPercentile": 49,
+  "pricePerKmPercentile": 50,
+  "kmPercentile": 25,
   "daysListed": 203,
   "marginPct": 16.153846153846153,
   "marginTier": "mid",
   "auctionHeat": "hot",
-  "dealTag": "fair",
+  "dealTag": "good",
   "bullets": [
     {
-      "tone": "mid",
-      "pipKey": "bullet.pip.mid",
+      "tone": "good",
+      "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 30,
-        "n": 77,
-        "kind": "detail.cohort.refSize.kind.model"
+        "pct": 75,
+        "n": 4,
+        "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
@@ -32,16 +32,16 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 44,
+        "pct": 50,
         "ppkm": 5
       }
     },
     {
-      "tone": "mid",
-      "pipKey": "bullet.pip.km",
+      "tone": "good",
+      "pipKey": "bullet.pip.lowKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 51
+        "pct": 75
       }
     },
     {
@@ -70,14 +70,14 @@
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.fair",
+    "verdictKey": "summary.verdict.good",
     "cohortLineKey": "summary.cohortLine.yes",
-    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": null,
     "args": {
-      "refSize": 77,
+      "refSize": 4,
       "year": "2021",
       "title": "Nissan Sunny"
     }

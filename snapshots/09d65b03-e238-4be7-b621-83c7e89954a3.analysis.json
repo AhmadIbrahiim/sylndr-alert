@@ -1,22 +1,49 @@
 {
   "vehicleId": "09d65b03-e238-4be7-b621-83c7e89954a3",
-  "computedAt": "2026-11-06T21:26:20.476Z",
+  "computedAt": "2026-11-07T11:28:48.450Z",
   "cohort": {
-    "sameModelCount": 2,
-    "sameYearCount": 2,
+    "sameModelCount": 3,
+    "sameYearCount": 3,
     "refCohort": "model",
-    "refSize": 2
+    "refSize": 3
   },
-  "pricePercentile": null,
+  "pricePercentile": 0,
   "pricePerKm": 1360.544217687075,
-  "pricePerKmPercentile": null,
-  "kmPercentile": null,
-  "daysListed": 47,
+  "pricePerKmPercentile": 67,
+  "kmPercentile": 0,
+  "daysListed": 48,
   "marginPct": null,
   "marginTier": null,
   "auctionHeat": "cold",
-  "dealTag": "fair",
+  "dealTag": "good",
   "bullets": [
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.deal",
+      "textKey": "bullet.priceCheaper",
+      "textArgs": {
+        "pct": 100,
+        "n": 3,
+        "kind": "detail.cohort.refSize.kind.model"
+      }
+    },
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.value",
+      "textKey": "bullet.ppkmBetter",
+      "textArgs": {
+        "pct": 33,
+        "ppkm": 1361
+      }
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.lowKm",
+      "textKey": "bullet.kmLower",
+      "textArgs": {
+        "pct": 100
+      }
+    },
     {
       "tone": "neutral",
       "pipKey": "bullet.pip.cold",
@@ -26,23 +53,23 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 47
+        "n": 48
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 47
+        "n": 48
       }
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.fair",
+    "verdictKey": "summary.verdict.good",
     "cohortLineKey": "summary.cohortLine.yes",
     "cohortKindKey": "detail.cohort.refSize.kind.model",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 2,
+      "refSize": 3,
       "year": "2025",
       "title": "Xiaomi Yu7"
     }
