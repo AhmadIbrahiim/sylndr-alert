@@ -1,17 +1,17 @@
 {
   "vehicleId": "59faf9b1-ad98-4261-9158-d16a5ccec9ee",
-  "computedAt": "2026-11-07T20:07:08.422Z",
+  "computedAt": "2026-11-08T11:40:57.952Z",
   "cohort": {
-    "sameModelCount": 71,
-    "sameYearCount": 10,
+    "sameModelCount": 72,
+    "sameYearCount": 11,
     "refCohort": "model+year",
-    "refSize": 10
+    "refSize": 11
   },
-  "pricePercentile": 40,
+  "pricePercentile": 36,
   "pricePerKm": 3.249701314217443,
-  "pricePerKmPercentile": 20,
-  "kmPercentile": 70,
-  "daysListed": 105,
+  "pricePerKmPercentile": 18,
+  "kmPercentile": 73,
+  "daysListed": 106,
   "marginPct": null,
   "marginTier": null,
   "auctionHeat": "cold",
@@ -22,8 +22,8 @@
       "pipKey": "bullet.pip.mid",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 60,
-        "n": 10,
+        "pct": 64,
+        "n": 11,
         "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
@@ -32,16 +32,16 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 80,
+        "pct": 82,
         "ppkm": 3
       }
     },
     {
-      "tone": "mid",
-      "pipKey": "bullet.pip.km",
+      "tone": "hot",
+      "pipKey": "bullet.pip.highKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 30
+        "pct": 27
       }
     },
     {
@@ -53,11 +53,11 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 105
+        "n": 106
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 105
+        "n": 106
       }
     }
   ],
@@ -69,7 +69,7 @@
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 10,
+      "refSize": 11,
       "year": "2020",
       "title": "Fiat Tipo"
     }

@@ -1,38 +1,38 @@
 {
   "vehicleId": "ca3501ba-eb3a-4cab-bfaf-3867069b1893",
-  "computedAt": "2026-11-07T20:07:09.718Z",
+  "computedAt": "2026-11-08T11:41:00.447Z",
   "cohort": {
-    "sameModelCount": 87,
-    "sameYearCount": 3,
-    "refCohort": "model",
-    "refSize": 87
+    "sameModelCount": 88,
+    "sameYearCount": 4,
+    "refCohort": "model+year",
+    "refSize": 4
   },
-  "pricePercentile": 94,
+  "pricePercentile": 50,
   "pricePerKm": 8.647160068846816,
-  "pricePerKmPercentile": 69,
-  "kmPercentile": 47,
+  "pricePerKmPercentile": 25,
+  "kmPercentile": 50,
   "daysListed": 151,
   "marginPct": 14.09235668789809,
   "marginTier": "low",
   "auctionHeat": "cold",
-  "dealTag": "high",
+  "dealTag": "fair",
   "bullets": [
     {
-      "tone": "hot",
-      "pipKey": "bullet.pip.high",
+      "tone": "mid",
+      "pipKey": "bullet.pip.mid",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 6,
-        "n": 87,
-        "kind": "detail.cohort.refSize.kind.model"
+        "pct": 50,
+        "n": 4,
+        "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
-      "tone": "mid",
+      "tone": "good",
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 31,
+        "pct": 75,
         "ppkm": 9
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 53
+        "pct": 50
       }
     },
     {
@@ -70,14 +70,14 @@
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.high",
+    "verdictKey": "summary.verdict.fair",
     "cohortLineKey": "summary.cohortLine.yes",
-    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": null,
     "marginSuffixKey": "summary.suffix.marginLow",
     "args": {
-      "refSize": 87,
+      "refSize": 4,
       "year": "2022",
       "title": "Nissan Qashqai"
     }
