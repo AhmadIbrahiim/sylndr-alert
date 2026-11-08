@@ -1,16 +1,16 @@
 {
   "vehicleId": "a077937a-2687-445f-b51e-d8a38f72d98d",
-  "computedAt": "2026-11-08T11:40:57.482Z",
+  "computedAt": "2026-11-08T17:15:25.678Z",
   "cohort": {
-    "sameModelCount": 42,
-    "sameYearCount": 7,
+    "sameModelCount": 44,
+    "sameYearCount": 8,
     "refCohort": "model+year",
-    "refSize": 7
+    "refSize": 8
   },
   "pricePercentile": 0,
   "pricePerKm": 7.851851851851852,
-  "pricePerKmPercentile": 14,
-  "kmPercentile": 29,
+  "pricePerKmPercentile": 13,
+  "kmPercentile": 38,
   "daysListed": 59,
   "marginPct": null,
   "marginTier": null,
@@ -23,7 +23,7 @@
       "textKey": "bullet.priceCheaper",
       "textArgs": {
         "pct": 100,
-        "n": 7,
+        "n": 8,
         "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
@@ -32,16 +32,16 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 86,
+        "pct": 87,
         "ppkm": 8
       }
     },
     {
-      "tone": "good",
-      "pipKey": "bullet.pip.lowKm",
+      "tone": "mid",
+      "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 71
+        "pct": 62
       }
     },
     {
@@ -69,7 +69,7 @@
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 7,
+      "refSize": 8,
       "year": "2020",
       "title": "Volkswagen Tiguan"
     }

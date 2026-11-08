@@ -1,38 +1,38 @@
 {
   "vehicleId": "43914ba8-2c93-4109-987d-4162afd1e64d",
-  "computedAt": "2026-11-08T11:40:54.874Z",
+  "computedAt": "2026-11-08T17:15:22.850Z",
   "cohort": {
-    "sameModelCount": 33,
-    "sameYearCount": 8,
+    "sameModelCount": 34,
+    "sameYearCount": 9,
     "refCohort": "model+year",
-    "refSize": 8
+    "refSize": 9
   },
-  "pricePercentile": 88,
+  "pricePercentile": 89,
   "pricePerKm": 10.90613176285036,
-  "pricePerKmPercentile": 75,
-  "kmPercentile": 13,
-  "daysListed": 47,
+  "pricePerKmPercentile": 67,
+  "kmPercentile": 22,
+  "daysListed": 48,
   "marginPct": null,
   "marginTier": null,
   "auctionHeat": "cold",
-  "dealTag": "high",
+  "dealTag": "fair",
   "bullets": [
     {
       "tone": "hot",
       "pipKey": "bullet.pip.high",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 12,
-        "n": 8,
+        "pct": 11,
+        "n": 9,
         "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
-      "tone": "hot",
-      "pipKey": "bullet.pip.pricey",
+      "tone": "mid",
+      "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 25,
+        "pct": 33,
         "ppkm": 11
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.lowKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 87
+        "pct": 78
       }
     },
     {
@@ -53,23 +53,23 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 47
+        "n": 48
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 47
+        "n": 48
       }
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.high",
+    "verdictKey": "summary.verdict.fair",
     "cohortLineKey": "summary.cohortLine.yes",
     "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 8,
+      "refSize": 9,
       "year": "2021",
       "title": "Opel Grand Land"
     }

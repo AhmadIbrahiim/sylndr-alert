@@ -1,17 +1,17 @@
 {
   "vehicleId": "e81dcf85-dc2c-430a-989a-515e01782386",
-  "computedAt": "2026-11-08T11:40:58.421Z",
+  "computedAt": "2026-11-08T17:15:26.687Z",
   "cohort": {
-    "sameModelCount": 74,
-    "sameYearCount": 4,
+    "sameModelCount": 75,
+    "sameYearCount": 5,
     "refCohort": "model+year",
-    "refSize": 4
+    "refSize": 5
   },
   "pricePercentile": 0,
   "pricePerKm": 21.021800385585053,
-  "pricePerKmPercentile": 50,
-  "kmPercentile": 25,
-  "daysListed": 20,
+  "pricePerKmPercentile": 40,
+  "kmPercentile": 40,
+  "daysListed": 21,
   "marginPct": null,
   "marginTier": null,
   "auctionHeat": "cold",
@@ -23,7 +23,7 @@
       "textKey": "bullet.priceCheaper",
       "textArgs": {
         "pct": 100,
-        "n": 4,
+        "n": 5,
         "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
@@ -32,16 +32,16 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 50,
+        "pct": 60,
         "ppkm": 21
       }
     },
     {
-      "tone": "good",
-      "pipKey": "bullet.pip.lowKm",
+      "tone": "mid",
+      "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 75
+        "pct": 60
       }
     },
     {
@@ -53,11 +53,11 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 20
+        "n": 21
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 20
+        "n": 21
       }
     }
   ],
@@ -69,7 +69,7 @@
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 4,
+      "refSize": 5,
       "year": "2024",
       "title": "Toyota Corolla"
     }
