@@ -1,29 +1,29 @@
 {
   "vehicleId": "f59ac98c-c822-4f82-9734-3c586592c67c",
-  "computedAt": "2026-11-09T13:35:42.086Z",
+  "computedAt": "2026-11-09T23:09:51.081Z",
   "cohort": {
-    "sameModelCount": 62,
-    "sameYearCount": 20,
+    "sameModelCount": 63,
+    "sameYearCount": 21,
     "refCohort": "model+year",
-    "refSize": 20
+    "refSize": 21
   },
-  "pricePercentile": 75,
+  "pricePercentile": 76,
   "pricePerKm": 8.122312470138557,
-  "pricePerKmPercentile": 85,
+  "pricePerKmPercentile": 86,
   "kmPercentile": 10,
   "daysListed": 177,
   "marginPct": 24.47058823529412,
   "marginTier": "mid",
   "auctionHeat": "warm",
-  "dealTag": "fair",
+  "dealTag": "high",
   "bullets": [
     {
       "tone": "hot",
       "pipKey": "bullet.pip.high",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 25,
-        "n": 20,
+        "pct": 24,
+        "n": 21,
         "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.pricey",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 15,
+        "pct": 14,
         "ppkm": 8
       }
     },
@@ -70,14 +70,14 @@
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.fair",
+    "verdictKey": "summary.verdict.high",
     "cohortLineKey": "summary.cohortLine.yes",
     "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 20,
+      "refSize": 21,
       "year": "2019",
       "title": "Renault Kadjar"
     }

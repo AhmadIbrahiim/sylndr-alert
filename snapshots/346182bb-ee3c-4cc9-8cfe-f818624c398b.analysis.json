@@ -1,6 +1,6 @@
 {
   "vehicleId": "346182bb-ee3c-4cc9-8cfe-f818624c398b",
-  "computedAt": "2026-11-09T13:35:47.828Z",
+  "computedAt": "2026-11-09T23:09:56.905Z",
   "cohort": {
     "sameModelCount": 37,
     "sameYearCount": 14,
@@ -11,7 +11,7 @@
   "pricePerKm": 21.633665145362418,
   "pricePerKmPercentile": 85,
   "kmPercentile": 8,
-  "daysListed": 13,
+  "daysListed": 14,
   "marginPct": null,
   "marginTier": null,
   "auctionHeat": "cold",
@@ -48,6 +48,17 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.cold",
       "textKey": "bullet.auctionCold"
+    },
+    {
+      "tone": "neutral",
+      "pipKey": "bullet.pip.daysListed",
+      "pipArgs": {
+        "n": 14
+      },
+      "textKey": "bullet.listedOld",
+      "textArgs": {
+        "n": 14
+      }
     }
   ],
   "summary": {
