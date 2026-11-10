@@ -1,29 +1,29 @@
 {
   "vehicleId": "e8af96c5-0919-4168-9543-24de4130ec1c",
-  "computedAt": "2026-11-10T20:29:12.092Z",
+  "computedAt": "2026-11-10T21:45:21.706Z",
   "cohort": {
-    "sameModelCount": 12,
-    "sameYearCount": 2,
+    "sameModelCount": 13,
+    "sameYearCount": 3,
     "refCohort": "model",
-    "refSize": 12
+    "refSize": 13
   },
-  "pricePercentile": 83,
+  "pricePercentile": 77,
   "pricePerKm": 9.200743494423792,
-  "pricePerKmPercentile": 83,
-  "kmPercentile": 8,
+  "pricePerKmPercentile": 77,
+  "kmPercentile": 15,
   "daysListed": 171,
   "marginPct": 13.131313131313133,
   "marginTier": "low",
   "auctionHeat": "cold",
-  "dealTag": "high",
+  "dealTag": "fair",
   "bullets": [
     {
       "tone": "hot",
       "pipKey": "bullet.pip.high",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 17,
-        "n": 12,
+        "pct": 23,
+        "n": 13,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.pricey",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 17,
+        "pct": 23,
         "ppkm": 9
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.lowKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 92
+        "pct": 85
       }
     },
     {
@@ -70,14 +70,14 @@
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.high",
+    "verdictKey": "summary.verdict.fair",
     "cohortLineKey": "summary.cohortLine.yes",
     "cohortKindKey": "detail.cohort.refSize.kind.model",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": null,
     "marginSuffixKey": "summary.suffix.marginLow",
     "args": {
-      "refSize": 12,
+      "refSize": 13,
       "year": "2022",
       "title": "Lada Granta"
     }
