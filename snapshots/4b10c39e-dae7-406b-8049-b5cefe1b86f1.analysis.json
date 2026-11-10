@@ -1,17 +1,17 @@
 {
   "vehicleId": "4b10c39e-dae7-406b-8049-b5cefe1b86f1",
-  "computedAt": "2026-11-10T13:14:07.018Z",
+  "computedAt": "2026-11-10T20:29:16.361Z",
   "cohort": {
-    "sameModelCount": 11,
+    "sameModelCount": 12,
     "sameYearCount": 1,
     "refCohort": "model",
-    "refSize": 11
+    "refSize": 12
   },
-  "pricePercentile": 45,
+  "pricePercentile": 42,
   "pricePerKm": 19.938912645082468,
-  "pricePerKmPercentile": 73,
-  "kmPercentile": 18,
-  "daysListed": 194,
+  "pricePerKmPercentile": 67,
+  "kmPercentile": 25,
+  "daysListed": 195,
   "marginPct": 48.03921568627451,
   "marginTier": "high",
   "auctionHeat": "cold",
@@ -22,17 +22,17 @@
       "pipKey": "bullet.pip.mid",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 55,
-        "n": 11,
+        "pct": 58,
+        "n": 12,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
     {
-      "tone": "hot",
-      "pipKey": "bullet.pip.pricey",
+      "tone": "mid",
+      "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 27,
+        "pct": 33,
         "ppkm": 20
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.lowKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 82
+        "pct": 75
       }
     },
     {
@@ -61,11 +61,11 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 194
+        "n": 195
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 194
+        "n": 195
       }
     }
   ],
@@ -77,7 +77,7 @@
     "heatSuffixKey": null,
     "marginSuffixKey": "summary.suffix.marginHigh",
     "args": {
-      "refSize": 11,
+      "refSize": 12,
       "year": "2019",
       "title": "Audi A3"
     }

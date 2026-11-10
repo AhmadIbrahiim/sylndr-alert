@@ -1,29 +1,29 @@
 {
   "vehicleId": "db7ae583-ba91-4d11-a3f7-48c613ca446b",
-  "computedAt": "2026-11-10T13:14:04.514Z",
+  "computedAt": "2026-11-10T20:29:14.335Z",
   "cohort": {
-    "sameModelCount": 6,
+    "sameModelCount": 7,
     "sameYearCount": 2,
     "refCohort": "model",
-    "refSize": 6
+    "refSize": 7
   },
-  "pricePercentile": 33,
+  "pricePercentile": 43,
   "pricePerKm": 250.5800464037123,
-  "pricePerKmPercentile": 17,
-  "kmPercentile": 67,
-  "daysListed": 102,
+  "pricePerKmPercentile": 29,
+  "kmPercentile": 57,
+  "daysListed": 103,
   "marginPct": null,
   "marginTier": null,
   "auctionHeat": "cold",
-  "dealTag": "good",
+  "dealTag": "fair",
   "bullets": [
     {
-      "tone": "good",
-      "pipKey": "bullet.pip.deal",
+      "tone": "mid",
+      "pipKey": "bullet.pip.mid",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 67,
-        "n": 6,
+        "pct": 57,
+        "n": 7,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 83,
+        "pct": 71,
         "ppkm": 251
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 33
+        "pct": 43
       }
     },
     {
@@ -53,23 +53,23 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 102
+        "n": 103
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 102
+        "n": 103
       }
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.good",
+    "verdictKey": "summary.verdict.fair",
     "cohortLineKey": "summary.cohortLine.yes",
     "cohortKindKey": "detail.cohort.refSize.kind.model",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 6,
+      "refSize": 7,
       "year": "2025",
       "title": "Mercedes-Benz GLC 300 COUPE"
     }

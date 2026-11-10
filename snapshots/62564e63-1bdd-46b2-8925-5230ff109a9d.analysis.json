@@ -1,21 +1,21 @@
 {
   "vehicleId": "62564e63-1bdd-46b2-8925-5230ff109a9d",
-  "computedAt": "2026-11-10T13:13:56.778Z",
+  "computedAt": "2026-11-10T20:29:08.047Z",
   "cohort": {
-    "sameModelCount": 51,
-    "sameYearCount": 12,
+    "sameModelCount": 52,
+    "sameYearCount": 13,
     "refCohort": "model+year",
-    "refSize": 12
+    "refSize": 13
   },
   "pricePercentile": 92,
   "pricePerKm": 14.84480431848853,
-  "pricePerKmPercentile": 58,
-  "kmPercentile": 42,
-  "daysListed": 55,
+  "pricePerKmPercentile": 62,
+  "kmPercentile": 38,
+  "daysListed": 56,
   "marginPct": null,
   "marginTier": null,
   "auctionHeat": "cold",
-  "dealTag": "high",
+  "dealTag": "fair",
   "bullets": [
     {
       "tone": "hot",
@@ -23,7 +23,7 @@
       "textKey": "bullet.priceCheaper",
       "textArgs": {
         "pct": 8,
-        "n": 12,
+        "n": 13,
         "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 42,
+        "pct": 38,
         "ppkm": 15
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 58
+        "pct": 62
       }
     },
     {
@@ -53,23 +53,23 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 55
+        "n": 56
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 55
+        "n": 56
       }
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.high",
+    "verdictKey": "summary.verdict.fair",
     "cohortLineKey": "summary.cohortLine.yes",
     "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 12,
+      "refSize": 13,
       "year": "2019",
       "title": "BMW X1"
     }
