@@ -1,47 +1,47 @@
 {
   "vehicleId": "6eadbdd6-8d16-4b0d-9419-83e58b746c69",
-  "computedAt": "2026-11-09T23:09:55.853Z",
+  "computedAt": "2026-11-10T00:06:35.078Z",
   "cohort": {
-    "sameModelCount": 35,
-    "sameYearCount": 3,
-    "refCohort": "model",
-    "refSize": 35
+    "sameModelCount": 36,
+    "sameYearCount": 4,
+    "refCohort": "model+year",
+    "refSize": 4
   },
-  "pricePercentile": 86,
+  "pricePercentile": 25,
   "pricePerKm": 7.127882599580713,
-  "pricePerKmPercentile": 74,
-  "kmPercentile": 31,
+  "pricePerKmPercentile": 25,
+  "kmPercentile": 50,
   "daysListed": 90,
   "marginPct": null,
   "marginTier": null,
   "auctionHeat": "cold",
-  "dealTag": "fair",
+  "dealTag": "good",
   "bullets": [
     {
-      "tone": "hot",
-      "pipKey": "bullet.pip.high",
+      "tone": "good",
+      "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 14,
-        "n": 35,
-        "kind": "detail.cohort.refSize.kind.model"
-      }
-    },
-    {
-      "tone": "hot",
-      "pipKey": "bullet.pip.pricey",
-      "textKey": "bullet.ppkmBetter",
-      "textArgs": {
-        "pct": 26,
-        "ppkm": 7
+        "pct": 75,
+        "n": 4,
+        "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
       "tone": "good",
-      "pipKey": "bullet.pip.lowKm",
+      "pipKey": "bullet.pip.value",
+      "textKey": "bullet.ppkmBetter",
+      "textArgs": {
+        "pct": 75,
+        "ppkm": 7
+      }
+    },
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 69
+        "pct": 50
       }
     },
     {
@@ -62,14 +62,14 @@
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.fair",
+    "verdictKey": "summary.verdict.good",
     "cohortLineKey": "summary.cohortLine.yes",
-    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 35,
+      "refSize": 4,
       "year": "2021",
       "title": "Renault Sandero Stepway"
     }

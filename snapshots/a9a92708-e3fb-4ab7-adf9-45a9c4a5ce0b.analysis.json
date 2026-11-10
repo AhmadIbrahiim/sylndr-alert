@@ -1,16 +1,16 @@
 {
   "vehicleId": "a9a92708-e3fb-4ab7-adf9-45a9c4a5ce0b",
-  "computedAt": "2026-11-09T23:09:56.367Z",
+  "computedAt": "2026-11-10T00:06:35.565Z",
   "cohort": {
-    "sameModelCount": 51,
-    "sameYearCount": 4,
+    "sameModelCount": 52,
+    "sameYearCount": 5,
     "refCohort": "model+year",
-    "refSize": 4
+    "refSize": 5
   },
-  "pricePercentile": 0,
+  "pricePercentile": 20,
   "pricePerKm": 8.88888888888889,
-  "pricePerKmPercentile": 25,
-  "kmPercentile": 25,
+  "pricePerKmPercentile": 40,
+  "kmPercentile": 20,
   "daysListed": 182,
   "marginPct": 31,
   "marginTier": "high",
@@ -22,17 +22,17 @@
       "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 100,
-        "n": 4,
+        "pct": 80,
+        "n": 5,
         "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
-      "tone": "good",
+      "tone": "mid",
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 75,
+        "pct": 60,
         "ppkm": 9
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.lowKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 75
+        "pct": 80
       }
     },
     {
@@ -77,7 +77,7 @@
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": "summary.suffix.marginHigh",
     "args": {
-      "refSize": 4,
+      "refSize": 5,
       "year": "2020",
       "title": "Hyundai Tucson"
     }
