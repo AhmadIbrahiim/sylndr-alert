@@ -1,17 +1,17 @@
 {
   "vehicleId": "2297779d-fbbd-4fc5-b2e0-0f5b909cd33a",
-  "computedAt": "2026-11-11T12:24:30.099Z",
+  "computedAt": "2026-11-11T19:47:30.733Z",
   "cohort": {
-    "sameModelCount": 3,
+    "sameModelCount": 4,
     "sameYearCount": 1,
     "refCohort": "model",
-    "refSize": 3
+    "refSize": 4
   },
   "pricePercentile": 0,
   "pricePerKm": 12.487025200377733,
   "pricePerKmPercentile": 0,
-  "kmPercentile": 33,
-  "daysListed": 4,
+  "kmPercentile": 50,
+  "daysListed": 5,
   "marginPct": null,
   "marginTier": null,
   "auctionHeat": "cold",
@@ -23,7 +23,7 @@
       "textKey": "bullet.priceCheaper",
       "textArgs": {
         "pct": 100,
-        "n": 3,
+        "n": 4,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -37,11 +37,11 @@
       }
     },
     {
-      "tone": "good",
-      "pipKey": "bullet.pip.lowKm",
+      "tone": "mid",
+      "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 67
+        "pct": 50
       }
     },
     {
@@ -58,7 +58,7 @@
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 3,
+      "refSize": 4,
       "year": "2015",
       "title": "Land Rover Range Rover Evoque"
     }

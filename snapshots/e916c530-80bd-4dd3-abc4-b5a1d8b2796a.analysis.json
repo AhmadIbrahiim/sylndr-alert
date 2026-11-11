@@ -1,17 +1,17 @@
 {
   "vehicleId": "e916c530-80bd-4dd3-abc4-b5a1d8b2796a",
-  "computedAt": "2026-11-11T12:24:26.963Z",
+  "computedAt": "2026-11-11T19:47:28.647Z",
   "cohort": {
-    "sameModelCount": 25,
+    "sameModelCount": 26,
     "sameYearCount": 3,
     "refCohort": "model",
-    "refSize": 25
+    "refSize": 26
   },
-  "pricePercentile": 84,
+  "pricePercentile": 81,
   "pricePerKm": 17.919237049030258,
-  "pricePerKmPercentile": 72,
-  "kmPercentile": 32,
-  "daysListed": 29,
+  "pricePerKmPercentile": 69,
+  "kmPercentile": 35,
+  "daysListed": 30,
   "marginPct": null,
   "marginTier": null,
   "auctionHeat": "cold",
@@ -22,26 +22,26 @@
       "pipKey": "bullet.pip.high",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 16,
-        "n": 25,
+        "pct": 19,
+        "n": 26,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
     {
-      "tone": "hot",
-      "pipKey": "bullet.pip.pricey",
+      "tone": "mid",
+      "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 28,
+        "pct": 31,
         "ppkm": 18
       }
     },
     {
-      "tone": "good",
-      "pipKey": "bullet.pip.lowKm",
+      "tone": "mid",
+      "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 68
+        "pct": 65
       }
     },
     {
@@ -53,11 +53,11 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 29
+        "n": 30
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 29
+        "n": 30
       }
     }
   ],
@@ -65,11 +65,11 @@
     "verdictKey": "summary.verdict.fair",
     "cohortLineKey": "summary.cohortLine.yes",
     "cohortKindKey": "detail.cohort.refSize.kind.model",
-    "ageSuffixKey": null,
+    "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 25,
+      "refSize": 26,
       "year": "2021",
       "title": "Jeep Grand Cherokee"
     }

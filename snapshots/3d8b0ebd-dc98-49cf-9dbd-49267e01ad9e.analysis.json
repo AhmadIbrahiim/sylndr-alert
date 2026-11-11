@@ -1,47 +1,47 @@
 {
   "vehicleId": "3d8b0ebd-dc98-49cf-9dbd-49267e01ad9e",
-  "computedAt": "2026-11-11T12:24:27.250Z",
+  "computedAt": "2026-11-11T19:47:28.827Z",
   "cohort": {
-    "sameModelCount": 4,
+    "sameModelCount": 5,
     "sameYearCount": 3,
     "refCohort": "model",
-    "refSize": 4
+    "refSize": 5
   },
-  "pricePercentile": 75,
+  "pricePercentile": 60,
   "pricePerKm": 2.944423997055576,
-  "pricePerKmPercentile": 75,
-  "kmPercentile": 25,
-  "daysListed": 65,
+  "pricePerKmPercentile": 60,
+  "kmPercentile": 40,
+  "daysListed": 66,
   "marginPct": null,
   "marginTier": null,
   "auctionHeat": "cold",
   "dealTag": "fair",
   "bullets": [
     {
-      "tone": "hot",
-      "pipKey": "bullet.pip.high",
+      "tone": "mid",
+      "pipKey": "bullet.pip.mid",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 25,
-        "n": 4,
+        "pct": 40,
+        "n": 5,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
     {
-      "tone": "hot",
-      "pipKey": "bullet.pip.pricey",
+      "tone": "mid",
+      "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 25,
+        "pct": 40,
         "ppkm": 3
       }
     },
     {
-      "tone": "good",
-      "pipKey": "bullet.pip.lowKm",
+      "tone": "mid",
+      "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 75
+        "pct": 60
       }
     },
     {
@@ -53,11 +53,11 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 65
+        "n": 66
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 65
+        "n": 66
       }
     }
   ],
@@ -69,7 +69,7 @@
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 4,
+      "refSize": 5,
       "year": "2007",
       "title": "Hyundai Verna"
     }

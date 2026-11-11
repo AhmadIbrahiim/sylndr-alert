@@ -1,0 +1,71 @@
+{
+  "vehicleId": "b417be50-dcec-43c5-adce-956cf645cbc7",
+  "computedAt": "2026-11-11T19:47:28.402Z",
+  "cohort": {
+    "sameModelCount": 26,
+    "sameYearCount": 1,
+    "refCohort": "model",
+    "refSize": 26
+  },
+  "pricePercentile": 96,
+  "pricePerKm": 48.53897679836909,
+  "pricePerKmPercentile": 92,
+  "kmPercentile": 4,
+  "daysListed": 0,
+  "marginPct": null,
+  "marginTier": null,
+  "auctionHeat": "cold",
+  "dealTag": "high",
+  "bullets": [
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.high",
+      "textKey": "bullet.priceCheaper",
+      "textArgs": {
+        "pct": 4,
+        "n": 26,
+        "kind": "detail.cohort.refSize.kind.model"
+      }
+    },
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.pricey",
+      "textKey": "bullet.ppkmBetter",
+      "textArgs": {
+        "pct": 8,
+        "ppkm": 49
+      }
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.lowKm",
+      "textKey": "bullet.kmLower",
+      "textArgs": {
+        "pct": 96
+      }
+    },
+    {
+      "tone": "neutral",
+      "pipKey": "bullet.pip.cold",
+      "textKey": "bullet.auctionCold"
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.fresh",
+      "textKey": "bullet.listedFresh"
+    }
+  ],
+  "summary": {
+    "verdictKey": "summary.verdict.high",
+    "cohortLineKey": "summary.cohortLine.yes",
+    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "ageSuffixKey": "summary.suffix.ageFresh",
+    "heatSuffixKey": null,
+    "marginSuffixKey": null,
+    "args": {
+      "refSize": 26,
+      "year": "2022",
+      "title": "Jeep Grand Cherokee"
+    }
+  }
+}
