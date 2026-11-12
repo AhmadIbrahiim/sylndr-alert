@@ -1,0 +1,71 @@
+{
+  "vehicleId": "e62d2ef5-4d26-419c-876d-d612e6ad8598",
+  "computedAt": "2026-11-12T21:02:23.328Z",
+  "cohort": {
+    "sameModelCount": 4,
+    "sameYearCount": 4,
+    "refCohort": "model+year",
+    "refSize": 4
+  },
+  "pricePercentile": 50,
+  "pricePerKm": 8.412588774949967,
+  "pricePerKmPercentile": 25,
+  "kmPercentile": 75,
+  "daysListed": 0,
+  "marginPct": null,
+  "marginTier": null,
+  "auctionHeat": "cold",
+  "dealTag": "fair",
+  "bullets": [
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.mid",
+      "textKey": "bullet.priceCheaper",
+      "textArgs": {
+        "pct": 50,
+        "n": 4,
+        "kind": "detail.cohort.refSize.kind.modelYear"
+      }
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.value",
+      "textKey": "bullet.ppkmBetter",
+      "textArgs": {
+        "pct": 75,
+        "ppkm": 8
+      }
+    },
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.highKm",
+      "textKey": "bullet.kmLower",
+      "textArgs": {
+        "pct": 25
+      }
+    },
+    {
+      "tone": "neutral",
+      "pipKey": "bullet.pip.cold",
+      "textKey": "bullet.auctionCold"
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.fresh",
+      "textKey": "bullet.listedFresh"
+    }
+  ],
+  "summary": {
+    "verdictKey": "summary.verdict.fair",
+    "cohortLineKey": "summary.cohortLine.yes",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
+    "ageSuffixKey": "summary.suffix.ageFresh",
+    "heatSuffixKey": null,
+    "marginSuffixKey": null,
+    "args": {
+      "refSize": 4,
+      "year": "2022",
+      "title": "Haval JOLION"
+    }
+  }
+}

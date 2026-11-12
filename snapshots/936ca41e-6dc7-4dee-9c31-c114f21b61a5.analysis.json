@@ -1,29 +1,29 @@
 {
   "vehicleId": "936ca41e-6dc7-4dee-9c31-c114f21b61a5",
-  "computedAt": "2026-11-12T13:31:03.695Z",
+  "computedAt": "2026-11-12T21:02:22.561Z",
   "cohort": {
-    "sameModelCount": 74,
-    "sameYearCount": 10,
+    "sameModelCount": 75,
+    "sameYearCount": 11,
     "refCohort": "model+year",
-    "refSize": 10
+    "refSize": 11
   },
-  "pricePercentile": 40,
+  "pricePercentile": 36,
   "pricePerKm": 7.132191480017567,
-  "pricePerKmPercentile": 30,
-  "kmPercentile": 70,
-  "daysListed": 121,
+  "pricePerKmPercentile": 27,
+  "kmPercentile": 73,
+  "daysListed": 122,
   "marginPct": 14.901477832512317,
   "marginTier": "low",
   "auctionHeat": "warm",
-  "dealTag": "fair",
+  "dealTag": "good",
   "bullets": [
     {
       "tone": "mid",
       "pipKey": "bullet.pip.mid",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 60,
-        "n": 10,
+        "pct": 64,
+        "n": 11,
         "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
@@ -32,16 +32,16 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 70,
+        "pct": 73,
         "ppkm": 7
       }
     },
     {
-      "tone": "mid",
-      "pipKey": "bullet.pip.km",
+      "tone": "hot",
+      "pipKey": "bullet.pip.highKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 30
+        "pct": 27
       }
     },
     {
@@ -61,23 +61,23 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 121
+        "n": 122
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 121
+        "n": 122
       }
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.fair",
+    "verdictKey": "summary.verdict.good",
     "cohortLineKey": "summary.cohortLine.yes",
     "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": null,
     "marginSuffixKey": "summary.suffix.marginLow",
     "args": {
-      "refSize": 10,
+      "refSize": 11,
       "year": "2022",
       "title": "Fiat Tipo"
     }
