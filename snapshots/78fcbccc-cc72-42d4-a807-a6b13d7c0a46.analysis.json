@@ -1,21 +1,21 @@
 {
   "vehicleId": "78fcbccc-cc72-42d4-a807-a6b13d7c0a46",
-  "computedAt": "2026-11-11T22:35:59.211Z",
+  "computedAt": "2026-11-12T13:31:04.792Z",
   "cohort": {
-    "sameModelCount": 21,
-    "sameYearCount": 16,
+    "sameModelCount": 22,
+    "sameYearCount": 17,
     "refCohort": "model+year",
-    "refSize": 16
+    "refSize": 17
   },
   "pricePercentile": 88,
   "pricePerKm": 10.852359208523593,
-  "pricePerKmPercentile": 50,
-  "kmPercentile": 50,
-  "daysListed": 59,
+  "pricePerKmPercentile": 53,
+  "kmPercentile": 47,
+  "daysListed": 60,
   "marginPct": null,
   "marginTier": null,
   "auctionHeat": "cold",
-  "dealTag": "fair",
+  "dealTag": "high",
   "bullets": [
     {
       "tone": "hot",
@@ -23,7 +23,7 @@
       "textKey": "bullet.priceCheaper",
       "textArgs": {
         "pct": 12,
-        "n": 16,
+        "n": 17,
         "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 50,
+        "pct": 47,
         "ppkm": 11
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 50
+        "pct": 53
       }
     },
     {
@@ -53,23 +53,23 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 59
+        "n": 60
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 59
+        "n": 60
       }
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.fair",
+    "verdictKey": "summary.verdict.high",
     "cohortLineKey": "summary.cohortLine.yes",
     "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 16,
+      "refSize": 17,
       "year": "2022",
       "title": "Suzuki Dzire"
     }

@@ -1,16 +1,16 @@
 {
   "vehicleId": "3e6ec545-c7bf-45b0-939f-67bc13653757",
-  "computedAt": "2026-11-11T22:35:51.625Z",
+  "computedAt": "2026-11-12T13:30:59.257Z",
   "cohort": {
-    "sameModelCount": 10,
-    "sameYearCount": 4,
+    "sameModelCount": 11,
+    "sameYearCount": 5,
     "refCohort": "model+year",
-    "refSize": 4
+    "refSize": 5
   },
   "pricePercentile": 0,
   "pricePerKm": 34.69023773592301,
-  "pricePerKmPercentile": 50,
-  "kmPercentile": 25,
+  "pricePerKmPercentile": 40,
+  "kmPercentile": 40,
   "daysListed": 54,
   "marginPct": null,
   "marginTier": null,
@@ -23,7 +23,7 @@
       "textKey": "bullet.priceCheaper",
       "textArgs": {
         "pct": 100,
-        "n": 4,
+        "n": 5,
         "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
@@ -32,16 +32,16 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 50,
+        "pct": 60,
         "ppkm": 35
       }
     },
     {
-      "tone": "good",
-      "pipKey": "bullet.pip.lowKm",
+      "tone": "mid",
+      "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 75
+        "pct": 60
       }
     },
     {
@@ -69,7 +69,7 @@
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 4,
+      "refSize": 5,
       "year": "2024",
       "title": "Peugeot 408"
     }

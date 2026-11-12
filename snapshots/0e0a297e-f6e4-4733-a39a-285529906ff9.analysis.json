@@ -1,29 +1,29 @@
 {
   "vehicleId": "0e0a297e-f6e4-4733-a39a-285529906ff9",
-  "computedAt": "2026-11-11T22:35:54.224Z",
+  "computedAt": "2026-11-12T13:31:01.120Z",
   "cohort": {
-    "sameModelCount": 20,
-    "sameYearCount": 5,
+    "sameModelCount": 21,
+    "sameYearCount": 6,
     "refCohort": "model+year",
-    "refSize": 5
+    "refSize": 6
   },
-  "pricePercentile": 40,
+  "pricePercentile": 33,
   "pricePerKm": 1.902151569138002,
   "pricePerKmPercentile": 0,
-  "kmPercentile": 80,
-  "daysListed": 62,
+  "kmPercentile": 83,
+  "daysListed": 63,
   "marginPct": null,
   "marginTier": null,
   "auctionHeat": "cold",
   "dealTag": "good",
   "bullets": [
     {
-      "tone": "mid",
-      "pipKey": "bullet.pip.mid",
+      "tone": "good",
+      "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 60,
-        "n": 5,
+        "pct": 67,
+        "n": 6,
         "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.highKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 20
+        "pct": 17
       }
     },
     {
@@ -53,11 +53,11 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 62
+        "n": 63
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 62
+        "n": 63
       }
     }
   ],
@@ -69,7 +69,7 @@
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 5,
+      "refSize": 6,
       "year": "2010",
       "title": "Kia Carens"
     }

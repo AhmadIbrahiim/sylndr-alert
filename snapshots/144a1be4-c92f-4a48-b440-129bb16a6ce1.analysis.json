@@ -1,16 +1,16 @@
 {
   "vehicleId": "144a1be4-c92f-4a48-b440-129bb16a6ce1",
-  "computedAt": "2026-11-11T22:35:58.160Z",
+  "computedAt": "2026-11-12T13:31:04.045Z",
   "cohort": {
-    "sameModelCount": 8,
-    "sameYearCount": 3,
-    "refCohort": "model",
-    "refSize": 8
+    "sameModelCount": 9,
+    "sameYearCount": 4,
+    "refCohort": "model+year",
+    "refSize": 4
   },
-  "pricePercentile": 13,
+  "pricePercentile": 25,
   "pricePerKm": 7.34657955189594,
-  "pricePerKmPercentile": 13,
-  "kmPercentile": 75,
+  "pricePerKmPercentile": 25,
+  "kmPercentile": 50,
   "daysListed": 8,
   "marginPct": null,
   "marginTier": null,
@@ -22,9 +22,9 @@
       "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 87,
-        "n": 8,
-        "kind": "detail.cohort.refSize.kind.model"
+        "pct": 75,
+        "n": 4,
+        "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
@@ -32,16 +32,16 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 87,
+        "pct": 75,
         "ppkm": 7
       }
     },
     {
-      "tone": "hot",
-      "pipKey": "bullet.pip.highKm",
+      "tone": "mid",
+      "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 25
+        "pct": 50
       }
     },
     {
@@ -53,12 +53,12 @@
   "summary": {
     "verdictKey": "summary.verdict.good",
     "cohortLineKey": "summary.cohortLine.yes",
-    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": null,
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 8,
+      "refSize": 4,
       "year": "2022",
       "title": "Haval H6"
     }

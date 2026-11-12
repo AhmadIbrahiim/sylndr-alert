@@ -1,22 +1,49 @@
 {
   "vehicleId": "3811ebfe-92ee-439e-a5e7-7f99b3bc3b5b",
-  "computedAt": "2026-11-11T22:35:51.259Z",
+  "computedAt": "2026-11-12T13:30:58.999Z",
   "cohort": {
-    "sameModelCount": 2,
+    "sameModelCount": 3,
     "sameYearCount": 1,
     "refCohort": "model",
-    "refSize": 2
+    "refSize": 3
   },
-  "pricePercentile": null,
+  "pricePercentile": 0,
   "pricePerKm": 17.657241777264858,
-  "pricePerKmPercentile": null,
-  "kmPercentile": null,
+  "pricePerKmPercentile": 67,
+  "kmPercentile": 0,
   "daysListed": 203,
   "marginPct": 5.620915032679739,
   "marginTier": "low",
   "auctionHeat": "hot",
-  "dealTag": "fair",
+  "dealTag": "good",
   "bullets": [
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.deal",
+      "textKey": "bullet.priceCheaper",
+      "textArgs": {
+        "pct": 100,
+        "n": 3,
+        "kind": "detail.cohort.refSize.kind.model"
+      }
+    },
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.value",
+      "textKey": "bullet.ppkmBetter",
+      "textArgs": {
+        "pct": 33,
+        "ppkm": 18
+      }
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.lowKm",
+      "textKey": "bullet.kmLower",
+      "textArgs": {
+        "pct": 100
+      }
+    },
     {
       "tone": "good",
       "pipKey": "bullet.pip.marginPct",
@@ -43,14 +70,14 @@
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.fair",
+    "verdictKey": "summary.verdict.good",
     "cohortLineKey": "summary.cohortLine.yes",
     "cohortKindKey": "detail.cohort.refSize.kind.model",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": "summary.suffix.marginLow",
     "args": {
-      "refSize": 2,
+      "refSize": 3,
       "year": "2021",
       "title": "Honda CR-V"
     }

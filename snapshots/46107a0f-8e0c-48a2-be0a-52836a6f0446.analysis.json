@@ -1,22 +1,49 @@
 {
   "vehicleId": "46107a0f-8e0c-48a2-be0a-52836a6f0446",
-  "computedAt": "2026-11-11T22:35:56.795Z",
+  "computedAt": "2026-11-12T13:31:03.123Z",
   "cohort": {
-    "sameModelCount": 2,
-    "sameYearCount": 1,
+    "sameModelCount": 3,
+    "sameYearCount": 2,
     "refCohort": "model",
-    "refSize": 2
+    "refSize": 3
   },
-  "pricePercentile": null,
+  "pricePercentile": 67,
   "pricePerKm": 17.563756435862178,
-  "pricePerKmPercentile": null,
-  "kmPercentile": null,
+  "pricePerKmPercentile": 33,
+  "kmPercentile": 33,
   "daysListed": 55,
   "marginPct": null,
   "marginTier": null,
   "auctionHeat": "cold",
   "dealTag": "fair",
   "bullets": [
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.mid",
+      "textKey": "bullet.priceCheaper",
+      "textArgs": {
+        "pct": 33,
+        "n": 3,
+        "kind": "detail.cohort.refSize.kind.model"
+      }
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.value",
+      "textKey": "bullet.ppkmBetter",
+      "textArgs": {
+        "pct": 67,
+        "ppkm": 18
+      }
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.lowKm",
+      "textKey": "bullet.kmLower",
+      "textArgs": {
+        "pct": 67
+      }
+    },
     {
       "tone": "neutral",
       "pipKey": "bullet.pip.cold",
@@ -42,7 +69,7 @@
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 2,
+      "refSize": 3,
       "year": "2022",
       "title": "Honda CR-V"
     }

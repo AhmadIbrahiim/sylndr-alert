@@ -1,16 +1,16 @@
 {
   "vehicleId": "8ba391d1-d79b-4bc8-a5aa-f4ac50bcf8fe",
-  "computedAt": "2026-11-11T22:36:00.635Z",
+  "computedAt": "2026-11-12T13:31:05.774Z",
   "cohort": {
-    "sameModelCount": 3,
-    "sameYearCount": 3,
-    "refCohort": "model",
-    "refSize": 3
+    "sameModelCount": 4,
+    "sameYearCount": 4,
+    "refCohort": "model+year",
+    "refSize": 4
   },
   "pricePercentile": 0,
   "pricePerKm": 1.452513966480447,
-  "pricePerKmPercentile": 33,
-  "kmPercentile": 33,
+  "pricePerKmPercentile": 25,
+  "kmPercentile": 50,
   "daysListed": 58,
   "marginPct": null,
   "marginTier": null,
@@ -23,8 +23,8 @@
       "textKey": "bullet.priceCheaper",
       "textArgs": {
         "pct": 100,
-        "n": 3,
-        "kind": "detail.cohort.refSize.kind.model"
+        "n": 4,
+        "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
@@ -32,16 +32,16 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 67,
+        "pct": 75,
         "ppkm": 1
       }
     },
     {
-      "tone": "good",
-      "pipKey": "bullet.pip.lowKm",
+      "tone": "mid",
+      "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 67
+        "pct": 50
       }
     },
     {
@@ -64,12 +64,12 @@
   "summary": {
     "verdictKey": "summary.verdict.good",
     "cohortLineKey": "summary.cohortLine.yes",
-    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 3,
+      "refSize": 4,
       "year": "2008",
       "title": "Opel Vectra"
     }

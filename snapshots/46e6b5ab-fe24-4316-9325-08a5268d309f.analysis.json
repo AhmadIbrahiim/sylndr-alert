@@ -1,22 +1,49 @@
 {
   "vehicleId": "46e6b5ab-fe24-4316-9325-08a5268d309f",
-  "computedAt": "2026-11-11T22:35:51.967Z",
+  "computedAt": "2026-11-12T13:30:59.495Z",
   "cohort": {
-    "sameModelCount": 2,
+    "sameModelCount": 3,
     "sameYearCount": 1,
     "refCohort": "model",
-    "refSize": 2
+    "refSize": 3
   },
-  "pricePercentile": null,
+  "pricePercentile": 67,
   "pricePerKm": 635.1952545724172,
-  "pricePerKmPercentile": null,
-  "kmPercentile": null,
+  "pricePerKmPercentile": 67,
+  "kmPercentile": 0,
   "daysListed": 22,
   "marginPct": null,
   "marginTier": null,
   "auctionHeat": "cold",
   "dealTag": "fair",
   "bullets": [
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.mid",
+      "textKey": "bullet.priceCheaper",
+      "textArgs": {
+        "pct": 33,
+        "n": 3,
+        "kind": "detail.cohort.refSize.kind.model"
+      }
+    },
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.value",
+      "textKey": "bullet.ppkmBetter",
+      "textArgs": {
+        "pct": 33,
+        "ppkm": 635
+      }
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.lowKm",
+      "textKey": "bullet.kmLower",
+      "textArgs": {
+        "pct": 100
+      }
+    },
     {
       "tone": "neutral",
       "pipKey": "bullet.pip.cold",
@@ -42,7 +69,7 @@
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 2,
+      "refSize": 3,
       "year": "2026",
       "title": "Changan UNI-V"
     }
