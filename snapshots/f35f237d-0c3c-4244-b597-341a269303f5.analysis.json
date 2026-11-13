@@ -1,0 +1,71 @@
+{
+  "vehicleId": "f35f237d-0c3c-4244-b597-341a269303f5",
+  "computedAt": "2026-11-13T21:53:52.097Z",
+  "cohort": {
+    "sameModelCount": 52,
+    "sameYearCount": 7,
+    "refCohort": "model+year",
+    "refSize": 7
+  },
+  "pricePercentile": 43,
+  "pricePerKm": 31.23990862446329,
+  "pricePerKmPercentile": 29,
+  "kmPercentile": 57,
+  "daysListed": 0,
+  "marginPct": null,
+  "marginTier": null,
+  "auctionHeat": "cold",
+  "dealTag": "fair",
+  "bullets": [
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.mid",
+      "textKey": "bullet.priceCheaper",
+      "textArgs": {
+        "pct": 57,
+        "n": 7,
+        "kind": "detail.cohort.refSize.kind.modelYear"
+      }
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.value",
+      "textKey": "bullet.ppkmBetter",
+      "textArgs": {
+        "pct": 71,
+        "ppkm": 31
+      }
+    },
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.km",
+      "textKey": "bullet.kmLower",
+      "textArgs": {
+        "pct": 43
+      }
+    },
+    {
+      "tone": "neutral",
+      "pipKey": "bullet.pip.cold",
+      "textKey": "bullet.auctionCold"
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.fresh",
+      "textKey": "bullet.listedFresh"
+    }
+  ],
+  "summary": {
+    "verdictKey": "summary.verdict.fair",
+    "cohortLineKey": "summary.cohortLine.yes",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
+    "ageSuffixKey": "summary.suffix.ageFresh",
+    "heatSuffixKey": null,
+    "marginSuffixKey": null,
+    "args": {
+      "refSize": 7,
+      "year": "2024",
+      "title": "BMW 320i"
+    }
+  }
+}
