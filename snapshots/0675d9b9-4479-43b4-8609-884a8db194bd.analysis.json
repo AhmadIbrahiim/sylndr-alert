@@ -1,22 +1,49 @@
 {
   "vehicleId": "0675d9b9-4479-43b4-8609-884a8db194bd",
-  "computedAt": "2026-11-12T22:14:35.777Z",
+  "computedAt": "2026-11-13T12:50:44.995Z",
   "cohort": {
-    "sameModelCount": 2,
-    "sameYearCount": 1,
+    "sameModelCount": 3,
+    "sameYearCount": 2,
     "refCohort": "model",
-    "refSize": 2
+    "refSize": 3
   },
-  "pricePercentile": null,
+  "pricePercentile": 0,
   "pricePerKm": 1.6074298981961064,
-  "pricePerKmPercentile": null,
-  "kmPercentile": null,
-  "daysListed": 102,
+  "pricePerKmPercentile": 33,
+  "kmPercentile": 33,
+  "daysListed": 103,
   "marginPct": null,
   "marginTier": null,
   "auctionHeat": "cold",
-  "dealTag": "fair",
+  "dealTag": "good",
   "bullets": [
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.deal",
+      "textKey": "bullet.priceCheaper",
+      "textArgs": {
+        "pct": 100,
+        "n": 3,
+        "kind": "detail.cohort.refSize.kind.model"
+      }
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.value",
+      "textKey": "bullet.ppkmBetter",
+      "textArgs": {
+        "pct": 67,
+        "ppkm": 2
+      }
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.lowKm",
+      "textKey": "bullet.kmLower",
+      "textArgs": {
+        "pct": 67
+      }
+    },
     {
       "tone": "neutral",
       "pipKey": "bullet.pip.cold",
@@ -26,23 +53,23 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 102
+        "n": 103
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 102
+        "n": 103
       }
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.fair",
+    "verdictKey": "summary.verdict.good",
     "cohortLineKey": "summary.cohortLine.yes",
     "cohortKindKey": "detail.cohort.refSize.kind.model",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 2,
+      "refSize": 3,
       "year": "2008",
       "title": "Daihatsu Terios"
     }
