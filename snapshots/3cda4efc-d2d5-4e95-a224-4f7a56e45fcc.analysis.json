@@ -1,29 +1,29 @@
 {
   "vehicleId": "3cda4efc-d2d5-4e95-a224-4f7a56e45fcc",
-  "computedAt": "2026-11-14T17:38:07.598Z",
+  "computedAt": "2026-11-14T20:34:10.827Z",
   "cohort": {
-    "sameModelCount": 39,
+    "sameModelCount": 40,
     "sameYearCount": 3,
     "refCohort": "model",
-    "refSize": 39
+    "refSize": 40
   },
-  "pricePercentile": 82,
+  "pricePercentile": 83,
   "pricePerKm": 30.895027624309392,
-  "pricePerKmPercentile": 77,
+  "pricePerKmPercentile": 78,
   "kmPercentile": 15,
-  "daysListed": 220,
+  "daysListed": 221,
   "marginPct": 18.741058655221746,
   "marginTier": "mid",
   "auctionHeat": "hot",
-  "dealTag": "fair",
+  "dealTag": "high",
   "bullets": [
     {
       "tone": "hot",
       "pipKey": "bullet.pip.high",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 18,
-        "n": 39,
+        "pct": 17,
+        "n": 40,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.pricey",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 23,
+        "pct": 22,
         "ppkm": 31
       }
     },
@@ -61,23 +61,23 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 220
+        "n": 221
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 220
+        "n": 221
       }
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.fair",
+    "verdictKey": "summary.verdict.high",
     "cohortLineKey": "summary.cohortLine.yes",
     "cohortKindKey": "detail.cohort.refSize.kind.model",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": null,
     "args": {
-      "refSize": 39,
+      "refSize": 40,
       "year": "2023",
       "title": "Citroen C5 Aircross"
     }

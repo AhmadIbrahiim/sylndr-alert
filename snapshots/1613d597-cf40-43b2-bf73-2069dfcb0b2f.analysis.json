@@ -1,16 +1,16 @@
 {
   "vehicleId": "1613d597-cf40-43b2-bf73-2069dfcb0b2f",
-  "computedAt": "2026-11-14T17:38:07.031Z",
+  "computedAt": "2026-11-14T20:34:10.094Z",
   "cohort": {
-    "sameModelCount": 8,
+    "sameModelCount": 9,
     "sameYearCount": 3,
     "refCohort": "model",
-    "refSize": 8
+    "refSize": 9
   },
-  "pricePercentile": 38,
+  "pricePercentile": 33,
   "pricePerKm": 34.02537485582468,
-  "pricePerKmPercentile": 38,
-  "kmPercentile": 38,
+  "pricePerKmPercentile": 33,
+  "kmPercentile": 44,
   "daysListed": 66,
   "marginPct": null,
   "marginTier": null,
@@ -18,21 +18,21 @@
   "dealTag": "good",
   "bullets": [
     {
-      "tone": "mid",
-      "pipKey": "bullet.pip.mid",
+      "tone": "good",
+      "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 62,
-        "n": 8,
+        "pct": 67,
+        "n": 9,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
     {
-      "tone": "mid",
+      "tone": "good",
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 62,
+        "pct": 67,
         "ppkm": 34
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 62
+        "pct": 56
       }
     },
     {
@@ -69,7 +69,7 @@
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 8,
+      "refSize": 9,
       "year": "2020",
       "title": "BMW X4"
     }
