@@ -1,30 +1,30 @@
 {
   "vehicleId": "1807d77a-76fb-4db2-9f2c-8f4ffc230a0a",
-  "computedAt": "2026-11-14T20:34:08.380Z",
+  "computedAt": "2026-11-15T12:28:15.785Z",
   "cohort": {
-    "sameModelCount": 88,
-    "sameYearCount": 3,
-    "refCohort": "model",
-    "refSize": 88
+    "sameModelCount": 89,
+    "sameYearCount": 4,
+    "refCohort": "model+year",
+    "refSize": 4
   },
-  "pricePercentile": 98,
+  "pricePercentile": 50,
   "pricePerKm": 80.88690108007803,
-  "pricePerKmPercentile": 99,
-  "kmPercentile": 1,
-  "daysListed": 49,
+  "pricePerKmPercentile": 75,
+  "kmPercentile": 25,
+  "daysListed": 50,
   "marginPct": null,
   "marginTier": null,
   "auctionHeat": "cold",
-  "dealTag": "high",
+  "dealTag": "fair",
   "bullets": [
     {
-      "tone": "hot",
-      "pipKey": "bullet.pip.high",
+      "tone": "mid",
+      "pipKey": "bullet.pip.mid",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 2,
-        "n": 88,
-        "kind": "detail.cohort.refSize.kind.model"
+        "pct": 50,
+        "n": 4,
+        "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.pricey",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 1,
+        "pct": 25,
         "ppkm": 81
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.lowKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 99
+        "pct": 75
       }
     },
     {
@@ -53,23 +53,23 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 49
+        "n": 50
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 49
+        "n": 50
       }
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.high",
+    "verdictKey": "summary.verdict.fair",
     "cohortLineKey": "summary.cohortLine.yes",
-    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 88,
+      "refSize": 4,
       "year": "2025",
       "title": "Nissan Qashqai"
     }

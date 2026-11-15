@@ -1,38 +1,38 @@
 {
   "vehicleId": "f5e6a3a4-e32a-4a87-bfd4-09051d9b4bdd",
-  "computedAt": "2026-11-14T20:34:08.775Z",
+  "computedAt": "2026-11-15T12:28:16.251Z",
   "cohort": {
-    "sameModelCount": 43,
-    "sameYearCount": 10,
+    "sameModelCount": 45,
+    "sameYearCount": 11,
     "refCohort": "model+year",
-    "refSize": 10
+    "refSize": 11
   },
-  "pricePercentile": 70,
+  "pricePercentile": 73,
   "pricePerKm": 17.121116043119848,
-  "pricePerKmPercentile": 70,
-  "kmPercentile": 20,
-  "daysListed": 133,
+  "pricePerKmPercentile": 73,
+  "kmPercentile": 18,
+  "daysListed": 134,
   "marginPct": 14.74074074074074,
   "marginTier": "low",
   "auctionHeat": "warm",
   "dealTag": "fair",
   "bullets": [
     {
-      "tone": "mid",
-      "pipKey": "bullet.pip.mid",
+      "tone": "hot",
+      "pipKey": "bullet.pip.high",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 30,
-        "n": 10,
+        "pct": 27,
+        "n": 11,
         "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
-      "tone": "mid",
-      "pipKey": "bullet.pip.value",
+      "tone": "hot",
+      "pipKey": "bullet.pip.pricey",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 30,
+        "pct": 27,
         "ppkm": 17
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.lowKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 80
+        "pct": 82
       }
     },
     {
@@ -61,11 +61,11 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 133
+        "n": 134
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 133
+        "n": 134
       }
     }
   ],
@@ -77,7 +77,7 @@
     "heatSuffixKey": null,
     "marginSuffixKey": "summary.suffix.marginLow",
     "args": {
-      "refSize": 10,
+      "refSize": 11,
       "year": "2020",
       "title": "Peugeot 508"
     }

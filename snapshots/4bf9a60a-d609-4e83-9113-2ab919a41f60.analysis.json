@@ -1,38 +1,38 @@
 {
   "vehicleId": "4bf9a60a-d609-4e83-9113-2ab919a41f60",
-  "computedAt": "2026-11-14T20:34:05.119Z",
+  "computedAt": "2026-11-15T12:28:12.143Z",
   "cohort": {
-    "sameModelCount": 88,
-    "sameYearCount": 3,
-    "refCohort": "model",
-    "refSize": 88
+    "sameModelCount": 89,
+    "sameYearCount": 4,
+    "refCohort": "model+year",
+    "refSize": 4
   },
-  "pricePercentile": 97,
+  "pricePercentile": 25,
   "pricePerKm": 79.72855721393034,
-  "pricePerKmPercentile": 98,
+  "pricePerKmPercentile": 50,
   "kmPercentile": 0,
-  "daysListed": 223,
+  "daysListed": 224,
   "marginPct": 22.061422338481815,
   "marginTier": "mid",
   "auctionHeat": "hot",
-  "dealTag": "high",
+  "dealTag": "good",
   "bullets": [
     {
-      "tone": "hot",
-      "pipKey": "bullet.pip.high",
+      "tone": "good",
+      "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 3,
-        "n": 88,
-        "kind": "detail.cohort.refSize.kind.model"
+        "pct": 75,
+        "n": 4,
+        "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
-      "tone": "hot",
-      "pipKey": "bullet.pip.pricey",
+      "tone": "mid",
+      "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 2,
+        "pct": 50,
         "ppkm": 80
       }
     },
@@ -61,23 +61,23 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 223
+        "n": 224
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 223
+        "n": 224
       }
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.high",
+    "verdictKey": "summary.verdict.good",
     "cohortLineKey": "summary.cohortLine.yes",
-    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": null,
     "args": {
-      "refSize": 88,
+      "refSize": 4,
       "year": "2025",
       "title": "Nissan Qashqai"
     }

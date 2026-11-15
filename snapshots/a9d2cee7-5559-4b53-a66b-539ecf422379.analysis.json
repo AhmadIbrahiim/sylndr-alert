@@ -1,47 +1,47 @@
 {
   "vehicleId": "a9d2cee7-5559-4b53-a66b-539ecf422379",
-  "computedAt": "2026-11-14T20:34:05.640Z",
+  "computedAt": "2026-11-15T12:28:12.723Z",
   "cohort": {
-    "sameModelCount": 40,
-    "sameYearCount": 3,
-    "refCohort": "model",
-    "refSize": 40
+    "sameModelCount": 41,
+    "sameYearCount": 4,
+    "refCohort": "model+year",
+    "refSize": 4
   },
-  "pricePercentile": 65,
+  "pricePercentile": 25,
   "pricePerKm": 9.726753060186155,
-  "pricePerKmPercentile": 53,
-  "kmPercentile": 63,
-  "daysListed": 19,
+  "pricePerKmPercentile": 0,
+  "kmPercentile": 75,
+  "daysListed": 20,
   "marginPct": null,
   "marginTier": null,
   "auctionHeat": "cold",
-  "dealTag": "fair",
+  "dealTag": "good",
   "bullets": [
     {
-      "tone": "mid",
-      "pipKey": "bullet.pip.mid",
+      "tone": "good",
+      "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 35,
-        "n": 40,
-        "kind": "detail.cohort.refSize.kind.model"
+        "pct": 75,
+        "n": 4,
+        "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
-      "tone": "mid",
+      "tone": "good",
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 47,
+        "pct": 100,
         "ppkm": 10
       }
     },
     {
-      "tone": "mid",
-      "pipKey": "bullet.pip.km",
+      "tone": "hot",
+      "pipKey": "bullet.pip.highKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 37
+        "pct": 25
       }
     },
     {
@@ -53,23 +53,23 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 19
+        "n": 20
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 19
+        "n": 20
       }
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.fair",
+    "verdictKey": "summary.verdict.good",
     "cohortLineKey": "summary.cohortLine.yes",
-    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": null,
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 40,
+      "refSize": 4,
       "year": "2023",
       "title": "Citroen C5 Aircross"
     }
