@@ -1,0 +1,71 @@
+{
+  "vehicleId": "e5027a2b-f520-41ee-9bf1-5c150b0e9bd1",
+  "computedAt": "2026-11-15T19:02:19.666Z",
+  "cohort": {
+    "sameModelCount": 45,
+    "sameYearCount": 1,
+    "refCohort": "model",
+    "refSize": 45
+  },
+  "pricePercentile": 31,
+  "pricePerKm": 4.6987775475462366,
+  "pricePerKmPercentile": 22,
+  "kmPercentile": 78,
+  "daysListed": 0,
+  "marginPct": null,
+  "marginTier": null,
+  "auctionHeat": "cold",
+  "dealTag": "good",
+  "bullets": [
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.deal",
+      "textKey": "bullet.priceCheaper",
+      "textArgs": {
+        "pct": 69,
+        "n": 45,
+        "kind": "detail.cohort.refSize.kind.model"
+      }
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.value",
+      "textKey": "bullet.ppkmBetter",
+      "textArgs": {
+        "pct": 78,
+        "ppkm": 5
+      }
+    },
+    {
+      "tone": "hot",
+      "pipKey": "bullet.pip.highKm",
+      "textKey": "bullet.kmLower",
+      "textArgs": {
+        "pct": 22
+      }
+    },
+    {
+      "tone": "neutral",
+      "pipKey": "bullet.pip.cold",
+      "textKey": "bullet.auctionCold"
+    },
+    {
+      "tone": "good",
+      "pipKey": "bullet.pip.fresh",
+      "textKey": "bullet.listedFresh"
+    }
+  ],
+  "summary": {
+    "verdictKey": "summary.verdict.good",
+    "cohortLineKey": "summary.cohortLine.yes",
+    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "ageSuffixKey": "summary.suffix.ageFresh",
+    "heatSuffixKey": null,
+    "marginSuffixKey": null,
+    "args": {
+      "refSize": 45,
+      "year": "2014",
+      "title": "BMW X3"
+    }
+  }
+}

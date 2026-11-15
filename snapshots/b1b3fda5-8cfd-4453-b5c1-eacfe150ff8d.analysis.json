@@ -1,17 +1,17 @@
 {
   "vehicleId": "b1b3fda5-8cfd-4453-b5c1-eacfe150ff8d",
-  "computedAt": "2026-11-15T12:28:16.755Z",
+  "computedAt": "2026-11-15T19:02:21.597Z",
   "cohort": {
-    "sameModelCount": 16,
-    "sameYearCount": 4,
+    "sameModelCount": 17,
+    "sameYearCount": 5,
     "refCohort": "model+year",
-    "refSize": 4
+    "refSize": 5
   },
-  "pricePercentile": 50,
+  "pricePercentile": 60,
   "pricePerKm": 2.326565143824027,
-  "pricePerKmPercentile": 25,
-  "kmPercentile": 75,
-  "daysListed": 67,
+  "pricePerKmPercentile": 20,
+  "kmPercentile": 80,
+  "daysListed": 68,
   "marginPct": null,
   "marginTier": null,
   "auctionHeat": "cold",
@@ -22,8 +22,8 @@
       "pipKey": "bullet.pip.mid",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 50,
-        "n": 4,
+        "pct": 40,
+        "n": 5,
         "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 75,
+        "pct": 80,
         "ppkm": 2
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.highKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 25
+        "pct": 20
       }
     },
     {
@@ -53,11 +53,11 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 67
+        "n": 68
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 67
+        "n": 68
       }
     }
   ],
@@ -69,7 +69,7 @@
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 4,
+      "refSize": 5,
       "year": "2016",
       "title": "Chevrolet Cruze"
     }
