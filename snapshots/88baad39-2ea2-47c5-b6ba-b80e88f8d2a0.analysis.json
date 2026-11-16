@@ -1,17 +1,17 @@
 {
   "vehicleId": "88baad39-2ea2-47c5-b6ba-b80e88f8d2a0",
-  "computedAt": "2026-11-16T13:20:53.769Z",
+  "computedAt": "2026-11-16T22:58:56.859Z",
   "cohort": {
-    "sameModelCount": 10,
-    "sameYearCount": 2,
+    "sameModelCount": 11,
+    "sameYearCount": 3,
     "refCohort": "model",
-    "refSize": 10
+    "refSize": 11
   },
-  "pricePercentile": 80,
+  "pricePercentile": 82,
   "pricePerKm": 14.146139047116074,
-  "pricePerKmPercentile": 70,
-  "kmPercentile": 20,
-  "daysListed": 16,
+  "pricePerKmPercentile": 73,
+  "kmPercentile": 18,
+  "daysListed": 17,
   "marginPct": null,
   "marginTier": null,
   "auctionHeat": "cold",
@@ -22,17 +22,17 @@
       "pipKey": "bullet.pip.high",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 20,
-        "n": 10,
+        "pct": 18,
+        "n": 11,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
     {
-      "tone": "mid",
-      "pipKey": "bullet.pip.value",
+      "tone": "hot",
+      "pipKey": "bullet.pip.pricey",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 30,
+        "pct": 27,
         "ppkm": 14
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.lowKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 80
+        "pct": 82
       }
     },
     {
@@ -53,11 +53,11 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 16
+        "n": 17
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 16
+        "n": 17
       }
     }
   ],
@@ -69,7 +69,7 @@
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 10,
+      "refSize": 11,
       "year": "2022",
       "title": "Hyundai I10"
     }

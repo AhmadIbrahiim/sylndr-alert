@@ -1,17 +1,17 @@
 {
   "vehicleId": "e737e39c-a48a-4087-bdf1-987be9b9ec0b",
-  "computedAt": "2026-11-16T13:20:54.873Z",
+  "computedAt": "2026-11-16T22:58:58.172Z",
   "cohort": {
-    "sameModelCount": 38,
-    "sameYearCount": 7,
+    "sameModelCount": 39,
+    "sameYearCount": 8,
     "refCohort": "model+year",
-    "refSize": 7
+    "refSize": 8
   },
-  "pricePercentile": 43,
+  "pricePercentile": 50,
   "pricePerKm": 2.6389843753336093,
-  "pricePerKmPercentile": 14,
-  "kmPercentile": 71,
-  "daysListed": 13,
+  "pricePerKmPercentile": 13,
+  "kmPercentile": 75,
+  "daysListed": 14,
   "marginPct": null,
   "marginTier": null,
   "auctionHeat": "cold",
@@ -22,8 +22,8 @@
       "pipKey": "bullet.pip.mid",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 57,
-        "n": 7,
+        "pct": 50,
+        "n": 8,
         "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 86,
+        "pct": 87,
         "ppkm": 3
       }
     },
@@ -41,13 +41,24 @@
       "pipKey": "bullet.pip.highKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 29
+        "pct": 25
       }
     },
     {
       "tone": "neutral",
       "pipKey": "bullet.pip.cold",
       "textKey": "bullet.auctionCold"
+    },
+    {
+      "tone": "neutral",
+      "pipKey": "bullet.pip.daysListed",
+      "pipArgs": {
+        "n": 14
+      },
+      "textKey": "bullet.listedOld",
+      "textArgs": {
+        "n": 14
+      }
     }
   ],
   "summary": {
@@ -58,7 +69,7 @@
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 7,
+      "refSize": 8,
       "year": "2017",
       "title": "Nissan Sentra"
     }

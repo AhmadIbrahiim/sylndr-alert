@@ -1,29 +1,29 @@
 {
   "vehicleId": "090eb4a0-403a-474b-b3f1-57166bf3f1b5",
-  "computedAt": "2026-11-16T13:20:52.297Z",
+  "computedAt": "2026-11-16T22:58:55.047Z",
   "cohort": {
-    "sameModelCount": 20,
-    "sameYearCount": 2,
+    "sameModelCount": 21,
+    "sameYearCount": 3,
     "refCohort": "model",
-    "refSize": 20
+    "refSize": 21
   },
-  "pricePercentile": 65,
+  "pricePercentile": 67,
   "pricePerKm": 1062.5,
   "pricePerKmPercentile": 95,
   "kmPercentile": 0,
-  "daysListed": 83,
+  "daysListed": 84,
   "marginPct": null,
   "marginTier": null,
   "auctionHeat": "cold",
-  "dealTag": "fair",
+  "dealTag": "high",
   "bullets": [
     {
       "tone": "mid",
       "pipKey": "bullet.pip.mid",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 35,
-        "n": 20,
+        "pct": 33,
+        "n": 21,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -53,23 +53,23 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 83
+        "n": 84
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 83
+        "n": 84
       }
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.fair",
+    "verdictKey": "summary.verdict.high",
     "cohortLineKey": "summary.cohortLine.yes",
     "cohortKindKey": "detail.cohort.refSize.kind.model",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 20,
+      "refSize": 21,
       "year": "2023",
       "title": "Mercedes-Benz CLA 200"
     }

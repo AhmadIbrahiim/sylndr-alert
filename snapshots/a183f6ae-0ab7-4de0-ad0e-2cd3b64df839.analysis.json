@@ -1,21 +1,21 @@
 {
   "vehicleId": "a183f6ae-0ab7-4de0-ad0e-2cd3b64df839",
-  "computedAt": "2026-11-16T13:20:55.659Z",
+  "computedAt": "2026-11-16T22:58:59.138Z",
   "cohort": {
-    "sameModelCount": 61,
-    "sameYearCount": 18,
+    "sameModelCount": 62,
+    "sameYearCount": 19,
     "refCohort": "model+year",
-    "refSize": 18
+    "refSize": 19
   },
   "pricePercentile": 89,
   "pricePerKm": 9.63888888888889,
-  "pricePerKmPercentile": 50,
-  "kmPercentile": 50,
-  "daysListed": 204,
+  "pricePerKmPercentile": 53,
+  "kmPercentile": 47,
+  "daysListed": 205,
   "marginPct": 36.887608069164266,
   "marginTier": "high",
   "auctionHeat": "warm",
-  "dealTag": "fair",
+  "dealTag": "high",
   "bullets": [
     {
       "tone": "hot",
@@ -23,7 +23,7 @@
       "textKey": "bullet.priceCheaper",
       "textArgs": {
         "pct": 11,
-        "n": 18,
+        "n": 19,
         "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 50,
+        "pct": 47,
         "ppkm": 10
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 50
+        "pct": 53
       }
     },
     {
@@ -61,23 +61,23 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 204
+        "n": 205
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 204
+        "n": 205
       }
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.fair",
+    "verdictKey": "summary.verdict.high",
     "cohortLineKey": "summary.cohortLine.yes",
     "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": null,
     "marginSuffixKey": "summary.suffix.marginHigh",
     "args": {
-      "refSize": 18,
+      "refSize": 19,
       "year": "2018",
       "title": "BMW 318i"
     }

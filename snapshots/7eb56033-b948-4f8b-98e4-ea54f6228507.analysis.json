@@ -1,29 +1,29 @@
 {
   "vehicleId": "7eb56033-b948-4f8b-98e4-ea54f6228507",
-  "computedAt": "2026-11-16T13:20:51.676Z",
+  "computedAt": "2026-11-16T22:58:54.279Z",
   "cohort": {
-    "sameModelCount": 89,
-    "sameYearCount": 12,
+    "sameModelCount": 91,
+    "sameYearCount": 13,
     "refCohort": "model+year",
-    "refSize": 12
+    "refSize": 13
   },
-  "pricePercentile": 50,
+  "pricePercentile": 54,
   "pricePerKm": 2.849336455893833,
-  "pricePerKmPercentile": 17,
-  "kmPercentile": 83,
-  "daysListed": 85,
+  "pricePerKmPercentile": 23,
+  "kmPercentile": 85,
+  "daysListed": 86,
   "marginPct": null,
   "marginTier": null,
   "auctionHeat": "cold",
-  "dealTag": "good",
+  "dealTag": "fair",
   "bullets": [
     {
       "tone": "mid",
       "pipKey": "bullet.pip.mid",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 50,
-        "n": 12,
+        "pct": 46,
+        "n": 13,
         "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 83,
+        "pct": 77,
         "ppkm": 3
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.highKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 17
+        "pct": 15
       }
     },
     {
@@ -53,23 +53,23 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 85
+        "n": 86
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 85
+        "n": 86
       }
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.good",
+    "verdictKey": "summary.verdict.fair",
     "cohortLineKey": "summary.cohortLine.yes",
     "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 12,
+      "refSize": 13,
       "year": "2017",
       "title": "Nissan Qashqai"
     }
