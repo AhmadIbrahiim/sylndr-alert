@@ -1,47 +1,47 @@
 {
   "vehicleId": "3b2abf0d-5974-40a6-83e6-5216eaa5bdac",
-  "computedAt": "2026-11-17T00:08:23.212Z",
+  "computedAt": "2026-11-17T14:04:53.260Z",
   "cohort": {
-    "sameModelCount": 25,
-    "sameYearCount": 3,
-    "refCohort": "model",
-    "refSize": 25
+    "sameModelCount": 26,
+    "sameYearCount": 4,
+    "refCohort": "model+year",
+    "refSize": 4
   },
-  "pricePercentile": 64,
+  "pricePercentile": 25,
   "pricePerKm": 9.085051546391753,
-  "pricePerKmPercentile": 72,
-  "kmPercentile": 24,
+  "pricePerKmPercentile": 25,
+  "kmPercentile": 50,
   "daysListed": 108,
   "marginPct": null,
   "marginTier": null,
   "auctionHeat": "cold",
-  "dealTag": "fair",
+  "dealTag": "good",
   "bullets": [
     {
-      "tone": "mid",
-      "pipKey": "bullet.pip.mid",
+      "tone": "good",
+      "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 36,
-        "n": 25,
-        "kind": "detail.cohort.refSize.kind.model"
-      }
-    },
-    {
-      "tone": "hot",
-      "pipKey": "bullet.pip.pricey",
-      "textKey": "bullet.ppkmBetter",
-      "textArgs": {
-        "pct": 28,
-        "ppkm": 9
+        "pct": 75,
+        "n": 4,
+        "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
       "tone": "good",
-      "pipKey": "bullet.pip.lowKm",
+      "pipKey": "bullet.pip.value",
+      "textKey": "bullet.ppkmBetter",
+      "textArgs": {
+        "pct": 75,
+        "ppkm": 9
+      }
+    },
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 76
+        "pct": 50
       }
     },
     {
@@ -62,14 +62,14 @@
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.fair",
+    "verdictKey": "summary.verdict.good",
     "cohortLineKey": "summary.cohortLine.yes",
-    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 25,
+      "refSize": 4,
       "year": "2023",
       "title": "Chery Tiggo 3"
     }
