@@ -1,17 +1,17 @@
 {
   "vehicleId": "8a8bef50-884a-4b54-8cca-4356c2862aae",
-  "computedAt": "2026-11-17T14:04:55.100Z",
+  "computedAt": "2026-11-17T22:21:20.883Z",
   "cohort": {
-    "sameModelCount": 48,
+    "sameModelCount": 49,
     "sameYearCount": 3,
     "refCohort": "model",
-    "refSize": 48
+    "refSize": 49
   },
-  "pricePercentile": 48,
+  "pricePercentile": 47,
   "pricePerKm": 6.625535665440841,
-  "pricePerKmPercentile": 50,
-  "kmPercentile": 46,
-  "daysListed": 13,
+  "pricePerKmPercentile": 49,
+  "kmPercentile": 47,
+  "daysListed": 14,
   "marginPct": null,
   "marginTier": null,
   "auctionHeat": "cold",
@@ -22,8 +22,8 @@
       "pipKey": "bullet.pip.mid",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 52,
-        "n": 48,
+        "pct": 53,
+        "n": 49,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 50,
+        "pct": 51,
         "ppkm": 7
       }
     },
@@ -41,13 +41,24 @@
       "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 54
+        "pct": 53
       }
     },
     {
       "tone": "neutral",
       "pipKey": "bullet.pip.cold",
       "textKey": "bullet.auctionCold"
+    },
+    {
+      "tone": "neutral",
+      "pipKey": "bullet.pip.daysListed",
+      "pipArgs": {
+        "n": 14
+      },
+      "textKey": "bullet.listedOld",
+      "textArgs": {
+        "n": 14
+      }
     }
   ],
   "summary": {
@@ -58,7 +69,7 @@
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 48,
+      "refSize": 49,
       "year": "2017",
       "title": "Volkswagen Passat"
     }
