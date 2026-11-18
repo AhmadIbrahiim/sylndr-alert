@@ -1,17 +1,17 @@
 {
   "vehicleId": "c8d81575-e40d-44a4-a624-ba8dc55649ae",
-  "computedAt": "2026-11-17T23:27:08.494Z",
+  "computedAt": "2026-11-18T13:39:14.058Z",
   "cohort": {
-    "sameModelCount": 47,
-    "sameYearCount": 3,
-    "refCohort": "model",
-    "refSize": 47
+    "sameModelCount": 48,
+    "sameYearCount": 4,
+    "refCohort": "model+year",
+    "refSize": 4
   },
-  "pricePercentile": 21,
+  "pricePercentile": 0,
   "pricePerKm": 3.558535327488396,
-  "pricePerKmPercentile": 17,
-  "kmPercentile": 81,
-  "daysListed": 107,
+  "pricePerKmPercentile": 0,
+  "kmPercentile": 75,
+  "daysListed": 108,
   "marginPct": null,
   "marginTier": null,
   "auctionHeat": "cold",
@@ -22,9 +22,9 @@
       "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 79,
-        "n": 47,
-        "kind": "detail.cohort.refSize.kind.model"
+        "pct": 100,
+        "n": 4,
+        "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 83,
+        "pct": 100,
         "ppkm": 4
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.highKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 19
+        "pct": 25
       }
     },
     {
@@ -53,23 +53,23 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 107
+        "n": 108
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 107
+        "n": 108
       }
     }
   ],
   "summary": {
     "verdictKey": "summary.verdict.good",
     "cohortLineKey": "summary.cohortLine.yes",
-    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 47,
+      "refSize": 4,
       "year": "2017",
       "title": "Peugeot 508"
     }
