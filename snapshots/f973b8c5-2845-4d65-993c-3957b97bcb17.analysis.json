@@ -1,17 +1,17 @@
 {
   "vehicleId": "f973b8c5-2845-4d65-993c-3957b97bcb17",
-  "computedAt": "2026-11-19T14:05:54.555Z",
+  "computedAt": "2026-11-19T22:09:21.801Z",
   "cohort": {
-    "sameModelCount": 50,
-    "sameYearCount": 5,
+    "sameModelCount": 51,
+    "sameYearCount": 6,
     "refCohort": "model+year",
-    "refSize": 5
+    "refSize": 6
   },
-  "pricePercentile": 60,
+  "pricePercentile": 67,
   "pricePerKm": 7.728894173602853,
-  "pricePerKmPercentile": 40,
-  "kmPercentile": 40,
-  "daysListed": 73,
+  "pricePerKmPercentile": 33,
+  "kmPercentile": 50,
+  "daysListed": 74,
   "marginPct": null,
   "marginTier": null,
   "auctionHeat": "cold",
@@ -22,17 +22,17 @@
       "pipKey": "bullet.pip.mid",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 40,
-        "n": 5,
+        "pct": 33,
+        "n": 6,
         "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
-      "tone": "mid",
+      "tone": "good",
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 60,
+        "pct": 67,
         "ppkm": 8
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 60
+        "pct": 50
       }
     },
     {
@@ -53,11 +53,11 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 73
+        "n": 74
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 73
+        "n": 74
       }
     }
   ],
@@ -69,7 +69,7 @@
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 5,
+      "refSize": 6,
       "year": "2019",
       "title": "Volkswagen Passat"
     }
