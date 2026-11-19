@@ -1,17 +1,17 @@
 {
   "vehicleId": "9189428b-cd10-4177-ac3b-66e5e19acb99",
-  "computedAt": "2026-11-18T22:55:07.355Z",
+  "computedAt": "2026-11-19T14:05:57.127Z",
   "cohort": {
-    "sameModelCount": 6,
-    "sameYearCount": 3,
-    "refCohort": "model",
-    "refSize": 6
+    "sameModelCount": 7,
+    "sameYearCount": 4,
+    "refCohort": "model+year",
+    "refSize": 4
   },
-  "pricePercentile": 17,
+  "pricePercentile": 0,
   "pricePerKm": 44.0251572327044,
-  "pricePerKmPercentile": 67,
-  "kmPercentile": 17,
-  "daysListed": 186,
+  "pricePerKmPercentile": 50,
+  "kmPercentile": 25,
+  "daysListed": 187,
   "marginPct": 2,
   "marginTier": "low",
   "auctionHeat": "hot",
@@ -22,9 +22,9 @@
       "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 83,
-        "n": 6,
-        "kind": "detail.cohort.refSize.kind.model"
+        "pct": 100,
+        "n": 4,
+        "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 33,
+        "pct": 50,
         "ppkm": 44
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.lowKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 83
+        "pct": 75
       }
     },
     {
@@ -61,23 +61,23 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 186
+        "n": 187
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 186
+        "n": 187
       }
     }
   ],
   "summary": {
     "verdictKey": "summary.verdict.good",
     "cohortLineKey": "summary.cohortLine.yes",
-    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": "summary.suffix.marginLow",
     "args": {
-      "refSize": 6,
+      "refSize": 4,
       "year": "2024",
       "title": "Volkswagen T-Roc"
     }
