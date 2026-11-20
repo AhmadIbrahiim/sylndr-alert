@@ -1,13 +1,13 @@
 {
   "vehicleId": "98613f72-e6a9-4252-b4eb-24c65e1e31aa",
-  "computedAt": "2026-11-20T21:40:32.770Z",
+  "computedAt": "2026-11-20T22:35:31.364Z",
   "cohort": {
-    "sameModelCount": 16,
+    "sameModelCount": 17,
     "sameYearCount": 3,
     "refCohort": "model",
-    "refSize": 16
+    "refSize": 17
   },
-  "pricePercentile": 69,
+  "pricePercentile": 65,
   "pricePerKm": 96.8135593220339,
   "pricePerKmPercentile": 94,
   "kmPercentile": 0,
@@ -15,15 +15,15 @@
   "marginPct": 13.025210084033615,
   "marginTier": "low",
   "auctionHeat": "hot",
-  "dealTag": "high",
+  "dealTag": "fair",
   "bullets": [
     {
       "tone": "mid",
       "pipKey": "bullet.pip.mid",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 31,
-        "n": 16,
+        "pct": 35,
+        "n": 17,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -70,14 +70,14 @@
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.high",
+    "verdictKey": "summary.verdict.fair",
     "cohortLineKey": "summary.cohortLine.yes",
     "cohortKindKey": "detail.cohort.refSize.kind.model",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": "summary.suffix.marginLow",
     "args": {
-      "refSize": 16,
+      "refSize": 17,
       "year": "2022",
       "title": "Toyota Fortuner"
     }
