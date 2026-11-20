@@ -1,29 +1,29 @@
 {
   "vehicleId": "412a8d39-306f-4366-a781-93d60184235f",
-  "computedAt": "2026-11-20T13:48:33.531Z",
+  "computedAt": "2026-11-20T21:40:31.684Z",
   "cohort": {
-    "sameModelCount": 39,
-    "sameYearCount": 8,
+    "sameModelCount": 40,
+    "sameYearCount": 9,
     "refCohort": "model+year",
-    "refSize": 8
+    "refSize": 9
   },
-  "pricePercentile": 25,
+  "pricePercentile": 33,
   "pricePerKm": 9.834313201496526,
-  "pricePerKmPercentile": 63,
-  "kmPercentile": 25,
-  "daysListed": 178,
+  "pricePerKmPercentile": 67,
+  "kmPercentile": 22,
+  "daysListed": 179,
   "marginPct": 22.82608695652174,
   "marginTier": "mid",
   "auctionHeat": "cold",
-  "dealTag": "good",
+  "dealTag": "fair",
   "bullets": [
     {
       "tone": "good",
       "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 75,
-        "n": 8,
+        "pct": 67,
+        "n": 9,
         "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 37,
+        "pct": 33,
         "ppkm": 10
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.lowKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 75
+        "pct": 78
       }
     },
     {
@@ -61,23 +61,23 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 178
+        "n": 179
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 178
+        "n": 179
       }
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.good",
+    "verdictKey": "summary.verdict.fair",
     "cohortLineKey": "summary.cohortLine.yes",
     "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 8,
+      "refSize": 9,
       "year": "2018",
       "title": "Opel Insignia"
     }
