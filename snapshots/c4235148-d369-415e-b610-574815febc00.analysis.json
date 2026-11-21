@@ -1,47 +1,47 @@
 {
   "vehicleId": "c4235148-d369-415e-b610-574815febc00",
-  "computedAt": "2026-11-21T13:13:38.039Z",
+  "computedAt": "2026-11-21T20:07:29.578Z",
   "cohort": {
-    "sameModelCount": 38,
-    "sameYearCount": 3,
-    "refCohort": "model",
-    "refSize": 38
+    "sameModelCount": 39,
+    "sameYearCount": 4,
+    "refCohort": "model+year",
+    "refSize": 4
   },
-  "pricePercentile": 89,
+  "pricePercentile": 25,
   "pricePerKm": 44.62686567164179,
-  "pricePerKmPercentile": 84,
-  "kmPercentile": 16,
-  "daysListed": 128,
+  "pricePerKmPercentile": 25,
+  "kmPercentile": 50,
+  "daysListed": 129,
   "marginPct": 12.173913043478262,
   "marginTier": "low",
   "auctionHeat": "warm",
-  "dealTag": "high",
+  "dealTag": "good",
   "bullets": [
     {
-      "tone": "hot",
-      "pipKey": "bullet.pip.high",
+      "tone": "good",
+      "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 11,
-        "n": 38,
-        "kind": "detail.cohort.refSize.kind.model"
-      }
-    },
-    {
-      "tone": "hot",
-      "pipKey": "bullet.pip.pricey",
-      "textKey": "bullet.ppkmBetter",
-      "textArgs": {
-        "pct": 16,
-        "ppkm": 45
+        "pct": 75,
+        "n": 4,
+        "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
       "tone": "good",
-      "pipKey": "bullet.pip.lowKm",
+      "pipKey": "bullet.pip.value",
+      "textKey": "bullet.ppkmBetter",
+      "textArgs": {
+        "pct": 75,
+        "ppkm": 45
+      }
+    },
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 84
+        "pct": 50
       }
     },
     {
@@ -61,23 +61,23 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 128
+        "n": 129
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 128
+        "n": 129
       }
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.high",
+    "verdictKey": "summary.verdict.good",
     "cohortLineKey": "summary.cohortLine.yes",
-    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": null,
     "marginSuffixKey": "summary.suffix.marginLow",
     "args": {
-      "refSize": 38,
+      "refSize": 4,
       "year": "2026",
       "title": "MG HS"
     }

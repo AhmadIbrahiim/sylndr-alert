@@ -1,38 +1,38 @@
 {
   "vehicleId": "2631ce73-bd0a-4ecc-b0d4-b5766ae3e02e",
-  "computedAt": "2026-11-21T13:13:37.710Z",
+  "computedAt": "2026-11-21T20:07:29.287Z",
   "cohort": {
-    "sameModelCount": 37,
-    "sameYearCount": 4,
+    "sameModelCount": 38,
+    "sameYearCount": 5,
     "refCohort": "model+year",
-    "refSize": 4
+    "refSize": 5
   },
-  "pricePercentile": 25,
+  "pricePercentile": 20,
   "pricePerKm": 4.342046964997785,
-  "pricePerKmPercentile": 75,
-  "kmPercentile": 0,
-  "daysListed": 92,
+  "pricePerKmPercentile": 60,
+  "kmPercentile": 20,
+  "daysListed": 93,
   "marginPct": null,
   "marginTier": null,
   "auctionHeat": "cold",
-  "dealTag": "fair",
+  "dealTag": "good",
   "bullets": [
     {
       "tone": "good",
       "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 75,
-        "n": 4,
+        "pct": 80,
+        "n": 5,
         "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
-      "tone": "hot",
-      "pipKey": "bullet.pip.pricey",
+      "tone": "mid",
+      "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 25,
+        "pct": 40,
         "ppkm": 4
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.lowKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 100
+        "pct": 80
       }
     },
     {
@@ -53,23 +53,23 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 92
+        "n": 93
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 92
+        "n": 93
       }
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.fair",
+    "verdictKey": "summary.verdict.good",
     "cohortLineKey": "summary.cohortLine.yes",
     "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 4,
+      "refSize": 5,
       "year": "2018",
       "title": "Chevrolet Optra"
     }

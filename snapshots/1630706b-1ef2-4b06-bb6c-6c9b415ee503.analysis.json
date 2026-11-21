@@ -1,38 +1,38 @@
 {
   "vehicleId": "1630706b-1ef2-4b06-bb6c-6c9b415ee503",
-  "computedAt": "2026-11-21T13:13:31.036Z",
+  "computedAt": "2026-11-21T20:07:23.208Z",
   "cohort": {
-    "sameModelCount": 38,
-    "sameYearCount": 3,
-    "refCohort": "model",
-    "refSize": 38
+    "sameModelCount": 39,
+    "sameYearCount": 4,
+    "refCohort": "model+year",
+    "refSize": 4
   },
-  "pricePercentile": 95,
+  "pricePercentile": 50,
   "pricePerKm": 62,
-  "pricePerKmPercentile": 89,
-  "kmPercentile": 11,
-  "daysListed": 90,
+  "pricePerKmPercentile": 50,
+  "kmPercentile": 25,
+  "daysListed": 91,
   "marginPct": null,
   "marginTier": null,
   "auctionHeat": "cold",
-  "dealTag": "high",
+  "dealTag": "fair",
   "bullets": [
     {
-      "tone": "hot",
-      "pipKey": "bullet.pip.high",
+      "tone": "mid",
+      "pipKey": "bullet.pip.mid",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 5,
-        "n": 38,
-        "kind": "detail.cohort.refSize.kind.model"
+        "pct": 50,
+        "n": 4,
+        "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
-      "tone": "hot",
-      "pipKey": "bullet.pip.pricey",
+      "tone": "mid",
+      "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 11,
+        "pct": 50,
         "ppkm": 62
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.lowKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 89
+        "pct": 75
       }
     },
     {
@@ -53,23 +53,23 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 90
+        "n": 91
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 90
+        "n": 91
       }
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.high",
+    "verdictKey": "summary.verdict.fair",
     "cohortLineKey": "summary.cohortLine.yes",
-    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 38,
+      "refSize": 4,
       "year": "2026",
       "title": "MG HS"
     }

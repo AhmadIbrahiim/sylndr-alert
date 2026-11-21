@@ -1,17 +1,17 @@
 {
   "vehicleId": "ab0ad554-854d-4682-962a-014486088bd5",
-  "computedAt": "2026-11-21T13:13:38.184Z",
+  "computedAt": "2026-11-21T20:07:29.714Z",
   "cohort": {
-    "sameModelCount": 13,
-    "sameYearCount": 1,
+    "sameModelCount": 14,
+    "sameYearCount": 2,
     "refCohort": "model",
-    "refSize": 13
+    "refSize": 14
   },
-  "pricePercentile": 62,
+  "pricePercentile": 64,
   "pricePerKm": 5.377128953771289,
-  "pricePerKmPercentile": 69,
-  "kmPercentile": 38,
-  "daysListed": 67,
+  "pricePerKmPercentile": 71,
+  "kmPercentile": 36,
+  "daysListed": 68,
   "marginPct": null,
   "marginTier": null,
   "auctionHeat": "cold",
@@ -22,17 +22,17 @@
       "pipKey": "bullet.pip.mid",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 38,
-        "n": 13,
+        "pct": 36,
+        "n": 14,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
     {
-      "tone": "mid",
-      "pipKey": "bullet.pip.value",
+      "tone": "hot",
+      "pipKey": "bullet.pip.pricey",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 31,
+        "pct": 29,
         "ppkm": 5
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 62
+        "pct": 64
       }
     },
     {
@@ -53,11 +53,11 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 67
+        "n": 68
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 67
+        "n": 68
       }
     }
   ],
@@ -69,7 +69,7 @@
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 13,
+      "refSize": 14,
       "year": "2020",
       "title": "Lada Granta"
     }
