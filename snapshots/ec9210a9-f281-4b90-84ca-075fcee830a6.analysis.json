@@ -1,29 +1,29 @@
 {
   "vehicleId": "ec9210a9-f281-4b90-84ca-075fcee830a6",
-  "computedAt": "2026-11-22T13:02:19.908Z",
+  "computedAt": "2026-11-22T20:20:27.720Z",
   "cohort": {
-    "sameModelCount": 38,
-    "sameYearCount": 12,
+    "sameModelCount": 39,
+    "sameYearCount": 13,
     "refCohort": "model+year",
-    "refSize": 12
+    "refSize": 13
   },
-  "pricePercentile": 75,
+  "pricePercentile": 77,
   "pricePerKm": 8.982456140350877,
-  "pricePerKmPercentile": 83,
-  "kmPercentile": 17,
-  "daysListed": 88,
+  "pricePerKmPercentile": 85,
+  "kmPercentile": 15,
+  "daysListed": 89,
   "marginPct": null,
   "marginTier": null,
   "auctionHeat": "cold",
-  "dealTag": "fair",
+  "dealTag": "high",
   "bullets": [
     {
       "tone": "hot",
       "pipKey": "bullet.pip.high",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 25,
-        "n": 12,
+        "pct": 23,
+        "n": 13,
         "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.pricey",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 17,
+        "pct": 15,
         "ppkm": 9
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.lowKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 83
+        "pct": 85
       }
     },
     {
@@ -53,23 +53,23 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 88
+        "n": 89
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 88
+        "n": 89
       }
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.fair",
+    "verdictKey": "summary.verdict.high",
     "cohortLineKey": "summary.cohortLine.yes",
     "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 12,
+      "refSize": 13,
       "year": "2019",
       "title": "Renault Sandero Stepway"
     }

@@ -1,17 +1,17 @@
 {
   "vehicleId": "5971d53c-c397-4033-a7d6-f77d9d89f71d",
-  "computedAt": "2026-11-22T13:02:13.828Z",
+  "computedAt": "2026-11-22T20:20:20.838Z",
   "cohort": {
-    "sameModelCount": 3,
+    "sameModelCount": 4,
     "sameYearCount": 1,
     "refCohort": "model",
-    "refSize": 3
+    "refSize": 4
   },
   "pricePercentile": 0,
   "pricePerKm": 42.65232974910394,
-  "pricePerKmPercentile": 33,
-  "kmPercentile": 33,
-  "daysListed": 97,
+  "pricePerKmPercentile": 50,
+  "kmPercentile": 25,
+  "daysListed": 98,
   "marginPct": null,
   "marginTier": null,
   "auctionHeat": "cold",
@@ -23,16 +23,16 @@
       "textKey": "bullet.priceCheaper",
       "textArgs": {
         "pct": 100,
-        "n": 3,
+        "n": 4,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
     {
-      "tone": "good",
+      "tone": "mid",
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 67,
+        "pct": 50,
         "ppkm": 43
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.lowKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 67
+        "pct": 75
       }
     },
     {
@@ -53,11 +53,11 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 97
+        "n": 98
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 97
+        "n": 98
       }
     }
   ],
@@ -69,7 +69,7 @@
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 3,
+      "refSize": 4,
       "year": "2023",
       "title": "JETOUR X70 Plus"
     }
