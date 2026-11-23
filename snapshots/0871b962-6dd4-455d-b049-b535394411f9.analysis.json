@@ -1,29 +1,29 @@
 {
   "vehicleId": "0871b962-6dd4-455d-b049-b535394411f9",
-  "computedAt": "2026-11-22T21:40:14.271Z",
+  "computedAt": "2026-11-23T15:39:36.843Z",
   "cohort": {
-    "sameModelCount": 17,
+    "sameModelCount": 18,
     "sameYearCount": 2,
     "refCohort": "model",
-    "refSize": 17
+    "refSize": 18
   },
-  "pricePercentile": 76,
+  "pricePercentile": 78,
   "pricePerKm": 21.769297484822204,
-  "pricePerKmPercentile": 82,
+  "pricePerKmPercentile": 83,
   "kmPercentile": 6,
-  "daysListed": 332,
+  "daysListed": 333,
   "marginPct": 15.697211155378485,
   "marginTier": "mid",
   "auctionHeat": "hot",
-  "dealTag": "fair",
+  "dealTag": "high",
   "bullets": [
     {
       "tone": "hot",
       "pipKey": "bullet.pip.high",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 24,
-        "n": 17,
+        "pct": 22,
+        "n": 18,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.pricey",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 18,
+        "pct": 17,
         "ppkm": 22
       }
     },
@@ -61,23 +61,23 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 332
+        "n": 333
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 332
+        "n": 333
       }
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.fair",
+    "verdictKey": "summary.verdict.high",
     "cohortLineKey": "summary.cohortLine.yes",
     "cohortKindKey": "detail.cohort.refSize.kind.model",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": "summary.suffix.heatHot",
     "marginSuffixKey": null,
     "args": {
-      "refSize": 17,
+      "refSize": 18,
       "year": "2021",
       "title": "Honda Civic"
     }

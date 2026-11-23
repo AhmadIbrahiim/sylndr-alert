@@ -1,17 +1,17 @@
 {
   "vehicleId": "d89d5562-a7b3-4bec-a8b1-1c0f4e44fb16",
-  "computedAt": "2026-11-22T21:40:07.040Z",
+  "computedAt": "2026-11-23T15:39:27.475Z",
   "cohort": {
-    "sameModelCount": 25,
+    "sameModelCount": 26,
     "sameYearCount": 3,
     "refCohort": "model",
-    "refSize": 25
+    "refSize": 26
   },
-  "pricePercentile": 24,
+  "pricePercentile": 27,
   "pricePerKm": 3.350698901841747,
-  "pricePerKmPercentile": 8,
-  "kmPercentile": 80,
-  "daysListed": 13,
+  "pricePerKmPercentile": 12,
+  "kmPercentile": 77,
+  "daysListed": 14,
   "marginPct": null,
   "marginTier": null,
   "auctionHeat": "cold",
@@ -22,8 +22,8 @@
       "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 76,
-        "n": 25,
+        "pct": 73,
+        "n": 26,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 92,
+        "pct": 88,
         "ppkm": 3
       }
     },
@@ -41,13 +41,24 @@
       "pipKey": "bullet.pip.highKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 20
+        "pct": 23
       }
     },
     {
       "tone": "neutral",
       "pipKey": "bullet.pip.cold",
       "textKey": "bullet.auctionCold"
+    },
+    {
+      "tone": "neutral",
+      "pipKey": "bullet.pip.daysListed",
+      "pipArgs": {
+        "n": 14
+      },
+      "textKey": "bullet.listedOld",
+      "textArgs": {
+        "n": 14
+      }
     }
   ],
   "summary": {
@@ -58,7 +69,7 @@
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 25,
+      "refSize": 26,
       "year": "2013",
       "title": "Jeep Wrangler"
     }

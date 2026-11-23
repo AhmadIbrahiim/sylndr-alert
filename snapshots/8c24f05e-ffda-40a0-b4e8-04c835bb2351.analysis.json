@@ -1,17 +1,17 @@
 {
   "vehicleId": "8c24f05e-ffda-40a0-b4e8-04c835bb2351",
-  "computedAt": "2026-11-22T21:40:07.809Z",
+  "computedAt": "2026-11-23T15:39:28.513Z",
   "cohort": {
-    "sameModelCount": 5,
-    "sameYearCount": 3,
-    "refCohort": "model",
-    "refSize": 5
+    "sameModelCount": 6,
+    "sameYearCount": 4,
+    "refCohort": "model+year",
+    "refSize": 4
   },
-  "pricePercentile": 60,
+  "pricePercentile": 50,
   "pricePerKm": 59.695945945945944,
-  "pricePerKmPercentile": 60,
-  "kmPercentile": 20,
-  "daysListed": 102,
+  "pricePerKmPercentile": 75,
+  "kmPercentile": 0,
+  "daysListed": 103,
   "marginPct": null,
   "marginTier": null,
   "auctionHeat": "cold",
@@ -22,17 +22,17 @@
       "pipKey": "bullet.pip.mid",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 40,
-        "n": 5,
-        "kind": "detail.cohort.refSize.kind.model"
+        "pct": 50,
+        "n": 4,
+        "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
-      "tone": "mid",
-      "pipKey": "bullet.pip.value",
+      "tone": "hot",
+      "pipKey": "bullet.pip.pricey",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 40,
+        "pct": 25,
         "ppkm": 60
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.lowKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 80
+        "pct": 100
       }
     },
     {
@@ -53,23 +53,23 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 102
+        "n": 103
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 102
+        "n": 103
       }
     }
   ],
   "summary": {
     "verdictKey": "summary.verdict.fair",
     "cohortLineKey": "summary.cohortLine.yes",
-    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 5,
+      "refSize": 4,
       "year": "2024",
       "title": "DS DS4"
     }

@@ -1,30 +1,30 @@
 {
   "vehicleId": "4d629b3d-a757-4e00-879b-bf771c961524",
-  "computedAt": "2026-11-22T21:40:14.766Z",
+  "computedAt": "2026-11-23T15:39:37.495Z",
   "cohort": {
-    "sameModelCount": 17,
-    "sameYearCount": 3,
-    "refCohort": "model",
-    "refSize": 17
+    "sameModelCount": 18,
+    "sameYearCount": 4,
+    "refCohort": "model+year",
+    "refSize": 4
   },
-  "pricePercentile": 18,
+  "pricePercentile": 50,
   "pricePerKm": 1.1267832350751523,
   "pricePerKmPercentile": 0,
-  "kmPercentile": 94,
-  "daysListed": 13,
+  "kmPercentile": 75,
+  "daysListed": 14,
   "marginPct": null,
   "marginTier": null,
   "auctionHeat": "cold",
   "dealTag": "good",
   "bullets": [
     {
-      "tone": "good",
-      "pipKey": "bullet.pip.deal",
+      "tone": "mid",
+      "pipKey": "bullet.pip.mid",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 82,
-        "n": 17,
-        "kind": "detail.cohort.refSize.kind.model"
+        "pct": 50,
+        "n": 4,
+        "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
@@ -41,24 +41,35 @@
       "pipKey": "bullet.pip.highKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 6
+        "pct": 25
       }
     },
     {
       "tone": "neutral",
       "pipKey": "bullet.pip.cold",
       "textKey": "bullet.auctionCold"
+    },
+    {
+      "tone": "neutral",
+      "pipKey": "bullet.pip.daysListed",
+      "pipArgs": {
+        "n": 14
+      },
+      "textKey": "bullet.listedOld",
+      "textArgs": {
+        "n": 14
+      }
     }
   ],
   "summary": {
     "verdictKey": "summary.verdict.good",
     "cohortLineKey": "summary.cohortLine.yes",
-    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": null,
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 17,
+      "refSize": 4,
       "year": "2008",
       "title": "Honda Civic"
     }

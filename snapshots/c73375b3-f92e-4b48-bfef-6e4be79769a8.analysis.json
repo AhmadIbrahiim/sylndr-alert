@@ -1,17 +1,17 @@
 {
   "vehicleId": "c73375b3-f92e-4b48-bfef-6e4be79769a8",
-  "computedAt": "2026-11-22T21:40:12.973Z",
+  "computedAt": "2026-11-23T15:39:35.225Z",
   "cohort": {
-    "sameModelCount": 79,
-    "sameYearCount": 31,
+    "sameModelCount": 80,
+    "sameYearCount": 32,
     "refCohort": "model+year",
-    "refSize": 31
+    "refSize": 32
   },
-  "pricePercentile": 10,
+  "pricePercentile": 9,
   "pricePerKm": 5.528021349599695,
-  "pricePerKmPercentile": 42,
-  "kmPercentile": 19,
-  "daysListed": 29,
+  "pricePerKmPercentile": 41,
+  "kmPercentile": 22,
+  "daysListed": 30,
   "marginPct": null,
   "marginTier": null,
   "auctionHeat": "cold",
@@ -22,8 +22,8 @@
       "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 90,
-        "n": 31,
+        "pct": 91,
+        "n": 32,
         "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 58,
+        "pct": 59,
         "ppkm": 6
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.lowKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 81
+        "pct": 78
       }
     },
     {
@@ -53,11 +53,11 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 29
+        "n": 30
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 29
+        "n": 30
       }
     }
   ],
@@ -65,11 +65,11 @@
     "verdictKey": "summary.verdict.good",
     "cohortLineKey": "summary.cohortLine.yes",
     "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
-    "ageSuffixKey": null,
+    "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 31,
+      "refSize": 32,
       "year": "2021",
       "title": "Fiat Tipo"
     }

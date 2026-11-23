@@ -1,47 +1,47 @@
 {
   "vehicleId": "1613d597-cf40-43b2-bf73-2069dfcb0b2f",
-  "computedAt": "2026-11-22T21:40:12.688Z",
+  "computedAt": "2026-11-23T15:39:34.844Z",
   "cohort": {
-    "sameModelCount": 9,
-    "sameYearCount": 3,
-    "refCohort": "model",
-    "refSize": 9
+    "sameModelCount": 10,
+    "sameYearCount": 4,
+    "refCohort": "model+year",
+    "refSize": 4
   },
-  "pricePercentile": 33,
+  "pricePercentile": 75,
   "pricePerKm": 34.02537485582468,
-  "pricePerKmPercentile": 33,
-  "kmPercentile": 44,
+  "pricePerKmPercentile": 75,
+  "kmPercentile": 0,
   "daysListed": 74,
   "marginPct": null,
   "marginTier": null,
   "auctionHeat": "cold",
-  "dealTag": "good",
+  "dealTag": "fair",
   "bullets": [
     {
-      "tone": "good",
-      "pipKey": "bullet.pip.deal",
+      "tone": "hot",
+      "pipKey": "bullet.pip.high",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 67,
-        "n": 9,
-        "kind": "detail.cohort.refSize.kind.model"
+        "pct": 25,
+        "n": 4,
+        "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
-      "tone": "good",
-      "pipKey": "bullet.pip.value",
+      "tone": "hot",
+      "pipKey": "bullet.pip.pricey",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 67,
+        "pct": 25,
         "ppkm": 34
       }
     },
     {
-      "tone": "mid",
-      "pipKey": "bullet.pip.km",
+      "tone": "good",
+      "pipKey": "bullet.pip.lowKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 56
+        "pct": 100
       }
     },
     {
@@ -62,14 +62,14 @@
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.good",
+    "verdictKey": "summary.verdict.fair",
     "cohortLineKey": "summary.cohortLine.yes",
-    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 9,
+      "refSize": 4,
       "year": "2020",
       "title": "BMW X4"
     }

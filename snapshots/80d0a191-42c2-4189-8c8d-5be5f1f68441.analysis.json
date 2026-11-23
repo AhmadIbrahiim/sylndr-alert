@@ -1,17 +1,17 @@
 {
   "vehicleId": "80d0a191-42c2-4189-8c8d-5be5f1f68441",
-  "computedAt": "2026-11-22T21:40:09.965Z",
+  "computedAt": "2026-11-23T15:39:31.301Z",
   "cohort": {
-    "sameModelCount": 5,
-    "sameYearCount": 3,
-    "refCohort": "model",
-    "refSize": 5
+    "sameModelCount": 6,
+    "sameYearCount": 4,
+    "refCohort": "model+year",
+    "refSize": 4
   },
-  "pricePercentile": 20,
+  "pricePercentile": 0,
   "pricePerKm": 34.36676798378926,
-  "pricePerKmPercentile": 20,
-  "kmPercentile": 60,
-  "daysListed": 123,
+  "pricePerKmPercentile": 25,
+  "kmPercentile": 50,
+  "daysListed": 124,
   "marginPct": null,
   "marginTier": null,
   "auctionHeat": "cold",
@@ -22,9 +22,9 @@
       "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 80,
-        "n": 5,
-        "kind": "detail.cohort.refSize.kind.model"
+        "pct": 100,
+        "n": 4,
+        "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 80,
+        "pct": 75,
         "ppkm": 34
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 40
+        "pct": 50
       }
     },
     {
@@ -53,23 +53,23 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 123
+        "n": 124
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 123
+        "n": 124
       }
     }
   ],
   "summary": {
     "verdictKey": "summary.verdict.good",
     "cohortLineKey": "summary.cohortLine.yes",
-    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 5,
+      "refSize": 4,
       "year": "2024",
       "title": "DS DS4"
     }
