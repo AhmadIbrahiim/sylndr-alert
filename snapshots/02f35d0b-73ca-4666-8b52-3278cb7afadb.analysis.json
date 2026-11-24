@@ -1,16 +1,16 @@
 {
   "vehicleId": "02f35d0b-73ca-4666-8b52-3278cb7afadb",
-  "computedAt": "2026-11-24T02:35:45.183Z",
+  "computedAt": "2026-11-24T02:51:12.491Z",
   "cohort": {
-    "sameModelCount": 22,
-    "sameYearCount": 12,
+    "sameModelCount": 23,
+    "sameYearCount": 13,
     "refCohort": "model+year",
-    "refSize": 12
+    "refSize": 13
   },
-  "pricePercentile": 75,
+  "pricePercentile": 77,
   "pricePerKm": 13.86861313868613,
-  "pricePerKmPercentile": 75,
-  "kmPercentile": 17,
+  "pricePerKmPercentile": 69,
+  "kmPercentile": 23,
   "daysListed": 99,
   "marginPct": null,
   "marginTier": null,
@@ -22,17 +22,17 @@
       "pipKey": "bullet.pip.high",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 25,
-        "n": 12,
+        "pct": 23,
+        "n": 13,
         "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
-      "tone": "hot",
-      "pipKey": "bullet.pip.pricey",
+      "tone": "mid",
+      "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 25,
+        "pct": 31,
         "ppkm": 14
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.lowKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 83
+        "pct": 77
       }
     },
     {
@@ -69,7 +69,7 @@
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 12,
+      "refSize": 13,
       "year": "2022",
       "title": "Opel Corsa"
     }
