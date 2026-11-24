@@ -1,17 +1,17 @@
 {
   "vehicleId": "1822098d-bce4-4f31-bd43-750314d87526",
-  "computedAt": "2026-11-24T02:51:10.367Z",
+  "computedAt": "2026-11-24T15:30:20.890Z",
   "cohort": {
-    "sameModelCount": 5,
+    "sameModelCount": 6,
     "sameYearCount": 1,
     "refCohort": "model",
-    "refSize": 5
+    "refSize": 6
   },
-  "pricePercentile": 80,
+  "pricePercentile": 83,
   "pricePerKm": 4.206620375473015,
-  "pricePerKmPercentile": 40,
-  "kmPercentile": 80,
-  "daysListed": 60,
+  "pricePerKmPercentile": 33,
+  "kmPercentile": 83,
+  "daysListed": 61,
   "marginPct": null,
   "marginTier": null,
   "auctionHeat": "cold",
@@ -22,17 +22,17 @@
       "pipKey": "bullet.pip.high",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 20,
-        "n": 5,
+        "pct": 17,
+        "n": 6,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
     {
-      "tone": "mid",
+      "tone": "good",
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 60,
+        "pct": 67,
         "ppkm": 4
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.highKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 20
+        "pct": 17
       }
     },
     {
@@ -53,11 +53,11 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 60
+        "n": 61
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 60
+        "n": 61
       }
     }
   ],
@@ -69,7 +69,7 @@
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 5,
+      "refSize": 6,
       "year": "2015",
       "title": "Mercedes-Benz B200"
     }

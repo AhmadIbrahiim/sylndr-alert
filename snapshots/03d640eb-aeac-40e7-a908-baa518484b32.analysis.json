@@ -1,29 +1,29 @@
 {
   "vehicleId": "03d640eb-aeac-40e7-a908-baa518484b32",
-  "computedAt": "2026-11-24T02:51:13.549Z",
+  "computedAt": "2026-11-24T15:30:23.244Z",
   "cohort": {
-    "sameModelCount": 16,
+    "sameModelCount": 17,
     "sameYearCount": 1,
     "refCohort": "model",
-    "refSize": 16
+    "refSize": 17
   },
-  "pricePercentile": 81,
+  "pricePercentile": 76,
   "pricePerKm": 6.18468756664534,
-  "pricePerKmPercentile": 63,
-  "kmPercentile": 69,
-  "daysListed": 175,
+  "pricePerKmPercentile": 59,
+  "kmPercentile": 65,
+  "daysListed": 176,
   "marginPct": 16.344827586206897,
   "marginTier": "mid",
   "auctionHeat": "warm",
-  "dealTag": "high",
+  "dealTag": "fair",
   "bullets": [
     {
       "tone": "hot",
       "pipKey": "bullet.pip.high",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 19,
-        "n": 16,
+        "pct": 24,
+        "n": 17,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 37,
+        "pct": 41,
         "ppkm": 6
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 31
+        "pct": 35
       }
     },
     {
@@ -61,23 +61,23 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 175
+        "n": 176
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 175
+        "n": 176
       }
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.high",
+    "verdictKey": "summary.verdict.fair",
     "cohortLineKey": "summary.cohortLine.yes",
     "cohortKindKey": "detail.cohort.refSize.kind.model",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 16,
+      "refSize": 17,
       "year": "2014",
       "title": "Jeep Cherokee"
     }

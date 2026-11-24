@@ -1,16 +1,16 @@
 {
   "vehicleId": "02873698-445b-479e-9a36-048036c1f77e",
-  "computedAt": "2026-11-24T02:51:15.471Z",
+  "computedAt": "2026-11-24T15:30:24.645Z",
   "cohort": {
-    "sameModelCount": 36,
-    "sameYearCount": 10,
+    "sameModelCount": 37,
+    "sameYearCount": 11,
     "refCohort": "model+year",
-    "refSize": 10
+    "refSize": 11
   },
-  "pricePercentile": 20,
+  "pricePercentile": 18,
   "pricePerKm": 8.905945123185413,
-  "pricePerKmPercentile": 50,
-  "kmPercentile": 30,
+  "pricePerKmPercentile": 45,
+  "kmPercentile": 36,
   "daysListed": 11,
   "marginPct": null,
   "marginTier": null,
@@ -22,8 +22,8 @@
       "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 80,
-        "n": 10,
+        "pct": 82,
+        "n": 11,
         "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
@@ -32,16 +32,16 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 50,
+        "pct": 55,
         "ppkm": 9
       }
     },
     {
-      "tone": "good",
-      "pipKey": "bullet.pip.lowKm",
+      "tone": "mid",
+      "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 70
+        "pct": 64
       }
     },
     {
@@ -58,7 +58,7 @@
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 10,
+      "refSize": 11,
       "year": "2021",
       "title": "Opel Grand Land"
     }

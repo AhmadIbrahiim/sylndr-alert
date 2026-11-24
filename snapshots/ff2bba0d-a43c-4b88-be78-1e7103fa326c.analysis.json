@@ -1,21 +1,21 @@
 {
   "vehicleId": "ff2bba0d-a43c-4b88-be78-1e7103fa326c",
-  "computedAt": "2026-11-24T02:51:12.541Z",
+  "computedAt": "2026-11-24T15:30:22.533Z",
   "cohort": {
-    "sameModelCount": 26,
+    "sameModelCount": 27,
     "sameYearCount": 2,
     "refCohort": "model",
-    "refSize": 26
+    "refSize": 27
   },
   "pricePercentile": 85,
   "pricePerKm": 61.66061322746854,
-  "pricePerKmPercentile": 58,
-  "kmPercentile": 38,
-  "daysListed": 23,
+  "pricePerKmPercentile": 59,
+  "kmPercentile": 41,
+  "daysListed": 24,
   "marginPct": null,
   "marginTier": null,
   "auctionHeat": "cold",
-  "dealTag": "fair",
+  "dealTag": "high",
   "bullets": [
     {
       "tone": "hot",
@@ -23,7 +23,7 @@
       "textKey": "bullet.priceCheaper",
       "textArgs": {
         "pct": 15,
-        "n": 26,
+        "n": 27,
         "kind": "detail.cohort.refSize.kind.model"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 42,
+        "pct": 41,
         "ppkm": 62
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 62
+        "pct": 59
       }
     },
     {
@@ -53,23 +53,23 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 23
+        "n": 24
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 23
+        "n": 24
       }
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.fair",
+    "verdictKey": "summary.verdict.high",
     "cohortLineKey": "summary.cohortLine.yes",
     "cohortKindKey": "detail.cohort.refSize.kind.model",
     "ageSuffixKey": null,
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 26,
+      "refSize": 27,
       "year": "2024",
       "title": "Mercedes-Benz C200"
     }
