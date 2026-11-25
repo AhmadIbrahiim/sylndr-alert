@@ -1,29 +1,29 @@
 {
   "vehicleId": "13a32ebb-f17a-4a6a-b990-66a9379096b6",
-  "computedAt": "2026-11-25T15:16:43.102Z",
+  "computedAt": "2026-11-25T23:44:22.174Z",
   "cohort": {
-    "sameModelCount": 26,
-    "sameYearCount": 5,
+    "sameModelCount": 27,
+    "sameYearCount": 6,
     "refCohort": "model+year",
-    "refSize": 5
+    "refSize": 6
   },
-  "pricePercentile": 80,
+  "pricePercentile": 83,
   "pricePerKm": 13.213981244671782,
-  "pricePerKmPercentile": 80,
+  "pricePerKmPercentile": 83,
   "kmPercentile": 0,
-  "daysListed": 138,
+  "daysListed": 139,
   "marginPct": 35.87096774193548,
   "marginTier": "high",
   "auctionHeat": "cold",
-  "dealTag": "fair",
+  "dealTag": "high",
   "bullets": [
     {
       "tone": "hot",
       "pipKey": "bullet.pip.high",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 20,
-        "n": 5,
+        "pct": 17,
+        "n": 6,
         "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.pricey",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 20,
+        "pct": 17,
         "ppkm": 13
       }
     },
@@ -61,23 +61,23 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 138
+        "n": 139
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 138
+        "n": 139
       }
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.fair",
+    "verdictKey": "summary.verdict.high",
     "cohortLineKey": "summary.cohortLine.yes",
     "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": null,
     "marginSuffixKey": "summary.suffix.marginHigh",
     "args": {
-      "refSize": 5,
+      "refSize": 6,
       "year": "2011",
       "title": "Jeep Wrangler"
     }
