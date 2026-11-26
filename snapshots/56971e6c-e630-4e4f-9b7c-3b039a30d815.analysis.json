@@ -1,30 +1,30 @@
 {
   "vehicleId": "56971e6c-e630-4e4f-9b7c-3b039a30d815",
-  "computedAt": "2026-11-26T00:08:40.760Z",
+  "computedAt": "2026-11-26T14:42:11.924Z",
   "cohort": {
-    "sameModelCount": 69,
-    "sameYearCount": 3,
-    "refCohort": "model",
-    "refSize": 69
+    "sameModelCount": 71,
+    "sameYearCount": 4,
+    "refCohort": "model+year",
+    "refSize": 4
   },
-  "pricePercentile": 99,
+  "pricePercentile": 75,
   "pricePerKm": 279.5031055900621,
-  "pricePerKmPercentile": 97,
-  "kmPercentile": 1,
-  "daysListed": 63,
+  "pricePerKmPercentile": 75,
+  "kmPercentile": 0,
+  "daysListed": 64,
   "marginPct": null,
   "marginTier": null,
   "auctionHeat": "cold",
-  "dealTag": "high",
+  "dealTag": "fair",
   "bullets": [
     {
       "tone": "hot",
       "pipKey": "bullet.pip.high",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 1,
-        "n": 69,
-        "kind": "detail.cohort.refSize.kind.model"
+        "pct": 25,
+        "n": 4,
+        "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.pricey",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 3,
+        "pct": 25,
         "ppkm": 280
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.lowKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 99
+        "pct": 100
       }
     },
     {
@@ -53,23 +53,23 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 63
+        "n": 64
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 63
+        "n": 64
       }
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.high",
+    "verdictKey": "summary.verdict.fair",
     "cohortLineKey": "summary.cohortLine.yes",
-    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 69,
+      "refSize": 4,
       "year": "2026",
       "title": "Kia Sportage"
     }

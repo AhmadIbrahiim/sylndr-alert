@@ -1,47 +1,47 @@
 {
   "vehicleId": "b37f89b8-897c-4518-84c5-1e350cf243b7",
-  "computedAt": "2026-11-26T00:08:40.753Z",
+  "computedAt": "2026-11-26T14:42:14.749Z",
   "cohort": {
-    "sameModelCount": 69,
-    "sameYearCount": 3,
-    "refCohort": "model",
-    "refSize": 69
+    "sameModelCount": 71,
+    "sameYearCount": 4,
+    "refCohort": "model+year",
+    "refSize": 4
   },
-  "pricePercentile": 91,
+  "pricePercentile": 0,
   "pricePerKm": 168.7084634478341,
-  "pricePerKmPercentile": 94,
-  "kmPercentile": 4,
-  "daysListed": 41,
+  "pricePerKmPercentile": 25,
+  "kmPercentile": 50,
+  "daysListed": 42,
   "marginPct": null,
   "marginTier": null,
   "auctionHeat": "cold",
-  "dealTag": "high",
+  "dealTag": "good",
   "bullets": [
     {
-      "tone": "hot",
-      "pipKey": "bullet.pip.high",
+      "tone": "good",
+      "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 9,
-        "n": 69,
-        "kind": "detail.cohort.refSize.kind.model"
-      }
-    },
-    {
-      "tone": "hot",
-      "pipKey": "bullet.pip.pricey",
-      "textKey": "bullet.ppkmBetter",
-      "textArgs": {
-        "pct": 6,
-        "ppkm": 169
+        "pct": 100,
+        "n": 4,
+        "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
       "tone": "good",
-      "pipKey": "bullet.pip.lowKm",
+      "pipKey": "bullet.pip.value",
+      "textKey": "bullet.ppkmBetter",
+      "textArgs": {
+        "pct": 75,
+        "ppkm": 169
+      }
+    },
+    {
+      "tone": "mid",
+      "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 96
+        "pct": 50
       }
     },
     {
@@ -53,23 +53,23 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 41
+        "n": 42
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 41
+        "n": 42
       }
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.high",
+    "verdictKey": "summary.verdict.good",
     "cohortLineKey": "summary.cohortLine.yes",
-    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 69,
+      "refSize": 4,
       "year": "2026",
       "title": "Kia Sportage"
     }

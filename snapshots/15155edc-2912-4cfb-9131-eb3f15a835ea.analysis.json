@@ -1,17 +1,17 @@
 {
   "vehicleId": "15155edc-2912-4cfb-9131-eb3f15a835ea",
-  "computedAt": "2026-11-26T00:08:28.883Z",
+  "computedAt": "2026-11-26T14:42:16.101Z",
   "cohort": {
-    "sameModelCount": 10,
-    "sameYearCount": 3,
-    "refCohort": "model",
-    "refSize": 10
+    "sameModelCount": 11,
+    "sameYearCount": 4,
+    "refCohort": "model+year",
+    "refSize": 4
   },
-  "pricePercentile": 0,
+  "pricePercentile": 25,
   "pricePerKm": 7.2743601257296815,
-  "pricePerKmPercentile": 0,
-  "kmPercentile": 90,
-  "daysListed": 86,
+  "pricePerKmPercentile": 25,
+  "kmPercentile": 50,
+  "daysListed": 87,
   "marginPct": null,
   "marginTier": null,
   "auctionHeat": "cold",
@@ -22,9 +22,9 @@
       "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 100,
-        "n": 10,
-        "kind": "detail.cohort.refSize.kind.model"
+        "pct": 75,
+        "n": 4,
+        "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
@@ -32,16 +32,16 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 100,
+        "pct": 75,
         "ppkm": 7
       }
     },
     {
-      "tone": "hot",
-      "pipKey": "bullet.pip.highKm",
+      "tone": "mid",
+      "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 10
+        "pct": 50
       }
     },
     {
@@ -53,23 +53,23 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 86
+        "n": 87
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 86
+        "n": 87
       }
     }
   ],
   "summary": {
     "verdictKey": "summary.verdict.good",
     "cohortLineKey": "summary.cohortLine.yes",
-    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 10,
+      "refSize": 4,
       "year": "2022",
       "title": "Geely Coolray"
     }

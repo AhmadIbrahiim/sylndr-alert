@@ -1,17 +1,17 @@
 {
   "vehicleId": "6bae9324-fb44-4ae3-a197-60b69574bb25",
-  "computedAt": "2026-11-26T00:08:40.453Z",
+  "computedAt": "2026-11-26T14:42:13.281Z",
   "cohort": {
-    "sameModelCount": 5,
-    "sameYearCount": 3,
-    "refCohort": "model",
-    "refSize": 5
+    "sameModelCount": 6,
+    "sameYearCount": 4,
+    "refCohort": "model+year",
+    "refSize": 4
   },
-  "pricePercentile": 20,
+  "pricePercentile": 25,
   "pricePerKm": 8.884501480750247,
   "pricePerKmPercentile": 0,
-  "kmPercentile": 80,
-  "daysListed": 104,
+  "kmPercentile": 75,
+  "daysListed": 105,
   "marginPct": null,
   "marginTier": null,
   "auctionHeat": "cold",
@@ -22,9 +22,9 @@
       "pipKey": "bullet.pip.deal",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 80,
-        "n": 5,
-        "kind": "detail.cohort.refSize.kind.model"
+        "pct": 75,
+        "n": 4,
+        "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
     {
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.highKm",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 20
+        "pct": 25
       }
     },
     {
@@ -53,23 +53,23 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 104
+        "n": 105
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 104
+        "n": 105
       }
     }
   ],
   "summary": {
     "verdictKey": "summary.verdict.good",
     "cohortLineKey": "summary.cohortLine.yes",
-    "cohortKindKey": "detail.cohort.refSize.kind.model",
+    "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 5,
+      "refSize": 4,
       "year": "2019",
       "title": "Jaguar F-PACE"
     }

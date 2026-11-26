@@ -1,29 +1,29 @@
 {
   "vehicleId": "101c4eee-2cfa-4da9-957f-be08c95f5244",
-  "computedAt": "2026-11-26T00:08:35.015Z",
+  "computedAt": "2026-11-26T14:42:06.518Z",
   "cohort": {
-    "sameModelCount": 22,
-    "sameYearCount": 11,
+    "sameModelCount": 23,
+    "sameYearCount": 12,
     "refCohort": "model+year",
-    "refSize": 11
+    "refSize": 12
   },
-  "pricePercentile": 36,
+  "pricePercentile": 42,
   "pricePerKm": 13.68421052631579,
-  "pricePerKmPercentile": 27,
-  "kmPercentile": 55,
-  "daysListed": 126,
+  "pricePerKmPercentile": 33,
+  "kmPercentile": 50,
+  "daysListed": 127,
   "marginPct": null,
   "marginTier": null,
   "auctionHeat": "cold",
-  "dealTag": "good",
+  "dealTag": "fair",
   "bullets": [
     {
       "tone": "mid",
       "pipKey": "bullet.pip.mid",
       "textKey": "bullet.priceCheaper",
       "textArgs": {
-        "pct": 64,
-        "n": 11,
+        "pct": 58,
+        "n": 12,
         "kind": "detail.cohort.refSize.kind.modelYear"
       }
     },
@@ -32,7 +32,7 @@
       "pipKey": "bullet.pip.value",
       "textKey": "bullet.ppkmBetter",
       "textArgs": {
-        "pct": 73,
+        "pct": 67,
         "ppkm": 14
       }
     },
@@ -41,7 +41,7 @@
       "pipKey": "bullet.pip.km",
       "textKey": "bullet.kmLower",
       "textArgs": {
-        "pct": 45
+        "pct": 50
       }
     },
     {
@@ -53,23 +53,23 @@
       "tone": "neutral",
       "pipKey": "bullet.pip.daysListed",
       "pipArgs": {
-        "n": 126
+        "n": 127
       },
       "textKey": "bullet.listedOld",
       "textArgs": {
-        "n": 126
+        "n": 127
       }
     }
   ],
   "summary": {
-    "verdictKey": "summary.verdict.good",
+    "verdictKey": "summary.verdict.fair",
     "cohortLineKey": "summary.cohortLine.yes",
     "cohortKindKey": "detail.cohort.refSize.kind.modelYear",
     "ageSuffixKey": "summary.suffix.ageOld",
     "heatSuffixKey": null,
     "marginSuffixKey": null,
     "args": {
-      "refSize": 11,
+      "refSize": 12,
       "year": "2021",
       "title": "Skoda Octavia A8"
     }
